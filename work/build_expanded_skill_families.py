@@ -830,8 +830,54 @@ description: {desc}
 
 You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect primary evidence, and use the delivery template. Separate facts, calculations, inferences, recommendations, and unknowns. Produce decision-ready work with explicit scope, ownership, acceptance criteria, guardrails, and recovery.
 """, encoding="utf-8")
-    (base / "examples/README.md").write_text("# 示例\n\n- 基础：基于现状资料完成一次诊断和优先级方案。\n- 进阶：比较两个备选方案，说明数据、成本、风险和可逆性。\n- 验收：对已有方案按 `eval/acceptance.md` 审核，列出未通过项和修正建议。\n", encoding="utf-8")
-    (base / "eval/acceptance.md").write_text("# 验收\n\n- [ ] 使用了真实输入并标明证据来源、日期或版本\n- [ ] 定义了范围、术语、指标与不做事项\n- [ ] 覆盖关键专业维度、上下游和异常路径\n- [ ] 建议有优先级、owner、依赖、验收与护栏\n- [ ] 区分事实、推断、建议和未知项\n- [ ] 未虚构实施、验证、效果或权限\n", encoding="utf-8")
+    scenario_examples = "\n\n".join(
+        f"""## 场景 {index}：{scenario}
+
+- 调用目标：使用 `{s['name']}` 完成该场景的完整业务结果，不只给原则。
+- 必须提供：目标、范围、真实现状证据、owner、时间、权限和已知约束。
+- 需要追问：现有数据/系统/模板/词库/规则、使用者优先级、不可改变项、下游接收方式和验收人。
+- 预期交付：{q(s['outputs'])}。
+- 故障注入：至少测试缺数据、口径冲突、权限不足或依赖失败中的一种，并给出暂停、补证、转人工或恢复路径。
+"""
+        for index, scenario in enumerate(s["scenarios"], 1)
+    )
+    (base / "examples/README.md").write_text(
+        f"# {s['display']}场景示例\n\n{scenario_examples}\n\n"
+        "## 反例\n\n- 只复述最佳实践，没有读取真实证据。\n- 没有询问使用者已有资料、优先级和限制，就直接生成定稿。\n- 只输出一张表或一段文案，没有上下游、异常、验收和责任闭环。\n",
+        encoding="utf-8",
+    )
+    lens_checks = "\n".join(f"- [ ] `{lens}` 已有事实、判断、未知项或不适用理由" for lens in s["lenses"])
+    output_checks = "\n".join(f"- [ ] `{output}` 已完整交付，并能由下游直接使用或审批" for output in s["outputs"])
+    (base / "eval/acceptance.md").write_text(f"""# {s['display']}验收
+
+## 场景与输入
+
+- [ ] 已选择主场景，并检查是否叠加其他场景或高风险变体
+- [ ] 已询问使用者现有数据、系统、模板、规则、词库、优先级和不可改变项
+- [ ] 使用了真实输入并标明证据来源、日期、版本、范围和可信度
+- [ ] 定义了对象、术语、指标、上下游、责任边界与不做事项
+
+## 专业维度
+
+{lens_checks}
+
+## 交付物
+
+{output_checks}
+
+## 决策与异常
+
+- [ ] 推荐方案与维持现状、低风险备选进行了适用条件、成本、收益、风险和可逆性比较
+- [ ] 覆盖缺数据、口径冲突、权限不足、依赖失败、低置信度、超时和部分成功
+- [ ] 动作具有 owner、审批人、依赖、截止、验收、护栏、停止条件与恢复路径
+- [ ] 工具或脚本执行结果经过业务验证，没有把调用成功写成业务完成
+
+## 真实性与复盘
+
+- [ ] 区分事实、计算、推断、建议、未知项和使用者偏好
+- [ ] 未虚构实施、验证、效果、权限、实时数据或专业结论
+- [ ] 已定义领先指标、结果指标、护栏指标、复盘时间和版本维护人
+""", encoding="utf-8")
     (base / "platforms/README.md").write_text("# 平台适配\n\n该 Skill 以 Markdown 和 JSON 作为可移植契约。在支持文件读取的平台加载整个目录；在只支持提示词的平台至少加载 `SKILL.md`、reference 与 asset。涉及仓库、数据源或外部系统时，按平台权限先读后写并保留验证证据。\n", encoding="utf-8")
     yaml = f"""interface:
   display_name: "{s['display']}"
