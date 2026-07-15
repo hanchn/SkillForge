@@ -22,7 +22,7 @@
 - [前后端架构 Skill 地图](互联网研发/ARCHITECTURE_SKILLS_MAP.md)
 - [跨境运营营销 Skill 地图](跨境运营/OPERATIONS_MARKETING_SKILLS_MAP.md)
 - [业务数据分析 Skill 地图](数据/BUSINESS_ANALYTICS_SKILLS_MAP.md)
-- [企业业务系统产品架构地图](项目管理/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
+- [企业业务系统产品架构地图](互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
 
 ## 架构原则
 

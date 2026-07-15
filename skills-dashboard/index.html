@@ -322,6 +322,45 @@
 
       .empty,
       .loading,
+      .markdown-body {
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--text);
+        background: #fff;
+        padding: 0;
+      }
+      .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+      .markdown-body h1 { font-size: 2em; border-bottom: 1px solid var(--border); padding-bottom: .3em; }
+      .markdown-body h2 { font-size: 1.5em; border-bottom: 1px solid var(--border); padding-bottom: .3em; }
+      .markdown-body h3 { font-size: 1.25em; }
+      .markdown-body p { margin-top: 0; margin-bottom: 16px; }
+      .markdown-body a { color: #0969da; text-decoration: none; }
+      .markdown-body ul, .markdown-body ol { padding-left: 2em; margin-bottom: 16px; }
+      .markdown-body li { margin-top: 0.25em; }
+      .markdown-body code {
+        padding: .2em .4em;
+        margin: 0;
+        font-size: 85%;
+        background-color: var(--bg-hover);
+        border-radius: 6px;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
+      .markdown-body pre {
+        padding: 16px;
+        overflow: auto;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: var(--bg-hover);
+        border-radius: 6px;
+        margin-bottom: 16px;
+      }
+      .markdown-body pre code { background-color: transparent; padding: 0; }
+
       .error {
         text-align: center;
         padding: 64px 20px;
@@ -520,7 +559,7 @@
       }
 
       .modal-body {
-        padding: 20px;
+        padding: 24px;
         overflow-y: auto;
         flex: 1;
       }
@@ -682,7 +721,7 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body" id="viewerContentContainer">
             <pre class="modal-pre" id="viewerContent"></pre>
           </div>
         </div>
@@ -717,6 +756,7 @@
         dockClose: document.getElementById("dockClose"),
         viewerModal: document.getElementById("viewerModal"),
         viewerTitle: document.getElementById("viewerTitle"),
+        viewerContentContainer: document.getElementById("viewerContentContainer"),
         viewerContent: document.getElementById("viewerContent"),
         viewerClose: document.getElementById("viewerClose"),
         batchBar: document.getElementById("batchBar"),
@@ -786,7 +826,7 @@
         const currentTop = state.selectedPath.length > 0 ? state.selectedPath[0] : "";
 
         let html = `<button class="main-tab-btn ${currentTop === "" ? 'active' : ''}" data-top="">全部分类</button>`;
-        
+
         topLevels.forEach(top => {
           html += `<button class="main-tab-btn ${currentTop === top ? 'active' : ''}" data-top="${escapeHtml(top)}">${escapeHtml(top)}</button>`;
         });
@@ -1000,7 +1040,7 @@
       elements.batchDownload.addEventListener('click', async () => {
         const selected = Array.from(state.selectedSkills);
         if (selected.length === 0) return;
-        
+
         const btn = elements.batchDownload;
         const originalText = btn.textContent;
         btn.textContent = "打包中...";
@@ -1124,9 +1164,16 @@
       });
 
       // Modal logic
-      function openModal(title, content) {
+      function openModal(title, content, isMarkdown = false) {
         elements.viewerTitle.textContent = title;
-        elements.viewerContent.textContent = content;
+        
+        if (isMarkdown && window.marked) {
+          elements.viewerContentContainer.innerHTML = `<div class="markdown-body">${window.marked.parse(content)}</div>`;
+        } else {
+          elements.viewerContentContainer.innerHTML = `<pre class="modal-pre" id="viewerContent"></pre>`;
+          document.getElementById("viewerContent").textContent = content;
+        }
+        
         elements.viewerModal.classList.add("open");
       }
 
@@ -1150,7 +1197,7 @@
           if (path.endsWith(".json")) {
             content = JSON.stringify(JSON.parse(content), null, 2);
           }
-          openModal(btn.dataset.viewLabel || "文档预览", content);
+          openModal(btn.dataset.viewLabel || "文档预览", content, path.endsWith(".md"));
         } catch (error) {
           openModal("读取失败", error.message || "文档读取失败");
         }

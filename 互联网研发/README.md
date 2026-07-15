@@ -6,6 +6,7 @@
 
 - [前后端架构 Skill 地图](ARCHITECTURE_SKILLS_MAP.md)
 - [研发能力地图](DEVELOPMENT_SKILLS_MAP.md)
+- [系统产品架构地图](产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
 - `前端/`：通用架构、语言、框架和功能专项。
 - `后端/`：通用架构、语言、框架和服务专项。
 - `研发角色/`：全栈开发、全栈测试及角色周报。

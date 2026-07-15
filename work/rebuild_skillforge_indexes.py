@@ -83,7 +83,7 @@ lines = [
     "- 前后端架构地图：互联网研发/ARCHITECTURE_SKILLS_MAP.md",
     "- 跨境运营营销地图：跨境运营/OPERATIONS_MARKETING_SKILLS_MAP.md",
     "- 业务数据分析地图：数据/BUSINESS_ANALYTICS_SKILLS_MAP.md",
-    "- 企业系统产品架构：项目管理/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md",
+    "- 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md",
     "", "## Search Strategy", "",
     "1. 新建、升级或打包 Skill 前先读项目治理 Skill。",
     "2. 从 registry/skills-index.json 按 name、category_path 或 search_keywords 定位。",

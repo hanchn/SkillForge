@@ -3,7 +3,7 @@
 > skill id：commerce-systems-product-architecture  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：项目管理 / 公共
+> 所属分类：互联网研发 / 产品 / 系统产品架构 / 公共
 
 ## 产品定位
 

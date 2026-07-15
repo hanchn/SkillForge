@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境电商业务负责人周报"
+  short_description: "Create an evidence-backed role weekly report"
+  default_prompt: "Use this weekly report skill to produce a decision-ready role update."

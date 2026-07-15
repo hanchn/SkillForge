@@ -3,7 +3,7 @@
 > skill id：oms-product-architecture  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：项目管理 / OMS
+> 所属分类：互联网研发 / 产品 / 系统产品架构 / OMS
 
 ## 产品定位
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "供应链高级经理"
+  short_description: "Lead cross-border business outcomes for this role"
+  default_prompt: "Use this senior role skill to own the outcome and orchestrate specialist skills."

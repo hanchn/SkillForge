@@ -1,0 +1,4 @@
+interface:
+  display_name: "客户体验高级经理周报"
+  short_description: "Create an evidence-backed role weekly report"
+  default_prompt: "Use this weekly report skill to produce a decision-ready role update."

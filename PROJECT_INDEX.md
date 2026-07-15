@@ -2,7 +2,6 @@
 
 这个文件给 AI 提供全局导航、分类定位和技能检索入口。
 
-
 ## First Read
 
 - 项目总说明：README.md
@@ -14,7 +13,7 @@
 - 前后端架构地图：互联网研发/ARCHITECTURE_SKILLS_MAP.md
 - 跨境运营营销地图：跨境运营/OPERATIONS_MARKETING_SKILLS_MAP.md
 - 业务数据分析地图：数据/BUSINESS_ANALYTICS_SKILLS_MAP.md
-- 企业系统产品架构：项目管理/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
+- 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
 
 ## Search Strategy
 
@@ -42,6 +41,42 @@
   - 路径：`互联网研发/产品/B端产品/product-requirements-architect/`
   - 分类：互联网研发 / 产品 / B端产品
   - 用途：把模糊产品想法转成可评审、可开发、可测试、可度量的需求包
+- **CMS 产品架构师**（`cms-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/CMS/cms-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / CMS
+  - 用途：按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。适用于商品内容中台、多语言多渠道内容治理、内容版本审批和发布，交付CMS 能力地图、内容模型与版本机制、审批、本地化和分发契约。
+- **CRM 产品架构师**（`crm-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/CRM/crm-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / CRM
+  - 用途：围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。适用于跨渠道客户中心、营销与客服 CRM、客户 360 和生命周期运营，交付CRM 能力地图、客户身份与同意模型、互动、分群、任务和集成方案。
+- **IMS 产品架构师**（`ims-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/IMS/ims-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / IMS
+  - 用途：围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。适用于多仓多渠道库存中心、库存预占和超卖治理、库存对账与可售计算，交付IMS 能力地图、库存账本和状态模型、预占、同步、对账和异常方案。
+- **OFS 产品架构师**（`ofs-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/OFS/ofs-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / OFS
+  - 用途：围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。适用于跨仓跨渠道履约平台、订单到交付编排、履约异常和补偿治理，交付OFS 能力地图、履约单与状态机、节点编排、SLA 和异常方案。
+- **OMS 产品架构师**（`oms-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/OMS/oms-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / OMS
+  - 用途：围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。适用于全渠道 OMS 规划、订单状态和异常治理、OMS 与渠道、库存、履约集成，交付OMS 能力地图、订单域模型与状态机、路由、异常和集成契约。
+- **PLM 产品架构师**（`plm-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/PLM/plm-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / PLM
+  - 用途：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。适用于新品研发数字化、款式/BOM/样品协同、产品版本和上市门禁，交付PLM 能力地图、产品版本和阶段门模型、BOM、样品、成本、合规与集成方案。
+- **TMS 产品架构师**（`tms-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/TMS/tms-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / TMS
+  - 用途：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。适用于头程或尾程运输管理、承运商和运费治理、轨迹、异常和运费对账，交付TMS 能力地图、运输订单与状态机、承运商、轨迹、费用和异常方案。
+- **WMS 产品架构师**（`wms-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/WMS/wms-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / WMS
+  - 用途：围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。适用于多仓 WMS 规划、仓内作业数字化、库存差异和履约效率治理，交付WMS 能力地图、仓内任务与状态机、作业、设备、异常和集成方案。
+- **跨境业务系统总产品架构师**（`commerce-systems-product-architecture`）
+  - 路径：`互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture/`
+  - 分类：互联网研发 / 产品 / 系统产品架构 / 公共
+  - 用途：设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。
 - **前端功能实现工程师**（`frontend-feature-implementer`）
   - 路径：`互联网研发/前端/前台/frontend-feature-implementer/`
   - 分类：互联网研发 / 前端 / 前台 / 功能实现
@@ -250,9 +285,6 @@
   - 路径：`法律政务/contract-risk-reviewer/`
   - 分类：法律政务 / 合同 / 商业合同审阅
   - 用途：逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单
-
-### 财务
-
 ### 跨境运营
 
 - **供应商寻源与质量管理器**（`supplier-sourcing-quality-manager`）
@@ -383,41 +415,3 @@
   - 路径：`跨境运营/选品/ecommerce-product-research/`
   - 分类：跨境运营 / 选品 / 跨渠道机会研究
   - 用途：从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会
-### 项目管理
-
-- **CMS 产品架构师**（`cms-product-architecture`）
-  - 路径：`项目管理/CMS/cms-product-architecture/`
-  - 分类：项目管理 / CMS
-  - 用途：按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。适用于商品内容中台、多语言多渠道内容治理、内容版本审批和发布，交付CMS 能力地图、内容模型与版本机制、审批、本地化和分发契约。
-- **CRM 产品架构师**（`crm-product-architecture`）
-  - 路径：`项目管理/CRM/crm-product-architecture/`
-  - 分类：项目管理 / CRM
-  - 用途：围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。适用于跨渠道客户中心、营销与客服 CRM、客户 360 和生命周期运营，交付CRM 能力地图、客户身份与同意模型、互动、分群、任务和集成方案。
-- **IMS 产品架构师**（`ims-product-architecture`）
-  - 路径：`项目管理/IMS/ims-product-architecture/`
-  - 分类：项目管理 / IMS
-  - 用途：围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。适用于多仓多渠道库存中心、库存预占和超卖治理、库存对账与可售计算，交付IMS 能力地图、库存账本和状态模型、预占、同步、对账和异常方案。
-- **OFS 产品架构师**（`ofs-product-architecture`）
-  - 路径：`项目管理/OFS/ofs-product-architecture/`
-  - 分类：项目管理 / OFS
-  - 用途：围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。适用于跨仓跨渠道履约平台、订单到交付编排、履约异常和补偿治理，交付OFS 能力地图、履约单与状态机、节点编排、SLA 和异常方案。
-- **OMS 产品架构师**（`oms-product-architecture`）
-  - 路径：`项目管理/OMS/oms-product-architecture/`
-  - 分类：项目管理 / OMS
-  - 用途：围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。适用于全渠道 OMS 规划、订单状态和异常治理、OMS 与渠道、库存、履约集成，交付OMS 能力地图、订单域模型与状态机、路由、异常和集成契约。
-- **PLM 产品架构师**（`plm-product-architecture`）
-  - 路径：`项目管理/PLM/plm-product-architecture/`
-  - 分类：项目管理 / PLM
-  - 用途：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。适用于新品研发数字化、款式/BOM/样品协同、产品版本和上市门禁，交付PLM 能力地图、产品版本和阶段门模型、BOM、样品、成本、合规与集成方案。
-- **TMS 产品架构师**（`tms-product-architecture`）
-  - 路径：`项目管理/TMS/tms-product-architecture/`
-  - 分类：项目管理 / TMS
-  - 用途：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。适用于头程或尾程运输管理、承运商和运费治理、轨迹、异常和运费对账，交付TMS 能力地图、运输订单与状态机、承运商、轨迹、费用和异常方案。
-- **WMS 产品架构师**（`wms-product-architecture`）
-  - 路径：`项目管理/WMS/wms-product-architecture/`
-  - 分类：项目管理 / WMS
-  - 用途：围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。适用于多仓 WMS 规划、仓内作业数字化、库存差异和履约效率治理，交付WMS 能力地图、仓内任务与状态机、作业、设备、异常和集成方案。
-- **跨境业务系统总产品架构师**（`commerce-systems-product-architecture`）
-  - 路径：`项目管理/公共/commerce-systems-product-architecture/`
-  - 分类：项目管理 / 公共
-  - 用途：设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。
