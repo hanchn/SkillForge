@@ -5,6 +5,7 @@
 ## First Read
 
 - 项目总说明：[README.md](file:///Users/yuanjing/Desktop/SkillForge/README.md)
+- Skills 可视化页：[skills-dashboard](file:///Users/yuanjing/Desktop/SkillForge/skills-dashboard)
 - 项目基座 skill：[skillforge-project-governance](file:///Users/yuanjing/Desktop/SkillForge/skillforge-project-governance)
 - 全局 skill 索引：[skills-index.json](file:///Users/yuanjing/Desktop/SkillForge/registry/skills-index.json)
 - 元数据 schema：[skill.schema.json](file:///Users/yuanjing/Desktop/SkillForge/schemas/skill.schema.json)
@@ -48,6 +49,7 @@
 ## Top-Level Directories
 
 - `skillforge-project-governance/`：整个项目的治理 skill
+- `skills-dashboard/`：skills 可视化管理页面
 - `registry/`：全局索引
 - `schemas/`：skill 元数据规范
 - `templates/`：标准 skill 包模板

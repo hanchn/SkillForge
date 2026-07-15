@@ -4,6 +4,7 @@
   "entry_docs": {
     "readme": "README.md",
     "project_index": "PROJECT_INDEX.md",
+    "skills_dashboard": "skills-dashboard/index.html",
     "governance_skill": "skillforge-project-governance/SKILL.md",
     "skills_registry": "registry/skills-index.json",
     "schema": "schemas/skill.schema.json"
@@ -12,6 +13,7 @@
     "project_governance": [
       "README.md",
       "PROJECT_INDEX.md",
+      "skills-dashboard",
       "skillforge-project-governance",
       "schemas",
       "templates",

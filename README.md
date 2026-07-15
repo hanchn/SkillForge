@@ -48,6 +48,7 @@
 ## 项目级目录
 
 - `PROJECT_INDEX.md`：给 AI 的全局导航与搜索入口
+- `skills-dashboard/`：可视化 skills 管理页面
 - `schemas/`：skill 元数据 schema
 - `templates/`：新 skill 模板
 - `registry/`：全局 skill 索引
