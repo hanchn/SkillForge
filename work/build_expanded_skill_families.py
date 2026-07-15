@@ -51,6 +51,10 @@ SPECS = [
     spec("精准营销/投放广告/Google/google-ads-ecommerce-specialist", "google-ads-ecommerce-specialist", "独立站 Google Ads 投放专家", "operations", "围绕搜索意图、商品 Feed、落地页、转化价值和贡献利润规划与优化 Google Ads。", ["Google Search、Shopping 与 Performance Max 投放", "Merchant Center、Feed 和转化跟踪诊断", "搜索词治理、预算扩量和利润止损"], ["Google Ads 投放与测量方案", "关键词、搜索词、Feed、资产组和预算矩阵", "诊断、实验、自检和复盘记录"], ["转化目标、价值、增强型转化和同意", "Search 关键词、搜索词和否定词", "Merchant Center Feed 与商品诊断", "Performance Max 资产组、URL 扩展和品牌控制", "落地页质量、利润、增量和止损"], "不得在跟踪或商品 Feed 不可信时自动扩量，不得用品牌词和平台自报转化掩盖真实获客效率。"),
     spec("精准营销/SEO内容分发/seo-editorial-community-distribution-specialist", "seo-editorial-community-distribution-specialist", "SEO 软文与社区内容分发专家", "operations", "从关键词与产品证据出发生成有独立价值的软文、客座稿、品牌帖和社区回复，并管理发布、互动、链接与效果复盘。", ["SEO 软文和客座文章生成", "论坛、问答和社区品牌发帖", "多站点内容分发、更新和效果复盘"], ["关键词与选题证据包", "渠道适配软文、帖子和回复草稿", "发布矩阵、自检、互动和效果复盘"], ["关键词库、意图和主题覆盖", "产品事实、作者经验和可引用证据", "媒体、论坛和社区规则", "内容独特性、披露、链接和锚文本", "发布频率、互动、转化和声誉风险"], "不得批量灌水、伪装普通用户、制造虚假体验、复制同文、购买隐蔽链接或规避平台反垃圾规则。"),
     spec("精准营销/GEO技术发布/geo-machine-readable-publisher", "geo-machine-readable-publisher", "GEO 机器可读内容发布专家", "operations", "从合规静态资料与 PDP/PIM/CMS 等授权接口构建可追溯 GEO 可信知识库，生成和维护 llms.txt、llms-full.txt 与合规 JSON-LD Schema，并支持批量发布前后自检。", ["静态资料或 PDP/PIM/CMS 接口接入与可信知识库建设", "单站 llms.txt 与 llms-full.txt 生成", "商品、文章、组织和 FAQ Schema 批量生成", "GEO 文件发布、抽样验证和版本更新"], ["数据源、API、字段权限与可信度清单", "带来源、版本、有效期和冲突状态的 GEO 可信知识库", "llms.txt、llms-full.txt 和 JSON-LD 生成包", "批量清单、自检报告、发布和回滚记录"], ["静态资料、PDP/PIM/CMS 与功能接口", "字段级来源、授权、刷新、冲突和知识版本", "站点事实、canonical URL 和内容可见性", "llms.txt 提案格式与不确定性声明", "Schema.org 类型、Google 资格和页面一致性", "批量映射、去重、转义、大小和版本", "语法验证、抓取验证、抽样复核和回滚"], "不得宣称 llms.txt 保证收录或排名；不得绕过接口权限、用途和个人数据限制，不得生成页面不可见、过期、虚假评价、价格、库存或身份信息的结构化数据。"),
+    # Cross-department foundation tools.
+    spec("基础工具/消息与告警/message-alert-orchestration-specialist", "message-alert-orchestration-specialist", "多平台消息通知与分级告警编排专家", "operations", "把业务、系统和运营事件编排为可去重、可升级、可回执、可关闭的多平台通知告警，并安全适配飞书、钉钉、企业微信及贵司企业 QQ 网关。", ["库存、订单、财务、系统和运营指标告警", "飞书、钉钉、企业微信机器人或应用接入", "企业 QQ/内部消息网关适配与多平台容灾"], ["事件与严重度模型", "平台连接器、路由、模板和权限方案", "发送预览、回执、升级、关闭和复盘记录"], ["事件 source of truth、幂等和去重", "严重度、抑制、聚合、静默和升级", "值班、owner、SLA、回执和关闭", "飞书/钉钉/企业微信/企业QQ能力差异", "凭证、个人数据、消息大小、限流和失败重试", "送达、可行动性、噪声率和复盘"], "不得在 Skill、日志或消息中暴露 webhook/token；不得无授权真实发送、@全员或跨租户触达；不得把请求成功当成用户已读或问题已关闭。"),
+    spec("基础工具/汇报复盘/general-company-weekly-report", "general-company-weekly-report", "企业通用周报", "operations", "把一个团队或跨部门周期内的真实数据、交付、风险、决策和下周承诺整理成可核验周报，同时保留业务角色专属口径。", ["缺少专属角色 Skill 的团队周报", "跨部门项目周报", "管理层通用进展与风险汇报"], ["结论先行周报", "数据证据与状态对照表", "风险、决策、依赖和下周验收计划"], ["本周与上周/目标的比较口径", "业务结果与交付证据", "完成、进行中、阻塞和取消状态", "风险、依赖和需要的决策", "owner、截止、验收和下周承诺"], "不得用通用周报替代已有角色专属周报，不得把活动数量写成业务结果或编造未提供的数据与完成状态。"),
+    spec("基础工具/汇报复盘/retrospective-action-closure-facilitator", "retrospective-action-closure-facilitator", "复盘与行动闭环主持专家", "operations", "基于事件、项目、活动或经营周期证据组织无责复盘，区分时间线、事实、促成条件和根因，并追踪行动到效果验证。", ["事故与异常复盘", "项目、发布或活动复盘", "月度季度经营复盘与重复问题治理"], ["证据化复盘报告", "促成因素、根因和系统性改进", "行动、owner、验证、关闭与复发监控台账"], ["目标、范围和复盘类型", "事实时间线、数据和决策上下文", "直接原因、促成条件和控制缺口", "做得好、失败、侥幸成功和未知项", "纠正、预防、探测和学习行动", "owner、截止、效果验证与复发信号"], "不得在证据不足时追责个人或宣称唯一根因；行动未验证效果时不得仅因完成任务而关闭问题。"),
     spec("精准营销/社媒营销/social-media-operations-manager", "social-media-operations-manager", "跨境社媒运营经理", "operations", "建立平台适配的内容、互动、增长、风险和复盘机制。", ["TikTok、Instagram、YouTube、Pinterest 运营", "账号冷启动", "社媒内容和社区增长"], ["平台运营方案", "内容栏目和发布节奏", "互动 SOP 与周度复盘"], ["平台人群和内容语法", "栏目、节奏和素材供给", "社区互动和舆情", "自然流量到商业转化", "账号健康和实验指标"], "不得跨平台原样搬运或追逐与品牌无关的热点。"),
     spec("精准营销/达人联盟/influencer-affiliate-manager", "influencer-affiliate-manager", "达人与联盟营销经理", "operations", "管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。", ["达人种草和带货", "联盟计划搭建", "UGC 采购与授权"], ["达人分层池", "合作 brief 与跟进管道", "佣金、授权和效果复盘"], ["人群与内容匹配", "真实性和历史表现", "合作模式与单位经济", "寄样、交付和授权", "归因、增量和合规披露"], "不得按粉丝量单点筛选，也不得遗漏广告披露和内容权利。"),
     spec("精准营销/用户运营/email-lifecycle-marketer", "email-lifecycle-marketer", "邮件生命周期营销师", "operations", "按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。", ["欢迎、弃购、购后、召回流程", "Newsletter 运营", "邮件收入和送达率治理"], ["生命周期流程图", "分群、触发与内容方案", "实验和送达健康看板"], ["同意、偏好和退订", "触发、频控和冲突", "分群与个性化", "内容、优惠和落地页", "送达、增量收入和实验"], "不得用群发频率代替用户价值，也不得绕过同意规则。"),
@@ -261,6 +265,7 @@ SPECS.extend([
     spec("人事招聘/员工关系/performance-employee-relations-manager", "performance-employee-relations-manager", "绩效与员工关系管理专员", "hr", "建立目标反馈、试用期、绩效改进、员工诉求、调查和沟通的公平、可记录工作流。", ["绩效周期和反馈机制", "试用期或绩效改进", "员工申诉、冲突和调查协同"], ["绩效与反馈流程", "事实、沟通和行动记录", "员工关系风险与升级方案"], ["目标、期望和证据", "持续反馈与改进支持", "一致性、公平性和反报复", "申诉、调查和保密", "决定权限、劳动法和专业升级"], "不得预设调查结论或把绩效流程作为报复工具；纪律、解雇、歧视和跨境事项必须升级合格 HR/法务人员。"),
     spec("人事招聘/公共/hr-recruitment-generalist", "hr-recruitment-generalist", "人事招聘通用执行专家", "hr", "接管日常人事与招聘需求，先识别任务类型、事实、权限和风险，再完成通用流程或路由到专项 Skill。", ["不确定该使用哪个人事 Skill", "日常招聘和员工流程执行", "跨编制、JD、寻访、面试、录用和入职的组合任务"], ["任务分类与责任边界", "端到端人事执行计划", "专项 Skill 路由、交接和验收清单"], ["业务目标、工作地与用工主体", "编制、岗位和预算授权", "招聘与员工生命周期阶段", "个人信息、敏感性和最小权限", "专项路由、证据、时限和升级条件"], "不得用通用流程替代司法辖区法律判断，也不得在缺少业务负责人、HR 或法务授权时作出录用、薪酬、纪律或解雇决定。"),
     spec("人事招聘/岗位与JD/job-description-generator", "job-description-generator", "岗位说明书与招聘 JD 生成专家", "hr", "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，完成指定市场近期岗位与薪酬调研，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解和市场判断偏差招错人。", ["HR 不熟悉技术、运营或专业岗位时的招聘需求培训", "新岗位近几个月招聘需求、薪资分布和人才市场调研", "新增或重写招聘 JD", "岗位职责模糊、要求堆砌或招聘双方理解不一致", "多平台、多语言或跨区域岗位发布"], ["HR 岗位培训与详细岗位介绍", "岗位市场与近期薪酬分布调研报告", "招聘需求澄清与建议预问问题", "内部岗位说明书", "候选人版招聘 JD", "可复制的 JD 空白模板", "能力证据、面试评估和发布检查表"], ["岗位存在原因、业务场景、日常工作和成功结果", "上下游、工具系统、专业术语和 HR 常见误解", "目标地区近几个月岗位需求、名称、职级、薪资分布、样本和来源", "职责、权限、不负责范围和职级边界", "必需能力、可培养能力、作品证据和淘汰信号", "招聘经理预问问题、答案口径和未确认项", "工作地、用工方式、汇报、协作、薪酬披露与当地合规"], "不得在 HR 尚未理解、市场薪酬口径不清或招聘经理尚未确认岗位关键事实时直接定稿发布；不得虚构、外推或混用不同地区、币种、职级、薪资周期和样本的薪酬数据，不得虚构福利、组织承诺或加入与工作无关的歧视性条件。"),
+    spec("人事招聘/简历筛选/local-resume-screening-compliance-specialist", "local-resume-screening-compliance-specialist", "本地简历筛选与合规评估专家", "hr", "以已确认 JD 和岗位相关证据标准读取授权本地简历，生成可解释匹配、缺口、核验问题、异常风险和合规提示，供 HR 人工复核。", ["给定 JD 后批量筛选本地 PDF/DOCX/TXT/MD 简历", "候选人初筛、分层和面试问题准备", "筛选规则、异常原因和公平合规审计"], ["JD 能力与证据评分规则", "逐候选人匹配、缺口、风险和核验问题卡", "人工复核分层、异常队列和合规审计报告"], ["JD 必须/可培养/加分项与岗位相关性", "本地文件授权、解析质量和个人信息最小化", "简历原文证据、时间线、项目和结果", "受保护/敏感属性屏蔽与公平一致性", "异常原因码、置信度和人工核验", "自动化决策边界、申诉说明、保留删除和审计"], "不得上传未授权简历、推断受保护或敏感属性、以姓名照片年龄性别婚育民族宗教健康等排序，不得自动拒绝或录用候选人；异常只能作为待核验风险而非造假结论。"),
     spec("人事招聘/培训发展/employee-training-organization-manager", "employee-training-organization-manager", "员工培训组织与运营经理", "hr", "端到端组织员工培训，从需求和能力差距、计划预算、课程讲师、通知报名、现场交付到效果评估、档案和改进闭环。", ["年度或季度培训规划", "新人、岗位、管理与专项培训组织", "内部讲师、外部供应商和培训效果治理"], ["培训需求与年度月度计划", "课程、讲师、预算、通知、报名和现场执行包", "考勤、反馈、学习效果、费用档案与复盘报告"], ["业务目标、岗位能力和参训对象", "课程目标、形式、讲师和供应商", "预算、排期、场地、设备和通知", "报名、考勤、材料、现场和应急", "反应、学习、行为、业务结果与档案"], "不得把培训场次或满意度等同于能力提升；强制、取证、安全或合规培训必须核验法定要求、合格讲师、完成证据和补训规则。"),
     spec("人事招聘/员工沟通/employee-announcement-writer", "employee-announcement-writer", "企业员工公告撰写专家", "hr-communication", "把已批准事实转化为清晰、准确、可执行且适配渠道的员工公告，并管理敏感沟通与发布风险。", ["入职、放假、培训、福利和办公通知", "制度发布、版本更新和生效公告", "组织调整、事故或紧急事项沟通草案"], ["正式公告正文", "标题、摘要和多渠道短版", "审批、发布、问答和反馈清单"], ["发布目的、受众和知情范围", "已批准事实、版本和生效时间", "员工行动、责任人和截止时间", "渠道、语言、时区和可访问性", "隐私、保密、情绪影响和咨询升级"], "不得替管理层发布未经批准的决定；组织调整、纪律、事故、裁员或个人事项必须最小披露并经 HR、法务及授权负责人审查。"),
 ])
@@ -584,6 +589,53 @@ SPECIAL_WORKFLOWS = {
         "执行语法、Schema、富媒体资格、页面一致性、可抓取性、链接状态、抽样事实和敏感信息自检，区分 error、warning 和人工复核",
         "输出发布顺序、备份、差异、验证、监控和回滚记录；上线后复查 HTTP、渲染、Search Console/日志证据并按源数据变更刷新",
     ],
+    "message-alert-orchestration-specialist": [
+        "确认事件来源、业务影响、接收人、租户/群/会话、国家时区、严重度、SLA、值班表、静默窗口、升级 owner 和真实发送权限",
+        "询问飞书、钉钉、企业微信或企业 QQ/内部网关的机器人/应用类型、官方文档、租户、权限、消息类型、限流和凭证引用；不接收明文 webhook/token",
+        "定义标准事件契约、幂等键、去重窗口、关联键、状态、数据分类和 source of truth，避免同一问题跨系统重复轰炸",
+        "设计严重度、阈值、持续时间、抑制、聚合、维护静默、恢复通知和动态升级；阈值必须来自业务风险和历史证据",
+        "映射平台能力与限制，生成文本/卡片预览、@策略、链接和降级模板；企业 QQ 仅按已确认官方接口或贵司网关适配",
+        "先在沙箱/测试群 dry-run，验证脱敏、长度、格式、链接、幂等、限流、超时、重试、熔断和跨平台部分失败，不把 HTTP 2xx 当成已读",
+        "真实发送前获取授权并记录批次；采集平台响应、message_id、回执/认领、升级、恢复、关闭和失败队列，保证可重放但不重复触达",
+        "复盘命中率、噪声率、响应/解决时间、漏报、误报、升级和行动完成效果，更新规则、值班、模板与连接器版本",
+    ],
+    "general-company-weekly-report": [
+        "确认汇报对象、团队/项目、周区间、时区、比较口径、专属角色周报是否存在、数据源、owner 和对外措辞边界",
+        "收集 CSV/报表/API、任务状态、交付物、事故、决策和依赖，核验截止、去重、状态和证据；无数据的指标明确缺失",
+        "按目标和业务结果而非活动罗列组织本周结论，区分完成、进行中、阻塞、取消、延期与未验证",
+        "比较本周与上周/目标/计划，解释可验证驱动、反证、口径变化和不可归因项，避免把相关性写成因果",
+        "提炼风险、依赖、需要管理层决策的事项及不决策后果，明确 owner、截止和升级路径",
+        "形成下周少而明确的承诺，包含预期结果、验收、依赖、护栏和停止条件，不复制本周活动清单",
+        "执行事实、数字、链接、敏感信息、语气和角色口径自检；必要时生成内部详版和对外简版",
+        "保存数据截止、模板版本、确认人和修订记录，将连续阻塞或重复风险交给复盘 Skill",
+    ],
+    "retrospective-action-closure-facilitator": [
+        "确认复盘触发、类型、范围、时间窗、参与者、主持人、决策人、心理安全和不追责边界；法律/人事调查另行升级",
+        "冻结并收集日志、指标、任务、消息、变更、决策和客户影响，建立带时区、来源和置信度的事实时间线",
+        "对齐原目标、预期、实际结果和影响，区分事实、解释、假设、缺失证据及事后偏见",
+        "分析直接原因、促成条件、控制缺口、组织/流程/技术系统因素，列出做得好、失败、侥幸成功和未知项",
+        "比较纠正、预防、探测、缓解和学习方案，优先改系统与控制，不用培训或提醒替代结构性修复",
+        "为行动定义 owner、审批、依赖、截止、优先级、验收、效果指标、护栏和撤销条件，限制无 owner 的行动",
+        "按期追踪完成与效果验证；完成任务但未降低风险、改善指标或防止复发时不得关闭",
+        "发布适当范围的复盘摘要，保护个人和敏感信息，并把重复模式、失效控制和规则更新回写知识库",
+    ],
+    "local-resume-screening-compliance-specialist": [
+        "读取 JD 并确认工作地、用工主体、岗位结果、职级和版本；将要求拆成必须、可培养、加分和不应参与判断的项目，删除与岗位无关或歧视性条件",
+        "向使用者确认本地简历目录、处理授权、允许文件类型、是否允许外部模型、输出位置、访问人员、保留/删除期限和人工决策 owner；默认仅本地处理",
+        "运行本地简历清单与文本提取，记录文件哈希、解析器、页数/文本长度、重复、损坏、扫描件/OCR需求和提取失败；不修改原文件",
+        "在评分前尽量隔离姓名、照片、联系方式、住址、出生/年龄、性别、婚育、民族、宗教、健康等非必要字段；依法确有必要的工作资格另行人工核验",
+        "为每项 JD 标准建立可观察证据、权重、最低证据和反证，使用统一 rubric 对所有候选人判断；缺失不等于不具备",
+        "逐份生成证据引用、匹配、缺口、可迁移能力、需面试核验问题和置信度，不根据关键词数量或学校/公司名气直接排名",
+        "检测时间线重叠、前后不一致、无法验证的量化声明、文件重复、解析缺失和 JD 冲突，输出原因码与证据；标记 REVIEW_REQUIRED，不指控造假",
+        "按人工复核优先级而非自动录用/淘汰输出分层，提供解释、反例检查和人工改判理由；高影响决定不得仅由自动化结果作出",
+        "抽样比较不同候选人的标准一致性与潜在不利影响，发现代理歧视、解析偏差或标准漂移时暂停筛选并升级 HR/法务",
+        "交付后保存最小审计记录，限制候选人内容披露，执行保留/删除计划，并将面试和后续结果用于验证 rubric 而非训练敏感画像",
+    ],
+}
+
+MARKETING_GENERATION_SKILLS = {
+    "meta-ads-ecommerce-specialist", "google-ads-ecommerce-specialist",
+    "seo-editorial-community-distribution-specialist", "geo-machine-readable-publisher",
 }
 
 OFFICIAL_SOURCES = {
@@ -622,6 +674,8 @@ OFFICIAL_SOURCES = {
     "google-ads-ecommerce-specialist": [("Google Ads Performance Max", "https://support.google.com/google-ads/answer/10724817"), ("Google Ads conversion tracking", "https://support.google.com/google-ads/answer/6076199")],
     "seo-editorial-community-distribution-specialist": [("Google Search spam policies", "https://developers.google.com/search/docs/essentials/spam-policies"), ("Google helpful content guidance", "https://developers.google.com/search/docs/fundamentals/creating-helpful-content")],
     "geo-machine-readable-publisher": [("llms.txt proposal", "https://llmstxt.org/"), ("Google structured data guidelines", "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"), ("Schema.org", "https://schema.org/docs/schemas.html")],
+    "message-alert-orchestration-specialist": [("飞书机器人概述", "https://open.feishu.cn/document/client-docs/bot-v3/bot-overview?lang=zh-CN"), ("钉钉机器人消息", "https://open.dingtalk.com/document/dingstart/robot-reply-and-send-messages"), ("企业微信群机器人", "https://developer.work.weixin.qq.com/document/path/91770")],
+    "local-resume-screening-compliance-specialist": [("中华人民共和国个人信息保护法", "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm"), ("中华人民共和国就业促进法", "https://www.moe.gov.cn/s78/A15/s8355/moe_782/tnull_39856.html"), ("EEOC Selection Procedures", "https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures")],
 }
 
 
@@ -661,10 +715,21 @@ def write_skill(s):
 - 必须读取 `references/job-market-research-method.md`；薪资与岗位需求属于时效数据，执行时必须查询目标市场近期来源并记录采集日期、样本和口径。
 - 使用 `assets/delivery-template.md` 交付完整招聘包，同时交付 `assets/job-market-research-template.md` 调研报告，并原样附带 `assets/blank-jd-template.md` 作为可复用 JD 空白模板。
 """
-    elif s["name"] in SPECIAL_WORKFLOWS:
+    elif s["name"] in MARKETING_GENERATION_SKILLS:
         extra_load = """
 - 正式生成前必须使用 `assets/marketing-input-intake.md` 询问现有关键词/受众/素材/数据/规则库及其版本、owner 和优先级；未确认时只能交付调研或草案。
 - 必须使用 `assets/prepublish-self-check.md` 做生成后自检；任何阻断项未通过时不得声称可投放、可发布或已验证。
+"""
+    elif s["name"] == "message-alert-orchestration-specialist":
+        extra_load = """
+- 必须读取 `references/platform-adapter-guide.md` 并使用 `assets/platform-connector-intake.md`；未确认平台类型、权限、凭证引用、租户、目标会话和沙箱前，只能生成 dry-run 预览。
+- 使用 `assets/normalized-alert-event.schema.json` 统一事件，使用 `assets/routing-policy-template.md` 定义去重、抑制、升级、回执和关闭，不得把平台请求成功等同于问题解决。
+"""
+    elif s["name"] == "local-resume-screening-compliance-specialist":
+        extra_load = """
+- 必须读取 `references/resume-screening-compliance-method.md` 并使用 `assets/jd-evidence-rubric-template.md`；JD 中与岗位无关、歧视性或未确认要求不得进入评分。
+- 先运行 `scripts/inventory_local_resumes.py` 建立本地文件、哈希、解析质量和异常清单；默认不上传外部服务，不修改原简历。
+- 使用 `assets/candidate-review-card-template.md` 输出证据与人工复核，不得自动拒绝、录用或把异常写成造假结论。
 """
     skill = f"""---
 name: {s['name']}
@@ -962,7 +1027,7 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
         "supported_platforms": PLATFORMS,
         "inputs": {"required": ["业务目标、范围和现状证据"], "optional": ["历史数据、流程系统资料、目标、预算、SLA 和合规约束"]},
         "outputs": [*s["outputs"], "决策、执行、验收、风险和未知项记录"],
-        "implementation": {"readme": "README.md", "entry_doc": "SKILL.md", "invocation_doc": "INVOCATION.md", "script": "scripts/generate_geo_bundle.py" if s["name"] == "geo-machine-readable-publisher" else "", "config": "assets/geo-generation-manifest.example.json" if s["name"] == "geo-machine-readable-publisher" else "", "base_prompt": "BASE_PROMPT.md", "examples_dir": "examples", "eval_dir": "eval", "platform_adapters_dir": "platforms"},
+        "implementation": {"readme": "README.md", "entry_doc": "SKILL.md", "invocation_doc": "INVOCATION.md", "script": "scripts/generate_geo_bundle.py" if s["name"] == "geo-machine-readable-publisher" else "scripts/render_alert_payloads.py" if s["name"] == "message-alert-orchestration-specialist" else "scripts/inventory_local_resumes.py" if s["name"] == "local-resume-screening-compliance-specialist" else "", "config": "assets/geo-generation-manifest.example.json" if s["name"] == "geo-machine-readable-publisher" else "assets/normalized-alert-event.schema.json" if s["name"] == "message-alert-orchestration-specialist" else "assets/jd-evidence-rubric-template.md" if s["name"] == "local-resume-screening-compliance-specialist" else "", "base_prompt": "BASE_PROMPT.md", "examples_dir": "examples", "eval_dir": "eval", "platform_adapters_dir": "platforms"},
         "constraints": [s["boundary"], "不得虚构事实、数据、权限、实施或验证结果", "必须明确口径、责任、验收、风险和未知项"],
         "distribution": {"share_as_single_folder": True, "required_files": ["SKILL.md", "skill.json", "README.md", "INVOCATION.md", "BASE_PROMPT.md"], "package_files": ["SKILL.md", "skill.json", "README.md", "INVOCATION.md", "BASE_PROMPT.md", "agents/openai.yaml", "references", "assets", "examples", "eval", "platforms"]},
     }
@@ -973,8 +1038,12 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
         write_tagging_compliance_resources(base)
     elif s["name"] == "job-description-generator":
         write_jd_generation_resources(base)
-    elif s["name"] in SPECIAL_WORKFLOWS:
+    elif s["name"] in MARKETING_GENERATION_SKILLS:
         write_marketing_special_resources(base, s)
+    if s["name"] == "message-alert-orchestration-specialist":
+        write_message_alert_resources(base, s)
+    if s["name"] == "local-resume-screening-compliance-specialist":
+        write_resume_screening_resources(base, s)
 
 
 def write_depth_resources(base, s):
@@ -1058,6 +1127,141 @@ def write_depth_resources(base, s):
 - 下次复盘：
 - 需要更新的规则、数据、模板或 Skill：
 """, encoding="utf-8")
+
+
+def write_message_alert_resources(base, s):
+    (base / "assets/platform-connector-intake.md").write_text("""# 消息平台连接器接入确认
+
+## 平台与能力
+
+| 平台 | 自定义机器人/应用/内部网关 | 租户 | 测试群/会话 | 目标群/会话 | 消息类型 | @能力 | 回执能力 | Owner |
+|---|---|---|---|---|---|---|---|---|
+| 飞书 |  |  |  |  |  |  |  |  |
+| 钉钉 |  |  |  |  |  |  |  |  |
+| 企业微信 |  |  |  |  |  |  |  |  |
+| 企业 QQ/内部网关 |  |  |  |  |  |  |  |  |
+
+## 凭证与权限
+
+- 只记录 webhook/token/应用凭证的环境变量或密钥管理引用，不粘贴真实值。
+- 确认应用审核、可用范围、群成员、跨租户/外部联系人、IP 白名单、签名、限流与数据处理范围。
+- `@全员`、跨租户、外部群、个人敏感消息和高影响广播必须单独审批。
+
+## 发送门禁
+
+- dry-run 预览验收人：
+- 测试群发送批准人：
+- 生产发送批准人：
+- 失败队列、重试和人工补发 owner：
+- 禁止发送的数据分类：
+""", encoding="utf-8")
+    schema = {
+        "$schema": "https://json-schema.org/draft/2020-12/schema", "type": "object",
+        "required": ["event_id", "dedup_key", "title", "summary", "severity", "status", "occurred_at", "source", "owner"],
+        "properties": {
+            "event_id": {"type": "string", "minLength": 1}, "dedup_key": {"type": "string", "minLength": 1},
+            "title": {"type": "string", "minLength": 1}, "summary": {"type": "string", "minLength": 1},
+            "severity": {"enum": ["INFO", "WARNING", "HIGH", "CRITICAL"]},
+            "status": {"enum": ["OPEN", "ACKNOWLEDGED", "RECOVERED", "CLOSED"]},
+            "occurred_at": {"type": "string"}, "source": {"type": "string"}, "owner": {"type": "string"},
+            "action_url": {"type": "string"}, "data_classification": {"enum": ["PUBLIC", "INTERNAL", "CONFIDENTIAL", "RESTRICTED"]},
+        }, "additionalProperties": True,
+    }
+    (base / "assets/normalized-alert-event.schema.json").write_text(json.dumps(schema, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (base / "assets/routing-policy-template.md").write_text("""# 消息与告警路由策略
+
+## 事件规则
+
+| 事件类型 | 条件/持续时间 | 严重度 | 去重键/窗口 | 聚合/抑制 | 恢复条件 | Owner |
+|---|---|---|---|---|---|---|
+
+## 路由与升级
+
+| 严重度 | 首发平台/对象 | @策略 | 认领 SLA | 升级平台/对象 | 升级间隔 | 最大次数 | 静默规则 |
+|---|---|---|---|---|---|---|---|
+
+## 失败与部分成功
+
+| 平台 | 超时 | 可重试错误 | 不可重试错误 | 限流退避 | 失败队列 | 人工补发 | 降级渠道 |
+|---|---|---|---|---|---|---|---|
+
+## 关闭
+
+- 恢复消息与关闭条件：
+- 谁可确认关闭：
+- 复发观察窗口：
+- 告警规则复盘时间与 owner：
+""", encoding="utf-8")
+    (base / "references/platform-adapter-guide.md").write_text("""# 飞书、钉钉、企业微信与企业 QQ 适配指南
+
+## 通用边界
+
+- 先区分群 Webhook、自定义机器人、应用机器人/企业应用和贵司内部消息网关；能力、权限、回执和审核不同。
+- Webhook URL 与 token 都是秘密，不写入代码、消息、日志、截图或仓库。渲染 payload 与真实发送必须分离。
+- HTTP 成功只表示平台接收请求，不表示用户已读、已认领或问题已解决；业务回执另建状态。
+
+## 飞书
+
+自定义机器人适合单向群推送；应用机器人经管理员审核和权限申请后可支持更丰富的会话与交互。卡片、@、外部群和消息大小按执行时官方文档核验。
+
+## 钉钉
+
+区分自定义机器人 Webhook、应用机器人 sessionWebhook 与服务端 API；不同方式的 @、消息类型、发布审核和权限不同。安全设置、签名、限流与错误码必须从当前文档读取。
+
+## 企业微信
+
+区分群机器人 Webhook 与企业自建应用。群机器人适合群内通知；定向个人、通讯录或更复杂交互需要相应企业应用权限。不得把 webhook key 打入日志。
+
+## 企业 QQ
+
+不假设企业 QQ 与企业微信 payload 或鉴权兼容。只有使用者提供现行官方接口文档、已授权第三方连接器或贵司内部消息网关契约后才能实施；否则只输出标准事件和 `REVIEW_REQUIRED` 适配清单。
+
+## 当前官方入口
+
+- [飞书机器人概述](https://open.feishu.cn/document/client-docs/bot-v3/bot-overview?lang=zh-CN)
+- [钉钉机器人消息](https://open.dingtalk.com/document/dingstart/robot-reply-and-send-messages)
+- [企业微信群机器人](https://developer.work.weixin.qq.com/document/path/91770)
+""", encoding="utf-8")
+    scripts = base / "scripts"; scripts.mkdir(exist_ok=True)
+    (scripts / "render_alert_payloads.py").write_text(r'''#!/usr/bin/env python3
+"""Render reviewable platform payloads. This script never sends network requests."""
+import argparse, json
+from pathlib import Path
+
+REQUIRED = {"event_id", "dedup_key", "title", "summary", "severity", "status", "occurred_at", "source", "owner"}
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("event", type=Path)
+    ap.add_argument("platform", choices=["feishu", "dingtalk", "wecom", "enterprise-qq"])
+    ap.add_argument("--output", type=Path, required=True)
+    ns = ap.parse_args()
+    event = json.loads(ns.event.read_text(encoding="utf-8"))
+    missing = sorted(REQUIRED - set(event))
+    if missing: raise SystemExit("missing required event fields: " + ", ".join(missing))
+    text = f"[{event['severity']}] {event['title']}\n{event['summary']}\n状态: {event['status']}\nOwner: {event['owner']}\n时间: {event['occurred_at']}"
+    if event.get("action_url"): text += f"\n处理链接: {event['action_url']}"
+    if ns.platform == "feishu":
+        result = {"platform": "feishu", "send_authorized": False, "payload": {"msg_type": "text", "content": {"text": text}}}
+    elif ns.platform == "dingtalk":
+        result = {"platform": "dingtalk", "send_authorized": False, "payload": {"msgtype": "markdown", "markdown": {"title": event["title"], "text": text}, "at": {"isAtAll": False}}}
+    elif ns.platform == "wecom":
+        result = {"platform": "wecom", "send_authorized": False, "payload": {"msgtype": "markdown", "markdown": {"content": text}}}
+    else:
+        result = {"platform": "enterprise-qq", "send_authorized": False, "status": "REVIEW_REQUIRED", "reason": "requires current official or company gateway contract", "normalized_event": event}
+    ns.output.parent.mkdir(parents=True, exist_ok=True)
+    ns.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"DRY_RUN_ONLY platform={ns.platform} output={ns.output}")
+
+if __name__ == "__main__": main()
+''', encoding="utf-8")
+    for platform, title, note in [
+        ("feishu", "飞书适配", "确认自定义机器人或应用机器人、群/会话、消息卡片与权限。"),
+        ("dingtalk", "钉钉适配", "确认自定义机器人、应用机器人或服务端 API、签名、安全设置与 @ 能力。"),
+        ("wecom", "企业微信适配", "确认群机器人或企业应用、目标群/成员和数据权限。"),
+        ("enterprise-qq", "企业 QQ 适配", "必须提供现行接口或贵司网关契约，不默认兼容企业微信。"),
+    ]:
+        (base / "platforms" / f"{platform}.md").write_text(f"# {title}\n\n{note}\n\n真实发送前必须完成连接器登记、dry-run、测试群验证和授权。\n", encoding="utf-8")
 
 
 def write_marketing_special_resources(base, s):
@@ -1774,6 +1978,9 @@ CATEGORIES = {
     "渠道运营/客户体验": ("客户体验", "覆盖售后体验、评价、声誉、退款异常和 VOC 改进闭环；购买前咨询由客服售前负责。"),
     "渠道运营/商业化": ("商业化", "覆盖定价、折扣、促销和单位经济。"),
     "精准营销/增长营销": ("增长营销", "覆盖归因、获客、转化、留存和跨团队增长。"),
+    "基础工具": ("基础工具", "沉淀跨部门可复用的消息告警、周报、复盘和行动闭环能力。"),
+    "基础工具/消息与告警": ("消息与告警", "管理事件、分级、路由、平台连接器、发送回执、升级、关闭和复盘。"),
+    "基础工具/汇报复盘": ("汇报与复盘", "提供通用周报、证据化复盘与行动效果闭环；角色专属周报仍归各业务角色。"),
     "精准营销/增长营销/拉新": ("拉新增长", "管理新客定义、人群渠道、首购漏斗、CAC、回收期和增量验证。"),
     "数据看板/业务分析": ("跨境业务数据分析", "覆盖指标、经营、利润、商品、流量、漏斗、广告、客户、库存和预测。"),
     "数据看板/数据治理": ("数据治理", "覆盖数据质量、跨系统对账、口径和责任治理。"),
@@ -1879,6 +2086,7 @@ CATEGORIES.update({
     "人事招聘/人事角色/人事招聘资深经理": ("人事招聘资深经理", "统筹组织编制、招聘、入离职、档案、绩效协同和员工关系。"),
     "人事招聘/招聘规划": ("招聘规划", "把业务目标、组织能力和预算转化为编制与招聘计划。"),
     "人事招聘/岗位与JD": ("岗位与 JD", "把岗位事实和成功标准转化为内部岗位说明书、招聘 JD 与评估证据。"),
+    "人事招聘/简历筛选": ("简历筛选", "基于 JD 与本地简历证据进行可解释、可人工复核且保护候选人权益的初筛。"),
     "人事招聘/人才寻访": ("人才寻访", "管理人才画像、渠道、人才地图、触达和候选人关系。"),
     "人事招聘/面试评估": ("面试评估", "设计结构化面试、工作样本、评分锚点和校准机制。"),
     "人事招聘/录用入职": ("录用入职", "管理录用审批、Offer、背景核验和入职交接。"),
