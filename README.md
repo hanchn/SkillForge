@@ -11,7 +11,7 @@
 
 ## 当前能力规模
 
-- 95 个正式 Skill 包，其中 94 个在可视化管理页展示。
+- 115 个正式 Skill 包，其中 114 个在可视化管理页展示。
 - 研发架构采用“通用架构 → 语言架构 → 框架架构 → 交付专项”分层。
 - 跨境业务覆盖市场、选品、供应链、品牌、内容、渠道、广告、客户、增长和经营分析。
 - 企业系统覆盖 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 及跨系统总架构。
@@ -20,7 +20,8 @@
 ## 能力地图
 
 - [前后端架构 Skill 地图](互联网研发/ARCHITECTURE_SKILLS_MAP.md)
-- [跨境运营营销 Skill 地图](跨境运营/OPERATIONS_MARKETING_SKILLS_MAP.md)
+- [渠道运营 Skill 地图](渠道运营/CHANNEL_OPERATIONS_SKILLS_MAP.md)
+- [精准营销 Skill 地图](精准营销/PRECISION_MARKETING_SKILLS_MAP.md)
 - [业务数据分析 Skill 地图](数据/BUSINESS_ANALYTICS_SKILLS_MAP.md)
 - [企业业务系统产品架构地图](互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
 

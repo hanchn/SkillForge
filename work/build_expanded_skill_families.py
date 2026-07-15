@@ -423,6 +423,15 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
 for item in SPECS:
     write_skill(item)
 
+# Keep migrated first-level business categories aligned with their physical browse path.
+for business_root in [ROOT / "渠道运营", ROOT / "精准营销"]:
+    if not business_root.exists():
+        continue
+    for meta_path in business_root.rglob("skill.json"):
+        data = json.loads(meta_path.read_text(encoding="utf-8"))
+        data["category_path"] = list(meta_path.parent.relative_to(ROOT).parts[:-1])
+        meta_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
 CATEGORIES = {
     "互联网研发/产品/系统产品架构": ("系统产品架构", "互联网研发产品职能下的企业业务系统产品架构，覆盖跨系统总架构和各系统专项架构。"),
     "互联网研发/前端/架构": ("前端通用架构", "沉淀与语言和框架无关的前端边界、运行时、质量属性和演进方法。"),
