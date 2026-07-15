@@ -249,26 +249,26 @@
       "updated_at": "2026-07-15"
     },
     "fullstack-developer-weekly-report": {
-      "version": "1.0.0",
-      "fingerprint": "68a83d04dc28304d8f3e05aaf72b921cb33d688ae0596fbaa1bba11b874db06a",
+      "version": "1.0.1",
+      "fingerprint": "6d49acba473b85c436d504c3fc3d01e686a84302a43ed83aa45da3822b7c9325",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report",
       "updated_at": "2026-07-15"
     },
     "fullstack-feature-delivery": {
-      "version": "1.0.1",
-      "fingerprint": "b79ffc2daf55afa5efb96389e8c7dc2adbede63da1ccca2c1788817ca7f2075a",
+      "version": "1.0.2",
+      "fingerprint": "b04a823b7eecb6361dbab8cb4aecc2892bd4a6d9f9bf898e5136571bb1dd45a3",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-feature-delivery",
       "updated_at": "2026-07-15"
     },
     "fullstack-qa-weekly-report": {
-      "version": "1.0.0",
-      "fingerprint": "c9a26c2875b90780404c1cd40d9380b4136af365b0a558eaf843230335d1405f",
+      "version": "1.0.1",
+      "fingerprint": "18391c1c8d2ad743299818fc06337fda2941a771e1b232f4a91764e1e55e34d4",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report",
       "updated_at": "2026-07-15"
     },
     "fullstack-quality-engineer": {
-      "version": "1.0.1",
-      "fingerprint": "173b791cf89acb3397f5a03d51a45a3cf58d497e997c1ddacaf1f08a65da939d",
+      "version": "1.0.2",
+      "fingerprint": "0856309d04f9867fdddc70b8c721a0d07d980c64ef9aaf2179843cd8b9c873bc",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-quality-engineer",
       "updated_at": "2026-07-15"
     },
@@ -279,8 +279,8 @@
       "updated_at": "2026-07-15"
     },
     "senior-hr-recruiting-manager-weekly-report": {
-      "version": "1.0.1",
-      "fingerprint": "b127cb12963257aca10f5dbfffa03c30b46a44ae2d14a3203c5b72dbc5ecacdd",
+      "version": "1.0.2",
+      "fingerprint": "e07c27bfbc3c46421e120629fb38a57b7bb00512a912ac30bdf8082f1b56afaa",
       "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
@@ -1023,8 +1023,8 @@
       "updated_at": "2026-07-15"
     },
     "senior-cashier-treasury-specialist-weekly-report": {
-      "version": "1.0.1",
-      "fingerprint": "30fff761a0449d50693dd2c0929d64405fb888564b377fec6acfa432cd3ce92c",
+      "version": "1.0.2",
+      "fingerprint": "47d17c3595cd10bd3d9fcdf228d952546a804b6e1619a99c8c1fd940f107679e",
       "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report",
       "updated_at": "2026-07-15"
     },

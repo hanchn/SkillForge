@@ -27,7 +27,8 @@
 | 能力 | Skill | 核心职责 |
 |---|---|---|
 | 虚拟模特 | `virtual-model-content-producer` | 模特生成/替换、虚拟试穿、人物授权和商品一致性 |
-| AI 成片 | `ai-image-video-production-manager` | 图片视频生成、模型路由、合成、版本和人工验收 |
+| AIGC 制作 | `ai-image-video-production-manager` | 文生图、图生图、文生视频、图生视频、局部修改、批量变体和人工验收 |
+| 智能打标 | `creative-asset-intelligent-tagging-specialist` | 图片视频标签建议、人审、批量回写、抽检、版本、回滚和效果标签 |
 | 智能剪辑 | `intelligent-video-editing-specialist` | 镜头识别、粗剪、字幕、画幅、多语言和批量交付 |
 | 真实性合规 | `ai-creative-authenticity-compliance-reviewer` | 商品失真、人物权利、版权、披露、平台和生成血缘 |
 
@@ -41,4 +42,5 @@
 
 | 版本 | 日期 | 更新内容 |
 |---|---|---|
+| 1.1.0 | 2026-07-15 | 新增创意素材智能打标，并将 AI 成片升级为完整 AIGC 创意制作能力。 |
 | 1.0.0 | 2026-07-15 | 建立创意拍摄一级分类、主角色、传统制作和 AI 创意制作完整能力族。 |

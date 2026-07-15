@@ -203,19 +203,19 @@
   - 路径：`互联网研发/测试/test-strategy-designer/`
   - 分类：互联网研发 / 测试 / 测试策略
   - 用途：根据变更影响和风险设计分层覆盖、发布门槛与生产验证方案
-- **全栈开发资深专家**（`fullstack-feature-delivery`，v1.0.1）
+- **全栈开发资深专家**（`fullstack-feature-delivery`，v1.0.2）
   - 路径：`互联网研发/研发角色/全栈开发/fullstack-feature-delivery/`
   - 分类：互联网研发 / 研发角色 / 全栈开发
   - 用途：Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification
-- **全栈开发周报生成器**（`fullstack-developer-weekly-report`，v1.0.0）
+- **全栈开发资深专家周报**（`fullstack-developer-weekly-report`，v1.0.1）
   - 路径：`互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report/`
   - 分类：互联网研发 / 研发角色 / 全栈开发 / 周报
   - 用途：Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes
-- **全栈测试资深专家**（`fullstack-quality-engineer`，v1.0.1）
+- **全栈测试资深专家**（`fullstack-quality-engineer`，v1.0.2）
   - 路径：`互联网研发/研发角色/全栈测试/fullstack-quality-engineer/`
   - 分类：互联网研发 / 研发角色 / 全栈测试
   - 用途：Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain
-- **全栈测试周报生成器**（`fullstack-qa-weekly-report`，v1.0.0）
+- **全栈测试资深专家周报**（`fullstack-qa-weekly-report`，v1.0.1）
   - 路径：`互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report/`
   - 分类：互联网研发 / 研发角色 / 全栈测试 / 周报
   - 用途：Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics
@@ -225,10 +225,10 @@
   - 路径：`人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager/`
   - 分类：人事招聘 / 人事角色 / 人事招聘资深经理
   - 用途：统筹组织编制、招聘、面试、录用、入离职、员工档案、绩效协同和员工关系，确保人才供给与业务目标匹配。适用于人事招聘体系建设、年度或季度人才规划、关键岗位招聘和员工生命周期治理，交付人力目标与责任矩阵、人事招聘专项 Skill 编排、人才、组织风险和执行节奏。
-- **人事招聘资深经理周报**（`senior-hr-recruiting-manager-weekly-report`，v1.0.1）
+- **人事招聘资深经理周报**（`senior-hr-recruiting-manager-weekly-report`，v1.0.2）
   - 路径：`人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report/`
   - 分类：人事招聘 / 人事角色 / 人事招聘资深经理
-  - 用途：基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘负责人周报。适用于人事招聘周度复盘、关键岗位和人才风险同步、入离职、员工关系和跨团队事项跟踪，交付人事招聘周报、招聘漏斗与岗位进展、人员风险、决策和下周行动。
+  - 用途：基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘资深经理周报。适用于人事招聘周度复盘、关键岗位和人才风险同步、入离职、员工关系和跨团队事项跟踪，交付人事招聘周报、招聘漏斗与岗位进展、人员风险、决策和下周行动。
 - **候选人寻访运营专员**（`candidate-sourcing-operator`，v1.0.0）
   - 路径：`人事招聘/人才寻访/candidate-sourcing-operator/`
   - 分类：人事招聘 / 人才寻访
@@ -739,10 +739,10 @@
   - 路径：`财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist/`
   - 分类：财务出纳 / 出纳角色 / 资金出纳资深经理
   - 用途：统筹现金、银行账户、收付款、报销票据、资金日结和支付安全，在授权范围内保证资金执行准确、及时、可追溯。适用于公司日常出纳工作统筹、多账户多币种收付款安排、支付异常和资金安全治理，交付出纳责任与权限矩阵、收付款和日结执行计划、资金异常、复核和升级清单。
-- **资金出纳资深经理周报**（`senior-cashier-treasury-specialist-weekly-report`，v1.0.1）
+- **资金出纳资深经理周报**（`senior-cashier-treasury-specialist-weekly-report`，v1.0.2）
   - 路径：`财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report/`
   - 分类：财务出纳 / 出纳角色 / 资金出纳资深经理
-  - 用途：基于银行流水、支付单据、余额和异常台账生成高级出纳周报。适用于出纳周度复盘、账户余额与大额资金变动同步、未达账、退票和支付风险跟踪，交付高级出纳周报、资金余额与收付款摘要、异常、待复核和下周资金事项。
+  - 用途：基于银行流水、支付单据、余额和异常台账生成资金出纳资深经理周报。适用于出纳周度复盘、账户余额与大额资金变动同步、未达账、退票和支付风险跟踪，交付资金出纳资深经理周报、资金余额与收付款摘要、异常、待复核和下周资金事项。
 - **报销与票据出纳专员**（`expense-reimbursement-cashier`，v1.0.0）
   - 路径：`财务出纳/报销与票据/expense-reimbursement-cashier/`
   - 分类：财务出纳 / 报销与票据

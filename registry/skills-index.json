@@ -1456,7 +1456,7 @@
     {
       "name": "fullstack-feature-delivery",
       "display_name": "全栈开发资深专家",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification",
       "category_path": [
         "互联网研发",
@@ -1489,8 +1489,8 @@
     },
     {
       "name": "fullstack-developer-weekly-report",
-      "display_name": "全栈开发周报生成器",
-      "version": "1.0.0",
+      "display_name": "全栈开发资深专家周报",
+      "version": "1.0.1",
       "description": "Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes",
       "category_path": [
         "互联网研发",
@@ -1526,7 +1526,7 @@
     {
       "name": "fullstack-quality-engineer",
       "display_name": "全栈测试资深专家",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain",
       "category_path": [
         "互联网研发",
@@ -1559,8 +1559,8 @@
     },
     {
       "name": "fullstack-qa-weekly-report",
-      "display_name": "全栈测试周报生成器",
-      "version": "1.0.0",
+      "display_name": "全栈测试资深专家周报",
+      "version": "1.0.1",
       "description": "Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics",
       "category_path": [
         "互联网研发",
@@ -1631,8 +1631,8 @@
     {
       "name": "senior-hr-recruiting-manager-weekly-report",
       "display_name": "人事招聘资深经理周报",
-      "version": "1.0.1",
-      "description": "基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘负责人周报。适用于人事招聘周度复盘、关键岗位和人才风险同步、入离职、员工关系和跨团队事项跟踪，交付人事招聘周报、招聘漏斗与岗位进展、人员风险、决策和下周行动。",
+      "version": "1.0.2",
+      "description": "基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘资深经理周报。适用于人事招聘周度复盘、关键岗位和人才风险同步、入离职、员工关系和跨团队事项跟踪，交付人事招聘周报、招聘漏斗与岗位进展、人员风险、决策和下周行动。",
       "category_path": [
         "人事招聘",
         "人事角色",
@@ -5897,8 +5897,8 @@
     {
       "name": "senior-cashier-treasury-specialist-weekly-report",
       "display_name": "资金出纳资深经理周报",
-      "version": "1.0.1",
-      "description": "基于银行流水、支付单据、余额和异常台账生成高级出纳周报。适用于出纳周度复盘、账户余额与大额资金变动同步、未达账、退票和支付风险跟踪，交付高级出纳周报、资金余额与收付款摘要、异常、待复核和下周资金事项。",
+      "version": "1.0.2",
+      "description": "基于银行流水、支付单据、余额和异常台账生成资金出纳资深经理周报。适用于出纳周度复盘、账户余额与大额资金变动同步、未达账、退票和支付风险跟踪，交付资金出纳资深经理周报、资金余额与收付款摘要、异常、待复核和下周资金事项。",
       "category_path": [
         "财务出纳",
         "出纳角色",

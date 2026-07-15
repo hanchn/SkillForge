@@ -1,11 +1,11 @@
 ---
 name: senior-cashier-treasury-specialist-weekly-report
-description: 基于银行流水、支付单据、余额和异常台账生成高级出纳周报。 Use when an AI needs to handle 出纳周度复盘, 账户余额与大额资金变动同步, 未达账、退票和支付风险跟踪; produce 高级出纳周报, 资金余额与收付款摘要, 异常、待复核和下周资金事项; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+description: 基于银行流水、支付单据、余额和异常台账生成资金出纳资深经理周报。 Use when an AI needs to handle 出纳周度复盘, 账户余额与大额资金变动同步, 未达账、退票和支付风险跟踪; produce 资金出纳资深经理周报, 资金余额与收付款摘要, 异常、待复核和下周资金事项; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
 # 资金出纳资深经理周报
 
-基于银行流水、支付单据、余额和异常台账生成高级出纳周报。
+基于银行流水、支付单据、余额和异常台账生成资金出纳资深经理周报。
 
 ## Load resources
 

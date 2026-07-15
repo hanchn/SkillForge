@@ -3,7 +3,7 @@
   "display_name": "全栈测试资深专家",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",

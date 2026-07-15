@@ -890,7 +890,7 @@
     {
       "name": "fullstack-feature-delivery",
       "display_name": "全栈开发资深专家",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-feature-delivery",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -909,8 +909,8 @@
     },
     {
       "name": "fullstack-developer-weekly-report",
-      "display_name": "全栈开发周报生成器",
-      "version": "1.0.0",
+      "display_name": "全栈开发资深专家周报",
+      "version": "1.0.1",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -931,7 +931,7 @@
     {
       "name": "fullstack-quality-engineer",
       "display_name": "全栈测试资深专家",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-quality-engineer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -950,8 +950,8 @@
     },
     {
       "name": "fullstack-qa-weekly-report",
-      "display_name": "全栈测试周报生成器",
-      "version": "1.0.0",
+      "display_name": "全栈测试资深专家周报",
+      "version": "1.0.1",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -993,7 +993,7 @@
     {
       "name": "senior-hr-recruiting-manager-weekly-report",
       "display_name": "人事招聘资深经理周报",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3600,7 +3600,7 @@
     {
       "name": "senior-cashier-treasury-specialist-weekly-report",
       "display_name": "资金出纳资深经理周报",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",

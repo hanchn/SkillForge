@@ -1,11 +1,11 @@
 ---
 name: senior-hr-recruiting-manager-weekly-report
-description: 基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘负责人周报。 Use when an AI needs to handle 人事招聘周度复盘, 关键岗位和人才风险同步, 入离职、员工关系和跨团队事项跟踪; produce 人事招聘周报, 招聘漏斗与岗位进展, 人员风险、决策和下周行动; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+description: 基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘资深经理周报。 Use when an AI needs to handle 人事招聘周度复盘, 关键岗位和人才风险同步, 入离职、员工关系和跨团队事项跟踪; produce 人事招聘周报, 招聘漏斗与岗位进展, 人员风险、决策和下周行动; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
 # 人事招聘资深经理周报
 
-基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘负责人周报。
+基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘资深经理周报。
 
 ## Load resources
 

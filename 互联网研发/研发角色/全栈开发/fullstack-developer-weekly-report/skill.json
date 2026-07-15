@@ -3,7 +3,7 @@
   "display_name": "全栈开发资深专家周报",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",

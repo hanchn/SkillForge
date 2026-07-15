@@ -130,7 +130,8 @@ SPECS.extend([
     spec("创意拍摄/UGC制作/ugc-content-production-manager", "ugc-content-production-manager", "UGC 与达人内容制作经理", "creative-production", "管理创作者匹配、内容 brief、寄样、脚本边界、拍摄反馈、授权和交付，生产可信的原生用户内容。", ["UGC 广告素材采购", "达人寄样内容制作", "多创作者多角度内容测试"], ["创作者画像与筛选表", "UGC brief、脚本边界和反馈流程", "授权、交付、版本和表现复盘"], ["受众与创作者匹配", "真实体验和产品证据", "自然表达、钩子和镜头要求", "寄样、时间、费用和修改轮次", "广告披露、肖像内容授权和白名单投放"], "不得要求创作者伪装未发生的体验或隐藏商业关系；必须书面明确内容所有权、使用地域、期限、渠道、剪辑和投放权限。"),
     spec("创意拍摄/后期交付/post-production-delivery-manager", "post-production-delivery-manager", "剪辑后期与素材交付经理", "creative-production", "管理选片、剪辑、调色、修图、声音、字幕、包装、多语言版本、质检和多规格交付。", ["图片精修和批量导出", "短视频剪辑与多版本适配", "跨语言跨渠道素材交付"], ["后期任务与版本矩阵", "修图剪辑、字幕和声音规范", "质检、命名、归档和交付清单"], ["原始素材、选片和时间线", "调色、修图和事实还原", "节奏、声音、字幕和图形包装", "语言、比例、码率和渠道规格", "版本、反馈、授权、质检和归档"], "不得使用后期掩盖产品缺陷或改变关键事实；生成式填充、合成和 AI 修改必须可追溯并按渠道与合规要求披露或限制。"),
     spec("创意拍摄/AI创意制作/虚拟模特/virtual-model-content-producer", "virtual-model-content-producer", "虚拟模特内容制作专家", "ai-creative-production", "使用合规的人像生成、模特替换或虚拟试穿工具制作跨人群商品内容，并严格保持商品结构与真实属性。", ["服饰、配件和生活方式虚拟模特图", "多地区模特与场景版本", "真人素材的合规模特替换"], ["虚拟模特制作 brief", "身份、姿态、商品一致性和版本方案", "真实性、授权、偏差和交付验收报告"], ["商品版型、纹理、颜色和遮挡", "人物身份、年龄表达、体型和肤色覆盖", "姿态、手部、接触点和物理合理性", "输入人像、肖像权和训练使用授权", "跨版本一致性、合成披露和失败样本"], "不得未经授权复刻真实人物、名人或未成年人；不得改变商品版型、颜色、纹理、尺寸关系和功能效果，无法验证时必须标记为概念图。"),
-    spec("创意拍摄/AI创意制作/AI成片/ai-image-video-production-manager", "ai-image-video-production-manager", "AI 图片与视频成片专家", "ai-creative-production", "把商品事实、品牌规范、脚本和参考素材编排为可追溯的 AI 图片、视频生成与合成交付流程。", ["AI 商品场景图和广告图", "文生视频、图生视频和镜头扩展", "批量多语言多比例创意成片"], ["AI 成片制作方案和模型路由", "提示词、参考、参数与版本记录", "候选筛选、人工修正和交付质检包"], ["商品事实锁定与参考图", "模型、输入输出、参数和随机种", "镜头连续性、运动和物理合理性", "品牌、文字、人物和版权资产", "成本、时延、失败回退和人工验收"], "不得把生成结果当作真实拍摄证据；关键商品特征、文字、标识、人物和声明必须逐项人工核验，并保留输入、模型与修改血缘。"),
+    spec("创意拍摄/AI创意制作/AIGC制作/ai-image-video-production-manager", "ai-image-video-production-manager", "AIGC 创意制作专家", "ai-creative-production", "把商品事实、品牌规范、脚本和参考素材编排为可追溯的文生图、图生图、文生视频、图生视频、局部修改、批量变体与成片交付流程。", ["AIGC 商品场景图和广告图", "文生图、图生图、文生视频和图生视频", "多语言、多比例和多创意变量批量成片"], ["AIGC 创意方案与模型路由", "提示词、参考、参数、生成和修改血缘", "候选筛选、人工修正、版本矩阵和交付质检包"], ["商品事实锁定与参考图", "模型、输入输出、参数和随机种", "构图、文字、镜头连续性和物理合理性", "品牌、人物、版权和必要披露", "成本、时延、失败回退和人工验收"], "不得把生成结果当作真实拍摄证据；关键商品特征、文字、标识、人物和声明必须逐项人工核验，并保留输入、模型、参数与修改血缘。"),
+    spec("创意拍摄/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist", "creative-asset-intelligent-tagging-specialist", "创意素材智能打标专家", "creative-tagging", "为贵司图片、视频和创意素材库建立可执行的 AI 建议、人工复核、批量回写、质量抽检、版本和效果标签闭环。", ["存量图片视频批量打标", "新素材入库自动标签建议", "标签补全、纠错、搜索和效果归因治理"], ["素材标签体系映射与打标规则", "AI 候选、置信度、人工复核和批量回写方案", "质量抽检、错误集、版本、回滚和效果标签报告"], ["素材 ID、来源、权利和版本", "标签 taxonomy、定义、互斥和层级", "图片视频模型、置信度和候选策略", "人工确认、拒绝、修改和抽样质检", "CMS/DAM 回写、搜索、效果归因和标签版本"], "不得把模型标签直接当作事实；人物身份、敏感属性、商品关键属性和低置信度结果必须人工复核，批量回写必须可预览、审计和回滚。"),
     spec("创意拍摄/AI创意制作/智能剪辑/intelligent-video-editing-specialist", "intelligent-video-editing-specialist", "智能剪辑工作流专家", "ai-creative-production", "利用镜头识别、语音转写、节奏分析、自动重构和批量渲染工具提升粗剪、多版本与本地化交付效率。", ["长素材自动粗剪", "广告短视频批量变体", "字幕、配音、横竖版和多语言适配"], ["智能剪辑规则与时间线方案", "镜头、字幕、声音和版本矩阵", "人工复核、质量门禁和批量交付记录"], ["素材入库、镜头语义和优先级", "转写、说话人、字幕和敏感词", "节奏、静音、重复和 CTA", "画幅重构、主体跟踪和安全区", "音乐版权、语言质检、渲染和回退"], "自动剪辑不得跳过事实、字幕、肖像、版权和品牌人工复核；不得让模型自动删除改变原意的必要上下文。"),
     spec("创意拍摄/AI创意制作/真实性合规/ai-creative-authenticity-compliance-reviewer", "ai-creative-authenticity-compliance-reviewer", "AI 创意真实性与合规审查师", "ai-creative-production", "审查 AI 生成、替换、扩展和智能剪辑内容的商品真实性、人物权利、版权、披露、平台和证据要求。", ["AI 商品图视频上线前审查", "虚拟模特和数字人风险检查", "AI 素材来源、修改和披露审计"], ["AI 创意逐项审查表", "失真、权利和平台风险分级", "修改、披露、留档和禁止上线清单"], ["商品事实与生成差异", "人像、声音、肖像和深度合成", "版权、商标、字体和训练来源", "广告声明、误导和平台政策", "内容凭证、模型版本、人工修改和审批证据"], "不得仅凭视觉自然就认定合规；无法证明商品真实性、人物授权、版权来源或必要披露的内容必须暂停上线并升级法务或平台合规人员。"),
     spec("仓储库存/入库管理/warehouse-inbound-operations-manager", "warehouse-inbound-operations-manager", "仓库入库作业经理", "warehouse-operations", "管理预约、到货、卸货、收货、质检交接、差异、上架和库存状态生效的入库闭环。", ["采购或调拨入库", "多仓预约和上架治理", "短少、破损、错货和超收异常处理"], ["入库 SOP 与状态图", "预约、收货、差异和上架任务表", "SLA、证据、异常和对账清单"], ["ASN、采购单、调拨单和到货", "箱、托、SKU、批次和序列", "计数、质检、短溢损和拒收", "暂存、上架、库位和状态生效", "IMS/WMS/采购/财务对账和证据"], "不得在未完成数量、质量和差异记录时直接转为可售；实物、单据和系统状态不一致必须隔离并升级。"),
@@ -380,6 +381,14 @@ FAMILY_STEPS = {
         "将低置信度、敏感人物、关键商品差异和权利不明内容送入人工复核、重做、披露或禁止上线流程",
         "输出版本、证据、审批、交付和监控记录，支持回滚到原素材或人工制作，不宣称 AI 内容是真实拍摄",
     ],
+    "creative-tagging": [
+        "确认贵司素材库、CMS/DAM、素材 ID、标签使用场景、搜索与效果分析消费者以及回写权限",
+        "盘点现有标签 taxonomy、定义、层级、互斥依赖、必填范围、敏感等级、owner 和版本",
+        "选择图像或视频理解模型，定义候选数量、置信度、规则校验、人工复核和失败回退",
+        "用代表性金标样本评估准确率、召回率、人工一致性和关键标签错误，按场景设置阈值",
+        "执行候选生成、人工确认、批量预览、幂等回写、审计和回滚，保留模型与修改血缘",
+        "监测未识别、错标、标签漂移、搜索命中和素材表现回流，形成错误集与 taxonomy 迭代闭环",
+    ],
     "warehouse-operations": [
         "确认仓库、货主、SKU、批次、库存状态、渠道、订单或任务范围、系统事实源、SLA 和权限",
         "核对实物、单据、系统状态和时间点，区分现货、在途、预占、冻结、残次、退货和不可售",
@@ -557,6 +566,7 @@ OFFICIAL_SOURCES = {
     "privacy-data-protection-counsel": [("European Commission Data Protection", "https://commission.europa.eu/law/law-topic/data-protection_en")],
     "advertising-claims-legal-reviewer": [("FTC Advertising and Marketing", "https://www.ftc.gov/business-guidance/advertising-marketing"), ("FTC Endorsements", "https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements")],
     "cross-border-tax-vat-planner": [("EU VAT Place of Taxation", "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/place-taxation_en"), ("EU Ecommerce Customs and VAT", "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/customs-formalities-low-value-consignments_en")],
+    "creative-asset-intelligent-tagging-specialist": [("生成式人工智能服务管理暂行办法", "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"), ("中华人民共和国个人信息保护法", "https://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"), ("互联网信息服务算法推荐管理规定", "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm")],
 }
 
 
@@ -571,6 +581,12 @@ def write_skill(s):
         (base / folder).mkdir(exist_ok=True)
     desc = f"{s['positioning']} Use when an AI needs to handle {', '.join(s['scenarios'])}; produce {', '.join(s['outputs'])}; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice."
     steps = FAMILY_STEPS[s["family"]]
+    extra_load = ""
+    if s["name"] == "creative-asset-intelligent-tagging-specialist":
+        extra_load = """
+- 必须读取 `references/tagging-compliance-baseline.md`，并加载 `assets/allowed_tags.json`、`assets/restricted_tags.json`、`assets/forbidden_tags.json` 与 `assets/tagging-output.schema.json`。
+- 标签只能来自已批准标签库；受限标签转人工，禁止标签拒绝输出。业务方临时要求不得覆盖合规规则。
+"""
     skill = f"""---
 name: {s['name']}
 description: {desc}
@@ -586,6 +602,7 @@ description: {desc}
 - Read `references/professional-checklist.md` before making decisions.
 - Use `assets/delivery-template.md` for the final durable artifact.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
+{extra_load}
 
 ## Workflow
 
@@ -790,6 +807,121 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
     }
     (base / "skill.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    if s["name"] == "creative-asset-intelligent-tagging-specialist":
+        write_tagging_compliance_resources(base)
+
+
+def write_tagging_compliance_resources(base):
+    allowed = {
+        "library_version": "1.0.0",
+        "policy": "模型只能从本列表选择；正式使用前由贵司素材与合规 owner 审批",
+        "tags": [
+            "室内", "户外", "海滩", "泳池", "纯色背景", "生活方式场景",
+            "商品特写", "细节图", "正面", "背面", "侧面", "横版", "竖版",
+            "单人", "多人", "无人物", "单商品", "多商品", "包含文字",
+            "包含Logo", "包含水印", "蓝色", "黑色", "白色", "红色",
+        ],
+    }
+    restricted = {
+        "library_version": "1.0.0",
+        "action": "REVIEW_REQUIRED",
+        "tags": [
+            {"name": "疑似未成年人", "reason": "涉及未成年人保护与敏感个人信息风险"},
+            {"name": "人物正脸", "reason": "可能涉及肖像与生物识别处理风险"},
+            {"name": "性别表达", "reason": "仅在已确认业务必要且经审批时使用"},
+            {"name": "第三方Logo", "reason": "需要核验商标和商业授权"},
+            {"name": "第三方文字", "reason": "需要核验版权、声明和使用范围"},
+            {"name": "水印", "reason": "可能表明第三方权利或来源限制"},
+        ],
+    }
+    forbidden = {
+        "library_version": "1.0.0",
+        "action": "COMPLIANCE_REJECTED",
+        "tags": [
+            "具体人物身份", "姓名", "人脸身份", "精确年龄", "民族", "种族", "国籍推断",
+            "宗教信仰", "政治倾向", "性取向", "疾病", "残疾", "健康状态",
+            "经济状况", "收入水平", "社会阶层", "精确地址", "联系方式", "证件号码",
+            "美丑评价", "身材羞辱", "社会身份推断",
+        ],
+    }
+    schema = {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "Creative Asset Tagging Result",
+        "type": "object",
+        "required": ["skill_version", "model_name", "model_version", "tag_library_version", "input_asset_id", "tags", "person_present", "risk_level", "review_required", "decision", "created_at"],
+        "properties": {
+            "skill_version": {"type": "string"},
+            "model_name": {"type": "string"},
+            "model_version": {"type": "string"},
+            "tag_library_version": {"type": "string"},
+            "input_asset_id": {"type": "string"},
+            "tags": {"type": "array", "items": {"type": "object", "required": ["name", "confidence", "evidence", "source"], "properties": {"name": {"type": "string"}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}, "evidence": {"type": "string"}, "source": {"enum": ["visual", "metadata", "human"]}}},
+            "person_present": {"type": "boolean"},
+            "minor_status": {"enum": ["NOT_PRESENT", "ADULT_CONFIRMED_BY_METADATA", "POSSIBLE_MINOR", "UNKNOWN"]},
+            "copyright_risk": {"type": "object"},
+            "risk_level": {"enum": ["LOW", "MEDIUM", "HIGH"]},
+            "review_required": {"type": "boolean"},
+            "decision": {"enum": ["AUTO_ACCEPTED", "REVIEW_REQUIRED", "COMPLIANCE_REJECTED"]},
+            "review_result": {"type": ["string", "null"]},
+            "operator": {"type": ["string", "null"]},
+            "created_at": {"type": "string"},
+        },
+        "additionalProperties": False,
+    }
+    for name, value in [("allowed_tags.json", allowed), ("restricted_tags.json", restricted), ("forbidden_tags.json", forbidden), ("tagging-output.schema.json", schema)]:
+        (base / "assets" / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (base / "references/tagging-compliance-baseline.md").write_text("""# 智能打标合规基线
+
+## 能力边界
+
+本 Skill 是第一层规则约束，不是完整合规系统。它可以限制模型能读取的业务字段、允许输出的标签、转人工条件和拒绝条件，但不能单独提供真实权限隔离、阻止原图发送给外部模型、核验授权文件真伪、阻止规则被绕过或生成不可篡改审计日志。
+
+## 适用范围判断
+
+- 先确认部署地点、服务对象、是否向中国境内公众提供生成式人工智能服务、是否属于互联网信息服务以及是否调用外部模型。
+- 《生成式人工智能服务管理暂行办法》第二条规定其适用于向中国境内公众提供生成内容的服务；未向境内公众提供服务的企业内部研发应用不适用该办法。但个人信息、数据安全、知识产权、肖像和合同义务仍需独立评估。
+- 本 Skill 不是法律意见。适用范围、敏感个人信息处理、跨境传输和未成年人事项应交由贵司法务或合格专业人士确认。
+
+## 强制规则
+
+1. 只识别素材中可直接观察、与检索管理或营销用途必要的客观信息。
+2. 只能从 `allowed_tags.json` 选择自动标签，不得自由创造自然语言标签。
+3. `restricted_tags.json` 中任何标签必须设置 `REVIEW_REQUIRED`。
+4. 请求或模型候选命中 `forbidden_tags.json` 时拒绝对应标签；若任务目的本身要求敏感推断，则整单 `COMPLIANCE_REJECTED`。
+5. 不得根据外貌、肤色、服装、环境、姿态或文字推断民族、国籍、宗教、政治、健康、性取向、经济状况、社会身份或具体人物身份。
+6. 不做人脸识别，不输出姓名、联系方式、证件、精确地址或精确年龄。
+7. 检测到人物时默认提高风险；疑似未成年人或年龄无法确定时标记 `POSSIBLE_MINOR` 或 `UNKNOWN`，不得猜测年龄，并强制人工审核。
+8. Logo、水印、品牌名和第三方文字只能标记风险。授权状态必须来自素材中台的授权编号、地域、渠道、期限和权利人字段，不能从图片猜测。
+9. 每个标签必须带直接证据和置信度。默认：`>=0.85` 可自动接受，`0.60-0.85` 转人工，`<0.60` 不输出；受限或高风险标签不受自动阈值豁免。
+10. 输出必须通过 `tagging-output.schema.json`，并记录 Skill、模型、标签库、素材、审核、操作人与时间版本。
+
+## 最低系统控制
+
+- 上传前的数据分类、最小权限和外部模型出境/传输评估。
+- CMS/DAM 层的标签白名单校验、审批、幂等回写和回滚。
+- 授权书结构化字段与原件访问控制。
+- 人工审核队列、双人复核条件、日志和留存期限。
+- 定期金标抽检、错误集、模型漂移和标签库版本评审。
+
+## 官方依据
+
+- [生成式人工智能服务管理暂行办法](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+- [中华人民共和国个人信息保护法](https://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html)
+- [互联网信息服务算法推荐管理规定](https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm)
+""", encoding="utf-8")
+    (base / "eval/acceptance.md").write_text("""# 智能打标验收
+
+- [ ] 输入素材在授权范围内，外部模型、数据传输和保存边界已确认
+- [ ] 所有自动标签均来自允许标签库，且有直接视觉或已授权元数据证据
+- [ ] 受限标签全部进入人工审核，禁止标签未被输出
+- [ ] 人物素材未做人脸身份、敏感属性、精确年龄或社会属性推断
+- [ ] 疑似未成年人、正脸、Logo、水印和第三方文字已强制转人工
+- [ ] 每个标签包含置信度、证据和来源，阈值规则执行正确
+- [ ] 输出通过 JSON Schema，记录 Skill、模型、标签库、素材和审核版本
+- [ ] 批量回写具备预览、幂等、审计、权限和回滚
+- [ ] 明确标注 Skill 无法替代的权限、授权真实性和不可篡改审计控制
+""", encoding="utf-8")
+
 
 for item in SPECS:
     write_skill(item)
@@ -865,8 +997,8 @@ CATEGORIES = {
     "互联网研发/产品/系统产品架构/CRM": ("CRM 产品架构", "客户关系系统的产品架构和后续细分 Skill。"),
     "互联网研发/产品/系统产品架构/PLM": ("PLM 产品架构", "产品生命周期系统的产品架构和后续细分 Skill。"),
     "互联网研发/产品/系统产品架构/WMS": ("WMS 产品架构", "仓储管理系统的产品架构和后续细分 Skill。"),
-    "创意拍摄": ("创意拍摄", "覆盖创意策略、制片统筹、商品摄影、短视频、UGC、后期、素材资产与 AI 创意制作。参见 [创意拍摄 Skill 地图](CREATIVE_PRODUCTION_SKILLS_MAP.md)。"),
-    "创意拍摄/创意角色": ("创意拍摄主角色", "沉淀创意拍摄高级经理及专属周报 Skill。"),
+    "创意拍摄": ("创意拍摄", "覆盖创意策略、制片统筹、商品摄影、短视频、UGC、后期、素材资产、智能打标与 AIGC 创意制作。参见 [创意拍摄 Skill 地图](CREATIVE_PRODUCTION_SKILLS_MAP.md)。"),
+    "创意拍摄/创意角色": ("创意拍摄主角色", "沉淀创意拍摄资深经理及专属周报 Skill。"),
     "创意拍摄/创意策略": ("创意策略", "把人群洞察、产品证据和平台语法转化为可制作、可测试的创意方案。"),
     "创意拍摄/拍摄统筹": ("拍摄统筹", "管理预算、排期、样品、人员、供应商、场地、设备和现场安全。"),
     "创意拍摄/商品摄影": ("商品摄影", "管理主图、细节、场景、模特摄影与商品真实性。"),
@@ -877,11 +1009,12 @@ CATEGORIES = {
     "创意拍摄/素材运营": ("创意素材运营", "管理素材需求、标签、版本、授权、分发、表现回流和复用。"),
     "创意拍摄/AI创意制作": ("AI 创意制作", "以工具编排、商品真实性、生成血缘和人工质量门禁管理 AI 内容生产。"),
     "创意拍摄/AI创意制作/虚拟模特": ("虚拟模特", "管理人像生成、模特替换、虚拟试穿、授权和商品一致性。"),
-    "创意拍摄/AI创意制作/AI成片": ("AI 成片", "管理 AI 图片视频生成、合成、版本、人工修正和交付。"),
+    "创意拍摄/AI创意制作/AIGC制作": ("AIGC 创意制作", "管理文生图、图生图、文生视频、图生视频、局部修改、批量变体和成片交付。"),
+    "创意拍摄/AI创意制作/智能打标": ("创意素材智能打标", "管理素材标签体系、模型建议、人审、批量回写、质量抽检、版本和效果标签闭环。"),
     "创意拍摄/AI创意制作/智能剪辑": ("智能剪辑", "管理镜头识别、粗剪、字幕、比例、多语言和批量版本。"),
     "创意拍摄/AI创意制作/真实性合规": ("AI 创意真实性与合规", "审查商品失真、人物权利、版权、披露、平台与生成证据。"),
     "仓储库存": ("仓储库存", "覆盖供应链与仓储主角色、库存计划、入出库、库存控制、分配、履约物流、逆向、仓容安全和跨系统对账。参见 [仓储库存 Skill 地图](WAREHOUSE_INVENTORY_SKILLS_MAP.md)。"),
-    "仓储库存/仓储角色": ("仓储库存主角色", "沉淀供应链高级经理、仓储库存高级经理及各自专属周报 Skill。"),
+    "仓储库存/仓储角色": ("仓储库存主角色", "沉淀供应链资深经理、仓储库存资深经理及各自专属周报 Skill。"),
     "仓储库存/库存计划": ("库存与补货计划", "管理需求、提前期、安全库存、订货点、在途和资金仓容约束。"),
     "仓储库存/入库管理": ("入库管理", "管理预约、到货、收货、差异、质检交接、上架和状态生效。"),
     "仓储库存/出库履约": ("出库履约", "管理释放、波次、拣选、复核、包装、称重、面单和交接。"),
@@ -891,7 +1024,7 @@ CATEGORIES = {
     "仓储库存/逆向物流": ("逆向物流", "管理退货、检验、分级、退款证据、再售、报废和追偿。"),
     "仓储库存/仓容安全": ("仓容与安全", "管理库位容量、动线、设备、人员、消防、危险品和连续性。"),
     "市场采购": ("市场采购", "覆盖市场采购主角色、市场机会、选品、样品、供应商质量、成本谈判、采购执行和采购风险。参见 [市场采购 Skill 地图](MARKET_PROCUREMENT_SKILLS_MAP.md)。"),
-    "市场采购/采购角色": ("市场采购主角色", "沉淀选品与商品高级经理、市场采购高级经理及各自专属周报 Skill。"),
+    "市场采购/采购角色": ("市场采购主角色", "沉淀选品与商品资深经理、市场采购资深经理及各自专属周报 Skill。"),
     "市场采购/市场机会": ("市场机会", "管理消费者需求、竞争、价格带、单位经济、供应和反证。"),
     "市场采购/选品": ("选品", "管理跨境商品机会研究、验证、评分、试点和退出。"),
     "市场采购/样品验证": ("样品验证", "管理打样、比样、测试、问题关闭、封样和量产放行。"),
@@ -920,13 +1053,13 @@ CATEGORIES.update({
     "渠道运营": ("渠道运营", "以平台、店铺、商品、商业化和客户体验为核心，对渠道收入、利润和经营健康负责。参见 [渠道运营 Skill 地图](CHANNEL_OPERATIONS_SKILLS_MAP.md)。"),
     "渠道运营/运营角色": ("渠道运营主角色", "沉淀渠道经营主角色 Skill，并由主角色编排各专项执行 Skill。"),
     "客服售前": ("客服售前", "覆盖购买前咨询、商品推荐、多语言沟通、知识库、线索分级、质检培训与销售交接。参见 [客服售前 Skill 地图](CUSTOMER_PRESALES_SKILLS_MAP.md)。"),
-    "客服售前/客服角色": ("客服售前主角色", "沉淀客服售前高级经理及专属周报 Skill。"),
-    "客服售前/客服角色/客服售前高级经理": ("客服售前高级经理", "统筹跨渠道售前服务、知识、质量、线索与销售交接。"),
+    "客服售前/客服角色": ("客服售前主角色", "沉淀客服售前资深经理及专属周报 Skill。"),
+    "客服售前/客服角色/客服售前资深经理": ("客服售前资深经理", "统筹跨渠道售前服务、知识、质量、线索与销售交接。"),
     "客服售前/客服运营": ("客服运营", "管理跨渠道、多语言客服接待、话术、权限、升级与客户声音。"),
     "精准营销": ("精准营销", "以人群、内容、触达、转化、留存和增量衡量为核心，对营销效率和客户价值负责。参见 [精准营销 Skill 地图](PRECISION_MARKETING_SKILLS_MAP.md)。"),
     "精准营销/营销角色": ("精准营销主角色", "沉淀品牌内容和增长营销主角色 Skill，并由主角色编排各专项执行 Skill。"),
     "法律政务": ("法律政务", "覆盖跨境法务主角色、合同、监管、知识产权、隐私、广告消费者保护、用工、争议和公司治理。参见 [法律 Skill 地图](LEGAL_SKILLS_MAP.md)。"),
-    "法律政务/法律角色": ("法律主角色", "沉淀跨境法务负责人及专属周报 Skill。"),
+    "法律政务/法律角色": ("法律主角色", "沉淀跨境法务资深经理及专属周报 Skill。"),
     "法律政务/法律角色/跨境法务资深经理": ("跨境法务资深经理", "统筹跨境法律风险、专项审查和外部律师升级。"),
     "法律政务/跨境监管": ("跨境监管", "识别国家、主体、产品、渠道和贸易监管责任。"),
     "法律政务/进出口合规": ("进出口合规", "审查商品、主体、路线、海关、制裁、出口管制和报关证据。"),
@@ -939,22 +1072,22 @@ CATEGORIES.update({
     "法律政务/争议解决": ("争议解决", "管理事实、证据、时效、策略和外部律师协同。"),
     "法律政务/公司治理": ("公司治理", "管理实体、授权、决议、利益冲突和法定档案。"),
     "财务出纳": ("财务出纳", "覆盖跨境财务治理以及出纳收付款、银行对账、报销票据和资金安全。参见 [财务与出纳 Skill 地图](FINANCE_SKILLS_MAP.md)。"),
-    "财务出纳/财务角色": ("财务主角色", "沉淀跨境财务高级经理及专属周报 Skill。"),
+    "财务出纳/财务角色": ("财务主角色", "沉淀跨境财务资深经理及专属周报 Skill。"),
     "财务出纳/财务角色/跨境财务资深经理": ("跨境财务资深经理", "统筹会计、管理报表、预算、现金、税务、外汇和内控。"),
     "财务出纳/核算关账": ("核算关账", "管理平台、支付、银行、库存和总账关账对账。"),
     "财务出纳/预算管理": ("预算管理", "管理驱动型预算、滚动预测和差异纠偏。"),
     "财务出纳/资金管理": ("资金管理", "管理现金、营运资金、多币种头寸和汇率风险。"),
     "财务出纳/税务合规": ("税务合规", "管理跨境 VAT、销售税、关税和税务证据。"),
     "财务出纳/经营财务": ("经营财务", "连接财务账、商品渠道单位经济和经营决策。"),
-    "财务出纳/出纳角色": ("出纳主角色", "沉淀高级出纳及专属周报 Skill，承担资金执行而非账务审批。"),
+    "财务出纳/出纳角色": ("出纳主角色", "沉淀资金出纳资深经理及专属周报 Skill，承担资金执行而非账务审批。"),
     "财务出纳/出纳角色/资金出纳资深经理": ("资金出纳资深经理", "统筹收付款、银行账户、票据、日结和资金安全。"),
     "财务出纳/收付款": ("收付款", "管理申请、审批、执行、回单、状态和异常闭环。"),
     "财务出纳/银行与对账": ("银行与出纳对账", "管理银行账户、日记账、余额和未达账项。"),
     "财务出纳/报销与票据": ("报销与票据", "管理报销、备用金、票据和支付凭证。"),
     "财务出纳/资金安全": ("资金安全", "管理支付分权、限额、UKey、印鉴、反欺诈和应急。"),
-    "人事招聘": ("人事招聘", "覆盖人事招聘负责人、编制规划、人才寻访、面试评估、录用入职、员工生命周期和员工关系。参见 [人事招聘 Skill 地图](HR_RECRUITING_SKILLS_MAP.md)。"),
+    "人事招聘": ("人事招聘", "覆盖人事招聘资深经理、编制规划、人才寻访、面试评估、录用入职、员工生命周期和员工关系。参见 [人事招聘 Skill 地图](HR_RECRUITING_SKILLS_MAP.md)。"),
     "人事招聘/公共": ("人事招聘公共能力", "提供日常人事招聘任务的统一接管、分类、路由和交接入口。"),
-    "人事招聘/人事角色": ("人事招聘主角色", "沉淀人事招聘负责人及专属周报 Skill。"),
+    "人事招聘/人事角色": ("人事招聘主角色", "沉淀人事招聘资深经理及专属周报 Skill。"),
     "人事招聘/人事角色/人事招聘资深经理": ("人事招聘资深经理", "统筹组织编制、招聘、入离职、档案、绩效协同和员工关系。"),
     "人事招聘/招聘规划": ("招聘规划", "把业务目标、组织能力和预算转化为编制与招聘计划。"),
     "人事招聘/岗位与JD": ("岗位与 JD", "把岗位事实和成功标准转化为内部岗位说明书、招聘 JD 与评估证据。"),
@@ -980,11 +1113,11 @@ def category_readme(relative, title, summary):
         rows.append(f"- [{data['display_name']}]({skill_dir.as_posix()}/README.md)：{data['description']}")
     top = Path(relative).parts[0]
     if top == "法律政务":
-        principles = ["先确认司法辖区、主体、适用时间和授权边界。", "复杂或高风险事项以跨境法务负责人为主 Skill，专项 Skill 提供深度审查。", "Skill 不替代正式法律意见；明确外部律师升级条件。"]
+        principles = ["先确认司法辖区、主体、适用时间和授权边界。", "复杂或高风险事项以跨境法务资深经理为主 Skill，专项 Skill 提供深度审查。", "Skill 不替代正式法律意见；明确外部律师升级条件。"]
     elif top == "财务出纳":
-        principles = ["先确认主体、期间、币种、账户、账簿和授权边界。", "跨境财务高级经理负责会计治理，高级出纳负责授权范围内的资金执行。", "申请、审批、付款、记账和对账必须职责分离；预估和未达账必须明确标记。"]
+        principles = ["先确认主体、期间、币种、账户、账簿和授权边界。", "跨境财务资深经理负责会计治理，资金出纳资深经理负责授权范围内的资金执行。", "申请、审批、付款、记账和对账必须职责分离；预估和未达账必须明确标记。"]
     elif top == "人事招聘":
-        principles = ["先确认业务目标、组织范围、工作地、用工主体、编制和岗位成功标准。", "人事招聘负责人负责目标与编排，专项 Skill 负责规划、寻访、面试、录用和员工流程。", "坚持岗位相关、数据最小化和一致标准；劳动法律事项升级法务和当地专业人士。"]
+        principles = ["先确认业务目标、组织范围、工作地、用工主体、编制和岗位成功标准。", "人事招聘资深经理负责目标与编排，专项 Skill 负责规划、寻访、面试、录用和员工流程。", "坚持岗位相关、数据最小化和一致标准；劳动法律事项升级法务和当地专业人士。"]
     elif top == "客服售前":
         principles = ["先确认国家、渠道、语言、商品事实源、服务阶段和坐席权限。", "客服售前负责购买前咨询、推荐和线索交接；渠道运营负责店铺经营与售后体验，市场采购和仓储库存提供商品与库存事实。", "不得为转化虚构功能、现货、折扣或送达承诺；敏感语言和高风险声明必须人工复核。"]
     elif top in {"渠道运营", "精准营销"}:
