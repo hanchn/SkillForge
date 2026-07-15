@@ -431,6 +431,12 @@ for business_root in [ROOT / "渠道运营", ROOT / "精准营销"]:
         data = json.loads(meta_path.read_text(encoding="utf-8"))
         data["category_path"] = list(meta_path.parent.relative_to(ROOT).parts[:-1])
         meta_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        readme_path = meta_path.parent / "README.md"
+        if readme_path.exists():
+            readme = readme_path.read_text(encoding="utf-8")
+            category_text = " / ".join(data["category_path"])
+            readme = __import__("re").sub(r"> 所属分类：[^\n]+", f"> 所属分类：{category_text}", readme, count=1)
+            readme_path.write_text(readme, encoding="utf-8")
 
 CATEGORIES = {
     "互联网研发/产品/系统产品架构": ("系统产品架构", "互联网研发产品职能下的企业业务系统产品架构，覆盖跨系统总架构和各系统专项架构。"),
@@ -490,9 +496,9 @@ CATEGORIES = {
 }
 
 CATEGORIES.update({
-    "渠道运营": ("渠道运营", "以平台、店铺、商品、供应链、履约和客户体验为核心，对渠道收入、利润、库存和经营健康负责。"),
+    "渠道运营": ("渠道运营", "以平台、店铺、商品、供应链、履约和客户体验为核心，对渠道收入、利润、库存和经营健康负责。参见 [渠道运营 Skill 地图](CHANNEL_OPERATIONS_SKILLS_MAP.md)。"),
     "渠道运营/运营角色": ("渠道运营主角色", "沉淀渠道经营主角色 Skill，并由主角色编排各专项执行 Skill。"),
-    "精准营销": ("精准营销", "以人群、内容、触达、转化、留存和增量衡量为核心，对营销效率和客户价值负责。"),
+    "精准营销": ("精准营销", "以人群、内容、触达、转化、留存和增量衡量为核心，对营销效率和客户价值负责。参见 [精准营销 Skill 地图](PRECISION_MARKETING_SKILLS_MAP.md)。"),
     "精准营销/营销角色": ("精准营销主角色", "沉淀品牌内容和增长营销主角色 Skill，并由主角色编排各专项执行 Skill。"),
 })
 for role_area, folder, _role_id, display, _positioning, _lenses in ROLE_DEFS:
