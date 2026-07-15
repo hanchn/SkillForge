@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Gin 后端架构师](gin-backend-architecture/README.md)：围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。 Use when an AI needs to handle Gin API 新建或重构, 高吞吐 Go HTTP 服务, middleware 和安全治理; produce Gin 路由与模块架构, middleware 和依赖方案, 性能、安全和部署计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Gin 后端架构师](gin-backend-architecture/README.md)：围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。适用于Gin API 新建或重构、高吞吐 Go HTTP 服务、middleware 和安全治理，交付Gin 路由与模块架构、middleware 和依赖方案、性能、安全和部署计划。
 
 ## 迭代记录
 

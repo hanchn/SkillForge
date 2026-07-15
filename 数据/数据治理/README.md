@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [业务数据质量与对账专家](data-quality-reconciliation/README.md)：验证完整性、唯一性、及时性、一致性并解释跨系统差异。 Use when an AI needs to handle 平台与财务对账, 看板数据验收, 异常数据和口径争议; produce 数据质量报告, 差异桥和根因, 修复、监控和责任清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [业务数据质量与对账专家](data-quality-reconciliation/README.md)：验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。
 
 ## 迭代记录
 

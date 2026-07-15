@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [跨境品牌定位策略师](brand-positioning-strategist/README.md)：以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。 Use when an AI needs to handle 新品牌定位, 品牌升级或多市场适配, 产品线信息架构统一; produce 定位陈述, 价值支柱与证据, 品牌信息和禁用表达; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境品牌定位策略师](brand-positioning-strategist/README.md)：以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。
 
 ## 迭代记录
 

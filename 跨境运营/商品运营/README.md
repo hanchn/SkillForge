@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [平台商品信息优化师](marketplace-listing-optimizer/README.md)：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。 Use when an AI needs to handle Amazon 等平台 listing 优化, 新品信息搭建, 低流量或低转化详情修复; produce 关键词和信息架构, 标题、卖点和详情建议, 合规与实验清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [平台商品信息优化师](marketplace-listing-optimizer/README.md)：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。适用于Amazon 等平台 listing 优化、新品信息搭建、低流量或低转化详情修复，交付关键词和信息架构、标题、卖点和详情建议、合规与实验清单。
 
 ## 迭代记录
 

@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [跨境活动营销经理](promotion-calendar-manager/README.md)：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。 Use when an AI needs to handle 黑五网一和节日大促, 季度促销规划, 多渠道活动冲突治理; produce 年度/季度活动日历, 活动机制和资源表, 上线检查与复盘模板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境活动营销经理](promotion-calendar-manager/README.md)：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。适用于黑五网一和节日大促、季度促销规划、多渠道活动冲突治理，交付年度/季度活动日历、活动机制和资源表、上线检查与复盘模板。
 
 ## 迭代记录
 

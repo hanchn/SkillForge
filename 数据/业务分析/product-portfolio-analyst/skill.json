@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。 Use when an AI needs to handle SKU 分层, 新品和长尾评估, 淘汰、补货与资源分配; produce 商品组合矩阵, SKU 诊断与动作, 新品、保留和退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。",
   "search_keywords": [
     "SKU 分层",
     "新品和长尾评估",

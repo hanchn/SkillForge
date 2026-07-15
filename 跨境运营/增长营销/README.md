@@ -12,8 +12,8 @@
 
 ## 当前 Skill
 
-- [跨境全链路增长负责人](cross-border-growth-operator/README.md)：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。 Use when an AI needs to handle 季度增长规划, GMV 或利润增长诊断, 跨团队增长实验组合; produce 增长模型和机会树, 实验组合与责任矩阵, 周度经营节奏和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
-- [跨渠道营销归因规划师](marketing-attribution-planner/README.md)：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。 Use when an AI needs to handle 广告平台与 GA4 对数, 多触点归因治理, 预算分配和增量评估; produce 归因测量方案, 渠道数据和 UTM 规范, 模型差异、实验与决策规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境全链路增长负责人](cross-border-growth-operator/README.md)：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。
+- [跨渠道营销归因规划师](marketing-attribution-planner/README.md)：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。
 
 ## 迭代记录
 

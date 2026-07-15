@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Node.js 后端架构师](nodejs-backend-architecture/README.md)：按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。 Use when an AI needs to handle Node.js API 和 BFF, 高 I/O 服务架构, CommonJS 到 ESM 迁移; produce Node.js 模块架构, 异步与资源模型, 可靠性和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Node.js 后端架构师](nodejs-backend-architecture/README.md)：按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。适用于Node.js API 和 BFF、高 I/O 服务架构、CommonJS 到 ESM 迁移，交付Node.js 模块架构、异步与资源模型、可靠性和部署方案。
 
 ## 迭代记录
 

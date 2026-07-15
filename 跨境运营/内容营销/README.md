@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [跨境内容营销规划师](content-marketing-planner/README.md)：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。 Use when an AI needs to handle 博客和指南规划, 季度内容矩阵, SEO、社媒、邮件内容协同; produce 内容战略, 主题集群和编辑日历, 分发、转化与衡量方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境内容营销规划师](content-marketing-planner/README.md)：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。
 
 ## 迭代记录
 

@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [跨境广告创意策略师](creative-strategy-producer/README.md)：从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。 Use when an AI needs to handle 广告素材策略, UGC brief 和脚本矩阵, 创意疲劳治理; produce 创意策略地图, 角度、钩子和脚本矩阵, 测试编码与复盘规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境广告创意策略师](creative-strategy-producer/README.md)：从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。
 
 ## 迭代记录
 

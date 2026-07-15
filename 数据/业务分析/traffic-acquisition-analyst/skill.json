@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。 Use when an AI needs to handle 渠道流量波动, 自然与付费获客质量, UTM 和来源口径排查; produce 流量来源分析, 质量与成本矩阵, 归因限制和优化建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。",
   "search_keywords": [
     "渠道流量波动",
     "自然与付费获客质量",

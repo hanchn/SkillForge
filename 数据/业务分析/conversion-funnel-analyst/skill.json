@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "按一致人群、事件和时间窗定位从曝光到购买的转化损失。 Use when an AI needs to handle 商品或结账转化下降, 设备国家渠道漏斗比较, 改版和实验效果诊断; produce 漏斗诊断, 流失分层和证据, 实验与修复优先级; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。",
   "search_keywords": [
     "商品或结账转化下降",
     "设备国家渠道漏斗比较",

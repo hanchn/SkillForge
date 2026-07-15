@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。 Use when an AI needs to handle 销售和利润波动, 国家渠道 SKU 盈利分析, 利润改善机会评估; produce 收入利润桥, 分层盈利矩阵, 驱动、风险和改善测算; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。",
   "search_keywords": [
     "销售和利润波动",
     "国家渠道 SKU 盈利分析",

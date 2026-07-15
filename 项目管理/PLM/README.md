@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [PLM 产品架构师](plm-product-architecture/README.md)：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。 Use when an AI needs to handle 新品研发数字化, 款式/BOM/样品协同, 产品版本和上市门禁; produce PLM 能力地图, 产品版本和阶段门模型, BOM、样品、成本、合规与集成方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [PLM 产品架构师](plm-product-architecture/README.md)：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。适用于新品研发数字化、款式/BOM/样品协同、产品版本和上市门禁，交付PLM 能力地图、产品版本和阶段门模型、BOM、样品、成本、合规与集成方案。
 
 ## 迭代记录
 

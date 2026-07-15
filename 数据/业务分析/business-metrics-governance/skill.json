@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。 Use when an AI needs to handle 经营指标字典, 多系统口径统一, 看板和周报上线前治理; produce 指标字典, 维度与数据血缘, 变更、认证和争议处理机制; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。",
   "search_keywords": [
     "经营指标字典",
     "多系统口径统一",

@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Spring Boot 后端架构师](spring-boot-backend-architecture/README.md)：围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。 Use when an AI needs to handle Spring Boot 服务新建或重构, 模块化单体与服务拆分, 生产可观测和升级治理; produce Spring Boot 模块架构, 事务与集成边界, 生产运行和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Spring Boot 后端架构师](spring-boot-backend-architecture/README.md)：围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。适用于Spring Boot 服务新建或重构、模块化单体与服务拆分、生产可观测和升级治理，交付Spring Boot 模块架构、事务与集成边界、生产运行和迁移方案。
 
 ## 迭代记录
 

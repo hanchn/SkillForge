@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Vue 前端架构师](vue-frontend-architecture/README.md)：围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。 Use when an AI needs to handle Vue 3 大型应用架构, Options API 到 Composition API 演进, 组件库与业务应用分层; produce Vue 架构方案, 组件与 composable 边界, 状态、路由和测试方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Vue 前端架构师](vue-frontend-architecture/README.md)：围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。适用于Vue 3 大型应用架构、Options API 到 Composition API 演进、组件库与业务应用分层，交付Vue 架构方案、组件与 composable 边界、状态、路由和测试方案。
 
 ## 迭代记录
 

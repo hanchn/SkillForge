@@ -13,7 +13,7 @@
     "语言",
     "Go"
   ],
-  "description": "按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。 Use when an AI needs to handle Go API 或任务服务, 高并发 Go 服务治理, Go 单仓多服务架构; produce Go 包与服务架构, 并发和取消模型, 错误、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。适用于Go API 或任务服务、高并发 Go 服务治理、Go 单仓多服务架构，交付Go 包与服务架构、并发和取消模型、错误、测试和部署方案。",
   "search_keywords": [
     "Go API 或任务服务",
     "高并发 Go 服务治理",

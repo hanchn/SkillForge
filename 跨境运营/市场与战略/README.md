@@ -12,8 +12,8 @@
 
 ## 当前 Skill
 
-- [跨境市场情报分析师](cross-border-market-intelligence/README.md)：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。 Use when an AI needs to handle 进入新国家或类目, 竞品与价格带扫描, 季度市场机会更新; produce 市场情报简报, 机会评分和证据表, 验证计划与预警项; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
-- [跨境上市规划师](go-to-market-launch-planner/README.md)：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。 Use when an AI needs to handle 新品上市, 新站点或新国家启动, 重大版本或季节发布; produce GTM 计划, 阶段门和责任矩阵, 预算、指标与复盘设计; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境市场情报分析师](cross-border-market-intelligence/README.md)：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。适用于进入新国家或类目、竞品与价格带扫描、季度市场机会更新，交付市场情报简报、机会评分和证据表、验证计划与预警项。
+- [跨境上市规划师](go-to-market-launch-planner/README.md)：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。适用于新品上市、新站点或新国家启动、重大版本或季节发布，交付GTM 计划、阶段门和责任矩阵、预算、指标与复盘设计。
 
 ## 迭代记录
 

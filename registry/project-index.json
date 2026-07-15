@@ -1309,6 +1309,21 @@
       ]
     },
     {
+      "name": "wms-product-architecture",
+      "display_name": "WMS 产品架构师",
+      "package_root": "项目管理/WMS/wms-product-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "多仓 WMS 规划",
+        "仓内作业数字化",
+        "库存差异和履约效率治理",
+        "仓库、库区、库位和容器",
+        "预约、收货、质检和上架",
+        "波次、拣选、复核和包装"
+      ]
+    },
+    {
       "name": "commerce-systems-product-architecture",
       "display_name": "跨境业务系统总产品架构师",
       "package_root": "项目管理/公共/commerce-systems-product-architecture",

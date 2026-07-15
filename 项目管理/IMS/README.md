@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [IMS 产品架构师](ims-product-architecture/README.md)：围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。 Use when an AI needs to handle 多仓多渠道库存中心, 库存预占和超卖治理, 库存对账与可售计算; produce IMS 能力地图, 库存账本和状态模型, 预占、同步、对账和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [IMS 产品架构师](ims-product-architecture/README.md)：围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。适用于多仓多渠道库存中心、库存预占和超卖治理、库存对账与可售计算，交付IMS 能力地图、库存账本和状态模型、预占、同步、对账和异常方案。
 
 ## 迭代记录
 

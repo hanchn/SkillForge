@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [定价与促销优化经理](pricing-promotion-optimizer/README.md)：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。 Use when an AI needs to handle 新品定价, 跨国家跨渠道价格治理, 折扣和优惠机制优化; produce 价格架构, 促销方案和利润模拟, 实验、监控与退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [定价与促销优化经理](pricing-promotion-optimizer/README.md)：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。适用于新品定价、跨国家跨渠道价格治理、折扣和优惠机制优化，交付价格架构、促销方案和利润模拟、实验、监控与退出规则。
 
 ## 迭代记录
 

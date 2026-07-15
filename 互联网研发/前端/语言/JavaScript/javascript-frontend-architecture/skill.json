@@ -13,7 +13,7 @@
     "语言",
     "JavaScript"
   ],
-  "description": "针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。 Use when an AI needs to handle 大型 JavaScript 应用治理, ESM 与旧模块迁移, 运行时契约和质量门禁设计; produce JavaScript 架构方案, 模块与运行时契约, 渐进治理计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。适用于大型 JavaScript 应用治理、ESM 与旧模块迁移、运行时契约和质量门禁设计，交付JavaScript 架构方案、模块与运行时契约、渐进治理计划。",
   "search_keywords": [
     "大型 JavaScript 应用治理",
     "ESM 与旧模块迁移",

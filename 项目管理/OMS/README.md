@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [OMS 产品架构师](oms-product-architecture/README.md)：围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。 Use when an AI needs to handle 全渠道 OMS 规划, 订单状态和异常治理, OMS 与渠道、库存、履约集成; produce OMS 能力地图, 订单域模型与状态机, 路由、异常和集成契约; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [OMS 产品架构师](oms-product-architecture/README.md)：围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。适用于全渠道 OMS 规划、订单状态和异常治理、OMS 与渠道、库存、履约集成，交付OMS 能力地图、订单域模型与状态机、路由、异常和集成契约。
 
 ## 迭代记录
 

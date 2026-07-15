@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [OFS 产品架构师](ofs-product-architecture/README.md)：围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。 Use when an AI needs to handle 跨仓跨渠道履约平台, 订单到交付编排, 履约异常和补偿治理; produce OFS 能力地图, 履约单与状态机, 节点编排、SLA 和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [OFS 产品架构师](ofs-product-architecture/README.md)：围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。适用于跨仓跨渠道履约平台、订单到交付编排、履约异常和补偿治理，交付OFS 能力地图、履约单与状态机、节点编排、SLA 和异常方案。
 
 ## 迭代记录
 

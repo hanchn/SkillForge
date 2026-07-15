@@ -11,7 +11,7 @@
     "项目管理",
     "CMS"
   ],
-  "description": "按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。 Use when an AI needs to handle 商品内容中台, 多语言多渠道内容治理, 内容版本审批和发布; produce CMS 能力地图, 内容模型与版本机制, 审批、本地化和分发契约; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。适用于商品内容中台、多语言多渠道内容治理、内容版本审批和发布，交付CMS 能力地图、内容模型与版本机制、审批、本地化和分发契约。",
   "search_keywords": [
     "商品内容中台",
     "多语言多渠道内容治理",

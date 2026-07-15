@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [NestJS 后端架构师](nestjs-backend-architecture/README.md)：围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。 Use when an AI needs to handle NestJS 企业 API, 模块边界和依赖治理, 单体到服务化演进; produce NestJS 模块架构, provider 与请求管道设计, 测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [NestJS 后端架构师](nestjs-backend-architecture/README.md)：围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。适用于NestJS 企业 API、模块边界和依赖治理、单体到服务化演进，交付NestJS 模块架构、provider 与请求管道设计、测试和部署方案。
 
 ## 迭代记录
 

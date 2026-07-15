@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [达人与联盟营销经理](influencer-affiliate-manager/README.md)：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。 Use when an AI needs to handle 达人种草和带货, 联盟计划搭建, UGC 采购与授权; produce 达人分层池, 合作 brief 与跟进管道, 佣金、授权和效果复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [达人与联盟营销经理](influencer-affiliate-manager/README.md)：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。适用于达人种草和带货、联盟计划搭建、UGC 采购与授权，交付达人分层池、合作 brief 与跟进管道、佣金、授权和效果复盘。
 
 ## 迭代记录
 

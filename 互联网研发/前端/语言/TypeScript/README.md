@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [TypeScript 前端架构师](typescript-frontend-architecture/README.md)：利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。 Use when an AI needs to handle TypeScript 单仓或多包架构, 类型边界和 API 类型治理, 大型项目编译性能治理; produce TypeScript 分层方案, 类型与运行时边界, tsconfig 和包治理建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [TypeScript 前端架构师](typescript-frontend-architecture/README.md)：利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。适用于TypeScript 单仓或多包架构、类型边界和 API 类型治理、大型项目编译性能治理，交付TypeScript 分层方案、类型与运行时边界、tsconfig 和包治理建议。
 
 ## 迭代记录
 

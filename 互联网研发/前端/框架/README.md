@@ -12,9 +12,9 @@
 
 ## 当前 Skill
 
-- [Next.js 前端架构师](Next.js/nextjs-frontend-architecture/README.md)：按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。 Use when an AI needs to handle Next.js App Router 新项目, Pages Router 迁移, 电商 SEO、性能和缓存架构; produce Next.js 路由与渲染蓝图, Server/Client 边界, 缓存、数据和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
-- [React 前端架构师](React/react-frontend-architecture/README.md)：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。 Use when an AI needs to handle React 应用架构和重构, 复杂状态与数据流治理, 组件平台和多团队协作; produce React 架构蓝图, 组件与状态边界, 渲染、测试和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
-- [Vue 前端架构师](Vue/vue-frontend-architecture/README.md)：围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。 Use when an AI needs to handle Vue 3 大型应用架构, Options API 到 Composition API 演进, 组件库与业务应用分层; produce Vue 架构方案, 组件与 composable 边界, 状态、路由和测试方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Next.js 前端架构师](Next.js/nextjs-frontend-architecture/README.md)：按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。适用于Next.js App Router 新项目、Pages Router 迁移、电商 SEO、性能和缓存架构，交付Next.js 路由与渲染蓝图、Server/Client 边界、缓存、数据和部署方案。
+- [React 前端架构师](React/react-frontend-architecture/README.md)：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。适用于React 应用架构和重构、复杂状态与数据流治理、组件平台和多团队协作，交付React 架构蓝图、组件与状态边界、渲染、测试和迁移方案。
+- [Vue 前端架构师](Vue/vue-frontend-architecture/README.md)：围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。适用于Vue 3 大型应用架构、Options API 到 Composition API 演进、组件库与业务应用分层，交付Vue 架构方案、组件与 composable 边界、状态、路由和测试方案。
 
 ## 迭代记录
 

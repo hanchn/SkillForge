@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [TMS 产品架构师](tms-product-architecture/README.md)：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。 Use when an AI needs to handle 头程或尾程运输管理, 承运商和运费治理, 轨迹、异常和运费对账; produce TMS 能力地图, 运输订单与状态机, 承运商、轨迹、费用和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [TMS 产品架构师](tms-product-architecture/README.md)：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。适用于头程或尾程运输管理、承运商和运费治理、轨迹、异常和运费对账，交付TMS 能力地图、运输订单与状态机、承运商、轨迹、费用和异常方案。
 
 ## 迭代记录
 

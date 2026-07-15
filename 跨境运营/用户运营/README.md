@@ -12,8 +12,8 @@
 
 ## 当前 Skill
 
-- [客户留存与忠诚度经理](customer-retention-loyalty-manager/README.md)：按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。 Use when an AI needs to handle 复购率提升, 会员或积分计划, 流失客户召回; produce 留存策略, 客户分层和触达旅程, 会员经济模型与实验; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
-- [邮件生命周期营销师](email-lifecycle-marketer/README.md)：按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。 Use when an AI needs to handle 欢迎、弃购、购后、召回流程, Newsletter 运营, 邮件收入和送达率治理; produce 生命周期流程图, 分群、触发与内容方案, 实验和送达健康看板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [客户留存与忠诚度经理](customer-retention-loyalty-manager/README.md)：按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。适用于复购率提升、会员或积分计划、流失客户召回，交付留存策略、客户分层和触达旅程、会员经济模型与实验。
+- [邮件生命周期营销师](email-lifecycle-marketer/README.md)：按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。适用于欢迎、弃购、购后、召回流程、Newsletter 运营、邮件收入和送达率治理，交付生命周期流程图、分群、触发与内容方案、实验和送达健康看板。
 
 ## 迭代记录
 

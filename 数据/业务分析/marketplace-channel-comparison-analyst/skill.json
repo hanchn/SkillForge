@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。 Use when an AI needs to handle Amazon、Shopify、TikTok 横向比较, 渠道资源分配, 渠道利润和客户质量评估; produce 渠道可比口径, 规模效率利润矩阵, 渠道角色和资源建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。",
   "search_keywords": [
     "Amazon、Shopify、TikTok 横向比较",
     "渠道资源分配",

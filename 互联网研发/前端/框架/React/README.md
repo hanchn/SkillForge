@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [React 前端架构师](react-frontend-architecture/README.md)：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。 Use when an AI needs to handle React 应用架构和重构, 复杂状态与数据流治理, 组件平台和多团队协作; produce React 架构蓝图, 组件与状态边界, 渲染、测试和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [React 前端架构师](react-frontend-architecture/README.md)：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。适用于React 应用架构和重构、复杂状态与数据流治理、组件平台和多团队协作，交付React 架构蓝图、组件与状态边界、渲染、测试和迁移方案。
 
 ## 迭代记录
 

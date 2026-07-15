@@ -231,7 +231,7 @@
     {
       "name": "frontend-architecture-designer",
       "display_name": "前端通用架构设计师",
-      "description": "从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。 Use when an AI needs to handle 新前端平台或大型模块架构, 遗留前端重构与模块化, 多团队前端架构评审; produce 前端架构蓝图, 模块与依赖边界, 运行时、交付与演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。适用于新前端平台或大型模块架构、遗留前端重构与模块化、多团队前端架构评审，交付前端架构蓝图、模块与依赖边界、运行时、交付与演进方案。",
       "category_path": [
         "互联网研发",
         "前端",
@@ -260,7 +260,7 @@
     {
       "name": "nextjs-frontend-architecture",
       "display_name": "Next.js 前端架构师",
-      "description": "按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。 Use when an AI needs to handle Next.js App Router 新项目, Pages Router 迁移, 电商 SEO、性能和缓存架构; produce Next.js 路由与渲染蓝图, Server/Client 边界, 缓存、数据和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。适用于Next.js App Router 新项目、Pages Router 迁移、电商 SEO、性能和缓存架构，交付Next.js 路由与渲染蓝图、Server/Client 边界、缓存、数据和部署方案。",
       "category_path": [
         "互联网研发",
         "前端",
@@ -290,7 +290,7 @@
     {
       "name": "react-frontend-architecture",
       "display_name": "React 前端架构师",
-      "description": "围绕组件、状态、数据流和渲染边界设计可演进 React 应用。 Use when an AI needs to handle React 应用架构和重构, 复杂状态与数据流治理, 组件平台和多团队协作; produce React 架构蓝图, 组件与状态边界, 渲染、测试和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕组件、状态、数据流和渲染边界设计可演进 React 应用。适用于React 应用架构和重构、复杂状态与数据流治理、组件平台和多团队协作，交付React 架构蓝图、组件与状态边界、渲染、测试和迁移方案。",
       "category_path": [
         "互联网研发",
         "前端",
@@ -320,7 +320,7 @@
     {
       "name": "vue-frontend-architecture",
       "display_name": "Vue 前端架构师",
-      "description": "围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。 Use when an AI needs to handle Vue 3 大型应用架构, Options API 到 Composition API 演进, 组件库与业务应用分层; produce Vue 架构方案, 组件与 composable 边界, 状态、路由和测试方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。适用于Vue 3 大型应用架构、Options API 到 Composition API 演进、组件库与业务应用分层，交付Vue 架构方案、组件与 composable 边界、状态、路由和测试方案。",
       "category_path": [
         "互联网研发",
         "前端",
@@ -350,7 +350,7 @@
     {
       "name": "javascript-frontend-architecture",
       "display_name": "JavaScript 前端架构师",
-      "description": "针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。 Use when an AI needs to handle 大型 JavaScript 应用治理, ESM 与旧模块迁移, 运行时契约和质量门禁设计; produce JavaScript 架构方案, 模块与运行时契约, 渐进治理计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。适用于大型 JavaScript 应用治理、ESM 与旧模块迁移、运行时契约和质量门禁设计，交付JavaScript 架构方案、模块与运行时契约、渐进治理计划。",
       "category_path": [
         "互联网研发",
         "前端",
@@ -380,7 +380,7 @@
     {
       "name": "typescript-frontend-architecture",
       "display_name": "TypeScript 前端架构师",
-      "description": "利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。 Use when an AI needs to handle TypeScript 单仓或多包架构, 类型边界和 API 类型治理, 大型项目编译性能治理; produce TypeScript 分层方案, 类型与运行时边界, tsconfig 和包治理建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。适用于TypeScript 单仓或多包架构、类型边界和 API 类型治理、大型项目编译性能治理，交付TypeScript 分层方案、类型与运行时边界、tsconfig 和包治理建议。",
       "category_path": [
         "互联网研发",
         "前端",
@@ -496,7 +496,7 @@
     {
       "name": "backend-architecture-designer",
       "display_name": "后端通用架构设计师",
-      "description": "从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。 Use when an AI needs to handle 企业后端总体架构, 单体、模块化和服务化选型, 跨团队系统演进评审; produce 后端总体架构蓝图, 质量属性与边界决策, 技术路线和分阶段演进计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。适用于企业后端总体架构、单体、模块化和服务化选型、跨团队系统演进评审，交付后端总体架构蓝图、质量属性与边界决策、技术路线和分阶段演进计划。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -525,7 +525,7 @@
     {
       "name": "fastapi-backend-architecture",
       "display_name": "FastAPI 后端架构师",
-      "description": "围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。 Use when an AI needs to handle FastAPI 中大型应用, Python API 模块化, 异步 API 性能和可靠性治理; produce FastAPI 包与路由架构, 依赖和数据契约, 运行、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。适用于FastAPI 中大型应用、Python API 模块化、异步 API 性能和可靠性治理，交付FastAPI 包与路由架构、依赖和数据契约、运行、测试和部署方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -555,7 +555,7 @@
     {
       "name": "gin-backend-architecture",
       "display_name": "Gin 后端架构师",
-      "description": "围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。 Use when an AI needs to handle Gin API 新建或重构, 高吞吐 Go HTTP 服务, middleware 和安全治理; produce Gin 路由与模块架构, middleware 和依赖方案, 性能、安全和部署计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。适用于Gin API 新建或重构、高吞吐 Go HTTP 服务、middleware 和安全治理，交付Gin 路由与模块架构、middleware 和依赖方案、性能、安全和部署计划。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -585,7 +585,7 @@
     {
       "name": "nestjs-backend-architecture",
       "display_name": "NestJS 后端架构师",
-      "description": "围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。 Use when an AI needs to handle NestJS 企业 API, 模块边界和依赖治理, 单体到服务化演进; produce NestJS 模块架构, provider 与请求管道设计, 测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。适用于NestJS 企业 API、模块边界和依赖治理、单体到服务化演进，交付NestJS 模块架构、provider 与请求管道设计、测试和部署方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -615,7 +615,7 @@
     {
       "name": "spring-boot-backend-architecture",
       "display_name": "Spring Boot 后端架构师",
-      "description": "围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。 Use when an AI needs to handle Spring Boot 服务新建或重构, 模块化单体与服务拆分, 生产可观测和升级治理; produce Spring Boot 模块架构, 事务与集成边界, 生产运行和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。适用于Spring Boot 服务新建或重构、模块化单体与服务拆分、生产可观测和升级治理，交付Spring Boot 模块架构、事务与集成边界、生产运行和迁移方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -673,7 +673,7 @@
     {
       "name": "go-backend-architecture",
       "display_name": "Go 后端架构师",
-      "description": "按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。 Use when an AI needs to handle Go API 或任务服务, 高并发 Go 服务治理, Go 单仓多服务架构; produce Go 包与服务架构, 并发和取消模型, 错误、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。适用于Go API 或任务服务、高并发 Go 服务治理、Go 单仓多服务架构，交付Go 包与服务架构、并发和取消模型、错误、测试和部署方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -703,7 +703,7 @@
     {
       "name": "java-backend-architecture",
       "display_name": "Java 后端架构师",
-      "description": "利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。 Use when an AI needs to handle Java 服务平台架构, 大型 Java 单体模块化, JVM 性能和升级治理; produce Java 模块架构, 并发与资源模型, JVM 运行和演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。适用于Java 服务平台架构、大型 Java 单体模块化、JVM 性能和升级治理，交付Java 模块架构、并发与资源模型、JVM 运行和演进方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -733,7 +733,7 @@
     {
       "name": "nodejs-backend-architecture",
       "display_name": "Node.js 后端架构师",
-      "description": "按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。 Use when an AI needs to handle Node.js API 和 BFF, 高 I/O 服务架构, CommonJS 到 ESM 迁移; produce Node.js 模块架构, 异步与资源模型, 可靠性和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。适用于Node.js API 和 BFF、高 I/O 服务架构、CommonJS 到 ESM 迁移，交付Node.js 模块架构、异步与资源模型、可靠性和部署方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -763,7 +763,7 @@
     {
       "name": "python-backend-architecture",
       "display_name": "Python 后端架构师",
-      "description": "围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。 Use when an AI needs to handle Python Web 或任务平台, 脚本向服务化演进, 同步与异步混合系统治理; produce Python 包与层次架构, 执行和并发模型, 依赖、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。适用于Python Web 或任务平台、脚本向服务化演进、同步与异步混合系统治理，交付Python 包与层次架构、执行和并发模型、依赖、测试和部署方案。",
       "category_path": [
         "互联网研发",
         "后端",
@@ -938,7 +938,7 @@
     {
       "name": "advertising-performance-analyst",
       "display_name": "广告效果分析师",
-      "description": "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。 Use when an AI needs to handle 广告周报和预算复盘, ROAS/ACOS 波动, 创意和投放结构诊断; produce 广告表现报告, 驱动拆解与预算建议, 增量验证和测试计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。",
       "category_path": [
         "数据",
         "业务分析"
@@ -966,7 +966,7 @@
     {
       "name": "business-metrics-governance",
       "display_name": "业务指标治理师",
-      "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。 Use when an AI needs to handle 经营指标字典, 多系统口径统一, 看板和周报上线前治理; produce 指标字典, 维度与数据血缘, 变更、认证和争议处理机制; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。",
       "category_path": [
         "数据",
         "业务分析"
@@ -994,7 +994,7 @@
     {
       "name": "conversion-funnel-analyst",
       "display_name": "电商转化漏斗分析师",
-      "description": "按一致人群、事件和时间窗定位从曝光到购买的转化损失。 Use when an AI needs to handle 商品或结账转化下降, 设备国家渠道漏斗比较, 改版和实验效果诊断; produce 漏斗诊断, 流失分层和证据, 实验与修复优先级; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1022,7 +1022,7 @@
     {
       "name": "customer-cohort-ltv-analyst",
       "display_name": "客户 Cohort 与 LTV 分析师",
-      "description": "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。 Use when an AI needs to handle 复购和留存分析, 渠道客户质量比较, CAC 回收和 LTV 预测; produce cohort 留存表, LTV/CAC 和回收期, 分层策略与不确定性; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1050,7 +1050,7 @@
     {
       "name": "executive-business-review",
       "display_name": "经营分析与周月报专家",
-      "description": "把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。 Use when an AI needs to handle 跨境经营周报月报, 管理层业务复盘, 目标差距和行动跟踪; produce 经营摘要, KPI 与驱动分析, 风险、决策和责任闭环; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1078,7 +1078,7 @@
     {
       "name": "forecast-scenario-planner",
       "display_name": "经营预测与情景规划师",
-      "description": "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。 Use when an AI needs to handle 月度滚动预测, 预算和目标拆解, 乐观基准悲观情景; produce 驱动型预测模型, 情景和敏感性分析, 假设、预警和更新机制; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1106,7 +1106,7 @@
     {
       "name": "inventory-supply-chain-analyst",
       "display_name": "库存与供应链分析师",
-      "description": "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。 Use when an AI needs to handle 缺货和积压诊断, 库存健康周报, 供应商和物流绩效分析; produce 库存健康矩阵, 供需与交期驱动, 补货、处置和风险建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1134,7 +1134,7 @@
     {
       "name": "marketplace-channel-comparison-analyst",
       "display_name": "跨平台渠道对比分析师",
-      "description": "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。 Use when an AI needs to handle Amazon、Shopify、TikTok 横向比较, 渠道资源分配, 渠道利润和客户质量评估; produce 渠道可比口径, 规模效率利润矩阵, 渠道角色和资源建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1162,7 +1162,7 @@
     {
       "name": "pricing-promotion-analyst",
       "display_name": "价格与促销分析师",
-      "description": "评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。 Use when an AI needs to handle 大促复盘, 价格调整效果, 优惠券和捆绑机制比较; produce 价格促销效果报告, 增量和蚕食测算, 机制优化建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1190,7 +1190,7 @@
     {
       "name": "product-portfolio-analyst",
       "display_name": "商品组合分析师",
-      "description": "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。 Use when an AI needs to handle SKU 分层, 新品和长尾评估, 淘汰、补货与资源分配; produce 商品组合矩阵, SKU 诊断与动作, 新品、保留和退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1218,7 +1218,7 @@
     {
       "name": "sales-profitability-analyst",
       "display_name": "销售与利润分析师",
-      "description": "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。 Use when an AI needs to handle 销售和利润波动, 国家渠道 SKU 盈利分析, 利润改善机会评估; produce 收入利润桥, 分层盈利矩阵, 驱动、风险和改善测算; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1246,7 +1246,7 @@
     {
       "name": "traffic-acquisition-analyst",
       "display_name": "流量与获客分析师",
-      "description": "区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。 Use when an AI needs to handle 渠道流量波动, 自然与付费获客质量, UTM 和来源口径排查; produce 流量来源分析, 质量与成本矩阵, 归因限制和优化建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。",
       "category_path": [
         "数据",
         "业务分析"
@@ -1303,7 +1303,7 @@
     {
       "name": "data-quality-reconciliation",
       "display_name": "业务数据质量与对账专家",
-      "description": "验证完整性、唯一性、及时性、一致性并解释跨系统差异。 Use when an AI needs to handle 平台与财务对账, 看板数据验收, 异常数据和口径争议; produce 数据质量报告, 差异桥和根因, 修复、监控和责任清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。",
       "category_path": [
         "数据",
         "数据治理"
@@ -1388,7 +1388,7 @@
     {
       "name": "content-marketing-planner",
       "display_name": "跨境内容营销规划师",
-      "description": "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。 Use when an AI needs to handle 博客和指南规划, 季度内容矩阵, SEO、社媒、邮件内容协同; produce 内容战略, 主题集群和编辑日历, 分发、转化与衡量方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。",
       "category_path": [
         "跨境运营",
         "内容营销"
@@ -1416,7 +1416,7 @@
     {
       "name": "creative-strategy-producer",
       "display_name": "跨境广告创意策略师",
-      "description": "从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。 Use when an AI needs to handle 广告素材策略, UGC brief 和脚本矩阵, 创意疲劳治理; produce 创意策略地图, 角度、钩子和脚本矩阵, 测试编码与复盘规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。",
       "category_path": [
         "跨境运营",
         "创意生产"
@@ -1472,7 +1472,7 @@
     {
       "name": "brand-positioning-strategist",
       "display_name": "跨境品牌定位策略师",
-      "description": "以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。 Use when an AI needs to handle 新品牌定位, 品牌升级或多市场适配, 产品线信息架构统一; produce 定位陈述, 价值支柱与证据, 品牌信息和禁用表达; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。",
       "category_path": [
         "跨境运营",
         "品牌营销"
@@ -1500,7 +1500,7 @@
     {
       "name": "pricing-promotion-optimizer",
       "display_name": "定价与促销优化经理",
-      "description": "综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。 Use when an AI needs to handle 新品定价, 跨国家跨渠道价格治理, 折扣和优惠机制优化; produce 价格架构, 促销方案和利润模拟, 实验、监控与退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。适用于新品定价、跨国家跨渠道价格治理、折扣和优惠机制优化，交付价格架构、促销方案和利润模拟、实验、监控与退出规则。",
       "category_path": [
         "跨境运营",
         "商业化"
@@ -1528,7 +1528,7 @@
     {
       "name": "marketplace-listing-optimizer",
       "display_name": "平台商品信息优化师",
-      "description": "基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。 Use when an AI needs to handle Amazon 等平台 listing 优化, 新品信息搭建, 低流量或低转化详情修复; produce 关键词和信息架构, 标题、卖点和详情建议, 合规与实验清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。适用于Amazon 等平台 listing 优化、新品信息搭建、低流量或低转化详情修复，交付关键词和信息架构、标题、卖点和详情建议、合规与实验清单。",
       "category_path": [
         "跨境运营",
         "商品运营"
@@ -1556,7 +1556,7 @@
     {
       "name": "cross-border-growth-operator",
       "display_name": "跨境全链路增长负责人",
-      "description": "把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。 Use when an AI needs to handle 季度增长规划, GMV 或利润增长诊断, 跨团队增长实验组合; produce 增长模型和机会树, 实验组合与责任矩阵, 周度经营节奏和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。",
       "category_path": [
         "跨境运营",
         "增长营销"
@@ -1584,7 +1584,7 @@
     {
       "name": "marketing-attribution-planner",
       "display_name": "跨渠道营销归因规划师",
-      "description": "建立口径透明、可解释并能支持预算决策的跨渠道归因体系。 Use when an AI needs to handle 广告平台与 GA4 对数, 多触点归因治理, 预算分配和增量评估; produce 归因测量方案, 渠道数据和 UTM 规范, 模型差异、实验与决策规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。",
       "category_path": [
         "跨境运营",
         "增长营销"
@@ -1705,7 +1705,7 @@
     {
       "name": "customer-service-voice-manager",
       "display_name": "跨境多语言客服经理",
-      "description": "以多语言一致性、问题解决和客户洞察运营售前售后服务。 Use when an AI needs to handle 邮件、在线聊天和平台消息客服, 多语言话术体系, 客服质检和 VOC 闭环; produce 客服 SOP 与话术库, 升级和赔付矩阵, VOC 分类与改进报告; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "以多语言一致性、问题解决和客户洞察运营售前售后服务。适用于邮件、在线聊天和平台消息客服、多语言话术体系、客服质检和 VOC 闭环，交付客服 SOP 与话术库、升级和赔付矩阵、VOC 分类与改进报告。",
       "category_path": [
         "跨境运营",
         "客户体验"
@@ -1733,7 +1733,7 @@
     {
       "name": "review-reputation-manager",
       "display_name": "评价与品牌声誉经理",
-      "description": "合规监控评价、识别根因、回复客户并推动产品和履约改进。 Use when an AI needs to handle 平台评价治理, 差评和舆情响应, 评分下降根因分析; produce 评价健康报告, 合规回复和升级方案, 根因与改进闭环; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。",
       "category_path": [
         "跨境运营",
         "客户体验"
@@ -1761,7 +1761,7 @@
     {
       "name": "cross-border-market-intelligence",
       "display_name": "跨境市场情报分析师",
-      "description": "把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。 Use when an AI needs to handle 进入新国家或类目, 竞品与价格带扫描, 季度市场机会更新; produce 市场情报简报, 机会评分和证据表, 验证计划与预警项; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。适用于进入新国家或类目、竞品与价格带扫描、季度市场机会更新，交付市场情报简报、机会评分和证据表、验证计划与预警项。",
       "category_path": [
         "跨境运营",
         "市场与战略"
@@ -1789,7 +1789,7 @@
     {
       "name": "go-to-market-launch-planner",
       "display_name": "跨境上市规划师",
-      "description": "把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。 Use when an AI needs to handle 新品上市, 新站点或新国家启动, 重大版本或季节发布; produce GTM 计划, 阶段门和责任矩阵, 预算、指标与复盘设计; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。适用于新品上市、新站点或新国家启动、重大版本或季节发布，交付GTM 计划、阶段门和责任矩阵、预算、指标与复盘设计。",
       "category_path": [
         "跨境运营",
         "市场与战略"
@@ -1933,7 +1933,7 @@
     {
       "name": "promotion-calendar-manager",
       "display_name": "跨境活动营销经理",
-      "description": "统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。 Use when an AI needs to handle 黑五网一和节日大促, 季度促销规划, 多渠道活动冲突治理; produce 年度/季度活动日历, 活动机制和资源表, 上线检查与复盘模板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。适用于黑五网一和节日大促、季度促销规划、多渠道活动冲突治理，交付年度/季度活动日历、活动机制和资源表、上线检查与复盘模板。",
       "category_path": [
         "跨境运营",
         "活动营销"
@@ -1961,7 +1961,7 @@
     {
       "name": "channel-portfolio-strategist",
       "display_name": "跨境渠道组合策略师",
-      "description": "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。 Use when an AI needs to handle Amazon、Shopify、TikTok 等渠道组合, 新渠道评估, 渠道冲突和资源分配; produce 渠道角色地图, 进入与退出评分, 资源和治理方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。",
       "category_path": [
         "跨境运营",
         "渠道运营"
@@ -1989,7 +1989,7 @@
     {
       "name": "tiktok-shop-operations-manager",
       "display_name": "TikTok Shop 运营经理",
-      "description": "联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。 Use when an AI needs to handle TikTok Shop 冷启动, 内容电商日常经营, GMV 波动诊断; produce TikTok Shop 经营计划, 内容达人商品协同表, 店铺健康和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。",
       "category_path": [
         "跨境运营",
         "渠道运营",
@@ -2018,7 +2018,7 @@
     {
       "name": "amazon-store-operations-manager",
       "display_name": "亚马逊店铺运营经理",
-      "description": "统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。 Use when an AI needs to handle Amazon 日常经营, 新品启动, 店铺问题诊断和周月度复盘; produce Amazon 经营计划, 问题优先级与执行清单, 店铺经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。",
       "category_path": [
         "跨境运营",
         "渠道运营",
@@ -2047,7 +2047,7 @@
     {
       "name": "shopify-store-operations-manager",
       "display_name": "Shopify 独立站运营经理",
-      "description": "统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。 Use when an AI needs to handle Shopify 日常运营, 新品与活动上线, 独立站增长和问题排查; produce 独立站经营计划, 上线与健康检查表, 渠道和站内经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。适用于Shopify 日常运营、新品与活动上线、独立站增长和问题排查，交付独立站经营计划、上线与健康检查表、渠道和站内经营复盘。",
       "category_path": [
         "跨境运营",
         "渠道运营",
@@ -2104,7 +2104,7 @@
     {
       "name": "customer-retention-loyalty-manager",
       "display_name": "客户留存与忠诚度经理",
-      "description": "按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。 Use when an AI needs to handle 复购率提升, 会员或积分计划, 流失客户召回; produce 留存策略, 客户分层和触达旅程, 会员经济模型与实验; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。适用于复购率提升、会员或积分计划、流失客户召回，交付留存策略、客户分层和触达旅程、会员经济模型与实验。",
       "category_path": [
         "跨境运营",
         "用户运营"
@@ -2132,7 +2132,7 @@
     {
       "name": "email-lifecycle-marketer",
       "display_name": "邮件生命周期营销师",
-      "description": "按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。 Use when an AI needs to handle 欢迎、弃购、购后、召回流程, Newsletter 运营, 邮件收入和送达率治理; produce 生命周期流程图, 分群、触发与内容方案, 实验和送达健康看板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。适用于欢迎、弃购、购后、召回流程、Newsletter 运营、邮件收入和送达率治理，交付生命周期流程图、分群、触发与内容方案、实验和送达健康看板。",
       "category_path": [
         "跨境运营",
         "用户运营"
@@ -2160,7 +2160,7 @@
     {
       "name": "social-media-operations-manager",
       "display_name": "跨境社媒运营经理",
-      "description": "建立平台适配的内容、互动、增长、风险和复盘机制。 Use when an AI needs to handle TikTok、Instagram、YouTube、Pinterest 运营, 账号冷启动, 社媒内容和社区增长; produce 平台运营方案, 内容栏目和发布节奏, 互动 SOP 与周度复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "建立平台适配的内容、互动、增长、风险和复盘机制。适用于TikTok、Instagram、YouTube、Pinterest 运营、账号冷启动、社媒内容和社区增长，交付平台运营方案、内容栏目和发布节奏、互动 SOP 与周度复盘。",
       "category_path": [
         "跨境运营",
         "社媒营销"
@@ -2216,7 +2216,7 @@
     {
       "name": "influencer-affiliate-manager",
       "display_name": "达人与联盟营销经理",
-      "description": "管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。 Use when an AI needs to handle 达人种草和带货, 联盟计划搭建, UGC 采购与授权; produce 达人分层池, 合作 brief 与跟进管道, 佣金、授权和效果复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。适用于达人种草和带货、联盟计划搭建、UGC 采购与授权，交付达人分层池、合作 brief 与跟进管道、佣金、授权和效果复盘。",
       "category_path": [
         "跨境运营",
         "达人联盟"
@@ -2275,7 +2275,7 @@
     {
       "name": "cms-product-architecture",
       "display_name": "CMS 产品架构师",
-      "description": "按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。 Use when an AI needs to handle 商品内容中台, 多语言多渠道内容治理, 内容版本审批和发布; produce CMS 能力地图, 内容模型与版本机制, 审批、本地化和分发契约; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。适用于商品内容中台、多语言多渠道内容治理、内容版本审批和发布，交付CMS 能力地图、内容模型与版本机制、审批、本地化和分发契约。",
       "category_path": [
         "项目管理",
         "CMS"
@@ -2303,7 +2303,7 @@
     {
       "name": "crm-product-architecture",
       "display_name": "CRM 产品架构师",
-      "description": "围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。 Use when an AI needs to handle 跨渠道客户中心, 营销与客服 CRM, 客户 360 和生命周期运营; produce CRM 能力地图, 客户身份与同意模型, 互动、分群、任务和集成方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。适用于跨渠道客户中心、营销与客服 CRM、客户 360 和生命周期运营，交付CRM 能力地图、客户身份与同意模型、互动、分群、任务和集成方案。",
       "category_path": [
         "项目管理",
         "CRM"
@@ -2331,7 +2331,7 @@
     {
       "name": "ims-product-architecture",
       "display_name": "IMS 产品架构师",
-      "description": "围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。 Use when an AI needs to handle 多仓多渠道库存中心, 库存预占和超卖治理, 库存对账与可售计算; produce IMS 能力地图, 库存账本和状态模型, 预占、同步、对账和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。适用于多仓多渠道库存中心、库存预占和超卖治理、库存对账与可售计算，交付IMS 能力地图、库存账本和状态模型、预占、同步、对账和异常方案。",
       "category_path": [
         "项目管理",
         "IMS"
@@ -2359,7 +2359,7 @@
     {
       "name": "ofs-product-architecture",
       "display_name": "OFS 产品架构师",
-      "description": "围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。 Use when an AI needs to handle 跨仓跨渠道履约平台, 订单到交付编排, 履约异常和补偿治理; produce OFS 能力地图, 履约单与状态机, 节点编排、SLA 和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。适用于跨仓跨渠道履约平台、订单到交付编排、履约异常和补偿治理，交付OFS 能力地图、履约单与状态机、节点编排、SLA 和异常方案。",
       "category_path": [
         "项目管理",
         "OFS"
@@ -2387,7 +2387,7 @@
     {
       "name": "oms-product-architecture",
       "display_name": "OMS 产品架构师",
-      "description": "围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。 Use when an AI needs to handle 全渠道 OMS 规划, 订单状态和异常治理, OMS 与渠道、库存、履约集成; produce OMS 能力地图, 订单域模型与状态机, 路由、异常和集成契约; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。适用于全渠道 OMS 规划、订单状态和异常治理、OMS 与渠道、库存、履约集成，交付OMS 能力地图、订单域模型与状态机、路由、异常和集成契约。",
       "category_path": [
         "项目管理",
         "OMS"
@@ -2415,7 +2415,7 @@
     {
       "name": "plm-product-architecture",
       "display_name": "PLM 产品架构师",
-      "description": "围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。 Use when an AI needs to handle 新品研发数字化, 款式/BOM/样品协同, 产品版本和上市门禁; produce PLM 能力地图, 产品版本和阶段门模型, BOM、样品、成本、合规与集成方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。适用于新品研发数字化、款式/BOM/样品协同、产品版本和上市门禁，交付PLM 能力地图、产品版本和阶段门模型、BOM、样品、成本、合规与集成方案。",
       "category_path": [
         "项目管理",
         "PLM"
@@ -2443,7 +2443,7 @@
     {
       "name": "tms-product-architecture",
       "display_name": "TMS 产品架构师",
-      "description": "围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。 Use when an AI needs to handle 头程或尾程运输管理, 承运商和运费治理, 轨迹、异常和运费对账; produce TMS 能力地图, 运输订单与状态机, 承运商、轨迹、费用和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。适用于头程或尾程运输管理、承运商和运费治理、轨迹、异常和运费对账，交付TMS 能力地图、运输订单与状态机、承运商、轨迹、费用和异常方案。",
       "category_path": [
         "项目管理",
         "TMS"
@@ -2469,9 +2469,37 @@
       ]
     },
     {
+      "name": "wms-product-architecture",
+      "display_name": "WMS 产品架构师",
+      "description": "围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。适用于多仓 WMS 规划、仓内作业数字化、库存差异和履约效率治理，交付WMS 能力地图、仓内任务与状态机、作业、设备、异常和集成方案。",
+      "category_path": [
+        "项目管理",
+        "WMS"
+      ],
+      "package_root": "项目管理/WMS/wms-product-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "多仓 WMS 规划",
+        "仓内作业数字化",
+        "库存差异和履约效率治理",
+        "仓库、库区、库位和容器",
+        "预约、收货、质检和上架",
+        "波次、拣选、复核和包装"
+      ]
+    },
+    {
       "name": "commerce-systems-product-architecture",
       "display_name": "跨境业务系统总产品架构师",
-      "description": "设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。 Use when an AI needs to handle 跨境业务系统蓝图, 系统边界重构, 新系统立项和集成治理; produce 业务能力与系统地图, 主数据和状态 ownership 矩阵, 跨系统流程、契约与演进路线; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+      "description": "设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。",
       "category_path": [
         "项目管理",
         "公共"

@@ -11,7 +11,7 @@
     "跨境运营",
     "渠道运营"
   ],
-  "description": "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。 Use when an AI needs to handle Amazon、Shopify、TikTok 等渠道组合, 新渠道评估, 渠道冲突和资源分配; produce 渠道角色地图, 进入与退出评分, 资源和治理方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。",
   "search_keywords": [
     "Amazon、Shopify、TikTok 等渠道组合",
     "新渠道评估",

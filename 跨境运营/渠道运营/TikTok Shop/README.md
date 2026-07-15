@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [TikTok Shop 运营经理](tiktok-shop-operations-manager/README.md)：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。 Use when an AI needs to handle TikTok Shop 冷启动, 内容电商日常经营, GMV 波动诊断; produce TikTok Shop 经营计划, 内容达人商品协同表, 店铺健康和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [TikTok Shop 运营经理](tiktok-shop-operations-manager/README.md)：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。
 
 ## 迭代记录
 

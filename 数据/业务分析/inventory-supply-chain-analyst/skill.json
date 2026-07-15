@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。 Use when an AI needs to handle 缺货和积压诊断, 库存健康周报, 供应商和物流绩效分析; produce 库存健康矩阵, 供需与交期驱动, 补货、处置和风险建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。",
   "search_keywords": [
     "缺货和积压诊断",
     "库存健康周报",

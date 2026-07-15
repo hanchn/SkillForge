@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [亚马逊店铺运营经理](amazon-store-operations-manager/README.md)：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。 Use when an AI needs to handle Amazon 日常经营, 新品启动, 店铺问题诊断和周月度复盘; produce Amazon 经营计划, 问题优先级与执行清单, 店铺经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [亚马逊店铺运营经理](amazon-store-operations-manager/README.md)：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。
 
 ## 迭代记录
 

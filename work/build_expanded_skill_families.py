@@ -327,7 +327,7 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
         "type": "portable-business-skill", "scope": "cross-platform",
         "version": "1.0.0", "owner_project": "SkillForge", "portable": True,
         "entrypoint": "SKILL.md", "category_path": category,
-        "description": desc,
+        "description": f"{s['positioning']}适用于{q(s['scenarios'])}，交付{q(s['outputs'])}。",
         "search_keywords": [*s["scenarios"], *s["lenses"][:3]],
         "supported_platforms": PLATFORMS,
         "inputs": {"required": ["业务目标、范围和现状证据"], "optional": ["历史数据、流程系统资料、目标、预算、SLA 和合规约束"]},

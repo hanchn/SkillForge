@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。 Use when an AI needs to handle 月度滚动预测, 预算和目标拆解, 乐观基准悲观情景; produce 驱动型预测模型, 情景和敏感性分析, 假设、预警和更新机制; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。",
   "search_keywords": [
     "月度滚动预测",
     "预算和目标拆解",

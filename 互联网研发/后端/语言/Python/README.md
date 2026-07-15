@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Python 后端架构师](python-backend-architecture/README.md)：围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。 Use when an AI needs to handle Python Web 或任务平台, 脚本向服务化演进, 同步与异步混合系统治理; produce Python 包与层次架构, 执行和并发模型, 依赖、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Python 后端架构师](python-backend-architecture/README.md)：围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。适用于Python Web 或任务平台、脚本向服务化演进、同步与异步混合系统治理，交付Python 包与层次架构、执行和并发模型、依赖、测试和部署方案。
 
 ## 迭代记录
 

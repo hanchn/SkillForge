@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。 Use when an AI needs to handle 复购和留存分析, 渠道客户质量比较, CAC 回收和 LTV 预测; produce cohort 留存表, LTV/CAC 和回收期, 分层策略与不确定性; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。",
   "search_keywords": [
     "复购和留存分析",
     "渠道客户质量比较",

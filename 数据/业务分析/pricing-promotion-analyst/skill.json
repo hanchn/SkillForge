@@ -11,7 +11,7 @@
     "数据",
     "业务分析"
   ],
-  "description": "评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。 Use when an AI needs to handle 大促复盘, 价格调整效果, 优惠券和捆绑机制比较; produce 价格促销效果报告, 增量和蚕食测算, 机制优化建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。",
   "search_keywords": [
     "大促复盘",
     "价格调整效果",

@@ -11,7 +11,7 @@
     "跨境运营",
     "增长营销"
   ],
-  "description": "建立口径透明、可解释并能支持预算决策的跨渠道归因体系。 Use when an AI needs to handle 广告平台与 GA4 对数, 多触点归因治理, 预算分配和增量评估; produce 归因测量方案, 渠道数据和 UTM 规范, 模型差异、实验与决策规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "description": "建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。",
   "search_keywords": [
     "广告平台与 GA4 对数",
     "多触点归因治理",

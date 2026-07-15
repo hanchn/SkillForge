@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Java 后端架构师](java-backend-architecture/README.md)：利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。 Use when an AI needs to handle Java 服务平台架构, 大型 Java 单体模块化, JVM 性能和升级治理; produce Java 模块架构, 并发与资源模型, JVM 运行和演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Java 后端架构师](java-backend-architecture/README.md)：利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。适用于Java 服务平台架构、大型 Java 单体模块化、JVM 性能和升级治理，交付Java 模块架构、并发与资源模型、JVM 运行和演进方案。
 
 ## 迭代记录
 

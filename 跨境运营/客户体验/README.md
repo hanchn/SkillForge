@@ -12,8 +12,8 @@
 
 ## 当前 Skill
 
-- [跨境多语言客服经理](customer-service-voice-manager/README.md)：以多语言一致性、问题解决和客户洞察运营售前售后服务。 Use when an AI needs to handle 邮件、在线聊天和平台消息客服, 多语言话术体系, 客服质检和 VOC 闭环; produce 客服 SOP 与话术库, 升级和赔付矩阵, VOC 分类与改进报告; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
-- [评价与品牌声誉经理](review-reputation-manager/README.md)：合规监控评价、识别根因、回复客户并推动产品和履约改进。 Use when an AI needs to handle 平台评价治理, 差评和舆情响应, 评分下降根因分析; produce 评价健康报告, 合规回复和升级方案, 根因与改进闭环; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境多语言客服经理](customer-service-voice-manager/README.md)：以多语言一致性、问题解决和客户洞察运营售前售后服务。适用于邮件、在线聊天和平台消息客服、多语言话术体系、客服质检和 VOC 闭环，交付客服 SOP 与话术库、升级和赔付矩阵、VOC 分类与改进报告。
+- [评价与品牌声誉经理](review-reputation-manager/README.md)：合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。
 
 ## 迭代记录
 

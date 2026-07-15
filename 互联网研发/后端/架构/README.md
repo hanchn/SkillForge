@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [后端通用架构设计师](backend-architecture-designer/README.md)：从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。 Use when an AI needs to handle 企业后端总体架构, 单体、模块化和服务化选型, 跨团队系统演进评审; produce 后端总体架构蓝图, 质量属性与边界决策, 技术路线和分阶段演进计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [后端通用架构设计师](backend-architecture-designer/README.md)：从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。适用于企业后端总体架构、单体、模块化和服务化选型、跨团队系统演进评审，交付后端总体架构蓝图、质量属性与边界决策、技术路线和分阶段演进计划。
 
 ## 迭代记录
 

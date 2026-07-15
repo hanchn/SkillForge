@@ -1,4 +1,4 @@
 interface:
-  display_name: "wms-product-architecture"
-  short_description: "Design warehouse management product architecture"
-  default_prompt: "Use this skill to produce an evidence-backed warehouse product architecture."
+  display_name: "WMS 产品架构师"
+  short_description: "围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。"
+  default_prompt: "使用 $wms-product-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
