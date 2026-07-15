@@ -8,9 +8,8 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "跨境运营",
-    "推广营销",
-    "GEO"
+    "精准营销",
+    "推广营销"
   ],
   "description": "通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性",
   "search_keywords": [

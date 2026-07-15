@@ -8,9 +8,8 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "跨境运营",
-    "库存",
-    "预测与补货"
+    "渠道运营",
+    "库存"
   ],
   "description": "Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk",
   "search_keywords": [

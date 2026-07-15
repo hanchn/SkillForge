@@ -105,21 +105,20 @@
 
       .toolbar {
         display: flex;
-        gap: 12px;
+        flex-direction: column;
+        gap: 16px;
         margin-bottom: 32px;
-        align-items: center;
-        background: #fff;
-        padding: 8px;
-        border: 1px solid var(--border);
-        border-radius: var(--radius-lg);
-        box-shadow: var(--shadow-sm);
       }
 
       .search-wrapper {
-        flex: 1;
         display: flex;
         align-items: center;
-        padding: 0 12px;
+        width: 100%;
+        background: #fff;
+        padding: 12px 16px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
       }
 
       .search-wrapper svg {
@@ -146,26 +145,34 @@
         background: var(--border);
       }
 
-      .category-select {
-        padding: 8px 16px 8px 12px;
-        font-size: 14px;
-        color: var(--text);
-        cursor: pointer;
-        border-radius: var(--radius);
-        transition: background 0.2s;
-        appearance: none;
-        background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%236b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
-        background-repeat: no-repeat;
-        background-position: right 8px center;
-        padding-right: 28px;
-        max-width: 160px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+      .filter-row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
       }
 
-      .category-select:hover {
-        background-color: var(--bg-hover);
+      .filter-tag {
+        padding: 4px 12px;
+        font-size: 12px;
+        color: var(--text-secondary);
+        background: var(--bg-hover);
+        border: 1px solid transparent;
+        border-radius: 14px;
+        cursor: pointer;
+        transition: all 0.2s;
+        white-space: nowrap;
+      }
+
+      .filter-tag:hover {
+        background: var(--border);
+        color: var(--text);
+      }
+
+      .filter-tag.active {
+        background: var(--accent);
+        color: #fff;
       }
 
       .cards {
@@ -574,7 +581,7 @@
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
 
-      @media (max-width: 640px) {
+      @media (max-width: 600px) {
         .toolbar {
           flex-direction: column;
           align-items: stretch;
@@ -586,10 +593,6 @@
         .search-wrapper {
           border-bottom: 1px solid var(--border);
           padding-bottom: 8px;
-          margin-bottom: 8px;
-        }
-        .category-select {
-          width: 100%;
         }
       }
 
@@ -670,8 +673,7 @@
           </svg>
           <input id="searchInput" class="search-input" type="search" placeholder="搜索 skill 名称、关键词、描述..." autocomplete="off" spellcheck="false" />
         </div>
-        <div class="divider"></div>
-        <div id="categoryFilters" style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;"></div>
+        <div id="categoryFilters"></div>
       </section>
 
       <section id="cards" class="cards">
@@ -855,44 +857,38 @@
         let level = 1;
 
         while (currentTree && Object.keys(currentTree).length > 0) {
-          const select = document.createElement("select");
-          select.className = "category-select";
-          select.dataset.level = level;
-          
-          const defaultOption = document.createElement("option");
-          defaultOption.value = "";
-          defaultOption.textContent = "全部子类";
-          select.appendChild(defaultOption);
+          const row = document.createElement("div");
+          row.className = "filter-row";
 
+          // "All" tag for this level
+          const defaultTag = document.createElement("button");
+          defaultTag.className = "filter-tag";
+          if (!state.selectedPath[level]) defaultTag.classList.add("active");
+          defaultTag.textContent = "全部";
+          defaultTag.onclick = () => {
+            state.selectedPath = state.selectedPath.slice(0, level);
+            render();
+          };
+          row.appendChild(defaultTag);
+
+          // Category tags
           const options = Object.keys(currentTree).sort();
           options.forEach(opt => {
-            const optionEl = document.createElement("option");
-            optionEl.value = opt;
-            optionEl.textContent = opt;
-            select.appendChild(optionEl);
+            const tag = document.createElement("button");
+            tag.className = "filter-tag";
+            if (state.selectedPath[level] === opt) tag.classList.add("active");
+            tag.textContent = opt;
+            tag.onclick = () => {
+              state.selectedPath = state.selectedPath.slice(0, level);
+              state.selectedPath.push(opt);
+              render();
+            };
+            row.appendChild(tag);
           });
+
+          elements.categoryFilters.appendChild(row);
 
           const selectedVal = state.selectedPath[level];
-          if (selectedVal && currentTree[selectedVal]) {
-            select.value = selectedVal;
-          }
-
-          select.addEventListener("change", (e) => {
-            const lvl = parseInt(e.target.dataset.level, 10);
-            const val = e.target.value;
-            
-            if (val) {
-              state.selectedPath = state.selectedPath.slice(0, lvl);
-              state.selectedPath.push(val);
-            } else {
-              state.selectedPath = state.selectedPath.slice(0, lvl);
-            }
-            
-            render();
-          });
-
-          elements.categoryFilters.appendChild(select);
-
           if (selectedVal && currentTree[selectedVal]) {
             currentTree = currentTree[selectedVal];
             level++;

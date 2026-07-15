@@ -1,0 +1,4 @@
+interface:
+  display_name: "业务指标治理师"
+  short_description: "建立跨平台可复算的指标、维度、时间、币种和责任人标准。"
+  default_prompt: "使用 $business-metrics-governance 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

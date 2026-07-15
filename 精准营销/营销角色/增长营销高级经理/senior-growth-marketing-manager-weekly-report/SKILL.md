@@ -1,85 +1,42 @@
 ---
 name: senior-growth-marketing-manager-weekly-report
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: 基于真实经营证据生成增长营销高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。 Use when an AI needs to handle 增长营销高级经理本周经营复盘, 本周与上周或目标对比, 管理层同步和跨团队行动跟踪; produce 角色经营周报, 指标变化和驱动解释, 风险、决策与下周行动表; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# Senior Growth Marketing Manager Weekly Report
+# 增长营销高级经理周报
 
-## Overview
+基于真实经营证据生成增长营销高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## Load resources
 
-## Structuring This Skill
+- Read `references/professional-checklist.md` before making decisions.
+- Use `assets/delivery-template.md` for the final durable artifact.
+- If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Workflow
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+1. 锁定周报周期、时区、比较口径、目标、数据截止时间和数据来源
+2. 汇总本角色负责指标、关键交付、异常、决策和跨团队依赖，并验证数据完整性
+3. 先写结论摘要，再按目标差距拆解规模、效率、利润、质量和风险驱动
+4. 区分已完成、进行中、阻塞和待决策，所有状态绑定证据、owner 和截止时间
+5. 形成下周优先级、预期影响、资源需求、护栏和需要管理层决定的事项
+6. 按模板输出可持续追踪的周报，并保留口径变化、未知项和上周行动回看
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+## Required decision lenses
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+- 增长模型和机会树
+- 渠道预算与获客质量
+- 创意、落地页和转化
+- 留存、LTV 和回收期
+- 归因、增量和实验组合
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+## Guardrails
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+- 不得混淆本周对上周、同比或累计口径；不得虚构数据、成果、责任人或完成状态。
+- 不得把假设写成事实；缺少关键数据时标注未知项、影响和最低验证动作。
+- 不得只给原则或清单；必须给出优先级、责任、依赖、验收和风险控制。
+- 不得声称已实施、已验证或已产生效果，除非有对应证据。
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+## Output contract
 
-## [TODO: Replace with the first main section based on chosen structure]
-
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
-
-## Resources (optional)
-
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
-
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
-
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
-
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
-
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+交付必须包含：目标与范围、已检查证据、关键定义、现状诊断、方案与备选、决策理由、执行或演进计划、指标与验收、风险与恢复、未知项。结论与数字必须能够追溯到来源或计算过程。

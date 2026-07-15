@@ -3,7 +3,7 @@
 > skill id：supplier-sourcing-quality-manager
 > 当前版本：1.0.0
 > 产品状态：可用
-> 所属分类：跨境运营 / 供应链 / 寻源与质量
+> 所属分类：渠道运营 / 供应链
 
 ## 产品定位
 

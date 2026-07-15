@@ -3,7 +3,7 @@
 > skill id：ecommerce-fulfillment-logistics-planner
 > 当前版本：1.0.0
 > 产品状态：可用
-> 所属分类：跨境运营 / 物流 / 跨境履约
+> 所属分类：渠道运营 / 物流
 
 ## 产品定位
 

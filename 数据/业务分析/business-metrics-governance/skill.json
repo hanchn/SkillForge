@@ -1,0 +1,84 @@
+{
+  "name": "business-metrics-governance",
+  "display_name": "业务指标治理师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "数据",
+    "业务分析"
+  ],
+  "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。",
+  "search_keywords": [
+    "经营指标字典",
+    "多系统口径统一",
+    "看板和周报上线前治理",
+    "业务定义与公式",
+    "粒度、去重和状态",
+    "时区、币种和税口径"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "指标字典",
+    "维度与数据血缘",
+    "变更、认证和争议处理机制",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得在定义未统一时直接比较或汇总指标。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

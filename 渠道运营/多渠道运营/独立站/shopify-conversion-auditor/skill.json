@@ -8,10 +8,9 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "跨境运营",
+    "渠道运营",
     "多渠道运营",
-    "独立站",
-    "CRO"
+    "独立站"
   ],
   "description": "基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项",
   "search_keywords": [

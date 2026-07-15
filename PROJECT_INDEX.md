@@ -11,8 +11,9 @@
 - 标准模板：templates/standard-skill-package/
 - 可视化管理：skills-dashboard/
 - 前后端架构地图：互联网研发/ARCHITECTURE_SKILLS_MAP.md
-- 跨境运营营销地图：跨境运营/OPERATIONS_MARKETING_SKILLS_MAP.md
-- 业务数据分析地图：数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md
+- 渠道运营地图：渠道运营/CHANNEL_OPERATIONS_SKILLS_MAP.md
+- 精准营销地图：精准营销/PRECISION_MARKETING_SKILLS_MAP.md
+- 业务数据分析地图：数据/BUSINESS_ANALYTICS_SKILLS_MAP.md
 - 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
 
 ## Search Strategy
@@ -224,60 +225,114 @@
 ### 数据
 
 - **广告效果分析师**（`advertising-performance-analyst`）
-  - 路径：`数据看板/业务分析/advertising-performance-analyst/`
+  - 路径：`数据/业务分析/advertising-performance-analyst/`
   - 分类：数据 / 业务分析
   - 用途：统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。
 - **业务指标治理师**（`business-metrics-governance`）
-  - 路径：`数据看板/业务分析/business-metrics-governance/`
+  - 路径：`数据/业务分析/business-metrics-governance/`
   - 分类：数据 / 业务分析
   - 用途：建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。
 - **电商转化漏斗分析师**（`conversion-funnel-analyst`）
-  - 路径：`数据看板/业务分析/conversion-funnel-analyst/`
+  - 路径：`数据/业务分析/conversion-funnel-analyst/`
   - 分类：数据 / 业务分析
   - 用途：按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。
 - **客户 Cohort 与 LTV 分析师**（`customer-cohort-ltv-analyst`）
-  - 路径：`数据看板/业务分析/customer-cohort-ltv-analyst/`
+  - 路径：`数据/业务分析/customer-cohort-ltv-analyst/`
   - 分类：数据 / 业务分析
   - 用途：按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。
 - **经营分析与周月报专家**（`executive-business-review`）
-  - 路径：`数据看板/业务分析/executive-business-review/`
+  - 路径：`数据/业务分析/executive-business-review/`
   - 分类：数据 / 业务分析
   - 用途：把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。
 - **经营预测与情景规划师**（`forecast-scenario-planner`）
-  - 路径：`数据看板/业务分析/forecast-scenario-planner/`
+  - 路径：`数据/业务分析/forecast-scenario-planner/`
   - 分类：数据 / 业务分析
   - 用途：用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。
 - **库存与供应链分析师**（`inventory-supply-chain-analyst`）
-  - 路径：`数据看板/业务分析/inventory-supply-chain-analyst/`
+  - 路径：`数据/业务分析/inventory-supply-chain-analyst/`
   - 分类：数据 / 业务分析
   - 用途：量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。
 - **跨平台渠道对比分析师**（`marketplace-channel-comparison-analyst`）
-  - 路径：`数据看板/业务分析/marketplace-channel-comparison-analyst/`
+  - 路径：`数据/业务分析/marketplace-channel-comparison-analyst/`
   - 分类：数据 / 业务分析
   - 用途：统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。
 - **价格与促销分析师**（`pricing-promotion-analyst`）
-  - 路径：`数据看板/业务分析/pricing-promotion-analyst/`
+  - 路径：`数据/业务分析/pricing-promotion-analyst/`
   - 分类：数据 / 业务分析
   - 用途：评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。
 - **商品组合分析师**（`product-portfolio-analyst`）
-  - 路径：`数据看板/业务分析/product-portfolio-analyst/`
+  - 路径：`数据/业务分析/product-portfolio-analyst/`
   - 分类：数据 / 业务分析
   - 用途：从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。
 - **销售与利润分析师**（`sales-profitability-analyst`）
-  - 路径：`数据看板/业务分析/sales-profitability-analyst/`
+  - 路径：`数据/业务分析/sales-profitability-analyst/`
   - 分类：数据 / 业务分析
   - 用途：拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。
 - **流量与获客分析师**（`traffic-acquisition-analyst`）
-  - 路径：`数据看板/业务分析/traffic-acquisition-analyst/`
+  - 路径：`数据/业务分析/traffic-acquisition-analyst/`
   - 分类：数据 / 业务分析
+  - 用途：区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。
+- **业务数据质量与对账专家**（`data-quality-reconciliation`）
+  - 路径：`数据/数据治理/data-quality-reconciliation/`
+  - 分类：数据 / 数据治理
+  - 用途：验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。
+### 数据看板
+
+- **广告效果分析师**（`advertising-performance-analyst`）
+  - 路径：`数据看板/业务分析/advertising-performance-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。
+- **业务指标治理师**（`business-metrics-governance`）
+  - 路径：`数据看板/业务分析/business-metrics-governance/`
+  - 分类：数据看板 / 业务分析
+  - 用途：建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。
+- **电商转化漏斗分析师**（`conversion-funnel-analyst`）
+  - 路径：`数据看板/业务分析/conversion-funnel-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。
+- **客户 Cohort 与 LTV 分析师**（`customer-cohort-ltv-analyst`）
+  - 路径：`数据看板/业务分析/customer-cohort-ltv-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。
+- **经营分析与周月报专家**（`executive-business-review`）
+  - 路径：`数据看板/业务分析/executive-business-review/`
+  - 分类：数据看板 / 业务分析
+  - 用途：把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。
+- **经营预测与情景规划师**（`forecast-scenario-planner`）
+  - 路径：`数据看板/业务分析/forecast-scenario-planner/`
+  - 分类：数据看板 / 业务分析
+  - 用途：用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。
+- **库存与供应链分析师**（`inventory-supply-chain-analyst`）
+  - 路径：`数据看板/业务分析/inventory-supply-chain-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。
+- **跨平台渠道对比分析师**（`marketplace-channel-comparison-analyst`）
+  - 路径：`数据看板/业务分析/marketplace-channel-comparison-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。
+- **价格与促销分析师**（`pricing-promotion-analyst`）
+  - 路径：`数据看板/业务分析/pricing-promotion-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。
+- **商品组合分析师**（`product-portfolio-analyst`）
+  - 路径：`数据看板/业务分析/product-portfolio-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。
+- **销售与利润分析师**（`sales-profitability-analyst`）
+  - 路径：`数据看板/业务分析/sales-profitability-analyst/`
+  - 分类：数据看板 / 业务分析
+  - 用途：拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。
+- **流量与获客分析师**（`traffic-acquisition-analyst`）
+  - 路径：`数据看板/业务分析/traffic-acquisition-analyst/`
+  - 分类：数据看板 / 业务分析
   - 用途：区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。
 - **业务指标诊断师**（`metric-diagnostics`）
   - 路径：`数据看板/metric-diagnostics/`
-  - 分类：数据 / 业务分析 / 指标诊断
+  - 分类：数据看板 / 业务分析 / 指标诊断
   - 用途：验证指标口径与数据质量，量化拆解异常变化并区分驱动因素和假设
 - **业务数据质量与对账专家**（`data-quality-reconciliation`）
   - 路径：`数据看板/数据治理/data-quality-reconciliation/`
-  - 分类：数据 / 数据治理
+  - 分类：数据看板 / 数据治理
   - 用途：验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。
 ### 法律政务
 
@@ -285,133 +340,215 @@
   - 路径：`法律政务/contract-risk-reviewer/`
   - 分类：法律政务 / 合同 / 商业合同审阅
   - 用途：逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单
-### 跨境运营
+### 渠道运营
 
 - **供应商寻源与质量管理器**（`supplier-sourcing-quality-manager`）
-  - 路径：`跨境运营/供应链/supplier-sourcing-quality-manager/`
-  - 分类：跨境运营 / 供应链 / 寻源与质量
+  - 路径：`渠道运营/供应链/supplier-sourcing-quality-manager/`
+  - 分类：渠道运营 / 供应链
   - 用途：Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk
-- **跨境内容营销规划师**（`content-marketing-planner`）
-  - 路径：`跨境运营/内容营销/content-marketing-planner/`
-  - 分类：跨境运营 / 内容营销
-  - 用途：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。
-- **跨境广告创意策略师**（`creative-strategy-producer`）
-  - 路径：`跨境运营/创意生产/creative-strategy-producer/`
-  - 分类：跨境运营 / 创意生产
-  - 用途：从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。
 - **跨境商品合规风险管理器**（`product-compliance-risk-manager`）
-  - 路径：`跨境运营/合规/product-compliance-risk-manager/`
-  - 分类：跨境运营 / 合规 / 商品与声明
+  - 路径：`渠道运营/合规/product-compliance-risk-manager/`
+  - 分类：渠道运营 / 合规
   - 用途：Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel
-- **跨境品牌定位策略师**（`brand-positioning-strategist`）
-  - 路径：`跨境运营/品牌营销/brand-positioning-strategist/`
-  - 分类：跨境运营 / 品牌营销
-  - 用途：以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。
 - **定价与促销优化经理**（`pricing-promotion-optimizer`）
-  - 路径：`跨境运营/商业化/pricing-promotion-optimizer/`
-  - 分类：跨境运营 / 商业化
+  - 路径：`渠道运营/商业化/pricing-promotion-optimizer/`
+  - 分类：渠道运营 / 商业化
   - 用途：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。适用于新品定价、跨国家跨渠道价格治理、折扣和优惠机制优化，交付价格架构、促销方案和利润模拟、实验、监控与退出规则。
 - **平台商品信息优化师**（`marketplace-listing-optimizer`）
-  - 路径：`跨境运营/商品运营/marketplace-listing-optimizer/`
-  - 分类：跨境运营 / 商品运营
+  - 路径：`渠道运营/商品运营/marketplace-listing-optimizer/`
+  - 分类：渠道运营 / 商品运营
   - 用途：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。适用于Amazon 等平台 listing 优化、新品信息搭建、低流量或低转化详情修复，交付关键词和信息架构、标题、卖点和详情建议、合规与实验清单。
-- **跨境全链路增长负责人**（`cross-border-growth-operator`）
-  - 路径：`跨境运营/增长营销/cross-border-growth-operator/`
-  - 分类：跨境运营 / 增长营销
-  - 用途：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。
-- **跨渠道营销归因规划师**（`marketing-attribution-planner`）
-  - 路径：`跨境运营/增长营销/marketing-attribution-planner/`
-  - 分类：跨境运营 / 增长营销
-  - 用途：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。
 - **亚马逊 PDP 导入草稿生成器**（`amazon-pdp-import-generator`）
-  - 路径：`跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator/`
-  - 分类：跨境运营 / 多渠道运营 / 亚马逊
+  - 路径：`渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator/`
+  - 分类：渠道运营 / 多渠道运营 / 亚马逊
   - 用途：从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容
 - **Shopify 转化审计师**（`shopify-conversion-auditor`）
-  - 路径：`跨境运营/多渠道运营/独立站/shopify-conversion-auditor/`
-  - 分类：跨境运营 / 多渠道运营 / 独立站 / CRO
+  - 路径：`渠道运营/多渠道运营/独立站/shopify-conversion-auditor/`
+  - 分类：渠道运营 / 多渠道运营 / 独立站
   - 用途：基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项
 - **独立站产品上下架管理器**（`storefront-product-publishing-manager`）
-  - 路径：`跨境运营/多渠道运营/独立站/storefront-product-publishing-manager/`
-  - 分类：跨境运营 / 多渠道运营 / 独立站 / 商品运营
+  - 路径：`渠道运营/多渠道运营/独立站/storefront-product-publishing-manager/`
+  - 分类：渠道运营 / 多渠道运营 / 独立站
   - 用途：安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚
 - **跨境多语言客服经理**（`customer-service-voice-manager`）
-  - 路径：`跨境运营/客户体验/customer-service-voice-manager/`
-  - 分类：跨境运营 / 客户体验
+  - 路径：`渠道运营/客户体验/customer-service-voice-manager/`
+  - 分类：渠道运营 / 客户体验
   - 用途：以多语言一致性、问题解决和客户洞察运营售前售后服务。适用于邮件、在线聊天和平台消息客服、多语言话术体系、客服质检和 VOC 闭环，交付客服 SOP 与话术库、升级和赔付矩阵、VOC 分类与改进报告。
 - **评价与品牌声誉经理**（`review-reputation-manager`）
-  - 路径：`跨境运营/客户体验/review-reputation-manager/`
-  - 分类：跨境运营 / 客户体验
+  - 路径：`渠道运营/客户体验/review-reputation-manager/`
+  - 分类：渠道运营 / 客户体验
   - 用途：合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。
-- **跨境市场情报分析师**（`cross-border-market-intelligence`）
-  - 路径：`跨境运营/市场与战略/cross-border-market-intelligence/`
-  - 分类：跨境运营 / 市场与战略
-  - 用途：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。适用于进入新国家或类目、竞品与价格带扫描、季度市场机会更新，交付市场情报简报、机会评分和证据表、验证计划与预警项。
-- **跨境上市规划师**（`go-to-market-launch-planner`）
-  - 路径：`跨境运营/市场与战略/go-to-market-launch-planner/`
-  - 分类：跨境运营 / 市场与战略
-  - 用途：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。适用于新品上市、新站点或新国家启动、重大版本或季节发布，交付GTM 计划、阶段门和责任矩阵、预算、指标与复盘设计。
-- **多渠道库存补货规划师**（`inventory-replenishment-planner`）
-  - 路径：`跨境运营/库存/inventory-replenishment-planner/`
-  - 分类：跨境运营 / 库存 / 预测与补货
-  - 用途：Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk
-- **GEO 引用就绪优化师**（`geo-optimizer`）
-  - 路径：`跨境运营/推广营销/geo-optimizer/`
-  - 分类：跨境运营 / 推广营销 / GEO
-  - 用途：通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性
-- **SEO 内容优化师**（`seo-optimizer`）
-  - 路径：`跨境运营/推广营销/seo-optimizer/`
-  - 分类：跨境运营 / 推广营销 / SEO
-  - 用途：基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容
-- **多渠道电商广告优化师**（`commerce-advertising-optimizer`）
-  - 路径：`跨境运营/推广营销/commerce-advertising-optimizer/`
-  - 分类：跨境运营 / 推广营销 / 广告优化
-  - 用途：Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments
-- **跨境活动营销经理**（`promotion-calendar-manager`）
-  - 路径：`跨境运营/活动营销/promotion-calendar-manager/`
-  - 分类：跨境运营 / 活动营销
-  - 用途：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。适用于黑五网一和节日大促、季度促销规划、多渠道活动冲突治理，交付年度/季度活动日历、活动机制和资源表、上线检查与复盘模板。
 - **跨境渠道组合策略师**（`channel-portfolio-strategist`）
-  - 路径：`跨境运营/渠道运营/channel-portfolio-strategist/`
-  - 分类：跨境运营 / 渠道运营
+  - 路径：`渠道运营/平台运营/channel-portfolio-strategist/`
+  - 分类：渠道运营 / 平台运营
   - 用途：按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。
 - **TikTok Shop 运营经理**（`tiktok-shop-operations-manager`）
-  - 路径：`跨境运营/渠道运营/TikTok Shop/tiktok-shop-operations-manager/`
-  - 分类：跨境运营 / 渠道运营 / TikTok Shop
+  - 路径：`渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager/`
+  - 分类：渠道运营 / 平台运营 / TikTok Shop
   - 用途：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。
 - **亚马逊店铺运营经理**（`amazon-store-operations-manager`）
-  - 路径：`跨境运营/渠道运营/亚马逊/amazon-store-operations-manager/`
-  - 分类：跨境运营 / 渠道运营 / 亚马逊
+  - 路径：`渠道运营/平台运营/亚马逊/amazon-store-operations-manager/`
+  - 分类：渠道运营 / 平台运营 / 亚马逊
   - 用途：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。
 - **Shopify 独立站运营经理**（`shopify-store-operations-manager`）
-  - 路径：`跨境运营/渠道运营/独立站/shopify-store-operations-manager/`
-  - 分类：跨境运营 / 渠道运营 / 独立站
+  - 路径：`渠道运营/平台运营/独立站/shopify-store-operations-manager/`
+  - 分类：渠道运营 / 平台运营 / 独立站
   - 用途：统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。适用于Shopify 日常运营、新品与活动上线、独立站增长和问题排查，交付独立站经营计划、上线与健康检查表、渠道和站内经营复盘。
+- **多渠道库存补货规划师**（`inventory-replenishment-planner`）
+  - 路径：`渠道运营/库存/inventory-replenishment-planner/`
+  - 分类：渠道运营 / 库存
+  - 用途：Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk
 - **电商履约物流规划师**（`ecommerce-fulfillment-logistics-planner`）
-  - 路径：`跨境运营/物流/ecommerce-fulfillment-logistics-planner/`
-  - 分类：跨境运营 / 物流 / 跨境履约
+  - 路径：`渠道运营/物流/ecommerce-fulfillment-logistics-planner/`
+  - 分类：渠道运营 / 物流
   - 用途：Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience
+- **电商单位经济模型分析师**（`ecommerce-unit-economics-analyst`）
+  - 路径：`渠道运营/经营分析/ecommerce-unit-economics-analyst/`
+  - 分类：渠道运营 / 经营分析
+  - 用途：Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios
+- **TikTok Shop 运营高级经理**（`senior-tiktok-shop-operations-manager`）
+  - 路径：`渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager/`
+  - 分类：渠道运营 / 运营角色 / TikTok-Shop运营高级经理
+  - 用途：统筹 TikTok Shop 商品、内容、直播、达人、广告、活动、履约和店铺健康。适用于由TikTok Shop 运营高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **TikTok Shop 运营高级经理周报**（`senior-tiktok-shop-operations-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / TikTok-Shop运营高级经理
+  - 用途：基于真实经营证据生成TikTok Shop 运营高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于TikTok Shop 运营高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **业务数据分析高级经理**（`senior-business-analytics-manager`）
+  - 路径：`渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager/`
+  - 分类：渠道运营 / 运营角色 / 业务数据分析高级经理
+  - 用途：统筹指标治理、数据质量、经营分析、专项诊断、预测和管理层决策支持。适用于由业务数据分析高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **业务数据分析高级经理周报**（`senior-business-analytics-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 业务数据分析高级经理
+  - 用途：基于真实经营证据生成业务数据分析高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于业务数据分析高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **亚马逊运营高级经理**（`senior-amazon-operations-manager`）
+  - 路径：`渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager/`
+  - 分类：渠道运营 / 运营角色 / 亚马逊运营高级经理
+  - 用途：对 Amazon 账户健康、商品、搜索、转化、广告、库存、价格、评价和利润承担端到端经营责任。适用于由亚马逊运营高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **亚马逊运营高级经理周报**（`senior-amazon-operations-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 亚马逊运营高级经理
+  - 用途：基于真实经营证据生成亚马逊运营高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于亚马逊运营高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **供应链高级经理**（`senior-supply-chain-manager`）
+  - 路径：`渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager/`
+  - 分类：渠道运营 / 运营角色 / 供应链高级经理
+  - 用途：统筹供应商、质量、采购、库存、仓储、运输、履约和供应链现金风险。适用于由供应链高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **供应链高级经理周报**（`senior-supply-chain-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 供应链高级经理
+  - 用途：基于真实经营证据生成供应链高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于供应链高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **客户体验高级经理**（`senior-customer-experience-manager`）
+  - 路径：`渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager/`
+  - 分类：渠道运营 / 运营角色 / 客户体验高级经理
+  - 用途：统筹多语言客服、售后、评价、声誉、VOC、留存和客户体验改进。适用于由客户体验高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **客户体验高级经理周报**（`senior-customer-experience-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 客户体验高级经理
+  - 用途：基于真实经营证据生成客户体验高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于客户体验高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **独立站运营高级经理**（`senior-dtc-operations-manager`）
+  - 路径：`渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager/`
+  - 分类：渠道运营 / 运营角色 / 独立站运营高级经理
+  - 用途：对独立站商品、内容、获客、转化、客单、复购、技术健康和贡献利润承担端到端责任。适用于由独立站运营高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **独立站运营高级经理周报**（`senior-dtc-operations-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 独立站运营高级经理
+  - 用途：基于真实经营证据生成独立站运营高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于独立站运营高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **跨境电商业务负责人**（`senior-cross-border-commerce-leader`）
+  - 路径：`渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader/`
+  - 分类：渠道运营 / 运营角色 / 跨境电商负责人
+  - 用途：统筹公司跨境业务战略、渠道组合、商品、增长、供应链、客户体验、利润和组织节奏。适用于由跨境电商业务负责人接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **跨境电商业务负责人周报**（`senior-cross-border-commerce-leader-weekly-report`）
+  - 路径：`渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 跨境电商负责人
+  - 用途：基于真实经营证据生成跨境电商业务负责人视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于跨境电商业务负责人本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **选品与商品高级经理**（`senior-merchandising-manager`）
+  - 路径：`渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager/`
+  - 分类：渠道运营 / 运营角色 / 选品与商品高级经理
+  - 用途：统筹市场机会、选品验证、商品组合、生命周期、定价、内容准备和退出机制。适用于由选品与商品高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **选品与商品高级经理周报**（`senior-merchandising-manager-weekly-report`）
+  - 路径：`渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager-weekly-report/`
+  - 分类：渠道运营 / 运营角色 / 选品与商品高级经理
+  - 用途：基于真实经营证据生成选品与商品高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于选品与商品高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **跨境电商选品研究**（`ecommerce-product-research`）
+  - 路径：`渠道运营/选品/ecommerce-product-research/`
+  - 分类：渠道运营 / 选品
+  - 用途：从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会
+### 精准营销
+
+- **跨境内容营销规划师**（`content-marketing-planner`）
+  - 路径：`精准营销/内容营销/content-marketing-planner/`
+  - 分类：精准营销 / 内容营销
+  - 用途：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。
+- **跨境广告创意策略师**（`creative-strategy-producer`）
+  - 路径：`精准营销/创意生产/creative-strategy-producer/`
+  - 分类：精准营销 / 创意生产
+  - 用途：从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。
+- **跨境品牌定位策略师**（`brand-positioning-strategist`）
+  - 路径：`精准营销/品牌营销/brand-positioning-strategist/`
+  - 分类：精准营销 / 品牌营销
+  - 用途：以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。
+- **跨境全链路增长负责人**（`cross-border-growth-operator`）
+  - 路径：`精准营销/增长营销/cross-border-growth-operator/`
+  - 分类：精准营销 / 增长营销
+  - 用途：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。
+- **跨渠道营销归因规划师**（`marketing-attribution-planner`）
+  - 路径：`精准营销/增长营销/marketing-attribution-planner/`
+  - 分类：精准营销 / 增长营销
+  - 用途：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。
+- **跨境市场情报分析师**（`cross-border-market-intelligence`）
+  - 路径：`精准营销/市场策略/cross-border-market-intelligence/`
+  - 分类：精准营销 / 市场策略
+  - 用途：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。适用于进入新国家或类目、竞品与价格带扫描、季度市场机会更新，交付市场情报简报、机会评分和证据表、验证计划与预警项。
+- **跨境上市规划师**（`go-to-market-launch-planner`）
+  - 路径：`精准营销/市场策略/go-to-market-launch-planner/`
+  - 分类：精准营销 / 市场策略
+  - 用途：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。适用于新品上市、新站点或新国家启动、重大版本或季节发布，交付GTM 计划、阶段门和责任矩阵、预算、指标与复盘设计。
+- **多渠道电商广告优化师**（`commerce-advertising-optimizer`）
+  - 路径：`精准营销/推广营销/commerce-advertising-optimizer/`
+  - 分类：精准营销 / 推广营销
+  - 用途：Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments
+- **GEO 引用就绪优化师**（`geo-optimizer`）
+  - 路径：`精准营销/推广营销/geo-optimizer/`
+  - 分类：精准营销 / 推广营销
+  - 用途：通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性
+- **SEO 内容优化师**（`seo-optimizer`）
+  - 路径：`精准营销/推广营销/seo-optimizer/`
+  - 分类：精准营销 / 推广营销
+  - 用途：基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容
+- **跨境活动营销经理**（`promotion-calendar-manager`）
+  - 路径：`精准营销/活动营销/promotion-calendar-manager/`
+  - 分类：精准营销 / 活动营销
+  - 用途：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。适用于黑五网一和节日大促、季度促销规划、多渠道活动冲突治理，交付年度/季度活动日历、活动机制和资源表、上线检查与复盘模板。
 - **客户留存与忠诚度经理**（`customer-retention-loyalty-manager`）
-  - 路径：`跨境运营/用户运营/customer-retention-loyalty-manager/`
-  - 分类：跨境运营 / 用户运营
+  - 路径：`精准营销/用户运营/customer-retention-loyalty-manager/`
+  - 分类：精准营销 / 用户运营
   - 用途：按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。适用于复购率提升、会员或积分计划、流失客户召回，交付留存策略、客户分层和触达旅程、会员经济模型与实验。
 - **邮件生命周期营销师**（`email-lifecycle-marketer`）
-  - 路径：`跨境运营/用户运营/email-lifecycle-marketer/`
-  - 分类：跨境运营 / 用户运营
+  - 路径：`精准营销/用户运营/email-lifecycle-marketer/`
+  - 分类：精准营销 / 用户运营
   - 用途：按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。适用于欢迎、弃购、购后、召回流程、Newsletter 运营、邮件收入和送达率治理，交付生命周期流程图、分群、触发与内容方案、实验和送达健康看板。
 - **跨境社媒运营经理**（`social-media-operations-manager`）
-  - 路径：`跨境运营/社媒营销/social-media-operations-manager/`
-  - 分类：跨境运营 / 社媒营销
+  - 路径：`精准营销/社媒营销/social-media-operations-manager/`
+  - 分类：精准营销 / 社媒营销
   - 用途：建立平台适配的内容、互动、增长、风险和复盘机制。适用于TikTok、Instagram、YouTube、Pinterest 运营、账号冷启动、社媒内容和社区增长，交付平台运营方案、内容栏目和发布节奏、互动 SOP 与周度复盘。
-- **电商单位经济模型分析师**（`ecommerce-unit-economics-analyst`）
-  - 路径：`跨境运营/经营分析/ecommerce-unit-economics-analyst/`
-  - 分类：跨境运营 / 经营分析 / 利润与现金流
-  - 用途：Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios
+- **品牌与内容高级经理**（`senior-brand-content-manager`）
+  - 路径：`精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager/`
+  - 分类：精准营销 / 营销角色 / 品牌与内容高级经理
+  - 用途：统筹品牌定位、产品证据、内容体系、创意资产、社媒表达和多市场一致性。适用于由品牌与内容高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **品牌与内容高级经理周报**（`senior-brand-content-manager-weekly-report`）
+  - 路径：`精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager-weekly-report/`
+  - 分类：精准营销 / 营销角色 / 品牌与内容高级经理
+  - 用途：基于真实经营证据生成品牌与内容高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于品牌与内容高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **增长营销高级经理**（`senior-growth-marketing-manager`）
+  - 路径：`精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager/`
+  - 分类：精准营销 / 营销角色 / 增长营销高级经理
+  - 用途：统筹付费、自然、达人、邮件和活动增长，对获客质量、转化、留存和贡献利润负责。适用于由增长营销高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **增长营销高级经理周报**（`senior-growth-marketing-manager-weekly-report`）
+  - 路径：`精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager-weekly-report/`
+  - 分类：精准营销 / 营销角色 / 增长营销高级经理
+  - 用途：基于真实经营证据生成增长营销高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于增长营销高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
 - **达人与联盟营销经理**（`influencer-affiliate-manager`）
-  - 路径：`跨境运营/达人联盟/influencer-affiliate-manager/`
-  - 分类：跨境运营 / 达人联盟
+  - 路径：`精准营销/达人联盟/influencer-affiliate-manager/`
+  - 分类：精准营销 / 达人联盟
   - 用途：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。适用于达人种草和带货、联盟计划搭建、UGC 采购与授权，交付达人分层池、合作 brief 与跟进管道、佣金、授权和效果复盘。
-- **跨境电商选品研究**（`ecommerce-product-research`）
-  - 路径：`跨境运营/选品/ecommerce-product-research/`
-  - 分类：跨境运营 / 选品 / 跨渠道机会研究
-  - 用途：从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会

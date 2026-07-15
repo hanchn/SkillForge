@@ -1,0 +1,4 @@
+interface:
+  display_name: "业务数据质量与对账专家"
+  short_description: "验证完整性、唯一性、及时性、一致性并解释跨系统差异。"
+  default_prompt: "使用 $data-quality-reconciliation 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

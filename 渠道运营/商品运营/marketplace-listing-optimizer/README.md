@@ -3,7 +3,7 @@
 > skill id：marketplace-listing-optimizer  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：跨境运营 / 商品运营
+> 所属分类：渠道运营 / 商品运营
 
 ## 产品定位
 

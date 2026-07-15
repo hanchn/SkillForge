@@ -3,7 +3,7 @@
 > skill id：customer-service-voice-manager  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：跨境运营 / 客户体验
+> 所属分类：渠道运营 / 客户体验
 
 ## 产品定位
 

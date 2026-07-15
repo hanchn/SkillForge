@@ -3,7 +3,7 @@
 > skill id：customer-retention-loyalty-manager  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：跨境运营 / 用户运营
+> 所属分类：精准营销 / 用户运营
 
 ## 产品定位
 

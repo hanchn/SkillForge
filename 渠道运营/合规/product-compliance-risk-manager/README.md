@@ -3,7 +3,7 @@
 > skill id：product-compliance-risk-manager
 > 当前版本：1.0.0
 > 产品状态：可用
-> 所属分类：跨境运营 / 合规 / 商品与声明
+> 所属分类：渠道运营 / 合规
 
 ## 产品定位
 

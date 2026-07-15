@@ -8,9 +8,8 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "跨境运营",
-    "物流",
-    "跨境履约"
+    "渠道运营",
+    "物流"
   ],
   "description": "Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience",
   "search_keywords": [

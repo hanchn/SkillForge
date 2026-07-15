@@ -3,7 +3,7 @@
 > skill id：commerce-advertising-optimizer
 > 当前版本：1.0.0
 > 产品状态：可用
-> 所属分类：跨境运营 / 推广营销 / 广告优化
+> 所属分类：精准营销 / 推广营销
 
 ## 产品定位
 

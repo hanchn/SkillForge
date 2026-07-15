@@ -3,7 +3,7 @@
 > skill id：marketing-attribution-planner  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：跨境运营 / 增长营销
+> 所属分类：精准营销 / 增长营销
 
 ## 产品定位
 

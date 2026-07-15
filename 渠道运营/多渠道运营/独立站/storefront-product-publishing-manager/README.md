@@ -3,7 +3,7 @@
 > skill id：storefront-product-publishing-manager
 > 当前版本：1.0.0
 > 产品状态：可用
-> 所属分类：跨境运营 / 多渠道运营 / 独立站 / 商品运营
+> 所属分类：渠道运营 / 多渠道运营 / 独立站
 
 ## 产品定位
 

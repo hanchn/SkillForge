@@ -1,4 +1,4 @@
 interface:
   display_name: "跨境电商业务负责人"
-  short_description: "Lead cross-border business outcomes for this role"
-  default_prompt: "Use this senior role skill to own the outcome and orchestrate specialist skills."
+  short_description: "统筹公司跨境业务战略、渠道组合、商品、增长、供应链、客户体验、利润和组织节奏。"
+  default_prompt: "使用 $senior-cross-border-commerce-leader 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

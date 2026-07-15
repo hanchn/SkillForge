@@ -1,0 +1,4 @@
+interface:
+  display_name: "库存与供应链分析师"
+  short_description: "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。"
+  default_prompt: "使用 $inventory-supply-chain-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -8,10 +8,9 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "跨境运营",
+    "渠道运营",
     "多渠道运营",
-    "独立站",
-    "商品运营"
+    "独立站"
   ],
   "description": "安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚",
   "search_keywords": [

@@ -21,7 +21,8 @@
       "platforms"
     ],
     "business_browse": [
-      "跨境运营",
+      "渠道运营",
+      "精准营销",
       "互联网研发",
       "法律政务",
       "数据",
@@ -917,9 +918,204 @@
       ]
     },
     {
+      "name": "data-quality-reconciliation",
+      "display_name": "业务数据质量与对账专家",
+      "package_root": "数据/数据治理/data-quality-reconciliation",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "平台与财务对账",
+        "看板数据验收",
+        "异常数据和口径争议",
+        "来源、抽取时间和范围",
+        "主键、重复和缺失",
+        "状态、时区、币种和税"
+      ]
+    },
+    {
+      "name": "advertising-performance-analyst",
+      "display_name": "广告效果分析师",
+      "package_root": "数据看板/业务分析/advertising-performance-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "广告周报和预算复盘",
+        "ROAS/ACOS 波动",
+        "创意和投放结构诊断",
+        "spend、delivery 和归因窗口",
+        "CTR、CVR、CPA、ROAS 与 TACOS",
+        "新客、毛利和回收期"
+      ]
+    },
+    {
+      "name": "business-metrics-governance",
+      "display_name": "业务指标治理师",
+      "package_root": "数据看板/业务分析/business-metrics-governance",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "经营指标字典",
+        "多系统口径统一",
+        "看板和周报上线前治理",
+        "业务定义与公式",
+        "粒度、去重和状态",
+        "时区、币种和税口径"
+      ]
+    },
+    {
+      "name": "conversion-funnel-analyst",
+      "display_name": "电商转化漏斗分析师",
+      "package_root": "数据看板/业务分析/conversion-funnel-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "商品或结账转化下降",
+        "设备国家渠道漏斗比较",
+        "改版和实验效果诊断",
+        "漏斗定义和可比 cohort",
+        "曝光、查看、加购、结账和购买",
+        "设备、页面、国家和渠道"
+      ]
+    },
+    {
+      "name": "customer-cohort-ltv-analyst",
+      "display_name": "客户 Cohort 与 LTV 分析师",
+      "package_root": "数据看板/业务分析/customer-cohort-ltv-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "复购和留存分析",
+        "渠道客户质量比较",
+        "CAC 回收和 LTV 预测",
+        "客户身份与 cohort 定义",
+        "复购、留存和间隔",
+        "收入、毛利和贡献 LTV"
+      ]
+    },
+    {
+      "name": "executive-business-review",
+      "display_name": "经营分析与周月报专家",
+      "package_root": "数据看板/业务分析/executive-business-review",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "跨境经营周报月报",
+        "管理层业务复盘",
+        "目标差距和行动跟踪",
+        "目标、同比和环比口径",
+        "收入利润和现金",
+        "商品渠道客户驱动"
+      ]
+    },
+    {
+      "name": "forecast-scenario-planner",
+      "display_name": "经营预测与情景规划师",
+      "package_root": "数据看板/业务分析/forecast-scenario-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "月度滚动预测",
+        "预算和目标拆解",
+        "乐观基准悲观情景",
+        "历史基线和结构变化",
+        "流量、转化、价格和复购驱动",
+        "季节、活动和供给约束"
+      ]
+    },
+    {
+      "name": "inventory-supply-chain-analyst",
+      "display_name": "库存与供应链分析师",
+      "package_root": "数据看板/业务分析/inventory-supply-chain-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "缺货和积压诊断",
+        "库存健康周报",
+        "供应商和物流绩效分析",
+        "库存状态和位置",
+        "需求、覆盖和安全库存",
+        "供应商交期和波动"
+      ]
+    },
+    {
+      "name": "marketplace-channel-comparison-analyst",
+      "display_name": "跨平台渠道对比分析师",
+      "package_root": "数据看板/业务分析/marketplace-channel-comparison-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Amazon、Shopify、TikTok 横向比较",
+        "渠道资源分配",
+        "渠道利润和客户质量评估",
+        "订单状态与收入确认",
+        "平台费、履约、广告和退款",
+        "新客、复购和数据 ownership"
+      ]
+    },
+    {
+      "name": "pricing-promotion-analyst",
+      "display_name": "价格与促销分析师",
+      "package_root": "数据看板/业务分析/pricing-promotion-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "大促复盘",
+        "价格调整效果",
+        "优惠券和捆绑机制比较",
+        "基线和对照",
+        "价格、折扣和实际成交价",
+        "销量、转化和弹性"
+      ]
+    },
+    {
+      "name": "product-portfolio-analyst",
+      "display_name": "商品组合分析师",
+      "package_root": "数据看板/业务分析/product-portfolio-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "SKU 分层",
+        "新品和长尾评估",
+        "淘汰、补货与资源分配",
+        "流量、转化和销量",
+        "毛利和贡献",
+        "库存周转和缺货"
+      ]
+    },
+    {
+      "name": "sales-profitability-analyst",
+      "display_name": "销售与利润分析师",
+      "package_root": "数据看板/业务分析/sales-profitability-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "销售和利润波动",
+        "国家渠道 SKU 盈利分析",
+        "利润改善机会评估",
+        "销量、价格和组合",
+        "退款、折扣和税费",
+        "平台、支付、物流和广告成本"
+      ]
+    },
+    {
+      "name": "traffic-acquisition-analyst",
+      "display_name": "流量与获客分析师",
+      "package_root": "数据看板/业务分析/traffic-acquisition-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "渠道流量波动",
+        "自然与付费获客质量",
+        "UTM 和来源口径排查",
+        "user/session scope",
+        "source、medium、campaign 规范",
+        "新客、参与和落地页"
+      ]
+    },
+    {
       "name": "metric-diagnostics",
       "display_name": "业务指标诊断师",
-      "package_root": "数据/metric-diagnostics",
+      "package_root": "数据看板/metric-diagnostics",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -934,7 +1130,7 @@
     {
       "name": "data-quality-reconciliation",
       "display_name": "业务数据质量与对账专家",
-      "package_root": "数据/数据治理/data-quality-reconciliation",
+      "package_root": "数据看板/数据治理/data-quality-reconciliation",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -964,7 +1160,7 @@
     {
       "name": "supplier-sourcing-quality-manager",
       "display_name": "供应商寻源与质量管理器",
-      "package_root": "跨境运营/供应链/supplier-sourcing-quality-manager",
+      "package_root": "渠道运营/供应链/supplier-sourcing-quality-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -976,39 +1172,9 @@
       ]
     },
     {
-      "name": "content-marketing-planner",
-      "display_name": "跨境内容营销规划师",
-      "package_root": "跨境运营/内容营销/content-marketing-planner",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "博客和指南规划",
-        "季度内容矩阵",
-        "SEO、社媒、邮件内容协同",
-        "受众问题和意图",
-        "主题支柱与内容缺口",
-        "产品证据和内链"
-      ]
-    },
-    {
-      "name": "creative-strategy-producer",
-      "display_name": "跨境广告创意策略师",
-      "package_root": "跨境运营/创意生产/creative-strategy-producer",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "广告素材策略",
-        "UGC brief 和脚本矩阵",
-        "创意疲劳治理",
-        "人群问题和欲望",
-        "产品证据与演示",
-        "角度、钩子、格式和 CTA"
-      ]
-    },
-    {
       "name": "product-compliance-risk-manager",
       "display_name": "跨境商品合规风险管理器",
-      "package_root": "跨境运营/合规/product-compliance-risk-manager",
+      "package_root": "渠道运营/合规/product-compliance-risk-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1020,24 +1186,9 @@
       ]
     },
     {
-      "name": "brand-positioning-strategist",
-      "display_name": "跨境品牌定位策略师",
-      "package_root": "跨境运营/品牌营销/brand-positioning-strategist",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "新品牌定位",
-        "品牌升级或多市场适配",
-        "产品线信息架构统一",
-        "目标人群和使用场景",
-        "竞争参照与差异",
-        "功能到利益的证据链"
-      ]
-    },
-    {
       "name": "pricing-promotion-optimizer",
       "display_name": "定价与促销优化经理",
-      "package_root": "跨境运营/商业化/pricing-promotion-optimizer",
+      "package_root": "渠道运营/商业化/pricing-promotion-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1052,7 +1203,7 @@
     {
       "name": "marketplace-listing-optimizer",
       "display_name": "平台商品信息优化师",
-      "package_root": "跨境运营/商品运营/marketplace-listing-optimizer",
+      "package_root": "渠道运营/商品运营/marketplace-listing-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1065,39 +1216,9 @@
       ]
     },
     {
-      "name": "cross-border-growth-operator",
-      "display_name": "跨境全链路增长负责人",
-      "package_root": "跨境运营/增长营销/cross-border-growth-operator",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "季度增长规划",
-        "GMV 或利润增长诊断",
-        "跨团队增长实验组合",
-        "增长方程和北极星指标",
-        "获客质量与转化",
-        "客单、复购和毛利"
-      ]
-    },
-    {
-      "name": "marketing-attribution-planner",
-      "display_name": "跨渠道营销归因规划师",
-      "package_root": "跨境运营/增长营销/marketing-attribution-planner",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "广告平台与 GA4 对数",
-        "多触点归因治理",
-        "预算分配和增量评估",
-        "业务问题和转化窗口",
-        "用户、会话和平台口径",
-        "身份、UTM 和事件质量"
-      ]
-    },
-    {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
+      "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1114,7 +1235,7 @@
     {
       "name": "shopify-conversion-auditor",
       "display_name": "Shopify 转化审计师",
-      "package_root": "跨境运营/多渠道运营/独立站/shopify-conversion-auditor",
+      "package_root": "渠道运营/多渠道运营/独立站/shopify-conversion-auditor",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1130,7 +1251,7 @@
     {
       "name": "storefront-product-publishing-manager",
       "display_name": "独立站产品上下架管理器",
-      "package_root": "跨境运营/多渠道运营/独立站/storefront-product-publishing-manager",
+      "package_root": "渠道运营/多渠道运营/独立站/storefront-product-publishing-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1146,7 +1267,7 @@
     {
       "name": "customer-service-voice-manager",
       "display_name": "跨境多语言客服经理",
-      "package_root": "跨境运营/客户体验/customer-service-voice-manager",
+      "package_root": "渠道运营/客户体验/customer-service-voice-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1161,7 +1282,7 @@
     {
       "name": "review-reputation-manager",
       "display_name": "评价与品牌声誉经理",
-      "package_root": "跨境运营/客户体验/review-reputation-manager",
+      "package_root": "渠道运营/客户体验/review-reputation-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1174,9 +1295,443 @@
       ]
     },
     {
+      "name": "channel-portfolio-strategist",
+      "display_name": "跨境渠道组合策略师",
+      "package_root": "渠道运营/平台运营/channel-portfolio-strategist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Amazon、Shopify、TikTok 等渠道组合",
+        "新渠道评估",
+        "渠道冲突和资源分配",
+        "客群和购买任务",
+        "流量 ownership 与数据可得性",
+        "毛利、费用和现金周期"
+      ]
+    },
+    {
+      "name": "tiktok-shop-operations-manager",
+      "display_name": "TikTok Shop 运营经理",
+      "package_root": "渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "TikTok Shop 冷启动",
+        "内容电商日常经营",
+        "GMV 波动诊断",
+        "店铺和商品健康",
+        "短视频与直播供给",
+        "达人联盟和授权"
+      ]
+    },
+    {
+      "name": "amazon-store-operations-manager",
+      "display_name": "亚马逊店铺运营经理",
+      "package_root": "渠道运营/平台运营/亚马逊/amazon-store-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Amazon 日常经营",
+        "新品启动",
+        "店铺问题诊断和周月度复盘",
+        "账户与合规健康",
+        "目录、搜索和转化",
+        "广告和促销"
+      ]
+    },
+    {
+      "name": "shopify-store-operations-manager",
+      "display_name": "Shopify 独立站运营经理",
+      "package_root": "渠道运营/平台运营/独立站/shopify-store-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Shopify 日常运营",
+        "新品与活动上线",
+        "独立站增长和问题排查",
+        "商品、集合和内容",
+        "流量、落地页和转化",
+        "促销、结账和支付"
+      ]
+    },
+    {
+      "name": "inventory-replenishment-planner",
+      "display_name": "多渠道库存补货规划师",
+      "package_root": "渠道运营/库存/inventory-replenishment-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "库存",
+        "预测与补货",
+        "周度/月度 SKU 补货计划",
+        "大促前备货和渠道分仓",
+        "供应延迟或销量突增时重算风险"
+      ]
+    },
+    {
+      "name": "ecommerce-fulfillment-logistics-planner",
+      "display_name": "电商履约物流规划师",
+      "package_root": "渠道运营/物流/ecommerce-fulfillment-logistics-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "物流",
+        "跨境履约",
+        "首批试单和补货运输方式选择",
+        "FBA、FBM、3PL 和直发组合设计",
+        "旺季、爆仓或承运商中断应急"
+      ]
+    },
+    {
+      "name": "ecommerce-unit-economics-analyst",
+      "display_name": "电商单位经济模型分析师",
+      "package_root": "渠道运营/经营分析/ecommerce-unit-economics-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "经营分析",
+        "利润与现金流",
+        "新品定价与上市可行性",
+        "广告 ACOS 或独立站 CAC 上限判断",
+        "供应商涨价、运费变化和促销折扣评估"
+      ]
+    },
+    {
+      "name": "senior-tiktok-shop-operations-manager",
+      "display_name": "TikTok Shop 运营高级经理",
+      "package_root": "渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由TikTok Shop 运营高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "店铺与商品健康",
+        "短视频和直播供给",
+        "达人、联盟和授权"
+      ]
+    },
+    {
+      "name": "senior-tiktok-shop-operations-manager-weekly-report",
+      "display_name": "TikTok Shop 运营高级经理周报",
+      "package_root": "渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "TikTok Shop 运营高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "店铺与商品健康",
+        "短视频和直播供给",
+        "达人、联盟和授权"
+      ]
+    },
+    {
+      "name": "senior-business-analytics-manager",
+      "display_name": "业务数据分析高级经理",
+      "package_root": "渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由业务数据分析高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "指标语义和数据质量",
+        "经营、利润和现金分析",
+        "商品、渠道和客户分析"
+      ]
+    },
+    {
+      "name": "senior-business-analytics-manager-weekly-report",
+      "display_name": "业务数据分析高级经理周报",
+      "package_root": "渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "业务数据分析高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "指标语义和数据质量",
+        "经营、利润和现金分析",
+        "商品、渠道和客户分析"
+      ]
+    },
+    {
+      "name": "senior-amazon-operations-manager",
+      "display_name": "亚马逊运营高级经理",
+      "package_root": "渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由亚马逊运营高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "账户与合规健康",
+        "目录、搜索和转化",
+        "广告、促销和价格"
+      ]
+    },
+    {
+      "name": "senior-amazon-operations-manager-weekly-report",
+      "display_name": "亚马逊运营高级经理周报",
+      "package_root": "渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "亚马逊运营高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "账户与合规健康",
+        "目录、搜索和转化",
+        "广告、促销和价格"
+      ]
+    },
+    {
+      "name": "senior-supply-chain-manager",
+      "display_name": "供应链高级经理",
+      "package_root": "渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由供应链高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "供应商和质量体系",
+        "需求、采购和补货",
+        "库存、仓储和渠道分配"
+      ]
+    },
+    {
+      "name": "senior-supply-chain-manager-weekly-report",
+      "display_name": "供应链高级经理周报",
+      "package_root": "渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "供应链高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "供应商和质量体系",
+        "需求、采购和补货",
+        "库存、仓储和渠道分配"
+      ]
+    },
+    {
+      "name": "senior-customer-experience-manager",
+      "display_name": "客户体验高级经理",
+      "package_root": "渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由客户体验高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "全旅程体验和服务标准",
+        "客服 SLA、权限和质检",
+        "退款退货和异常升级"
+      ]
+    },
+    {
+      "name": "senior-customer-experience-manager-weekly-report",
+      "display_name": "客户体验高级经理周报",
+      "package_root": "渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "客户体验高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "全旅程体验和服务标准",
+        "客服 SLA、权限和质检",
+        "退款退货和异常升级"
+      ]
+    },
+    {
+      "name": "senior-dtc-operations-manager",
+      "display_name": "独立站运营高级经理",
+      "package_root": "渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由独立站运营高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "商品与站点体验",
+        "流量组合与落地页",
+        "转化、客单和复购"
+      ]
+    },
+    {
+      "name": "senior-dtc-operations-manager-weekly-report",
+      "display_name": "独立站运营高级经理周报",
+      "package_root": "渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "独立站运营高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "商品与站点体验",
+        "流量组合与落地页",
+        "转化、客单和复购"
+      ]
+    },
+    {
+      "name": "senior-cross-border-commerce-leader",
+      "display_name": "跨境电商业务负责人",
+      "package_root": "渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由跨境电商业务负责人接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "战略与经营模型",
+        "渠道和资源组合",
+        "商品与品牌组合"
+      ]
+    },
+    {
+      "name": "senior-cross-border-commerce-leader-weekly-report",
+      "display_name": "跨境电商业务负责人周报",
+      "package_root": "渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "跨境电商业务负责人本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "战略与经营模型",
+        "渠道和资源组合",
+        "商品与品牌组合"
+      ]
+    },
+    {
+      "name": "senior-merchandising-manager",
+      "display_name": "选品与商品高级经理",
+      "package_root": "渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由选品与商品高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "市场机会和需求证据",
+        "选品门槛与单位经济",
+        "SKU 组合和生命周期"
+      ]
+    },
+    {
+      "name": "senior-merchandising-manager-weekly-report",
+      "display_name": "选品与商品高级经理周报",
+      "package_root": "渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "选品与商品高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "市场机会和需求证据",
+        "选品门槛与单位经济",
+        "SKU 组合和生命周期"
+      ]
+    },
+    {
+      "name": "ecommerce-product-research",
+      "display_name": "跨境电商选品研究",
+      "package_root": "渠道运营/选品/ecommerce-product-research",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "选品",
+        "产品研究",
+        "市场机会",
+        "利润模型",
+        "供应链",
+        "Amazon",
+        "Shopify",
+        "TikTok Shop"
+      ]
+    },
+    {
+      "name": "content-marketing-planner",
+      "display_name": "跨境内容营销规划师",
+      "package_root": "精准营销/内容营销/content-marketing-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "博客和指南规划",
+        "季度内容矩阵",
+        "SEO、社媒、邮件内容协同",
+        "受众问题和意图",
+        "主题支柱与内容缺口",
+        "产品证据和内链"
+      ]
+    },
+    {
+      "name": "creative-strategy-producer",
+      "display_name": "跨境广告创意策略师",
+      "package_root": "精准营销/创意生产/creative-strategy-producer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "广告素材策略",
+        "UGC brief 和脚本矩阵",
+        "创意疲劳治理",
+        "人群问题和欲望",
+        "产品证据与演示",
+        "角度、钩子、格式和 CTA"
+      ]
+    },
+    {
+      "name": "brand-positioning-strategist",
+      "display_name": "跨境品牌定位策略师",
+      "package_root": "精准营销/品牌营销/brand-positioning-strategist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新品牌定位",
+        "品牌升级或多市场适配",
+        "产品线信息架构统一",
+        "目标人群和使用场景",
+        "竞争参照与差异",
+        "功能到利益的证据链"
+      ]
+    },
+    {
+      "name": "cross-border-growth-operator",
+      "display_name": "跨境全链路增长负责人",
+      "package_root": "精准营销/增长营销/cross-border-growth-operator",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "季度增长规划",
+        "GMV 或利润增长诊断",
+        "跨团队增长实验组合",
+        "增长方程和北极星指标",
+        "获客质量与转化",
+        "客单、复购和毛利"
+      ]
+    },
+    {
+      "name": "marketing-attribution-planner",
+      "display_name": "跨渠道营销归因规划师",
+      "package_root": "精准营销/增长营销/marketing-attribution-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "广告平台与 GA4 对数",
+        "多触点归因治理",
+        "预算分配和增量评估",
+        "业务问题和转化窗口",
+        "用户、会话和平台口径",
+        "身份、UTM 和事件质量"
+      ]
+    },
+    {
       "name": "cross-border-market-intelligence",
       "display_name": "跨境市场情报分析师",
-      "package_root": "跨境运营/市场与战略/cross-border-market-intelligence",
+      "package_root": "精准营销/市场策略/cross-border-market-intelligence",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1191,7 +1746,7 @@
     {
       "name": "go-to-market-launch-planner",
       "display_name": "跨境上市规划师",
-      "package_root": "跨境运营/市场与战略/go-to-market-launch-planner",
+      "package_root": "精准营销/市场策略/go-to-market-launch-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1204,23 +1759,23 @@
       ]
     },
     {
-      "name": "inventory-replenishment-planner",
-      "display_name": "多渠道库存补货规划师",
-      "package_root": "跨境运营/库存/inventory-replenishment-planner",
+      "name": "commerce-advertising-optimizer",
+      "display_name": "多渠道电商广告优化师",
+      "package_root": "精准营销/推广营销/commerce-advertising-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "库存",
-        "预测与补货",
-        "周度/月度 SKU 补货计划",
-        "大促前备货和渠道分仓",
-        "供应延迟或销量突增时重算风险"
+        "推广营销",
+        "广告优化",
+        "Amazon Sponsored Products 搜索词和竞价优化",
+        "独立站付费流量漏斗诊断",
+        "新品、旺季或促销预算分配"
       ]
     },
     {
       "name": "geo-optimizer",
       "display_name": "GEO 引用就绪优化师",
-      "package_root": "跨境运营/推广营销/geo-optimizer",
+      "package_root": "精准营销/推广营销/geo-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1236,7 +1791,7 @@
     {
       "name": "seo-optimizer",
       "display_name": "SEO 内容优化师",
-      "package_root": "跨境运营/推广营销/seo-optimizer",
+      "package_root": "精准营销/推广营销/seo-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1250,23 +1805,9 @@
       ]
     },
     {
-      "name": "commerce-advertising-optimizer",
-      "display_name": "多渠道电商广告优化师",
-      "package_root": "跨境运营/推广营销/commerce-advertising-optimizer",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "推广营销",
-        "广告优化",
-        "Amazon Sponsored Products 搜索词和竞价优化",
-        "独立站付费流量漏斗诊断",
-        "新品、旺季或促销预算分配"
-      ]
-    },
-    {
       "name": "promotion-calendar-manager",
       "display_name": "跨境活动营销经理",
-      "package_root": "跨境运营/活动营销/promotion-calendar-manager",
+      "package_root": "精准营销/活动营销/promotion-calendar-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1279,83 +1820,9 @@
       ]
     },
     {
-      "name": "channel-portfolio-strategist",
-      "display_name": "跨境渠道组合策略师",
-      "package_root": "跨境运营/渠道运营/channel-portfolio-strategist",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "Amazon、Shopify、TikTok 等渠道组合",
-        "新渠道评估",
-        "渠道冲突和资源分配",
-        "客群和购买任务",
-        "流量 ownership 与数据可得性",
-        "毛利、费用和现金周期"
-      ]
-    },
-    {
-      "name": "tiktok-shop-operations-manager",
-      "display_name": "TikTok Shop 运营经理",
-      "package_root": "跨境运营/渠道运营/TikTok Shop/tiktok-shop-operations-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "TikTok Shop 冷启动",
-        "内容电商日常经营",
-        "GMV 波动诊断",
-        "店铺和商品健康",
-        "短视频与直播供给",
-        "达人联盟和授权"
-      ]
-    },
-    {
-      "name": "amazon-store-operations-manager",
-      "display_name": "亚马逊店铺运营经理",
-      "package_root": "跨境运营/渠道运营/亚马逊/amazon-store-operations-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "Amazon 日常经营",
-        "新品启动",
-        "店铺问题诊断和周月度复盘",
-        "账户与合规健康",
-        "目录、搜索和转化",
-        "广告和促销"
-      ]
-    },
-    {
-      "name": "shopify-store-operations-manager",
-      "display_name": "Shopify 独立站运营经理",
-      "package_root": "跨境运营/渠道运营/独立站/shopify-store-operations-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "Shopify 日常运营",
-        "新品与活动上线",
-        "独立站增长和问题排查",
-        "商品、集合和内容",
-        "流量、落地页和转化",
-        "促销、结账和支付"
-      ]
-    },
-    {
-      "name": "ecommerce-fulfillment-logistics-planner",
-      "display_name": "电商履约物流规划师",
-      "package_root": "跨境运营/物流/ecommerce-fulfillment-logistics-planner",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "物流",
-        "跨境履约",
-        "首批试单和补货运输方式选择",
-        "FBA、FBM、3PL 和直发组合设计",
-        "旺季、爆仓或承运商中断应急"
-      ]
-    },
-    {
       "name": "customer-retention-loyalty-manager",
       "display_name": "客户留存与忠诚度经理",
-      "package_root": "跨境运营/用户运营/customer-retention-loyalty-manager",
+      "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1370,7 +1837,7 @@
     {
       "name": "email-lifecycle-marketer",
       "display_name": "邮件生命周期营销师",
-      "package_root": "跨境运营/用户运营/email-lifecycle-marketer",
+      "package_root": "精准营销/用户运营/email-lifecycle-marketer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1385,7 +1852,7 @@
     {
       "name": "social-media-operations-manager",
       "display_name": "跨境社媒运营经理",
-      "package_root": "跨境运营/社媒营销/social-media-operations-manager",
+      "package_root": "精准营销/社媒营销/social-media-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1398,23 +1865,69 @@
       ]
     },
     {
-      "name": "ecommerce-unit-economics-analyst",
-      "display_name": "电商单位经济模型分析师",
-      "package_root": "跨境运营/经营分析/ecommerce-unit-economics-analyst",
+      "name": "senior-brand-content-manager",
+      "display_name": "品牌与内容高级经理",
+      "package_root": "精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "经营分析",
-        "利润与现金流",
-        "新品定价与上市可行性",
-        "广告 ACOS 或独立站 CAC 上限判断",
-        "供应商涨价、运费变化和促销折扣评估"
+        "由品牌与内容高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "品牌定位和信息支柱",
+        "内容主题与用户旅程",
+        "创意生产和资产治理"
+      ]
+    },
+    {
+      "name": "senior-brand-content-manager-weekly-report",
+      "display_name": "品牌与内容高级经理周报",
+      "package_root": "精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "品牌与内容高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "品牌定位和信息支柱",
+        "内容主题与用户旅程",
+        "创意生产和资产治理"
+      ]
+    },
+    {
+      "name": "senior-growth-marketing-manager",
+      "display_name": "增长营销高级经理",
+      "package_root": "精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由增长营销高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "增长模型和机会树",
+        "渠道预算与获客质量",
+        "创意、落地页和转化"
+      ]
+    },
+    {
+      "name": "senior-growth-marketing-manager-weekly-report",
+      "display_name": "增长营销高级经理周报",
+      "package_root": "精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "增长营销高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "增长模型和机会树",
+        "渠道预算与获客质量",
+        "创意、落地页和转化"
       ]
     },
     {
       "name": "influencer-affiliate-manager",
       "display_name": "达人与联盟营销经理",
-      "package_root": "跨境运营/达人联盟/influencer-affiliate-manager",
+      "package_root": "精准营销/达人联盟/influencer-affiliate-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1424,23 +1937,6 @@
         "人群与内容匹配",
         "真实性和历史表现",
         "合作模式与单位经济"
-      ]
-    },
-    {
-      "name": "ecommerce-product-research",
-      "display_name": "跨境电商选品研究",
-      "package_root": "跨境运营/选品/ecommerce-product-research",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "选品",
-        "产品研究",
-        "市场机会",
-        "利润模型",
-        "供应链",
-        "Amazon",
-        "Shopify",
-        "TikTok Shop"
       ]
     }
   ]

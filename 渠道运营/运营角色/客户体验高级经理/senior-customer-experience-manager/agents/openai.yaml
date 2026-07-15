@@ -1,4 +1,4 @@
 interface:
   display_name: "客户体验高级经理"
-  short_description: "Lead cross-border business outcomes for this role"
-  default_prompt: "Use this senior role skill to own the outcome and orchestrate specialist skills."
+  short_description: "统筹多语言客服、售后、评价、声誉、VOC、留存和客户体验改进。"
+  default_prompt: "使用 $senior-customer-experience-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

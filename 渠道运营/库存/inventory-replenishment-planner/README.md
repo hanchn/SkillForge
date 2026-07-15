@@ -3,7 +3,7 @@
 > skill id：inventory-replenishment-planner
 > 当前版本：1.0.0
 > 产品状态：可用
-> 所属分类：跨境运营 / 库存 / 预测与补货
+> 所属分类：渠道运营 / 库存
 
 ## 产品定位
 

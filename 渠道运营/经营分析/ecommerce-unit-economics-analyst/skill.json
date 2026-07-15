@@ -8,9 +8,8 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "跨境运营",
-    "经营分析",
-    "利润与现金流"
+    "渠道运营",
+    "经营分析"
   ],
   "description": "Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios",
   "search_keywords": [

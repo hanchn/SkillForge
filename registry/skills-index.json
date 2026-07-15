@@ -1420,6 +1420,370 @@
       "display_name": "广告效果分析师",
       "description": "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。",
       "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/advertising-performance-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "广告周报和预算复盘",
+        "ROAS/ACOS 波动",
+        "创意和投放结构诊断",
+        "spend、delivery 和归因窗口",
+        "CTR、CVR、CPA、ROAS 与 TACOS",
+        "新客、毛利和回收期"
+      ]
+    },
+    {
+      "name": "business-metrics-governance",
+      "display_name": "业务指标治理师",
+      "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/business-metrics-governance",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "经营指标字典",
+        "多系统口径统一",
+        "看板和周报上线前治理",
+        "业务定义与公式",
+        "粒度、去重和状态",
+        "时区、币种和税口径"
+      ]
+    },
+    {
+      "name": "conversion-funnel-analyst",
+      "display_name": "电商转化漏斗分析师",
+      "description": "按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/conversion-funnel-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "商品或结账转化下降",
+        "设备国家渠道漏斗比较",
+        "改版和实验效果诊断",
+        "漏斗定义和可比 cohort",
+        "曝光、查看、加购、结账和购买",
+        "设备、页面、国家和渠道"
+      ]
+    },
+    {
+      "name": "customer-cohort-ltv-analyst",
+      "display_name": "客户 Cohort 与 LTV 分析师",
+      "description": "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/customer-cohort-ltv-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "复购和留存分析",
+        "渠道客户质量比较",
+        "CAC 回收和 LTV 预测",
+        "客户身份与 cohort 定义",
+        "复购、留存和间隔",
+        "收入、毛利和贡献 LTV"
+      ]
+    },
+    {
+      "name": "executive-business-review",
+      "display_name": "经营分析与周月报专家",
+      "description": "把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/executive-business-review",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "跨境经营周报月报",
+        "管理层业务复盘",
+        "目标差距和行动跟踪",
+        "目标、同比和环比口径",
+        "收入利润和现金",
+        "商品渠道客户驱动"
+      ]
+    },
+    {
+      "name": "forecast-scenario-planner",
+      "display_name": "经营预测与情景规划师",
+      "description": "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/forecast-scenario-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "月度滚动预测",
+        "预算和目标拆解",
+        "乐观基准悲观情景",
+        "历史基线和结构变化",
+        "流量、转化、价格和复购驱动",
+        "季节、活动和供给约束"
+      ]
+    },
+    {
+      "name": "inventory-supply-chain-analyst",
+      "display_name": "库存与供应链分析师",
+      "description": "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/inventory-supply-chain-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "缺货和积压诊断",
+        "库存健康周报",
+        "供应商和物流绩效分析",
+        "库存状态和位置",
+        "需求、覆盖和安全库存",
+        "供应商交期和波动"
+      ]
+    },
+    {
+      "name": "marketplace-channel-comparison-analyst",
+      "display_name": "跨平台渠道对比分析师",
+      "description": "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/marketplace-channel-comparison-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Amazon、Shopify、TikTok 横向比较",
+        "渠道资源分配",
+        "渠道利润和客户质量评估",
+        "订单状态与收入确认",
+        "平台费、履约、广告和退款",
+        "新客、复购和数据 ownership"
+      ]
+    },
+    {
+      "name": "pricing-promotion-analyst",
+      "display_name": "价格与促销分析师",
+      "description": "评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/pricing-promotion-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "大促复盘",
+        "价格调整效果",
+        "优惠券和捆绑机制比较",
+        "基线和对照",
+        "价格、折扣和实际成交价",
+        "销量、转化和弹性"
+      ]
+    },
+    {
+      "name": "product-portfolio-analyst",
+      "display_name": "商品组合分析师",
+      "description": "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/product-portfolio-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "SKU 分层",
+        "新品和长尾评估",
+        "淘汰、补货与资源分配",
+        "流量、转化和销量",
+        "毛利和贡献",
+        "库存周转和缺货"
+      ]
+    },
+    {
+      "name": "sales-profitability-analyst",
+      "display_name": "销售与利润分析师",
+      "description": "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/sales-profitability-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "销售和利润波动",
+        "国家渠道 SKU 盈利分析",
+        "利润改善机会评估",
+        "销量、价格和组合",
+        "退款、折扣和税费",
+        "平台、支付、物流和广告成本"
+      ]
+    },
+    {
+      "name": "traffic-acquisition-analyst",
+      "display_name": "流量与获客分析师",
+      "description": "区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。",
+      "category_path": [
+        "数据",
+        "业务分析"
+      ],
+      "package_root": "数据/业务分析/traffic-acquisition-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "渠道流量波动",
+        "自然与付费获客质量",
+        "UTM 和来源口径排查",
+        "user/session scope",
+        "source、medium、campaign 规范",
+        "新客、参与和落地页"
+      ]
+    },
+    {
+      "name": "data-quality-reconciliation",
+      "display_name": "业务数据质量与对账专家",
+      "description": "验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。",
+      "category_path": [
+        "数据",
+        "数据治理"
+      ],
+      "package_root": "数据/数据治理/data-quality-reconciliation",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "平台与财务对账",
+        "看板数据验收",
+        "异常数据和口径争议",
+        "来源、抽取时间和范围",
+        "主键、重复和缺失",
+        "状态、时区、币种和税"
+      ]
+    },
+    {
+      "name": "advertising-performance-analyst",
+      "display_name": "广告效果分析师",
+      "description": "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。",
+      "category_path": [
         "数据看板",
         "业务分析"
       ],
@@ -1842,11 +2206,10 @@
       "display_name": "供应商寻源与质量管理器",
       "description": "Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk",
       "category_path": [
-        "跨境运营",
-        "供应链",
-        "寻源与质量"
+        "渠道运营",
+        "供应链"
       ],
-      "package_root": "跨境运营/供应链/supplier-sourcing-quality-manager",
+      "package_root": "渠道运营/供应链/supplier-sourcing-quality-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -1866,71 +2229,14 @@
       ]
     },
     {
-      "name": "content-marketing-planner",
-      "display_name": "跨境内容营销规划师",
-      "description": "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。",
-      "category_path": [
-        "跨境运营",
-        "内容营销"
-      ],
-      "package_root": "跨境运营/内容营销/content-marketing-planner",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "博客和指南规划",
-        "季度内容矩阵",
-        "SEO、社媒、邮件内容协同",
-        "受众问题和意图",
-        "主题支柱与内容缺口",
-        "产品证据和内链"
-      ]
-    },
-    {
-      "name": "creative-strategy-producer",
-      "display_name": "跨境广告创意策略师",
-      "description": "从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。",
-      "category_path": [
-        "跨境运营",
-        "创意生产"
-      ],
-      "package_root": "跨境运营/创意生产/creative-strategy-producer",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "广告素材策略",
-        "UGC brief 和脚本矩阵",
-        "创意疲劳治理",
-        "人群问题和欲望",
-        "产品证据与演示",
-        "角度、钩子、格式和 CTA"
-      ]
-    },
-    {
       "name": "product-compliance-risk-manager",
       "display_name": "跨境商品合规风险管理器",
       "description": "Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel",
       "category_path": [
-        "跨境运营",
-        "合规",
-        "商品与声明"
+        "渠道运营",
+        "合规"
       ],
-      "package_root": "跨境运营/合规/product-compliance-risk-manager",
+      "package_root": "渠道运营/合规/product-compliance-risk-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -1950,42 +2256,14 @@
       ]
     },
     {
-      "name": "brand-positioning-strategist",
-      "display_name": "跨境品牌定位策略师",
-      "description": "以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。",
-      "category_path": [
-        "跨境运营",
-        "品牌营销"
-      ],
-      "package_root": "跨境运营/品牌营销/brand-positioning-strategist",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "新品牌定位",
-        "品牌升级或多市场适配",
-        "产品线信息架构统一",
-        "目标人群和使用场景",
-        "竞争参照与差异",
-        "功能到利益的证据链"
-      ]
-    },
-    {
       "name": "pricing-promotion-optimizer",
       "display_name": "定价与促销优化经理",
       "description": "综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。适用于新品定价、跨国家跨渠道价格治理、折扣和优惠机制优化，交付价格架构、促销方案和利润模拟、实验、监控与退出规则。",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "商业化"
       ],
-      "package_root": "跨境运营/商业化/pricing-promotion-optimizer",
+      "package_root": "渠道运营/商业化/pricing-promotion-optimizer",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2010,10 +2288,10 @@
       "display_name": "平台商品信息优化师",
       "description": "基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。适用于Amazon 等平台 listing 优化、新品信息搭建、低流量或低转化详情修复，交付关键词和信息架构、标题、卖点和详情建议、合规与实验清单。",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "商品运营"
       ],
-      "package_root": "跨境运营/商品运营/marketplace-listing-optimizer",
+      "package_root": "渠道运营/商品运营/marketplace-listing-optimizer",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2034,71 +2312,15 @@
       ]
     },
     {
-      "name": "cross-border-growth-operator",
-      "display_name": "跨境全链路增长负责人",
-      "description": "把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。",
-      "category_path": [
-        "跨境运营",
-        "增长营销"
-      ],
-      "package_root": "跨境运营/增长营销/cross-border-growth-operator",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "季度增长规划",
-        "GMV 或利润增长诊断",
-        "跨团队增长实验组合",
-        "增长方程和北极星指标",
-        "获客质量与转化",
-        "客单、复购和毛利"
-      ]
-    },
-    {
-      "name": "marketing-attribution-planner",
-      "display_name": "跨渠道营销归因规划师",
-      "description": "建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。",
-      "category_path": [
-        "跨境运营",
-        "增长营销"
-      ],
-      "package_root": "跨境运营/增长营销/marketing-attribution-planner",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "广告平台与 GA4 对数",
-        "多触点归因治理",
-        "预算分配和增量评估",
-        "业务问题和转化窗口",
-        "用户、会话和平台口径",
-        "身份、UTM 和事件质量"
-      ]
-    },
-    {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
       "description": "从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "多渠道运营",
         "亚马逊"
       ],
-      "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
+      "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2125,12 +2347,11 @@
       "display_name": "Shopify 转化审计师",
       "description": "基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "多渠道运营",
-        "独立站",
-        "CRO"
+        "独立站"
       ],
-      "package_root": "跨境运营/多渠道运营/独立站/shopify-conversion-auditor",
+      "package_root": "渠道运营/多渠道运营/独立站/shopify-conversion-auditor",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2156,12 +2377,11 @@
       "display_name": "独立站产品上下架管理器",
       "description": "安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "多渠道运营",
-        "独立站",
-        "商品运营"
+        "独立站"
       ],
-      "package_root": "跨境运营/多渠道运营/独立站/storefront-product-publishing-manager",
+      "package_root": "渠道运营/多渠道运营/独立站/storefront-product-publishing-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2187,10 +2407,10 @@
       "display_name": "跨境多语言客服经理",
       "description": "以多语言一致性、问题解决和客户洞察运营售前售后服务。适用于邮件、在线聊天和平台消息客服、多语言话术体系、客服质检和 VOC 闭环，交付客服 SOP 与话术库、升级和赔付矩阵、VOC 分类与改进报告。",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "客户体验"
       ],
-      "package_root": "跨境运营/客户体验/customer-service-voice-manager",
+      "package_root": "渠道运营/客户体验/customer-service-voice-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2215,10 +2435,10 @@
       "display_name": "评价与品牌声誉经理",
       "description": "合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。",
       "category_path": [
-        "跨境运营",
+        "渠道运营",
         "客户体验"
       ],
-      "package_root": "跨境运营/客户体验/review-reputation-manager",
+      "package_root": "渠道运营/客户体验/review-reputation-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2239,14 +2459,844 @@
       ]
     },
     {
+      "name": "channel-portfolio-strategist",
+      "display_name": "跨境渠道组合策略师",
+      "description": "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。",
+      "category_path": [
+        "渠道运营",
+        "平台运营"
+      ],
+      "package_root": "渠道运营/平台运营/channel-portfolio-strategist",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Amazon、Shopify、TikTok 等渠道组合",
+        "新渠道评估",
+        "渠道冲突和资源分配",
+        "客群和购买任务",
+        "流量 ownership 与数据可得性",
+        "毛利、费用和现金周期"
+      ]
+    },
+    {
+      "name": "tiktok-shop-operations-manager",
+      "display_name": "TikTok Shop 运营经理",
+      "description": "联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。",
+      "category_path": [
+        "渠道运营",
+        "平台运营",
+        "TikTok Shop"
+      ],
+      "package_root": "渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "TikTok Shop 冷启动",
+        "内容电商日常经营",
+        "GMV 波动诊断",
+        "店铺和商品健康",
+        "短视频与直播供给",
+        "达人联盟和授权"
+      ]
+    },
+    {
+      "name": "amazon-store-operations-manager",
+      "display_name": "亚马逊店铺运营经理",
+      "description": "统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。",
+      "category_path": [
+        "渠道运营",
+        "平台运营",
+        "亚马逊"
+      ],
+      "package_root": "渠道运营/平台运营/亚马逊/amazon-store-operations-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Amazon 日常经营",
+        "新品启动",
+        "店铺问题诊断和周月度复盘",
+        "账户与合规健康",
+        "目录、搜索和转化",
+        "广告和促销"
+      ]
+    },
+    {
+      "name": "shopify-store-operations-manager",
+      "display_name": "Shopify 独立站运营经理",
+      "description": "统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。适用于Shopify 日常运营、新品与活动上线、独立站增长和问题排查，交付独立站经营计划、上线与健康检查表、渠道和站内经营复盘。",
+      "category_path": [
+        "渠道运营",
+        "平台运营",
+        "独立站"
+      ],
+      "package_root": "渠道运营/平台运营/独立站/shopify-store-operations-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Shopify 日常运营",
+        "新品与活动上线",
+        "独立站增长和问题排查",
+        "商品、集合和内容",
+        "流量、落地页和转化",
+        "促销、结账和支付"
+      ]
+    },
+    {
+      "name": "inventory-replenishment-planner",
+      "display_name": "多渠道库存补货规划师",
+      "description": "Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk",
+      "category_path": [
+        "渠道运营",
+        "库存"
+      ],
+      "package_root": "渠道运营/库存/inventory-replenishment-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "库存",
+        "预测与补货",
+        "周度/月度 SKU 补货计划",
+        "大促前备货和渠道分仓",
+        "供应延迟或销量突增时重算风险"
+      ]
+    },
+    {
+      "name": "ecommerce-fulfillment-logistics-planner",
+      "display_name": "电商履约物流规划师",
+      "description": "Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience",
+      "category_path": [
+        "渠道运营",
+        "物流"
+      ],
+      "package_root": "渠道运营/物流/ecommerce-fulfillment-logistics-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "物流",
+        "跨境履约",
+        "首批试单和补货运输方式选择",
+        "FBA、FBM、3PL 和直发组合设计",
+        "旺季、爆仓或承运商中断应急"
+      ]
+    },
+    {
+      "name": "ecommerce-unit-economics-analyst",
+      "display_name": "电商单位经济模型分析师",
+      "description": "Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios",
+      "category_path": [
+        "渠道运营",
+        "经营分析"
+      ],
+      "package_root": "渠道运营/经营分析/ecommerce-unit-economics-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "经营分析",
+        "利润与现金流",
+        "新品定价与上市可行性",
+        "广告 ACOS 或独立站 CAC 上限判断",
+        "供应商涨价、运费变化和促销折扣评估"
+      ]
+    },
+    {
+      "name": "senior-tiktok-shop-operations-manager",
+      "display_name": "TikTok Shop 运营高级经理",
+      "description": "统筹 TikTok Shop 商品、内容、直播、达人、广告、活动、履约和店铺健康。适用于由TikTok Shop 运营高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "TikTok-Shop运营高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由TikTok Shop 运营高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "店铺与商品健康",
+        "短视频和直播供给",
+        "达人、联盟和授权"
+      ]
+    },
+    {
+      "name": "senior-tiktok-shop-operations-manager-weekly-report",
+      "display_name": "TikTok Shop 运营高级经理周报",
+      "description": "基于真实经营证据生成TikTok Shop 运营高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于TikTok Shop 运营高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "TikTok-Shop运营高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "TikTok Shop 运营高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "店铺与商品健康",
+        "短视频和直播供给",
+        "达人、联盟和授权"
+      ]
+    },
+    {
+      "name": "senior-business-analytics-manager",
+      "display_name": "业务数据分析高级经理",
+      "description": "统筹指标治理、数据质量、经营分析、专项诊断、预测和管理层决策支持。适用于由业务数据分析高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "业务数据分析高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由业务数据分析高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "指标语义和数据质量",
+        "经营、利润和现金分析",
+        "商品、渠道和客户分析"
+      ]
+    },
+    {
+      "name": "senior-business-analytics-manager-weekly-report",
+      "display_name": "业务数据分析高级经理周报",
+      "description": "基于真实经营证据生成业务数据分析高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于业务数据分析高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "业务数据分析高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "业务数据分析高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "指标语义和数据质量",
+        "经营、利润和现金分析",
+        "商品、渠道和客户分析"
+      ]
+    },
+    {
+      "name": "senior-amazon-operations-manager",
+      "display_name": "亚马逊运营高级经理",
+      "description": "对 Amazon 账户健康、商品、搜索、转化、广告、库存、价格、评价和利润承担端到端经营责任。适用于由亚马逊运营高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "亚马逊运营高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由亚马逊运营高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "账户与合规健康",
+        "目录、搜索和转化",
+        "广告、促销和价格"
+      ]
+    },
+    {
+      "name": "senior-amazon-operations-manager-weekly-report",
+      "display_name": "亚马逊运营高级经理周报",
+      "description": "基于真实经营证据生成亚马逊运营高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于亚马逊运营高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "亚马逊运营高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "亚马逊运营高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "账户与合规健康",
+        "目录、搜索和转化",
+        "广告、促销和价格"
+      ]
+    },
+    {
+      "name": "senior-supply-chain-manager",
+      "display_name": "供应链高级经理",
+      "description": "统筹供应商、质量、采购、库存、仓储、运输、履约和供应链现金风险。适用于由供应链高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "供应链高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由供应链高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "供应商和质量体系",
+        "需求、采购和补货",
+        "库存、仓储和渠道分配"
+      ]
+    },
+    {
+      "name": "senior-supply-chain-manager-weekly-report",
+      "display_name": "供应链高级经理周报",
+      "description": "基于真实经营证据生成供应链高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于供应链高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "供应链高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "供应链高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "供应商和质量体系",
+        "需求、采购和补货",
+        "库存、仓储和渠道分配"
+      ]
+    },
+    {
+      "name": "senior-customer-experience-manager",
+      "display_name": "客户体验高级经理",
+      "description": "统筹多语言客服、售后、评价、声誉、VOC、留存和客户体验改进。适用于由客户体验高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "客户体验高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由客户体验高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "全旅程体验和服务标准",
+        "客服 SLA、权限和质检",
+        "退款退货和异常升级"
+      ]
+    },
+    {
+      "name": "senior-customer-experience-manager-weekly-report",
+      "display_name": "客户体验高级经理周报",
+      "description": "基于真实经营证据生成客户体验高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于客户体验高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "客户体验高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "客户体验高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "全旅程体验和服务标准",
+        "客服 SLA、权限和质检",
+        "退款退货和异常升级"
+      ]
+    },
+    {
+      "name": "senior-dtc-operations-manager",
+      "display_name": "独立站运营高级经理",
+      "description": "对独立站商品、内容、获客、转化、客单、复购、技术健康和贡献利润承担端到端责任。适用于由独立站运营高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "独立站运营高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由独立站运营高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "商品与站点体验",
+        "流量组合与落地页",
+        "转化、客单和复购"
+      ]
+    },
+    {
+      "name": "senior-dtc-operations-manager-weekly-report",
+      "display_name": "独立站运营高级经理周报",
+      "description": "基于真实经营证据生成独立站运营高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于独立站运营高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "独立站运营高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "独立站运营高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "商品与站点体验",
+        "流量组合与落地页",
+        "转化、客单和复购"
+      ]
+    },
+    {
+      "name": "senior-cross-border-commerce-leader",
+      "display_name": "跨境电商业务负责人",
+      "description": "统筹公司跨境业务战略、渠道组合、商品、增长、供应链、客户体验、利润和组织节奏。适用于由跨境电商业务负责人接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "跨境电商负责人"
+      ],
+      "package_root": "渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由跨境电商业务负责人接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "战略与经营模型",
+        "渠道和资源组合",
+        "商品与品牌组合"
+      ]
+    },
+    {
+      "name": "senior-cross-border-commerce-leader-weekly-report",
+      "display_name": "跨境电商业务负责人周报",
+      "description": "基于真实经营证据生成跨境电商业务负责人视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于跨境电商业务负责人本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "跨境电商负责人"
+      ],
+      "package_root": "渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "跨境电商业务负责人本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "战略与经营模型",
+        "渠道和资源组合",
+        "商品与品牌组合"
+      ]
+    },
+    {
+      "name": "senior-merchandising-manager",
+      "display_name": "选品与商品高级经理",
+      "description": "统筹市场机会、选品验证、商品组合、生命周期、定价、内容准备和退出机制。适用于由选品与商品高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "选品与商品高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由选品与商品高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "市场机会和需求证据",
+        "选品门槛与单位经济",
+        "SKU 组合和生命周期"
+      ]
+    },
+    {
+      "name": "senior-merchandising-manager-weekly-report",
+      "display_name": "选品与商品高级经理周报",
+      "description": "基于真实经营证据生成选品与商品高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于选品与商品高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "渠道运营",
+        "运营角色",
+        "选品与商品高级经理"
+      ],
+      "package_root": "渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "选品与商品高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "市场机会和需求证据",
+        "选品门槛与单位经济",
+        "SKU 组合和生命周期"
+      ]
+    },
+    {
+      "name": "ecommerce-product-research",
+      "display_name": "跨境电商选品研究",
+      "description": "从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会",
+      "category_path": [
+        "渠道运营",
+        "选品"
+      ],
+      "package_root": "渠道运营/选品/ecommerce-product-research",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "选品",
+        "产品研究",
+        "市场机会",
+        "利润模型",
+        "供应链",
+        "Amazon",
+        "Shopify",
+        "TikTok Shop"
+      ]
+    },
+    {
+      "name": "content-marketing-planner",
+      "display_name": "跨境内容营销规划师",
+      "description": "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。",
+      "category_path": [
+        "精准营销",
+        "内容营销"
+      ],
+      "package_root": "精准营销/内容营销/content-marketing-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "博客和指南规划",
+        "季度内容矩阵",
+        "SEO、社媒、邮件内容协同",
+        "受众问题和意图",
+        "主题支柱与内容缺口",
+        "产品证据和内链"
+      ]
+    },
+    {
+      "name": "creative-strategy-producer",
+      "display_name": "跨境广告创意策略师",
+      "description": "从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。",
+      "category_path": [
+        "精准营销",
+        "创意生产"
+      ],
+      "package_root": "精准营销/创意生产/creative-strategy-producer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "广告素材策略",
+        "UGC brief 和脚本矩阵",
+        "创意疲劳治理",
+        "人群问题和欲望",
+        "产品证据与演示",
+        "角度、钩子、格式和 CTA"
+      ]
+    },
+    {
+      "name": "brand-positioning-strategist",
+      "display_name": "跨境品牌定位策略师",
+      "description": "以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。",
+      "category_path": [
+        "精准营销",
+        "品牌营销"
+      ],
+      "package_root": "精准营销/品牌营销/brand-positioning-strategist",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "新品牌定位",
+        "品牌升级或多市场适配",
+        "产品线信息架构统一",
+        "目标人群和使用场景",
+        "竞争参照与差异",
+        "功能到利益的证据链"
+      ]
+    },
+    {
+      "name": "cross-border-growth-operator",
+      "display_name": "跨境全链路增长负责人",
+      "description": "把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。",
+      "category_path": [
+        "精准营销",
+        "增长营销"
+      ],
+      "package_root": "精准营销/增长营销/cross-border-growth-operator",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "季度增长规划",
+        "GMV 或利润增长诊断",
+        "跨团队增长实验组合",
+        "增长方程和北极星指标",
+        "获客质量与转化",
+        "客单、复购和毛利"
+      ]
+    },
+    {
+      "name": "marketing-attribution-planner",
+      "display_name": "跨渠道营销归因规划师",
+      "description": "建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。",
+      "category_path": [
+        "精准营销",
+        "增长营销"
+      ],
+      "package_root": "精准营销/增长营销/marketing-attribution-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "广告平台与 GA4 对数",
+        "多触点归因治理",
+        "预算分配和增量评估",
+        "业务问题和转化窗口",
+        "用户、会话和平台口径",
+        "身份、UTM 和事件质量"
+      ]
+    },
+    {
       "name": "cross-border-market-intelligence",
       "display_name": "跨境市场情报分析师",
       "description": "把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。适用于进入新国家或类目、竞品与价格带扫描、季度市场机会更新，交付市场情报简报、机会评分和证据表、验证计划与预警项。",
       "category_path": [
-        "跨境运营",
-        "市场与战略"
+        "精准营销",
+        "市场策略"
       ],
-      "package_root": "跨境运营/市场与战略/cross-border-market-intelligence",
+      "package_root": "精准营销/市场策略/cross-border-market-intelligence",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2271,10 +3321,10 @@
       "display_name": "跨境上市规划师",
       "description": "把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。适用于新品上市、新站点或新国家启动、重大版本或季节发布，交付GTM 计划、阶段门和责任矩阵、预算、指标与复盘设计。",
       "category_path": [
-        "跨境运营",
-        "市场与战略"
+        "精准营销",
+        "市场策略"
       ],
-      "package_root": "跨境运营/市场与战略/go-to-market-launch-planner",
+      "package_root": "精准营销/市场策略/go-to-market-launch-planner",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2295,15 +3345,14 @@
       ]
     },
     {
-      "name": "inventory-replenishment-planner",
-      "display_name": "多渠道库存补货规划师",
-      "description": "Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk",
+      "name": "commerce-advertising-optimizer",
+      "display_name": "多渠道电商广告优化师",
+      "description": "Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments",
       "category_path": [
-        "跨境运营",
-        "库存",
-        "预测与补货"
+        "精准营销",
+        "推广营销"
       ],
-      "package_root": "跨境运营/库存/inventory-replenishment-planner",
+      "package_root": "精准营销/推广营销/commerce-advertising-optimizer",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2315,11 +3364,11 @@
       ],
       "entrypoint": "SKILL.md",
       "search_keywords": [
-        "库存",
-        "预测与补货",
-        "周度/月度 SKU 补货计划",
-        "大促前备货和渠道分仓",
-        "供应延迟或销量突增时重算风险"
+        "推广营销",
+        "广告优化",
+        "Amazon Sponsored Products 搜索词和竞价优化",
+        "独立站付费流量漏斗诊断",
+        "新品、旺季或促销预算分配"
       ]
     },
     {
@@ -2327,11 +3376,10 @@
       "display_name": "GEO 引用就绪优化师",
       "description": "通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性",
       "category_path": [
-        "跨境运营",
-        "推广营销",
-        "GEO"
+        "精准营销",
+        "推广营销"
       ],
-      "package_root": "跨境运营/推广营销/geo-optimizer",
+      "package_root": "精准营销/推广营销/geo-optimizer",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2357,11 +3405,10 @@
       "display_name": "SEO 内容优化师",
       "description": "基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容",
       "category_path": [
-        "跨境运营",
-        "推广营销",
-        "SEO"
+        "精准营销",
+        "推广营销"
       ],
-      "package_root": "跨境运营/推广营销/seo-optimizer",
+      "package_root": "精准营销/推广营销/seo-optimizer",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2383,42 +3430,14 @@
       ]
     },
     {
-      "name": "commerce-advertising-optimizer",
-      "display_name": "多渠道电商广告优化师",
-      "description": "Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments",
-      "category_path": [
-        "跨境运营",
-        "推广营销",
-        "广告优化"
-      ],
-      "package_root": "跨境运营/推广营销/commerce-advertising-optimizer",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "推广营销",
-        "广告优化",
-        "Amazon Sponsored Products 搜索词和竞价优化",
-        "独立站付费流量漏斗诊断",
-        "新品、旺季或促销预算分配"
-      ]
-    },
-    {
       "name": "promotion-calendar-manager",
       "display_name": "跨境活动营销经理",
       "description": "统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。适用于黑五网一和节日大促、季度促销规划、多渠道活动冲突治理，交付年度/季度活动日历、活动机制和资源表、上线检查与复盘模板。",
       "category_path": [
-        "跨境运营",
+        "精准营销",
         "活动营销"
       ],
-      "package_root": "跨境运营/活动营销/promotion-calendar-manager",
+      "package_root": "精准营销/活动营销/promotion-calendar-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2439,157 +3458,14 @@
       ]
     },
     {
-      "name": "channel-portfolio-strategist",
-      "display_name": "跨境渠道组合策略师",
-      "description": "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。",
-      "category_path": [
-        "跨境运营",
-        "渠道运营"
-      ],
-      "package_root": "跨境运营/渠道运营/channel-portfolio-strategist",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Amazon、Shopify、TikTok 等渠道组合",
-        "新渠道评估",
-        "渠道冲突和资源分配",
-        "客群和购买任务",
-        "流量 ownership 与数据可得性",
-        "毛利、费用和现金周期"
-      ]
-    },
-    {
-      "name": "tiktok-shop-operations-manager",
-      "display_name": "TikTok Shop 运营经理",
-      "description": "联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。",
-      "category_path": [
-        "跨境运营",
-        "渠道运营",
-        "TikTok Shop"
-      ],
-      "package_root": "跨境运营/渠道运营/TikTok Shop/tiktok-shop-operations-manager",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "TikTok Shop 冷启动",
-        "内容电商日常经营",
-        "GMV 波动诊断",
-        "店铺和商品健康",
-        "短视频与直播供给",
-        "达人联盟和授权"
-      ]
-    },
-    {
-      "name": "amazon-store-operations-manager",
-      "display_name": "亚马逊店铺运营经理",
-      "description": "统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。",
-      "category_path": [
-        "跨境运营",
-        "渠道运营",
-        "亚马逊"
-      ],
-      "package_root": "跨境运营/渠道运营/亚马逊/amazon-store-operations-manager",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Amazon 日常经营",
-        "新品启动",
-        "店铺问题诊断和周月度复盘",
-        "账户与合规健康",
-        "目录、搜索和转化",
-        "广告和促销"
-      ]
-    },
-    {
-      "name": "shopify-store-operations-manager",
-      "display_name": "Shopify 独立站运营经理",
-      "description": "统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。适用于Shopify 日常运营、新品与活动上线、独立站增长和问题排查，交付独立站经营计划、上线与健康检查表、渠道和站内经营复盘。",
-      "category_path": [
-        "跨境运营",
-        "渠道运营",
-        "独立站"
-      ],
-      "package_root": "跨境运营/渠道运营/独立站/shopify-store-operations-manager",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Shopify 日常运营",
-        "新品与活动上线",
-        "独立站增长和问题排查",
-        "商品、集合和内容",
-        "流量、落地页和转化",
-        "促销、结账和支付"
-      ]
-    },
-    {
-      "name": "ecommerce-fulfillment-logistics-planner",
-      "display_name": "电商履约物流规划师",
-      "description": "Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience",
-      "category_path": [
-        "跨境运营",
-        "物流",
-        "跨境履约"
-      ],
-      "package_root": "跨境运营/物流/ecommerce-fulfillment-logistics-planner",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "物流",
-        "跨境履约",
-        "首批试单和补货运输方式选择",
-        "FBA、FBM、3PL 和直发组合设计",
-        "旺季、爆仓或承运商中断应急"
-      ]
-    },
-    {
       "name": "customer-retention-loyalty-manager",
       "display_name": "客户留存与忠诚度经理",
       "description": "按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。适用于复购率提升、会员或积分计划、流失客户召回，交付留存策略、客户分层和触达旅程、会员经济模型与实验。",
       "category_path": [
-        "跨境运营",
+        "精准营销",
         "用户运营"
       ],
-      "package_root": "跨境运营/用户运营/customer-retention-loyalty-manager",
+      "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2614,10 +3490,10 @@
       "display_name": "邮件生命周期营销师",
       "description": "按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。适用于欢迎、弃购、购后、召回流程、Newsletter 运营、邮件收入和送达率治理，交付生命周期流程图、分群、触发与内容方案、实验和送达健康看板。",
       "category_path": [
-        "跨境运营",
+        "精准营销",
         "用户运营"
       ],
-      "package_root": "跨境运营/用户运营/email-lifecycle-marketer",
+      "package_root": "精准营销/用户运营/email-lifecycle-marketer",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2642,10 +3518,10 @@
       "display_name": "跨境社媒运营经理",
       "description": "建立平台适配的内容、互动、增长、风险和复盘机制。适用于TikTok、Instagram、YouTube、Pinterest 运营、账号冷启动、社媒内容和社区增长，交付平台运营方案、内容栏目和发布节奏、互动 SOP 与周度复盘。",
       "category_path": [
-        "跨境运营",
+        "精准营销",
         "社媒营销"
       ],
-      "package_root": "跨境运营/社媒营销/social-media-operations-manager",
+      "package_root": "精准营销/社媒营销/social-media-operations-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2666,15 +3542,15 @@
       ]
     },
     {
-      "name": "ecommerce-unit-economics-analyst",
-      "display_name": "电商单位经济模型分析师",
-      "description": "Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios",
+      "name": "senior-brand-content-manager",
+      "display_name": "品牌与内容高级经理",
+      "description": "统筹品牌定位、产品证据、内容体系、创意资产、社媒表达和多市场一致性。适用于由品牌与内容高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
       "category_path": [
-        "跨境运营",
-        "经营分析",
-        "利润与现金流"
+        "精准营销",
+        "营销角色",
+        "品牌与内容高级经理"
       ],
-      "package_root": "跨境运营/经营分析/ecommerce-unit-economics-analyst",
+      "package_root": "精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2686,11 +3562,99 @@
       ],
       "entrypoint": "SKILL.md",
       "search_keywords": [
-        "经营分析",
-        "利润与现金流",
-        "新品定价与上市可行性",
-        "广告 ACOS 或独立站 CAC 上限判断",
-        "供应商涨价、运费变化和促销折扣评估"
+        "由品牌与内容高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "品牌定位和信息支柱",
+        "内容主题与用户旅程",
+        "创意生产和资产治理"
+      ]
+    },
+    {
+      "name": "senior-brand-content-manager-weekly-report",
+      "display_name": "品牌与内容高级经理周报",
+      "description": "基于真实经营证据生成品牌与内容高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于品牌与内容高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "精准营销",
+        "营销角色",
+        "品牌与内容高级经理"
+      ],
+      "package_root": "精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "品牌与内容高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "品牌定位和信息支柱",
+        "内容主题与用户旅程",
+        "创意生产和资产治理"
+      ]
+    },
+    {
+      "name": "senior-growth-marketing-manager",
+      "display_name": "增长营销高级经理",
+      "description": "统筹付费、自然、达人、邮件和活动增长，对获客质量、转化、留存和贡献利润负责。适用于由增长营销高级经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。",
+      "category_path": [
+        "精准营销",
+        "营销角色",
+        "增长营销高级经理"
+      ],
+      "package_root": "精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "由增长营销高级经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "增长模型和机会树",
+        "渠道预算与获客质量",
+        "创意、落地页和转化"
+      ]
+    },
+    {
+      "name": "senior-growth-marketing-manager-weekly-report",
+      "display_name": "增长营销高级经理周报",
+      "description": "基于真实经营证据生成增长营销高级经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于增长营销高级经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。",
+      "category_path": [
+        "精准营销",
+        "营销角色",
+        "增长营销高级经理"
+      ],
+      "package_root": "精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "增长营销高级经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "增长模型和机会树",
+        "渠道预算与获客质量",
+        "创意、落地页和转化"
       ]
     },
     {
@@ -2698,10 +3662,10 @@
       "display_name": "达人与联盟营销经理",
       "description": "管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。适用于达人种草和带货、联盟计划搭建、UGC 采购与授权，交付达人分层池、合作 brief 与跟进管道、佣金、授权和效果复盘。",
       "category_path": [
-        "跨境运营",
+        "精准营销",
         "达人联盟"
       ],
-      "package_root": "跨境运营/达人联盟/influencer-affiliate-manager",
+      "package_root": "精准营销/达人联盟/influencer-affiliate-manager",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -2719,37 +3683,6 @@
         "人群与内容匹配",
         "真实性和历史表现",
         "合作模式与单位经济"
-      ]
-    },
-    {
-      "name": "ecommerce-product-research",
-      "display_name": "跨境电商选品研究",
-      "description": "从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会",
-      "category_path": [
-        "跨境运营",
-        "选品",
-        "跨渠道机会研究"
-      ],
-      "package_root": "跨境运营/选品/ecommerce-product-research",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "选品",
-        "产品研究",
-        "市场机会",
-        "利润模型",
-        "供应链",
-        "Amazon",
-        "Shopify",
-        "TikTok Shop"
       ]
     }
   ]

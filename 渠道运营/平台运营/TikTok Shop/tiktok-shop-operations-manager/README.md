@@ -3,7 +3,7 @@
 > skill id：tiktok-shop-operations-manager  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：跨境运营 / 渠道运营 / TikTok Shop
+> 所属分类：渠道运营 / 平台运营 / TikTok Shop
 
 ## 产品定位
 
