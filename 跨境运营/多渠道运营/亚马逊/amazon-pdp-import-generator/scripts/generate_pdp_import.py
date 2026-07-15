@@ -197,6 +197,7 @@ def scan_images(input_dir: Path, config: dict) -> tuple[list[dict], list[dict]]:
                 "bullet_point_4": "",
                 "bullet_point_5": "",
                 "product_description": "",
+                "search_terms": "",
                 "parse_confidence": inferred["parse_confidence"],
                 "source_files": ", ".join(image["name"] for image in sorted(images, key=lambda item: item["name"].lower())),
             }

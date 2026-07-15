@@ -330,20 +330,6 @@
       <div class="loading">正在加载...</div>
     </main>
 
-    <div class="modal" id="viewerModal">
-      <div class="modal-card">
-        <div class="modal-head">
-          <div class="modal-title" id="viewerTitle">预览</div>
-          <button class="modal-close" id="viewerClose" aria-label="关闭">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-          </button>
-        </div>
-        <div class="modal-body">
-          <pre class="modal-pre" id="viewerContent"></pre>
-        </div>
-      </div>
-    </div>
-
     <script>
       function escapeHtml(value) {
         return String(value ?? "")
@@ -485,12 +471,18 @@
                 <div class="tab-content ${index === 0 ? 'active' : ''}" id="tab-${index}">
                   <div class="tab-header">
                     <span class="info-label mono" style="margin:0;">${escapeHtml(href.replace('../', ''))}</span>
-                    <a class="tab-download-btn" href="${escapeHtml(href)}" download="${escapeHtml(label)}">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                      下载此文件
-                    </a>
+                    <div style="display: flex; gap: 8px;">
+                      <button class="tab-download-btn copy-btn" data-copy-target="doc-content-${index}">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                        <span>复制</span>
+                      </button>
+                      <a class="tab-download-btn" href="${escapeHtml(href)}" download="${escapeHtml(label)}">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        下载此文件
+                      </a>
+                    </div>
                   </div>
-                  <pre class="doc-pre" data-load-path="${escapeHtml(href)}">加载中...</pre>
+                  <pre class="doc-pre" id="doc-content-${index}" data-load-path="${escapeHtml(href)}">加载中...</pre>
                 </div>
               `).join("")}
             </div>
@@ -566,11 +558,43 @@
             let content = await fetchText(path);
             if (path.endsWith(".json")) {
               content = JSON.stringify(JSON.parse(content), null, 2);
+              pre.textContent = content;
+            } else if (path.endsWith(".md")) {
+              const div = document.createElement("div");
+              div.className = "markdown-body";
+              div.innerHTML = marked.parse(content);
+              div.id = pre.id;
+              div.dataset.rawContent = content;
+              pre.replaceWith(div);
+            } else {
+              pre.textContent = content;
+              pre.dataset.rawContent = content;
             }
-            pre.textContent = content;
           } catch (err) {
             pre.textContent = "文档读取失败: " + err.message;
           }
+        });
+
+        // Copy Logic
+        document.querySelectorAll(".copy-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            const targetId = btn.dataset.copyTarget;
+            const targetEl = document.getElementById(targetId);
+            let textToCopy = "";
+            if (targetEl) {
+              textToCopy = targetEl.dataset.rawContent || targetEl.textContent;
+            }
+            if (textToCopy) {
+              navigator.clipboard.writeText(textToCopy).then(() => {
+                const span = btn.querySelector("span");
+                const originalText = span.textContent;
+                span.textContent = "已复制";
+                setTimeout(() => { span.textContent = originalText; }, 2000);
+              }).catch(err => {
+                window.alert("复制失败: " + err.message);
+              });
+            }
+          });
         });
       }
 
