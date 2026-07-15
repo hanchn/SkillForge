@@ -668,7 +668,8 @@
         skills: [],
         search: "",
         selectedPath: [],
-        categoryTree: {}
+        categoryTree: {},
+        selectedSkills: new Set()
       };
 
       const elements = {
@@ -683,7 +684,11 @@
         viewerModal: document.getElementById("viewerModal"),
         viewerTitle: document.getElementById("viewerTitle"),
         viewerContent: document.getElementById("viewerContent"),
-        viewerClose: document.getElementById("viewerClose")
+        viewerClose: document.getElementById("viewerClose"),
+        batchBar: document.getElementById("batchBar"),
+        batchCount: document.getElementById("batchCount"),
+        batchCancel: document.getElementById("batchCancel"),
+        batchDownload: document.getElementById("batchDownload")
       };
 
       function escapeHtml(value) {
@@ -880,20 +885,176 @@
             const detailUrl = `./detail.html?skill=${encodeURIComponent(skill.name)}`;
             const pathStr = (skill.category_path || []).join(" / ") || "未分类";
 
+            const isChecked = state.selectedSkills.has(skill.name) ? "checked" : "";
+            
             return `
               <div class="card" onclick="window.location.href='${detailUrl}'">
+                <input type="checkbox" class="card-checkbox" data-name="${skill.name}" ${isChecked} onclick="event.stopPropagation()" />
                 <div class="card-header">
                   <h2 class="card-title">${skill.display_name || skill.name}</h2>
                 </div>
                 <div class="card-path">${pathStr}</div>
                 <p class="card-desc">${detail.description || "暂无描述"}</p>
                 <div class="card-footer">
-                  <span class="tag">${detail.type || skill.type || "skill"}</span>
+                  <div class="card-tags">
+                    <span class="tag">${detail.type || skill.type || "skill"}</span>
+                  </div>
+                  <button class="card-download-btn" data-name="${skill.name}" title="下载 ZIP" onclick="event.stopPropagation()">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  </button>
                 </div>
               </div>
             `;
           })
           .join("");
+
+        // Bind checkbox events
+        elements.cards.querySelectorAll('.card-checkbox').forEach(cb => {
+          cb.addEventListener('change', (e) => {
+            const name = e.target.dataset.name;
+            if (e.target.checked) {
+              state.selectedSkills.add(name);
+            } else {
+              state.selectedSkills.delete(name);
+            }
+            updateBatchBar();
+          });
+        });
+
+        // Bind individual download events
+        elements.cards.querySelectorAll('.card-download-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const name = e.currentTarget.dataset.name;
+            const skill = state.skills.find(s => s.name === name);
+            if (skill) downloadSkillZip(skill, e.currentTarget);
+          });
+        });
+      }
+
+      function updateBatchBar() {
+        elements.batchCount.textContent = state.selectedSkills.size;
+        if (state.selectedSkills.size > 0) {
+          elements.batchBar.classList.add('visible');
+        } else {
+          elements.batchBar.classList.remove('visible');
+        }
+      }
+
+      elements.batchCancel.addEventListener('click', () => {
+        state.selectedSkills.clear();
+        renderCards();
+        updateBatchBar();
+      });
+
+      elements.batchDownload.addEventListener('click', async () => {
+        const selected = Array.from(state.selectedSkills);
+        if (selected.length === 0) return;
+        
+        const btn = elements.batchDownload;
+        const originalText = btn.textContent;
+        btn.textContent = "打包中...";
+        btn.style.pointerEvents = "none";
+
+        try {
+          const zip = new window.JSZip();
+          const mainFolder = zip.folder("skills_batch_export");
+          
+          for (const name of selected) {
+            const skill = state.skills.find(s => s.name === name);
+            if (!skill) continue;
+            
+            const detail = skill.detail || {};
+            const distribution = detail.distribution || {};
+            const packageFiles = distribution.package_files || distribution.required_files || [];
+            
+            if (!packageFiles.length) continue;
+            
+            const skillFolder = mainFolder.folder(skill.name);
+            await Promise.all(
+              packageFiles.map(async (relativePath) => {
+                try {
+                  const response = await fetch(`../${skill.package_root}/${relativePath}`);
+                  if (response.ok) {
+                    const content = await response.blob();
+                    skillFolder.file(relativePath, content);
+                  }
+                } catch (err) {
+                  console.error("Fetch failed", err);
+                }
+              })
+            );
+          }
+
+          const blob = await zip.generateAsync({ type: "blob" });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement("a");
+          link.href = url;
+          link.download = `skills_batch_export.zip`;
+          document.body.appendChild(link);
+          link.click();
+          link.remove();
+          URL.revokeObjectURL(url);
+          
+          // Clear selection after download
+          state.selectedSkills.clear();
+          renderCards();
+          updateBatchBar();
+        } catch (err) {
+          window.alert("批量打包失败：" + err.message);
+        } finally {
+          btn.textContent = originalText;
+          btn.style.pointerEvents = "";
+        }
+      });
+
+      async function downloadSkillZip(skill, btnElement) {
+        const detail = skill.detail || {};
+        const distribution = detail.distribution || {};
+        const packageFiles = distribution.package_files || distribution.required_files || [];
+
+        if (!packageFiles.length) {
+          window.alert("当前 skill 没有可打包的文件清单。");
+          return;
+        }
+
+        if (!window.JSZip) {
+          window.alert("ZIP 依赖加载失败。");
+          return;
+        }
+
+        btnElement.style.opacity = "0.5";
+        btnElement.style.pointerEvents = "none";
+
+        try {
+          const zip = new window.JSZip();
+
+          await Promise.all(
+            packageFiles.map(async (relativePath) => {
+              try {
+                const response = await fetch(`../${skill.package_root}/${relativePath}`);
+                if (response.ok) {
+                  const content = await response.blob();
+                  zip.file(`${skill.name}/${relativePath}`, content);
+                }
+              } catch (e) {}
+            })
+          );
+
+          const blob = await zip.generateAsync({ type: "blob" });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement("a");
+          link.href = url;
+          link.download = `${skill.name}.zip`;
+          document.body.appendChild(link);
+          link.click();
+          link.remove();
+          URL.revokeObjectURL(url);
+        } catch (error) {
+          window.alert(error.message || "ZIP 打包失败");
+        } finally {
+          btnElement.style.opacity = "1";
+          btnElement.style.pointerEvents = "auto";
+        }
       }
 
       elements.searchInput.addEventListener("input", (e) => {
