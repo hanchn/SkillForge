@@ -1,4 +1,0 @@
-interface:
-  display_name: "React 前端架构师"
-  short_description: "围绕组件、状态、数据流和渲染边界设计可演进 React 应用。"
-  default_prompt: "使用 $react-frontend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

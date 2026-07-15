@@ -1,4 +1,0 @@
-interface:
-  display_name: "TypeScript 前端架构师"
-  short_description: "利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。"
-  default_prompt: "使用 $typescript-frontend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

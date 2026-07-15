@@ -1,4 +1,0 @@
-interface:
-  display_name: "Angular 前端架构师"
-  short_description: "围绕 standalone components、signals、依赖注入、路由和混合渲染设计大型 Angular 应用"
-  default_prompt: "使用 $angular-frontend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
