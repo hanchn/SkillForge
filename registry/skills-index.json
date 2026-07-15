@@ -39,6 +39,66 @@
         "Qorder"
       ],
       "entrypoint": "SKILL.md"
+    },
+    {
+      "name": "seo-optimizer",
+      "display_name": "SEO营销优化技能",
+      "category_path": [
+        "跨境运营",
+        "推广营销",
+        "SEO"
+      ],
+      "package_root": "跨境运营/推广营销/seo-optimizer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md"
+    },
+    {
+      "name": "geo-optimizer",
+      "display_name": "GEO生成引擎优化技能",
+      "category_path": [
+        "跨境运营",
+        "推广营销",
+        "GEO"
+      ],
+      "package_root": "跨境运营/推广营销/geo-optimizer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md"
+    },
+    {
+      "name": "git-workflow-manager",
+      "display_name": "Git分支流转与合并规范技能",
+      "category_path": [
+        "互联网研发",
+        "git",
+        "分支规范"
+      ],
+      "package_root": "互联网研发/git/git-workflow-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md"
     }
   ]
 }

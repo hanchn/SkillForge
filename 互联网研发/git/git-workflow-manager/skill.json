@@ -1,0 +1,71 @@
+{
+  "name": "git-workflow-manager",
+  "display_name": "Git分支流转与合并规范技能",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "git",
+    "分支规范"
+  ],
+  "description": "规范化 Git 分支命名与合并流程（master/pre/test/fix/feature），提供标准流转指引",
+  "search_keywords": [
+    "git",
+    "代码版本",
+    "分支管理",
+    "合并",
+    "master",
+    "pre",
+    "test",
+    "feature",
+    "fix"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "target_content"
+    ],
+    "optional": [
+      "target_audience",
+      "platform"
+    ]
+  },
+  "outputs": [
+    "optimized_content.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/run_git_workflow_manager.py",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "README.md 只是说明文件",
+    "优先结合具体业务背景"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ]
+  }
+}

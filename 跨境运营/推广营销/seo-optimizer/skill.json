@@ -1,0 +1,68 @@
+{
+  "name": "seo-optimizer",
+  "display_name": "SEO营销优化技能",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "推广营销",
+    "SEO"
+  ],
+  "description": "提供针对搜索引擎优化的内容改写、关键词挖掘、标题与描述优化策略",
+  "search_keywords": [
+    "SEO",
+    "搜索引擎优化",
+    "关键词",
+    "标题优化",
+    "描述优化",
+    "营销推广"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "target_content"
+    ],
+    "optional": [
+      "target_audience",
+      "platform"
+    ]
+  },
+  "outputs": [
+    "optimized_content.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/run_seo_optimizer.py",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "README.md 只是说明文件",
+    "优先结合具体业务背景"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ]
+  }
+}

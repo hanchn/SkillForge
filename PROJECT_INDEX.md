@@ -44,7 +44,22 @@
 - `amazon-pdp-import-generator`
   - path: `跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator/`
   - type: portable business skill
-  - purpose: 根据商品图片文件名生成亚马逊 PDP 导入草稿
+  - purpose: 根据商品图片文件名生成亚马逊 PDP 导入草稿并利用 AI 扩写 SEO 字段
+
+- `seo-optimizer`
+  - path: `跨境运营/推广营销/seo-optimizer/`
+  - type: portable business skill
+  - purpose: 提供针对搜索引擎优化的内容改写、关键词挖掘、标题与描述优化策略
+
+- `geo-optimizer`
+  - path: `跨境运营/推广营销/geo-optimizer/`
+  - type: portable business skill
+  - purpose: 提供针对生成式AI引擎的内容优化策略，提升 AI 引用与推荐概率
+
+- `git-workflow-manager`
+  - path: `互联网研发/git/git-workflow-manager/`
+  - type: portable business skill
+  - purpose: 规范化 Git 分支命名与合并流程（master/pre/test/fix/feature）
 
 ## Top-Level Directories
 
