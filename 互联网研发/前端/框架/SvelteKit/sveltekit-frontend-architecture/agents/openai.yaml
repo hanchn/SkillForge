@@ -1,0 +1,4 @@
+interface:
+  display_name: "sveltekit-frontend-architecture"
+  short_description: "Design production-ready SvelteKit architecture"
+  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."

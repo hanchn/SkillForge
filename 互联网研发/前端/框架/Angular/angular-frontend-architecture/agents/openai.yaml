@@ -1,0 +1,4 @@
+interface:
+  display_name: "angular-frontend-architecture"
+  short_description: "Design scalable Angular application architecture"
+  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."

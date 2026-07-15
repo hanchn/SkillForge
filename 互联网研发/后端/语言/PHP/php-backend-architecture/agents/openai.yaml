@@ -1,0 +1,4 @@
+interface:
+  display_name: "php-backend-architecture"
+  short_description: "Design maintainable PHP backend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."

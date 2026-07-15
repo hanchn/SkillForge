@@ -1,0 +1,4 @@
+interface:
+  display_name: "csharp-backend-architecture"
+  short_description: "Design robust C sharp backend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."

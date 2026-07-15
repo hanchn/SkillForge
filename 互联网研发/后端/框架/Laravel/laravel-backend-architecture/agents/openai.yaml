@@ -1,0 +1,4 @@
+interface:
+  display_name: "laravel-backend-architecture"
+  short_description: "Design production-ready Laravel architecture"
+  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."

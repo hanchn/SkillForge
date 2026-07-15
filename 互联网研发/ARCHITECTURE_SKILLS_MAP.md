@@ -6,12 +6,12 @@
 |---|---|---|---|
 | 通用架构 | 系统边界、质量属性、依赖和演进如何设计 | `frontend-architecture-designer` | `backend-architecture-designer` |
 | 语言架构 | 语言的类型、模块、并发和运行时约束如何落地 | JavaScript、TypeScript | Java、Go、Python、Node.js |
-| 框架架构 | 具体框架的组件、模块、生命周期和生产能力如何组织 | React、Vue、Next.js | Spring Boot、FastAPI、NestJS、Gin |
+| 框架架构 | 具体框架的组件、模块、生命周期和生产能力如何组织 | React、Vue、Next.js、Angular、SvelteKit | Spring Boot、FastAPI、NestJS、Gin、Laravel、ASP.NET Core |
 
 ## 组合方式
 
 1. 新系统先调用通用架构 Skill，形成边界、质量目标和演进约束。
-2. 再调用语言 Skill，确定模块、类型、并发、依赖和构建原则。
+2. 再调用语言 Skill，确定模块、类型、并发、依赖和构建原则。后端现覆盖 Java、Go、Python、Node.js、PHP、Rust、C#。
 3. 最后调用框架 Skill，把原则映射到真实目录、运行语义和部署方式。
 4. 进入具体交付后，再组合现有功能实现、API 契约、数据库迁移、测试、性能和故障诊断 Skill。
 

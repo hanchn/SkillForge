@@ -74,6 +74,33 @@
         font-size: 15px;
       }
 
+      .main-tabs {
+        display: flex;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 24px;
+        overflow-x: auto;
+        gap: 8px;
+      }
+
+      .main-tab-btn {
+        padding: 10px 16px;
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--text-secondary);
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s;
+        white-space: nowrap;
+      }
+
+      .main-tab-btn:hover {
+        color: var(--text);
+      }
+
+      .main-tab-btn.active {
+        color: var(--accent);
+        border-bottom-color: var(--accent);
+      }
+
       .toolbar {
         display: flex;
         gap: 12px;
