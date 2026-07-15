@@ -1,41 +1,36 @@
-# 本地简历筛选与合规方法
+# 无人值守简历筛选方法
 
-## 定位
+## 输入优先级
 
-本 Skill 是 HR 初筛辅助，不是自动录用、自动拒绝、背景调查或事实认证系统。输出必须能够由 HR 逐项解释和改判。
+以状态为 `READY_FOR_HR` 的 `screening-spec.json` 为唯一筛选事实源。自然语言 JD 只用于展示和一致性校验，不得在每次运行时重新发明标准。没有有效契约时可生成草案，但批次必须标记 `REVIEW_REQUIRED`。
 
-## JD 转评分标准
+## 召回与证据
 
-- 只使用与实际岗位结果相关、已经招聘经理确认的能力和证据。
-- 分为必须、可培养、加分与禁用标准；“未在简历出现”只能标缺少证据，不能直接推定候选人不具备。
-- 学校、公司名气、姓名、照片、年龄、性别、婚育、民族、宗教、健康、户籍、外貌等不得作为能力代理变量。
-- 每项标准记录证据定义、权重、最低门槛、可接受替代证据、反证、面试核验方式和规则 owner。
+- 关键词、中英文同义词、缩写和工具词只扩大召回。
+- 胜任证据来自项目动作、责任范围、业务结果、时间范围和可接受替代经验。
+- 缺少关键词或未在简历中出现只能写 `INSUFFICIENT_EVIDENCE`。
+- 学校、公司名气、姓名、照片、年龄、性别、婚育、民族、宗教、健康、户籍和外貌不得作为能力代理变量。
 
-## 本地与隐私
+## 漏斗诊断
 
-- 处理前确认候选人信息来源、招聘用途、访问人员、输出位置、保留删除和是否允许外部模型。默认不把简历发给外部服务。
-- 原文件只读；提取结果和报告放在受控目录，使用候选人 ID，最小化暴露姓名和联系方式。
-- OCR、格式转换、云解析、外部向量库或模型调用都属于新的数据处理动作，必须单独确认供应商、地域、保留和授权。
+每批记录：收到、成功解析、唯一简历、岗位族相关、必须项通过、候选池、发起预约、确认面试。为每个未进入下一层的记录保存标准原因码，才能区分：
 
-## 异常原因码
+- 渠道或投放不准；
+- JD/Rubric 过严；
+- 单个必须项过度拦截；
+- 解析/OCR 问题；
+- 词库和替代证据覆盖不足；
+- 候选池阈值不合理。
 
-- `PARSE_FAILED`：文件损坏、加密或解析器失败。
-- `OCR_REQUIRED`：扫描 PDF 无可用文本。
-- `DUPLICATE_FILE`：内容哈希重复。
-- `TIMELINE_REVIEW`：日期重叠、顺序或周期需要解释。
-- `CLAIM_EVIDENCE_GAP`：量化或职责声明缺少可核验上下文。
-- `JD_CONFLICT`：简历事实与已确认硬性岗位条件存在冲突。
-- `STANDARD_BIAS_RISK`：筛选项可能与岗位无关或形成敏感属性代理。
-- `HUMAN_REVIEW_REQUIRED`：信息不足或高影响判断必须人工处理。
+## 自动化边界
 
-异常码只描述“需要核验什么和为什么”，不得写“造假”“欺骗”等定性结论。
+系统可自动形成候选池、发起面试预约并处理正常确认。最终录用、永久拒绝和重大争议必须由授权人员决定，并保留说明、纠错和改判记录。
 
-## 自动化决策边界
+## 原因码
 
-《个人信息保护法》对自动化决策的透明、公平和重大影响决定提出要求，并规定个人可要求说明且有权拒绝仅通过自动化决策作出重大影响决定。工作地不同还可能适用额外就业平等、通知、审计或人工复核规则。正式上线前由 HR、隐私/法务确认适用性、影响评估和候选人说明机制。
+- `PARSE_FAILED`、`OCR_REQUIRED`、`LOW_TEXT_VOLUME`、`DUPLICATE_FILE`、`SYMLINK_SKIPPED`
+- `TIMELINE_REVIEW`、`CLAIM_EVIDENCE_GAP`、`JD_CONFLICT`、`STANDARD_BIAS_RISK`
+- `LOW_SHORTLIST_YIELD`、`SOURCE_MISMATCH`、`CRITERION_OVER_FILTERING`、`RUBRIC_DRIFT`
+- `SCHEDULING_API_FAILURE`、`ROOM_UNAVAILABLE`、`INTERVIEWER_CONFLICT`、`EMAIL_DELIVERY_FAILURE`、`CANDIDATE_CONFIRMATION_TIMEOUT`
 
-官方参考：
-
-- [中华人民共和国个人信息保护法](https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm)
-- [中华人民共和国就业促进法](https://www.moe.gov.cn/s78/A15/s8355/moe_782/tnull_39856.html)
-- [EEOC Employment Tests and Selection Procedures](https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures)
+原因码只说明需要核验什么，不得写“造假”“欺骗”等定性结论。

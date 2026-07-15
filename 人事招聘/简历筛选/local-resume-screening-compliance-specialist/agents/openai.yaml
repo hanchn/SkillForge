@@ -1,4 +1,4 @@
 interface:
-  display_name: "本地简历筛选与合规评估专家"
-  short_description: "以已确认 JD 和岗位相关证据标准读取授权本地简历，生成可解释匹配、缺口、核验问题、异常风险和合规提示，供 HR 人工复"
-  default_prompt: "使用 $local-resume-screening-compliance-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
+  display_name: "无人值守简历筛选与面试预约"
+  short_description: "自动筛选候选人、预约面试并通过飞书报告异常"
+  default_prompt: "使用 $local-resume-screening-compliance-specialist 运行自动筛选、预约、确认和飞书异常告警。"

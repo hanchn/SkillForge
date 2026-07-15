@@ -1,24 +1,28 @@
-# 候选人初筛人工复核卡
+# 候选人证据与自动化状态卡
 
 - Candidate ID：
 - 文件哈希与解析状态：
-- JD/rubric 版本：
-- 结论：`优先人工复核 / 常规人工复核 / 补充材料后复核 / 暂停`
-- 本结论不是自动录用或拒绝决定。
+- Request ID / Rubric version：
+- 筛选状态：`SHORTLIST_READY / REVIEW_REQUIRED / INSUFFICIENT_EVIDENCE / PROCESSING_EXCEPTION`
+- 预约状态：`NOT_STARTED / SLOT_MATCHED / HOLD_CREATED / AWAITING_CANDIDATE_CONFIRMATION / INTERVIEW_CONFIRMED / SCHEDULING_EXCEPTION`
 
 ## 岗位证据
 
-| 标准 ID | 简历直接证据 | 匹配/部分/缺少证据/冲突 | 置信度 | 缺口 | 面试核验问题 |
+| Criterion ID | 简历直接证据 | MATCH/PARTIAL/INSUFFICIENT_EVIDENCE/CONFLICT | 置信度 | 缺口 | 面试核验问题 |
 |---|---|---|---:|---|---|
 
-## 风险与异常
+## 预约与通知
 
-| 原因码 | 触发证据 | 为什么需要核验 | 影响范围 | 人工处理 |
-|---|---|---|---|---|
+- 幂等键：
+- Booking / Calendar event / Room ID：
+- 面试官通知状态：
+- 候选人确认邮件 message ID 与投递状态：
+- 二次确认状态与时间：
 
-## 合规与人工决定
+## 异常与人工决定
 
-- 屏蔽/未使用的个人或敏感信息：
-- 标准偏差或代理变量风险：
-- HR 改判及理由：
-- 下一步、owner、截止与候选人沟通：
+| 原因码 | 触发证据 | 自动恢复/补偿 | 飞书 Event ID | Owner | 状态 |
+|---|---|---|---|---|---|
+
+- 屏蔽/未使用信息：
+- 授权人员最终决定及理由：

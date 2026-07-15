@@ -1,7 +1,3 @@
 # 调用说明
 
-适合调用：给定 JD 后批量筛选本地 PDF/DOCX/TXT/MD 简历、候选人初筛、分层和面试问题准备、筛选规则、异常原因和公平合规审计。
-
-推荐指令：
-
-> 使用 `local-resume-screening-compliance-specialist`，基于我提供的真实资料完成“目标”。先确认范围和口径，检查证据，再按模板输出方案、优先级、owner、指标、风险和未知项。不要虚构已执行结果。
+> 使用 `local-resume-screening-compliance-specialist` 读取 READY_FOR_HR 的 screening-spec.json，无人值守完成简历筛选、候选池、漏斗预警、面试预约、会议室、面试官通知、候选人二次确认邮件和飞书异常告警。
