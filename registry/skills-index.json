@@ -1,0 +1,25 @@
+{
+  "project": "SkillForge",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "amazon-pdp-import-generator",
+      "display_name": "亚马逊PDP导入生成器",
+      "category_path": [
+        "跨境运营",
+        "多渠道运营",
+        "亚马逊"
+      ],
+      "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skillforge.local/schemas/skill.schema.json",
+  "title": "SkillForge Skill Package Schema",
+  "type": "object",
+  "required": [
+    "name",
+    "display_name",
+    "type",
+    "scope",
+    "version",
+    "portable",
+    "entrypoint",
+    "description",
+    "supported_platforms",
+    "inputs",
+    "outputs",
+    "implementation"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "cross-platform",
+        "single-platform"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "owner_project": {
+      "type": "string"
+    },
+    "portable": {
+      "type": "boolean"
+    },
+    "entrypoint": {
+      "type": "string"
+    },
+    "category_path": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "supported_platforms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "required": [
+        "required",
+        "optional"
+      ],
+      "properties": {
+        "required": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "optional": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "implementation": {
+      "type": "object",
+      "required": [
+        "entry_doc",
+        "invocation_doc",
+        "script",
+        "config",
+        "base_prompt",
+        "examples_dir",
+        "eval_dir",
+        "platform_adapters_dir"
+      ],
+      "properties": {
+        "readme": {
+          "type": "string"
+        },
+        "entry_doc": {
+          "type": "string"
+        },
+        "invocation_doc": {
+          "type": "string"
+        },
+        "script": {
+          "type": "string"
+        },
+        "config": {
+          "type": "string"
+        },
+        "base_prompt": {
+          "type": "string"
+        },
+        "examples_dir": {
+          "type": "string"
+        },
+        "eval_dir": {
+          "type": "string"
+        },
+        "platform_adapters_dir": {
+          "type": "string"
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "distribution": {
+      "type": "object",
+      "properties": {
+        "share_as_single_folder": {
+          "type": "boolean"
+        },
+        "required_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
