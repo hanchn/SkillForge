@@ -1,0 +1,4 @@
+interface:
+  display_name: "React 资深专家"
+  short_description: "Lead advanced React architecture and implementation"
+  default_prompt: "Use this React senior expert skill to solve advanced React engineering tasks."

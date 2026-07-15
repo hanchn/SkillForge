@@ -1,4 +1,0 @@
-interface:
-  display_name: "经营分析与周月报专家"
-  short_description: "把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。"
-  default_prompt: "使用 $executive-business-review 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

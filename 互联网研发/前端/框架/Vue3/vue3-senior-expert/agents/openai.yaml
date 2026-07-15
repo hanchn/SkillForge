@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vue3 资深专家"
+  short_description: "Lead advanced Vue 3 architecture and implementation"
+  default_prompt: "Use this Vue 3 senior expert skill to solve advanced Vue engineering tasks."

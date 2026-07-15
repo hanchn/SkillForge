@@ -1,4 +1,0 @@
-interface:
-  display_name: "经营预测与情景规划师"
-  short_description: "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。"
-  default_prompt: "使用 $forecast-scenario-planner 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

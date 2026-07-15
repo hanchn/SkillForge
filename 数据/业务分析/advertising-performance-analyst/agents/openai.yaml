@@ -1,4 +1,0 @@
-interface:
-  display_name: "广告效果分析师"
-  short_description: "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。"
-  default_prompt: "使用 $advertising-performance-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

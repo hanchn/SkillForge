@@ -857,6 +857,8 @@
         let level = 1;
 
         while (currentTree && Object.keys(currentTree).length > 0) {
+          if (level >= 2) break; // 只展示到二级分类，不展示三级及以下的 tag
+
           const row = document.createElement("div");
           row.className = "filter-row";
 
