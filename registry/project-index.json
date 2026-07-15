@@ -2268,7 +2268,7 @@
     {
       "name": "creative-asset-intelligent-tagging-specialist",
       "display_name": "创意素材智能打标专家",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "package_root": "创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4093,7 +4093,7 @@
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "version": "2.0.3",
+      "version": "2.1.0",
       "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",

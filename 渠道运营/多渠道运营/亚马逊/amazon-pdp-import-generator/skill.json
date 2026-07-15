@@ -3,7 +3,7 @@
   "display_name": "亚马逊 PDP 导入草稿生成器",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",

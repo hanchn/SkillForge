@@ -3224,7 +3224,7 @@
     {
       "name": "creative-asset-intelligent-tagging-specialist",
       "display_name": "创意素材智能打标专家",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "description": "为贵司图片、视频和广告素材库设计并运行从关键词/标签库确认、素材输入、模型推理、标签建议、人审反馈、CMS/DAM 回写到持续评估的可治理 AI 打标闭环。适用于存量图片视频批量打标、新素材入库自动标签建议、接入贵司关键词库或标签库并按确认策略优先匹配、AI 打标工具规划、标签补全、纠错、搜索和效果归因治理，交付关键词/标签库接入与优先级确认记录、AI 打标能力、用户流程与标签体系、模型、置信度、人审决策和批量回写方案、金标评估、监控、错误集、版本、回滚和演进报告。",
       "category_path": [
         "创拍视觉",
@@ -5805,7 +5805,7 @@
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "version": "2.0.3",
+      "version": "2.1.0",
       "description": "从商品图片和真实资料生成 SKU、变体与图片草稿，结合当前市场 Rank、趋势和 SEO/GEO 关键词证据生成 Amazon PDP，并完成上线前自检",
       "category_path": [
         "渠道运营",

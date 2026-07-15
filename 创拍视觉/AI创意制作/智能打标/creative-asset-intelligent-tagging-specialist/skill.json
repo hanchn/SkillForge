@@ -3,7 +3,7 @@
   "display_name": "创意素材智能打标专家",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",

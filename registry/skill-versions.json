@@ -759,7 +759,7 @@
       "updated_at": "2026-07-15"
     },
     "amazon-pdp-import-generator": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "fingerprint": "71c3a03f7615814c07926279bcf6fe3f3f585dcbc7e0a999ab80266d1bef4d24",
       "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "updated_at": "2026-07-15"
@@ -1095,7 +1095,7 @@
       "updated_at": "2026-07-15"
     },
     "creative-asset-intelligent-tagging-specialist": {
-      "version": "1.0.3",
+      "version": "1.1.0",
       "fingerprint": "d0b62381be4d0bd8a268e39c548c10246152cb22e8dab7d366211bfcfa56c567",
       "package_root": "创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist",
       "updated_at": "2026-07-15"
