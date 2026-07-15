@@ -11,6 +11,7 @@
 
 - 根据商品图片文件名自动解析商品基础信息
 - 自动归并同一商品的单图或多图
+- 利用 AI 扩写生成 SEO 优化的商品标题、5要素、产品描述和 Search Terms 标签
 - 生成亚马逊 PDP 导入草稿：
   - `amazon_pdp_import_draft.xlsx`
   - `amazon_pdp_import_draft.csv`
