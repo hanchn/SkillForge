@@ -2,6 +2,10 @@
 
 > 本模板只保留结构与填写说明，不预填任何未经确认的岗位事实。
 
+- Request ID：
+- Package version：
+- Rubric version：
+
 ## 岗位基本信息
 
 - 岗位名称：

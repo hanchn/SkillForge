@@ -1,103 +1,73 @@
 ---
 name: job-description-generator
-description: 先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，完成指定市场近期岗位与薪酬调研，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解和市场判断偏差招错人。 Use when an AI needs to handle HR 不熟悉技术、运营或专业岗位时的招聘需求培训, 新岗位近几个月招聘需求、薪资分布和人才市场调研, 新增或重写招聘 JD, 岗位职责模糊、要求堆砌或招聘双方理解不一致, 多平台、多语言或跨区域岗位发布; produce HR 岗位培训与详细岗位介绍, 岗位市场与近期薪酬分布调研报告, 招聘需求澄清与建议预问问题, 内部岗位说明书, 候选人版招聘 JD, 可复制的 JD 空白模板, 能力证据、面试评估和发布检查表; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+description: 在招聘需求创建时自动生成可编辑候选人 JD、HR 精准岗位培训文档、内部岗位说明书和机器可读简历筛选规则，无需发起人与 HR 重复沟通。Use when creating or editing a recruitment request, automatically compiling a request into a recruitment package, synchronizing JD changes to screening criteria, or preparing a zero-handoff package for HR; optionally add current market and compensation research only when requested or required by policy.
 ---
 
-# 岗位说明书与招聘 JD 生成专家
+# 招聘需求与 JD 自动生成
 
-先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，完成指定市场近期岗位与薪酬调研，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解和市场判断偏差招错人。
+把招聘需求一次编译成 HR 可直接执行、简历筛选 Skill 可直接消费的招聘包。正常路径无人值守；只在关键事实冲突、合规风险或无法安全生成筛选标准时请求人工处理。
 
 ## Load resources
 
-- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+- 在 SkillForge 仓库内先读 `公司上下文/company-profile.yaml` 和 `公司上下文/README.md`，只使用已确认事实。
+- 必须读取 `references/compliance-baseline.md` 和 `references/hr-role-training-checklist.md`。
+- 使用 `assets/delivery-template.md` 生成招聘包，使用 `assets/screening-spec-template.json` 生成机器可读筛选契约。
+- 只有使用者明确要求市场/薪酬调研、公司政策强制要求，或关键岗位参数确实依赖当前市场数据时，才读取 `references/job-market-research-method.md` 并使用对应调研模板。
+- 存在跨团队取舍、未经批准的待遇信息或不可逆发布动作时，使用 `assets/decision-record-template.md`。
 
-- 涉及事实、统计、实时状态或系统写入时，必须读取 `references/data-source-and-api-gate.md` 并使用 `assets/data-source-intake-template.md` 向使用者确认静态数据与合规接口；不得用模型记忆补造数据。
+## Automation contract
 
-- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
-- Read `references/professional-checklist.md` before making decisions.
-- Read `references/scenario-playbook.md` to select the matching scenario path, evidence, exceptions, and acceptance gates.
-- Use `assets/delivery-template.md` for the final durable artifact.
-- Use `assets/decision-record-template.md` when the task contains alternatives, approvals, irreversible actions, or cross-team tradeoffs.
-- If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
+### Minimum request
 
-- 必须读取 `references/hr-role-training-checklist.md`，先完成 HR 岗位理解与招聘经理预问，不得在关键事实未确认时直接发布 JD。
-- 必须读取 `references/job-market-research-method.md`；薪资与岗位需求属于时效数据，执行时必须查询目标市场近期来源并记录采集日期、样本和口径。
-- 使用 `assets/delivery-template.md` 交付完整招聘包，同时交付 `assets/job-market-research-template.md` 调研报告，并原样附带 `assets/blank-jd-template.md` 作为可复用 JD 空白模板。
+优先从招聘需求表、组织岗位模板和公司上下文读取：`request_id`、岗位名称、部门、招聘人数、职级、工作地点、用工方式、招聘原因、岗位要解决的问题、主要结果、发起人和目标到岗时间。
 
+- 输入足以形成安全草案时直接生成，不先发起通用问卷或要求 HR/发起人开会。
+- 非关键缺失字段写为 `待确认`，继续生成可编辑草案。
+- 只有缺失会导致岗位对象无法识别、筛选条件违法/歧视、待遇承诺失真或要求互相冲突时，才标记 `REVIEW_REQUIRED` 并列出最少修正字段。
 
+### Required package
 
+一次生成并保持同一 `request_id`、`package_version` 和 `rubric_version`：
 
-## User intake gate
-
-- 正式执行前必须询问使用者并确认范围、目标、对象、国家/渠道/系统、时间窗口、owner、审批人和不可改变项。
-- 必需输入：业务目标、范围和现状证据。建议补充：历史数据、流程系统资料、目标、预算、SLA 和合规约束。已有数据、模板、词库、规则和历史结论必须先盘点版本与优先级。
-- 缺少会改变结论的输入时，只能交付问题清单、调研计划或带假设的草案；不得自行补造事实。
-
-
-
-## Data and compliant API intake gate
-
-1. 先询问使用者是否有静态文件（CSV、Excel、JSON、Parquet、日志或文档）、系统导出、数据库视图/查询结果、官方 API、已授权第三方 API 或允许查询的当前公开来源，并确认哪些来源优先。
-2. 对每个接口登记 owner、业务目的、授权依据、环境、认证方式、字段/行范围、时间粒度、刷新 SLA、限流、成本、个人/敏感数据、留存删除和下游发布权限。
-3. 不在对话、Skill、脚本参数、日志或交付物中索要或保存明文 token、key、cookie、密码或私钥；使用环境变量、密钥管理或已授权连接器。
-4. 数据可读不等于允许使用或公开。用途、字段、国家、主体或下游超出授权时，停止并标记 `REVIEW_REQUIRED`。
-5. 接口不可用、数据过期、样本偏差、字段冲突或关键口径缺失时，保留缺口并降级为数据需求单、调研框架或带假设草案；不得由 LLM 补造销量、趋势、价格、库存、Rank、薪资、法规或经营结论。
-6. 输出必须附数据源登记、数据截止、查询/版本、质量限制、静态快照有效期和下一次刷新 owner。
+1. 候选人版可编辑 JD。
+2. HR 精准岗位培训文档：岗位存在原因、典型工作、上下游、工具术语、职级差异、优秀/不匹配表现和常见误解。
+3. 内部岗位说明书：目标、结果、职责、权限、不负责范围、30/60/90 天预期。
+4. `screening-spec.json`：筛选标准、关键词与同义词、证据、替代证据、禁用变量、阈值和版本。
+5. 未确认项与异常清单；正常情况不得把“再找发起人沟通”作为交接步骤。
 
 ## Workflow
 
-1. 先向招聘经理收集业务目标、为何现在招聘、岗位解决的问题、首年关键结果、工作地、用工主体、编制、预算与时间；缺失项进入预问清单，不得猜测
-2. 生成供 HR 学习的详细岗位介绍：业务背景、典型工作日、主要任务、真实交付物、上下游、工具系统、专业术语、职级差异、优秀与不合格表现以及常见误解
-3. 锁定目标国家或城市、币种、税前税后、月薪年薪、固定与浮动、岗位同义词、职级和观察窗口；检索近几个月多个可追溯来源，清洗重复与不可比样本
-4. 生成岗位市场与薪酬调研报告：样本量、来源覆盖、发布时间分布、招聘需求趋势、岗位名称差异、薪资最小值/中位数/分位数/最大值、经验与技能溢价、地域和公司类型差异，并说明偏差与置信度
-5. 生成建议预问问题并标注提问对象、目的、理想答案要素、风险答案与答案如何影响 JD；等待招聘经理确认关键分歧
-6. 把确认事实转化为内部岗位说明书，定义使命、结果、职责、权限、不负责范围、协作关系、成功指标和前三十/六十/九十天预期
-7. 区分必须具备、可培养和加分项，为每项定义可观察证据、作品或经历，删除愿望清单、重复要求和与岗位无关的限制
-8. 生成面向候选人的招聘 JD，使用可理解语言说明机会、工作、结果、要求、流程和已批准待遇信息，并执行包容性、隐私和当地合规检查
-9. 同时交付保持字段和说明但不填业务事实的 JD 空白模板，最后输出未确认项、发布审批、面试评估建议和版本记录
+1. 读取招聘需求与已确认公司事实，生成 `request_id` 和初始版本；区分事实、发起人修改、默认值与待确认项。
+2. 把岗位目标转换成结果、职责和能力，区分 `MUST_HAVE`、`TRAINABLE`、`BONUS`、`PROHIBITED`；每项分配稳定 `criterion_id`。
+3. 为每项可筛选标准生成岗位相关理由、原始关键词、中英文同义词、缩写、相关工具、证据动作、结果表达、替代证据、最低证据、反证和面试核验问题。关键词只用于召回，不能单独证明胜任。
+4. 同步生成候选人 JD、HR 培训文档、内部岗位说明书和 `screening-spec.json`，确保四者对同一岗位要求没有冲突。
+5. 对发起人的修改执行影响分类：
+   - `COPY_ONLY`：措辞、语气或公司介绍变化，只更新候选人 JD。
+   - `REQUIREMENT_CHANGE`：职责、职级、必须项或工作条件变化，同时更新培训文档、内部说明和筛选规则，并递增 `rubric_version`。
+   - `COMPLIANCE_CHANGE`：工作地、用工主体、待遇、敏感或无关条件变化，暂停自动流转并标记 `REVIEW_REQUIRED`。
+6. 完成一致性检查。无阻断项时输出 `READY_FOR_HR`，HR 可直接发布、筛选和准备面试；有阻断项时只输出明确字段、原因和修复动作。
+7. 市场和薪酬调研按需执行，不得让可选调研阻塞信息完整、已经批准的招聘需求。
 
-## Required decision lenses
+## Screening-spec rules
 
-- 岗位存在原因、业务场景、日常工作和成功结果
-- 上下游、工具系统、专业术语和 HR 常见误解
-- 目标地区近几个月岗位需求、名称、职级、薪资分布、样本和来源
-- 职责、权限、不负责范围和职级边界
-- 必需能力、可培养能力、作品证据和淘汰信号
-- 招聘经理预问问题、答案口径和未确认项
-- 工作地、用工方式、汇报、协作、薪酬披露与当地合规
+- 每个 `MUST_HAVE` 必须能对应可观察工作证据，不得只使用学校、公司名气、年龄、性别、婚育、民族、宗教、健康、照片、住址等敏感或无关代理变量。
+- 必须项数量保持最小；可入职后培养的能力不得升级为自动硬门槛。
+- 阈值是岗位级可配置参数。默认预警示例为：去重且成功解析的简历达到 1000 份而候选池少于 10 人时触发低产出预警；不得把该示例冒充所有岗位的统一标准。
+- 公开 JD、培训文档和筛选规则必须共享版本；规则发生实质变化后，旧筛选结果必须标记为过期。
 
-## Depth requirements
+## States and handoff
 
-- 先解释业务对象、术语、为什么要做、谁使用结果以及错误结果会造成什么后果，再进入执行。
-- 覆盖当前场景及与其相邻的高频变体；不得用同一套步骤忽略国家、渠道、职级、系统状态、数据成熟度或风险等级差异。
-- 明确上游输入、下游消费者、责任边界、决策权、审批人、系统事实源和人工交接点。
-- 对每个关键判断给出所需证据、可选方案、选择条件、反证、停止条件和不可逆风险。
-- 同时设计正常路径、缺数据、低置信度、冲突、超时、权限不足、部分成功、回滚和转人工路径。
-- 工具只是执行手段；必须说明工具输入输出、权限、失败、成本、时效、版本和人工验收，不能把调用工具等同于完成业务。
-- 交付物必须让下游能直接执行或审批，并包含 owner、依赖、时间、验收指标、审计证据和下一次复盘触发器。
-
-## Scenario and exception gates
-
-1. 从 `references/scenario-playbook.md` 选择主场景；同时检查是否命中第二场景或高风险变体。
-2. 关键事实、权限、口径或 source of truth 未确认时，降级为调研、草案或 `REVIEW_REQUIRED`，不得伪装成可执行定稿。
-3. 发现目标冲突时，明确收入、利润、现金、客户、质量、时效、合规和可逆性之间的取舍，记录决策人。
-4. 执行中出现部分失败时，保护已确认结果，隔离未知状态，停止扩大影响，提供对账、补偿或回滚步骤。
-5. 只有交付物、验证证据、责任交接和剩余风险同时清楚，任务才算完成。
-
-## Evidence freshness gate
-
-- 在结论中标明数据截止、采集时间、来源、版本、适用国家/渠道/系统和刷新周期。
-- 市场、价格、Rank、趋势、库存、平台政策、法律、税务、汇率、软件版本和人员信息等时效事实，必须在本次任务中从授权的一手或当前来源重新核验；不得使用模型记忆冒充实时数据。
-- 单次快照只能说明当前观察，不能写成历史趋势；趋势结论必须有多个时间点或提供历史序列的可靠来源。
-- 来源冲突时保留差异与口径，说明裁决 owner；关键来源过期或不可访问时，降级为调研计划、草案或 `REVIEW_REQUIRED`。
+- `DRAFT_GENERATED`：已生成可编辑草案，存在非阻断待确认项。
+- `READY_FOR_HR`：招聘包完整一致，可零沟通交给 HR 和简历筛选 Skill。
+- `REVIEW_REQUIRED`：存在关键冲突、未经批准承诺、违法/歧视风险或无法解释的硬门槛。
 
 ## Guardrails
 
-- 不得在 HR 尚未理解、市场薪酬口径不清或招聘经理尚未确认岗位关键事实时直接定稿发布；不得虚构、外推或混用不同地区、币种、职级、薪资周期和样本的薪酬数据，不得虚构福利、组织承诺或加入与工作无关的歧视性条件。
-- 不得把假设写成事实；缺少关键数据时标注未知项、影响和最低验证动作。
-- 不得只给原则或清单；必须给出优先级、责任、依赖、验收和风险控制。
-- 不得声称已实施、已验证或已产生效果，除非有对应证据。
+- 不得虚构岗位事实、薪酬福利、编制、远程、签证或组织承诺。
+- 不得把关键词出现次数当作能力结论，不得生成与岗位表现无关的筛选标准。
+- 自动生成和自动筛选不等于自动录用或永久拒绝；重大用工决定保留可解释记录和授权人工确认。
+- 未获授权不得自动发布到外部招聘平台。
 
 ## Output contract
 
-交付必须包含：目标与范围、已检查证据、关键定义、现状诊断、方案与备选、决策理由、执行或演进计划、指标与验收、风险与恢复、未知项。结论与数字必须能够追溯到来源或计算过程。
+交付招聘包、状态、版本、一致性检查结果和最少异常清单。`READY_FOR_HR` 包必须让 HR 无需再次解释岗位，并让简历筛选 Skill 无需重新解读 JD。

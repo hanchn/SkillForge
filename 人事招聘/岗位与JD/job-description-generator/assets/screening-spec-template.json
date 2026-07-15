@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "request_id": "REPLACE_WITH_REQUEST_ID",
+  "package_version": "1.0.0",
+  "rubric_version": "1.0.0",
+  "status": "DRAFT_GENERATED",
+  "job": {
+    "title": "待确认",
+    "department": "待确认",
+    "level": "待确认",
+    "work_location": "待确认",
+    "employment_type": "待确认",
+    "headcount": 1,
+    "business_outcomes": []
+  },
+  "criteria": [
+    {
+      "criterion_id": "C001",
+      "category": "MUST_HAVE",
+      "label": "待填写岗位相关能力",
+      "job_related_reason": "待填写",
+      "keywords": [],
+      "synonyms": [],
+      "acronyms": [],
+      "related_tools": [],
+      "evidence_actions": [],
+      "evidence_results": [],
+      "acceptable_alternatives": [],
+      "minimum_evidence": "待填写",
+      "counter_evidence": [],
+      "interview_verification": [],
+      "confirmed": false,
+      "owner": "待确认"
+    }
+  ],
+  "prohibited_variables": [
+    "name",
+    "photo",
+    "age",
+    "gender",
+    "marital_or_parental_status",
+    "ethnicity",
+    "religion",
+    "health",
+    "home_address"
+  ],
+  "screening_policy": {
+    "keyword_role": "RECALL_ONLY",
+    "final_decision_requires_authorized_human": true,
+    "low_yield_alert": {
+      "minimum_unique_parseable_resumes": 1000,
+      "minimum_shortlist_count": 10
+    },
+    "parse_success_rate_alert_below": 0.95,
+    "single_criterion_drop_rate_alert_above": 0.60,
+    "threshold_owner": "待确认"
+  },
+  "change_control": {
+    "last_change_type": "INITIAL_GENERATION",
+    "supersedes_rubric_version": null,
+    "confirmed_by": "待确认",
+    "confirmed_at": null
+  }
+}

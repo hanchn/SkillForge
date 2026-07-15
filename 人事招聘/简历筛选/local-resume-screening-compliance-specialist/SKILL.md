@@ -1,103 +1,83 @@
 ---
 name: local-resume-screening-compliance-specialist
-description: 以已确认 JD 和岗位相关证据标准读取授权本地简历，生成可解释匹配、缺口、核验问题、异常风险和合规提示，供 HR 人工复核。 Use when an AI needs to handle 给定 JD 后批量筛选本地 PDF/DOCX/TXT/MD 简历, 候选人初筛、分层和面试问题准备, 筛选规则、异常原因和公平合规审计; produce JD 能力与证据评分规则, 逐候选人匹配、缺口、风险和核验问题卡, 人工复核分层、异常队列和合规审计报告; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+description: 无人值守消费招聘需求阶段生成的 screening-spec.json，批量解析授权简历、按岗位证据形成候选池、诊断筛选漏斗、触发阈值预警，并通过招聘平台 API 自动预约面试、会议室、面试官通知和候选人二次确认；异常统一发送飞书告警。Use for automated resume screening, shortlist generation, low-yield or pipeline anomaly detection, interview scheduling orchestration, and Feishu exception alerts while preserving explainability and an authorized final hiring decision.
 ---
 
-# 本地简历筛选与合规评估专家
+# 无人值守简历筛选与面试预约
 
-以已确认 JD 和岗位相关证据标准读取授权本地简历，生成可解释匹配、缺口、核验问题、异常风险和合规提示，供 HR 人工复核。
+正常路径自动完成简历处理、候选池生成和面试预约；只有筛选、数据、API、候选人确认或合规异常才通知人员介入。
 
 ## Load resources
 
-- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+- 在 SkillForge 仓库内先读 `公司上下文/company-profile.yaml` 和 `公司上下文/README.md`。
+- 必须读取 `references/compliance-baseline.md`、`references/resume-screening-compliance-method.md`、`references/interview-scheduling-api-contract.md` 和 `references/feishu-alert-contract.md`。
+- 使用 JD Skill 生成的 `screening-spec.json`；先运行 `scripts/validate_screening_spec.py`，不得静默重解释已确认标准。
+- 先运行 `scripts/inventory_local_resumes.py` 建立只读、默认不落全文的本地清单。
+- 使用 `assets/candidate-review-card-template.md` 和 `assets/screening-alert-policy.json`。
 
-- 涉及事实、统计、实时状态或系统写入时，必须读取 `references/data-source-and-api-gate.md` 并使用 `assets/data-source-intake-template.md` 向使用者确认静态数据与合规接口；不得用模型记忆补造数据。
+## Zero-touch prerequisites
 
-- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
-- Read `references/professional-checklist.md` before making decisions.
-- Read `references/scenario-playbook.md` to select the matching scenario path, evidence, exceptions, and acceptance gates.
-- Use `assets/delivery-template.md` for the final durable artifact.
-- Use `assets/decision-record-template.md` when the task contains alternatives, approvals, irreversible actions, or cross-team tradeoffs.
-- If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
+以下条件满足时直接运行，不再向发起人或 HR 重复确认：
 
-- 必须读取 `references/resume-screening-compliance-method.md` 并使用 `assets/jd-evidence-rubric-template.md`；JD 中与岗位无关、歧视性或未确认要求不得进入评分。
-- 先运行 `scripts/inventory_local_resumes.py` 建立本地文件、哈希、解析质量和异常清单；默认不上传外部服务，不修改原简历。
-- 使用 `assets/candidate-review-card-template.md` 输出证据与人工复核，不得自动拒绝、录用或把异常写成造假结论。
+- `screening-spec.json` 状态为 `READY_FOR_HR`，版本和岗位一致。
+- 简历来源、处理用途、保留期限和访问范围已有授权。
+- 招聘平台、日历/会议室、邮件和飞书连接器已配置并通过测试环境验证。
+- 凭证通过环境变量、密钥管理或授权连接器引用，不出现在 Skill、日志和交付物中。
 
-
-
-
-## User intake gate
-
-- 正式执行前必须询问使用者并确认范围、目标、对象、国家/渠道/系统、时间窗口、owner、审批人和不可改变项。
-- 必需输入：业务目标、范围和现状证据。建议补充：历史数据、流程系统资料、目标、预算、SLA 和合规约束。已有数据、模板、词库、规则和历史结论必须先盘点版本与优先级。
-- 缺少会改变结论的输入时，只能交付问题清单、调研计划或带假设的草案；不得自行补造事实。
-
-
-
-## Data and compliant API intake gate
-
-1. 先询问使用者是否有静态文件（CSV、Excel、JSON、Parquet、日志或文档）、系统导出、数据库视图/查询结果、官方 API、已授权第三方 API 或允许查询的当前公开来源，并确认哪些来源优先。
-2. 对每个接口登记 owner、业务目的、授权依据、环境、认证方式、字段/行范围、时间粒度、刷新 SLA、限流、成本、个人/敏感数据、留存删除和下游发布权限。
-3. 不在对话、Skill、脚本参数、日志或交付物中索要或保存明文 token、key、cookie、密码或私钥；使用环境变量、密钥管理或已授权连接器。
-4. 数据可读不等于允许使用或公开。用途、字段、国家、主体或下游超出授权时，停止并标记 `REVIEW_REQUIRED`。
-5. 接口不可用、数据过期、样本偏差、字段冲突或关键口径缺失时，保留缺口并降级为数据需求单、调研框架或带假设草案；不得由 LLM 补造销量、趋势、价格、库存、Rank、薪资、法规或经营结论。
-6. 输出必须附数据源登记、数据截止、查询/版本、质量限制、静态快照有效期和下一次刷新 owner。
+缺失其中任一项时，继续完成安全可执行的部分，并把受影响阶段标记为 `REVIEW_REQUIRED`；不得假装 API 已调用或消息已送达。
 
 ## Workflow
 
-1. 读取 JD 并确认工作地、用工主体、岗位结果、职级和版本；将要求拆成必须、可培养、加分和不应参与判断的项目，删除与岗位无关或歧视性条件
-2. 向使用者确认本地简历目录、处理授权、允许文件类型、是否允许外部模型、输出位置、访问人员、保留/删除期限和人工决策 owner；默认仅本地处理
-3. 运行本地简历清单与文本提取，记录文件哈希、解析器、页数/文本长度、重复、损坏、扫描件/OCR需求和提取失败；不修改原文件
-4. 在评分前尽量隔离姓名、照片、联系方式、住址、出生/年龄、性别、婚育、民族、宗教、健康等非必要字段；依法确有必要的工作资格另行人工核验
-5. 为每项 JD 标准建立可观察证据、权重、最低证据和反证，使用统一 rubric 对所有候选人判断；缺失不等于不具备
-6. 逐份生成证据引用、匹配、缺口、可迁移能力、需面试核验问题和置信度，不根据关键词数量或学校/公司名气直接排名
-7. 检测时间线重叠、前后不一致、无法验证的量化声明、文件重复、解析缺失和 JD 冲突，输出原因码与证据；标记 REVIEW_REQUIRED，不指控造假
-8. 按人工复核优先级而非自动录用/淘汰输出分层，提供解释、反例检查和人工改判理由；高影响决定不得仅由自动化结果作出
-9. 抽样比较不同候选人的标准一致性与潜在不利影响，发现代理歧视、解析偏差或标准漂移时暂停筛选并升级 HR/法务
-10. 交付后保存最小审计记录，限制候选人内容披露，执行保留/删除计划，并将面试和后续结果用于验证 rubric 而非训练敏感画像
+1. 验证筛选契约的 schema、`request_id`、`rubric_version`、状态、稳定标准 ID、岗位相关理由和阈值。
+2. 只读扫描简历目录，跳过符号链接，记录唯一文件、重复、解析器、页数、文本长度、OCR/损坏和受控文本位置。默认清单不包含简历全文。
+3. 屏蔽姓名、照片、联系方式、住址、年龄、性别、婚育、民族、宗教和健康等非必要信息；联系方式只在进入预约阶段后由授权连接器单独读取。
+4. 先用关键词、同义词、缩写和工具词召回，再依据项目动作、业务结果、时间范围和替代证据判断；关键词出现次数不能单独形成匹配结论。
+5. 对每个 `criterion_id` 输出直接证据、`MATCH / PARTIAL / INSUFFICIENT_EVIDENCE / CONFLICT`、置信度和核验问题。
+6. 自动形成：
+   - `SHORTLIST_READY`：岗位证据达到已确认候选池规则。
+   - `REVIEW_REQUIRED`：规则冲突、低置信度或高风险异常。
+   - `INSUFFICIENT_EVIDENCE`：简历没有足够证据，不等于永久拒绝。
+   - `PROCESSING_EXCEPTION`：解析、OCR或文件异常。
+7. 计算筛选漏斗并执行阈值诊断：收到、解析成功、去重、岗位族相关、必须项通过、候选池、面试预约、候选人确认。
+8. 若无阻断告警且策略允许，对 `SHORTLIST_READY` 候选人调用招聘平台 API 启动面试预约：读取候选人可选时段、面试官和会议室资源，创建临时占位，发送面试官通知及候选人二次确认邮件，收到确认后固化预约并写回平台。
+9. 任一异常转换成标准飞书事件，按严重度、幂等键和路由发送；告警只带 Candidate ID、岗位、阶段、原因码和安全记录链接，不带简历正文或敏感信息。
+10. 保存最小审计记录：输入/规则版本、证据引用、状态变化、API 请求幂等键、平台记录 ID、消息回执、重试、补偿和最终授权决定。
 
-## Required decision lenses
+## Funnel and alert diagnosis
 
-- JD 必须/可培养/加分项与岗位相关性
-- 本地文件授权、解析质量和个人信息最小化
-- 简历原文证据、时间线、项目和结果
-- 受保护/敏感属性屏蔽与公平一致性
-- 异常原因码、置信度和人工核验
-- 自动化决策边界、申诉说明、保留删除和审计
+默认读取 `screening-spec.json` 的岗位级阈值；没有岗位阈值时使用 `assets/screening-alert-policy.json` 的保守默认值。
 
-## Depth requirements
+- `LOW_SHORTLIST_YIELD`：去重且成功解析达到 1000 份而候选池少于 10 人。进一步判断是 JD 硬门槛、渠道、解析、证据词库还是评分阈值问题。
+- `PARSE_QUALITY_LOW`：解析成功率低于 95% 或 OCR/损坏比例异常。
+- `SOURCE_MISMATCH`：岗位族相关率过低，提示招聘渠道或投放定向问题。
+- `CRITERION_OVER_FILTERING`：单个必须项拦截超过 60% 的岗位族相关简历。
+- `RUBRIC_DRIFT`：JD、培训文档或筛选版本不一致，或修改后候选率相对基线突变。
+- `SCHEDULING_API_FAILURE`、`ROOM_UNAVAILABLE`、`INTERVIEWER_CONFLICT`、`EMAIL_DELIVERY_FAILURE`、`CANDIDATE_CONFIRMATION_TIMEOUT`：面试预约链路异常。
+- 阈值是可配置默认值，不得冒充所有岗位的永久标准；按岗位、职级、地区、渠道和历史漏斗校准。
 
-- 先解释业务对象、术语、为什么要做、谁使用结果以及错误结果会造成什么后果，再进入执行。
-- 覆盖当前场景及与其相邻的高频变体；不得用同一套步骤忽略国家、渠道、职级、系统状态、数据成熟度或风险等级差异。
-- 明确上游输入、下游消费者、责任边界、决策权、审批人、系统事实源和人工交接点。
-- 对每个关键判断给出所需证据、可选方案、选择条件、反证、停止条件和不可逆风险。
-- 同时设计正常路径、缺数据、低置信度、冲突、超时、权限不足、部分成功、回滚和转人工路径。
-- 工具只是执行手段；必须说明工具输入输出、权限、失败、成本、时效、版本和人工验收，不能把调用工具等同于完成业务。
-- 交付物必须让下游能直接执行或审批，并包含 owner、依赖、时间、验收指标、审计证据和下一次复盘触发器。
+## Interview scheduling transaction
 
-## Scenario and exception gates
+1. 使用 `request_id + candidate_id + interview_stage + proposed_start` 作为幂等键。
+2. 先查询招聘平台候选人状态，避免已淘汰、已预约或已关闭候选人重复触达。
+3. 获取面试官忙闲、会议室和候选人可选时段；时间统一保存时区。
+4. 创建有过期时间的临时会议/会议室占位，写回 `booking_id`、`calendar_event_id`、`room_id`。
+5. 通知面试官并向候选人发送二次确认邮件；邮件包含岗位、时间、时区、方式、改期/取消入口和隐私说明。
+6. 候选人确认后将状态改为 `INTERVIEW_CONFIRMED`；拒绝、超时或邮件退回时释放占位并触发飞书告警。
+7. 部分成功时不得重复创建会议。按平台 ID 对账，优先补发通知；无法确认状态时停止重试并转人工。
 
-1. 从 `references/scenario-playbook.md` 选择主场景；同时检查是否命中第二场景或高风险变体。
-2. 关键事实、权限、口径或 source of truth 未确认时，降级为调研、草案或 `REVIEW_REQUIRED`，不得伪装成可执行定稿。
-3. 发现目标冲突时，明确收入、利润、现金、客户、质量、时效、合规和可逆性之间的取舍，记录决策人。
-4. 执行中出现部分失败时，保护已确认结果，隔离未知状态，停止扩大影响，提供对账、补偿或回滚步骤。
-5. 只有交付物、验证证据、责任交接和剩余风险同时清楚，任务才算完成。
+## Feishu alerts
 
-## Evidence freshness gate
-
-- 在结论中标明数据截止、采集时间、来源、版本、适用国家/渠道/系统和刷新周期。
-- 市场、价格、Rank、趋势、库存、平台政策、法律、税务、汇率、软件版本和人员信息等时效事实，必须在本次任务中从授权的一手或当前来源重新核验；不得使用模型记忆冒充实时数据。
-- 单次快照只能说明当前观察，不能写成历史趋势；趋势结论必须有多个时间点或提供历史序列的可靠来源。
-- 来源冲突时保留差异与口径，说明裁决 owner；关键来源过期或不可访问时，降级为调研计划、草案或 `REVIEW_REQUIRED`。
+- 使用飞书应用或机器人连接器，不保存明文 webhook、token、cookie 或私钥。
+- 每个事件必须包含 `event_id`、严重度、岗位/请求 ID、阶段、原因码、影响数量、诊断、建议动作、owner、首次/最近发生时间和安全详情链接。
+- 相同 `request_id + reason_code + stage` 在去重窗口内聚合；恢复后发送恢复消息并关闭事件。
+- HTTP 成功只代表平台接受请求，不代表已读或问题关闭；记录 `message_id`、回执、认领和升级状态。
 
 ## Guardrails
 
-- 不得上传未授权简历、推断受保护或敏感属性、以姓名照片年龄性别婚育民族宗教健康等排序，不得自动拒绝或录用候选人；异常只能作为待核验风险而非造假结论。
-- 不得把假设写成事实；缺少关键数据时标注未知项、影响和最低验证动作。
-- 不得只给原则或清单；必须给出优先级、责任、依赖、验收和风险控制。
-- 不得声称已实施、已验证或已产生效果，除非有对应证据。
+- 不得上传未授权简历、根据敏感属性排序、把缺少关键词写成不具备能力，或把异常定性为造假。
+- 自动化可以形成候选池和预约面试，但不得作为永久拒绝或最终录用的唯一依据；保留说明、纠错和授权人工决定能力。
+- 未确认真实 API 文档、权限、租户、测试环境和回滚前，只生成适配契约或 dry-run，不执行真实预约和消息发送。
 
 ## Output contract
 
-交付必须包含：目标与范围、已检查证据、关键定义、现状诊断、方案与备选、决策理由、执行或演进计划、指标与验收、风险与恢复、未知项。结论与数字必须能够追溯到来源或计算过程。
+交付候选池、逐标准证据、筛选漏斗、异常归因、预约状态、飞书事件与最小审计记录。正常批次输出 `AUTOMATION_COMPLETED`；存在未恢复异常时输出 `REVIEW_REQUIRED`。

@@ -1,0 +1,21 @@
+{
+  "policy_version": "1.0.0",
+  "thresholds_are_defaults_not_universal_rules": true,
+  "thresholds": {
+    "parse_success_rate_alert_below": 0.95,
+    "job_family_match_rate_alert_below": 0.20,
+    "single_criterion_drop_rate_alert_above": 0.60,
+    "low_shortlist_yield": {
+      "minimum_unique_parseable_resumes": 1000,
+      "minimum_shortlist_count": 10
+    },
+    "candidate_confirmation_timeout_hours": 24,
+    "api_retry_limit": 3,
+    "feishu_deduplication_window_minutes": 30
+  },
+  "severity": {
+    "P1": ["RUBRIC_DRIFT", "SCHEDULING_STATE_UNKNOWN", "UNAUTHORIZED_DATA_FLOW"],
+    "P2": ["LOW_SHORTLIST_YIELD", "PARSE_QUALITY_LOW", "CRITERION_OVER_FILTERING", "SCHEDULING_API_FAILURE", "ROOM_UNAVAILABLE", "EMAIL_DELIVERY_FAILURE"],
+    "P3": ["SOURCE_MISMATCH", "CANDIDATE_CONFIRMATION_TIMEOUT", "DUPLICATE_FILE"]
+  }
+}
