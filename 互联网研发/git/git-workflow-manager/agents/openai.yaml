@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git 安全工作流管理器"
+  short_description: "Manage Git changes safely from real repository state"
+  default_prompt: "Use $git-workflow-manager to inspect this repository and plan the safest branch workflow."

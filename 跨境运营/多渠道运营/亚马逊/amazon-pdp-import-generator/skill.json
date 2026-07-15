@@ -1,9 +1,9 @@
 {
   "name": "amazon-pdp-import-generator",
-  "display_name": "亚马逊PDP内容生成技能",
+  "display_name": "亚马逊 PDP 导入草稿生成器",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -12,17 +12,16 @@
     "多渠道运营",
     "亚马逊"
   ],
-  "description": "根据商品图片文件名自动提取基础信息，并利用 AI 扩写生成亚马逊 PDP 标题、5要素、描述及 Search Terms 标签，最终输出导入草稿文件。",
+  "description": "从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容",
   "search_keywords": [
     "亚马逊",
     "PDP",
-    "SEO",
-    "内容生成",
-    "商品信息",
-    "五要素",
-    "Search Terms",
-    "图片识别",
-    "表格生成"
+    "SKU",
+    "变体",
+    "图片分组",
+    "CSV",
+    "XLSX",
+    "Listing"
   ],
   "supported_platforms": [
     "Claude",
@@ -40,12 +39,15 @@
       "brand",
       "marketplace",
       "category",
-      "variation_theme"
+      "variation_theme",
+      "verified_product_facts"
     ]
   },
   "outputs": [
     "amazon_pdp_import_draft.xlsx",
-    "amazon_pdp_import_draft.csv"
+    "amazon_pdp_import_draft.csv",
+    "parse_log.csv",
+    "review_summary.md"
   ],
   "implementation": {
     "readme": "README.md",
@@ -59,10 +61,9 @@
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "README.md 只是说明文件",
-    "不要把 skill 放进 .trae",
-    "优先复用现有脚本，不重复造轮子",
-    "目录为空时不得伪造结果"
+    "不得从文件名或图片推断未经验证的商品声明",
+    "不得把通用草稿称为已适配 Seller Central 的可上传模板",
+    "目录为空或解析冲突时不得伪造结果"
   ],
   "distribution": {
     "share_as_single_folder": true,
@@ -71,9 +72,7 @@
       "skill.json",
       "README.md",
       "INVOCATION.md",
-      "BASE_PROMPT.md",
-      "scripts/generate_pdp_import.py",
-      "assets/parser_config.json"
+      "BASE_PROMPT.md"
     ],
     "package_files": [
       "SKILL.md",
@@ -81,18 +80,14 @@
       "README.md",
       "INVOCATION.md",
       "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms",
       "scripts/generate_pdp_import.py",
-      "assets/parser_config.json",
-      "examples/README.md",
-      "examples/sample_input_files.txt",
-      "examples/sample_output.csv",
-      "eval/acceptance.md",
-      "platforms/claude.md",
-      "platforms/codex.md",
-      "platforms/gpt.md",
-      "platforms/manus.md",
-      "platforms/qorder.md",
-      "platforms/trae.md"
+      "assets/parser_config.json"
     ]
   }
 }

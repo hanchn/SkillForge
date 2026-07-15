@@ -1,0 +1,4 @@
+interface:
+  display_name: "业务指标诊断师"
+  short_description: "Diagnose metric changes with validated evidence"
+  default_prompt: "Use $metric-diagnostics to diagnose why this business metric changed."

@@ -1,6 +1,6 @@
 {
   "project": "SkillForge",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "entry_docs": {
     "readme": "README.md",
     "project_index": "PROJECT_INDEX.md",
@@ -24,6 +24,7 @@
       "跨境运营",
       "互联网研发",
       "法律政务",
+      "数据",
       "work"
     ]
   },
@@ -35,25 +36,163 @@
       "entrypoint": "SKILL.md",
       "type": "portable-governance-skill",
       "search_keywords": [
-        "项目规则",
-        "架构设计",
         "项目治理",
+        "skill仓库",
         "目录规范",
-        "skill 仓库"
+        "质量标准"
       ]
     },
     {
       "name": "amazon-pdp-import-generator",
-      "display_name": "亚马逊PDP导入生成器",
+      "display_name": "亚马逊 PDP 导入草稿生成器",
       "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
         "亚马逊",
         "PDP",
-        "商品图片",
-        "导入表",
-        "Excel"
+        "SKU",
+        "图片分组",
+        "Listing"
+      ]
+    },
+    {
+      "name": "seo-optimizer",
+      "display_name": "SEO 内容优化师",
+      "package_root": "跨境运营/推广营销/seo-optimizer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "SEO",
+        "搜索意图",
+        "内容简报",
+        "内链",
+        "技术SEO"
+      ]
+    },
+    {
+      "name": "geo-optimizer",
+      "display_name": "GEO 引用就绪优化师",
+      "package_root": "跨境运营/推广营销/geo-optimizer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "GEO",
+        "AI搜索",
+        "引用就绪",
+        "实体优化",
+        "声明溯源"
+      ]
+    },
+    {
+      "name": "ecommerce-product-research",
+      "display_name": "跨境电商选品研究",
+      "package_root": "跨境运营/选品/ecommerce-product-research",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "选品",
+        "产品研究",
+        "利润模型",
+        "供应链",
+        "渠道适配"
+      ]
+    },
+    {
+      "name": "shopify-conversion-auditor",
+      "display_name": "Shopify 转化审计师",
+      "package_root": "跨境运营/多渠道运营/独立站/shopify-conversion-auditor",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Shopify",
+        "CRO",
+        "转化率",
+        "商品页",
+        "结账"
+      ]
+    },
+    {
+      "name": "git-workflow-manager",
+      "display_name": "Git 安全工作流管理器",
+      "package_root": "互联网研发/git/git-workflow-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "git",
+        "分支",
+        "合并",
+        "变基",
+        "冲突",
+        "发布"
+      ]
+    },
+    {
+      "name": "product-requirements-architect",
+      "display_name": "产品需求架构师",
+      "package_root": "互联网研发/产品/B端产品/product-requirements-architect",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "PRD",
+        "产品需求",
+        "业务规则",
+        "验收标准",
+        "需求评审"
+      ]
+    },
+    {
+      "name": "api-contract-designer",
+      "display_name": "API 契约设计师",
+      "package_root": "互联网研发/后端/api-contract-designer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "API",
+        "OpenAPI",
+        "接口设计",
+        "幂等",
+        "兼容性"
+      ]
+    },
+    {
+      "name": "test-strategy-designer",
+      "display_name": "测试策略设计师",
+      "package_root": "互联网研发/测试/test-strategy-designer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "测试策略",
+        "风险覆盖",
+        "回归测试",
+        "发布门槛"
+      ]
+    },
+    {
+      "name": "metric-diagnostics",
+      "display_name": "业务指标诊断师",
+      "package_root": "数据/metric-diagnostics",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "指标异常",
+        "归因",
+        "漏斗",
+        "贡献度",
+        "数据质量"
+      ]
+    },
+    {
+      "name": "contract-risk-reviewer",
+      "display_name": "合同风险审阅师",
+      "package_root": "法律政务/contract-risk-reviewer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "合同审阅",
+        "风险条款",
+        "义务清单",
+        "谈判建议"
       ]
     }
   ],

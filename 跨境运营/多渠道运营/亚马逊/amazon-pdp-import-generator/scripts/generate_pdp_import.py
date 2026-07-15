@@ -21,6 +21,19 @@ ROLE_PRIORITY = {
     "unknown": 99,
 }
 
+PARSE_LOG_COLUMNS = [
+    "file_name",
+    "tokens",
+    "base_tokens",
+    "sku",
+    "parent_sku",
+    "product_type",
+    "color_name",
+    "role",
+    "sequence",
+    "parse_confidence",
+]
+
 
 def load_config(config_path: Path) -> dict:
     with config_path.open("r", encoding="utf-8") as file:
@@ -349,21 +362,9 @@ def build_sheet_rows(columns: list[str], rows: list[dict]) -> list[list[str]]:
 
 
 def build_log_rows(parse_log: list[dict]) -> list[list[str]]:
-    columns = [
-        "file_name",
-        "tokens",
-        "base_tokens",
-        "sku",
-        "parent_sku",
-        "product_type",
-        "color_name",
-        "role",
-        "sequence",
-        "parse_confidence",
-    ]
-    table = [columns]
+    table = [PARSE_LOG_COLUMNS]
     for row in parse_log:
-        table.append([row.get(column, "") for column in columns])
+        table.append([row.get(column, "") for column in PARSE_LOG_COLUMNS])
     return table
 
 
@@ -393,8 +394,10 @@ def main() -> None:
     columns = config["output_columns"]
     csv_path = output_dir / "amazon_pdp_import_draft.csv"
     xlsx_path = output_dir / "amazon_pdp_import_draft.xlsx"
+    parse_log_path = output_dir / "parse_log.csv"
 
     write_csv(rows, columns, csv_path)
+    write_csv(parse_log, PARSE_LOG_COLUMNS, parse_log_path)
     write_xlsx(
         {
             "PDP_Draft": build_sheet_rows(columns, rows),
@@ -405,6 +408,7 @@ def main() -> None:
 
     print(f"已生成：{xlsx_path}")
     print(f"已生成：{csv_path}")
+    print(f"已生成：{parse_log_path}")
 
 
 if __name__ == "__main__":

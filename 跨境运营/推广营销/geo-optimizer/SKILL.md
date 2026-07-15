@@ -1,33 +1,38 @@
-# GEO生成引擎优化技能
+---
+name: geo-optimizer
+description: Improve content for accurate discovery, extraction, citation, and recommendation by generative answer engines through verified entity facts, claim provenance, clear answer passages, comparison criteria, structured evidence, consistent terminology, and source-ready publishing. Use when an AI needs to audit or rewrite brand, product, category, help-center, FAQ, or research content for AI search visibility while avoiding fabricated statistics, fake authority, spam distribution, or guaranteed citations.
+---
 
-## Identity
+# GEO Optimizer
 
-- skill id: `geo-optimizer`
-- display name: `GEO生成引擎优化技能`
-- type: `portable-business-skill`
-- scope: `cross-platform`
+Make content easier to understand and support, not easier to hallucinate from.
 
-## What It Does
+## Load resources
 
-- 优化品牌或产品信息，使其更容易被 AI 搜索引擎（如 Perplexity, Bing Chat）抓取和引用
-- 增强内容的结构化程度（数据、事实、列表）以迎合 LLM 的回答偏好
-- 消除模糊表达，提升品牌在 AI 回答中的实体权重
+- Read references/citation-readiness.md before auditing content.
+- Use assets/claim-ledger.md to control facts and provenance.
 
-## When To Use
+## Workflow
 
-- 想要在 AI 搜索引擎中提升品牌曝光度
-- 需要将传统 SEO 内容转化为 AI 友好的事实性内容
-- 需要构建 AI 语料库以增强大模型对产品的认知
+1. Define the entity, market, audience questions, decision context, and desired owned source.
+2. Build a claim ledger. For each material statement record source, date, geography, scope, methodology, confidence, and expiry risk.
+3. Resolve entity consistency across names, product identifiers, category, authorship, organization details, and canonical URLs.
+4. Map real audience questions and comparison criteria. Distinguish informational, evaluative, transactional, support, and safety intent.
+5. Write answer-first passages that stand alone: direct answer, conditions, evidence, limitations, and next detail. Keep nearby context sufficient for accurate extraction.
+6. Add useful tables, definitions, procedures, comparisons, and FAQs only when supported by real facts and user need.
+7. Strengthen provenance with primary sources, dated methods, author or organization accountability, and clear update information.
+8. Recommend valid structured data, canonicalization, indexability, feeds, sitemaps, internal links, and consistent public profiles when technically appropriate.
+9. Plan legitimate distribution to relevant owned and earned surfaces. Do not recommend planted discussions, fabricated consensus, paid links disguised as editorial, or Wikipedia manipulation.
+10. Measure discoverability, cited-answer accuracy, branded and non-branded referral, assisted conversion, and misinformation rate. Treat model outputs as sampled observations, not deterministic rankings.
 
-## Read In Order
+## Guardrails
 
-1. `skill.json`
-2. `INVOCATION.md`
-3. `BASE_PROMPT.md`
-4. `platforms/<platform>.md`
+- Do not invent statistics, expert quotes, reviews, certifications, awards, research, or third-party endorsements.
+- Do not claim that schema or formatting guarantees inclusion or citation.
+- Do not turn FAQs into repetitive keyword blocks.
+- Prefer first-party and primary evidence; disclose commercial interest.
+- Keep legal, medical, safety, sustainability, and performance claims within verified scope.
 
-## Package Guarantee
+## Output contract
 
-- 这是一个可独立分享的 skill 文件夹
-- 直接发送整个 `geo-optimizer/` 目录即可复用
-- `README.md` 只是说明文档，不是 skill 本体
+Return entity and question map, claim ledger, citation-readiness gaps, rewritten answer modules, source and structure plan, technical publishing checks, ethical distribution plan, and measurement design. Label unsupported claims for removal or evidence acquisition.

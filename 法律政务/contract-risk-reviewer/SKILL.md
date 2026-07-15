@@ -41,4 +41,3 @@ Identify the reviewing party, contract type, jurisdiction or governing law, tran
 ## Output contract
 
 Return scope and assumptions, executive risk summary, clause-by-clause issue table, obligation register, missing protections, negotiation priorities, operational handoffs, counsel escalations, and residual risk. Clearly label suggested wording as drafting options for legal review.
-

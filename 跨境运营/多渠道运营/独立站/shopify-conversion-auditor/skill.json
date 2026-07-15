@@ -1,0 +1,89 @@
+{
+  "name": "shopify-conversion-auditor",
+  "display_name": "Shopify 转化审计师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "多渠道运营",
+    "独立站",
+    "CRO"
+  ],
+  "description": "基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项",
+  "search_keywords": [
+    "Shopify",
+    "独立站",
+    "CRO",
+    "转化率",
+    "商品页",
+    "购物车",
+    "结账"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "store_evidence_or_url"
+    ],
+    "optional": [
+      "analytics",
+      "target_market",
+      "traffic_mix",
+      "theme_context"
+    ]
+  },
+  "outputs": [
+    "conversion_audit.md",
+    "prioritized_backlog.md",
+    "experiment_plan.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不把审美偏好当转化证据",
+    "不推荐虚假稀缺、伪造评价或隐藏费用",
+    "不虚构促销、物流、退货、认证或商品事实"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

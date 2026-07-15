@@ -1,0 +1,4 @@
+interface:
+  display_name: "API 契约设计师"
+  short_description: "Design stable review ready API contracts and schemas"
+  default_prompt: "Use $api-contract-designer to design a review-ready API contract for this capability."

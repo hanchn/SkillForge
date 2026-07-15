@@ -1,9 +1,9 @@
 {
   "name": "seo-optimizer",
-  "display_name": "SEO营销优化技能",
+  "display_name": "SEO 内容优化师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -12,14 +12,15 @@
     "推广营销",
     "SEO"
   ],
-  "description": "提供针对搜索引擎优化的内容改写、关键词挖掘、标题与描述优化策略",
+  "description": "基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容",
   "search_keywords": [
     "SEO",
-    "搜索引擎优化",
-    "关键词",
-    "标题优化",
-    "描述优化",
-    "营销推广"
+    "搜索意图",
+    "关键词地图",
+    "内容简报",
+    "页面优化",
+    "内链",
+    "技术SEO"
   ],
   "supported_platforms": [
     "Claude",
@@ -31,29 +32,36 @@
   ],
   "inputs": {
     "required": [
-      "target_content"
+      "page_or_content_goal"
     ],
     "optional": [
-      "target_audience",
-      "platform"
+      "target_market",
+      "business_facts",
+      "url",
+      "keyword_or_serp_data",
+      "performance_data"
     ]
   },
   "outputs": [
-    "optimized_content.md"
+    "seo_audit_or_content.md",
+    "keyword_intent_map.md",
+    "measurement_plan.md"
   ],
   "implementation": {
     "readme": "README.md",
     "entry_doc": "SKILL.md",
     "invocation_doc": "INVOCATION.md",
-    "script": "scripts/run_seo_optimizer.py",
+    "script": "",
+    "config": "",
     "base_prompt": "BASE_PROMPT.md",
     "examples_dir": "examples",
     "eval_dir": "eval",
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "README.md 只是说明文件",
-    "优先结合具体业务背景"
+    "不得虚构关键词数据、排名、商品事实或权威背书",
+    "不得保证排名",
+    "不得使用关键词堆砌、门页或无关结构化数据"
   ],
   "distribution": {
     "share_as_single_folder": true,
@@ -63,6 +71,19 @@
       "README.md",
       "INVOCATION.md",
       "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
     ]
   }
 }

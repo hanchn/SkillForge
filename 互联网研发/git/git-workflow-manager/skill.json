@@ -1,28 +1,27 @@
 {
   "name": "git-workflow-manager",
-  "display_name": "Git分支流转与合并规范技能",
+  "display_name": "Git 安全工作流管理器",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
     "互联网研发",
     "git",
-    "分支规范"
+    "安全工作流"
   ],
-  "description": "规范化 Git 分支命名与合并流程（master/pre/test/fix/feature），提供标准流转指引",
+  "description": "基于真实仓库状态安全规划或执行分支、提交、合并、变基、发布流转、冲突处理与恢复",
   "search_keywords": [
     "git",
-    "代码版本",
-    "分支管理",
+    "分支",
+    "提交",
     "合并",
-    "master",
-    "pre",
-    "test",
-    "feature",
-    "fix"
+    "变基",
+    "冲突",
+    "发布",
+    "恢复"
   ],
   "supported_platforms": [
     "Claude",
@@ -34,29 +33,34 @@
   ],
   "inputs": {
     "required": [
-      "target_content"
+      "repository_and_requested_outcome"
     ],
     "optional": [
-      "target_audience",
-      "platform"
+      "branch_policy",
+      "target_branch",
+      "commit_range",
+      "release_context"
     ]
   },
   "outputs": [
-    "optimized_content.md"
+    "git_state_and_plan.md",
+    "executed_ref_summary"
   ],
   "implementation": {
     "readme": "README.md",
     "entry_doc": "SKILL.md",
     "invocation_doc": "INVOCATION.md",
-    "script": "scripts/run_git_workflow_manager.py",
+    "script": "",
+    "config": "",
     "base_prompt": "BASE_PROMPT.md",
     "examples_dir": "examples",
     "eval_dir": "eval",
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "README.md 只是说明文件",
-    "优先结合具体业务背景"
+    "不得未经授权丢弃工作或重写共享历史",
+    "不得暂存或提交无关用户改动",
+    "不得假设分支名、远端或发布流存在"
   ],
   "distribution": {
     "share_as_single_folder": true,
@@ -66,6 +70,19 @@
       "README.md",
       "INVOCATION.md",
       "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
     ]
   }
 }

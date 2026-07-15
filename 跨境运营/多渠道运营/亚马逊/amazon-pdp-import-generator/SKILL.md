@@ -1,43 +1,32 @@
-# Amazon PDP Content Generator
+---
+name: amazon-pdp-import-generator
+description: Parse structured product-image filenames into grouped Amazon product and variation drafts, choose main and supporting images, generate CSV and XLSX review files, and then draft listing content only from verified product facts. Use when an AI needs to turn an image folder into a reviewable Amazon PDP import draft, diagnose SKU and image grouping, prepare parent-child variation data, or create marketplace-specific listing copy without inventing materials, claims, certifications, dimensions, or compliance status.
+---
 
-## Identity
+# Amazon PDP Import Generator
 
-- skill id: `amazon-pdp-import-generator`
-- display name: `亚马逊PDP内容生成技能`
-- type: `portable-business-skill`
-- scope: `cross-platform`
+Use deterministic parsing for files and evidence-controlled generation for copy.
 
-## What It Does
+## Workflow
 
-- 根据商品图片文件名自动解析商品基础信息
-- 自动归并同一商品的单图或多图
-- 利用 AI 扩写生成 SEO 优化的商品标题、5要素、产品描述和 Search Terms 标签
-- 生成亚马逊 PDP 导入草稿：
-  - `amazon_pdp_import_draft.xlsx`
-  - `amazon_pdp_import_draft.csv`
+1. Read skill.json, INVOCATION.md, assets/parser_config.json, and the target marketplace requirements supplied by the user.
+2. Inspect a sample of filenames and confirm the naming pattern, SKU identity, variation attributes, and image-role vocabulary.
+3. Run scripts/generate_pdp_import.py on the image folder. Do not manually recreate the parser output.
+4. Review parse_log.csv and low-confidence rows before drafting content. Correct configuration or filenames when grouping is wrong.
+5. Treat inferred product type, color, and image role as provisional until verified against source facts.
+6. Build a product fact ledger from supplied specifications, packaging, test records, policies, and marketplace data. Separate facts per child variation.
+7. Draft title, bullets, description, and search terms for the target marketplace and category. Keep claims within the verified ledger and requested style.
+8. Validate parent-child consistency, unique child SKU, variation theme, main-image choice, prohibited duplication, field limits, and missing required attributes.
+9. Return both machine files and a human review summary. State that marketplace template mapping and category compliance still require Seller Central or current official-template validation when not provided.
 
-## When To Use
+## Guardrails
 
-- 用户给出一个商品图片目录，希望自动生成亚马逊 PDP 导入表
-- 图片文件名类似 `hat-001-red`、`hat-001-red-front`、`cup_202_black_detail`
-- 需要在 `Claude`、`Codex`、`GPT`、`Trae`、`Qorder` 中复用同一 skill
+- Do not infer material, size, performance, certification, compatibility, origin, audience, warranty, or safety claims from an image or filename.
+- Do not call the generic draft upload-ready unless it has been mapped to the current marketplace and category template.
+- Do not silently merge ambiguous SKUs or colors; retain parse confidence and request review.
+- Do not use competitor trademarks or unsupported superlatives.
+- Preserve source filenames and parsing logs so every row can be audited.
 
-## Read In Order
+## Output contract
 
-1. `skill.json`
-2. `INVOCATION.md`
-3. `BASE_PROMPT.md`
-4. `platforms/<platform>.md`
-5. `scripts/generate_pdp_import.py`
-
-## Package Guarantee
-
-- 这是一个可独立分享的 skill 文件夹
-- 直接发送整个 `amazon-pdp-import-generator/` 目录即可复用
-- `README.md` 只是说明文档，不是 skill 本体
-
-## Entrypoint
-
-```bash
-python3 scripts/generate_pdp_import.py "/path/to/image-folder"
-```
+Return output file paths, parse summary, low-confidence and conflicting rows, missing factual attributes, content-generation status, marketplace-template caveats, and the exact human checks still required.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境电商选品研究"
+  short_description: "Evidence based cross channel product research and validation"
+  default_prompt: "Use $ecommerce-product-research to evaluate this product opportunity before choosing a sales channel."

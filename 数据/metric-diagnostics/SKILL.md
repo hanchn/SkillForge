@@ -38,4 +38,3 @@ Establish that the movement is real before explaining it.
 ## Output contract
 
 Lead with a one-sentence finding calibrated to evidence. Then show metric validation, quantified movement, contribution table, hypothesis scorecard, caveats, decision implication, and next evidence. Keep confirmed observations visually separate from inference.
-

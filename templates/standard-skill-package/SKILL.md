@@ -1,29 +1,30 @@
-# <Skill Title>
+---
+name: replace-with-skill-id
+description: Replace with a precise description of what this skill does and the concrete tasks, artifacts, domains, or user phrases that should trigger it. Include boundaries that help distinguish it from adjacent skills.
+---
 
-## Identity
+# Replace With Skill Title
 
-- skill id: `<skill-id>`
-- display name: `<display_name>`
-- type: `portable-business-skill`
-- scope: `cross-platform`
+State the skill's outcome and governing principle in one or two sentences.
 
-## What It Does
+## Load resources
 
-- <功能点 1>
-- <功能点 2>
+- Name each reference or asset and the exact condition for loading it.
+- Do not create resource folders that the skill never uses.
 
-## When To Use
+## Workflow
 
-- <触发场景 1>
-- <触发场景 2>
+1. Inspect the task-specific evidence and constraints.
+2. Separate confirmed facts, assumptions, unknowns, and decisions.
+3. Execute the domain workflow with enough detail to avoid recurring failure modes.
+4. Validate the result against explicit quality gates.
+5. Return the defined output contract and unresolved items.
 
-## Read In Order
+## Guardrails
 
-1. `skill.json`
-2. `INVOCATION.md`
-3. `BASE_PROMPT.md`
-4. `platforms/<platform>.md`
+- List domain-specific prohibited inferences and unsafe actions.
+- State when to stop, downgrade confidence, or escalate to a specialist.
 
-## Package Guarantee
+## Output contract
 
-- 可以直接把整个 skill 文件夹发送给别人使用
+Define the exact sections, files, tables, or status report that a successful invocation returns.

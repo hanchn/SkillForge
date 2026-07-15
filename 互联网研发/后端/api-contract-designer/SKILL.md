@@ -37,4 +37,3 @@ Design from consumer behavior and invariants before choosing paths or field name
 ## Output contract
 
 Return assumptions and invariants first, then the operation table, schemas, validation, error catalog, examples, security and compatibility notes, and rollout plan. When requested, render an OpenAPI or AsyncAPI skeleton, but keep unresolved choices visibly marked rather than fabricating values.
-

@@ -1,0 +1,87 @@
+{
+  "name": "product-requirements-architect",
+  "display_name": "产品需求架构师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "产品",
+    "B端产品"
+  ],
+  "description": "把模糊产品想法转成可评审、可开发、可测试、可度量的需求包",
+  "search_keywords": [
+    "PRD",
+    "产品需求",
+    "用户流程",
+    "验收标准",
+    "业务规则",
+    "需求评审"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "product_brief_or_existing_prd"
+    ],
+    "optional": [
+      "source_evidence",
+      "technical_constraints",
+      "stakeholders",
+      "target_metrics"
+    ]
+  },
+  "outputs": [
+    "requirements_package.md",
+    "traceability_matrix.md",
+    "open_decisions.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不代替产品负责人做未授权的商业决策",
+    "不把假设包装成已确认事实",
+    "不把技术方案细节混成产品需求"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

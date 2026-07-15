@@ -43,4 +43,3 @@ Produce a decision-ready requirements package. Do not hide uncertainty behind po
 ## Output contract
 
 Return a concise executive summary followed by the requested artifact. Include scope, actors, flow, numbered requirements, rules and edge cases, acceptance criteria, metrics, risks, traceability, and open decisions. If reviewing an existing PRD, preserve its structure and produce a gap list before proposing rewrites.
-

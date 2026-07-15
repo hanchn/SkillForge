@@ -1,0 +1,4 @@
+interface:
+  display_name: "亚马逊 PDP 导入草稿生成器"
+  short_description: "Build auditable Amazon PDP drafts from product images"
+  default_prompt: "Use $amazon-pdp-import-generator to parse this image folder into a reviewable Amazon PDP draft."

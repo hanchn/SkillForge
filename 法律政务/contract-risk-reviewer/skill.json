@@ -1,0 +1,88 @@
+{
+  "name": "contract-risk-reviewer",
+  "display_name": "合同风险审阅师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "法律政务",
+    "合同",
+    "商业合同审阅"
+  ],
+  "description": "逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单",
+  "search_keywords": [
+    "合同审阅",
+    "风险条款",
+    "义务清单",
+    "谈判建议",
+    "NDA",
+    "SaaS合同"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "contract_text_or_file",
+      "reviewing_party"
+    ],
+    "optional": [
+      "jurisdiction",
+      "transaction_context",
+      "risk_tolerance",
+      "negotiation_position"
+    ]
+  },
+  "outputs": [
+    "contract_risk_register.md",
+    "obligation_register.md",
+    "negotiation_priorities.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不替代有执照律师的正式法律意见",
+    "不虚构管辖法律、市场惯例或可执行性",
+    "不把建议措辞描述成已获法律确认"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

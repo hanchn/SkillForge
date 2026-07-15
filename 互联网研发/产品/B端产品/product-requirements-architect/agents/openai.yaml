@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品需求架构师"
+  short_description: "Build review ready and testable product requirements"
+  default_prompt: "Use $product-requirements-architect to turn this product idea into a review-ready requirements package."

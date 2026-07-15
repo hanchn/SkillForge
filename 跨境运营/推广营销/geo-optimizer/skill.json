@@ -1,9 +1,9 @@
 {
   "name": "geo-optimizer",
-  "display_name": "GEO生成引擎优化技能",
+  "display_name": "GEO 引用就绪优化师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -12,14 +12,15 @@
     "推广营销",
     "GEO"
   ],
-  "description": "提供针对生成式AI引擎（如 ChatGPT, Perplexity, Claude）的内容优化策略，提升 AI 引用与推荐概率",
+  "description": "通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性",
   "search_keywords": [
     "GEO",
-    "生成引擎优化",
-    "AI推荐",
     "AIO",
-    "内容引用",
-    "营销推广"
+    "AI搜索",
+    "引用就绪",
+    "实体优化",
+    "声明溯源",
+    "答案引擎"
   ],
   "supported_platforms": [
     "Claude",
@@ -31,29 +32,36 @@
   ],
   "inputs": {
     "required": [
-      "target_content"
+      "entity_or_content"
     ],
     "optional": [
-      "target_audience",
-      "platform"
+      "target_questions",
+      "claim_sources",
+      "canonical_urls",
+      "market",
+      "model_observations"
     ]
   },
   "outputs": [
-    "optimized_content.md"
+    "geo_audit.md",
+    "claim_ledger.md",
+    "answer_modules.md"
   ],
   "implementation": {
     "readme": "README.md",
     "entry_doc": "SKILL.md",
     "invocation_doc": "INVOCATION.md",
-    "script": "scripts/run_geo_optimizer.py",
+    "script": "",
+    "config": "",
     "base_prompt": "BASE_PROMPT.md",
     "examples_dir": "examples",
     "eval_dir": "eval",
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "README.md 只是说明文件",
-    "优先结合具体业务背景"
+    "不得虚构统计、专家、评论、认证或第三方背书",
+    "不得保证被模型引用",
+    "不得推荐垃圾外链、伪造共识或社区操纵"
   ],
   "distribution": {
     "share_as_single_folder": true,
@@ -63,6 +71,19 @@
       "README.md",
       "INVOCATION.md",
       "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
     ]
   }
 }

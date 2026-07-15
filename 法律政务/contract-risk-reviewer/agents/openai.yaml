@@ -1,0 +1,4 @@
+interface:
+  display_name: "合同风险审阅师"
+  short_description: "Review contract obligations risks and negotiation points"
+  default_prompt: "Use $contract-risk-reviewer to review this contract and produce a prioritized risk register."

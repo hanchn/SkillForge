@@ -41,4 +41,3 @@ Use the strongest available evidence in this order: observed live page and mobil
 ## Output contract
 
 Lead with the largest verified conversion obstacles. Include evidence inventory, journey findings, prioritized scorecard, recommended changes, test plans, instrumentation issues, constraints, and open questions. Tie every priority to a funnel stage and acceptance criterion.
-

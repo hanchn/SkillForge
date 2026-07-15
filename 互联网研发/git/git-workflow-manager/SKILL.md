@@ -1,33 +1,38 @@
-# Git分支流转与合并规范技能
+---
+name: git-workflow-manager
+description: Inspect repository state and safely plan or execute branch creation, commits, merges, rebases, release promotion, conflict handling, and recovery while respecting repository-specific policies and preserving user changes. Use when an AI needs to choose or create a feature or fix branch, move changes through test, preproduction, and production branches, prepare commits, resolve integration conflicts, explain divergence, or prevent unsafe Git operations.
+---
 
-## Identity
+# Git Workflow Manager
 
-- skill id: `git-workflow-manager`
-- display name: `Git分支流转与合并规范技能`
-- type: `portable-business-skill`
-- scope: `cross-platform`
+Repository evidence overrides generic branch-flow assumptions.
 
-## What It Does
+## Load resources
 
-- 解释并执行标准的分支命名规范（如 `feature/日期/功能`，`fix/日期/功能`）
-- 指导开发、测试、预发到生产的分支合并路径
-- 防止错误的分支合并（如 test 直接合 master）
+- Read references/safety-checks.md before any mutating Git operation.
+- Use assets/git-change-plan.md when a multi-step promotion or recovery needs approval.
 
-## When To Use
+## Workflow
 
-- 研发团队需要统一 Git 分支管理与代码合并流转
-- 遇到分支冲突或不知道当前改动该切什么分支时
-- 准备发布版本，需要明确从开发到上线的合并步骤
+1. Inspect repository instructions, current branch, status, remotes, upstream, recent history, worktrees, and relevant branch existence.
+2. Preserve unrelated and uncommitted user changes. Identify which files and commits belong to the requested task.
+3. Determine the repository's real branching policy. Use feature/YYMMDD/name and fix/YYMMDD/name only when local policy does not say otherwise.
+4. State the intended source, destination, commit set, integration method, tests, and rollback point before changing history or shared branches.
+5. For new work, branch from the verified base and keep commits scoped and intentional.
+6. For integration, fetch current refs, compare divergence, inspect the actual diff and commits, then choose merge, rebase, cherry-pick, or pull request based on policy and collaboration state.
+7. Resolve conflicts by preserving both sides' intent and rerun relevant tests. Do not mark conflicts resolved merely because markers are gone.
+8. Before promotion, verify test evidence, branch ancestry, version or migration requirements, and environment-specific changes.
+9. Report exact resulting branch, commit, upstream state, remaining changes, verification, and any manual next step.
 
-## Read In Order
+## Safety rules
 
-1. `skill.json`
-2. `INVOCATION.md`
-3. `BASE_PROMPT.md`
-4. `platforms/<platform>.md`
+- Never use reset --hard, clean -fd, checkout --, force push, or history rewriting without explicit authority and a recovery plan.
+- Do not stage or commit unrelated user changes.
+- Do not assume master, main, test, or pre exists; verify refs.
+- Do not merge test directly to production merely because names suggest an environment flow. Follow repository policy and selected commits.
+- Prefer non-interactive commands and create a backup ref before approved risky history edits.
+- Stop when credentials, protected-branch policy, unresolved product choices, or destructive conflict decisions require user authority.
 
-## Package Guarantee
+## Output contract
 
-- 这是一个可独立分享的 skill 文件夹
-- 直接发送整个 `git-workflow-manager/` 目录即可复用
-- `README.md` 只是说明文档，不是 skill 本体
+For advice, return observed state, recommended flow, exact commands, risks, verification, and rollback. For execution, perform only authorized changes and return resulting refs, commits, tests, and remaining work.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 转化审计师"
+  short_description: "Audit Shopify conversion friction using page evidence"
+  default_prompt: "Use $shopify-conversion-auditor to audit this Shopify store and prioritize conversion fixes."

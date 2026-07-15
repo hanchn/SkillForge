@@ -1,14 +1,30 @@
-# GEO生成引擎优化技能
+# GEO 引用就绪优化师
 
-- skill id：`geo-optimizer`
-- 展示名：`GEO生成引擎优化技能`
-- 用途：提供针对生成式AI引擎（如 ChatGPT, Perplexity, Claude）的内容优化策略，提升 AI 引用与推荐概率
-- 定位：这是 `SkillForge` 项目中的可单独分发 skill 包，不绑定单一平台
+让公开内容更容易被准确理解、抽取和核验，同时降低品牌事实被模型误述的风险。
 
-## 包结构
+## 典型任务
 
-- `README.md`：说明文档
-- `SKILL.md`：统一 skill 入口，优先给 AI 读取
-- `skill.json`：机器可读元数据
-- `INVOCATION.md`：标准调用协议
-- `BASE_PROMPT.md`：跨平台基座提示词
+- 审计品牌官网哪些声明缺少来源或上下文。
+- 把产品资料改成可独立理解的答案模块和对比表。
+- 建立 GEO claim ledger 并标出需要删除或补证的声明。
+
+## 交付物
+
+- geo_audit.md
+- claim_ledger.md
+- answer_modules.md
+
+## 硬边界
+
+- 不得虚构统计、专家、评论、认证或第三方背书
+- 不得保证被模型引用
+- 不得推荐垃圾外链、伪造共识或社区操纵
+
+## 读取顺序
+
+1. SKILL.md
+2. SKILL.md 指定的 references 与 assets
+3. INVOCATION.md
+4. eval/acceptance.md
+
+整个目录可以独立分发；README 只承担人类说明，不是 skill 执行入口。

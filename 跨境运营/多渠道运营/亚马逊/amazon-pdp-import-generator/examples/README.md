@@ -1,20 +1,7 @@
-# Examples
+# Example Requests
 
-## Sample File Names
+1. 解析商品图片目录并检查低置信度 SKU。
+2. 生成颜色变体草稿并核对主图与附图。
+3. 基于提供的规格事实生成美国站标题、五点和 Search Terms。
 
-- `hat-001-red.jpg`
-- `hat-001-red-front.jpg`
-- `hat-001-red-side-2.jpg`
-- `cup_202_black_detail.png`
-
-## Example Usage
-
-```bash
-python3 scripts/generate_pdp_import.py "/data/products" --brand "DemoBrand" --category "Apparel"
-```
-
-## Expected Outputs
-
-- `amazon_pdp_import_draft.xlsx`
-- `amazon_pdp_import_draft.csv`
-- 解析日志在 Excel 的 `Parse_Log` sheet 中
+这些示例只定义任务形状，不提供隐藏答案。实际执行必须重新读取当前证据。

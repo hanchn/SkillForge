@@ -1,0 +1,87 @@
+{
+  "name": "test-strategy-designer",
+  "display_name": "测试策略设计师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "测试",
+    "测试策略"
+  ],
+  "description": "根据变更影响和风险设计分层覆盖、发布门槛与生产验证方案",
+  "search_keywords": [
+    "测试策略",
+    "测试计划",
+    "风险覆盖",
+    "回归测试",
+    "发布门槛",
+    "质量保障"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "change_scope_or_requirements"
+    ],
+    "optional": [
+      "architecture",
+      "incident_history",
+      "release_constraints",
+      "environments"
+    ]
+  },
+  "outputs": [
+    "test_strategy.md",
+    "risk_coverage_matrix.md",
+    "release_gates.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不按测试数量衡量质量",
+    "不默认测试环境等同生产",
+    "不为同一风险在每一层机械复制用例"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

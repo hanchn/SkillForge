@@ -1,4 +1,4 @@
 # 后端
 
-- 用途：后端 分类资料目录
-- 公共：存放该维度下的通用资料
+- api-contract-designer：设计或审查 HTTP 与事件 API 的资源、Schema、错误、幂等、并发和兼容性。
+- language/：按开发语言浏览后端资料。

@@ -37,4 +37,3 @@ Optimize for risk reduction and diagnostic value, not maximum test count.
 ## Output contract
 
 Return scope and evidence, risk register, layer strategy, coverage matrix, environments and data, release gates, regression suite, production verification, exclusions, and open decisions. When reviewing an existing plan, lead with uncovered high-risk behavior and redundant low-value coverage.
-

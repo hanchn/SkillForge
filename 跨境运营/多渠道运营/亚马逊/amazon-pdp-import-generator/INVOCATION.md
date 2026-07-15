@@ -1,35 +1,14 @@
 # Invocation
 
-## Standard Invocation Flow
+1. 读取 skill.json 和 SKILL.md，确认任务是否命中本 skill。
+2. 盘点用户输入、仓库或页面证据、实时来源、工具能力和专业边界。
+3. 按 SKILL.md 加载专用 reference 与 asset，执行其中的工作流。
+4. 对事实、推断、假设、未知项和建议分别标记；不得为了完整而补造数据。
+5. 交付 SKILL.md 规定的输出，并逐项运行 eval/acceptance.md。
 
-1. 读取 `skill.json` 确认输入、输出、平台支持与入口文件
-2. 读取 `BASE_PROMPT.md` 获取通用行为约束
-3. 如果是特定平台，再读取 `platforms/<platform>.md`
-4. 确认用户提供的图片目录路径
-5. 调用脚本生成导入草稿
-6. 读取草稿文件，利用 AI 能力为每个商品扩写生成标题、5要素、描述和标签(Search Terms)
-7. 将生成的内容更新到输出文件，或在聊天框中返回结果
-8. 返回输出文件路径，并说明是否仍需补充品牌或类目字段
+## 失败规则
 
-## Command
-
-```bash
-python3 scripts/generate_pdp_import.py "/absolute/path/to/image-folder"
-```
-
-## Optional Arguments
-
-```bash
-python3 scripts/generate_pdp_import.py "/absolute/path/to/image-folder" \
-  --brand "Your Brand" \
-  --marketplace "US" \
-  --category "Apparel" \
-  --variation-theme "Color"
-```
-
-## Failure Rules
-
-- 未提供目录路径时，先索要路径
-- 目录无图片时，直接报错，不伪造结果
-- 不要跳过脚本直接手写导入表
-- 不要把 `README.md` 当成执行入口
+- 关键输入缺失但不阻塞：完成稳定部分并列出最低补证项。
+- 缺失会反转结论：明确暂停该结论，不用常识猜测。
+- 来源冲突：保留差异、口径和日期，说明进一步核验方法。
+- 任务要求越过专业或授权边界：完成安全范围并明确升级对象。

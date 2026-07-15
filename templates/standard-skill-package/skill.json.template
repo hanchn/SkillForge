@@ -13,6 +13,9 @@
     "<三级类目>"
   ],
   "description": "<一句话描述 skill 做什么>",
+  "search_keywords": [
+    "<触发关键词>"
+  ],
   "supported_platforms": [
     "Claude",
     "Codex",
@@ -36,8 +39,8 @@
     "readme": "README.md",
     "entry_doc": "SKILL.md",
     "invocation_doc": "INVOCATION.md",
-    "script": "scripts/<main-script>",
-    "config": "assets/<config-file>",
+    "script": "",
+    "config": "",
     "base_prompt": "BASE_PROMPT.md",
     "examples_dir": "examples",
     "eval_dir": "eval",
@@ -54,7 +57,13 @@
       "skill.json",
       "README.md",
       "INVOCATION.md",
-      "BASE_PROMPT.md"
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
     ],
     "package_files": [
       "SKILL.md",

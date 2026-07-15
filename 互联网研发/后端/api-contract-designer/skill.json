@@ -1,0 +1,88 @@
+{
+  "name": "api-contract-designer",
+  "display_name": "API 契约设计师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "API设计"
+  ],
+  "description": "设计一致、可演进、可测试并能直接评审的 HTTP 或事件 API 契约",
+  "search_keywords": [
+    "API",
+    "OpenAPI",
+    "AsyncAPI",
+    "接口设计",
+    "幂等",
+    "错误码",
+    "兼容性"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "capability_or_existing_contract"
+    ],
+    "optional": [
+      "consumer_context",
+      "repository_conventions",
+      "security_model",
+      "compatibility_constraints"
+    ]
+  },
+  "outputs": [
+    "api_contract.md",
+    "schema_or_spec_skeleton",
+    "compatibility_rollout.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不泄露内部存储与拓扑作为公共契约",
+    "不承诺无法保证的恰好一次语义",
+    "不以整理字段名为由引入破坏性变更"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

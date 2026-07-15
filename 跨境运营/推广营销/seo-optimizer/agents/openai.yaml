@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO 内容优化师"
+  short_description: "Plan audit and write evidence based search content"
+  default_prompt: "Use $seo-optimizer to audit and improve this page for its real search intent."

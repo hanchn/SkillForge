@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试策略设计师"
+  short_description: "Create risk based test strategies and release gates"
+  default_prompt: "Use $test-strategy-designer to create a risk-based test strategy for this change."

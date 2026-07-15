@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO 引用就绪优化师"
+  short_description: "Improve entity clarity claims and citation readiness"
+  default_prompt: "Use $geo-optimizer to audit this content for accurate AI discovery and citation readiness."

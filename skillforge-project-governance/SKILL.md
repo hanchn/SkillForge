@@ -1,3 +1,8 @@
+---
+name: skillforge-project-governance
+description: Govern the SkillForge cross-platform skill repository, including business taxonomy, portable package structure, metadata, triggering quality, evidence boundaries, reusable resources, examples, acceptance tests, registry synchronization, and distribution checks. Use before creating, upgrading, reviewing, indexing, or packaging any SkillForge skill or when deciding where a new business capability belongs.
+---
+
 # SkillForge Project Governance
 
 ## Identity
@@ -12,6 +17,7 @@
 - 解释 `SkillForge` 项目的定位、目标与架构设计
 - 约束后续 AI 如何创建、修改和分发业务 skill
 - 提供统一的目录规则、文件职责与升级原则
+- 要求每个 skill 具备真实专业判断链、证据边界和可执行验收，而不是只换名称的提示词模板
 
 ## When To Use
 
