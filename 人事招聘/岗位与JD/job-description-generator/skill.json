@@ -1,78 +1,52 @@
 {
   "name": "job-description-generator",
-  "display_name": "岗位说明书与招聘 JD 生成专家",
+  "display_name": "招聘需求与 JD 自动生成",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
-  "category_path": [
-    "人事招聘",
-    "岗位与JD"
-  ],
-  "description": "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，完成指定市场近期岗位与薪酬调研，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解和市场判断偏差招错人。适用于HR 不熟悉技术、运营或专业岗位时的招聘需求培训、新岗位近几个月招聘需求、薪资分布和人才市场调研、新增或重写招聘 JD、岗位职责模糊、要求堆砌或招聘双方理解不一致、多平台、多语言或跨区域岗位发布，交付HR 岗位培训与详细岗位介绍、岗位市场与近期薪酬分布调研报告、招聘需求澄清与建议预问问题、内部岗位说明书、候选人版招聘 JD、可复制的 JD 空白模板、能力证据、面试评估和发布检查表。",
+  "category_path": ["人事招聘", "岗位与JD"],
+  "description": "在招聘需求创建时自动生成可编辑候选人 JD、HR 精准岗位培训文档、内部岗位说明书和机器可读简历筛选规则。发起人只需修改确认，正常情况以 READY_FOR_HR 零沟通交给 HR 和自动简历筛选。",
   "search_keywords": [
-    "HR 不熟悉技术、运营或专业岗位时的招聘需求培训",
-    "新岗位近几个月招聘需求、薪资分布和人才市场调研",
-    "新增或重写招聘 JD",
-    "岗位职责模糊、要求堆砌或招聘双方理解不一致",
-    "多平台、多语言或跨区域岗位发布",
-    "岗位存在原因、业务场景、日常工作和成功结果",
-    "上下游、工具系统、专业术语和 HR 常见误解",
-    "目标地区近几个月岗位需求、名称、职级、薪资分布、样本和来源"
+    "创建招聘需求自动生成 JD",
+    "HR 零沟通岗位培训文档",
+    "screening-spec.json",
+    "JD 修改与筛选规则同步",
+    "READY_FOR_HR"
   ],
-  "supported_platforms": [
-    "Claude",
-    "Codex",
-    "GPT",
-    "Manus",
-    "Trae",
-    "Qorder"
-  ],
+  "supported_platforms": ["Claude", "Codex", "GPT", "Manus", "Trae", "Qorder"],
   "inputs": {
-    "required": [
-      "业务目标、范围和现状证据"
-    ],
-    "optional": [
-      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
-    ]
+    "required": ["岗位名称、招聘原因、主要结果和发起人"],
+    "optional": ["部门、职级、人数、地点、用工方式、预算、岗位模板和公司上下文"]
   },
   "outputs": [
-    "HR 岗位培训与详细岗位介绍",
-    "岗位市场与近期薪酬分布调研报告",
-    "招聘需求澄清与建议预问问题",
+    "可编辑候选人 JD",
+    "HR 精准岗位培训文档",
     "内部岗位说明书",
-    "候选人版招聘 JD",
-    "可复制的 JD 空白模板",
-    "能力证据、面试评估和发布检查表",
-    "决策、执行、验收、风险和未知项记录"
+    "screening-spec.json",
+    "状态、版本、一致性检查和异常清单"
   ],
   "implementation": {
     "readme": "README.md",
     "entry_doc": "SKILL.md",
     "invocation_doc": "INVOCATION.md",
     "script": "",
-    "config": "",
+    "config": "assets/screening-spec-template.json",
     "base_prompt": "BASE_PROMPT.md",
     "examples_dir": "examples",
     "eval_dir": "eval",
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "不得在 HR 尚未理解、市场薪酬口径不清或招聘经理尚未确认岗位关键事实时直接定稿发布；不得虚构、外推或混用不同地区、币种、职级、薪资周期和样本的薪酬数据，不得虚构福利、组织承诺或加入与工作无关的歧视性条件。",
-    "不得虚构事实、数据、权限、实施或验证结果",
-    "必须明确口径、责任、验收、风险和未知项"
+    "不得虚构岗位、待遇或公司事实，不得以敏感属性或无关代理变量生成筛选标准。",
+    "正常流程直接生成，只有关键冲突才进入 REVIEW_REQUIRED。",
+    "岗位要求变化必须同步全部产物并递增 rubric 版本。"
   ],
   "distribution": {
     "share_as_single_folder": true,
-    "required_files": [
-      "SKILL.md",
-      "skill.json",
-      "README.md",
-      "INVOCATION.md",
-      "BASE_PROMPT.md"
-    ],
+    "required_files": ["SKILL.md", "skill.json", "README.md", "INVOCATION.md", "BASE_PROMPT.md"],
     "package_files": [
       "BASE_PROMPT.md",
       "INVOCATION.md",
@@ -84,6 +58,7 @@
       "assets/decision-record-template.md",
       "assets/delivery-template.md",
       "assets/job-market-research-template.md",
+      "assets/screening-spec-template.json",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
@@ -99,11 +74,7 @@
   "compliance": {
     "profile": "hr-recruiting",
     "baseline": "references/compliance-baseline.md",
-    "decision_states": [
-      "ALLOW",
-      "REVIEW_REQUIRED",
-      "COMPLIANCE_REJECTED"
-    ],
+    "decision_states": ["ALLOW", "REVIEW_REQUIRED", "COMPLIANCE_REJECTED"],
     "human_review_required_when_uncertain": true,
     "does_not_replace_system_controls_or_professional_advice": true
   }
