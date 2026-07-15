@@ -1,8 +1,8 @@
 {
   "standard": "SKILL_DEPTH_STANDARD.md",
-  "skills": 187,
+  "skills": 191,
   "grades": {
-    "A": 187
+    "A": 191
   },
   "results": [
     {
@@ -739,6 +739,19 @@
       "missing": []
     },
     {
+      "name": "local-resume-screening-compliance-specialist",
+      "display_name": "本地简历筛选与合规评估专家",
+      "version": "1.0.0",
+      "category_path": [
+        "人事招聘",
+        "简历筛选"
+      ],
+      "package_root": "人事招聘/简历筛选/local-resume-screening-compliance-specialist",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
       "name": "structured-interview-designer",
       "display_name": "结构化面试与评估设计师",
       "version": "1.0.5",
@@ -1109,6 +1122,45 @@
         "素材运营"
       ],
       "package_root": "创拍视觉/素材运营/creative-asset-operations-manager",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
+      "name": "general-company-weekly-report",
+      "display_name": "企业通用周报",
+      "version": "1.0.0",
+      "category_path": [
+        "基础工具",
+        "汇报复盘"
+      ],
+      "package_root": "基础工具/汇报复盘/general-company-weekly-report",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
+      "name": "retrospective-action-closure-facilitator",
+      "display_name": "复盘与行动闭环主持专家",
+      "version": "1.0.0",
+      "category_path": [
+        "基础工具",
+        "汇报复盘"
+      ],
+      "package_root": "基础工具/汇报复盘/retrospective-action-closure-facilitator",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
+      "name": "message-alert-orchestration-specialist",
+      "display_name": "多平台消息通知与分级告警编排专家",
+      "version": "1.0.0",
+      "category_path": [
+        "基础工具",
+        "消息与告警"
+      ],
+      "package_root": "基础工具/消息与告警/message-alert-orchestration-specialist",
       "score": 12,
       "grade": "A",
       "missing": []

@@ -1129,6 +1129,154 @@ def write_depth_resources(base, s):
 """, encoding="utf-8")
 
 
+def write_resume_screening_resources(base, s):
+    (base / "references/resume-screening-compliance-method.md").write_text("""# 本地简历筛选与合规方法
+
+## 定位
+
+本 Skill 是 HR 初筛辅助，不是自动录用、自动拒绝、背景调查或事实认证系统。输出必须能够由 HR 逐项解释和改判。
+
+## JD 转评分标准
+
+- 只使用与实际岗位结果相关、已经招聘经理确认的能力和证据。
+- 分为必须、可培养、加分与禁用标准；“未在简历出现”只能标缺少证据，不能直接推定候选人不具备。
+- 学校、公司名气、姓名、照片、年龄、性别、婚育、民族、宗教、健康、户籍、外貌等不得作为能力代理变量。
+- 每项标准记录证据定义、权重、最低门槛、可接受替代证据、反证、面试核验方式和规则 owner。
+
+## 本地与隐私
+
+- 处理前确认候选人信息来源、招聘用途、访问人员、输出位置、保留删除和是否允许外部模型。默认不把简历发给外部服务。
+- 原文件只读；提取结果和报告放在受控目录，使用候选人 ID，最小化暴露姓名和联系方式。
+- OCR、格式转换、云解析、外部向量库或模型调用都属于新的数据处理动作，必须单独确认供应商、地域、保留和授权。
+
+## 异常原因码
+
+- `PARSE_FAILED`：文件损坏、加密或解析器失败。
+- `OCR_REQUIRED`：扫描 PDF 无可用文本。
+- `DUPLICATE_FILE`：内容哈希重复。
+- `TIMELINE_REVIEW`：日期重叠、顺序或周期需要解释。
+- `CLAIM_EVIDENCE_GAP`：量化或职责声明缺少可核验上下文。
+- `JD_CONFLICT`：简历事实与已确认硬性岗位条件存在冲突。
+- `STANDARD_BIAS_RISK`：筛选项可能与岗位无关或形成敏感属性代理。
+- `HUMAN_REVIEW_REQUIRED`：信息不足或高影响判断必须人工处理。
+
+异常码只描述“需要核验什么和为什么”，不得写“造假”“欺骗”等定性结论。
+
+## 自动化决策边界
+
+《个人信息保护法》对自动化决策的透明、公平和重大影响决定提出要求，并规定个人可要求说明且有权拒绝仅通过自动化决策作出重大影响决定。工作地不同还可能适用额外就业平等、通知、审计或人工复核规则。正式上线前由 HR、隐私/法务确认适用性、影响评估和候选人说明机制。
+
+官方参考：
+
+- [中华人民共和国个人信息保护法](https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm)
+- [中华人民共和国就业促进法](https://www.moe.gov.cn/s78/A15/s8355/moe_782/tnull_39856.html)
+- [EEOC Employment Tests and Selection Procedures](https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures)
+""", encoding="utf-8")
+    (base / "assets/jd-evidence-rubric-template.md").write_text("""# JD 能力与证据评分规则
+
+## 岗位事实
+
+- JD 版本、工作地、职级、用工主体：
+- 招聘经理、HR、审批人：
+- 岗位目标和前 6-12 个月业务结果：
+
+## 标准
+
+| ID | 必须/可培养/加分/禁用 | 岗位相关理由 | 可观察证据 | 替代证据 | 权重/门槛 | 反证 | 面试核验 | Owner |
+|---|---|---|---|---|---|---|---|---|
+
+## 公平与一致性检查
+
+- 已删除受保护属性、敏感信息和无关代理变量：
+- 同一标准是否适用于所有候选人：
+- 解析或语言差异是否会造成系统性偏差：
+- 人工改判如何记录理由：
+""", encoding="utf-8")
+    (base / "assets/candidate-review-card-template.md").write_text("""# 候选人初筛人工复核卡
+
+- Candidate ID：
+- 文件哈希与解析状态：
+- JD/rubric 版本：
+- 结论：`优先人工复核 / 常规人工复核 / 补充材料后复核 / 暂停`
+- 本结论不是自动录用或拒绝决定。
+
+## 岗位证据
+
+| 标准 ID | 简历直接证据 | 匹配/部分/缺少证据/冲突 | 置信度 | 缺口 | 面试核验问题 |
+|---|---|---|---:|---|---|
+
+## 风险与异常
+
+| 原因码 | 触发证据 | 为什么需要核验 | 影响范围 | 人工处理 |
+|---|---|---|---|---|
+
+## 合规与人工决定
+
+- 屏蔽/未使用的个人或敏感信息：
+- 标准偏差或代理变量风险：
+- HR 改判及理由：
+- 下一步、owner、截止与候选人沟通：
+""", encoding="utf-8")
+    scripts = base / "scripts"; scripts.mkdir(exist_ok=True)
+    (scripts / "inventory_local_resumes.py").write_text(r'''#!/usr/bin/env python3
+"""Read-only local resume inventory and text extraction. No network access."""
+from __future__ import annotations
+import argparse, hashlib, json, os, re, zipfile
+from pathlib import Path
+from xml.etree import ElementTree
+
+SUPPORTED = {".pdf", ".docx", ".txt", ".md"}
+
+def docx_text(path):
+    with zipfile.ZipFile(path) as z:
+        root = ElementTree.fromstring(z.read("word/document.xml"))
+    return "\n".join(t.text for t in root.iter() if t.tag.endswith("}t") and t.text)
+
+def pdf_text(path):
+    try:
+        from pypdf import PdfReader
+    except ImportError as exc:
+        raise RuntimeError("pypdf_not_installed") from exc
+    reader = PdfReader(str(path))
+    return "\n".join(page.extract_text() or "" for page in reader.pages)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("resume_folder", type=Path)
+    ap.add_argument("--output", type=Path, required=True)
+    ap.add_argument("--metadata-only", action="store_true")
+    ns = ap.parse_args()
+    files = sorted(p for p in ns.resume_folder.rglob("*") if p.is_file() and p.suffix.lower() in SUPPORTED)
+    if not files: ap.error("no supported local resume files found")
+    seen = {}
+    rows = []
+    for path in files:
+        raw = path.read_bytes(); digest = hashlib.sha256(raw).hexdigest()
+        status = "READY"; reasons = []
+        if digest in seen: status = "REVIEW_REQUIRED"; reasons.append("DUPLICATE_FILE")
+        seen.setdefault(digest, path.as_posix())
+        text = ""
+        try:
+            if path.suffix.lower() in {".txt", ".md"}: text = raw.decode("utf-8")
+            elif path.suffix.lower() == ".docx": text = docx_text(path)
+            else: text = pdf_text(path)
+            text = re.sub(r"\r\n?", "\n", text).strip()
+            if len(text) < 40: status = "REVIEW_REQUIRED"; reasons.append("OCR_REQUIRED" if path.suffix.lower()==".pdf" else "PARSE_FAILED")
+        except Exception as exc:
+            status = "REVIEW_REQUIRED"; reasons.append("PARSE_FAILED:" + type(exc).__name__)
+        row = {"candidate_id": digest[:16], "relative_path": path.relative_to(ns.resume_folder).as_posix(), "sha256": digest, "size_bytes": len(raw), "parser": path.suffix.lower(), "text_length": len(text), "status": status, "reasons": reasons}
+        if not ns.metadata_only: row["local_extracted_text"] = text
+        rows.append(row)
+    ns.output.parent.mkdir(parents=True, exist_ok=True)
+    with ns.output.open("w", encoding="utf-8") as handle:
+        for row in rows: handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+    os.chmod(ns.output, 0o600)
+    print(f"LOCAL_ONLY files={len(rows)} review_required={sum(r['status']!='READY' for r in rows)} output={ns.output}")
+
+if __name__ == "__main__": main()
+''', encoding="utf-8")
+
+
 def write_message_alert_resources(base, s):
     (base / "assets/platform-connector-intake.md").write_text("""# 消息平台连接器接入确认
 
@@ -2114,6 +2262,8 @@ def category_readme(relative, title, summary):
         principles = ["先确认主体、期间、币种、账户、账簿和授权边界。", "跨境财务资深经理负责会计治理，资金出纳资深经理负责授权范围内的资金执行。", "申请、审批、付款、记账和对账必须职责分离；预估和未达账必须明确标记。"]
     elif top == "人事招聘":
         principles = ["先确认业务目标、组织范围、工作地、用工主体、编制和岗位成功标准。", "人事招聘资深经理负责目标与编排，专项 Skill 负责规划、寻访、面试、录用和员工流程。", "坚持岗位相关、数据最小化和一致标准；劳动法律事项升级法务和当地专业人士。"]
+    elif top == "基础工具":
+        principles = ["只承载跨部门复用能力；存在业务角色专属 Skill 时优先使用专属口径。", "先确认静态数据或合规接口、平台连接器、owner、权限、回执和关闭条件。", "真实发送、发布和个人信息处理必须单独授权；凭证不得进入 Skill、日志或交付物。"]
     elif top == "客服售前":
         principles = ["先确认国家、渠道、语言、商品事实源、服务阶段和坐席权限。", "客服售前负责购买前咨询、推荐和线索交接；渠道运营负责店铺经营与售后体验，市场采购和仓储库存提供商品与库存事实。", "不得为转化虚构功能、现货、折扣或送达承诺；敏感语言和高风险声明必须人工复核。"]
     elif top in {"渠道运营", "精准营销"}:

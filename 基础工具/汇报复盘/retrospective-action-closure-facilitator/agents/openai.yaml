@@ -1,0 +1,4 @@
+interface:
+  display_name: "复盘与行动闭环主持专家"
+  short_description: "基于事件、项目、活动或经营周期证据组织无责复盘，区分时间线、事实、促成条件和根因，并追踪行动到效果验证。"
+  default_prompt: "使用 $retrospective-action-closure-facilitator 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

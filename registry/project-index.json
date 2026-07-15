@@ -21,6 +21,7 @@
       "platforms"
     ],
     "business_browse": [
+      "基础工具",
       "渠道运营",
       "客服售前",
       "精准营销",
@@ -1787,6 +1788,38 @@
       }
     },
     {
+      "name": "local-resume-screening-compliance-specialist",
+      "display_name": "本地简历筛选与合规评估专家",
+      "version": "1.0.0",
+      "package_root": "人事招聘/简历筛选/local-resume-screening-compliance-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "给定 JD 后批量筛选本地 PDF/DOCX/TXT/MD 简历",
+        "候选人初筛、分层和面试问题准备",
+        "筛选规则、异常原因和公平合规审计",
+        "JD 必须/可培养/加分项与岗位相关性",
+        "本地文件授权、解析质量和个人信息最小化",
+        "简历原文证据、时间线、项目和结果"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "hr-recruiting",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
       "name": "structured-interview-designer",
       "display_name": "结构化面试与评估设计师",
       "version": "1.0.5",
@@ -2676,6 +2709,102 @@
       },
       "compliance": {
         "profile": "creative-production",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
+      "name": "general-company-weekly-report",
+      "display_name": "企业通用周报",
+      "version": "1.0.0",
+      "package_root": "基础工具/汇报复盘/general-company-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "缺少专属角色 Skill 的团队周报",
+        "跨部门项目周报",
+        "管理层通用进展与风险汇报",
+        "本周与上周/目标的比较口径",
+        "业务结果与交付证据",
+        "完成、进行中、阻塞和取消状态"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      },
+      "compliance": {
+        "profile": "foundation-tools",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
+      "name": "retrospective-action-closure-facilitator",
+      "display_name": "复盘与行动闭环主持专家",
+      "version": "1.0.0",
+      "package_root": "基础工具/汇报复盘/retrospective-action-closure-facilitator",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "事故与异常复盘",
+        "项目、发布或活动复盘",
+        "月度季度经营复盘与重复问题治理",
+        "目标、范围和复盘类型",
+        "事实时间线、数据和决策上下文",
+        "直接原因、促成条件和控制缺口"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "foundation-tools",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
+      "name": "message-alert-orchestration-specialist",
+      "display_name": "多平台消息通知与分级告警编排专家",
+      "version": "1.0.0",
+      "package_root": "基础工具/消息与告警/message-alert-orchestration-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "库存、订单、财务、系统和运营指标告警",
+        "飞书、钉钉、企业微信机器人或应用接入",
+        "企业 QQ/内部消息网关适配与多平台容灾",
+        "事件 source of truth、幂等和去重",
+        "严重度、抑制、聚合、静默和升级",
+        "值班、owner、SLA、回执和关闭"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "foundation-tools",
         "baseline": "references/compliance-baseline.md",
         "decision_states": [
           "ALLOW",

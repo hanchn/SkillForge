@@ -1123,6 +1123,30 @@
       "fingerprint": "a6d09286428fdb9e53f49f24975cb4208fb99a1b33e405d504fbdb61891171b5",
       "package_root": "精准营销/投放广告/Meta/meta-ads-ecommerce-specialist",
       "updated_at": "2026-07-15"
+    },
+    "local-resume-screening-compliance-specialist": {
+      "version": "1.0.0",
+      "fingerprint": "d4dc55729da760d3c73c130b524b2a840215891094420eb8ecd6588e567f737f",
+      "package_root": "人事招聘/简历筛选/local-resume-screening-compliance-specialist",
+      "updated_at": "2026-07-15"
+    },
+    "general-company-weekly-report": {
+      "version": "1.0.0",
+      "fingerprint": "b3a3de82fda2b5ef682d808cc7979e34eab8f1100eadde134ad50ef26aa665fb",
+      "package_root": "基础工具/汇报复盘/general-company-weekly-report",
+      "updated_at": "2026-07-15"
+    },
+    "retrospective-action-closure-facilitator": {
+      "version": "1.0.0",
+      "fingerprint": "c9ddc849b7c8eac4d47a9a2ae8daee575a614a9e6ded21d651f9c9cc527de99e",
+      "package_root": "基础工具/汇报复盘/retrospective-action-closure-facilitator",
+      "updated_at": "2026-07-15"
+    },
+    "message-alert-orchestration-specialist": {
+      "version": "1.0.0",
+      "fingerprint": "1a2cc6d9e93cc71e6292800f765240ff35aca33782c0de9fff1ddec55119370d",
+      "package_root": "基础工具/消息与告警/message-alert-orchestration-specialist",
+      "updated_at": "2026-07-15"
     }
   }
 }

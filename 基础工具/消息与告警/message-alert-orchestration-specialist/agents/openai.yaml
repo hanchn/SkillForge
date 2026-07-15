@@ -1,0 +1,4 @@
+interface:
+  display_name: "多平台消息通知与分级告警编排专家"
+  short_description: "把业务、系统和运营事件编排为可去重、可升级、可回执、可关闭的多平台通知告警，并安全适配飞书、钉钉、企业微信及贵司企业 Q"
+  default_prompt: "使用 $message-alert-orchestration-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

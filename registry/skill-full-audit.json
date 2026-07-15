@@ -1,7 +1,7 @@
 {
-  "skills": 187,
+  "skills": 191,
   "status": {
-    "通过": 187
+    "通过": 191
   },
   "results": [
     {
@@ -653,6 +653,18 @@
       "package_root": "人事招聘/录用入职/offer-onboarding-manager"
     },
     {
+      "name": "local-resume-screening-compliance-specialist",
+      "display_name": "本地简历筛选与合规评估专家",
+      "version": "1.0.0",
+      "category": "人事招聘",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "岗位理解、人才市场、工作地、隐私公平、招聘证据、劳动升级与员工体验",
+      "package_root": "人事招聘/简历筛选/local-resume-screening-compliance-specialist"
+    },
+    {
       "name": "structured-interview-designer",
       "display_name": "结构化面试与评估设计师",
       "version": "1.0.5",
@@ -999,6 +1011,42 @@
       "failed": [],
       "focus": "商品真实性、创意策略、拍摄制作、人物版权、AIGC 血缘、标签与素材效果",
       "package_root": "创拍视觉/短视频制作/short-form-video-producer"
+    },
+    {
+      "name": "general-company-weekly-report",
+      "display_name": "企业通用周报",
+      "version": "1.0.0",
+      "category": "基础工具",
+      "kind": "周报",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "跨部门复用边界、真实数据、平台连接器、凭证权限、回执关闭、周报口径与复盘效果",
+      "package_root": "基础工具/汇报复盘/general-company-weekly-report"
+    },
+    {
+      "name": "retrospective-action-closure-facilitator",
+      "display_name": "复盘与行动闭环主持专家",
+      "version": "1.0.0",
+      "category": "基础工具",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "跨部门复用边界、真实数据、平台连接器、凭证权限、回执关闭、周报口径与复盘效果",
+      "package_root": "基础工具/汇报复盘/retrospective-action-closure-facilitator"
+    },
+    {
+      "name": "message-alert-orchestration-specialist",
+      "display_name": "多平台消息通知与分级告警编排专家",
+      "version": "1.0.0",
+      "category": "基础工具",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "跨部门复用边界、真实数据、平台连接器、凭证权限、回执关闭、周报口径与复盘效果",
+      "package_root": "基础工具/消息与告警/message-alert-orchestration-specialist"
     },
     {
       "name": "senior-customer-service-presales-manager",

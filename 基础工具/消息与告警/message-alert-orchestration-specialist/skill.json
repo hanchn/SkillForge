@@ -1,0 +1,109 @@
+{
+  "name": "message-alert-orchestration-specialist",
+  "display_name": "多平台消息通知与分级告警编排专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "基础工具",
+    "消息与告警"
+  ],
+  "description": "把业务、系统和运营事件编排为可去重、可升级、可回执、可关闭的多平台通知告警，并安全适配飞书、钉钉、企业微信及贵司企业 QQ 网关。适用于库存、订单、财务、系统和运营指标告警、飞书、钉钉、企业微信机器人或应用接入、企业 QQ/内部消息网关适配与多平台容灾，交付事件与严重度模型、平台连接器、路由、模板和权限方案、发送预览、回执、升级、关闭和复盘记录。",
+  "search_keywords": [
+    "库存、订单、财务、系统和运营指标告警",
+    "飞书、钉钉、企业微信机器人或应用接入",
+    "企业 QQ/内部消息网关适配与多平台容灾",
+    "事件 source of truth、幂等和去重",
+    "严重度、抑制、聚合、静默和升级",
+    "值班、owner、SLA、回执和关闭"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "事件与严重度模型",
+    "平台连接器、路由、模板和权限方案",
+    "发送预览、回执、升级、关闭和复盘记录",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/render_alert_payloads.py",
+    "config": "assets/normalized-alert-event.schema.json",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得在 Skill、日志或消息中暴露 webhook/token；不得无授权真实发送、@全员或跨租户触达；不得把请求成功当成用户已读或问题已关闭。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
+      "assets/decision-record-template.md",
+      "assets/delivery-template.md",
+      "assets/normalized-alert-event.schema.json",
+      "assets/platform-connector-intake.md",
+      "assets/routing-policy-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "platforms/dingtalk.md",
+      "platforms/enterprise-qq.md",
+      "platforms/feishu.md",
+      "platforms/wecom.md",
+      "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
+      "references/platform-adapter-guide.md",
+      "references/professional-checklist.md",
+      "references/scenario-playbook.md",
+      "scripts/render_alert_payloads.py",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "foundation-tools",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业通用周报"
+  short_description: "把一个团队或跨部门周期内的真实数据、交付、风险、决策和下周承诺整理成可核验周报，同时保留业务角色专属口径。"
+  default_prompt: "使用 $general-company-weekly-report 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,0 +1,104 @@
+{
+  "name": "local-resume-screening-compliance-specialist",
+  "display_name": "本地简历筛选与合规评估专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "简历筛选"
+  ],
+  "description": "以已确认 JD 和岗位相关证据标准读取授权本地简历，生成可解释匹配、缺口、核验问题、异常风险和合规提示，供 HR 人工复核。适用于给定 JD 后批量筛选本地 PDF/DOCX/TXT/MD 简历、候选人初筛、分层和面试问题准备、筛选规则、异常原因和公平合规审计，交付JD 能力与证据评分规则、逐候选人匹配、缺口、风险和核验问题卡、人工复核分层、异常队列和合规审计报告。",
+  "search_keywords": [
+    "给定 JD 后批量筛选本地 PDF/DOCX/TXT/MD 简历",
+    "候选人初筛、分层和面试问题准备",
+    "筛选规则、异常原因和公平合规审计",
+    "JD 必须/可培养/加分项与岗位相关性",
+    "本地文件授权、解析质量和个人信息最小化",
+    "简历原文证据、时间线、项目和结果"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "JD 能力与证据评分规则",
+    "逐候选人匹配、缺口、风险和核验问题卡",
+    "人工复核分层、异常队列和合规审计报告",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/inventory_local_resumes.py",
+    "config": "assets/jd-evidence-rubric-template.md",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得上传未授权简历、推断受保护或敏感属性、以姓名照片年龄性别婚育民族宗教健康等排序，不得自动拒绝或录用候选人；异常只能作为待核验风险而非造假结论。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/candidate-review-card-template.md",
+      "assets/data-source-intake-template.md",
+      "assets/decision-record-template.md",
+      "assets/delivery-template.md",
+      "assets/jd-evidence-rubric-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
+      "references/professional-checklist.md",
+      "references/resume-screening-compliance-method.md",
+      "references/scenario-playbook.md",
+      "scripts/inventory_local_resumes.py",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "hr-recruiting",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}
