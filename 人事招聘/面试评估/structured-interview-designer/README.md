@@ -1,7 +1,7 @@
 # 结构化面试与评估设计师
 
 > skill id：structured-interview-designer  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 面试评估
 

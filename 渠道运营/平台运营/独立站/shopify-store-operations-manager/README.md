@@ -1,7 +1,7 @@
 # Shopify 独立站运营经理
 
 > skill id：shopify-store-operations-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：渠道运营 / 平台运营 / 独立站
 

@@ -1,7 +1,7 @@
 # 拍摄制片与现场统筹
 
 > skill id：shooting-production-coordinator  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / 拍摄统筹
 

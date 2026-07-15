@@ -1,0 +1,109 @@
+{
+  "name": "geo-machine-readable-publisher",
+  "display_name": "GEO 机器可读内容发布专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.2",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "精准营销",
+    "GEO技术发布"
+  ],
+  "description": "从合规静态资料与 PDP/PIM/CMS 等授权接口构建可追溯 GEO 可信知识库，生成和维护 llms.txt、llms-full.txt 与合规 JSON-LD Schema，并支持批量发布前后自检。适用于静态资料或 PDP/PIM/CMS 接口接入与可信知识库建设、单站 llms.txt 与 llms-full.txt 生成、商品、文章、组织和 FAQ Schema 批量生成、GEO 文件发布、抽样验证和版本更新，交付数据源、API、字段权限与可信度清单、带来源、版本、有效期和冲突状态的 GEO 可信知识库、llms.txt、llms-full.txt 和 JSON-LD 生成包、批量清单、自检报告、发布和回滚记录。",
+  "search_keywords": [
+    "静态资料或 PDP/PIM/CMS 接口接入与可信知识库建设",
+    "单站 llms.txt 与 llms-full.txt 生成",
+    "商品、文章、组织和 FAQ Schema 批量生成",
+    "GEO 文件发布、抽样验证和版本更新",
+    "静态资料、PDP/PIM/CMS 与功能接口",
+    "字段级来源、授权、刷新、冲突和知识版本",
+    "站点事实、canonical URL 和内容可见性"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "数据源、API、字段权限与可信度清单",
+    "带来源、版本、有效期和冲突状态的 GEO 可信知识库",
+    "llms.txt、llms-full.txt 和 JSON-LD 生成包",
+    "批量清单、自检报告、发布和回滚记录",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/generate_geo_bundle.py",
+    "config": "assets/geo-generation-manifest.example.json",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得宣称 llms.txt 保证收录或排名；不得绕过接口权限、用途和个人数据限制，不得生成页面不可见、过期、虚假评价、价格、库存或身份信息的结构化数据。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
+      "assets/decision-record-template.md",
+      "assets/delivery-template.md",
+      "assets/geo-generation-manifest.example.json",
+      "assets/geo-source-api-intake.md",
+      "assets/marketing-input-intake.md",
+      "assets/prepublish-self-check.md",
+      "assets/trusted-geo-knowledge-base-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
+      "references/llms-schema-publication-rules.md",
+      "references/professional-checklist.md",
+      "references/scenario-playbook.md",
+      "scripts/generate_geo_bundle.py",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "precision-marketing",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}

@@ -1,7 +1,7 @@
 # 创拍视觉资深经理
 
 > skill id：senior-creative-production-manager  
-> 当前版本：1.0.4
+> 当前版本：1.0.7
 > 产品状态：可用  
 > 所属分类：创拍视觉 / 创意角色 / 创拍视觉资深经理
 

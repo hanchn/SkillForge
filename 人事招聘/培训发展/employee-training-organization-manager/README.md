@@ -1,7 +1,7 @@
 # 员工培训组织与运营经理
 
 > skill id：employee-training-organization-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 培训发展
 

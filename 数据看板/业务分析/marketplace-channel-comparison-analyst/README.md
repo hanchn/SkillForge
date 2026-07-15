@@ -1,7 +1,7 @@
 # 跨平台渠道对比分析师
 
 > skill id：marketplace-channel-comparison-analyst  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：数据看板 / 业务分析
 

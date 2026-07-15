@@ -1,7 +1,7 @@
 # 候选人寻访运营专员
 
 > skill id：candidate-sourcing-operator  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 人才寻访
 

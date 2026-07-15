@@ -1,7 +1,7 @@
 # 业务指标治理师
 
 > skill id：business-metrics-governance  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：数据看板 / 业务分析
 

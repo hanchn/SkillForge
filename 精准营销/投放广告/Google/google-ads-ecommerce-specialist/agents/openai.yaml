@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立站 Google Ads 投放专家"
+  short_description: "围绕搜索意图、商品 Feed、落地页、转化价值和贡献利润规划与优化 Google Ads。"
+  default_prompt: "使用 $google-ads-ecommerce-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,7 +1,7 @@
 # 商品摄影导演
 
 > skill id：product-photography-director  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / 商品摄影
 

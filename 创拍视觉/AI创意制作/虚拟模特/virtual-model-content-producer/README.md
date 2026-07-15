@@ -1,7 +1,7 @@
 # 虚拟模特内容制作专家
 
 > skill id：virtual-model-content-producer  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / AI创意制作 / 虚拟模特
 

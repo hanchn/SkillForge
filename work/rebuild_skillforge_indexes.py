@@ -10,6 +10,7 @@ from sync_skill_compliance import sync_compliance
 from sync_skill_versions import sync_versions
 from sync_skill_depth import sync_depth
 from audit_skill_depth import audit_depth
+from audit_skill_semantic_quality import audit as audit_semantic_quality
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "5.0.0"
@@ -134,6 +135,7 @@ lines = [
     "- 贵司上下文：公司上下文/README.md 与 公司上下文/company-profile.yaml",
     "- Git 分支治理：公司上下文/git-policy.yaml",
     "- 全库合规治理：COMPLIANCE_GOVERNANCE.md",
+    "- 数据与接口治理：DATA_SOURCE_GOVERNANCE.md",
     "- Skill 组合治理：SKILL_PORTFOLIO_GOVERNANCE.md",
     "- 项目治理：skillforge-project-governance/SKILL.md",
     "- 全局注册表：registry/skills-index.json",
@@ -177,4 +179,5 @@ for item in registry_skills:
 
 (ROOT / "PROJECT_INDEX.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 audit_depth(ROOT)
+audit_semantic_quality(ROOT)
 print(f"Indexed {len(skills)} skills; dashboard visible {sum(x.get('dashboard_visible', True) for x in registry_skills)}")

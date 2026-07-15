@@ -1,7 +1,7 @@
 # Rust 后端资深专家
 
 > skill id：rust-backend-architecture  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：互联网研发 / 后端 / 语言 / Rust
 

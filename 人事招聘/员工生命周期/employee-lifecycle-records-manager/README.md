@@ -1,7 +1,7 @@
 # 员工生命周期与档案管理员
 
 > skill id：employee-lifecycle-records-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 员工生命周期
 

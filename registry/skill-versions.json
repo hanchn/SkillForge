@@ -3,1101 +3,1125 @@
   "updated_at": "2026-07-15",
   "skills": {
     "skillforge-project-governance": {
-      "version": "2.0.2",
-      "fingerprint": "5fcb596929eeacb822f4fb0e8ff57ce162dde3d90552c19748413b4cb47fbbe0",
+      "version": "2.0.5",
+      "fingerprint": "39123a5b258304a1293459c4da69de308c4da13929c4604985d696f2cc744d1c",
       "package_root": "skillforge-project-governance",
       "updated_at": "2026-07-15"
     },
     "git-workflow-manager": {
-      "version": "2.0.2",
-      "fingerprint": "02964847db838e824c875ebddd21ccb273a65af6c36554fcd7514ed77fd5abc6",
+      "version": "2.0.5",
+      "fingerprint": "44fbb04e19d3a0dbb0a6beefa74d8d32a2dd1cdf163c08861da4453b0be7a4b5",
       "package_root": "互联网研发/git/git-workflow-manager",
       "updated_at": "2026-07-15"
     },
     "product-requirements-architect": {
-      "version": "1.0.2",
-      "fingerprint": "89f2f889ed360549ae8a3c8afb849eba4b086d61c44f8ea9eff8072b974ecd06",
+      "version": "1.0.4",
+      "fingerprint": "927a9737e43e42ea77a1e342f6f207707ab6a6b719d4716fc1bb48c81862ef86",
       "package_root": "互联网研发/产品/B端产品/product-requirements-architect",
       "updated_at": "2026-07-15"
     },
     "label-governance-workflow-designer": {
-      "version": "1.0.2",
-      "fingerprint": "64ef27da3776551f052ebe1b3614128f3ae33397ba8440754e466cfb38c92be4",
+      "version": "1.0.5",
+      "fingerprint": "483a4d6786c6c74bce76dff2bbb423ba4afb5e8583e8078d594a913624560ed9",
       "package_root": "互联网研发/产品/数据产品/label-governance-workflow-designer",
       "updated_at": "2026-07-15"
     },
     "cms-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "9cfcc42f6510ae3031780471e730917a4691bb55f06183480b7ba96dcd0bb55d",
+      "version": "1.0.5",
+      "fingerprint": "30259018722ecac0331aca17b0ab123cb2bb229e52c296744b27142435de61cc",
       "package_root": "互联网研发/产品/系统产品架构/CMS/cms-product-architecture",
       "updated_at": "2026-07-15"
     },
     "crm-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "d4be3effe9ebf390a4d4dbeb077bf4f270f12ac1da866d3fe504d3dba006dcb7",
+      "version": "1.0.5",
+      "fingerprint": "bbd3534b94191ff4f87e80afd60cab3aad54477adc990138f62b98ce59858760",
       "package_root": "互联网研发/产品/系统产品架构/CRM/crm-product-architecture",
       "updated_at": "2026-07-15"
     },
     "ims-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "d5fe2ac43629538679af7a2c10b402f9773f6b1c812d890728d8558ca2038ab0",
+      "version": "1.0.5",
+      "fingerprint": "af48218d88c26e16ba05acc6186bb41f0560f2fc684f79e4e90a864706ad06bb",
       "package_root": "互联网研发/产品/系统产品架构/IMS/ims-product-architecture",
       "updated_at": "2026-07-15"
     },
     "ofs-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "818d1ea7c13a8b5eaef8d5accb184a0a2ea9480991466e61801ab246e61e80aa",
+      "version": "1.0.5",
+      "fingerprint": "4e0722add8d31829d109e53b8dc63801d54e7c34437b09783f5bfd5a3e7cb2ac",
       "package_root": "互联网研发/产品/系统产品架构/OFS/ofs-product-architecture",
       "updated_at": "2026-07-15"
     },
     "oms-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "1252b0a8ff92f14ea6ea5d5fae98122f417ef6632b44113932bcacf660657371",
+      "version": "1.0.5",
+      "fingerprint": "4cc9bcbfd85e7754a9f8141fedd94a4fc76bb771579aa403fb77b6df6df09137",
       "package_root": "互联网研发/产品/系统产品架构/OMS/oms-product-architecture",
       "updated_at": "2026-07-15"
     },
     "plm-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "ba6f44195496747fdd5b53a34351b4d1d1baadff1649a45caac1e875a212f8df",
+      "version": "1.0.5",
+      "fingerprint": "37ac71aba5bd5eb7becc9685a836d8eb73940303217712bee70a79b2a534f300",
       "package_root": "互联网研发/产品/系统产品架构/PLM/plm-product-architecture",
       "updated_at": "2026-07-15"
     },
     "tms-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "525d8109c74697be3fcb54cb4401e458c602e02d54293c5e527c33a90eafe247",
+      "version": "1.0.5",
+      "fingerprint": "1fb5479fa3822d7de13552a33c4faac3e37df7039d28ff11ec6bd48011ecf638",
       "package_root": "互联网研发/产品/系统产品架构/TMS/tms-product-architecture",
       "updated_at": "2026-07-15"
     },
     "wms-product-architecture": {
-      "version": "1.0.2",
-      "fingerprint": "3cb07b2a39471ed2ae57b14f630a9d06fb79ca8ce70726a8610a21b00c3b4128",
+      "version": "1.0.5",
+      "fingerprint": "364b705e273eb50dab36afb383388f14a9e68cedff30bd44cdc6d415207982ff",
       "package_root": "互联网研发/产品/系统产品架构/WMS/wms-product-architecture",
       "updated_at": "2026-07-15"
     },
     "commerce-systems-product-architecture": {
-      "version": "1.1.2",
-      "fingerprint": "d78bf50dc8c41148762fe07be2f916bf4b7076bc5c237ee582320b6e6d34165f",
+      "version": "1.1.5",
+      "fingerprint": "51e81730e88682a4d7536c04731fc916b30b113b2e4c663d54f753d83f50c15f",
       "package_root": "互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture",
       "updated_at": "2026-07-15"
     },
     "ui-interaction-designer": {
-      "version": "1.0.2",
-      "fingerprint": "6b4382bb9bf697dd9475097d7f196930390ff0787941bf30f937caa8c6268fd2",
+      "version": "1.0.5",
+      "fingerprint": "2cd6d25f65955fd5c47062de0ef88e0a8c4d3c4c62851a2b798da4dde1e17bfa",
       "package_root": "互联网研发/前端/UI交互/ui-interaction-designer",
       "updated_at": "2026-07-15"
     },
     "frontend-feature-implementer": {
-      "version": "1.0.2",
-      "fingerprint": "68a4b366a7d17177b50ebaddb49ef14516f9f6c248a3e71a9fc3ee0973dfb424",
+      "version": "1.0.4",
+      "fingerprint": "aeda57200ff3cbbe4130773adbc94d8b300834c83380c7b0471b564cb904c26e",
       "package_root": "互联网研发/前端/前台/frontend-feature-implementer",
       "updated_at": "2026-07-15"
     },
     "frontend-localization-verifier": {
-      "version": "1.0.2",
-      "fingerprint": "2e447a767ff9a9da6010aed69c6931990f7350dff81fc6430f9cdf12d2352bbd",
+      "version": "1.0.4",
+      "fingerprint": "356a61456c0088d89cbf0ac0142df1fa742365556f663dc22a311a24d20e3561",
       "package_root": "互联网研发/前端/前台/frontend-localization-verifier",
       "updated_at": "2026-07-15"
     },
     "frontend-performance-analyzer": {
-      "version": "1.0.2",
-      "fingerprint": "0612023773ee07c40cde327198eb5b13c6655008c409cb7efb3618c4d96e037e",
+      "version": "1.0.4",
+      "fingerprint": "c5bda28e3b46ae7a7661c4e602ac94f0b2bb7801a3e56440b41ccb1f751dcc18",
       "package_root": "互联网研发/前端/前台/frontend-performance-analyzer",
       "updated_at": "2026-07-15"
     },
     "web-performance-accessibility-auditor": {
-      "version": "1.0.2",
-      "fingerprint": "852c8d46767518f51a8940a5b2235a8bfe0a0860062a3ad74c59278ab9204892",
+      "version": "1.0.4",
+      "fingerprint": "1aeb27ecc6c15ffde4f0c6cd69b90c4d3a1c726b7c236081efc657891c63e18c",
       "package_root": "互联网研发/前端/前台/web-performance-accessibility-auditor",
       "updated_at": "2026-07-15"
     },
     "frontend-architecture-designer": {
-      "version": "1.0.3",
-      "fingerprint": "6a19d8543968c5ecfa835ce085193565a0f1afca086e7b18db64f70c019c6b90",
+      "version": "1.0.6",
+      "fingerprint": "c7d6bce1d77c2bdee87c51dbaa551f2aab3cff68efadc71a033c3ff26d46455a",
       "package_root": "互联网研发/前端/架构/frontend-architecture-designer",
       "updated_at": "2026-07-15"
     },
     "react-senior-expert": {
-      "version": "1.0.3",
-      "fingerprint": "8cd8d4796b0cdafc00f76beea427866210cf038799ee450cae5d68c288081b89",
+      "version": "1.0.6",
+      "fingerprint": "f472d2cba4b4b5b77c022f58b7a72555a8bf7b85f2b27f74a986e27a118f1a56",
       "package_root": "互联网研发/前端/框架/React/react-senior-expert",
       "updated_at": "2026-07-15"
     },
     "vue3-senior-expert": {
-      "version": "1.0.3",
-      "fingerprint": "06204df15c0b9e94b13b759d04796da17eca4401207e354235b17c9613711b05",
+      "version": "1.0.6",
+      "fingerprint": "5ea679e9a19cc58802e9dd20499df0f4517ee8e8fc0051136731e603ae490433",
       "package_root": "互联网研发/前端/框架/Vue3/vue3-senior-expert",
       "updated_at": "2026-07-15"
     },
     "api-contract-designer": {
-      "version": "1.0.2",
-      "fingerprint": "dbfb2ed98dce1d8d81bfeccc56492522fb9ad7577b6d4b69ece47862535ad35e",
+      "version": "1.0.4",
+      "fingerprint": "39dfaccb6888f962bb949e2ef6d81c97754aabe26a4391896a4afa2e80071b3b",
       "package_root": "互联网研发/后端/api-contract-designer",
       "updated_at": "2026-07-15"
     },
     "backend-service-architect": {
-      "version": "1.0.2",
-      "fingerprint": "ff3d04ac1b4f69699977a5efb457e4ceae010a36965bf41756044b6157301e10",
+      "version": "1.0.4",
+      "fingerprint": "95845e0512fab625493a71281b8a35a1c71a93cb31b2ff1e56e5d41fbdccb0b7",
       "package_root": "互联网研发/后端/backend-service-architect",
       "updated_at": "2026-07-15"
     },
     "database-migration-planner": {
-      "version": "1.0.2",
-      "fingerprint": "605044264638bda07253529352f1ec7440aeaf3d80a904913e75d1cb3fd63fbb",
+      "version": "1.0.4",
+      "fingerprint": "717ef2117734935e2f015063f80c99d81fe06af2f1761527a85b79b4b5682afe",
       "package_root": "互联网研发/后端/database-migration-planner",
       "updated_at": "2026-07-15"
     },
     "production-incident-diagnostician": {
-      "version": "1.0.2",
-      "fingerprint": "35b03b1073d59e0ac8b5607b3edb24c6353070e37f2251863f3ad30fefd80aeb",
+      "version": "1.0.4",
+      "fingerprint": "8101d6963a16786fcda3fd3d60efd9388b11819369349d387b2d040427bd60a5",
       "package_root": "互联网研发/后端/production-incident-diagnostician",
       "updated_at": "2026-07-15"
     },
     "backend-architecture-designer": {
-      "version": "1.0.3",
-      "fingerprint": "2f96561162f5217e78ecf18d765896195015219ec5fc683f53d2cdb3d08389ae",
+      "version": "1.0.6",
+      "fingerprint": "e07c29711d067e64a041c53ddf90e6661a46c95da4d1dcf34a9570c109411065",
       "package_root": "互联网研发/后端/架构/backend-architecture-designer",
       "updated_at": "2026-07-15"
     },
     "aspnet-core-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "f12602ea50d7bba1274d924833546b7a08284a71883d0f98e8a1ecc02f7f8e54",
+      "version": "1.0.6",
+      "fingerprint": "4470f8ba1b9f21a1e34f202928cb5914c7dce181998719c260f7e6fc8685303c",
       "package_root": "互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "fastapi-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "a168696029fc89888967f48916055c4d4d22ff77e1e861af717de4d253c8fa5c",
+      "version": "1.0.6",
+      "fingerprint": "7898ea2af7a82f5639a49c8e9e566926aaab61b30386ce09015bd5ff703e8fcd",
       "package_root": "互联网研发/后端/框架/FastAPI/fastapi-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "gin-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "364e8ef83c6e1f8461d9f6c12c5d9e6d078c7ccc5a73a627deb0a3f5f4a01dda",
+      "version": "1.0.6",
+      "fingerprint": "105e6f97ed010fb3ebe65d39c0f8df78dc2b0d5be390928c12ee47da37528cc6",
       "package_root": "互联网研发/后端/框架/Gin/gin-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "laravel-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "a3fd1e8308ef61005b5b0fd9821b8e6e3d2431101fe8edee6bc0105cc9702c95",
+      "version": "1.0.6",
+      "fingerprint": "2d618e2783bb2322967bb5019ee25fbb70b950509ada7f4891390e52cdf72af6",
       "package_root": "互联网研发/后端/框架/Laravel/laravel-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "nestjs-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "1e5b3ac42495384663996405c53a613e975101da69e991f7580cc50b94757592",
+      "version": "1.0.6",
+      "fingerprint": "f2ca856058adf17246817dbed9f947a30229e7e61a13049c92d4a381f1392e5f",
       "package_root": "互联网研发/后端/框架/NestJS/nestjs-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "spring-boot-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "928553b299edc22659f12a9031a9d273124d7307650236cd276ea5b56301d2ae",
+      "version": "1.0.6",
+      "fingerprint": "f632e30a16d9c50ed63194a189ec3ef1263d2e58c7b47d0ba4ae79ab9a7c8c39",
       "package_root": "互联网研发/后端/框架/Spring Boot/spring-boot-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "csharp-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "675d5ff49da08295af4136f930b73d0d38426dc75feed68db07c95b19b32b5fb",
+      "version": "1.0.6",
+      "fingerprint": "1a19f10408bcb29c3b27b5757355bcf04eb3d98fb88108946f159f47bc33bfe4",
       "package_root": "互联网研发/后端/语言/C#/csharp-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "go-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "b22c0da266e6ddeb95547c9053f634a37d729c12a5e3ed48a7e4b7fa41cb256d",
+      "version": "1.0.6",
+      "fingerprint": "8ae1397adcca5942601b88f3ecb8d5d6a95466eb882db63754b91f0fec6af4b4",
       "package_root": "互联网研发/后端/语言/Go/go-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "java-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "12ef8e43a2390d72a5fdb62c1c993264eca76308b51a765d9f69c3142049756e",
+      "version": "1.0.6",
+      "fingerprint": "1fb066c9ccd181cca69ca25bd4dfba737f488d453568e16b7b95ff1eb3b8f4cf",
       "package_root": "互联网研发/后端/语言/Java/java-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "nodejs-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "e90944e87f09b2651300d6550c9b3fb0dbf3877215aaa2d066f29016f9a34a39",
+      "version": "1.0.6",
+      "fingerprint": "2a761da166cbd33523284b5dcabfe0c42a22550c89c2c9959d542f2b637ae055",
       "package_root": "互联网研发/后端/语言/Node.js/nodejs-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "php-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "70a465cd6669c56faeae6564f7553325e961130ca60a95cb0aeab70740493701",
+      "version": "1.0.6",
+      "fingerprint": "cc207c915d32cd1ad7b306db415e6244ae132e58f9c479a91fc02d7e8f9403c2",
       "package_root": "互联网研发/后端/语言/PHP/php-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "python-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "e20948bc5015130358bb7245ecc2950b0efd088d604db919f1e5bf292bfde611",
+      "version": "1.0.6",
+      "fingerprint": "ade16077132b653b357847052cfbc4c6488a0f1fc57682c6eba08ff77bfb13d8",
       "package_root": "互联网研发/后端/语言/Python/python-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "rust-backend-architecture": {
-      "version": "1.0.3",
-      "fingerprint": "abb2c7929ff7f02c270edf762452eea6eb1d1818a1153f3d5634426c05913f81",
+      "version": "1.0.6",
+      "fingerprint": "afd8ac7c47304398e898bbb1655c4e087f5532c5c9f28d7e47cd99b24b982cd7",
       "package_root": "互联网研发/后端/语言/Rust/rust-backend-architecture",
       "updated_at": "2026-07-15"
     },
     "test-strategy-designer": {
-      "version": "1.0.2",
-      "fingerprint": "99095c3ac35a0c58b69cbae6d2d35bc7f24a281d1d2cb3ac6c2d80b1e6b4233e",
+      "version": "1.0.4",
+      "fingerprint": "643190e0ad501cd30ad5b4ac566e76c5092b2c60ff3ccd96ff48af9230b723fd",
       "package_root": "互联网研发/测试/test-strategy-designer",
       "updated_at": "2026-07-15"
     },
     "fullstack-developer-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "29b5397d35b05f5126bd29c11d92b081d42a1751b71a4ae4334661c78456ca66",
+      "version": "1.0.5",
+      "fingerprint": "9c9da1c743bce5cea20c752c35e61ed6ec7f3ba10f03af24498a24e8d1b8d320",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report",
       "updated_at": "2026-07-15"
     },
     "fullstack-feature-delivery": {
-      "version": "1.0.4",
-      "fingerprint": "20a016456f7648acd34b143a16c67a1ce67ee121279f80a3f1bbe1a94b5d85e3",
+      "version": "1.0.6",
+      "fingerprint": "adbc4405b89bf70615fdf7435d8b243be959729e59fb41233d574608cd83fab7",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-feature-delivery",
       "updated_at": "2026-07-15"
     },
     "fullstack-qa-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "86cad4bcec10d16114dd0676695a1899e73f220120cf68370ed9014e28c38cd4",
+      "version": "1.0.5",
+      "fingerprint": "d3b078d36395e8f295d9bf94f500701e91da02f759b89e8015622ca6b8bd58a3",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report",
       "updated_at": "2026-07-15"
     },
     "fullstack-quality-engineer": {
-      "version": "1.0.4",
-      "fingerprint": "df7e080e8d47848c31fea1f67ac0afdcfb59633319e1ba0a47f842e0a5fe9c7d",
+      "version": "1.0.6",
+      "fingerprint": "530d804fbb8bb710c404fc12a6336c39e5c5145946ca1c65564dafa166750602",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-quality-engineer",
       "updated_at": "2026-07-15"
     },
     "senior-hr-recruiting-manager": {
-      "version": "1.0.3",
-      "fingerprint": "620fd4b73ac81c4a2d19f1902e24b77cff4226a0042a14229153b3e82c17013a",
+      "version": "1.0.6",
+      "fingerprint": "a62c14d0e962e634c2c58d0ef2cefa9e26245fc840355b0d7a0f8c1b6f5771da",
       "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager",
       "updated_at": "2026-07-15"
     },
     "senior-hr-recruiting-manager-weekly-report": {
-      "version": "1.0.4",
-      "fingerprint": "6ef2b5bda2f7b0101ee64d147da930306bf82a369fbe7b7547b0427d00a90409",
+      "version": "1.0.7",
+      "fingerprint": "79653f45230f8dc49860f3dd827e8808c4239564c9ebf6edb426be3ebd0b1f7a",
       "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "candidate-sourcing-operator": {
-      "version": "1.0.2",
-      "fingerprint": "493b75f1cb93449869eee5369bc9799f80bcacdc24a5bdccc30fc33d449db3af",
+      "version": "1.0.5",
+      "fingerprint": "2fee3617dea2e7bd2e1b7d54f755c0a4b8b5f22f5d85a85d4d3a66dfd1fd31ab",
       "package_root": "人事招聘/人才寻访/candidate-sourcing-operator",
       "updated_at": "2026-07-15"
     },
     "hr-recruitment-generalist": {
-      "version": "1.0.2",
-      "fingerprint": "76216437724f18bf2781fa502453e92395754a6eea45ea3702e758fcb86c530c",
+      "version": "1.0.5",
+      "fingerprint": "aaf7e843e9955ebce0e64cb999dc181e21ceac588ab785698c7ef292f0bc720e",
       "package_root": "人事招聘/公共/hr-recruitment-generalist",
       "updated_at": "2026-07-15"
     },
     "performance-employee-relations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "4649c16f787f65ffc40962ced34b48898750ed1cadb81731aa9d227e83d2127b",
+      "version": "1.0.5",
+      "fingerprint": "a36da6af2d9cb1017868a0cdc9ed944fa2aaf63ce1f8e1d8bf0cf6bf943027e8",
       "package_root": "人事招聘/员工关系/performance-employee-relations-manager",
       "updated_at": "2026-07-15"
     },
     "employee-announcement-writer": {
-      "version": "1.0.2",
-      "fingerprint": "c7a31cc4b05ab8a96479fdc23e21ec3d32fde0578afa27939f82b81dac60d4bf",
+      "version": "1.0.5",
+      "fingerprint": "f8a31d23f8082ac8e8a2a4297ff2a6f1ea7077cb359c547de0786c956a0b601e",
       "package_root": "人事招聘/员工沟通/employee-announcement-writer",
       "updated_at": "2026-07-15"
     },
     "employee-lifecycle-records-manager": {
-      "version": "1.0.2",
-      "fingerprint": "27273d65a2ffc841d851c8832efdd7c46ee5b48b5d01c19979e5ced7333ee14c",
+      "version": "1.0.5",
+      "fingerprint": "80ff3dfba0c940b7264de9af65494d85e6ab0cb550a25aa8473a4675ca45f6e6",
       "package_root": "人事招聘/员工生命周期/employee-lifecycle-records-manager",
       "updated_at": "2026-07-15"
     },
     "employee-training-organization-manager": {
-      "version": "1.0.2",
-      "fingerprint": "234e825fdda31e3ea4c10c318f570ecce6dc20c5778a20fac4ff974e0e5c5954",
+      "version": "1.0.5",
+      "fingerprint": "b853ca2a59bb666bf730a79c64b6e940dd0ed39dd0f1c18de17e0812d12be2cb",
       "package_root": "人事招聘/培训发展/employee-training-organization-manager",
       "updated_at": "2026-07-15"
     },
     "job-description-generator": {
-      "version": "1.0.3",
-      "fingerprint": "0e4be23aefd137eccf8f04e0d32537e6d6f6169cb078cac8deefe75e3163cd24",
+      "version": "1.0.6",
+      "fingerprint": "d2b98d246a84716037829aa6a53ef4f43a666c1e63ba19db10dac44d886129d7",
       "package_root": "人事招聘/岗位与JD/job-description-generator",
       "updated_at": "2026-07-15"
     },
     "offer-onboarding-manager": {
-      "version": "1.0.2",
-      "fingerprint": "34deb713fe2c22fbbf70df54313f24004c0e34dfc69dee4897836a8a46bc037d",
+      "version": "1.0.5",
+      "fingerprint": "79d56b9080f5fc039d25a928dfae152f3594b9ad98e99571291d8dfc962fce0d",
       "package_root": "人事招聘/录用入职/offer-onboarding-manager",
       "updated_at": "2026-07-15"
     },
     "workforce-recruiting-planner": {
-      "version": "1.0.2",
-      "fingerprint": "156359212b456a5765e499010f7c646fdd2c2842a952f52e80f1cc9c01e9f940",
+      "version": "1.0.5",
+      "fingerprint": "65524604ac7a719aeba8622a83264418498edf47e8953e5c261d065169ad08e1",
       "package_root": "人事招聘/招聘规划/workforce-recruiting-planner",
       "updated_at": "2026-07-15"
     },
     "structured-interview-designer": {
-      "version": "1.0.2",
-      "fingerprint": "2d0d96db9fb59db6d037b741cb4a969fe8573ca4c637507befb7872fb6dda9db",
+      "version": "1.0.5",
+      "fingerprint": "67b987319925d3ba6b96e9b62135a611e9ac2333cb08acd900d17d6895737947",
       "package_root": "人事招聘/面试评估/structured-interview-designer",
       "updated_at": "2026-07-15"
     },
     "senior-warehouse-inventory-manager": {
-      "version": "1.0.3",
-      "fingerprint": "aa86c092b45d509bd291f38486badfb4d09afa9bf515efb8a12b8af856e20c0c",
+      "version": "1.0.6",
+      "fingerprint": "56f5c8e95856fdfb1efc9a08d566f5fb9975f70e7558d159fc083a92d43f6fa9",
       "package_root": "仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager",
       "updated_at": "2026-07-15"
     },
     "senior-warehouse-inventory-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "4513855b8e585bcdd96a06d19a4495c1769582d067b3fac6e7c7cec890b7ef68",
+      "version": "1.0.6",
+      "fingerprint": "adad625d4709219df0bd333ec1f238de4fa67af9922aaabacf7109227b60a627",
       "package_root": "仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-supply-chain-manager": {
-      "version": "1.0.3",
-      "fingerprint": "273c1a058eb8a979d45566b33dab6f40c14cafed7d4ee8a215f3d44e8f59eacc",
+      "version": "1.0.6",
+      "fingerprint": "4764d151e833c054b54a95c4679473764b9670975017ff777b2a213a227bd914",
       "package_root": "仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager",
       "updated_at": "2026-07-15"
     },
     "senior-supply-chain-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "3086210815f4e76c4823e2873ed95a8862bc5c90002e3c3aa0d0db0dfb932071",
+      "version": "1.0.6",
+      "fingerprint": "d95060fc540ad399302208dcf78477032eb5d2bfdf404ccc00c9d9ee5d15ac19",
       "package_root": "仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "warehouse-safety-capacity-manager": {
-      "version": "1.0.2",
-      "fingerprint": "e01a714f2e15431037ffc34038c3e68398e6881f0ff4f20ca17c79f60290d04c",
+      "version": "1.0.5",
+      "fingerprint": "432fe99ee746b18e75e374a6f34e8b36e8f104254431efdba43076914a7d65a1",
       "package_root": "仓储库存/仓容安全/warehouse-safety-capacity-manager",
       "updated_at": "2026-07-15"
     },
     "warehouse-inbound-operations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "83b6ed38f1829a831657efacc786834f4f66d2d315f2855daca266f3694dcf49",
+      "version": "1.0.5",
+      "fingerprint": "1a5b8d0a388ce1b0bc351e5dc7897df42f1a429d16a9d1cb39f6b0c67c71767d",
       "package_root": "仓储库存/入库管理/warehouse-inbound-operations-manager",
       "updated_at": "2026-07-15"
     },
     "warehouse-outbound-fulfillment-manager": {
-      "version": "1.0.2",
-      "fingerprint": "c676aba71f7dd487cca5bbdd6c63629ac3ceaf36517516403b448b8dadc91589",
+      "version": "1.0.5",
+      "fingerprint": "3d5d83ee318a6d5888aeca626c5ddf972768db5d05af2c441e79d4dcdb3a4a42",
       "package_root": "仓储库存/出库履约/warehouse-outbound-fulfillment-manager",
       "updated_at": "2026-07-15"
     },
     "ecommerce-fulfillment-logistics-planner": {
-      "version": "1.0.2",
-      "fingerprint": "1ff29dcf33376b7a9b6d4ef40daa4a3f8b0bb9d7196ce5cb9d16a3093b51f5cc",
+      "version": "1.0.4",
+      "fingerprint": "20cc7a57784d7aa9d1df9007e6b851746016364a470f79afde2065afdef4723b",
       "package_root": "仓储库存/履约物流/ecommerce-fulfillment-logistics-planner",
       "updated_at": "2026-07-15"
     },
     "inventory-allocation-planner": {
-      "version": "1.0.2",
-      "fingerprint": "4506922ebbe39f93523026989c224f052429a2e62b4f80f76bbf8c3e4e723f45",
+      "version": "1.0.5",
+      "fingerprint": "f2151ceab2baaf8e88720c5b77d37c86bd99f154005964469dff702e2b13b200",
       "package_root": "仓储库存/库存分配/inventory-allocation-planner",
       "updated_at": "2026-07-15"
     },
     "inventory-control-cycle-count-manager": {
-      "version": "1.0.2",
-      "fingerprint": "8cede24d56003ccce9b9400ee5d6f99d4805e7cde42e72afc1572681810f0eac",
+      "version": "1.0.5",
+      "fingerprint": "014a7a8527dbe091849226e70c8da6f3f08904908fc94afac7328a410b211d5d",
       "package_root": "仓储库存/库存控制/inventory-control-cycle-count-manager",
       "updated_at": "2026-07-15"
     },
     "inventory-replenishment-planner": {
-      "version": "2.0.2",
-      "fingerprint": "c98afd11bc33c6913ead055853842bfcc6dc479e562ce856e1de9534ac142596",
+      "version": "2.0.4",
+      "fingerprint": "0e40a582a8c3f792621be1f7ad19f2f24e6a2a9c91b951b4bde36e794224c867",
       "package_root": "仓储库存/库存计划/inventory-replenishment-planner",
       "updated_at": "2026-07-15"
     },
     "returns-reverse-logistics-manager": {
-      "version": "1.0.2",
-      "fingerprint": "78eacddc3d3bb088d226dd85a3387672b46fbfb4dafaffcf1b35fe81c69d1109",
+      "version": "1.0.5",
+      "fingerprint": "026bff4224d3dc4d30a8ff4b49654f54c074ffe8fa67819492c4843180f8bcc2",
       "package_root": "仓储库存/逆向物流/returns-reverse-logistics-manager",
       "updated_at": "2026-07-15"
     },
     "ai-image-video-production-manager": {
-      "version": "1.0.3",
-      "fingerprint": "5c7dec5cfb0c5ee6c1e601bffc508e57193e147e23d9cce91e4bbd7e9d45b2d6",
+      "version": "1.0.6",
+      "fingerprint": "fe46dc54bd8a6698bbaeccae206f5cd01591f3d54512540dae39bb62a9853166",
       "package_root": "创拍视觉/AI创意制作/AIGC制作/ai-image-video-production-manager",
       "updated_at": "2026-07-15"
     },
     "intelligent-video-editing-specialist": {
-      "version": "1.0.3",
-      "fingerprint": "655c7dc76fb6b24b32f6a80eed80000fcae59f8f91354412ad422d2c1096d646",
+      "version": "1.0.6",
+      "fingerprint": "18d51a9a3636ed66ee042d1448183e170963481f6c3dee6da1f43d1560b5e351",
       "package_root": "创拍视觉/AI创意制作/智能剪辑/intelligent-video-editing-specialist",
       "updated_at": "2026-07-15"
     },
     "ai-creative-authenticity-compliance-reviewer": {
-      "version": "1.0.3",
-      "fingerprint": "01b625b011d37af67569308258799332cb12bef4496fe8a86ee0fd6fe0616df0",
+      "version": "1.0.6",
+      "fingerprint": "27c8dcc563b8cb857bc56955fbba6ad52c1ee34072ebb0be82b400fa74f73bc1",
       "package_root": "创拍视觉/AI创意制作/真实性合规/ai-creative-authenticity-compliance-reviewer",
       "updated_at": "2026-07-15"
     },
     "virtual-model-content-producer": {
-      "version": "1.0.3",
-      "fingerprint": "8fa62c8024944a90661429e3e81f0b72a2e9d998243f8646e33e5df7b04d5494",
+      "version": "1.0.6",
+      "fingerprint": "57fac70d7bcd2ec620bc30d41fad0b7795f8b294e6141f983665397e013c3b75",
       "package_root": "创拍视觉/AI创意制作/虚拟模特/virtual-model-content-producer",
       "updated_at": "2026-07-15"
     },
     "ugc-content-production-manager": {
-      "version": "1.0.3",
-      "fingerprint": "a06c6f65e3ceaeae1efb0ac65bf39446e97152561533d1adf17c82f78a865d2b",
+      "version": "1.0.6",
+      "fingerprint": "539cfa8050d416f224fc8a220f0f2d3cc5f91c1cefcdbb17e88714969ec51a2c",
       "package_root": "创拍视觉/UGC制作/ugc-content-production-manager",
       "updated_at": "2026-07-15"
     },
     "creative-strategy-producer": {
-      "version": "1.0.3",
-      "fingerprint": "66607ad0903c796b6365d707ebacbd659efbacf6c1f93d0c3d8552beca339399",
+      "version": "1.0.6",
+      "fingerprint": "ce722ef1cd151290937c68855d9cd5781bf0d229080478e48646c28d3eac0ada",
       "package_root": "创拍视觉/创意策略/creative-strategy-producer",
       "updated_at": "2026-07-15"
     },
     "senior-creative-production-manager": {
-      "version": "1.0.4",
-      "fingerprint": "c69c13ccb481657b6278756970752c23f1501b439a0a09da3ccbe7f5f6481f3f",
+      "version": "1.0.7",
+      "fingerprint": "86fc2c64394f89fb934f9eab7c066430d894aae42d7cced34692988e5a3f1519",
       "package_root": "创拍视觉/创意角色/创拍视觉资深经理/senior-creative-production-manager",
       "updated_at": "2026-07-15"
     },
     "senior-creative-production-manager-weekly-report": {
-      "version": "1.0.4",
-      "fingerprint": "34524bd4b7e6f204970a4715745dd29f21632958dc925130dcc2de4c32691dc5",
+      "version": "1.0.7",
+      "fingerprint": "6d3759c3e955cc295da60b5fcb2dadcf8c7927c3277e35d1a141157796379cf7",
       "package_root": "创拍视觉/创意角色/创拍视觉资深经理/senior-creative-production-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "post-production-delivery-manager": {
-      "version": "1.0.3",
-      "fingerprint": "4c9164c7bd5a18394be8c8e0064ce856b3d856cf3b01aa6f1d45ff0802ceddc8",
+      "version": "1.0.6",
+      "fingerprint": "0f1e8900e262a2e0a6eb7347eee4994dab5e0cc78c8a42b03c1c6e6a576e7d1a",
       "package_root": "创拍视觉/后期交付/post-production-delivery-manager",
       "updated_at": "2026-07-15"
     },
     "product-photography-director": {
-      "version": "1.0.3",
-      "fingerprint": "4e889e729dfd2b98843c349aec41cc8fd4375b99c70092ba274f46c3b71cfe7a",
+      "version": "1.0.6",
+      "fingerprint": "257ee1b3077194fde5501a5cd0e6edac6f5ea08a5eac799539e526f77e954c05",
       "package_root": "创拍视觉/商品摄影/product-photography-director",
       "updated_at": "2026-07-15"
     },
     "product-photo-video-production-manager": {
-      "version": "1.0.3",
-      "fingerprint": "4b524acd810765bf64db1aa94196c9d8e009b18c824b68892009dbf5e00fd800",
+      "version": "1.0.6",
+      "fingerprint": "4ee9dc254a524d953efe03219ef55837c5c0c9a93fd7b82720a1deec0a6a0e2e",
       "package_root": "创拍视觉/拍摄制作/product-photo-video-production-manager",
       "updated_at": "2026-07-15"
     },
     "shooting-production-coordinator": {
-      "version": "1.0.3",
-      "fingerprint": "12fd0a26da84a54e1f92d57178761ec592e38342c9e5bd7a0a186c55ce771bcf",
+      "version": "1.0.6",
+      "fingerprint": "de85b837f90a0737a7ba834a1605d4ff4063160ee7c565b08fcb2ef03a270b7e",
       "package_root": "创拍视觉/拍摄统筹/shooting-production-coordinator",
       "updated_at": "2026-07-15"
     },
     "short-form-video-producer": {
-      "version": "1.0.3",
-      "fingerprint": "1c93067a885a71154ec0dc9f678a2e81e50940464b44f54a5942058cdd20ddd1",
+      "version": "1.0.6",
+      "fingerprint": "6309eb09d32b8f26d92644e60f2806fec5f2b32cc53fbc0eeb6456afdc03d4df",
       "package_root": "创拍视觉/短视频制作/short-form-video-producer",
       "updated_at": "2026-07-15"
     },
     "creative-asset-operations-manager": {
-      "version": "1.0.3",
-      "fingerprint": "a4f16c5b0c0a54745d9c436e7f0ee4c713b77824842f2600b224e90baf7ec82f",
+      "version": "1.0.6",
+      "fingerprint": "fe2268f03fa07e8475438602180f9da89bf7f181ced1e5fd48c0c4039af1ca5e",
       "package_root": "创拍视觉/素材运营/creative-asset-operations-manager",
       "updated_at": "2026-07-15"
     },
     "senior-customer-service-presales-manager": {
-      "version": "1.0.3",
-      "fingerprint": "0aa8adf550cced6774334fc9e5252de59868e17a6231f6c2ca2117782d39c15f",
+      "version": "1.0.6",
+      "fingerprint": "763e2326fa1cb4e322ac5be6647985e489c74f7f97e473acf85d526facb44350",
       "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager",
       "updated_at": "2026-07-15"
     },
     "senior-customer-service-presales-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "1475fe8eac2b82672d613bd7036690311e53627526941cd17f94adb6b1815eb0",
+      "version": "1.0.6",
+      "fingerprint": "74158e5f4883ed6938fc384ed76f5f3ad0f9a4609a9507456a54e9daa8928712",
       "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "customer-service-voice-manager": {
-      "version": "2.0.2",
-      "fingerprint": "38718f3a3df2aeba628e280c1e3a69e2dc6d10b51b86a54b3cc4d708544ab14c",
+      "version": "2.0.5",
+      "fingerprint": "11f84e2e24f01af7b52e34a922e43304caffd24674557e04230cb48c2971fa7c",
       "package_root": "客服售前/客服运营/customer-service-voice-manager",
       "updated_at": "2026-07-15"
     },
     "supplier-sourcing-quality-manager": {
-      "version": "1.0.2",
-      "fingerprint": "201cbc66127c3793cb3c7b2e3d209fbb5f09f082f02605e6736dca5c225404de",
+      "version": "1.0.4",
+      "fingerprint": "d649e29f174fa82c994e2f7d1185146595608ab197f2a32f2d73fedf9a8dffef",
       "package_root": "市场采购/供应商与质量/supplier-sourcing-quality-manager",
       "updated_at": "2026-07-15"
     },
     "supplier-negotiation-cost-manager": {
-      "version": "1.0.2",
-      "fingerprint": "6af4b879d37a958e75eb61197114cf431f7092d01f4286ec310df71d65b5d697",
+      "version": "1.0.5",
+      "fingerprint": "6337c6cec33d38fb884665c42fdf524948d533d762d2f0b9d234be968ac2dd6e",
       "package_root": "市场采购/商务谈判/supplier-negotiation-cost-manager",
       "updated_at": "2026-07-15"
     },
     "market-demand-opportunity-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "b14ef2915508a356a7e50fbe18b0c812e09cf6a7d2afaa0d6a4bf4c21d1fd228",
+      "version": "1.0.5",
+      "fingerprint": "eb866b755afd86448c806f27f324775e367fe57284934b49f5d87ce6aa68ac03",
       "package_root": "市场采购/市场机会/market-demand-opportunity-analyst",
       "updated_at": "2026-07-15"
     },
     "sample-evaluation-sourcing-manager": {
-      "version": "1.0.2",
-      "fingerprint": "244deaa58b42e4807bac43a0c396f0dc1388e724181e8e76961d673ff037b60c",
+      "version": "1.0.5",
+      "fingerprint": "920ee6e792f4322fa7708ad9fc15a3881038ddd5f7196481b21c34ade7380ca2",
       "package_root": "市场采购/样品验证/sample-evaluation-sourcing-manager",
       "updated_at": "2026-07-15"
     },
     "ecommerce-product-research": {
-      "version": "1.0.2",
-      "fingerprint": "8eb7bbe614fe8457e433037f679eba86944c67220c8478cf5dfc715d1ece47d5",
+      "version": "1.0.4",
+      "fingerprint": "2a625a67f4a040e133f15e59cac7d8617a216bd76435f105a29e315effe8cb5a",
       "package_root": "市场采购/选品/ecommerce-product-research",
       "updated_at": "2026-07-15"
     },
     "purchase-order-delivery-manager": {
-      "version": "1.0.2",
-      "fingerprint": "1212b13eebfbe5d2906cdf3db0ff753a4451e5baea28e88f4b14119cbb6c6440",
+      "version": "1.0.5",
+      "fingerprint": "d667b274ed0767d7c797efa3eed77d094724a3c6c91b2069d1cbc14b76c99b37",
       "package_root": "市场采购/采购执行/purchase-order-delivery-manager",
       "updated_at": "2026-07-15"
     },
     "senior-market-procurement-manager": {
-      "version": "1.0.3",
-      "fingerprint": "44f66b17e462f8c00fb36fc138a9ca36e78d5cf34b78ad87440f9b88711e13ad",
+      "version": "1.0.6",
+      "fingerprint": "19ef0a69ad720be085d97604ce6f261cb07e8f2cd36e78d3d3d5ae10fdb2f334",
       "package_root": "市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager",
       "updated_at": "2026-07-15"
     },
     "senior-market-procurement-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "0dff4bc31cb1596f1942a02fb40915f17a254c9892335852044d3ba1b49cc201",
+      "version": "1.0.6",
+      "fingerprint": "38a9e2b9769df92c8acd7d3d3a5191f961b708814b8d727e5927a5b5a2f17057",
       "package_root": "市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-merchandising-manager": {
-      "version": "1.0.3",
-      "fingerprint": "5248b7dd278aa087130232d84f085b7f40f1a8a3b378d961e326f645600a8e8f",
+      "version": "1.0.6",
+      "fingerprint": "3ed558c4c1fe87629bb2382bc5dfe221d534e4b36c5b88c4c62581e096ee2ae0",
       "package_root": "市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager",
       "updated_at": "2026-07-15"
     },
     "senior-merchandising-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "797d3675f74af17433f1063f5e876e871ad474344b8ebfe59c5595b26fd353de",
+      "version": "1.0.6",
+      "fingerprint": "5866272f25c56a7c393b4ae4733d77eb6efbbafc93fe5906d83473bd9040d0a1",
       "package_root": "市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "procurement-risk-compliance-manager": {
-      "version": "1.0.2",
-      "fingerprint": "0be87874f3e2d0931b19bd76a7ed79c62711af0c19c3b4886accc7b1933f0067",
+      "version": "1.0.5",
+      "fingerprint": "0e54ddf6afbd6e1ffd71525bb5420b8dd7c08bd8215eb5c64048808ec93dece1",
       "package_root": "市场采购/采购风险/procurement-risk-compliance-manager",
       "updated_at": "2026-07-15"
     },
     "metric-diagnostics": {
-      "version": "1.0.2",
-      "fingerprint": "7cf9231f19296a6c16f40ba6b2c6198e484b8c10ae34845a08520a2928c02b5d",
+      "version": "1.0.4",
+      "fingerprint": "4d27ea735656b5585fdfe1c92fd752df9acce8ab37e6247d3c2ea16d58e727c1",
       "package_root": "数据看板/metric-diagnostics",
       "updated_at": "2026-07-15"
     },
     "advertising-performance-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "3f17ee0852857f02108c242e98e0be4a6c49307dd544ecd42ea766c38635f234",
+      "version": "1.0.5",
+      "fingerprint": "912c98708d492351fd229bdd26d552c0743fa225210b9418c76a39a8f394e12a",
       "package_root": "数据看板/业务分析/advertising-performance-analyst",
       "updated_at": "2026-07-15"
     },
     "business-metrics-governance": {
-      "version": "1.0.2",
-      "fingerprint": "c2496e6aaf3556d6478978680816545932bfeb696b849c4410f4fb88cb5b89d5",
+      "version": "1.0.5",
+      "fingerprint": "25120420a3fb01a1957b93c3988e5b8268201b6133d304b91fc175c9471d2fc0",
       "package_root": "数据看板/业务分析/business-metrics-governance",
       "updated_at": "2026-07-15"
     },
     "conversion-funnel-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "6c5b76b4fcbabccdd503a88079355eec08662747d72fa6dd3d3554d0c1bf53f6",
+      "version": "1.0.5",
+      "fingerprint": "1710c662cad77ff1bb1147e5969b2580ecb00d1421093c7171b183225b1493ea",
       "package_root": "数据看板/业务分析/conversion-funnel-analyst",
       "updated_at": "2026-07-15"
     },
     "customer-cohort-ltv-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "9678dd74b2a708a56dbf1bb75bac3fe77f0e80c435f8b4db167b7b320685e55e",
+      "version": "1.0.5",
+      "fingerprint": "68a075fd6ce0d2d7ee3bfd421983100b5a5f12f564887fcc2868ec653fdabf00",
       "package_root": "数据看板/业务分析/customer-cohort-ltv-analyst",
       "updated_at": "2026-07-15"
     },
     "executive-business-review": {
-      "version": "1.0.2",
-      "fingerprint": "c345be255a6c29232647142bbc6754ffc3ec303ed2784e644e7e53d209580b3f",
+      "version": "1.0.5",
+      "fingerprint": "c27d693215b36c95b38d1f8ac860036182aa966c6828aa1e7565ce6a56819efc",
       "package_root": "数据看板/业务分析/executive-business-review",
       "updated_at": "2026-07-15"
     },
     "forecast-scenario-planner": {
-      "version": "1.0.2",
-      "fingerprint": "b913fcb44441e3f3df4dd8ed3cca4c0fdac7faeeb0646c0f1891fa9ecf0bff2d",
+      "version": "1.0.5",
+      "fingerprint": "e3c4d8757253a63a27e1725d75236e22181c9537213dcc313389651d3626681b",
       "package_root": "数据看板/业务分析/forecast-scenario-planner",
       "updated_at": "2026-07-15"
     },
     "inventory-supply-chain-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "bc57a1d3046ad59a4c945704819d89ce10ede48d7741f80acea13fed924779a3",
+      "version": "1.0.5",
+      "fingerprint": "b61192607f499327b6f4e7607f9e8982c7ca501e97249d66358cc3580584ce2e",
       "package_root": "数据看板/业务分析/inventory-supply-chain-analyst",
       "updated_at": "2026-07-15"
     },
     "marketplace-channel-comparison-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "a7b8ca36dcdd8dad65abcb4c2f5c8ebe27507607e3f97581e0992edbb48e3dff",
+      "version": "1.0.5",
+      "fingerprint": "f31f73cefb1749439d7b79a644e89b28720ca836eaadfec98b687416266509c1",
       "package_root": "数据看板/业务分析/marketplace-channel-comparison-analyst",
       "updated_at": "2026-07-15"
     },
     "pricing-promotion-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "d8a2ec27d83e23c5f340ddc9a6e5259227622bb14799abffb46b9e7ac92d11b7",
+      "version": "1.0.5",
+      "fingerprint": "f2a08723d1d4c42f6fc611010bf9c07615f57b3b240022eb6f2f4c2f2ac13310",
       "package_root": "数据看板/业务分析/pricing-promotion-analyst",
       "updated_at": "2026-07-15"
     },
     "product-portfolio-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "15095d73eb2546292b31490b93edea28d475b8b7e4c9ccc22510c16994eafc1c",
+      "version": "1.0.5",
+      "fingerprint": "6bf55dacbd5de24277118ac30542c82220c6216f55f202a0f4e1ca573002828e",
       "package_root": "数据看板/业务分析/product-portfolio-analyst",
       "updated_at": "2026-07-15"
     },
     "sales-profitability-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "4c774e269eab76e08da3281e99ad8e2058bff8a7b92fbe44ac77074dd2196cc9",
+      "version": "1.0.5",
+      "fingerprint": "2a8532a52f7b02c00947f7ff41d06077ab3c654b98b991f2809527d355775ff5",
       "package_root": "数据看板/业务分析/sales-profitability-analyst",
       "updated_at": "2026-07-15"
     },
     "traffic-acquisition-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "c9390d89bf8f0568653dcba868eeda614c5d7cc246ad47ea13ca205f41bceeb9",
+      "version": "1.0.5",
+      "fingerprint": "c2327140990ef993f448ba3b6b8a8948269fc2d21e61786f57029f9dad5df46d",
       "package_root": "数据看板/业务分析/traffic-acquisition-analyst",
       "updated_at": "2026-07-15"
     },
     "data-quality-reconciliation": {
-      "version": "1.0.2",
-      "fingerprint": "802937edec216cbde490ae4ab747c84140ba4892c55754e7ac321d6d0231c88c",
+      "version": "1.0.5",
+      "fingerprint": "3436fd1129ac91187a7f4cbb8af69c0492a7298d8c0604cd80c87363405150e0",
       "package_root": "数据看板/数据治理/data-quality-reconciliation",
       "updated_at": "2026-07-15"
     },
     "contract-risk-reviewer": {
-      "version": "1.0.2",
-      "fingerprint": "6a29b6f6501cfa1e0a51f6c4151e096dc9a3a255678d4738a70ea23ab4336c29",
+      "version": "1.0.4",
+      "fingerprint": "189b9ae21cf26e74b3eb057198ebb18e5bbfea1e6f4fd6bf7ed625d1a06f09d6",
       "package_root": "法律政务/contract-risk-reviewer",
       "updated_at": "2026-07-15"
     },
     "dispute-resolution-case-manager": {
-      "version": "1.0.2",
-      "fingerprint": "52643950a74dc8f3ceb43c5c6a8203b47ddae9aa3b7f54158dae3141401f049f",
+      "version": "1.0.5",
+      "fingerprint": "14fb276bc31fe44d629fd088aa5b91146901321d2d95f78a1fcf84a6b8879790",
       "package_root": "法律政务/争议解决/dispute-resolution-case-manager",
       "updated_at": "2026-07-15"
     },
     "corporate-governance-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "6ea58a77b415d80a85311d3729af56adda4b806511d56f67fc11c9cf7b311f1a",
+      "version": "1.0.5",
+      "fingerprint": "625e98b647c82f64137457660c2d6ef49a82df045f9595488b2264aac0e18647",
       "package_root": "法律政务/公司治理/corporate-governance-counsel",
       "updated_at": "2026-07-15"
     },
     "employment-labor-compliance-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "dd82ff591aa65fd83dd0327dbf90e615ee4296641e1b0c4a01735173a1ef8cdb",
+      "version": "1.0.5",
+      "fingerprint": "8ea5b057e1a03b5de4441d7acdaeddd769b1a7e7992e36ddda64798332d1d418",
       "package_root": "法律政务/劳动用工/employment-labor-compliance-counsel",
       "updated_at": "2026-07-15"
     },
     "advertising-claims-legal-reviewer": {
-      "version": "1.0.2",
-      "fingerprint": "1c7532f5f7ab502ef632c364de6a6a0ed91c58296ffd5e6a9ce48a6d0462f744",
+      "version": "1.0.5",
+      "fingerprint": "da6e92e64c1784de1b2579c56d115fbe60c4cf8b58c4f5d0bba0cc5a0b26049a",
       "package_root": "法律政务/广告与消费者保护/advertising-claims-legal-reviewer",
       "updated_at": "2026-07-15"
     },
     "eu-market-regulatory-compliance-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "cd4d6b83f9492ded21584e1fc64e1ffb56f774481537f4a58a712718dab6a1e9",
+      "version": "1.0.5",
+      "fingerprint": "492fba324d1259d831544e8cb32f9967290029facd94e5bf1094c2147d7de79e",
       "package_root": "法律政务/欧盟合规/eu-market-regulatory-compliance-counsel",
       "updated_at": "2026-07-15"
     },
     "senior-cross-border-legal-counsel": {
-      "version": "1.0.3",
-      "fingerprint": "72727eaaad4fbb782a9792842e363a360d3f9b97c1b90c8591e31feef83a302c",
+      "version": "1.0.6",
+      "fingerprint": "a5adfa3b289e691fa298b7191f41d48ec634e0ec4d16ea251dbf4fe647fcdf27",
       "package_root": "法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel",
       "updated_at": "2026-07-15"
     },
     "senior-cross-border-legal-counsel-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "145882168181651f57db266734eed3363d89fcaa7346bc0ebcb930650d84e273",
+      "version": "1.0.6",
+      "fingerprint": "1c41f8c37ef83fa63659a0564320e10e0925fe6aabe3bd1c1c0e9e0c2594bc23",
       "package_root": "法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel-weekly-report",
       "updated_at": "2026-07-15"
     },
     "intellectual-property-protection-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "d8e2fe6555c51079dc99a2631eff8331362a0e44006362eed7343c13a9ef0860",
+      "version": "1.0.5",
+      "fingerprint": "c412a3ce1d08041a752d47d1a6da95e2d5c0adb4bcad5e4bdf8c34f4c775edd0",
       "package_root": "法律政务/知识产权/intellectual-property-protection-counsel",
       "updated_at": "2026-07-15"
     },
     "us-market-regulatory-compliance-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "6be6df43dc140d41a452dcea1bf49e899a0bfb99981914960ced8f5768948ae6",
+      "version": "1.0.5",
+      "fingerprint": "08ae278ca6a3a42282c6b4591cd4b428c34f735836c79c829472954c5ed28204",
       "package_root": "法律政务/美国合规/us-market-regulatory-compliance-counsel",
       "updated_at": "2026-07-15"
     },
     "cross-border-regulatory-compliance-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "e0ab0603d5b4a6c1657ccdb47fc8dbb366a54a0e18fecf758a21ff37a8b38892",
+      "version": "1.0.5",
+      "fingerprint": "9c491e61e14e37af447caa7aa472ed3a3fa8d625bd8d0628ba347bba9c371273",
       "package_root": "法律政务/跨境监管/cross-border-regulatory-compliance-counsel",
       "updated_at": "2026-07-15"
     },
     "import-export-trade-compliance-reviewer": {
-      "version": "1.0.2",
-      "fingerprint": "f382946583aabec3dbeda9fc9ca2fc07f13e6918e85bf2022c96896198632c5a",
+      "version": "1.0.5",
+      "fingerprint": "24d270d5e6deb136415b6ab692d71efafeed3b36796b0fb325888c7977a50363",
       "package_root": "法律政务/进出口合规/import-export-trade-compliance-reviewer",
       "updated_at": "2026-07-15"
     },
     "privacy-data-protection-counsel": {
-      "version": "1.0.2",
-      "fingerprint": "315a6d42756857037fd864dfbef0f00bd08c55ec9dc959788c5871f0167b65b8",
+      "version": "1.0.5",
+      "fingerprint": "ce9c646da612d92396be020c5d7e685c23c526c3d99cc43a3d3124fd02772d4e",
       "package_root": "法律政务/隐私与数据/privacy-data-protection-counsel",
       "updated_at": "2026-07-15"
     },
     "product-compliance-risk-manager": {
-      "version": "1.0.2",
-      "fingerprint": "b5c95232cc94d6c37358c494f55622f1cdefe192787dc497846bba9017d86b0d",
+      "version": "1.0.4",
+      "fingerprint": "b4e0b0f2ba34d9b0f27247a0db693caf9dda3e09c55a614de983348eabc9d115",
       "package_root": "渠道运营/合规/product-compliance-risk-manager",
       "updated_at": "2026-07-15"
     },
     "pricing-promotion-optimizer": {
-      "version": "1.0.2",
-      "fingerprint": "5f37660403b78fde12b5ff7312bccc0695ddf4723d4b74a2285723b2584a0ec0",
+      "version": "1.0.5",
+      "fingerprint": "7d46817981e781af2b5aa53cce52cd047fd5da8b435afe90d513cf7d89420c4d",
       "package_root": "渠道运营/商业化/pricing-promotion-optimizer",
       "updated_at": "2026-07-15"
     },
     "marketplace-listing-optimizer": {
-      "version": "1.0.2",
-      "fingerprint": "059ac8e3f92312d50b84b452222f241f06e505ae8f69cc26bd4fa90229146416",
+      "version": "1.0.5",
+      "fingerprint": "c0b5dce2186a3ca22fd4fc931b2f2433b7ee722e17f1b0961ac36cb044d32e61",
       "package_root": "渠道运营/商品运营/marketplace-listing-optimizer",
       "updated_at": "2026-07-15"
     },
     "amazon-pdp-import-generator": {
-      "version": "2.1.0",
-      "fingerprint": "71c3a03f7615814c07926279bcf6fe3f3f585dcbc7e0a999ab80266d1bef4d24",
+      "version": "2.1.2",
+      "fingerprint": "68dbd4f010793543117aa2c29a28919abfec14a7ce3f61e53751347a7a8a3f67",
       "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "updated_at": "2026-07-15"
     },
     "shopify-conversion-auditor": {
-      "version": "1.0.2",
-      "fingerprint": "b9504840e3a4786a7e2936da2ec5dfd6669757efaabe01981e2d32125366487c",
+      "version": "1.0.4",
+      "fingerprint": "4036d79656eaae99d48e0e3a3d9ab5a9e52f0e2461d834bf0de34f6f8e04ddba",
       "package_root": "渠道运营/多渠道运营/独立站/shopify-conversion-auditor",
       "updated_at": "2026-07-15"
     },
     "storefront-product-publishing-manager": {
-      "version": "1.0.2",
-      "fingerprint": "12f20a756a9242a7f8e9a25d3155ea03f57b12a317c14288bbe1bf229f1010ce",
+      "version": "1.0.4",
+      "fingerprint": "34196c16b8c388f1466bac865ac72c18548185c4bc91efd1973ac1624860ce52",
       "package_root": "渠道运营/多渠道运营/独立站/storefront-product-publishing-manager",
       "updated_at": "2026-07-15"
     },
     "review-reputation-manager": {
-      "version": "1.0.2",
-      "fingerprint": "2cd4f200334537812d4a0bc143edc1348553def8ea66576fe1c034a268ccb291",
+      "version": "1.0.5",
+      "fingerprint": "3954ae77084bbb4ad471549e5d82447210770e2393c75023cbfea16ee3ff8ebd",
       "package_root": "渠道运营/客户体验/review-reputation-manager",
       "updated_at": "2026-07-15"
     },
     "tiktok-shop-operations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "3db59d9b93b45a2d1ce0f9b97f38461d7064df6fa91a72bc6a10e377473c6351",
+      "version": "1.0.5",
+      "fingerprint": "5cb6b1455ccdb0b49b4cb78614252288a235544d57a2d5a4b8c2a76e4eb4a86b",
       "package_root": "渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager",
       "updated_at": "2026-07-15"
     },
     "channel-portfolio-strategist": {
-      "version": "1.0.2",
-      "fingerprint": "80d8b7f0758abddfa8da33f9eb482c42aea8055572546ba0225965324797ff34",
+      "version": "1.0.5",
+      "fingerprint": "a51ea61a9d874461d8397da968a2c7c0c65121c54b2d0f5b3582e5e4d0a85825",
       "package_root": "渠道运营/平台运营/channel-portfolio-strategist",
       "updated_at": "2026-07-15"
     },
     "amazon-store-operations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "e160b5efb88349edd9f07074bf9825f433dd441b81cbfcc8f2172f0d465619a1",
+      "version": "1.0.5",
+      "fingerprint": "253bffa35b50dd12f2c997356d84bbfaf319377332ff907a54042a36636ab752",
       "package_root": "渠道运营/平台运营/亚马逊/amazon-store-operations-manager",
       "updated_at": "2026-07-15"
     },
     "shopify-store-operations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "1cd9297b6dec751ee8e145f0561e9befffdaeb7fcf937de595951551c17badaa",
+      "version": "1.0.5",
+      "fingerprint": "35572bb512b71acb1061981ec7102f8bf00a0a9b49a34c228561971d898abe62",
       "package_root": "渠道运营/平台运营/独立站/shopify-store-operations-manager",
       "updated_at": "2026-07-15"
     },
     "ecommerce-unit-economics-analyst": {
-      "version": "1.0.2",
-      "fingerprint": "d18377c6a3ec41f40de417cb9fb865a34989ab279dd80c6b44ef1488b780133a",
+      "version": "1.0.4",
+      "fingerprint": "f97313952d298cc188cc83ccccb7ae35d9ab31075d17359f6e8ab4a24301471a",
       "package_root": "渠道运营/经营分析/ecommerce-unit-economics-analyst",
       "updated_at": "2026-07-15"
     },
     "senior-tiktok-shop-operations-manager": {
-      "version": "1.0.3",
-      "fingerprint": "e542982949c19dee5761cb7232ffec21bc792ac6b0d36b7a04e1746bf12b7a27",
+      "version": "1.0.6",
+      "fingerprint": "c787a9b81f14e9e045959db42c72cfe0e8b68c61e6f66e90fffcec1aef65faf0",
       "package_root": "渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager",
       "updated_at": "2026-07-15"
     },
     "senior-tiktok-shop-operations-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "9351549bd5a08248c2c08578dd4cdde7e30c603fb8660e174cf903340c2fdc40",
+      "version": "1.0.6",
+      "fingerprint": "28aea210a04edf68863a8b5363baf41126a9b94a61b8ca67b5b3717b680ec30e",
       "package_root": "渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-business-analytics-manager": {
-      "version": "1.0.3",
-      "fingerprint": "bd6cf388ae6bacb78c445529c0db7adbf35e77426ae772b0ef54f1424cdafd4e",
+      "version": "1.0.6",
+      "fingerprint": "bce73ebe84878e6ee18831b7aa5364c7f1bdede4cdf5c070fff8fac5ac2a55bc",
       "package_root": "渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager",
       "updated_at": "2026-07-15"
     },
     "senior-business-analytics-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "a8dc054be9a577bc85a852f3d4c5946c2300a34d995e506f63d79ef5c83b2a01",
+      "version": "1.0.6",
+      "fingerprint": "3d5604a54cbb0ebaec45b1f2a09ce5061d85745878837edab37e84cbdb7ad3c5",
       "package_root": "渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-amazon-operations-manager": {
-      "version": "1.0.3",
-      "fingerprint": "78541bd8d3e443cb4fa2759125dbbafc2a7152c0ab3bdcf4d7702cb77a970158",
+      "version": "1.0.6",
+      "fingerprint": "f26e5bc075dd4b23b2d4c0c8ce2fdaf5cb6483bb868132386d1556ca8b31d132",
       "package_root": "渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager",
       "updated_at": "2026-07-15"
     },
     "senior-amazon-operations-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "2f39a22ebdfb944615163eadd90bccb44f8efad5f0cad2e89d84a411d6aa86a6",
+      "version": "1.0.6",
+      "fingerprint": "cdb2474a831ba0a2a63c6c7c16ff9b4a6371ca86adb2da590665ffb1b9a86ec7",
       "package_root": "渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-customer-experience-manager": {
-      "version": "1.0.3",
-      "fingerprint": "88485fb51c252269f2f3ecb5bdd9704df01166fdab668d21c12f319b6c57e872",
+      "version": "1.0.6",
+      "fingerprint": "7922ffdb8c1a38cac14c7564ea9decce363671f3bea03105c62600f75df08948",
       "package_root": "渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager",
       "updated_at": "2026-07-15"
     },
     "senior-customer-experience-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "6531faa1d752b84571d6d97278c70b950a4c5a1c8bfb0694304d15204515aafe",
+      "version": "1.0.6",
+      "fingerprint": "926e2f16fa4e9f9f14c66bd5ddb15b71a9fa0b68c3e8aaab009ae327b61d0094",
       "package_root": "渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-dtc-operations-manager": {
-      "version": "1.0.3",
-      "fingerprint": "ca920278281295d8386d0064e06429be9f61e563580afcb9ff29e045ae7f19f3",
+      "version": "1.0.6",
+      "fingerprint": "9809d20baaa0f63c5fdd7583b876591b65921efdde972c25e948ed97dd1749c7",
       "package_root": "渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager",
       "updated_at": "2026-07-15"
     },
     "senior-dtc-operations-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "ed111396bc77f797a3e469aa1f7405ca42dd6b99e926f5637b0776f0d115e1e5",
+      "version": "1.0.6",
+      "fingerprint": "eb584a9a0b12fea7a57b19da93c813a0a00cce50927deeb02a5253ec3649c75f",
       "package_root": "渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-cross-border-commerce-leader": {
-      "version": "1.0.3",
-      "fingerprint": "16b22fcb65b3633da012654eb9bc04f7d0224fbc7ed8e472123bce313c3a6163",
+      "version": "1.0.6",
+      "fingerprint": "f0339b7d60e119dd2d985bc5d09d2417fc11958c5c70af58472dee4e1b4403ed",
       "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader",
       "updated_at": "2026-07-15"
     },
     "senior-cross-border-commerce-leader-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "23406eb827e3d44b6fd3495c0ac2e743be0656abeb08e4c05f3f30586ae3425c",
+      "version": "1.0.6",
+      "fingerprint": "b187e26599af8b3454e1815d703cb6216e9cde52d18bcf4e0d965c104c3b403c",
       "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader-weekly-report",
       "updated_at": "2026-07-15"
     },
     "content-marketing-planner": {
-      "version": "1.0.2",
-      "fingerprint": "9f3011e65ccf95998ae243e77294f1e69bed25e93f47f514c71433014d62f85d",
+      "version": "1.0.5",
+      "fingerprint": "e5c0f10343913a9b73cd6ab5dbaa3478999ebbc315d4e8b7be1529976396d08e",
       "package_root": "精准营销/内容营销/content-marketing-planner",
       "updated_at": "2026-07-15"
     },
     "brand-positioning-strategist": {
-      "version": "1.0.2",
-      "fingerprint": "1b286d545d62ad299ae8a50bb1394036580e1aa713643fef1dff400193b4074f",
+      "version": "1.0.5",
+      "fingerprint": "b5e471f2340d0419fc0da16be4db6b5bfefbcda27b256781d78e1a85e94fd035",
       "package_root": "精准营销/品牌营销/brand-positioning-strategist",
       "updated_at": "2026-07-15"
     },
     "cross-border-growth-operator": {
-      "version": "1.0.2",
-      "fingerprint": "c5369c262b5d286f74a7ca218afb7440213d4f9421adc977e0216bdc4b5d9274",
+      "version": "1.0.5",
+      "fingerprint": "e18a72f3aa711e090b26fea0ad5f733b48af0498111a85363e8caac5106fee99",
       "package_root": "精准营销/增长营销/cross-border-growth-operator",
       "updated_at": "2026-07-15"
     },
     "marketing-attribution-planner": {
-      "version": "1.0.2",
-      "fingerprint": "fbb3a92deb01c298ead6d084fd2c868d84db8dcfb3b6ea0e15928037cbec5074",
+      "version": "1.0.5",
+      "fingerprint": "1d98a2cca2a114f63a983812304e559440cce61b218533e468c8478ea8988144",
       "package_root": "精准营销/增长营销/marketing-attribution-planner",
       "updated_at": "2026-07-15"
     },
     "customer-acquisition-growth-manager": {
-      "version": "1.0.2",
-      "fingerprint": "1876809e4908f61eabf88514de19436b38109435fa40d7628cfd0b7701b63264",
+      "version": "1.0.5",
+      "fingerprint": "bd24a47412e05a1bc176c834fa21052072faaab3caf3d1abe5d212cf13c0e5e9",
       "package_root": "精准营销/增长营销/拉新/customer-acquisition-growth-manager",
       "updated_at": "2026-07-15"
     },
     "cross-border-market-intelligence": {
-      "version": "1.0.2",
-      "fingerprint": "c257ab0669b0eb632e68e69df386e40a9324f88e3fc9bfd581cba592fdda89b5",
+      "version": "1.0.5",
+      "fingerprint": "0e221df417540789b8b4001a7c17695a95689811de690ea7f9aeef6691cb3cd4",
       "package_root": "精准营销/市场策略/cross-border-market-intelligence",
       "updated_at": "2026-07-15"
     },
     "go-to-market-launch-planner": {
-      "version": "1.0.2",
-      "fingerprint": "e585025bff9aedaf82838562f14f0870d5a91f3b4a5eeb6560eff95a9c072bae",
+      "version": "1.0.5",
+      "fingerprint": "dc2c7162a329bd6319323821784e3c13a9030c465481c84b45fdba10b41292ca",
       "package_root": "精准营销/市场策略/go-to-market-launch-planner",
       "updated_at": "2026-07-15"
     },
     "commerce-advertising-optimizer": {
-      "version": "1.0.2",
-      "fingerprint": "656b72a82fabb5b0985665d1f87af1fb7a022abcb2f8648ae09e684ec6787412",
+      "version": "1.0.4",
+      "fingerprint": "d138ead3d74afb0c241f659586bf97b5b324412418c8552f285ee093b7940488",
       "package_root": "精准营销/推广营销/commerce-advertising-optimizer",
       "updated_at": "2026-07-15"
     },
     "geo-optimizer": {
-      "version": "2.0.2",
-      "fingerprint": "83125c430b755edfdfb12a16c7326b0896dab5d3174c020f03e0176cd9ac9432",
+      "version": "2.0.4",
+      "fingerprint": "d5d5fac76159a217987c92ae64c8502dea1f3aff8b63af8bee274760433066ef",
       "package_root": "精准营销/推广营销/geo-optimizer",
       "updated_at": "2026-07-15"
     },
     "seo-optimizer": {
-      "version": "2.0.2",
-      "fingerprint": "109b33241fc2c760dd84d1c25daed980c50c120928edb68838b1bfffc3931fc9",
+      "version": "2.0.4",
+      "fingerprint": "3846794b4ea9e707c4abc983665c30fc3e19a8dc373748908009a5ada67ddb58",
       "package_root": "精准营销/推广营销/seo-optimizer",
       "updated_at": "2026-07-15"
     },
     "promotion-calendar-manager": {
-      "version": "1.0.2",
-      "fingerprint": "86ca3376bb829e9fbaca8073d6af29bf01e41dd08923b74b763a707eee95bc6e",
+      "version": "1.0.5",
+      "fingerprint": "b0b12a39245d9f16a3aed129fbe17963ef367202da809b95e925b40740eeb8b5",
       "package_root": "精准营销/活动营销/promotion-calendar-manager",
       "updated_at": "2026-07-15"
     },
     "customer-retention-loyalty-manager": {
-      "version": "1.0.2",
-      "fingerprint": "03c8ad35c00d4d2e41dbb3c53ecd3c3c9b28fe8b68a1c2813e0cae354c1f00e4",
+      "version": "1.0.5",
+      "fingerprint": "c04c32db96e2c6b73443a5caa0e61f7a076a54092c7917343c59a75fa598e35c",
       "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "updated_at": "2026-07-15"
     },
     "email-lifecycle-marketer": {
-      "version": "1.0.2",
-      "fingerprint": "5e24e5115c9fd58446eeb01b129f78ba0cc751f7dd359ea133aa8d20f59da92b",
+      "version": "1.0.5",
+      "fingerprint": "091f615fc416240ad8fbd83e295024d8618970cf64aa85ae553824875a985c85",
       "package_root": "精准营销/用户运营/email-lifecycle-marketer",
       "updated_at": "2026-07-15"
     },
     "social-media-operations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "277f0db51b30c95f56b544f434a7503bbd903eeab2933de279832eabc8909d62",
+      "version": "1.0.5",
+      "fingerprint": "aa1bc0f6b0d33a7bbc06e93d43a55823ebf89611f344809c683d56796406fee0",
       "package_root": "精准营销/社媒营销/social-media-operations-manager",
       "updated_at": "2026-07-15"
     },
     "senior-brand-content-manager": {
-      "version": "1.0.3",
-      "fingerprint": "941c0b63706bf40e9a8c198b2239d4b04e5891592d0d6fb2169583a53606dddb",
+      "version": "1.0.6",
+      "fingerprint": "d07a5d074d3027b2418b4c5dceeffacae4b23caebcb7143de3c6f510a467c078",
       "package_root": "精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager",
       "updated_at": "2026-07-15"
     },
     "senior-brand-content-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "813e4ab8442c4dd52f754684e6891b03235faeb8f7e26ff650b7bb2223a096a2",
+      "version": "1.0.6",
+      "fingerprint": "7fbc98e0a7729325823c30a225f1b24997273662c50bef34e752e2e5f68b4e2e",
       "package_root": "精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-growth-marketing-manager": {
-      "version": "1.0.3",
-      "fingerprint": "d4a7c893faf7b9b480170ee4a1456a2d9f5f619820d3ba84e281cdd60787cc54",
+      "version": "1.0.6",
+      "fingerprint": "b740d6a80d65ad15e3d6b24032a08125f3bcbc5432a4518699029f9774a52560",
       "package_root": "精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager",
       "updated_at": "2026-07-15"
     },
     "senior-growth-marketing-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "ae0cc205d5c243bfd3fa80b96b24b3e21521051d1056759e53fb7752d4f8f689",
+      "version": "1.0.6",
+      "fingerprint": "6bc04dda721d3aed487cab9ef611778ba6580687d7748a6041a635bf4556bf63",
       "package_root": "精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "senior-user-operations-manager": {
-      "version": "1.0.3",
-      "fingerprint": "769570a709b7d7a04b3c01e7b66327e1a0b92cec1f33abe6c4bfe6a69c188ee8",
+      "version": "1.0.6",
+      "fingerprint": "dc4b6427fd1a54c938e9836461a78fcd12a03d08fe656526575fed6d39aececc",
       "package_root": "精准营销/营销角色/用户运营资深经理/senior-user-operations-manager",
       "updated_at": "2026-07-15"
     },
     "senior-user-operations-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "bb15c4367ad449a5b8f381abacb03b7d7eef4a09c5680b6b3a8e7fc9f3f7c600",
+      "version": "1.0.6",
+      "fingerprint": "ad6801d1eebd292fab518dc7e164b489b1bf0bfeec9ad9ad250b8b477e020f89",
       "package_root": "精准营销/营销角色/用户运营资深经理/senior-user-operations-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "influencer-affiliate-manager": {
-      "version": "1.0.2",
-      "fingerprint": "328a53bad652310ad3ddd03de8a6e858e76b1009752479515fdfee35afe0a71b",
+      "version": "1.0.5",
+      "fingerprint": "fede4a761f32a3aa7204f97d010a0c5388a40db6228d20e81b5e451e4bddf832",
       "package_root": "精准营销/达人联盟/influencer-affiliate-manager",
       "updated_at": "2026-07-15"
     },
     "senior-cashier-treasury-specialist": {
-      "version": "1.0.3",
-      "fingerprint": "e8a662985e8df80d867e92f2f25f72d174f836c335add9f459de6a0f902bdff5",
+      "version": "1.0.6",
+      "fingerprint": "ae00402a8cd5982a2807dd689da7b3766357a58ff9689b4731f0f864f45215f6",
       "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist",
       "updated_at": "2026-07-15"
     },
     "senior-cashier-treasury-specialist-weekly-report": {
-      "version": "1.0.4",
-      "fingerprint": "75b425b75ddd703b3f8e64d0287ce5f747c6c02149242f3a20d2fa3f5454499f",
+      "version": "1.0.7",
+      "fingerprint": "59cd2b94ca00799c01f3c66c960ee80843e3a97f478d596ee018e258cbc47101",
       "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report",
       "updated_at": "2026-07-15"
     },
     "expense-reimbursement-cashier": {
-      "version": "1.0.2",
-      "fingerprint": "41bf6dc19faf30f74629bbd3b0a2500ae92e366f4a586c60bd96fe74fb35bbc8",
+      "version": "1.0.5",
+      "fingerprint": "0ec38fcc76e842f0f0b1daf5493764205f7dc276030b1b42a3111a69148ef0cc",
       "package_root": "财务出纳/报销与票据/expense-reimbursement-cashier",
       "updated_at": "2026-07-15"
     },
     "payment-receipt-operations-manager": {
-      "version": "1.0.2",
-      "fingerprint": "e83460cbde103b8e06d793da8c5569b37f2efc70a88e28ad1675c77577ba7f98",
+      "version": "1.0.5",
+      "fingerprint": "922fb8ad85c0ab4fa4d974d30158070303085fd2f421a8aa755227237ca4c0fa",
       "package_root": "财务出纳/收付款/payment-receipt-operations-manager",
       "updated_at": "2026-07-15"
     },
     "financial-close-reconciliation-manager": {
-      "version": "1.0.2",
-      "fingerprint": "c75b72bdfe0a3edc265268baa038ce748a90fc3afb1f002ed4d9f89587cfff8c",
+      "version": "1.0.5",
+      "fingerprint": "c6a48358559a953c9cc6c523ecc89c7ed71a33de6313040996c1697ab0de6b40",
       "package_root": "财务出纳/核算关账/financial-close-reconciliation-manager",
       "updated_at": "2026-07-15"
     },
     "cross-border-tax-vat-planner": {
-      "version": "1.0.2",
-      "fingerprint": "3d7dbf60c922254ed9a70d52ce65afbb5d5bfc2b4d3f5f4d94b11f90c25c75ca",
+      "version": "1.0.5",
+      "fingerprint": "d2c9768b2f73aa08eb79a959d608725e84314480891c3b85638f1117284d2aca",
       "package_root": "财务出纳/税务合规/cross-border-tax-vat-planner",
       "updated_at": "2026-07-15"
     },
     "management-accounting-profitability-manager": {
-      "version": "1.0.2",
-      "fingerprint": "ea9d060af46c983a4f7dc10c2147cf26bfb3846b3d47b0860e6014f92ee92fc2",
+      "version": "1.0.5",
+      "fingerprint": "a61f085f46d9ee0d37153c3b475f33bfd057d9abebd162d835958b0048ed30c4",
       "package_root": "财务出纳/经营财务/management-accounting-profitability-manager",
       "updated_at": "2026-07-15"
     },
     "senior-cross-border-finance-manager": {
-      "version": "1.0.3",
-      "fingerprint": "ad8ebedbbdfc194ce2cf63356738db87132886c8e8aa09891e72c80e1b933090",
+      "version": "1.0.6",
+      "fingerprint": "417ee69e4c5fb1e8ee3142b9d10319bf8de854443167756a9ae15c211f8c5a52",
       "package_root": "财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager",
       "updated_at": "2026-07-15"
     },
     "senior-cross-border-finance-manager-weekly-report": {
-      "version": "1.0.3",
-      "fingerprint": "a6945738c9f35ce8ced43fbfae3e2cfbd1269863655cf4f05df364115d7a2e0c",
+      "version": "1.0.6",
+      "fingerprint": "76006bedff24868c9496949ba6c32a78573508bbe6a7e4aa21aa06f91a1fcf04",
       "package_root": "财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "cash-security-access-controller": {
-      "version": "1.0.2",
-      "fingerprint": "031b6949af9510c18800291055cc63570b64595c9bf02bcefa999af95f4cac93",
+      "version": "1.0.5",
+      "fingerprint": "3c542de4d6580867c67908de510fe188c17e70ddb8850ba973cf3a48503b23b3",
       "package_root": "财务出纳/资金安全/cash-security-access-controller",
       "updated_at": "2026-07-15"
     },
     "cash-flow-working-capital-manager": {
-      "version": "1.0.2",
-      "fingerprint": "f6cba2b80495c6a8ca374ff8cd7d1fef35f418ade52c3b93dc5a9aa92ec7d4d6",
+      "version": "1.0.5",
+      "fingerprint": "57cad2215b8d81be226413bd354e6bb74e4e02dd7b426bc294046ebad7114b05",
       "package_root": "财务出纳/资金管理/cash-flow-working-capital-manager",
       "updated_at": "2026-07-15"
     },
     "multi-currency-treasury-manager": {
-      "version": "1.0.2",
-      "fingerprint": "1ec72524690eb850ceb484024c06184eb02b1dc7d9f8ca77c30c10c89a860a0d",
+      "version": "1.0.5",
+      "fingerprint": "10280e54cc46ce3f17764b4ea354e074f872eb775c7debfd3b85e3c3ef7ad290",
       "package_root": "财务出纳/资金管理/multi-currency-treasury-manager",
       "updated_at": "2026-07-15"
     },
     "bank-account-reconciliation-cashier": {
-      "version": "1.0.2",
-      "fingerprint": "70b017d2099d984dea520499c3b8031fa435b0a79ccfb215beeacfd7042af6c8",
+      "version": "1.0.5",
+      "fingerprint": "5d312ad42f961d2366988673beb94405de6ba355884fcfdeed8bb753a2300894",
       "package_root": "财务出纳/银行与对账/bank-account-reconciliation-cashier",
       "updated_at": "2026-07-15"
     },
     "budget-forecast-controller": {
-      "version": "1.0.2",
-      "fingerprint": "17496d6a75ba7b723510a25a802d28f26485b33db8c9bd16c6e393616b9acbdd",
+      "version": "1.0.5",
+      "fingerprint": "52abe2af7dfc1e663f1e6dfa2526a04a49e9cec9fbcdf64139df50bd27f07e1f",
       "package_root": "财务出纳/预算管理/budget-forecast-controller",
       "updated_at": "2026-07-15"
     },
     "creative-asset-intelligent-tagging-specialist": {
-      "version": "1.1.0",
-      "fingerprint": "d0b62381be4d0bd8a268e39c548c10246152cb22e8dab7d366211bfcfa56c567",
+      "version": "1.1.3",
+      "fingerprint": "dbf0834bba722987606ebf98f08eeb29caeab53f1bb56d18b3010fd25c8796e0",
       "package_root": "创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist",
+      "updated_at": "2026-07-15"
+    },
+    "geo-machine-readable-publisher": {
+      "version": "1.0.2",
+      "fingerprint": "57724805efb679256dca5fd6a7ae136307bb6ccfb0330e4fd10d9953b2e229a4",
+      "package_root": "精准营销/GEO技术发布/geo-machine-readable-publisher",
+      "updated_at": "2026-07-15"
+    },
+    "seo-editorial-community-distribution-specialist": {
+      "version": "1.0.1",
+      "fingerprint": "bc8a562df91f55986cf93aa56f78d3f6e23e8f97870830531e9b04e881e06798",
+      "package_root": "精准营销/SEO内容分发/seo-editorial-community-distribution-specialist",
+      "updated_at": "2026-07-15"
+    },
+    "google-ads-ecommerce-specialist": {
+      "version": "1.0.1",
+      "fingerprint": "b1372989318f36ec1b07bae9beb8c9ad67459456e60692a5e7ef4e671050ff02",
+      "package_root": "精准营销/投放广告/Google/google-ads-ecommerce-specialist",
+      "updated_at": "2026-07-15"
+    },
+    "meta-ads-ecommerce-specialist": {
+      "version": "1.0.1",
+      "fingerprint": "a6d09286428fdb9e53f49f24975cb4208fb99a1b33e405d504fbdb61891171b5",
+      "package_root": "精准营销/投放广告/Meta/meta-ads-ecommerce-specialist",
       "updated_at": "2026-07-15"
     }
   }

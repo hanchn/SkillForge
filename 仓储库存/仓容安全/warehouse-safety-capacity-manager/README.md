@@ -1,7 +1,7 @@
 # 仓容、现场安全与连续性经理
 
 > skill id：warehouse-safety-capacity-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：仓储库存 / 仓容安全
 

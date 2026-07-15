@@ -3,7 +3,7 @@
   "display_name": "GEO 引用就绪优化师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -78,12 +78,14 @@
       "SKILL.md",
       "agents/openai.yaml",
       "assets/claim-ledger.md",
+      "assets/data-source-intake-template.md",
       "assets/decision-record-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/citation-readiness.md",
       "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
       "references/scenario-playbook.md",
       "skill.json"
     ]

@@ -1,7 +1,7 @@
 # 企业员工公告撰写专家
 
 > skill id：employee-announcement-writer  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 员工沟通
 

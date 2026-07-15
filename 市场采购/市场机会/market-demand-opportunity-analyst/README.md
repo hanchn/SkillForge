@@ -1,7 +1,7 @@
 # 市场需求与商品机会分析师
 
 > skill id：market-demand-opportunity-analyst  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：市场采购 / 市场机会
 

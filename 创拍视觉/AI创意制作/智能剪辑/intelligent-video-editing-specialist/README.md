@@ -1,7 +1,7 @@
 # 智能剪辑工作流专家
 
 > skill id：intelligent-video-editing-specialist  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / AI创意制作 / 智能剪辑
 

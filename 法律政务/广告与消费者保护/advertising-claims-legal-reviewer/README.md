@@ -1,7 +1,7 @@
 # 广告声明法律审查师
 
 > skill id：advertising-claims-legal-reviewer  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：法律政务 / 广告与消费者保护
 

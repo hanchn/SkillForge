@@ -3,7 +3,7 @@
   "display_name": "Web 性能与无障碍审计师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -76,6 +76,7 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
       "assets/decision-record-template.md",
       "assets/web-quality-report-template.md",
       "eval/acceptance.md",
@@ -83,6 +84,7 @@
       "platforms/README.md",
       "references/audit-checklist.md",
       "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
       "references/scenario-playbook.md",
       "skill.json"
     ]

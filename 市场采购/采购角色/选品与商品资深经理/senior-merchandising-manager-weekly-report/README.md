@@ -1,7 +1,7 @@
 # 选品与商品资深经理周报
 
 > skill id：senior-merchandising-manager-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：市场采购 / 采购角色 / 选品与商品资深经理
 

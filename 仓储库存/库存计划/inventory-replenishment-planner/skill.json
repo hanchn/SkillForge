@@ -1,9 +1,9 @@
 {
   "name": "inventory-replenishment-planner",
-  "display_name": "多渠道库存补货规划师",
+  "display_name": "库存补货与分级告警规划师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -11,14 +11,18 @@
     "仓储库存",
     "库存计划"
   ],
-  "description": "Plan and monitor multi-channel replenishment end to end, including inventory alerts, demand, lead time, safety stock, order timing, channel allocation, cash and storage constraints",
+  "description": "端到端完成多渠道库存补货与分级告警，包括需求和交期、安全库存、告警阈值、异常队列、认领 SLA、采购交接、关闭复盘、渠道分配、现金和仓储约束",
   "search_keywords": [
     "库存",
     "预测与补货",
     "周度/月度 SKU 补货计划",
     "大促前备货和渠道分仓",
     "供应延迟或销量突增时重算风险",
-    "库存补货告警与处置闭环"
+    "库存补货告警与处置闭环",
+    "补货告警",
+    "低库存预警",
+    "缺货告警",
+    "在途延期告警"
   ],
   "supported_platforms": [
     "Claude",
@@ -77,12 +81,14 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
       "assets/decision-record-template.md",
       "assets/replenishment-plan-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
       "references/replenishment-method.md",
       "references/scenario-playbook.md",
       "skill.json"

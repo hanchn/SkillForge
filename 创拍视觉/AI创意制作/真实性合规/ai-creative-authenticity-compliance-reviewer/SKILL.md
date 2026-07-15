@@ -11,6 +11,8 @@ description: 审查 AI 生成、替换、扩展和智能剪辑内容的商品真
 
 - 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
 
+- 涉及事实、统计、实时状态或系统写入时，必须读取 `references/data-source-and-api-gate.md` 并使用 `assets/data-source-intake-template.md` 向使用者确认静态数据与合规接口；不得用模型记忆补造数据。
+
 - 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
 - Read `references/professional-checklist.md` before making decisions.
 - Read `references/scenario-playbook.md` to select the matching scenario path, evidence, exceptions, and acceptance gates.
@@ -18,6 +20,25 @@ description: 审查 AI 生成、替换、扩展和智能剪辑内容的商品真
 - Use `assets/decision-record-template.md` when the task contains alternatives, approvals, irreversible actions, or cross-team tradeoffs.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
 
+
+
+
+## User intake gate
+
+- 正式执行前必须询问使用者并确认范围、目标、对象、国家/渠道/系统、时间窗口、owner、审批人和不可改变项。
+- 必需输入：业务目标、范围和现状证据。建议补充：历史数据、流程系统资料、目标、预算、SLA 和合规约束。已有数据、模板、词库、规则和历史结论必须先盘点版本与优先级。
+- 缺少会改变结论的输入时，只能交付问题清单、调研计划或带假设的草案；不得自行补造事实。
+
+
+
+## Data and compliant API intake gate
+
+1. 先询问使用者是否有静态文件（CSV、Excel、JSON、Parquet、日志或文档）、系统导出、数据库视图/查询结果、官方 API、已授权第三方 API 或允许查询的当前公开来源，并确认哪些来源优先。
+2. 对每个接口登记 owner、业务目的、授权依据、环境、认证方式、字段/行范围、时间粒度、刷新 SLA、限流、成本、个人/敏感数据、留存删除和下游发布权限。
+3. 不在对话、Skill、脚本参数、日志或交付物中索要或保存明文 token、key、cookie、密码或私钥；使用环境变量、密钥管理或已授权连接器。
+4. 数据可读不等于允许使用或公开。用途、字段、国家、主体或下游超出授权时，停止并标记 `REVIEW_REQUIRED`。
+5. 接口不可用、数据过期、样本偏差、字段冲突或关键口径缺失时，保留缺口并降级为数据需求单、调研框架或带假设草案；不得由 LLM 补造销量、趋势、价格、库存、Rank、薪资、法规或经营结论。
+6. 输出必须附数据源登记、数据截止、查询/版本、质量限制、静态快照有效期和下一次刷新 owner。
 
 ## Workflow
 
@@ -53,6 +74,13 @@ description: 审查 AI 生成、替换、扩展和智能剪辑内容的商品真
 3. 发现目标冲突时，明确收入、利润、现金、客户、质量、时效、合规和可逆性之间的取舍，记录决策人。
 4. 执行中出现部分失败时，保护已确认结果，隔离未知状态，停止扩大影响，提供对账、补偿或回滚步骤。
 5. 只有交付物、验证证据、责任交接和剩余风险同时清楚，任务才算完成。
+
+## Evidence freshness gate
+
+- 在结论中标明数据截止、采集时间、来源、版本、适用国家/渠道/系统和刷新周期。
+- 市场、价格、Rank、趋势、库存、平台政策、法律、税务、汇率、软件版本和人员信息等时效事实，必须在本次任务中从授权的一手或当前来源重新核验；不得使用模型记忆冒充实时数据。
+- 单次快照只能说明当前观察，不能写成历史趋势；趋势结论必须有多个时间点或提供历史序列的可靠来源。
+- 来源冲突时保留差异与口径，说明裁决 owner；关键来源过期或不可访问时，降级为调研计划、草案或 `REVIEW_REQUIRED`。
 
 ## Guardrails
 

@@ -1,7 +1,7 @@
 # 跨境财务资深经理周报
 
 > skill id：senior-cross-border-finance-manager-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：财务出纳 / 财务角色 / 跨境财务资深经理
 

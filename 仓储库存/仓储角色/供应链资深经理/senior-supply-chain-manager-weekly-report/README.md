@@ -1,7 +1,7 @@
 # 供应链资深经理周报
 
 > skill id：senior-supply-chain-manager-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：仓储库存 / 仓储角色 / 供应链资深经理
 

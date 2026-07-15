@@ -1,7 +1,7 @@
 # 用户运营资深经理周报
 
 > skill id：senior-user-operations-manager-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：精准营销 / 营销角色 / 用户运营资深经理
 

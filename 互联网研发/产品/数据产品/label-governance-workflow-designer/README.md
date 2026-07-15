@@ -1,7 +1,7 @@
 # 标签治理与审核工作流设计师
 
 > skill id：label-governance-workflow-designer  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：互联网研发 / 产品 / 数据产品
 

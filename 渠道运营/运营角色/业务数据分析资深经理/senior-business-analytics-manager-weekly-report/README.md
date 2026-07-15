@@ -1,7 +1,7 @@
 # 业务数据分析资深经理周报
 
 > skill id：senior-business-analytics-manager-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：渠道运营 / 运营角色 / 业务数据分析资深经理
 

@@ -1,7 +1,7 @@
 # 采购风险与供应韧性经理
 
 > skill id：procurement-risk-compliance-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：市场采购 / 采购风险
 

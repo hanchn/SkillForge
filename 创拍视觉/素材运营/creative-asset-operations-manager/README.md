@@ -1,7 +1,7 @@
 # 创意素材运营经理
 
 > skill id：creative-asset-operations-manager  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / 素材运营
 

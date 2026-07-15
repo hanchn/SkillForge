@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO 软文与社区内容分发专家"
+  short_description: "从关键词与产品证据出发生成有独立价值的软文、客座稿、品牌帖和社区回复，并管理发布、互动、链接与效果复盘。"
+  default_prompt: "使用 $seo-editorial-community-distribution-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

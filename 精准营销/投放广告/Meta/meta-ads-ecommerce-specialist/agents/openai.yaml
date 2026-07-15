@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立站 Meta 广告投放专家"
+  short_description: "以独立站真实利润、新客质量和可验证增量为目标，端到端规划、搭建、诊断和扩量 Meta 广告。"
+  default_prompt: "使用 $meta-ads-ecommerce-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

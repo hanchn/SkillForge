@@ -3,7 +3,7 @@
   "display_name": "Git 安全工作流管理器",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.2",
+  "version": "2.0.5",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -63,7 +63,11 @@
     "不得假设分支名、远端或发布流存在",
     "不得在 master、main、test、pre 直接开发或提交",
     "不得将 test 合并到任何非 test 分支",
-    "合并或环境验证完成后必须安全返回原开发分支"
+    "合并或环境验证完成后必须安全返回原开发分支",
+    "commit 信息去空白后不得为空或少于5个有效字符，且必须说明改动、原因和验证",
+    "异常必须在终端显示失败步骤、原始错误、原因、仓库状态、影响与安全恢复，并返回非零结果",
+    "冲突必须逐文件区分预期与异常；异常或意图不明冲突必须暂停并提示决策人",
+    "非test分支合并前必须检测test-only提交、等价补丁、异常merge父提交和test环境配置污染"
   ],
   "distribution": {
     "share_as_single_folder": true,
@@ -80,14 +84,18 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
       "assets/decision-record-template.md",
       "assets/git-change-plan.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
       "references/safety-checks.md",
       "references/scenario-playbook.md",
+      "scripts/audit_test_contamination.py",
+      "scripts/validate_commit_message.py",
       "skill.json"
     ]
   },

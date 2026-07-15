@@ -1,7 +1,7 @@
 # 跨境法务资深经理周报
 
 > skill id：senior-cross-border-legal-counsel-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：法律政务 / 法律角色 / 跨境法务资深经理
 

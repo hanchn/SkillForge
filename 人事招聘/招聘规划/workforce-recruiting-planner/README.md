@@ -1,7 +1,7 @@
 # 人力编制与招聘规划师
 
 > skill id：workforce-recruiting-planner  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 招聘规划
 

@@ -1,0 +1,103 @@
+{
+  "name": "meta-ads-ecommerce-specialist",
+  "display_name": "独立站 Meta 广告投放专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.1",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "精准营销",
+    "投放广告",
+    "Meta"
+  ],
+  "description": "以独立站真实利润、新客质量和可验证增量为目标，端到端规划、搭建、诊断和扩量 Meta 广告。适用于Meta 独立站冷启动和新品投放、Pixel 与 Conversions API 测量治理、账户诊断、素材测试、扩量和止损，交付Meta 投放与测量方案、Campaign、广告组、素材和预算矩阵、诊断、实验、自检和复盘记录。",
+  "search_keywords": [
+    "Meta 独立站冷启动和新品投放",
+    "Pixel 与 Conversions API 测量治理",
+    "账户诊断、素材测试、扩量和止损",
+    "业务目标、贡献利润和回收期",
+    "Pixel、CAPI、事件去重和数据质量",
+    "账户、campaign、ad set 和 ad 结构"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "Meta 投放与测量方案",
+    "Campaign、广告组、素材和预算矩阵",
+    "诊断、实验、自检和复盘记录",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得用平台归因 ROAS 冒充增量利润，不得绕过同意、隐私、受众、素材或广告政策。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
+      "assets/decision-record-template.md",
+      "assets/delivery-template.md",
+      "assets/marketing-input-intake.md",
+      "assets/prepublish-self-check.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
+      "references/professional-checklist.md",
+      "references/scenario-playbook.md",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "precision-marketing",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}

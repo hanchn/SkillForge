@@ -1,7 +1,7 @@
 # 银行账户与出纳对账专员
 
 > skill id：bank-account-reconciliation-cashier  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：财务出纳 / 银行与对账
 

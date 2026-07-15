@@ -1,7 +1,7 @@
 # 采购订单与交付经理
 
 > skill id：purchase-order-delivery-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：市场采购 / 采购执行
 

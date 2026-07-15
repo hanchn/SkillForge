@@ -1,7 +1,7 @@
 # 劳动用工合规顾问
 
 > skill id：employment-labor-compliance-counsel  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：法律政务 / 劳动用工
 

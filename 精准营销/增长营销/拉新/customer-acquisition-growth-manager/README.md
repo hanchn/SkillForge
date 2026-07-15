@@ -1,7 +1,7 @@
 # 新客获取与拉新增长经理
 
 > skill id：customer-acquisition-growth-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：精准营销 / 增长营销 / 拉新
 

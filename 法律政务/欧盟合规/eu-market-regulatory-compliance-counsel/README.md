@@ -1,7 +1,7 @@
 # 欧盟市场合规顾问
 
 > skill id：eu-market-regulatory-compliance-counsel  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：法律政务 / 欧盟合规
 

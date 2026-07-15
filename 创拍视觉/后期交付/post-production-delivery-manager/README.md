@@ -1,7 +1,7 @@
 # 剪辑后期与素材交付经理
 
 > skill id：post-production-delivery-manager  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / 后期交付
 

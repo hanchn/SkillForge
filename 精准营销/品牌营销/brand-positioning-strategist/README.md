@@ -1,7 +1,7 @@
 # 跨境品牌定位策略师
 
 > skill id：brand-positioning-strategist  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：精准营销 / 品牌营销
 

@@ -1,7 +1,7 @@
 # 客服售前资深经理周报
 
 > skill id：senior-customer-service-presales-manager-weekly-report  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：客服售前 / 客服角色 / 客服售前资深经理
 

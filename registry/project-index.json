@@ -40,7 +40,7 @@
     {
       "name": "skillforge-project-governance",
       "display_name": "SkillForge项目治理",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "package_root": "skillforge-project-governance",
       "entrypoint": "SKILL.md",
       "type": "portable-governance-skill",
@@ -65,7 +65,7 @@
     {
       "name": "git-workflow-manager",
       "display_name": "Git 安全工作流管理器",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "package_root": "互联网研发/git/git-workflow-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -99,7 +99,7 @@
     {
       "name": "product-requirements-architect",
       "display_name": "产品需求架构师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/产品/B端产品/product-requirements-architect",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -131,7 +131,7 @@
     {
       "name": "label-governance-workflow-designer",
       "display_name": "标签治理与审核工作流设计师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/数据产品/label-governance-workflow-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -163,7 +163,7 @@
     {
       "name": "cms-product-architecture",
       "display_name": "CMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/CMS/cms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -195,7 +195,7 @@
     {
       "name": "crm-product-architecture",
       "display_name": "CRM 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/CRM/crm-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -227,7 +227,7 @@
     {
       "name": "ims-product-architecture",
       "display_name": "IMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/IMS/ims-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -259,7 +259,7 @@
     {
       "name": "ofs-product-architecture",
       "display_name": "OFS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/OFS/ofs-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -291,7 +291,7 @@
     {
       "name": "oms-product-architecture",
       "display_name": "OMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/OMS/oms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -323,7 +323,7 @@
     {
       "name": "plm-product-architecture",
       "display_name": "PLM 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/PLM/plm-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -355,7 +355,7 @@
     {
       "name": "tms-product-architecture",
       "display_name": "TMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/TMS/tms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -387,7 +387,7 @@
     {
       "name": "wms-product-architecture",
       "display_name": "WMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/产品/系统产品架构/WMS/wms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -419,7 +419,7 @@
     {
       "name": "commerce-systems-product-architecture",
       "display_name": "跨系统产品架构师",
-      "version": "1.1.2",
+      "version": "1.1.5",
       "package_root": "互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -451,7 +451,7 @@
     {
       "name": "ui-interaction-designer",
       "display_name": "UI 交互设计与实现专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "互联网研发/前端/UI交互/ui-interaction-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -483,7 +483,7 @@
     {
       "name": "frontend-feature-implementer",
       "display_name": "前端功能实现工程师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/前端/前台/frontend-feature-implementer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -514,7 +514,7 @@
     {
       "name": "frontend-localization-verifier",
       "display_name": "前端多语言查验师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/前端/前台/frontend-localization-verifier",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -545,7 +545,7 @@
     {
       "name": "frontend-performance-analyzer",
       "display_name": "前端性能分析师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/前端/前台/frontend-performance-analyzer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -576,7 +576,7 @@
     {
       "name": "web-performance-accessibility-auditor",
       "display_name": "Web 性能与无障碍审计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/前端/前台/web-performance-accessibility-auditor",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -607,7 +607,7 @@
     {
       "name": "frontend-architecture-designer",
       "display_name": "前端架构师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/前端/架构/frontend-architecture-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -639,7 +639,7 @@
     {
       "name": "react-senior-expert",
       "display_name": "React 资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/前端/框架/React/react-senior-expert",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -671,7 +671,7 @@
     {
       "name": "vue3-senior-expert",
       "display_name": "Vue3 资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/前端/框架/Vue3/vue3-senior-expert",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -703,7 +703,7 @@
     {
       "name": "api-contract-designer",
       "display_name": "API 契约设计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/后端/api-contract-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -736,7 +736,7 @@
     {
       "name": "database-migration-planner",
       "display_name": "数据库变更迁移规划师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/后端/database-migration-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -767,7 +767,7 @@
     {
       "name": "backend-service-architect",
       "display_name": "后端服务架构师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/后端/backend-service-architect",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -798,7 +798,7 @@
     {
       "name": "backend-architecture-designer",
       "display_name": "后端架构师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/架构/backend-architecture-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -830,7 +830,7 @@
     {
       "name": "aspnet-core-backend-architecture",
       "display_name": "ASP.NET Core 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -862,7 +862,7 @@
     {
       "name": "fastapi-backend-architecture",
       "display_name": "FastAPI 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/框架/FastAPI/fastapi-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -894,7 +894,7 @@
     {
       "name": "gin-backend-architecture",
       "display_name": "Gin 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/框架/Gin/gin-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -926,7 +926,7 @@
     {
       "name": "laravel-backend-architecture",
       "display_name": "Laravel 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/框架/Laravel/laravel-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -958,7 +958,7 @@
     {
       "name": "nestjs-backend-architecture",
       "display_name": "NestJS 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/框架/NestJS/nestjs-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -990,7 +990,7 @@
     {
       "name": "spring-boot-backend-architecture",
       "display_name": "Spring Boot 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/框架/Spring Boot/spring-boot-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1022,7 +1022,7 @@
     {
       "name": "production-incident-diagnostician",
       "display_name": "生产故障诊断师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/后端/production-incident-diagnostician",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1053,7 +1053,7 @@
     {
       "name": "csharp-backend-architecture",
       "display_name": "C# 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/C#/csharp-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1085,7 +1085,7 @@
     {
       "name": "go-backend-architecture",
       "display_name": "Go 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/Go/go-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1117,7 +1117,7 @@
     {
       "name": "java-backend-architecture",
       "display_name": "Java 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/Java/java-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1149,7 +1149,7 @@
     {
       "name": "nodejs-backend-architecture",
       "display_name": "Node.js 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/Node.js/nodejs-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1181,7 +1181,7 @@
     {
       "name": "php-backend-architecture",
       "display_name": "PHP 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/PHP/php-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1213,7 +1213,7 @@
     {
       "name": "python-backend-architecture",
       "display_name": "Python 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/Python/python-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1245,7 +1245,7 @@
     {
       "name": "rust-backend-architecture",
       "display_name": "Rust 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "互联网研发/后端/语言/Rust/rust-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1277,7 +1277,7 @@
     {
       "name": "test-strategy-designer",
       "display_name": "测试策略设计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "互联网研发/测试/test-strategy-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1309,7 +1309,7 @@
     {
       "name": "fullstack-feature-delivery",
       "display_name": "全栈开发资深专家",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-feature-delivery",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1340,7 +1340,7 @@
     {
       "name": "fullstack-developer-weekly-report",
       "display_name": "全栈开发资深专家周报",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1372,7 +1372,7 @@
     {
       "name": "fullstack-quality-engineer",
       "display_name": "全栈测试资深专家",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-quality-engineer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1403,7 +1403,7 @@
     {
       "name": "fullstack-qa-weekly-report",
       "display_name": "全栈测试资深专家周报",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1435,7 +1435,7 @@
     {
       "name": "senior-hr-recruiting-manager",
       "display_name": "人事招聘资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1467,7 +1467,7 @@
     {
       "name": "senior-hr-recruiting-manager-weekly-report",
       "display_name": "人事招聘资深经理周报",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1499,7 +1499,7 @@
     {
       "name": "candidate-sourcing-operator",
       "display_name": "候选人寻访运营专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/人才寻访/candidate-sourcing-operator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1531,7 +1531,7 @@
     {
       "name": "hr-recruitment-generalist",
       "display_name": "人事招聘通用执行专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/公共/hr-recruitment-generalist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1563,7 +1563,7 @@
     {
       "name": "performance-employee-relations-manager",
       "display_name": "绩效与员工关系管理专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/员工关系/performance-employee-relations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1595,7 +1595,7 @@
     {
       "name": "employee-announcement-writer",
       "display_name": "企业员工公告撰写专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/员工沟通/employee-announcement-writer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1627,7 +1627,7 @@
     {
       "name": "employee-lifecycle-records-manager",
       "display_name": "员工生命周期与档案管理员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/员工生命周期/employee-lifecycle-records-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1659,7 +1659,7 @@
     {
       "name": "employee-training-organization-manager",
       "display_name": "员工培训组织与运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/培训发展/employee-training-organization-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1691,7 +1691,7 @@
     {
       "name": "job-description-generator",
       "display_name": "岗位说明书与招聘 JD 生成专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "人事招聘/岗位与JD/job-description-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1725,7 +1725,7 @@
     {
       "name": "offer-onboarding-manager",
       "display_name": "录用与入职管理专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/录用入职/offer-onboarding-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1757,7 +1757,7 @@
     {
       "name": "workforce-recruiting-planner",
       "display_name": "人力编制与招聘规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/招聘规划/workforce-recruiting-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1789,7 +1789,7 @@
     {
       "name": "structured-interview-designer",
       "display_name": "结构化面试与评估设计师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "人事招聘/面试评估/structured-interview-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1821,7 +1821,7 @@
     {
       "name": "senior-warehouse-inventory-manager",
       "display_name": "仓储库存资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1853,7 +1853,7 @@
     {
       "name": "senior-warehouse-inventory-manager-weekly-report",
       "display_name": "仓储库存资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1885,7 +1885,7 @@
     {
       "name": "senior-supply-chain-manager",
       "display_name": "供应链资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1917,7 +1917,7 @@
     {
       "name": "senior-supply-chain-manager-weekly-report",
       "display_name": "供应链资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1949,7 +1949,7 @@
     {
       "name": "warehouse-safety-capacity-manager",
       "display_name": "仓容、现场安全与连续性经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "仓储库存/仓容安全/warehouse-safety-capacity-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1981,7 +1981,7 @@
     {
       "name": "warehouse-inbound-operations-manager",
       "display_name": "仓库入库作业经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "仓储库存/入库管理/warehouse-inbound-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2013,7 +2013,7 @@
     {
       "name": "warehouse-outbound-fulfillment-manager",
       "display_name": "仓库出库履约经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "仓储库存/出库履约/warehouse-outbound-fulfillment-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2045,7 +2045,7 @@
     {
       "name": "ecommerce-fulfillment-logistics-planner",
       "display_name": "电商履约物流规划师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "仓储库存/履约物流/ecommerce-fulfillment-logistics-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2076,7 +2076,7 @@
     {
       "name": "inventory-allocation-planner",
       "display_name": "多仓多渠道库存分配规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "仓储库存/库存分配/inventory-allocation-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2108,7 +2108,7 @@
     {
       "name": "inventory-control-cycle-count-manager",
       "display_name": "库存控制与循环盘点经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "仓储库存/库存控制/inventory-control-cycle-count-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2139,8 +2139,8 @@
     },
     {
       "name": "inventory-replenishment-planner",
-      "display_name": "多渠道库存补货规划师",
-      "version": "2.0.2",
+      "display_name": "库存补货与分级告警规划师",
+      "version": "2.0.4",
       "package_root": "仓储库存/库存计划/inventory-replenishment-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2150,7 +2150,11 @@
         "周度/月度 SKU 补货计划",
         "大促前备货和渠道分仓",
         "供应延迟或销量突增时重算风险",
-        "库存补货告警与处置闭环"
+        "库存补货告警与处置闭环",
+        "补货告警",
+        "低库存预警",
+        "缺货告警",
+        "在途延期告警"
       ],
       "download_count": 0,
       "classification": {
@@ -2172,7 +2176,7 @@
     {
       "name": "returns-reverse-logistics-manager",
       "display_name": "退货与逆向物流经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "仓储库存/逆向物流/returns-reverse-logistics-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2204,7 +2208,7 @@
     {
       "name": "ai-image-video-production-manager",
       "display_name": "AIGC 创意制作专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/AI创意制作/AIGC制作/ai-image-video-production-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2236,7 +2240,7 @@
     {
       "name": "intelligent-video-editing-specialist",
       "display_name": "智能剪辑工作流专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/AI创意制作/智能剪辑/intelligent-video-editing-specialist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2268,7 +2272,7 @@
     {
       "name": "creative-asset-intelligent-tagging-specialist",
       "display_name": "创意素材智能打标专家",
-      "version": "1.1.0",
+      "version": "1.1.3",
       "package_root": "创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2301,7 +2305,7 @@
     {
       "name": "ai-creative-authenticity-compliance-reviewer",
       "display_name": "AI 创意真实性与合规审查师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/AI创意制作/真实性合规/ai-creative-authenticity-compliance-reviewer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2333,7 +2337,7 @@
     {
       "name": "virtual-model-content-producer",
       "display_name": "虚拟模特内容制作专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/AI创意制作/虚拟模特/virtual-model-content-producer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2365,7 +2369,7 @@
     {
       "name": "ugc-content-production-manager",
       "display_name": "UGC 与达人内容制作经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/UGC制作/ugc-content-production-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2397,7 +2401,7 @@
     {
       "name": "creative-strategy-producer",
       "display_name": "跨境广告创意策略师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/创意策略/creative-strategy-producer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2429,7 +2433,7 @@
     {
       "name": "senior-creative-production-manager",
       "display_name": "创拍视觉资深经理",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "package_root": "创拍视觉/创意角色/创拍视觉资深经理/senior-creative-production-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2461,7 +2465,7 @@
     {
       "name": "senior-creative-production-manager-weekly-report",
       "display_name": "创拍视觉资深经理周报",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "package_root": "创拍视觉/创意角色/创拍视觉资深经理/senior-creative-production-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2493,7 +2497,7 @@
     {
       "name": "post-production-delivery-manager",
       "display_name": "剪辑后期与素材交付经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/后期交付/post-production-delivery-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2525,7 +2529,7 @@
     {
       "name": "product-photography-director",
       "display_name": "商品摄影导演",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/商品摄影/product-photography-director",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2557,7 +2561,7 @@
     {
       "name": "product-photo-video-production-manager",
       "display_name": "商品图片与视频拍摄制作经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/拍摄制作/product-photo-video-production-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2589,7 +2593,7 @@
     {
       "name": "shooting-production-coordinator",
       "display_name": "拍摄制片与现场统筹",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/拍摄统筹/shooting-production-coordinator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2621,7 +2625,7 @@
     {
       "name": "short-form-video-producer",
       "display_name": "跨境短视频制作导演",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/短视频制作/short-form-video-producer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2653,7 +2657,7 @@
     {
       "name": "creative-asset-operations-manager",
       "display_name": "创意素材运营经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "创拍视觉/素材运营/creative-asset-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2685,7 +2689,7 @@
     {
       "name": "senior-customer-service-presales-manager",
       "display_name": "客服售前资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2717,7 +2721,7 @@
     {
       "name": "senior-customer-service-presales-manager-weekly-report",
       "display_name": "客服售前资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2749,7 +2753,7 @@
     {
       "name": "customer-service-voice-manager",
       "display_name": "跨境客服售前运营专家",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "package_root": "客服售前/客服运营/customer-service-voice-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2781,7 +2785,7 @@
     {
       "name": "supplier-sourcing-quality-manager",
       "display_name": "供应商寻源与质量管理器",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "市场采购/供应商与质量/supplier-sourcing-quality-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2812,7 +2816,7 @@
     {
       "name": "supplier-negotiation-cost-manager",
       "display_name": "供应商谈判与成本经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "市场采购/商务谈判/supplier-negotiation-cost-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2844,7 +2848,7 @@
     {
       "name": "market-demand-opportunity-analyst",
       "display_name": "市场需求与商品机会分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "市场采购/市场机会/market-demand-opportunity-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2876,7 +2880,7 @@
     {
       "name": "sample-evaluation-sourcing-manager",
       "display_name": "采购样品验证经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "市场采购/样品验证/sample-evaluation-sourcing-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2908,7 +2912,7 @@
     {
       "name": "ecommerce-product-research",
       "display_name": "跨境电商选品研究",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "市场采购/选品/ecommerce-product-research",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2942,7 +2946,7 @@
     {
       "name": "purchase-order-delivery-manager",
       "display_name": "采购订单与交付经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "市场采购/采购执行/purchase-order-delivery-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -2974,7 +2978,7 @@
     {
       "name": "senior-market-procurement-manager",
       "display_name": "市场采购资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3006,7 +3010,7 @@
     {
       "name": "senior-market-procurement-manager-weekly-report",
       "display_name": "市场采购资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3038,7 +3042,7 @@
     {
       "name": "senior-merchandising-manager",
       "display_name": "选品与商品资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3070,7 +3074,7 @@
     {
       "name": "senior-merchandising-manager-weekly-report",
       "display_name": "选品与商品资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3102,7 +3106,7 @@
     {
       "name": "procurement-risk-compliance-manager",
       "display_name": "采购风险与供应韧性经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "市场采购/采购风险/procurement-risk-compliance-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3134,7 +3138,7 @@
     {
       "name": "advertising-performance-analyst",
       "display_name": "广告效果分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/advertising-performance-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3166,7 +3170,7 @@
     {
       "name": "business-metrics-governance",
       "display_name": "业务指标治理师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/business-metrics-governance",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3198,7 +3202,7 @@
     {
       "name": "conversion-funnel-analyst",
       "display_name": "电商转化漏斗分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/conversion-funnel-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3230,7 +3234,7 @@
     {
       "name": "customer-cohort-ltv-analyst",
       "display_name": "客户 Cohort 与 LTV 分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/customer-cohort-ltv-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3262,7 +3266,7 @@
     {
       "name": "executive-business-review",
       "display_name": "经营分析与周月报专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/executive-business-review",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3294,7 +3298,7 @@
     {
       "name": "forecast-scenario-planner",
       "display_name": "经营预测与情景规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/forecast-scenario-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3326,7 +3330,7 @@
     {
       "name": "inventory-supply-chain-analyst",
       "display_name": "库存与供应链分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/inventory-supply-chain-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3358,7 +3362,7 @@
     {
       "name": "marketplace-channel-comparison-analyst",
       "display_name": "跨平台渠道对比分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/marketplace-channel-comparison-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3390,7 +3394,7 @@
     {
       "name": "pricing-promotion-analyst",
       "display_name": "价格与促销分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/pricing-promotion-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3422,7 +3426,7 @@
     {
       "name": "product-portfolio-analyst",
       "display_name": "商品组合分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/product-portfolio-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3454,7 +3458,7 @@
     {
       "name": "sales-profitability-analyst",
       "display_name": "销售与利润分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/sales-profitability-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3486,7 +3490,7 @@
     {
       "name": "traffic-acquisition-analyst",
       "display_name": "流量与获客分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/业务分析/traffic-acquisition-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3518,7 +3522,7 @@
     {
       "name": "metric-diagnostics",
       "display_name": "业务指标诊断师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "数据看板/metric-diagnostics",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3550,7 +3554,7 @@
     {
       "name": "data-quality-reconciliation",
       "display_name": "业务数据质量与对账专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "数据看板/数据治理/data-quality-reconciliation",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3582,7 +3586,7 @@
     {
       "name": "dispute-resolution-case-manager",
       "display_name": "争议解决案件经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/争议解决/dispute-resolution-case-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3614,7 +3618,7 @@
     {
       "name": "corporate-governance-counsel",
       "display_name": "公司治理法务顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/公司治理/corporate-governance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3646,7 +3650,7 @@
     {
       "name": "employment-labor-compliance-counsel",
       "display_name": "劳动用工合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/劳动用工/employment-labor-compliance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3678,7 +3682,7 @@
     {
       "name": "contract-risk-reviewer",
       "display_name": "合同风险审阅师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "法律政务/contract-risk-reviewer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3710,7 +3714,7 @@
     {
       "name": "advertising-claims-legal-reviewer",
       "display_name": "广告声明法律审查师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/广告与消费者保护/advertising-claims-legal-reviewer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3742,7 +3746,7 @@
     {
       "name": "eu-market-regulatory-compliance-counsel",
       "display_name": "欧盟市场合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/欧盟合规/eu-market-regulatory-compliance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3774,7 +3778,7 @@
     {
       "name": "senior-cross-border-legal-counsel",
       "display_name": "跨境法务资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3806,7 +3810,7 @@
     {
       "name": "senior-cross-border-legal-counsel-weekly-report",
       "display_name": "跨境法务资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3838,7 +3842,7 @@
     {
       "name": "intellectual-property-protection-counsel",
       "display_name": "知识产权保护顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/知识产权/intellectual-property-protection-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3870,7 +3874,7 @@
     {
       "name": "us-market-regulatory-compliance-counsel",
       "display_name": "美国市场合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/美国合规/us-market-regulatory-compliance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3902,7 +3906,7 @@
     {
       "name": "cross-border-regulatory-compliance-counsel",
       "display_name": "跨境监管合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/跨境监管/cross-border-regulatory-compliance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3934,7 +3938,7 @@
     {
       "name": "import-export-trade-compliance-reviewer",
       "display_name": "进出口贸易合规审查顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/进出口合规/import-export-trade-compliance-reviewer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3966,7 +3970,7 @@
     {
       "name": "privacy-data-protection-counsel",
       "display_name": "隐私与数据保护顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "法律政务/隐私与数据/privacy-data-protection-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -3998,7 +4002,7 @@
     {
       "name": "product-compliance-risk-manager",
       "display_name": "跨境商品合规风险管理器",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "渠道运营/合规/product-compliance-risk-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4029,7 +4033,7 @@
     {
       "name": "pricing-promotion-optimizer",
       "display_name": "定价与促销优化经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/商业化/pricing-promotion-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4061,7 +4065,7 @@
     {
       "name": "marketplace-listing-optimizer",
       "display_name": "平台商品信息优化师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/商品运营/marketplace-listing-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4093,7 +4097,7 @@
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "version": "2.1.0",
+      "version": "2.1.2",
       "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4134,7 +4138,7 @@
     {
       "name": "shopify-conversion-auditor",
       "display_name": "Shopify 转化审计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "渠道运营/多渠道运营/独立站/shopify-conversion-auditor",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4167,7 +4171,7 @@
     {
       "name": "storefront-product-publishing-manager",
       "display_name": "独立站产品上下架管理器",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "渠道运营/多渠道运营/独立站/storefront-product-publishing-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4200,7 +4204,7 @@
     {
       "name": "review-reputation-manager",
       "display_name": "评价与品牌声誉经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/客户体验/review-reputation-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4232,7 +4236,7 @@
     {
       "name": "channel-portfolio-strategist",
       "display_name": "跨境渠道组合策略师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/平台运营/channel-portfolio-strategist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4264,7 +4268,7 @@
     {
       "name": "tiktok-shop-operations-manager",
       "display_name": "TikTok Shop 运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4296,7 +4300,7 @@
     {
       "name": "amazon-store-operations-manager",
       "display_name": "亚马逊店铺运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/平台运营/亚马逊/amazon-store-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4328,7 +4332,7 @@
     {
       "name": "shopify-store-operations-manager",
       "display_name": "Shopify 独立站运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "渠道运营/平台运营/独立站/shopify-store-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4360,7 +4364,7 @@
     {
       "name": "ecommerce-unit-economics-analyst",
       "display_name": "电商单位经济模型分析师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "渠道运营/经营分析/ecommerce-unit-economics-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4391,7 +4395,7 @@
     {
       "name": "senior-tiktok-shop-operations-manager",
       "display_name": "TikTok Shop 运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4423,7 +4427,7 @@
     {
       "name": "senior-tiktok-shop-operations-manager-weekly-report",
       "display_name": "TikTok Shop 运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4455,7 +4459,7 @@
     {
       "name": "senior-business-analytics-manager",
       "display_name": "业务数据分析资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4487,7 +4491,7 @@
     {
       "name": "senior-business-analytics-manager-weekly-report",
       "display_name": "业务数据分析资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4519,7 +4523,7 @@
     {
       "name": "senior-amazon-operations-manager",
       "display_name": "亚马逊运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4551,7 +4555,7 @@
     {
       "name": "senior-amazon-operations-manager-weekly-report",
       "display_name": "亚马逊运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4583,7 +4587,7 @@
     {
       "name": "senior-customer-experience-manager",
       "display_name": "客户体验资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4615,7 +4619,7 @@
     {
       "name": "senior-customer-experience-manager-weekly-report",
       "display_name": "客户体验资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4647,7 +4651,7 @@
     {
       "name": "senior-dtc-operations-manager",
       "display_name": "独立站运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4679,7 +4683,7 @@
     {
       "name": "senior-dtc-operations-manager-weekly-report",
       "display_name": "独立站运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4711,7 +4715,7 @@
     {
       "name": "senior-cross-border-commerce-leader",
       "display_name": "跨境电商资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4743,7 +4747,7 @@
     {
       "name": "senior-cross-border-commerce-leader-weekly-report",
       "display_name": "跨境电商资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4773,9 +4777,74 @@
       }
     },
     {
+      "name": "geo-machine-readable-publisher",
+      "display_name": "GEO 机器可读内容发布专家",
+      "version": "1.0.2",
+      "package_root": "精准营销/GEO技术发布/geo-machine-readable-publisher",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "静态资料或 PDP/PIM/CMS 接口接入与可信知识库建设",
+        "单站 llms.txt 与 llms-full.txt 生成",
+        "商品、文章、组织和 FAQ Schema 批量生成",
+        "GEO 文件发布、抽样验证和版本更新",
+        "静态资料、PDP/PIM/CMS 与功能接口",
+        "字段级来源、授权、刷新、冲突和知识版本",
+        "站点事实、canonical URL 和内容可见性"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "precision-marketing",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
+      "name": "seo-editorial-community-distribution-specialist",
+      "display_name": "SEO 软文与社区内容分发专家",
+      "version": "1.0.1",
+      "package_root": "精准营销/SEO内容分发/seo-editorial-community-distribution-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "SEO 软文和客座文章生成",
+        "论坛、问答和社区品牌发帖",
+        "多站点内容分发、更新和效果复盘",
+        "关键词库、意图和主题覆盖",
+        "产品事实、作者经验和可引用证据",
+        "媒体、论坛和社区规则"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "precision-marketing",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
       "name": "content-marketing-planner",
       "display_name": "跨境内容营销规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/内容营销/content-marketing-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4807,7 +4876,7 @@
     {
       "name": "brand-positioning-strategist",
       "display_name": "跨境品牌定位策略师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/品牌营销/brand-positioning-strategist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4839,7 +4908,7 @@
     {
       "name": "cross-border-growth-operator",
       "display_name": "跨境全链路增长负责人",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/增长营销/cross-border-growth-operator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4871,7 +4940,7 @@
     {
       "name": "marketing-attribution-planner",
       "display_name": "跨渠道营销归因规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/增长营销/marketing-attribution-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4903,7 +4972,7 @@
     {
       "name": "customer-acquisition-growth-manager",
       "display_name": "新客获取与拉新增长经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/增长营销/拉新/customer-acquisition-growth-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4935,7 +5004,7 @@
     {
       "name": "cross-border-market-intelligence",
       "display_name": "跨境市场情报分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/市场策略/cross-border-market-intelligence",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4967,7 +5036,7 @@
     {
       "name": "go-to-market-launch-planner",
       "display_name": "跨境上市规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/市场策略/go-to-market-launch-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4997,9 +5066,73 @@
       }
     },
     {
+      "name": "google-ads-ecommerce-specialist",
+      "display_name": "独立站 Google Ads 投放专家",
+      "version": "1.0.1",
+      "package_root": "精准营销/投放广告/Google/google-ads-ecommerce-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Google Search、Shopping 与 Performance Max 投放",
+        "Merchant Center、Feed 和转化跟踪诊断",
+        "搜索词治理、预算扩量和利润止损",
+        "转化目标、价值、增强型转化和同意",
+        "Search 关键词、搜索词和否定词",
+        "Merchant Center Feed 与商品诊断"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "precision-marketing",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
+      "name": "meta-ads-ecommerce-specialist",
+      "display_name": "独立站 Meta 广告投放专家",
+      "version": "1.0.1",
+      "package_root": "精准营销/投放广告/Meta/meta-ads-ecommerce-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Meta 独立站冷启动和新品投放",
+        "Pixel 与 Conversions API 测量治理",
+        "账户诊断、素材测试、扩量和止损",
+        "业务目标、贡献利润和回收期",
+        "Pixel、CAPI、事件去重和数据质量",
+        "账户、campaign、ad set 和 ad 结构"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "precision-marketing",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
       "name": "commerce-advertising-optimizer",
       "display_name": "多渠道电商广告优化师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "package_root": "精准营销/推广营销/commerce-advertising-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5030,7 +5163,7 @@
     {
       "name": "geo-optimizer",
       "display_name": "GEO 引用就绪优化师",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "package_root": "精准营销/推广营销/geo-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5063,7 +5196,7 @@
     {
       "name": "seo-optimizer",
       "display_name": "SEO 内容优化师",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "package_root": "精准营销/推广营销/seo-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5096,7 +5229,7 @@
     {
       "name": "promotion-calendar-manager",
       "display_name": "跨境活动营销经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/活动营销/promotion-calendar-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5128,7 +5261,7 @@
     {
       "name": "customer-retention-loyalty-manager",
       "display_name": "客户留存与忠诚度经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5160,7 +5293,7 @@
     {
       "name": "email-lifecycle-marketer",
       "display_name": "邮件生命周期营销师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/用户运营/email-lifecycle-marketer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5192,7 +5325,7 @@
     {
       "name": "social-media-operations-manager",
       "display_name": "跨境社媒运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/社媒营销/social-media-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5224,7 +5357,7 @@
     {
       "name": "senior-brand-content-manager",
       "display_name": "品牌与内容资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5256,7 +5389,7 @@
     {
       "name": "senior-brand-content-manager-weekly-report",
       "display_name": "品牌与内容资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5288,7 +5421,7 @@
     {
       "name": "senior-growth-marketing-manager",
       "display_name": "增长营销资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5320,7 +5453,7 @@
     {
       "name": "senior-growth-marketing-manager-weekly-report",
       "display_name": "增长营销资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5352,7 +5485,7 @@
     {
       "name": "senior-user-operations-manager",
       "display_name": "用户运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "精准营销/营销角色/用户运营资深经理/senior-user-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5384,7 +5517,7 @@
     {
       "name": "senior-user-operations-manager-weekly-report",
       "display_name": "用户运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "精准营销/营销角色/用户运营资深经理/senior-user-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5416,7 +5549,7 @@
     {
       "name": "influencer-affiliate-manager",
       "display_name": "达人与联盟营销经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "精准营销/达人联盟/influencer-affiliate-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5448,7 +5581,7 @@
     {
       "name": "senior-cashier-treasury-specialist",
       "display_name": "资金出纳资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5480,7 +5613,7 @@
     {
       "name": "senior-cashier-treasury-specialist-weekly-report",
       "display_name": "资金出纳资深经理周报",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5512,7 +5645,7 @@
     {
       "name": "expense-reimbursement-cashier",
       "display_name": "报销与票据出纳专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/报销与票据/expense-reimbursement-cashier",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5544,7 +5677,7 @@
     {
       "name": "payment-receipt-operations-manager",
       "display_name": "收付款执行管理员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/收付款/payment-receipt-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5576,7 +5709,7 @@
     {
       "name": "financial-close-reconciliation-manager",
       "display_name": "财务关账与对账经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/核算关账/financial-close-reconciliation-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5608,7 +5741,7 @@
     {
       "name": "cross-border-tax-vat-planner",
       "display_name": "跨境税务与 VAT 规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/税务合规/cross-border-tax-vat-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5640,7 +5773,7 @@
     {
       "name": "management-accounting-profitability-manager",
       "display_name": "经营财务与利润经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/经营财务/management-accounting-profitability-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5672,7 +5805,7 @@
     {
       "name": "senior-cross-border-finance-manager",
       "display_name": "跨境财务资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5704,7 +5837,7 @@
     {
       "name": "senior-cross-border-finance-manager-weekly-report",
       "display_name": "跨境财务资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "package_root": "财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5736,7 +5869,7 @@
     {
       "name": "cash-security-access-controller",
       "display_name": "资金安全与支付权限控制专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/资金安全/cash-security-access-controller",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5768,7 +5901,7 @@
     {
       "name": "cash-flow-working-capital-manager",
       "display_name": "现金流与营运资金经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/资金管理/cash-flow-working-capital-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5800,7 +5933,7 @@
     {
       "name": "multi-currency-treasury-manager",
       "display_name": "多币种资金与汇率经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/资金管理/multi-currency-treasury-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5832,7 +5965,7 @@
     {
       "name": "bank-account-reconciliation-cashier",
       "display_name": "银行账户与出纳对账专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/银行与对账/bank-account-reconciliation-cashier",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -5864,7 +5997,7 @@
     {
       "name": "budget-forecast-controller",
       "display_name": "预算与预测控制经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "package_root": "财务出纳/预算管理/budget-forecast-controller",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",

@@ -1,7 +1,7 @@
 # AIGC 创意制作专家
 
 > skill id：ai-image-video-production-manager  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / AI创意制作 / AIGC制作
 

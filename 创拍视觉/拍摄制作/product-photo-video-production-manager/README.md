@@ -1,7 +1,7 @@
 # 商品图片与视频拍摄制作经理
 
 > skill id：product-photo-video-production-manager  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / 拍摄制作
 

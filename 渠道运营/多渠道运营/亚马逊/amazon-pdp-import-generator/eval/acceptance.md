@@ -17,6 +17,16 @@
 - [ ] No unsupported material, performance, certification, safety, warranty, origin, or compatibility claim appears.
 - [ ] Generic output is described as a review draft, not guaranteed upload-ready.
 
+## Image compliance
+
+- [ ] Current target marketplace and category image rules were captured with source, date and version; unavailable rules cause `REVIEW_REQUIRED`.
+- [ ] `image_compliance_report.csv` records every image's path, role, format, width, height, longest side, byte size, aspect ratio, zoom eligibility, status and reason.
+- [ ] Images outside the verified pixel range, byte-size limit, accepted formats or non-animation rule are blocked or explicitly reviewed.
+- [ ] No arbitrary mandatory aspect ratio was invented; actual ratios and mobile/desktop cropping or inconsistent-gallery risks were reviewed.
+- [ ] Main image was checked for pure white background where required, product fill, focus, actual included product, and absence of disallowed text, graphics, watermarks, props or accessories.
+- [ ] Secondary images were checked for factual accuracy, readable text, marketplace language, rights, claims and consistency with the SKU/variation.
+- [ ] Automated checks were not treated as proof of copyright, model/property release, product truth or category-specific compliance.
+
 ## Market Rank and trend evidence
 
 - [ ] Target marketplace, category, language, price band, query set and collection time are explicit.
@@ -42,3 +52,18 @@
 - [ ] `assets/pdp-self-check-checklist.md` was completed after the final draft.
 - [ ] Fact, SEO, GEO, field-limit, duplication, variation, image, compliance, localization and template checks passed or are explicitly blocked.
 - [ ] Failed checks were repaired and rerun; unresolved items have an owner and prevent upload-ready claims.
+
+
+## 交付物专项验收
+
+- [ ] 已询问使用者现有数据、系统、模板、词库、规则、优先级和不可改变项
+- [ ] 已标明时效事实的数据截止、采集时间、来源、版本和适用范围
+- [ ] `amazon_pdp_import_draft.xlsx` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] `amazon_pdp_import_draft.csv` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] `parse_log.csv` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] `review_summary.md` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] `market_keyword_research.md` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] `pdp_self_check_report.md` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] `image_compliance_report.csv` 已完整交付，并有下游使用者、验收证据和剩余风险
+- [ ] 已覆盖正常路径、关键异常、暂停条件、人工升级、补偿或回滚
+- [ ] 最终结论明确事实、假设、未知项、owner、审批和下一次复核时间

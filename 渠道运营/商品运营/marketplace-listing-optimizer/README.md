@@ -1,7 +1,7 @@
 # 平台商品信息优化师
 
 > skill id：marketplace-listing-optimizer  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：渠道运营 / 商品运营
 

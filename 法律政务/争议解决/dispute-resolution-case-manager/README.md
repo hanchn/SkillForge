@@ -1,7 +1,7 @@
 # 争议解决案件经理
 
 > skill id：dispute-resolution-case-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：法律政务 / 争议解决
 

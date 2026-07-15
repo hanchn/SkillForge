@@ -22,7 +22,7 @@
 - [电商履约物流规划师](履约物流/ecommerce-fulfillment-logistics-planner/README.md)：Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience
 - [多仓多渠道库存分配规划师](库存分配/inventory-allocation-planner/README.md)：按需求、服务水平、利润、交期、仓容和调拨成本分配多仓多渠道可用库存。适用于Amazon、独立站和 TikTok 库存分配、多仓调拨和缺货配给、大促、新品和区域备货，交付库存分配规则与配额、仓渠道调拨计划、服务、成本、缺货和风险情景。
 - [库存控制与循环盘点经理](库存控制/inventory-control-cycle-count-manager/README.md)：建立库存账实准确、循环盘点、冻结、差异调查、调整审批和损耗治理机制。适用于日常循环盘点、月末或年度盘点、库存差异、负库存和异常损耗治理，交付盘点策略与计划、账实差异和根因报告、调整审批、控制和持续改善清单。
-- [多渠道库存补货规划师](库存计划/inventory-replenishment-planner/README.md)：Plan and monitor multi-channel replenishment end to end, including inventory alerts, demand, lead time, safety stock, order timing, channel allocation, cash and storage constraints
+- [库存补货与分级告警规划师](库存计划/inventory-replenishment-planner/README.md)：端到端完成多渠道库存补货与分级告警，包括需求和交期、安全库存、告警阈值、异常队列、认领 SLA、采购交接、关闭复盘、渠道分配、现金和仓储约束
 - [退货与逆向物流经理](逆向物流/returns-reverse-logistics-manager/README.md)：管理退货授权、运输、收货、检验、分级、退款证据、翻新、再售、报废和供应商追偿。适用于客户退货处理、平台退仓和批量逆向、残次、翻新、再售与报废治理，交付逆向流程与状态机、检验分级和处置标准、退款、库存、追偿和根因报告。
 
 ## 迭代记录

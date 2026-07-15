@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO 机器可读内容发布专家"
+  short_description: "从合规静态资料与 PDP/PIM/CMS 等授权接口构建可追溯 GEO 可信知识库，生成和维护 llms.txt、llm"
+  default_prompt: "使用 $geo-machine-readable-publisher 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,7 +1,7 @@
 # 跨境客服售前运营专家
 
 > skill id：customer-service-voice-manager  
-> 当前版本：2.0.2
+> 当前版本：2.0.5
 > 产品状态：可用  
 > 所属分类：客服售前 / 客服运营
 

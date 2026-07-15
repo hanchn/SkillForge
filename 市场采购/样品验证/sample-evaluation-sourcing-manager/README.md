@@ -1,7 +1,7 @@
 # 采购样品验证经理
 
 > skill id：sample-evaluation-sourcing-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：市场采购 / 样品验证
 

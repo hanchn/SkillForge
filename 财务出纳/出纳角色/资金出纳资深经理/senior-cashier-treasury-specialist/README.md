@@ -1,7 +1,7 @@
 # 资金出纳资深经理
 
 > skill id：senior-cashier-treasury-specialist  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：财务出纳 / 出纳角色 / 资金出纳资深经理
 

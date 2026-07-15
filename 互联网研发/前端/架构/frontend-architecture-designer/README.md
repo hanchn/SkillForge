@@ -1,7 +1,7 @@
 # 前端架构师
 
 > skill id：frontend-architecture-designer  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：互联网研发 / 前端 / 架构
 

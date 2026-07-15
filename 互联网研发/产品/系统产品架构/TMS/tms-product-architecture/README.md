@@ -1,7 +1,7 @@
 # TMS 产品架构师
 
 > skill id：tms-product-architecture  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：互联网研发 / 产品 / 系统产品架构 / TMS
 

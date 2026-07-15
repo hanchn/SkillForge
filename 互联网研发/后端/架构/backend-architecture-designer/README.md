@@ -1,7 +1,7 @@
 # 后端架构师
 
 > skill id：backend-architecture-designer  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：互联网研发 / 后端 / 架构
 

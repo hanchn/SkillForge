@@ -1,7 +1,7 @@
 # 人事招聘资深经理周报
 
 > skill id：senior-hr-recruiting-manager-weekly-report  
-> 当前版本：1.0.4
+> 当前版本：1.0.7
 > 产品状态：可用  
 > 所属分类：人事招聘 / 人事角色 / 人事招聘资深经理
 

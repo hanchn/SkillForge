@@ -1,7 +1,7 @@
 # 跨渠道营销归因规划师
 
 > skill id：marketing-attribution-planner  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：精准营销 / 增长营销
 

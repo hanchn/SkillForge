@@ -1,14 +1,14 @@
 {
   "standard": "SKILL_DEPTH_STANDARD.md",
-  "skills": 183,
+  "skills": 187,
   "grades": {
-    "A": 183
+    "A": 187
   },
   "results": [
     {
       "name": "skillforge-project-governance",
       "display_name": "SkillForge项目治理",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "category_path": [
         "project-root"
       ],
@@ -20,7 +20,7 @@
     {
       "name": "label-governance-workflow-designer",
       "display_name": "标签治理与审核工作流设计师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -34,7 +34,7 @@
     {
       "name": "cms-product-architecture",
       "display_name": "CMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -49,7 +49,7 @@
     {
       "name": "crm-product-architecture",
       "display_name": "CRM 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -64,7 +64,7 @@
     {
       "name": "ims-product-architecture",
       "display_name": "IMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -79,7 +79,7 @@
     {
       "name": "ofs-product-architecture",
       "display_name": "OFS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -94,7 +94,7 @@
     {
       "name": "oms-product-architecture",
       "display_name": "OMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -109,7 +109,7 @@
     {
       "name": "plm-product-architecture",
       "display_name": "PLM 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -124,7 +124,7 @@
     {
       "name": "tms-product-architecture",
       "display_name": "TMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -139,7 +139,7 @@
     {
       "name": "wms-product-architecture",
       "display_name": "WMS 产品架构师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -154,7 +154,7 @@
     {
       "name": "commerce-systems-product-architecture",
       "display_name": "跨系统产品架构师",
-      "version": "1.1.2",
+      "version": "1.1.5",
       "category_path": [
         "互联网研发",
         "产品",
@@ -169,7 +169,7 @@
     {
       "name": "ui-interaction-designer",
       "display_name": "UI 交互设计与实现专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "前端",
@@ -183,7 +183,7 @@
     {
       "name": "frontend-feature-implementer",
       "display_name": "前端功能实现工程师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "前端",
@@ -198,7 +198,7 @@
     {
       "name": "frontend-localization-verifier",
       "display_name": "前端多语言查验师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "前端",
@@ -213,7 +213,7 @@
     {
       "name": "frontend-performance-analyzer",
       "display_name": "前端性能分析师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "前端",
@@ -228,7 +228,7 @@
     {
       "name": "web-performance-accessibility-auditor",
       "display_name": "Web 性能与无障碍审计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "前端",
@@ -243,7 +243,7 @@
     {
       "name": "frontend-architecture-designer",
       "display_name": "前端架构师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "前端",
@@ -257,7 +257,7 @@
     {
       "name": "react-senior-expert",
       "display_name": "React 资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "前端",
@@ -272,7 +272,7 @@
     {
       "name": "vue3-senior-expert",
       "display_name": "Vue3 资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "前端",
@@ -287,7 +287,7 @@
     {
       "name": "database-migration-planner",
       "display_name": "数据库变更迁移规划师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "后端",
@@ -301,7 +301,7 @@
     {
       "name": "backend-service-architect",
       "display_name": "后端服务架构师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "后端",
@@ -315,7 +315,7 @@
     {
       "name": "backend-architecture-designer",
       "display_name": "后端架构师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -329,7 +329,7 @@
     {
       "name": "aspnet-core-backend-architecture",
       "display_name": "ASP.NET Core 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -344,7 +344,7 @@
     {
       "name": "fastapi-backend-architecture",
       "display_name": "FastAPI 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -359,7 +359,7 @@
     {
       "name": "gin-backend-architecture",
       "display_name": "Gin 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -374,7 +374,7 @@
     {
       "name": "laravel-backend-architecture",
       "display_name": "Laravel 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -389,7 +389,7 @@
     {
       "name": "nestjs-backend-architecture",
       "display_name": "NestJS 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -404,7 +404,7 @@
     {
       "name": "spring-boot-backend-architecture",
       "display_name": "Spring Boot 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -419,7 +419,7 @@
     {
       "name": "production-incident-diagnostician",
       "display_name": "生产故障诊断师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "后端",
@@ -433,7 +433,7 @@
     {
       "name": "csharp-backend-architecture",
       "display_name": "C# 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -448,7 +448,7 @@
     {
       "name": "go-backend-architecture",
       "display_name": "Go 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -463,7 +463,7 @@
     {
       "name": "java-backend-architecture",
       "display_name": "Java 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -478,7 +478,7 @@
     {
       "name": "nodejs-backend-architecture",
       "display_name": "Node.js 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -493,7 +493,7 @@
     {
       "name": "php-backend-architecture",
       "display_name": "PHP 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -508,7 +508,7 @@
     {
       "name": "python-backend-architecture",
       "display_name": "Python 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -523,7 +523,7 @@
     {
       "name": "rust-backend-architecture",
       "display_name": "Rust 后端资深专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "后端",
@@ -538,7 +538,7 @@
     {
       "name": "fullstack-feature-delivery",
       "display_name": "全栈开发资深专家",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "研发角色",
@@ -552,7 +552,7 @@
     {
       "name": "fullstack-developer-weekly-report",
       "display_name": "全栈开发资深专家周报",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "研发角色",
@@ -567,7 +567,7 @@
     {
       "name": "fullstack-quality-engineer",
       "display_name": "全栈测试资深专家",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "category_path": [
         "互联网研发",
         "研发角色",
@@ -581,7 +581,7 @@
     {
       "name": "fullstack-qa-weekly-report",
       "display_name": "全栈测试资深专家周报",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "category_path": [
         "互联网研发",
         "研发角色",
@@ -596,7 +596,7 @@
     {
       "name": "senior-hr-recruiting-manager",
       "display_name": "人事招聘资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "人事招聘",
         "人事角色",
@@ -610,7 +610,7 @@
     {
       "name": "senior-hr-recruiting-manager-weekly-report",
       "display_name": "人事招聘资深经理周报",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "category_path": [
         "人事招聘",
         "人事角色",
@@ -624,7 +624,7 @@
     {
       "name": "candidate-sourcing-operator",
       "display_name": "候选人寻访运营专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "人才寻访"
@@ -637,7 +637,7 @@
     {
       "name": "hr-recruitment-generalist",
       "display_name": "人事招聘通用执行专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "公共"
@@ -650,7 +650,7 @@
     {
       "name": "performance-employee-relations-manager",
       "display_name": "绩效与员工关系管理专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "员工关系"
@@ -663,7 +663,7 @@
     {
       "name": "employee-announcement-writer",
       "display_name": "企业员工公告撰写专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "员工沟通"
@@ -676,7 +676,7 @@
     {
       "name": "employee-lifecycle-records-manager",
       "display_name": "员工生命周期与档案管理员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "员工生命周期"
@@ -689,7 +689,7 @@
     {
       "name": "employee-training-organization-manager",
       "display_name": "员工培训组织与运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "培训发展"
@@ -702,7 +702,7 @@
     {
       "name": "job-description-generator",
       "display_name": "岗位说明书与招聘 JD 生成专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "人事招聘",
         "岗位与JD"
@@ -715,7 +715,7 @@
     {
       "name": "offer-onboarding-manager",
       "display_name": "录用与入职管理专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "录用入职"
@@ -728,7 +728,7 @@
     {
       "name": "workforce-recruiting-planner",
       "display_name": "人力编制与招聘规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "招聘规划"
@@ -741,7 +741,7 @@
     {
       "name": "structured-interview-designer",
       "display_name": "结构化面试与评估设计师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "人事招聘",
         "面试评估"
@@ -754,7 +754,7 @@
     {
       "name": "senior-warehouse-inventory-manager",
       "display_name": "仓储库存资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "仓储库存",
         "仓储角色",
@@ -768,7 +768,7 @@
     {
       "name": "senior-warehouse-inventory-manager-weekly-report",
       "display_name": "仓储库存资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "仓储库存",
         "仓储角色",
@@ -782,7 +782,7 @@
     {
       "name": "senior-supply-chain-manager",
       "display_name": "供应链资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "仓储库存",
         "仓储角色",
@@ -796,7 +796,7 @@
     {
       "name": "senior-supply-chain-manager-weekly-report",
       "display_name": "供应链资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "仓储库存",
         "仓储角色",
@@ -810,7 +810,7 @@
     {
       "name": "warehouse-safety-capacity-manager",
       "display_name": "仓容、现场安全与连续性经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "仓储库存",
         "仓容安全"
@@ -823,7 +823,7 @@
     {
       "name": "warehouse-inbound-operations-manager",
       "display_name": "仓库入库作业经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "仓储库存",
         "入库管理"
@@ -836,7 +836,7 @@
     {
       "name": "warehouse-outbound-fulfillment-manager",
       "display_name": "仓库出库履约经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "仓储库存",
         "出库履约"
@@ -849,7 +849,7 @@
     {
       "name": "ecommerce-fulfillment-logistics-planner",
       "display_name": "电商履约物流规划师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "仓储库存",
         "履约物流"
@@ -862,7 +862,7 @@
     {
       "name": "inventory-allocation-planner",
       "display_name": "多仓多渠道库存分配规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "仓储库存",
         "库存分配"
@@ -875,7 +875,7 @@
     {
       "name": "inventory-control-cycle-count-manager",
       "display_name": "库存控制与循环盘点经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "仓储库存",
         "库存控制"
@@ -887,8 +887,8 @@
     },
     {
       "name": "inventory-replenishment-planner",
-      "display_name": "多渠道库存补货规划师",
-      "version": "2.0.2",
+      "display_name": "库存补货与分级告警规划师",
+      "version": "2.0.4",
       "category_path": [
         "仓储库存",
         "库存计划"
@@ -901,7 +901,7 @@
     {
       "name": "returns-reverse-logistics-manager",
       "display_name": "退货与逆向物流经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "仓储库存",
         "逆向物流"
@@ -914,7 +914,7 @@
     {
       "name": "ai-image-video-production-manager",
       "display_name": "AIGC 创意制作专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "AI创意制作",
@@ -928,7 +928,7 @@
     {
       "name": "intelligent-video-editing-specialist",
       "display_name": "智能剪辑工作流专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "AI创意制作",
@@ -942,7 +942,7 @@
     {
       "name": "creative-asset-intelligent-tagging-specialist",
       "display_name": "创意素材智能打标专家",
-      "version": "1.1.0",
+      "version": "1.1.3",
       "category_path": [
         "创拍视觉",
         "AI创意制作",
@@ -956,7 +956,7 @@
     {
       "name": "ai-creative-authenticity-compliance-reviewer",
       "display_name": "AI 创意真实性与合规审查师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "AI创意制作",
@@ -970,7 +970,7 @@
     {
       "name": "virtual-model-content-producer",
       "display_name": "虚拟模特内容制作专家",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "AI创意制作",
@@ -984,7 +984,7 @@
     {
       "name": "ugc-content-production-manager",
       "display_name": "UGC 与达人内容制作经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "UGC制作"
@@ -997,7 +997,7 @@
     {
       "name": "creative-strategy-producer",
       "display_name": "跨境广告创意策略师",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "创意策略"
@@ -1010,7 +1010,7 @@
     {
       "name": "senior-creative-production-manager",
       "display_name": "创拍视觉资深经理",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "category_path": [
         "创拍视觉",
         "创意角色",
@@ -1024,7 +1024,7 @@
     {
       "name": "senior-creative-production-manager-weekly-report",
       "display_name": "创拍视觉资深经理周报",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "category_path": [
         "创拍视觉",
         "创意角色",
@@ -1038,7 +1038,7 @@
     {
       "name": "post-production-delivery-manager",
       "display_name": "剪辑后期与素材交付经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "后期交付"
@@ -1051,7 +1051,7 @@
     {
       "name": "product-photography-director",
       "display_name": "商品摄影导演",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "商品摄影"
@@ -1064,7 +1064,7 @@
     {
       "name": "product-photo-video-production-manager",
       "display_name": "商品图片与视频拍摄制作经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "拍摄制作"
@@ -1077,7 +1077,7 @@
     {
       "name": "shooting-production-coordinator",
       "display_name": "拍摄制片与现场统筹",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "拍摄统筹"
@@ -1090,7 +1090,7 @@
     {
       "name": "short-form-video-producer",
       "display_name": "跨境短视频制作导演",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "短视频制作"
@@ -1103,7 +1103,7 @@
     {
       "name": "creative-asset-operations-manager",
       "display_name": "创意素材运营经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "创拍视觉",
         "素材运营"
@@ -1116,7 +1116,7 @@
     {
       "name": "senior-customer-service-presales-manager",
       "display_name": "客服售前资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "客服售前",
         "客服角色",
@@ -1130,7 +1130,7 @@
     {
       "name": "senior-customer-service-presales-manager-weekly-report",
       "display_name": "客服售前资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "客服售前",
         "客服角色",
@@ -1144,7 +1144,7 @@
     {
       "name": "customer-service-voice-manager",
       "display_name": "跨境客服售前运营专家",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "category_path": [
         "客服售前",
         "客服运营"
@@ -1157,7 +1157,7 @@
     {
       "name": "supplier-sourcing-quality-manager",
       "display_name": "供应商寻源与质量管理器",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "市场采购",
         "供应商与质量"
@@ -1170,7 +1170,7 @@
     {
       "name": "supplier-negotiation-cost-manager",
       "display_name": "供应商谈判与成本经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "市场采购",
         "商务谈判"
@@ -1183,7 +1183,7 @@
     {
       "name": "market-demand-opportunity-analyst",
       "display_name": "市场需求与商品机会分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "市场采购",
         "市场机会"
@@ -1196,7 +1196,7 @@
     {
       "name": "sample-evaluation-sourcing-manager",
       "display_name": "采购样品验证经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "市场采购",
         "样品验证"
@@ -1209,7 +1209,7 @@
     {
       "name": "purchase-order-delivery-manager",
       "display_name": "采购订单与交付经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "市场采购",
         "采购执行"
@@ -1222,7 +1222,7 @@
     {
       "name": "senior-market-procurement-manager",
       "display_name": "市场采购资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "市场采购",
         "采购角色",
@@ -1236,7 +1236,7 @@
     {
       "name": "senior-market-procurement-manager-weekly-report",
       "display_name": "市场采购资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "市场采购",
         "采购角色",
@@ -1250,7 +1250,7 @@
     {
       "name": "senior-merchandising-manager",
       "display_name": "选品与商品资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "市场采购",
         "采购角色",
@@ -1264,7 +1264,7 @@
     {
       "name": "senior-merchandising-manager-weekly-report",
       "display_name": "选品与商品资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "市场采购",
         "采购角色",
@@ -1278,7 +1278,7 @@
     {
       "name": "procurement-risk-compliance-manager",
       "display_name": "采购风险与供应韧性经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "市场采购",
         "采购风险"
@@ -1291,7 +1291,7 @@
     {
       "name": "advertising-performance-analyst",
       "display_name": "广告效果分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1304,7 +1304,7 @@
     {
       "name": "business-metrics-governance",
       "display_name": "业务指标治理师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1317,7 +1317,7 @@
     {
       "name": "conversion-funnel-analyst",
       "display_name": "电商转化漏斗分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1330,7 +1330,7 @@
     {
       "name": "customer-cohort-ltv-analyst",
       "display_name": "客户 Cohort 与 LTV 分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1343,7 +1343,7 @@
     {
       "name": "executive-business-review",
       "display_name": "经营分析与周月报专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1356,7 +1356,7 @@
     {
       "name": "forecast-scenario-planner",
       "display_name": "经营预测与情景规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1369,7 +1369,7 @@
     {
       "name": "inventory-supply-chain-analyst",
       "display_name": "库存与供应链分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1382,7 +1382,7 @@
     {
       "name": "marketplace-channel-comparison-analyst",
       "display_name": "跨平台渠道对比分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1395,7 +1395,7 @@
     {
       "name": "pricing-promotion-analyst",
       "display_name": "价格与促销分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1408,7 +1408,7 @@
     {
       "name": "product-portfolio-analyst",
       "display_name": "商品组合分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1421,7 +1421,7 @@
     {
       "name": "sales-profitability-analyst",
       "display_name": "销售与利润分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1434,7 +1434,7 @@
     {
       "name": "traffic-acquisition-analyst",
       "display_name": "流量与获客分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "业务分析"
@@ -1447,7 +1447,7 @@
     {
       "name": "data-quality-reconciliation",
       "display_name": "业务数据质量与对账专家",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "数据看板",
         "数据治理"
@@ -1460,7 +1460,7 @@
     {
       "name": "dispute-resolution-case-manager",
       "display_name": "争议解决案件经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "争议解决"
@@ -1473,7 +1473,7 @@
     {
       "name": "corporate-governance-counsel",
       "display_name": "公司治理法务顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "公司治理"
@@ -1486,7 +1486,7 @@
     {
       "name": "employment-labor-compliance-counsel",
       "display_name": "劳动用工合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "劳动用工"
@@ -1499,7 +1499,7 @@
     {
       "name": "advertising-claims-legal-reviewer",
       "display_name": "广告声明法律审查师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "广告与消费者保护"
@@ -1512,7 +1512,7 @@
     {
       "name": "eu-market-regulatory-compliance-counsel",
       "display_name": "欧盟市场合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "欧盟合规"
@@ -1525,7 +1525,7 @@
     {
       "name": "senior-cross-border-legal-counsel",
       "display_name": "跨境法务资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "法律政务",
         "法律角色",
@@ -1539,7 +1539,7 @@
     {
       "name": "senior-cross-border-legal-counsel-weekly-report",
       "display_name": "跨境法务资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "法律政务",
         "法律角色",
@@ -1553,7 +1553,7 @@
     {
       "name": "intellectual-property-protection-counsel",
       "display_name": "知识产权保护顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "知识产权"
@@ -1566,7 +1566,7 @@
     {
       "name": "us-market-regulatory-compliance-counsel",
       "display_name": "美国市场合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "美国合规"
@@ -1579,7 +1579,7 @@
     {
       "name": "cross-border-regulatory-compliance-counsel",
       "display_name": "跨境监管合规顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "跨境监管"
@@ -1592,7 +1592,7 @@
     {
       "name": "import-export-trade-compliance-reviewer",
       "display_name": "进出口贸易合规审查顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "进出口合规"
@@ -1605,7 +1605,7 @@
     {
       "name": "privacy-data-protection-counsel",
       "display_name": "隐私与数据保护顾问",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "法律政务",
         "隐私与数据"
@@ -1618,7 +1618,7 @@
     {
       "name": "product-compliance-risk-manager",
       "display_name": "跨境商品合规风险管理器",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "渠道运营",
         "合规"
@@ -1631,7 +1631,7 @@
     {
       "name": "pricing-promotion-optimizer",
       "display_name": "定价与促销优化经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "商业化"
@@ -1644,7 +1644,7 @@
     {
       "name": "marketplace-listing-optimizer",
       "display_name": "平台商品信息优化师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "商品运营"
@@ -1657,7 +1657,7 @@
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "version": "2.1.0",
+      "version": "2.1.2",
       "category_path": [
         "渠道运营",
         "多渠道运营",
@@ -1671,7 +1671,7 @@
     {
       "name": "review-reputation-manager",
       "display_name": "评价与品牌声誉经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "客户体验"
@@ -1684,7 +1684,7 @@
     {
       "name": "channel-portfolio-strategist",
       "display_name": "跨境渠道组合策略师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "平台运营"
@@ -1697,7 +1697,7 @@
     {
       "name": "tiktok-shop-operations-manager",
       "display_name": "TikTok Shop 运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "平台运营",
@@ -1711,7 +1711,7 @@
     {
       "name": "amazon-store-operations-manager",
       "display_name": "亚马逊店铺运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "平台运营",
@@ -1725,7 +1725,7 @@
     {
       "name": "shopify-store-operations-manager",
       "display_name": "Shopify 独立站运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "渠道运营",
         "平台运营",
@@ -1739,7 +1739,7 @@
     {
       "name": "ecommerce-unit-economics-analyst",
       "display_name": "电商单位经济模型分析师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "渠道运营",
         "经营分析"
@@ -1752,7 +1752,7 @@
     {
       "name": "senior-tiktok-shop-operations-manager",
       "display_name": "TikTok Shop 运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1766,7 +1766,7 @@
     {
       "name": "senior-tiktok-shop-operations-manager-weekly-report",
       "display_name": "TikTok Shop 运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1780,7 +1780,7 @@
     {
       "name": "senior-business-analytics-manager",
       "display_name": "业务数据分析资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1794,7 +1794,7 @@
     {
       "name": "senior-business-analytics-manager-weekly-report",
       "display_name": "业务数据分析资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1808,7 +1808,7 @@
     {
       "name": "senior-amazon-operations-manager",
       "display_name": "亚马逊运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1822,7 +1822,7 @@
     {
       "name": "senior-amazon-operations-manager-weekly-report",
       "display_name": "亚马逊运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1836,7 +1836,7 @@
     {
       "name": "senior-customer-experience-manager",
       "display_name": "客户体验资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1850,7 +1850,7 @@
     {
       "name": "senior-customer-experience-manager-weekly-report",
       "display_name": "客户体验资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1864,7 +1864,7 @@
     {
       "name": "senior-dtc-operations-manager",
       "display_name": "独立站运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1878,7 +1878,7 @@
     {
       "name": "senior-dtc-operations-manager-weekly-report",
       "display_name": "独立站运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1892,7 +1892,7 @@
     {
       "name": "senior-cross-border-commerce-leader",
       "display_name": "跨境电商资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1906,7 +1906,7 @@
     {
       "name": "senior-cross-border-commerce-leader-weekly-report",
       "display_name": "跨境电商资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "渠道运营",
         "运营角色",
@@ -1918,9 +1918,35 @@
       "missing": []
     },
     {
+      "name": "geo-machine-readable-publisher",
+      "display_name": "GEO 机器可读内容发布专家",
+      "version": "1.0.2",
+      "category_path": [
+        "精准营销",
+        "GEO技术发布"
+      ],
+      "package_root": "精准营销/GEO技术发布/geo-machine-readable-publisher",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
+      "name": "seo-editorial-community-distribution-specialist",
+      "display_name": "SEO 软文与社区内容分发专家",
+      "version": "1.0.1",
+      "category_path": [
+        "精准营销",
+        "SEO内容分发"
+      ],
+      "package_root": "精准营销/SEO内容分发/seo-editorial-community-distribution-specialist",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
       "name": "content-marketing-planner",
       "display_name": "跨境内容营销规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "内容营销"
@@ -1933,7 +1959,7 @@
     {
       "name": "brand-positioning-strategist",
       "display_name": "跨境品牌定位策略师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "品牌营销"
@@ -1946,7 +1972,7 @@
     {
       "name": "cross-border-growth-operator",
       "display_name": "跨境全链路增长负责人",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "增长营销"
@@ -1959,7 +1985,7 @@
     {
       "name": "marketing-attribution-planner",
       "display_name": "跨渠道营销归因规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "增长营销"
@@ -1972,7 +1998,7 @@
     {
       "name": "customer-acquisition-growth-manager",
       "display_name": "新客获取与拉新增长经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "增长营销",
@@ -1986,7 +2012,7 @@
     {
       "name": "cross-border-market-intelligence",
       "display_name": "跨境市场情报分析师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "市场策略"
@@ -1999,7 +2025,7 @@
     {
       "name": "go-to-market-launch-planner",
       "display_name": "跨境上市规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "市场策略"
@@ -2010,9 +2036,37 @@
       "missing": []
     },
     {
+      "name": "google-ads-ecommerce-specialist",
+      "display_name": "独立站 Google Ads 投放专家",
+      "version": "1.0.1",
+      "category_path": [
+        "精准营销",
+        "投放广告",
+        "Google"
+      ],
+      "package_root": "精准营销/投放广告/Google/google-ads-ecommerce-specialist",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
+      "name": "meta-ads-ecommerce-specialist",
+      "display_name": "独立站 Meta 广告投放专家",
+      "version": "1.0.1",
+      "category_path": [
+        "精准营销",
+        "投放广告",
+        "Meta"
+      ],
+      "package_root": "精准营销/投放广告/Meta/meta-ads-ecommerce-specialist",
+      "score": 12,
+      "grade": "A",
+      "missing": []
+    },
+    {
       "name": "commerce-advertising-optimizer",
       "display_name": "多渠道电商广告优化师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "精准营销",
         "推广营销"
@@ -2025,7 +2079,7 @@
     {
       "name": "geo-optimizer",
       "display_name": "GEO 引用就绪优化师",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "category_path": [
         "精准营销",
         "推广营销"
@@ -2038,7 +2092,7 @@
     {
       "name": "seo-optimizer",
       "display_name": "SEO 内容优化师",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "category_path": [
         "精准营销",
         "推广营销"
@@ -2051,7 +2105,7 @@
     {
       "name": "promotion-calendar-manager",
       "display_name": "跨境活动营销经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "活动营销"
@@ -2064,7 +2118,7 @@
     {
       "name": "customer-retention-loyalty-manager",
       "display_name": "客户留存与忠诚度经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "用户运营"
@@ -2077,7 +2131,7 @@
     {
       "name": "email-lifecycle-marketer",
       "display_name": "邮件生命周期营销师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "用户运营"
@@ -2090,7 +2144,7 @@
     {
       "name": "social-media-operations-manager",
       "display_name": "跨境社媒运营经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "社媒营销"
@@ -2103,7 +2157,7 @@
     {
       "name": "senior-brand-content-manager",
       "display_name": "品牌与内容资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "精准营销",
         "营销角色",
@@ -2117,7 +2171,7 @@
     {
       "name": "senior-brand-content-manager-weekly-report",
       "display_name": "品牌与内容资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "精准营销",
         "营销角色",
@@ -2131,7 +2185,7 @@
     {
       "name": "senior-growth-marketing-manager",
       "display_name": "增长营销资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "精准营销",
         "营销角色",
@@ -2145,7 +2199,7 @@
     {
       "name": "senior-growth-marketing-manager-weekly-report",
       "display_name": "增长营销资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "精准营销",
         "营销角色",
@@ -2159,7 +2213,7 @@
     {
       "name": "senior-user-operations-manager",
       "display_name": "用户运营资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "精准营销",
         "营销角色",
@@ -2173,7 +2227,7 @@
     {
       "name": "senior-user-operations-manager-weekly-report",
       "display_name": "用户运营资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "精准营销",
         "营销角色",
@@ -2187,7 +2241,7 @@
     {
       "name": "influencer-affiliate-manager",
       "display_name": "达人与联盟营销经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "精准营销",
         "达人联盟"
@@ -2200,7 +2254,7 @@
     {
       "name": "senior-cashier-treasury-specialist",
       "display_name": "资金出纳资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "财务出纳",
         "出纳角色",
@@ -2214,7 +2268,7 @@
     {
       "name": "senior-cashier-treasury-specialist-weekly-report",
       "display_name": "资金出纳资深经理周报",
-      "version": "1.0.4",
+      "version": "1.0.7",
       "category_path": [
         "财务出纳",
         "出纳角色",
@@ -2228,7 +2282,7 @@
     {
       "name": "expense-reimbursement-cashier",
       "display_name": "报销与票据出纳专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "报销与票据"
@@ -2241,7 +2295,7 @@
     {
       "name": "payment-receipt-operations-manager",
       "display_name": "收付款执行管理员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "收付款"
@@ -2254,7 +2308,7 @@
     {
       "name": "financial-close-reconciliation-manager",
       "display_name": "财务关账与对账经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "核算关账"
@@ -2267,7 +2321,7 @@
     {
       "name": "cross-border-tax-vat-planner",
       "display_name": "跨境税务与 VAT 规划师",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "税务合规"
@@ -2280,7 +2334,7 @@
     {
       "name": "management-accounting-profitability-manager",
       "display_name": "经营财务与利润经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "经营财务"
@@ -2293,7 +2347,7 @@
     {
       "name": "senior-cross-border-finance-manager",
       "display_name": "跨境财务资深经理",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "财务出纳",
         "财务角色",
@@ -2307,7 +2361,7 @@
     {
       "name": "senior-cross-border-finance-manager-weekly-report",
       "display_name": "跨境财务资深经理周报",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "category_path": [
         "财务出纳",
         "财务角色",
@@ -2321,7 +2375,7 @@
     {
       "name": "cash-security-access-controller",
       "display_name": "资金安全与支付权限控制专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "资金安全"
@@ -2334,7 +2388,7 @@
     {
       "name": "cash-flow-working-capital-manager",
       "display_name": "现金流与营运资金经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "资金管理"
@@ -2347,7 +2401,7 @@
     {
       "name": "multi-currency-treasury-manager",
       "display_name": "多币种资金与汇率经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "资金管理"
@@ -2360,7 +2414,7 @@
     {
       "name": "bank-account-reconciliation-cashier",
       "display_name": "银行账户与出纳对账专员",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "银行与对账"
@@ -2373,7 +2427,7 @@
     {
       "name": "budget-forecast-controller",
       "display_name": "预算与预测控制经理",
-      "version": "1.0.2",
+      "version": "1.0.5",
       "category_path": [
         "财务出纳",
         "预算管理"
@@ -2386,7 +2440,7 @@
     {
       "name": "git-workflow-manager",
       "display_name": "Git 安全工作流管理器",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "category_path": [
         "互联网研发",
         "git",
@@ -2402,7 +2456,7 @@
     {
       "name": "product-requirements-architect",
       "display_name": "产品需求架构师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "产品",
@@ -2418,7 +2472,7 @@
     {
       "name": "api-contract-designer",
       "display_name": "API 契约设计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "后端",
@@ -2434,7 +2488,7 @@
     {
       "name": "test-strategy-designer",
       "display_name": "测试策略设计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "互联网研发",
         "测试",
@@ -2450,7 +2504,7 @@
     {
       "name": "ecommerce-product-research",
       "display_name": "跨境电商选品研究",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "市场采购",
         "选品"
@@ -2465,7 +2519,7 @@
     {
       "name": "metric-diagnostics",
       "display_name": "业务指标诊断师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "数据看板",
         "业务分析",
@@ -2481,7 +2535,7 @@
     {
       "name": "contract-risk-reviewer",
       "display_name": "合同风险审阅师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "法律政务",
         "合同",
@@ -2497,7 +2551,7 @@
     {
       "name": "shopify-conversion-auditor",
       "display_name": "Shopify 转化审计师",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "渠道运营",
         "多渠道运营",
@@ -2513,7 +2567,7 @@
     {
       "name": "storefront-product-publishing-manager",
       "display_name": "独立站产品上下架管理器",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "category_path": [
         "渠道运营",
         "多渠道运营",

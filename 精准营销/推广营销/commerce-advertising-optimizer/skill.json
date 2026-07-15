@@ -3,7 +3,7 @@
   "display_name": "多渠道电商广告优化师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -75,12 +75,14 @@
       "SKILL.md",
       "agents/openai.yaml",
       "assets/advertising-action-plan.md",
+      "assets/data-source-intake-template.md",
       "assets/decision-record-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/advertising-diagnostic-checklist.md",
       "references/compliance-baseline.md",
+      "references/data-source-and-api-gate.md",
       "references/scenario-playbook.md",
       "skill.json"
     ]

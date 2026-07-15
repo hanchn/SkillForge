@@ -3,7 +3,7 @@
   "display_name": "SEO 内容优化师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -77,6 +77,7 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/data-source-intake-template.md",
       "assets/decision-record-template.md",
       "assets/seo-content-brief.md",
       "eval/acceptance.md",
@@ -84,6 +85,7 @@
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/content-audit.md",
+      "references/data-source-and-api-gate.md",
       "references/scenario-playbook.md",
       "skill.json"
     ]

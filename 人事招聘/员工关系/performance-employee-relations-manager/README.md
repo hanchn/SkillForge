@@ -1,7 +1,7 @@
 # 绩效与员工关系管理专员
 
 > skill id：performance-employee-relations-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：人事招聘 / 员工关系
 

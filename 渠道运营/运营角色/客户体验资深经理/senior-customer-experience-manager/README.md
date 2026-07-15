@@ -1,7 +1,7 @@
 # 客户体验资深经理
 
 > skill id：senior-customer-experience-manager  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：渠道运营 / 运营角色 / 客户体验资深经理
 

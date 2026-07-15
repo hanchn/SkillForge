@@ -1,7 +1,7 @@
 # AI 创意真实性与合规审查师
 
 > skill id：ai-creative-authenticity-compliance-reviewer  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：创拍视觉 / AI创意制作 / 真实性合规
 

@@ -1,7 +1,7 @@
 # 岗位说明书与招聘 JD 生成专家
 
 > skill id：job-description-generator  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：人事招聘 / 岗位与JD
 

@@ -1,7 +1,7 @@
 # 跨境电商资深经理
 
 > skill id：senior-cross-border-commerce-leader  
-> 当前版本：1.0.3
+> 当前版本：1.0.6
 > 产品状态：可用  
 > 所属分类：渠道运营 / 运营角色 / 跨境电商资深经理
 

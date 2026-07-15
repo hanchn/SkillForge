@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [多渠道库存补货规划师](inventory-replenishment-planner/README.md)：Plan and monitor multi-channel replenishment end to end, including inventory alerts, demand, lead time, safety stock, order timing, channel allocation, cash and storage constraints
+- [库存补货与分级告警规划师](inventory-replenishment-planner/README.md)：端到端完成多渠道库存补货与分级告警，包括需求和交期、安全库存、告警阈值、异常队列、认领 SLA、采购交接、关闭复盘、渠道分配、现金和仓储约束
 
 ## 迭代记录
 

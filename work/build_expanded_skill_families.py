@@ -47,6 +47,10 @@ SPECS = [
     spec("精准营销/市场策略/go-to-market-launch-planner", "go-to-market-launch-planner", "跨境上市规划师", "operations", "把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。", ["新品上市", "新站点或新国家启动", "重大版本或季节发布"], ["GTM 计划", "阶段门和责任矩阵", "预算、指标与复盘设计"], ["市场与产品准备度", "渠道和库存 readiness", "内容、评价和广告冷启动", "里程碑、依赖和 owner", "领先指标、止损和复盘"], "不得只做营销日历而忽略供货、合规和客服准备。"),
     spec("渠道运营/平台运营/channel-portfolio-strategist", "channel-portfolio-strategist", "跨境渠道组合策略师", "operations", "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。", ["Amazon、Shopify、TikTok 等渠道组合", "新渠道评估", "渠道冲突和资源分配"], ["渠道角色地图", "进入与退出评分", "资源和治理方案"], ["客群和购买任务", "流量 ownership 与数据可得性", "毛利、费用和现金周期", "价格、库存和内容冲突", "组织能力和试点门槛"], "不得只按 GMV 评价渠道价值。"),
     spec("精准营销/内容营销/content-marketing-planner", "content-marketing-planner", "跨境内容营销规划师", "operations", "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。", ["博客和指南规划", "季度内容矩阵", "SEO、社媒、邮件内容协同"], ["内容战略", "主题集群和编辑日历", "分发、转化与衡量方案"], ["受众问题和意图", "主题支柱与内容缺口", "产品证据和内链", "渠道再利用", "转化动作和内容指标"], "不得批量制造同模板低价值内容。"),
+    spec("精准营销/投放广告/Meta/meta-ads-ecommerce-specialist", "meta-ads-ecommerce-specialist", "独立站 Meta 广告投放专家", "operations", "以独立站真实利润、新客质量和可验证增量为目标，端到端规划、搭建、诊断和扩量 Meta 广告。", ["Meta 独立站冷启动和新品投放", "Pixel 与 Conversions API 测量治理", "账户诊断、素材测试、扩量和止损"], ["Meta 投放与测量方案", "Campaign、广告组、素材和预算矩阵", "诊断、实验、自检和复盘记录"], ["业务目标、贡献利润和回收期", "Pixel、CAPI、事件去重和数据质量", "账户、campaign、ad set 和 ad 结构", "人群、版位、素材角度和疲劳", "归因偏差、增量、扩量与止损"], "不得用平台归因 ROAS 冒充增量利润，不得绕过同意、隐私、受众、素材或广告政策。"),
+    spec("精准营销/投放广告/Google/google-ads-ecommerce-specialist", "google-ads-ecommerce-specialist", "独立站 Google Ads 投放专家", "operations", "围绕搜索意图、商品 Feed、落地页、转化价值和贡献利润规划与优化 Google Ads。", ["Google Search、Shopping 与 Performance Max 投放", "Merchant Center、Feed 和转化跟踪诊断", "搜索词治理、预算扩量和利润止损"], ["Google Ads 投放与测量方案", "关键词、搜索词、Feed、资产组和预算矩阵", "诊断、实验、自检和复盘记录"], ["转化目标、价值、增强型转化和同意", "Search 关键词、搜索词和否定词", "Merchant Center Feed 与商品诊断", "Performance Max 资产组、URL 扩展和品牌控制", "落地页质量、利润、增量和止损"], "不得在跟踪或商品 Feed 不可信时自动扩量，不得用品牌词和平台自报转化掩盖真实获客效率。"),
+    spec("精准营销/SEO内容分发/seo-editorial-community-distribution-specialist", "seo-editorial-community-distribution-specialist", "SEO 软文与社区内容分发专家", "operations", "从关键词与产品证据出发生成有独立价值的软文、客座稿、品牌帖和社区回复，并管理发布、互动、链接与效果复盘。", ["SEO 软文和客座文章生成", "论坛、问答和社区品牌发帖", "多站点内容分发、更新和效果复盘"], ["关键词与选题证据包", "渠道适配软文、帖子和回复草稿", "发布矩阵、自检、互动和效果复盘"], ["关键词库、意图和主题覆盖", "产品事实、作者经验和可引用证据", "媒体、论坛和社区规则", "内容独特性、披露、链接和锚文本", "发布频率、互动、转化和声誉风险"], "不得批量灌水、伪装普通用户、制造虚假体验、复制同文、购买隐蔽链接或规避平台反垃圾规则。"),
+    spec("精准营销/GEO技术发布/geo-machine-readable-publisher", "geo-machine-readable-publisher", "GEO 机器可读内容发布专家", "operations", "从合规静态资料与 PDP/PIM/CMS 等授权接口构建可追溯 GEO 可信知识库，生成和维护 llms.txt、llms-full.txt 与合规 JSON-LD Schema，并支持批量发布前后自检。", ["静态资料或 PDP/PIM/CMS 接口接入与可信知识库建设", "单站 llms.txt 与 llms-full.txt 生成", "商品、文章、组织和 FAQ Schema 批量生成", "GEO 文件发布、抽样验证和版本更新"], ["数据源、API、字段权限与可信度清单", "带来源、版本、有效期和冲突状态的 GEO 可信知识库", "llms.txt、llms-full.txt 和 JSON-LD 生成包", "批量清单、自检报告、发布和回滚记录"], ["静态资料、PDP/PIM/CMS 与功能接口", "字段级来源、授权、刷新、冲突和知识版本", "站点事实、canonical URL 和内容可见性", "llms.txt 提案格式与不确定性声明", "Schema.org 类型、Google 资格和页面一致性", "批量映射、去重、转义、大小和版本", "语法验证、抓取验证、抽样复核和回滚"], "不得宣称 llms.txt 保证收录或排名；不得绕过接口权限、用途和个人数据限制，不得生成页面不可见、过期、虚假评价、价格、库存或身份信息的结构化数据。"),
     spec("精准营销/社媒营销/social-media-operations-manager", "social-media-operations-manager", "跨境社媒运营经理", "operations", "建立平台适配的内容、互动、增长、风险和复盘机制。", ["TikTok、Instagram、YouTube、Pinterest 运营", "账号冷启动", "社媒内容和社区增长"], ["平台运营方案", "内容栏目和发布节奏", "互动 SOP 与周度复盘"], ["平台人群和内容语法", "栏目、节奏和素材供给", "社区互动和舆情", "自然流量到商业转化", "账号健康和实验指标"], "不得跨平台原样搬运或追逐与品牌无关的热点。"),
     spec("精准营销/达人联盟/influencer-affiliate-manager", "influencer-affiliate-manager", "达人与联盟营销经理", "operations", "管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。", ["达人种草和带货", "联盟计划搭建", "UGC 采购与授权"], ["达人分层池", "合作 brief 与跟进管道", "佣金、授权和效果复盘"], ["人群与内容匹配", "真实性和历史表现", "合作模式与单位经济", "寄样、交付和授权", "归因、增量和合规披露"], "不得按粉丝量单点筛选，也不得遗漏广告披露和内容权利。"),
     spec("精准营销/用户运营/email-lifecycle-marketer", "email-lifecycle-marketer", "邮件生命周期营销师", "operations", "按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。", ["欢迎、弃购、购后、召回流程", "Newsletter 运营", "邮件收入和送达率治理"], ["生命周期流程图", "分群、触发与内容方案", "实验和送达健康看板"], ["同意、偏好和退订", "触发、频控和冲突", "分群与个性化", "内容、优惠和落地页", "送达、增量收入和实验"], "不得用群发频率代替用户价值，也不得绕过同意规则。"),
@@ -536,6 +540,52 @@ FAMILY_STEPS = {
     ],
 }
 
+SPECIAL_WORKFLOWS = {
+    "meta-ads-ecommerce-specialist": [
+        "生成前询问使用者是否有关键词库、受众库、历史 campaign、素材库、Pixel/CAPI 事件表和利润口径，并确认哪些资料优先；没有时先列补数清单",
+        "锁定国家、站点、商品、客群、新客定义、贡献利润、CAC/回收期目标、预算、学习周期、库存与不可投放声明",
+        "审计 Business Manager、广告账户、域名、Pixel、Conversions API、事件匹配、去重、同意状态、UTM、站内订单与平台归因差异",
+        "按冷启动、验证、扩量或修复场景设计 campaign、ad set、广告结构，明确目标、优化事件、预算方式、人群、版位、排除和命名",
+        "基于已批准产品证据与关键词/受众输入建立角度、钩子、格式、创意变量和落地页匹配矩阵，隔离测试变量并监控疲劳",
+        "以花费、交付、CTR、CVR、CPA、平台 ROAS、贡献利润、新客率和回收期联合诊断，不用单一指标直接砍量或扩量",
+        "定义扩量、降级、暂停、回滚和异常处置阈值；预算或受众写入必须经过授权，敏感受众与个人数据转合规复核",
+        "生成投放包后逐项自检账户、事件、结构、素材、链接、预算、合规、归因和利润，并安排上线后观察与增量验证",
+    ],
+    "google-ads-ecommerce-specialist": [
+        "生成前询问使用者是否有关键词库、否定词库、搜索词历史、商品 Feed、客户名单、素材库和利润口径，并确认优先参考策略",
+        "锁定国家语言、商品范围、Search/Shopping/Performance Max 角色、转化目标与价值、新客定义、预算、利润护栏和库存限制",
+        "审计 Google Ads、GA4、GTM/Google tag、增强型转化、Consent Mode、Merchant Center、Feed、自动标记和订单对账质量",
+        "构建 Search 关键词与意图、匹配方式、否定词、广告组、RSA 和落地页矩阵；把搜索词治理与品牌词分拆纳入日常节奏",
+        "构建 Shopping 或 Performance Max 的商品分组、资产组、受众信号、搜索主题、品牌控制、URL 扩展/排除和页面 Feed 方案",
+        "按花费、展示份额、搜索词、Feed 诊断、CVR、CPA/ROAS、贡献利润、新客与回收期判断修复、扩量或暂停",
+        "设计预算竞价、季节性、实验和增量验证；跟踪不可信、Feed 拒登、落地页不一致或库存风险时停止自动扩量",
+        "生成后自检转化、Feed、关键词、否定词、资产、URL、政策、预算、利润和回滚，并记录上线后观察窗口",
+    ],
+    "seo-editorial-community-distribution-specialist": [
+        "生成前询问使用者是否有关键词库、品牌词库、禁用词、产品证据、作者资料、目标媒体/社区名单和既有内容，并确认关键词优先策略",
+        "将关键词按意图、旅程、主题和渠道映射，核对搜索结果、社区真实问题、竞品覆盖和内容缺口；当前数据不可用时只做待调研 brief",
+        "为软文、客座稿、品牌帖、问答和社区回复分别定义读者价值、独立论点、证据、披露、链接、CTA、长度与平台规则",
+        "生成渠道原生草稿，避免同文改词；个人体验、评价、排名、效果和比较声明必须有可验证来源，不得伪装普通用户",
+        "设计人工编辑、事实核验、原创性、品牌、SEO、法律、社区规则和敏感话题门禁，记录作者、审批、版本和权利来源",
+        "建立站点/账号、内容、链接、锚文本、发布日期、互动 owner 和状态的发布矩阵；自动发布仅限已授权接口与频率",
+        "生成后自检关键词堆砌、重复内容、虚假身份、垃圾链接、披露、事实、可读性、链接和平台政策；不合格内容禁止发布",
+        "追踪收录、排名、引荐、互动、负面反馈和转化，区分相关性与增量，更新内容或退出低价值渠道",
+    ],
+    "geo-machine-readable-publisher": [
+        "生成前必须询问使用者是否有静态数据，是否存在合规 PDP/PIM/CMS、价格库存、评价、政策、品牌、多语言或其他功能接口，以及关键词/实体库、站点地图、Schema 现状和发布权限",
+        "记录每个文件或接口的 owner、用途授权、认证方式、环境、字段、分页、限流、更新时间、SLA、个人/敏感数据、保留删除和是否允许公开；密钥不得写入 Skill 或交付物",
+        "从授权来源构建字段级可信知识库，保存 entity_id、值、来源、source_record_id、采集时间、版本、有效期、语言、市场、置信状态和冲突；动态事实不得用静态旧值覆盖",
+        "建立来源优先级与冲突裁决：商品事实、价格、库存、评价、政策、品牌与内容分别指定 source of truth；接口不可用时降级为标注有效期的静态快照或 REVIEW_REQUIRED",
+        "抓取或读取授权站点内容，建立 URL、页面类型、语言、canonical、更新时间、可索引状态和事实源清单；不把后台可见但前台隐藏或无公开权限的字段直接发布",
+        "按 llms.txt 提案生成站点摘要、说明和精选 Markdown 链接；明确其为提案，不能承诺搜索或 LLM 收录、引用或排名",
+        "仅在使用者要求时生成 llms-full.txt，把批准页面转为去重、可追溯的完整文本并控制体积、隐私、版权和更新成本",
+        "按页面可见内容与适用资格选择 Schema.org/Google 支持类型，映射必填推荐字段、稳定 ID、实体关系、语言和 canonical URL",
+        "通过清单或脚本批量生成 JSON-LD，处理转义、空值、重复实体、变体、价格库存时效和多语言；无法证明的字段不输出",
+        "执行语法、Schema、富媒体资格、页面一致性、可抓取性、链接状态、抽样事实和敏感信息自检，区分 error、warning 和人工复核",
+        "输出发布顺序、备份、差异、验证、监控和回滚记录；上线后复查 HTTP、渲染、Search Console/日志证据并按源数据变更刷新",
+    ],
+}
+
 OFFICIAL_SOURCES = {
     "react-senior-expert": [("React Managing State", "https://react.dev/learn/managing-state"), ("React Escape Hatches", "https://react.dev/learn/escape-hatches")],
     "vue3-senior-expert": [("Vue Composition API", "https://vuejs.org/guide/extras/composition-api-faq.html"), ("Vue Scaling Up", "https://vuejs.org/guide/scaling-up/tooling.html")],
@@ -568,6 +618,10 @@ OFFICIAL_SOURCES = {
     "advertising-claims-legal-reviewer": [("FTC Advertising and Marketing", "https://www.ftc.gov/business-guidance/advertising-marketing"), ("FTC Endorsements", "https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements")],
     "cross-border-tax-vat-planner": [("EU VAT Place of Taxation", "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/place-taxation_en"), ("EU Ecommerce Customs and VAT", "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/customs-formalities-low-value-consignments_en")],
     "creative-asset-intelligent-tagging-specialist": [("生成式人工智能服务管理暂行办法", "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"), ("中华人民共和国个人信息保护法", "https://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html"), ("互联网信息服务算法推荐管理规定", "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm")],
+    "meta-ads-ecommerce-specialist": [("Meta Conversions API", "https://www.facebook.com/business/help/AboutConversionsAPI"), ("Meta Business Help Center", "https://www.facebook.com/business/help")],
+    "google-ads-ecommerce-specialist": [("Google Ads Performance Max", "https://support.google.com/google-ads/answer/10724817"), ("Google Ads conversion tracking", "https://support.google.com/google-ads/answer/6076199")],
+    "seo-editorial-community-distribution-specialist": [("Google Search spam policies", "https://developers.google.com/search/docs/essentials/spam-policies"), ("Google helpful content guidance", "https://developers.google.com/search/docs/fundamentals/creating-helpful-content")],
+    "geo-machine-readable-publisher": [("llms.txt proposal", "https://llmstxt.org/"), ("Google structured data guidelines", "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"), ("Schema.org", "https://schema.org/docs/schemas.html")],
 }
 
 
@@ -581,7 +635,7 @@ def write_skill(s):
     for folder in ["agents", "references", "assets", "examples", "eval", "platforms"]:
         (base / folder).mkdir(exist_ok=True)
     desc = f"{s['positioning']} Use when an AI needs to handle {', '.join(s['scenarios'])}; produce {', '.join(s['outputs'])}; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice."
-    steps = FAMILY_STEPS[s["family"]]
+    steps = SPECIAL_WORKFLOWS.get(s["name"], FAMILY_STEPS[s["family"]])
     if s["name"] == "job-description-generator":
         steps = [
             "先向招聘经理收集业务目标、为何现在招聘、岗位解决的问题、首年关键结果、工作地、用工主体、编制、预算与时间；缺失项进入预问清单，不得猜测",
@@ -606,6 +660,11 @@ def write_skill(s):
 - 必须读取 `references/hr-role-training-checklist.md`，先完成 HR 岗位理解与招聘经理预问，不得在关键事实未确认时直接发布 JD。
 - 必须读取 `references/job-market-research-method.md`；薪资与岗位需求属于时效数据，执行时必须查询目标市场近期来源并记录采集日期、样本和口径。
 - 使用 `assets/delivery-template.md` 交付完整招聘包，同时交付 `assets/job-market-research-template.md` 调研报告，并原样附带 `assets/blank-jd-template.md` 作为可复用 JD 空白模板。
+"""
+    elif s["name"] in SPECIAL_WORKFLOWS:
+        extra_load = """
+- 正式生成前必须使用 `assets/marketing-input-intake.md` 询问现有关键词/受众/素材/数据/规则库及其版本、owner 和优先级；未确认时只能交付调研或草案。
+- 必须使用 `assets/prepublish-self-check.md` 做生成后自检；任何阻断项未通过时不得声称可投放、可发布或已验证。
 """
     skill = f"""---
 name: {s['name']}
@@ -651,6 +710,13 @@ description: {desc}
 3. 发现目标冲突时，明确收入、利润、现金、客户、质量、时效、合规和可逆性之间的取舍，记录决策人。
 4. 执行中出现部分失败时，保护已确认结果，隔离未知状态，停止扩大影响，提供对账、补偿或回滚步骤。
 5. 只有交付物、验证证据、责任交接和剩余风险同时清楚，任务才算完成。
+
+## Evidence freshness gate
+
+- 在结论中标明数据截止、采集时间、来源、版本、适用国家/渠道/系统和刷新周期。
+- 市场、价格、Rank、趋势、库存、平台政策、法律、税务、汇率、软件版本和人员信息等时效事实，必须在本次任务中从授权的一手或当前来源重新核验；不得使用模型记忆冒充实时数据。
+- 单次快照只能说明当前观察，不能写成历史趋势；趋势结论必须有多个时间点或提供历史序列的可靠来源。
+- 来源冲突时保留差异与口径，说明裁决 owner；关键来源过期或不可访问时，降级为调研计划、草案或 `REVIEW_REQUIRED`。
 
 ## Guardrails
 
@@ -896,7 +962,7 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
         "supported_platforms": PLATFORMS,
         "inputs": {"required": ["业务目标、范围和现状证据"], "optional": ["历史数据、流程系统资料、目标、预算、SLA 和合规约束"]},
         "outputs": [*s["outputs"], "决策、执行、验收、风险和未知项记录"],
-        "implementation": {"readme": "README.md", "entry_doc": "SKILL.md", "invocation_doc": "INVOCATION.md", "script": "", "config": "", "base_prompt": "BASE_PROMPT.md", "examples_dir": "examples", "eval_dir": "eval", "platform_adapters_dir": "platforms"},
+        "implementation": {"readme": "README.md", "entry_doc": "SKILL.md", "invocation_doc": "INVOCATION.md", "script": "scripts/generate_geo_bundle.py" if s["name"] == "geo-machine-readable-publisher" else "", "config": "assets/geo-generation-manifest.example.json" if s["name"] == "geo-machine-readable-publisher" else "", "base_prompt": "BASE_PROMPT.md", "examples_dir": "examples", "eval_dir": "eval", "platform_adapters_dir": "platforms"},
         "constraints": [s["boundary"], "不得虚构事实、数据、权限、实施或验证结果", "必须明确口径、责任、验收、风险和未知项"],
         "distribution": {"share_as_single_folder": True, "required_files": ["SKILL.md", "skill.json", "README.md", "INVOCATION.md", "BASE_PROMPT.md"], "package_files": ["SKILL.md", "skill.json", "README.md", "INVOCATION.md", "BASE_PROMPT.md", "agents/openai.yaml", "references", "assets", "examples", "eval", "platforms"]},
     }
@@ -907,6 +973,8 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
         write_tagging_compliance_resources(base)
     elif s["name"] == "job-description-generator":
         write_jd_generation_resources(base)
+    elif s["name"] in SPECIAL_WORKFLOWS:
+        write_marketing_special_resources(base, s)
 
 
 def write_depth_resources(base, s):
@@ -990,6 +1058,187 @@ def write_depth_resources(base, s):
 - 下次复盘：
 - 需要更新的规则、数据、模板或 Skill：
 """, encoding="utf-8")
+
+
+def write_marketing_special_resources(base, s):
+    (base / "assets/marketing-input-intake.md").write_text(f"""# {s['display']}生成前资料确认
+
+## 业务与权限
+
+- 国家、语言、站点、商品/内容范围：
+- 业务目标、预算、利润/回收期或内容目标：
+- 数据截止、owner、审批人、发布/投放权限：
+- 不可改变的品牌、产品、法律与平台限制：
+
+## 已有资料库
+
+| 资料 | 是否提供 | 位置 | 版本/日期 | Owner | 可信范围 |
+|---|---|---|---|---|---|
+| 关键词/否定词/实体库 |  |  |  |  |  |
+| 受众/客户/搜索词数据 |  |  |  |  |  |
+| 产品事实与合规证据 |  |  |  |  |  |
+| 素材、内容和历史版本 |  |  |  |  |  |
+| 平台/站点数据与规则 |  |  |  |  |  |
+
+## 使用者优先策略
+
+- `REQUIRED_CANDIDATE`：逐项检查给定词或资料，但只有证据、相关性和合规均通过时才采用。
+- `PREFERRED`：条件相同时优先采用，不覆盖事实、平台规则和效果证据。
+- `REFERENCE_ONLY`：仅用于调研、召回、同义词或对照。
+- `NO_PRIORITY`：按当前一手证据重新判断。
+
+选择：
+
+冲突裁决人：
+
+> 使用者优先级不能把不相关、虚假、过期、侵权或违规内容变成可投放/可发布结果。
+""", encoding="utf-8")
+    (base / "assets/prepublish-self-check.md").write_text(f"""# {s['display']}发布前自检
+
+## 输入与证据
+
+- [ ] 已完成生成前资料确认，并记录关键词/数据/素材库的优先策略
+- [ ] 国家、语言、渠道、对象、时间、owner、审批和权限明确
+- [ ] 所有时效数据有采集时间、来源、版本与适用范围
+- [ ] 事实、平台数据、估算、推断和建议已分开
+
+## 专业与合规
+
+""" + "\n".join(f"- [ ] {lens} 已逐项验证或说明不适用" for lens in s["lenses"]) + f"""
+- [ ] 内容、素材、受众、个人数据、声明、链接和自动化符合当前平台及适用法律要求
+- [ ] 未伪造用户身份、体验、评价、排名、效果、价格、库存或授权
+
+## 技术与结果
+
+- [ ] 链接、参数、事件、字段、转义、语言和移动端/抓取状态已验证
+- [ ] 已抽样核对生成结果与真实页面、产品、素材或账户状态一致
+- [ ] 已定义阻断项、warning、人工复核、上线观察、停止条件和回滚
+- [ ] 每项交付物均有版本、变更摘要、验收证据和下游 owner
+""", encoding="utf-8")
+    if s["name"] == "geo-machine-readable-publisher":
+        (base / "assets/geo-source-api-intake.md").write_text("""# GEO 静态数据与功能接口接入确认
+
+## 必须先问使用者
+
+1. 是否已有可交付的静态数据：产品表、PDP 导出、品牌手册、政策、FAQ、文章、门店或组织资料？
+2. 是否存在合规的 PDP/PIM/CMS、价格、库存、评价、订单聚合、政策、品牌、多语言、媒体或搜索接口？
+3. 哪些接口和字段允许用于内部知识库，哪些允许公开到网页、llms 文件或 Schema？
+4. 是否存在沙箱、测试账号、API 文档、数据字典、样例响应和数据 owner？
+5. 动态字段的刷新 SLA、限流、失败降级、删除同步和审计要求是什么？
+
+## 数据源登记
+
+| 来源 | 类型 | Owner | 环境/地址 | 认证 | 字段范围 | 更新/SLA | 用途授权 | 公开权限 | 敏感等级 | 限流/成本 | 失败降级 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
+## 禁止事项
+
+- 不在文档中保存 API key、token、cookie、客户身份或生产密钥。
+- 接口可读不等于允许公开；按用途、字段、国家和下游逐项确认。
+- 评价、价格和库存必须保留来源、时间与适用市场，不能跨站点或跨币种复用。
+- 删除、撤回、下架和授权到期必须能从知识库与生成物同步清除。
+""", encoding="utf-8")
+        (base / "assets/trusted-geo-knowledge-base-template.md").write_text("""# GEO 可信知识库设计与运行记录
+
+## 实体与事实源
+
+| 实体类型 | entity_id 规则 | 主事实源 | 备选源 | 冲突裁决 Owner | 刷新 SLA |
+|---|---|---|---|---|---|
+
+## 字段级血缘
+
+| entity_id | 字段 | 值/摘要 | 来源 | source_record_id | 采集时间 | 源版本 | 有效期 | 语言/市场 | 状态 | 是否可公开 |
+|---|---|---|---|---|---|---|---|---|---|---|
+
+状态建议：`VERIFIED`、`STALE`、`CONFLICTED`、`REVIEW_REQUIRED`、`REVOKED`。
+
+## 冲突和降级
+
+| 字段/实体 | 冲突来源 | 暂用值 | 理由 | 影响生成物 | Owner | 截止 |
+|---|---|---|---|---|---|---|
+
+## 同步与发布
+
+- 全量/增量同步方式：
+- 幂等键、水位线与重试：
+- 接口失败和缓存有效期：
+- 删除、下架、撤回和授权到期传播：
+- llms/Schema 生成版本：
+- 发布审批、抽样、监控与回滚：
+""", encoding="utf-8")
+        (base / "references/llms-schema-publication-rules.md").write_text("""# llms.txt 与 Schema 发布规则
+
+## llms.txt
+
+- `/llms.txt` 是公开提案，不是保证任何搜索引擎或 LLM 抓取、引用或排名的正式协议。
+- 使用提案规定的 Markdown 结构，链接只指向已批准、公开、canonical 且适合机器读取的内容。
+- `llms-full.txt` 是扩展交付，不得默认生成；先评估体积、重复、版权、隐私、商业敏感与刷新成本。
+- 不得把 robots.txt、sitemap、canonical、HTML 内容或访问控制职责转移给 llms 文件。
+
+## JSON-LD Schema
+
+- 优先使用页面类型适配且当前受支持的 Schema；JSON-LD 只是表达页面事实，不创造事实。
+- 标记内容必须在页面对用户可见并保持一致；价格、库存、评价、作者、日期等时效字段须来自权威源。
+- 稳定使用 canonical URL 与 `@id`，避免同实体重复、错误嵌套和跨语言身份漂移。
+- 语法验证通过不等于富媒体资格，更不保证展示；还需执行 Google 指南、页面质量和抓取检查。
+
+## 批量门禁
+
+1. 先对每种页面类型完成小样本映射与人工批准。
+2. 生成预览、差异和错误报告，不直接覆盖线上文件。
+3. 抽样覆盖头部、长尾、缺字段、多语言、变体、下架和异常页面。
+4. 阻断错误清零后才能发布；上线后验证 HTTP、渲染、抓取与日志并保留回滚包。
+""", encoding="utf-8")
+        scripts = base / "scripts"
+        scripts.mkdir(exist_ok=True)
+        (scripts / "generate_geo_bundle.py").write_text('''#!/usr/bin/env python3
+"""Generate a reviewable GEO bundle from an approved JSON manifest; never invent facts."""
+import argparse, json
+from pathlib import Path
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("manifest")
+    ap.add_argument("output")
+    args = ap.parse_args()
+    data = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
+    out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
+    site = data["site"]
+    pages = data.get("pages", [])
+    errors = []
+    lines = [f"# {site['name']}", "", site.get("summary", "").strip(), ""]
+    full = list(lines)
+    for i, page in enumerate(pages):
+        url = page.get("canonical_url", "")
+        title = page.get("title", "")
+        if not url.startswith(("https://", "http://")) or not title:
+            errors.append({"index": i, "error": "title_or_canonical_missing"}); continue
+        lines.append(f"- [{title}]({url}): {page.get('description', '').strip()}")
+        full.extend([f"## {title}", "", f"Source: {url}", "", page.get("approved_markdown", "").strip(), ""])
+        schema = page.get("jsonld")
+        if schema:
+            if schema.get("@context") != "https://schema.org" or "@type" not in schema:
+                errors.append({"index": i, "url": url, "error": "invalid_jsonld_context_or_type"})
+            else:
+                (out / f"schema-{i:04d}.json").write_text(json.dumps(schema, ensure_ascii=False, indent=2)+"\\n", encoding="utf-8")
+    (out / "llms.txt").write_text("\\n".join(lines).rstrip()+"\\n", encoding="utf-8")
+    if data.get("generate_llms_full"):
+        (out / "llms-full.txt").write_text("\\n".join(full).rstrip()+"\\n", encoding="utf-8")
+    report = {"pages_received": len(pages), "errors": errors, "publishable": not errors}
+    (out / "generation-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\\n", encoding="utf-8")
+    raise SystemExit(1 if errors else 0)
+
+if __name__ == "__main__": main()
+''', encoding="utf-8")
+        (base / "assets/geo-generation-manifest.example.json").write_text(json.dumps({
+            "site": {"name": "Example Store", "summary": "Approved public site summary."},
+            "generate_llms_full": False,
+            "pages": [{
+                "title": "Approved page title", "canonical_url": "https://example.com/page",
+                "description": "Approved page description.", "approved_markdown": "Approved visible page content.",
+                "jsonld": {"@context": "https://schema.org", "@type": "WebPage", "@id": "https://example.com/page#webpage", "url": "https://example.com/page"},
+            }],
+        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def write_tagging_compliance_resources(base):

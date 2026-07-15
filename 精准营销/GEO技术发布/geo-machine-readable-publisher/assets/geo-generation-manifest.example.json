@@ -1,0 +1,21 @@
+{
+  "site": {
+    "name": "Example Store",
+    "summary": "Approved public site summary."
+  },
+  "generate_llms_full": false,
+  "pages": [
+    {
+      "title": "Approved page title",
+      "canonical_url": "https://example.com/page",
+      "description": "Approved page description.",
+      "approved_markdown": "Approved visible page content.",
+      "jsonld": {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://example.com/page#webpage",
+        "url": "https://example.com/page"
+      }
+    }
+  ]
+}

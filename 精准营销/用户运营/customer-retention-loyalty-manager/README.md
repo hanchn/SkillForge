@@ -1,7 +1,7 @@
 # 客户留存与忠诚度经理
 
 > skill id：customer-retention-loyalty-manager  
-> 当前版本：1.0.2
+> 当前版本：1.0.5
 > 产品状态：可用  
 > 所属分类：精准营销 / 用户运营
 
