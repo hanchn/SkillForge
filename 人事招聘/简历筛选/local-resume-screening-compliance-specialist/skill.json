@@ -71,6 +71,7 @@
       "references/resume-screening-compliance-method.md",
       "references/scenario-playbook.md",
       "scripts/inventory_local_resumes.py",
+      "scripts/evaluate_screening_run.py",
       "scripts/validate_screening_spec.py",
       "skill.json"
     ]

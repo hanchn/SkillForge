@@ -629,18 +629,6 @@
       "package_root": "人事招聘/员工生命周期/employee-lifecycle-records-manager"
     },
     {
-      "name": "job-description-generator",
-      "display_name": "岗位说明书与招聘 JD 生成专家",
-      "version": "1.0.6",
-      "category": "人事招聘",
-      "kind": "专项能力",
-      "score": 100,
-      "status": "通过",
-      "failed": [],
-      "focus": "岗位理解、人才市场、工作地、隐私公平、招聘证据、劳动升级与员工体验",
-      "package_root": "人事招聘/岗位与JD/job-description-generator"
-    },
-    {
       "name": "offer-onboarding-manager",
       "display_name": "录用与入职管理专员",
       "version": "1.0.5",
@@ -653,9 +641,21 @@
       "package_root": "人事招聘/录用入职/offer-onboarding-manager"
     },
     {
+      "name": "job-description-generator",
+      "display_name": "招聘需求与 JD 自动生成",
+      "version": "1.1.0",
+      "category": "人事招聘",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "岗位理解、人才市场、工作地、隐私公平、招聘证据、劳动升级与员工体验",
+      "package_root": "人事招聘/岗位与JD/job-description-generator"
+    },
+    {
       "name": "local-resume-screening-compliance-specialist",
-      "display_name": "本地简历筛选与合规评估专家",
-      "version": "1.0.0",
+      "display_name": "无人值守简历筛选与面试预约",
+      "version": "1.1.0",
       "category": "人事招聘",
       "kind": "专项能力",
       "score": 100,
