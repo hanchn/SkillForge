@@ -18,7 +18,7 @@
 - [亚马逊 PDP 导入草稿生成器](多渠道运营/亚马逊/amazon-pdp-import-generator/README.md)：从商品图片和真实资料生成 SKU、变体与图片草稿，结合当前市场 Rank、趋势和 SEO/GEO 关键词证据生成 Amazon PDP，并完成上线前自检
 - [Shopify 转化审计师](多渠道运营/独立站/shopify-conversion-auditor/README.md)：基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项
 - [独立站产品上下架管理器](多渠道运营/独立站/storefront-product-publishing-manager/README.md)：安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚
-- [评价与品牌声誉经理](客户体验/review-reputation-manager/README.md)：合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。
+- [评价分析与品牌声誉经理](客户体验/review-reputation-manager/README.md)：基于授权评价原文、星级、SKU、站点、时间及订单、退货、客服和 VOC 数据，合规分析主题、趋势、异常与根因，并推动产品、页面、履约和服务改进。适用于跨平台评价批量分析、差评、评分波动和异常评价诊断、评价主题与退货、客服、商品和履约联合分析、公开回复、升级和改进效果复盘，交付评价数据质量与健康报告、主题、情绪、严重度、趋势和异常分析、合规回复、根因、owner 和改进闭环、整改前后效果与剩余风险报告。
 - [TikTok Shop 运营经理](平台运营/TikTok Shop/tiktok-shop-operations-manager/README.md)：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。
 - [跨境渠道组合策略师](平台运营/channel-portfolio-strategist/README.md)：按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。
 - [亚马逊店铺运营经理](平台运营/亚马逊/amazon-store-operations-manager/README.md)：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。

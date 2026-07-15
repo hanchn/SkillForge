@@ -23,7 +23,7 @@
     "business_browse": [
       "基础工具",
       "渠道运营",
-      "客服售前",
+      "客售前后",
       "精准营销",
       "创拍视觉",
       "市场采购",
@@ -196,17 +196,18 @@
     {
       "name": "crm-product-architecture",
       "display_name": "CRM 产品架构师",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "package_root": "互联网研发/产品/系统产品架构/CRM/crm-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "跨渠道客户中心",
-        "营销与客服 CRM",
-        "客户 360 和生命周期运营",
-        "客户身份合并与冲突",
-        "同意、偏好和隐私请求",
-        "订单、互动和服务视图"
+        "跨渠道客户中心与客户 360",
+        "营销、销售与客售前后 CRM",
+        "线索、商机、服务工单和生命周期运营",
+        "CRM 重构、迁移、主数据与权限治理",
+        "B2C/B2B 客户、账户、联系人和身份解析",
+        "同意、偏好、隐私请求、留存删除和地域限制",
+        "线索、商机、任务、互动、工单和服务 SLA"
       ],
       "download_count": 0,
       "classification": {
@@ -2816,19 +2817,51 @@
       }
     },
     {
-      "name": "senior-customer-service-presales-manager",
-      "display_name": "客服售前资深经理",
-      "version": "1.0.6",
-      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager",
+      "name": "customer-consultation-analysis-specialist",
+      "display_name": "客户咨询分析专家",
+      "version": "1.0.0",
+      "package_root": "客售前后/咨询分析/customer-consultation-analysis-specialist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由客服售前资深经理接管复杂经营任务",
+        "客服会话与咨询主题分析",
+        "高频问题、未解决咨询和转化障碍诊断",
+        "咨询、订单、售后、评价与 VOC 联合分析",
+        "渠道、语言、站点、时间和会话口径",
+        "意图、主题、情绪、解决状态和证据片段",
+        "咨询与订单、转化、退款、评价的可比关联"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "customer-presales",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
+      "name": "senior-customer-service-presales-manager",
+      "display_name": "客售前后资深经理",
+      "version": "1.0.7",
+      "package_root": "客售前后/客服角色/客售前后资深经理/senior-customer-service-presales-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由客售前后资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
-        "咨询量、响应和解决质量",
+        "咨询、售后量、响应和解决质量",
         "商品事实、推荐适配和转化",
-        "多语言体验与合规"
+        "订单、履约、退款退货和投诉升级"
       ],
       "download_count": 0,
       "classification": {
@@ -2849,18 +2882,18 @@
     },
     {
       "name": "senior-customer-service-presales-manager-weekly-report",
-      "display_name": "客服售前资深经理周报",
-      "version": "1.0.6",
-      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report",
+      "display_name": "客售前后资深经理周报",
+      "version": "1.0.7",
+      "package_root": "客售前后/客服角色/客售前后资深经理/senior-customer-service-presales-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "客服售前资深经理本周经营复盘",
+        "客售前后资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
-        "咨询量、响应和解决质量",
+        "咨询、售后量、响应和解决质量",
         "商品事实、推荐适配和转化",
-        "多语言体验与合规"
+        "订单、履约、退款退货和投诉升级"
       ],
       "download_count": 0,
       "classification": {
@@ -2881,18 +2914,18 @@
     },
     {
       "name": "customer-service-voice-manager",
-      "display_name": "跨境客服售前运营专家",
-      "version": "2.0.5",
-      "package_root": "客服售前/客服运营/customer-service-voice-manager",
+      "display_name": "跨境客售前后运营专家",
+      "version": "2.0.6",
+      "package_root": "客售前后/客服运营/customer-service-voice-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "邮件、聊天和平台消息售前接待",
-        "商品推荐、异议处理与多语言沟通",
-        "客服知识库、线索交接和质量改进",
-        "客户场景、预算和硬约束",
-        "商品、价格、库存、履约与政策事实",
-        "语言、文化、隐私和品牌语气"
+        "邮件、聊天和平台消息的售前售中售后接待",
+        "商品推荐、订单查询、异议、退款退货与多语言沟通",
+        "客服知识库、投诉升级、线索交接和质量改进",
+        "客户意图、订单阶段和硬约束",
+        "商品、价格、库存、订单、履约与政策事实",
+        "语言、文化、隐私、情绪和品牌语气"
       ],
       "download_count": 0,
       "classification": {
@@ -4332,18 +4365,19 @@
     },
     {
       "name": "review-reputation-manager",
-      "display_name": "评价与品牌声誉经理",
-      "version": "1.0.5",
+      "display_name": "评价分析与品牌声誉经理",
+      "version": "1.0.6",
       "package_root": "渠道运营/客户体验/review-reputation-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "平台评价治理",
-        "差评和舆情响应",
-        "评分下降根因分析",
-        "评价来源和真实性",
-        "主题、严重度和趋势",
-        "公开回复与私下解决"
+        "跨平台评价批量分析",
+        "差评、评分波动和异常评价诊断",
+        "评价主题与退货、客服、商品和履约联合分析",
+        "公开回复、升级和改进效果复盘",
+        "评价来源、授权、真实性和样本偏差",
+        "站点、语言、SKU/ASIN、星级和时间口径",
+        "主题、情绪、严重度、置信度和证据原文"
       ],
       "download_count": 0,
       "classification": {
@@ -5099,6 +5133,40 @@
       }
     },
     {
+      "name": "app-growth-promotion-specialist",
+      "display_name": "APP 增长推广专家",
+      "version": "1.0.0",
+      "package_root": "精准营销/增长营销/APP推广/app-growth-promotion-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新 APP 或新国家冷启动推广",
+        "ASO、商店页和素材转化优化",
+        "Apple Search Ads、Google App Campaigns、Meta/TikTok 等安装与再互动投放",
+        "安装到注册、激活、付费或首个核心行为漏斗诊断",
+        "SKAdNetwork、Privacy Sandbox、MMP、深链和反作弊治理",
+        "iOS/Android、国家、版本、商店政策和发布状态",
+        "关键词、排名、商店曝光、页面访问和安装转化",
+        "SDK/MMP、事件 taxonomy、深链、归因窗口和隐私同意"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      },
+      "compliance": {
+        "profile": "precision-marketing",
+        "baseline": "references/compliance-baseline.md",
+        "decision_states": [
+          "ALLOW",
+          "REVIEW_REQUIRED",
+          "COMPLIANCE_REJECTED"
+        ],
+        "human_review_required_when_uncertain": true,
+        "does_not_replace_system_controls_or_professional_advice": true
+      }
+    },
+    {
       "name": "customer-acquisition-growth-manager",
       "display_name": "新客获取与拉新增长经理",
       "version": "1.0.5",
@@ -5389,18 +5457,20 @@
     },
     {
       "name": "customer-retention-loyalty-manager",
-      "display_name": "客户留存与忠诚度经理",
-      "version": "1.0.5",
+      "display_name": "用户生命周期、会员与挽留经理",
+      "version": "1.0.6",
       "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "复购率提升",
-        "会员或积分计划",
-        "流失客户召回",
-        "复购周期和流失信号",
-        "cohort、RFM 和 LTV",
-        "购后教育与服务"
+        "新客首购后培育与二购提升",
+        "新老客分层、生命周期旅程和老客经营",
+        "会员、等级、积分、权益和推荐计划",
+        "沉默、流失预警、召回与挽留",
+        "留存下降、会员成本或复购质量诊断",
+        "客户身份、同意、新老客和会员口径",
+        "cohort、RFM、LTV、复购周期和成熟度",
+        "激活、首购、二购、活跃、沉默、流失和召回状态"
       ],
       "download_count": 0,
       "classification": {

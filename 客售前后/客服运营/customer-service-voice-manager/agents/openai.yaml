@@ -1,4 +1,4 @@
 interface:
-  display_name: "跨境客服售前运营专家"
-  short_description: "端到端完成跨渠道购买前咨询、需求澄清、商品推荐、多语言回复、FAQ 沉淀、线索分级、质检培训和销售交接。"
+  display_name: "跨境客售前后运营专家"
+  short_description: "端到端完成购买前咨询、商品推荐、订单中服务、售后处理、多语言沟通、知识沉淀、质检培训和跨部门交接。"
   default_prompt: "使用 $customer-service-voice-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

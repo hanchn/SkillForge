@@ -1,4 +1,4 @@
 interface:
-  display_name: "客户留存与忠诚度经理"
-  short_description: "按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。"
+  display_name: "用户生命周期、会员与挽留经理"
+  short_description: "基于统一客户身份、同意、客户价值和行为周期，设计新客培育、老客复购、会员权益、流失预警、召回挽留和忠诚增长闭环。"
   default_prompt: "使用 $customer-retention-loyalty-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "APP 增长推广专家"
+  short_description: "围绕 App Store 与 Google Play 商店发现、付费安装、深链归因、激活、关键行为、留存和贡献价值设计可"
+  default_prompt: "使用 $app-growth-promotion-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

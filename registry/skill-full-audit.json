@@ -1,7 +1,7 @@
 {
-  "skills": 191,
+  "skills": 193,
   "status": {
-    "通过": 191
+    "通过": 193
   },
   "results": [
     {
@@ -67,7 +67,7 @@
     {
       "name": "crm-product-architecture",
       "display_name": "CRM 产品架构师",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "category": "互联网研发",
       "kind": "架构师",
       "score": 100,
@@ -1050,39 +1050,51 @@
     },
     {
       "name": "senior-customer-service-presales-manager",
-      "display_name": "客服售前资深经理",
-      "version": "1.0.6",
-      "category": "客服售前",
+      "display_name": "客售前后资深经理",
+      "version": "1.0.7",
+      "category": "客售前后",
       "kind": "资深经理",
       "score": 100,
       "status": "通过",
       "failed": [],
-      "focus": "商品事实、语言市场、承诺权限、知识、线索交接、质检与客户声音",
-      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager"
+      "focus": "商品订单事实、语言市场、承诺与售后权限、咨询分析、知识、线索投诉交接、质检与客户声音",
+      "package_root": "客售前后/客服角色/客售前后资深经理/senior-customer-service-presales-manager"
     },
     {
       "name": "senior-customer-service-presales-manager-weekly-report",
-      "display_name": "客服售前资深经理周报",
-      "version": "1.0.6",
-      "category": "客服售前",
+      "display_name": "客售前后资深经理周报",
+      "version": "1.0.7",
+      "category": "客售前后",
       "kind": "周报",
       "score": 100,
       "status": "通过",
       "failed": [],
-      "focus": "商品事实、语言市场、承诺权限、知识、线索交接、质检与客户声音",
-      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report"
+      "focus": "商品订单事实、语言市场、承诺与售后权限、咨询分析、知识、线索投诉交接、质检与客户声音",
+      "package_root": "客售前后/客服角色/客售前后资深经理/senior-customer-service-presales-manager-weekly-report"
     },
     {
-      "name": "customer-service-voice-manager",
-      "display_name": "跨境客服售前运营专家",
-      "version": "2.0.5",
-      "category": "客服售前",
+      "name": "customer-consultation-analysis-specialist",
+      "display_name": "客户咨询分析专家",
+      "version": "1.0.0",
+      "category": "客售前后",
       "kind": "专项能力",
       "score": 100,
       "status": "通过",
       "failed": [],
-      "focus": "商品事实、语言市场、承诺权限、知识、线索交接、质检与客户声音",
-      "package_root": "客服售前/客服运营/customer-service-voice-manager"
+      "focus": "商品订单事实、语言市场、承诺与售后权限、咨询分析、知识、线索投诉交接、质检与客户声音",
+      "package_root": "客售前后/咨询分析/customer-consultation-analysis-specialist"
+    },
+    {
+      "name": "customer-service-voice-manager",
+      "display_name": "跨境客售前后运营专家",
+      "version": "2.0.6",
+      "category": "客售前后",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "商品订单事实、语言市场、承诺与售后权限、咨询分析、知识、线索投诉交接、质检与客户声音",
+      "package_root": "客售前后/客服运营/customer-service-voice-manager"
     },
     {
       "name": "supplier-sourcing-quality-manager",
@@ -1770,8 +1782,8 @@
     },
     {
       "name": "review-reputation-manager",
-      "display_name": "评价与品牌声誉经理",
-      "version": "1.0.5",
+      "display_name": "评价分析与品牌声誉经理",
+      "version": "1.0.6",
       "category": "渠道运营",
       "kind": "专项能力",
       "score": 100,
@@ -1827,6 +1839,18 @@
       "failed": [],
       "focus": "站点平台、商品事实、市场与关键词、库存利润、账户合规、上下架与复盘",
       "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader-weekly-report"
+    },
+    {
+      "name": "app-growth-promotion-specialist",
+      "display_name": "APP 增长推广专家",
+      "version": "1.0.0",
+      "category": "精准营销",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "人群同意、实时市场、渠道创意、归因增量、预算止损、SEO/GEO 与触达",
+      "package_root": "精准营销/增长营销/APP推广/app-growth-promotion-specialist"
     },
     {
       "name": "geo-optimizer",
@@ -1937,18 +1961,6 @@
       "package_root": "精准营销/推广营销/commerce-advertising-optimizer"
     },
     {
-      "name": "customer-retention-loyalty-manager",
-      "display_name": "客户留存与忠诚度经理",
-      "version": "1.0.5",
-      "category": "精准营销",
-      "kind": "专项能力",
-      "score": 100,
-      "status": "通过",
-      "failed": [],
-      "focus": "人群同意、实时市场、渠道创意、归因增量、预算止损、SEO/GEO 与触达",
-      "package_root": "精准营销/用户运营/customer-retention-loyalty-manager"
-    },
-    {
       "name": "customer-acquisition-growth-manager",
       "display_name": "新客获取与拉新增长经理",
       "version": "1.0.5",
@@ -1983,6 +1995,18 @@
       "failed": [],
       "focus": "人群同意、实时市场、渠道创意、归因增量、预算止损、SEO/GEO 与触达",
       "package_root": "精准营销/投放广告/Meta/meta-ads-ecommerce-specialist"
+    },
+    {
+      "name": "customer-retention-loyalty-manager",
+      "display_name": "用户生命周期、会员与挽留经理",
+      "version": "1.0.6",
+      "category": "精准营销",
+      "kind": "专项能力",
+      "score": 100,
+      "status": "通过",
+      "failed": [],
+      "focus": "人群同意、实时市场、渠道创意、归因增量、预算止损、SEO/GEO 与触达",
+      "package_root": "精准营销/用户运营/customer-retention-loyalty-manager"
     },
     {
       "name": "senior-user-operations-manager",

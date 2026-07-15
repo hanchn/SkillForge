@@ -1,4 +1,4 @@
 interface:
   display_name: "CRM 产品架构师"
-  short_description: "围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。"
+  short_description: "围绕统一客户、身份解析、同意偏好、线索商机、互动服务、分群旅程和生命周期运营设计可审计的 CRM 产品架构。"
   default_prompt: "使用 $crm-product-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

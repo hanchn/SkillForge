@@ -33,8 +33,8 @@
       "updated_at": "2026-07-15"
     },
     "crm-product-architecture": {
-      "version": "1.0.5",
-      "fingerprint": "bbd3534b94191ff4f87e80afd60cab3aad54477adc990138f62b98ce59858760",
+      "version": "1.0.6",
+      "fingerprint": "125bba2f7af9e8026accaef237fe03855f54fa91062ad6e304049df4365f4997",
       "package_root": "互联网研发/产品/系统产品架构/CRM/crm-product-architecture",
       "updated_at": "2026-07-15"
     },
@@ -495,21 +495,21 @@
       "updated_at": "2026-07-15"
     },
     "senior-customer-service-presales-manager": {
-      "version": "1.0.6",
-      "fingerprint": "763e2326fa1cb4e322ac5be6647985e489c74f7f97e473acf85d526facb44350",
-      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager",
+      "version": "1.0.7",
+      "fingerprint": "d5a9113288698dab8a3e287ec32c4b3e193f75565d187969e56f766fd3955397",
+      "package_root": "客售前后/客服角色/客售前后资深经理/senior-customer-service-presales-manager",
       "updated_at": "2026-07-15"
     },
     "senior-customer-service-presales-manager-weekly-report": {
-      "version": "1.0.6",
-      "fingerprint": "74158e5f4883ed6938fc384ed76f5f3ad0f9a4609a9507456a54e9daa8928712",
-      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report",
+      "version": "1.0.7",
+      "fingerprint": "0423539beab9a5c2b6511c0397040e7d707dec3ba258ff93e4583b9218c973c4",
+      "package_root": "客售前后/客服角色/客售前后资深经理/senior-customer-service-presales-manager-weekly-report",
       "updated_at": "2026-07-15"
     },
     "customer-service-voice-manager": {
-      "version": "2.0.5",
-      "fingerprint": "11f84e2e24f01af7b52e34a922e43304caffd24674557e04230cb48c2971fa7c",
-      "package_root": "客服售前/客服运营/customer-service-voice-manager",
+      "version": "2.0.6",
+      "fingerprint": "c9ab8498f3f3c00cf641db5d86c0e579fe59d05da85d8bc2abdc295e77902d5f",
+      "package_root": "客售前后/客服运营/customer-service-voice-manager",
       "updated_at": "2026-07-15"
     },
     "supplier-sourcing-quality-manager": {
@@ -777,8 +777,8 @@
       "updated_at": "2026-07-15"
     },
     "review-reputation-manager": {
-      "version": "1.0.5",
-      "fingerprint": "3954ae77084bbb4ad471549e5d82447210770e2393c75023cbfea16ee3ff8ebd",
+      "version": "1.0.6",
+      "fingerprint": "96e340349a546f0bf2ee5d232a9b85a96107827b0a8de2dcf2566c5fec902a54",
       "package_root": "渠道运营/客户体验/review-reputation-manager",
       "updated_at": "2026-07-15"
     },
@@ -951,8 +951,8 @@
       "updated_at": "2026-07-15"
     },
     "customer-retention-loyalty-manager": {
-      "version": "1.0.5",
-      "fingerprint": "c04c32db96e2c6b73443a5caa0e61f7a076a54092c7917343c59a75fa598e35c",
+      "version": "1.0.6",
+      "fingerprint": "d5f5a13bfb2d6fe77ab913ab4e5c59c821fc93c4f08452a549b2dc2a1905fdb7",
       "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "updated_at": "2026-07-15"
     },
@@ -1146,6 +1146,18 @@
       "version": "1.0.0",
       "fingerprint": "1a2cc6d9e93cc71e6292800f765240ff35aca33782c0de9fff1ddec55119370d",
       "package_root": "基础工具/消息与告警/message-alert-orchestration-specialist",
+      "updated_at": "2026-07-15"
+    },
+    "customer-consultation-analysis-specialist": {
+      "version": "1.0.0",
+      "fingerprint": "f97d9f7ca56473551d94e38a35f38b9c4bca73a9360f5677c5fdd78a66ed137d",
+      "package_root": "客售前后/咨询分析/customer-consultation-analysis-specialist",
+      "updated_at": "2026-07-15"
+    },
+    "app-growth-promotion-specialist": {
+      "version": "1.0.0",
+      "fingerprint": "8e70cfef56ebe34adea06dd518b3903ad594a844dc6d9f8993bc1e5597dd0a15",
+      "package_root": "精准营销/增长营销/APP推广/app-growth-promotion-specialist",
       "updated_at": "2026-07-15"
     }
   }

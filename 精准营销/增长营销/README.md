@@ -12,6 +12,7 @@
 
 ## 当前 Skill
 
+- [APP 增长推广专家](APP推广/app-growth-promotion-specialist/README.md)：围绕 App Store 与 Google Play 商店发现、付费安装、深链归因、激活、关键行为、留存和贡献价值设计可验证的 APP 增长系统。适用于新 APP 或新国家冷启动推广、ASO、商店页和素材转化优化、Apple Search Ads、Google App Campaigns、Meta/TikTok 等安装与再互动投放、安装到注册、激活、付费或首个核心行为漏斗诊断、SKAdNetwork、Privacy Sandbox、MMP、深链和反作弊治理，交付APP 市场、商店、版本和增长准备度报告、ASO 关键词、商店页、评分与本地化方案、媒体、受众、素材、预算、事件和深链矩阵、安装、激活、留存、付费、LTV、增量和反作弊自检报告。
 - [跨境全链路增长负责人](cross-border-growth-operator/README.md)：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。
 - [跨渠道营销归因规划师](marketing-attribution-planner/README.md)：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。
 - [新客获取与拉新增长经理](拉新/customer-acquisition-growth-manager/README.md)：围绕目标人群、获客渠道、首购路径和回收期设计可验证的新客增长系统。适用于新品或新市场拉新、付费、自然、达人和推荐获客组合、获客成本上升或新客质量下降诊断，交付新客增长模型与渠道组合、首触达到首购漏斗方案、预算、实验、回收期和止损计划。

@@ -1,4 +1,4 @@
 interface:
-  display_name: "评价与品牌声誉经理"
-  short_description: "合规监控评价、识别根因、回复客户并推动产品和履约改进。"
+  display_name: "评价分析与品牌声誉经理"
+  short_description: "基于授权评价原文、星级、SKU、站点、时间及订单、退货、客服和 VOC 数据，合规分析主题、趋势、异常与根因，并推动产品"
   default_prompt: "使用 $review-reputation-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
