@@ -1,0 +1,22 @@
+# 市场与战略
+
+## 分类定位
+
+覆盖市场情报、机会判断、上市和跨市场策略。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [跨境市场情报分析师](cross-border-market-intelligence/README.md)：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。 Use when an AI needs to handle 进入新国家或类目, 竞品与价格带扫描, 季度市场机会更新; produce 市场情报简报, 机会评分和证据表, 验证计划与预警项; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境上市规划师](go-to-market-launch-planner/README.md)：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。 Use when an AI needs to handle 新品上市, 新站点或新国家启动, 重大版本或季节发布; produce GTM 计划, 阶段门和责任矩阵, 预算、指标与复盘设计; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

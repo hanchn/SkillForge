@@ -1,0 +1,21 @@
+# 创意生产
+
+## 分类定位
+
+覆盖洞察、角度、脚本、素材测试和疲劳管理。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [跨境广告创意策略师](creative-strategy-producer/README.md)：从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。 Use when an AI needs to handle 广告素材策略, UGC brief 和脚本矩阵, 创意疲劳治理; produce 创意策略地图, 角度、钩子和脚本矩阵, 测试编码与复盘规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

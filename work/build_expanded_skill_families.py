@@ -341,4 +341,89 @@ You are the {s['display']}. Follow `SKILL.md`, read the checklist, inspect prima
 for item in SPECS:
     write_skill(item)
 
-print(f"Built {len(SPECS)} complete skill packages")
+CATEGORIES = {
+    "互联网研发/前端/架构": ("前端通用架构", "沉淀与语言和框架无关的前端边界、运行时、质量属性和演进方法。"),
+    "互联网研发/前端/语言": ("前端语言架构", "处理 JavaScript、TypeScript 等语言自身的模块、类型、运行时和工程约束。"),
+    "互联网研发/前端/语言/JavaScript": ("JavaScript 前端架构", "治理动态类型、模块系统、异步运行时和依赖供应链。"),
+    "互联网研发/前端/语言/TypeScript": ("TypeScript 前端架构", "治理类型边界、项目引用、模块解析和编译性能。"),
+    "互联网研发/前端/框架": ("前端框架架构", "在通用架构与语言架构之上处理具体框架的运行语义。"),
+    "互联网研发/前端/框架/React": ("React 架构", "处理 React 组件、状态、数据流、渲染和测试边界。"),
+    "互联网研发/前端/框架/Vue": ("Vue 架构", "处理 Vue 组件、组合式逻辑、响应式状态和工程边界。"),
+    "互联网研发/前端/框架/Next.js": ("Next.js 架构", "处理 App Router、Server/Client Components、缓存、SEO 和部署。"),
+    "互联网研发/后端/架构": ("后端通用架构", "沉淀语言无关的领域边界、质量属性、数据 ownership 和演进路线。"),
+    "互联网研发/后端/语言": ("后端语言架构", "按 Java、Go、Python、Node.js 的运行模型和生态细化架构。"),
+    "互联网研发/后端/语言/Java": ("Java 后端架构", "处理 Java 模块、并发、JVM 和长期演进。"),
+    "互联网研发/后端/语言/Go": ("Go 后端架构", "处理 Go 包边界、并发、取消、错误和资源生命周期。"),
+    "互联网研发/后端/语言/Python": ("Python 后端架构", "处理 Python 包、类型、同步异步和运行环境。"),
+    "互联网研发/后端/语言/Node.js": ("Node.js 后端架构", "处理事件循环、模块格式、异步失败和资源限制。"),
+    "互联网研发/后端/框架": ("后端框架架构", "在通用和语言架构上处理具体框架的模块、依赖和生产能力。"),
+    "互联网研发/后端/框架/Spring Boot": ("Spring Boot 架构", "处理模块、依赖注入、事务、安全和生产可观测。"),
+    "互联网研发/后端/框架/FastAPI": ("FastAPI 架构", "处理 APIRouter、Depends、Pydantic、异步和部署。"),
+    "互联网研发/后端/框架/NestJS": ("NestJS 架构", "处理 module、provider、请求管道和集成边界。"),
+    "互联网研发/后端/框架/Gin": ("Gin 架构", "处理路由、middleware、显式依赖和 Go HTTP 运行时。"),
+    "跨境运营/市场与战略": ("市场与战略", "覆盖市场情报、机会判断、上市和跨市场策略。"),
+    "跨境运营/品牌营销": ("品牌营销", "覆盖品牌定位、价值证据和跨文化表达。"),
+    "跨境运营/渠道运营": ("渠道运营", "覆盖渠道组合与各平台端到端经营。"),
+    "跨境运营/渠道运营/亚马逊": ("亚马逊运营", "覆盖 Amazon 账户、目录、流量、广告、库存和利润。"),
+    "跨境运营/渠道运营/独立站": ("独立站运营", "覆盖 Shopify 商品、流量、转化、订单和客户经营。"),
+    "跨境运营/渠道运营/TikTok Shop": ("TikTok Shop 运营", "覆盖内容、直播、达人、广告、商品和履约联动。"),
+    "跨境运营/内容营销": ("内容营销", "覆盖主题策略、编辑日历、分发、转化和衡量。"),
+    "跨境运营/社媒营销": ("社媒营销", "覆盖平台内容、社区互动、自然增长和账号健康。"),
+    "跨境运营/达人联盟": ("达人与联盟", "覆盖发现、筛选、合作、授权、佣金和增量效果。"),
+    "跨境运营/用户运营": ("用户运营", "覆盖邮件生命周期、购后、召回、会员和忠诚度。"),
+    "跨境运营/活动营销": ("活动营销", "覆盖跨市场促销日历、资源统筹和活动复盘。"),
+    "跨境运营/创意生产": ("创意生产", "覆盖洞察、角度、脚本、素材测试和疲劳管理。"),
+    "跨境运营/商品运营": ("商品运营", "覆盖平台商品信息、搜索发现和转化表达。"),
+    "跨境运营/客户体验": ("客户体验", "覆盖多语言客服、评价、声誉和 VOC 改进闭环。"),
+    "跨境运营/商业化": ("商业化", "覆盖定价、折扣、促销和单位经济。"),
+    "跨境运营/增长营销": ("增长营销", "覆盖归因、获客、转化、留存和跨团队增长。"),
+    "数据/业务分析": ("跨境业务数据分析", "覆盖指标、经营、利润、商品、流量、漏斗、广告、客户、库存和预测。"),
+    "数据/数据治理": ("数据治理", "覆盖数据质量、跨系统对账、口径和责任治理。"),
+    "项目管理/公共": ("业务系统公共架构", "沉淀跨系统能力地图、主数据归属和端到端协同。"),
+    "项目管理/OMS": ("OMS 项目", "订单管理系统的产品架构和后续细分 Skill。"),
+    "项目管理/IMS": ("IMS 项目", "库存管理系统的产品架构和后续细分 Skill。"),
+    "项目管理/OFS": ("OFS 项目", "订单履约系统的产品架构和后续细分 Skill。"),
+    "项目管理/CMS": ("CMS 项目", "商品/内容管理系统的产品架构和后续细分 Skill。"),
+    "项目管理/TMS": ("TMS 项目", "运输管理系统的产品架构和后续细分 Skill。"),
+    "项目管理/CRM": ("CRM 项目", "客户关系系统的产品架构和后续细分 Skill。"),
+    "项目管理/PLM": ("PLM 项目", "产品生命周期系统的产品架构和后续细分 Skill。"),
+}
+
+
+def category_readme(relative, title, summary):
+    directory = ROOT / relative
+    directory.mkdir(parents=True, exist_ok=True)
+    rows = []
+    for meta in sorted(directory.rglob("skill.json")):
+        data = json.loads(meta.read_text(encoding="utf-8"))
+        skill_dir = meta.parent.relative_to(directory)
+        rows.append(f"- [{data['display_name']}]({skill_dir.as_posix()}/README.md)：{data['description']}")
+    body = f"""# {title}
+
+## 分类定位
+
+{summary}
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+""" + ("\n".join(rows) if rows else "- 暂无正式 Skill，作为未来扩展入口。") + f"""
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| {DATE} | 建立分类定位、选择原则和正式 Skill 索引。 |
+"""
+    (directory / "README.md").write_text(body, encoding="utf-8")
+
+
+for path, (title, summary) in CATEGORIES.items():
+    category_readme(path, title, summary)
+
+print(f"Built {len(SPECS)} complete skill packages and {len(CATEGORIES)} category docs")

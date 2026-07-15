@@ -1,14 +1,21 @@
-# 公共能力
+# 业务系统公共架构
 
-这里用于放置跨 IMS、TMS、OMS、OFS、WMS 复用，且业务规则能够保持一致的项目管理 skill。
+## 分类定位
 
-## 候选方向
+沉淀跨系统能力地图、主数据归属和端到端协同。
 
-- 项目组合与优先级管理
-- 需求追踪与变更控制
-- 跨系统依赖和集成边界梳理
-- 联合发布、上线检查和回滚协调
-- 项目风险、问题和决策记录
-- 事故复盘与改进项跟踪
+## 选择原则
 
-当前只有浏览目录，没有正式 skill。创建具体能力时，应先判断它是否真的跨项目复用；如果包含某个系统特有的状态、字段或业务规则，应放回对应项目目录。
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [跨境业务系统总产品架构师](commerce-systems-product-architecture/README.md)：设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。 Use when an AI needs to handle 跨境业务系统蓝图, 系统边界重构, 新系统立项和集成治理; produce 业务能力与系统地图, 主数据和状态 ownership 矩阵, 跨系统流程、契约与演进路线; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

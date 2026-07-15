@@ -1,0 +1,22 @@
+# 用户运营
+
+## 分类定位
+
+覆盖邮件生命周期、购后、召回、会员和忠诚度。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [客户留存与忠诚度经理](customer-retention-loyalty-manager/README.md)：按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。 Use when an AI needs to handle 复购率提升, 会员或积分计划, 流失客户召回; produce 留存策略, 客户分层和触达旅程, 会员经济模型与实验; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [邮件生命周期营销师](email-lifecycle-marketer/README.md)：按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。 Use when an AI needs to handle 欢迎、弃购、购后、召回流程, Newsletter 运营, 邮件收入和送达率治理; produce 生命周期流程图, 分群、触发与内容方案, 实验和送达健康看板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

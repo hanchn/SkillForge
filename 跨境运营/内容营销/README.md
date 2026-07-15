@@ -1,0 +1,21 @@
+# 内容营销
+
+## 分类定位
+
+覆盖主题策略、编辑日历、分发、转化和衡量。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [跨境内容营销规划师](content-marketing-planner/README.md)：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。 Use when an AI needs to handle 博客和指南规划, 季度内容矩阵, SEO、社媒、邮件内容协同; produce 内容战略, 主题集群和编辑日历, 分发、转化与衡量方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

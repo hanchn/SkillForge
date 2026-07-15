@@ -1,0 +1,21 @@
+# 前端通用架构
+
+## 分类定位
+
+沉淀与语言和框架无关的前端边界、运行时、质量属性和演进方法。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [前端通用架构设计师](frontend-architecture-designer/README.md)：从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。 Use when an AI needs to handle 新前端平台或大型模块架构, 遗留前端重构与模块化, 多团队前端架构评审; produce 前端架构蓝图, 模块与依赖边界, 运行时、交付与演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

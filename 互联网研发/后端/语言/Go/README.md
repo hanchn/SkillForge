@@ -1,4 +1,21 @@
-# Go
+# Go 后端架构
 
-- 用途：Go 分类资料目录
-- 公共：存放该维度下的通用资料
+## 分类定位
+
+处理 Go 包边界、并发、取消、错误和资源生命周期。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [Go 后端架构师](go-backend-architecture/README.md)：按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。 Use when an AI needs to handle Go API 或任务服务, 高并发 Go 服务治理, Go 单仓多服务架构; produce Go 包与服务架构, 并发和取消模型, 错误、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

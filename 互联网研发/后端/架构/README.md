@@ -1,0 +1,21 @@
+# 后端通用架构
+
+## 分类定位
+
+沉淀语言无关的领域边界、质量属性、数据 ownership 和演进路线。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [后端通用架构设计师](backend-architecture-designer/README.md)：从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。 Use when an AI needs to handle 企业后端总体架构, 单体、模块化和服务化选型, 跨团队系统演进评审; produce 后端总体架构蓝图, 质量属性与边界决策, 技术路线和分阶段演进计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

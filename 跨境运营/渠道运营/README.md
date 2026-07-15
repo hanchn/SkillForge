@@ -1,0 +1,24 @@
+# 渠道运营
+
+## 分类定位
+
+覆盖渠道组合与各平台端到端经营。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [TikTok Shop 运营经理](TikTok Shop/tiktok-shop-operations-manager/README.md)：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。 Use when an AI needs to handle TikTok Shop 冷启动, 内容电商日常经营, GMV 波动诊断; produce TikTok Shop 经营计划, 内容达人商品协同表, 店铺健康和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [跨境渠道组合策略师](channel-portfolio-strategist/README.md)：按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。 Use when an AI needs to handle Amazon、Shopify、TikTok 等渠道组合, 新渠道评估, 渠道冲突和资源分配; produce 渠道角色地图, 进入与退出评分, 资源和治理方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [亚马逊店铺运营经理](亚马逊/amazon-store-operations-manager/README.md)：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。 Use when an AI needs to handle Amazon 日常经营, 新品启动, 店铺问题诊断和周月度复盘; produce Amazon 经营计划, 问题优先级与执行清单, 店铺经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Shopify 独立站运营经理](独立站/shopify-store-operations-manager/README.md)：统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。 Use when an AI needs to handle Shopify 日常运营, 新品与活动上线, 独立站增长和问题排查; produce 独立站经营计划, 上线与健康检查表, 渠道和站内经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

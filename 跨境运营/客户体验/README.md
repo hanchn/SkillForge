@@ -1,0 +1,22 @@
+# 客户体验
+
+## 分类定位
+
+覆盖多语言客服、评价、声誉和 VOC 改进闭环。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [跨境多语言客服经理](customer-service-voice-manager/README.md)：以多语言一致性、问题解决和客户洞察运营售前售后服务。 Use when an AI needs to handle 邮件、在线聊天和平台消息客服, 多语言话术体系, 客服质检和 VOC 闭环; produce 客服 SOP 与话术库, 升级和赔付矩阵, VOC 分类与改进报告; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [评价与品牌声誉经理](review-reputation-manager/README.md)：合规监控评价、识别根因、回复客户并推动产品和履约改进。 Use when an AI needs to handle 平台评价治理, 差评和舆情响应, 评分下降根因分析; produce 评价健康报告, 合规回复和升级方案, 根因与改进闭环; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

@@ -1,0 +1,21 @@
+# 达人与联盟
+
+## 分类定位
+
+覆盖发现、筛选、合作、授权、佣金和增量效果。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [达人与联盟营销经理](influencer-affiliate-manager/README.md)：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。 Use when an AI needs to handle 达人种草和带货, 联盟计划搭建, UGC 采购与授权; produce 达人分层池, 合作 brief 与跟进管道, 佣金、授权和效果复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

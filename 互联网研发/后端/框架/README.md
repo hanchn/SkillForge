@@ -1,0 +1,24 @@
+# 后端框架架构
+
+## 分类定位
+
+在通用和语言架构上处理具体框架的模块、依赖和生产能力。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [FastAPI 后端架构师](FastAPI/fastapi-backend-architecture/README.md)：围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。 Use when an AI needs to handle FastAPI 中大型应用, Python API 模块化, 异步 API 性能和可靠性治理; produce FastAPI 包与路由架构, 依赖和数据契约, 运行、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Gin 后端架构师](Gin/gin-backend-architecture/README.md)：围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。 Use when an AI needs to handle Gin API 新建或重构, 高吞吐 Go HTTP 服务, middleware 和安全治理; produce Gin 路由与模块架构, middleware 和依赖方案, 性能、安全和部署计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [NestJS 后端架构师](NestJS/nestjs-backend-architecture/README.md)：围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。 Use when an AI needs to handle NestJS 企业 API, 模块边界和依赖治理, 单体到服务化演进; produce NestJS 模块架构, provider 与请求管道设计, 测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- [Spring Boot 后端架构师](Spring Boot/spring-boot-backend-architecture/README.md)：围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。 Use when an AI needs to handle Spring Boot 服务新建或重构, 模块化单体与服务拆分, 生产可观测和升级治理; produce Spring Boot 模块架构, 事务与集成边界, 生产运行和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

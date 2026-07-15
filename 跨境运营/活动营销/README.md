@@ -1,0 +1,21 @@
+# 活动营销
+
+## 分类定位
+
+覆盖跨市场促销日历、资源统筹和活动复盘。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [跨境活动营销经理](promotion-calendar-manager/README.md)：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。 Use when an AI needs to handle 黑五网一和节日大促, 季度促销规划, 多渠道活动冲突治理; produce 年度/季度活动日历, 活动机制和资源表, 上线检查与复盘模板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

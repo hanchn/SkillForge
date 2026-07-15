@@ -1,0 +1,21 @@
+# 商品运营
+
+## 分类定位
+
+覆盖平台商品信息、搜索发现和转化表达。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [平台商品信息优化师](marketplace-listing-optimizer/README.md)：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。 Use when an AI needs to handle Amazon 等平台 listing 优化, 新品信息搭建, 低流量或低转化详情修复; produce 关键词和信息架构, 标题、卖点和详情建议, 合规与实验清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |

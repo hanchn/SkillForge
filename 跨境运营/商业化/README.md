@@ -1,0 +1,21 @@
+# 商业化
+
+## 分类定位
+
+覆盖定价、折扣、促销和单位经济。
+
+## 选择原则
+
+- 先用上层通用 Skill 定义边界、口径和总体方案，再用语言、框架、渠道或系统 Skill 深化。
+- 一个任务可以组合多个 Skill，但必须指定主 Skill，避免重复 ownership。
+- README 是中文产品文档；执行时先读对应 Skill 的 `SKILL.md`。
+
+## 当前 Skill
+
+- [定价与促销优化经理](pricing-promotion-optimizer/README.md)：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。 Use when an AI needs to handle 新品定价, 跨国家跨渠道价格治理, 折扣和优惠机制优化; produce 价格架构, 促销方案和利润模拟, 实验、监控与退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+
+## 迭代记录
+
+| 日期 | 更新 |
+|---|---|
+| 2026-07-15 | 建立分类定位、选择原则和正式 Skill 索引。 |
