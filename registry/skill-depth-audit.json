@@ -942,7 +942,7 @@
     {
       "name": "creative-asset-intelligent-tagging-specialist",
       "display_name": "创意素材智能打标专家",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category_path": [
         "创拍视觉",
         "AI创意制作",
@@ -1657,7 +1657,7 @@
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "category_path": [
         "渠道运营",
         "多渠道运营",

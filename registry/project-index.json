@@ -2268,17 +2268,18 @@
     {
       "name": "creative-asset-intelligent-tagging-specialist",
       "display_name": "创意素材智能打标专家",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "package_root": "创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
         "存量图片视频批量打标",
         "新素材入库自动标签建议",
+        "接入贵司关键词库或标签库并按确认策略优先匹配",
         "AI 打标工具规划、标签补全、纠错、搜索和效果归因治理",
         "素材来源、权限、权利和版本",
-        "标签 taxonomy、定义、互斥、依赖、敏感等级和 owner",
-        "模型、API、置信度、成本、时延和候选策略"
+        "使用者关键词库、标签库、优先策略和冲突处理",
+        "标签 taxonomy、定义、互斥、依赖、敏感等级和 owner"
       ],
       "download_count": 0,
       "classification": {
@@ -4092,7 +4093,7 @@
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -4104,7 +4105,14 @@
         "图片分组",
         "CSV",
         "XLSX",
-        "Listing"
+        "Listing",
+        "SEO",
+        "GEO",
+        "关键词",
+        "BSR",
+        "市场排名",
+        "实时趋势",
+        "自检"
       ],
       "download_count": 0,
       "classification": {

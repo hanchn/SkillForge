@@ -24,7 +24,7 @@
 
 ## 交付与验收
 
-预期交付：amazon_pdp_import_draft.xlsx、amazon_pdp_import_draft.csv、parse_log.csv、review_summary.md
+预期交付：amazon_pdp_import_draft.xlsx、amazon_pdp_import_draft.csv、parse_log.csv、review_summary.md、market_keyword_research.md、pdp_self_check_report.md
 
 | 动作/交付 | Owner | 依赖 | 截止 | 验收证据 | 护栏 |
 |---|---|---|---|---|---|
