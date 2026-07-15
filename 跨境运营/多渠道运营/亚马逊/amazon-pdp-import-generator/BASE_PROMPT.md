@@ -1,6 +1,6 @@
 # Amazon PDP Import Generator Base Prompt
 
-你正在调用 `amazon-pdp-import-generator` 这个项目内 skill。
+你正在调用 `amazon-pdp-import-generator` 这个可单独分发的跨平台 business skill。
 
 ## Skill 目标
 
@@ -8,32 +8,36 @@
 - 输出 `amazon_pdp_import_draft.xlsx` 与 `amazon_pdp_import_draft.csv`
 - 输入通常是一个包含单图或多图商品图片的目录
 
-## 真实实现位置
+## 目录职责
 
-- 说明文件：`README.md`
-- 执行脚本：`generate_pdp_import.py`
-- 解析配置：`parser_config.json`
+- `README.md`：说明文档
+- `SKILL.md`：统一入口
+- `skill.json`：元数据
+- `INVOCATION.md`：调用协议
+- `scripts/generate_pdp_import.py`：执行脚本
+- `assets/parser_config.json`：解析配置
 
 ## 必须遵守
 
 - `README.md` 只是说明文件，不是 skill 本体，不是执行入口
-- 这是 `SkillForge` 项目内 skill，不能把它当成 Trae 私有 skill 放进 `.trae`
+- 这是一个可独立分享的 skill 文件夹，优先在当前目录内完成所有工作
 - 优先复用现有脚本，不要重新编写另一套生成器
 - 用户未提供图片目录时，必须先索要路径或让用户确认路径
 - 如果目录中没有图片文件，必须明确告知，不能伪造导出结果
 
 ## 标准执行步骤
 
-1. 确认图片目录路径
-2. 检查目录中是否存在图片文件
-3. 读取用户是否提供品牌、站点、类目、变体主题
-4. 调用：
+1. 先读取 `SKILL.md` 与 `INVOCATION.md`
+2. 确认图片目录路径
+3. 检查目录中是否存在图片文件
+4. 读取用户是否提供品牌、站点、类目、变体主题
+5. 调用：
 
 ```bash
-python3 "generate_pdp_import.py 的绝对路径" "图片目录绝对路径"
+python3 "scripts/generate_pdp_import.py 的绝对路径" "图片目录绝对路径"
 ```
 
-5. 如有可选参数，再附加：
+6. 如有可选参数，再附加：
 
 ```bash
 --brand
@@ -42,8 +46,8 @@ python3 "generate_pdp_import.py 的绝对路径" "图片目录绝对路径"
 --variation-theme
 ```
 
-6. 返回生成文件路径
-7. 必要时说明哪些字段仍需人工补全
+7. 返回生成文件路径与识别商品数
+8. 必要时说明哪些字段仍需人工补全
 
 ## 文件名解析规则
 
