@@ -1,0 +1,63 @@
+{
+  "name": "skillforge-project-governance",
+  "display_name": "SkillForge项目治理",
+  "type": "portable-governance-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "project-root"
+  ],
+  "description": "描述 SkillForge 项目的定位、架构设计与治理规则，供后续 AI 持续按统一标准升级业务 skill。",
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [],
+    "optional": [
+      "target_skill_path",
+      "target_business_domain",
+      "change_request"
+    ]
+  },
+  "outputs": [
+    "project understanding",
+    "architecture guidance",
+    "skill package constraints"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/README.md",
+    "config": "assets/project-rules.md",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "业务 skill 不放 .trae",
+    "README.md 只是说明文档",
+    "每个业务 skill 必须可整包单独分发",
+    "新增或重构 skill 时优先复用标准模板"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "README.md",
+      "skill.json",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "ARCHITECTURE.md",
+      "assets/project-rules.md"
+    ]
+  }
+}
