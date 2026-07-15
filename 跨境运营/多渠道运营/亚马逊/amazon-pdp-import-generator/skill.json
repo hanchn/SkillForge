@@ -1,10 +1,12 @@
 {
   "name": "amazon-pdp-import-generator",
   "display_name": "亚马逊PDP导入生成器",
-  "type": "project-local-skill",
+  "type": "portable-business-skill",
   "scope": "cross-platform",
   "version": "1.0.0",
   "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
   "category_path": [
     "跨境运营",
     "多渠道运营",
@@ -35,9 +37,13 @@
   ],
   "implementation": {
     "readme": "README.md",
-    "script": "generate_pdp_import.py",
-    "config": "parser_config.json",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "scripts/generate_pdp_import.py",
+    "config": "assets/parser_config.json",
     "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
@@ -45,5 +51,17 @@
     "不要把 skill 放进 .trae",
     "优先复用现有脚本，不重复造轮子",
     "目录为空时不得伪造结果"
-  ]
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "scripts/generate_pdp_import.py",
+      "assets/parser_config.json"
+    ]
+  }
 }

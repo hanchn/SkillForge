@@ -379,8 +379,8 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    script_dir = Path(__file__).resolve().parent
-    config = load_config(script_dir / "parser_config.json")
+    skill_root = Path(__file__).resolve().parent.parent
+    config = load_config(skill_root / "assets" / "parser_config.json")
 
     input_dir = Path(args.input_dir).expanduser().resolve()
     output_dir = Path(args.output_dir).expanduser().resolve() if args.output_dir else input_dir
