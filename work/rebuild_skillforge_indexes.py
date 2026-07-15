@@ -65,7 +65,7 @@ for item in skills:
     },
     "layers": {
         "project_governance": ["README.md", "PROJECT_INDEX.md", "skills-dashboard", "skillforge-project-governance", "schemas", "templates", "registry", "platforms"],
-        "business_browse": ["渠道运营", "精准营销", "互联网研发", "法律政务", "财务", "数据看板", "项目管理", "work"],
+        "business_browse": ["渠道运营", "精准营销", "互联网研发", "法律政务", "财务出纳", "人事招聘", "数据看板", "项目管理", "work"],
     },
     "skills": project_skills,
 }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -85,7 +85,8 @@ lines = [
     "- 精准营销地图：精准营销/PRECISION_MARKETING_SKILLS_MAP.md",
     "- 业务数据分析地图：数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md",
     "- 跨境法律地图：法律政务/LEGAL_SKILLS_MAP.md",
-    "- 跨境财务地图：财务/FINANCE_SKILLS_MAP.md",
+    "- 跨境财务与出纳地图：财务出纳/FINANCE_SKILLS_MAP.md",
+    "- 人事招聘地图：人事招聘/HR_RECRUITING_SKILLS_MAP.md",
     "- 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md",
     "", "## Search Strategy", "",
     "1. 新建、升级或打包 Skill 前先读项目治理 Skill。",

@@ -16,6 +16,7 @@
 - 业务数据分析地图：数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md
 - 跨境法律地图：法律政务/LEGAL_SKILLS_MAP.md
 - 跨境财务地图：财务出纳/FINANCE_SKILLS_MAP.md
+- 人事招聘地图：人事招聘/HR_RECRUITMENT_SKILLS_MAP.md
 - 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
 
 ## Search Strategy

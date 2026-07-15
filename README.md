@@ -24,7 +24,8 @@
 - [精准营销 Skill 地图](精准营销/PRECISION_MARKETING_SKILLS_MAP.md)
 - [业务数据分析 Skill 地图](数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md)
 - [跨境法律 Skill 地图](法律政务/LEGAL_SKILLS_MAP.md)
-- [跨境财务 Skill 地图](财务/FINANCE_SKILLS_MAP.md)
+- [跨境财务与出纳 Skill 地图](财务出纳/FINANCE_SKILLS_MAP.md)
+- [人事招聘 Skill 地图](人事招聘/HR_RECRUITING_SKILLS_MAP.md)
 - [企业业务系统产品架构地图](互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
 
 ## 架构原则
@@ -72,7 +73,7 @@
 - `registry/`：全局 skill 索引
 - `platforms/`：项目级平台适配约定
 - `skillforge-project-governance/`：描述整个项目定位、架构设计与规则的项目级 skill
-- 业务目录：如 `渠道运营/`、`精准营销/`、`互联网研发/`、`数据看板/`、`法律政务/`、`财务/`、`项目管理/`
+- 业务目录：如 `渠道运营/`、`精准营销/`、`互联网研发/`、`数据看板/`、`法律政务/`、`财务出纳/`、`人事招聘/`、`项目管理/`
 
 ## 当前要求
 
