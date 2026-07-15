@@ -1,0 +1,3 @@
+sku,parent_sku,product_type,color_name,item_name,brand_name,marketplace,category,variation_theme,main_image_file,other_image_files,main_image_url,other_image_urls,bullet_point_1,bullet_point_2,bullet_point_3,bullet_point_4,bullet_point_5,product_description,parse_confidence,source_files
+cup-202-black,cup-202,Cup,Black,DemoBrand Cup Black,DemoBrand,US,Apparel,Color,cup_202_black_detail.png,,,,,,,,,,high,cup_202_black_detail.png
+hat-001-red,hat-001,Hat,Red,DemoBrand Hat Red,DemoBrand,US,Apparel,Color,hat-001-red-front.jpg,"hat-001-red-side-2.jpg, hat-001-red.jpg",,,,,,,,,high,"hat-001-red-front.jpg, hat-001-red-side-2.jpg, hat-001-red.jpg"
