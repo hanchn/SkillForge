@@ -1,0 +1,4 @@
+interface:
+  display_name: "tms-product-architecture"
+  short_description: "Design transportation management product architecture"
+  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."

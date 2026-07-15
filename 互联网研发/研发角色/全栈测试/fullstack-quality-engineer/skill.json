@@ -1,0 +1,86 @@
+{
+  "name": "fullstack-quality-engineer",
+  "display_name": "全栈质量工程师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "研发角色",
+    "全栈测试"
+  ],
+  "description": "Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain",
+  "search_keywords": [
+    "研发角色",
+    "全栈测试",
+    "验证跨前后端和数据库的完整功能",
+    "为重大版本做 release readiness",
+    "审查测试计划的跨层风险漏测"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "需求、架构和变更范围"
+    ],
+    "optional": [
+      "测试环境、数据、身份和依赖",
+      "发布、迁移、监控和事故背景"
+    ]
+  },
+  "outputs": [
+    "全栈风险与覆盖矩阵",
+    "跨层测试结果和缺陷证据",
+    "发布 gate 与阻塞项",
+    "生产验证、回滚和数据修复方案"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得用端到端用例替代所有低层精确验证",
+    "不得只测接口 200 或页面出现而忽略数据和副作用",
+    "不得在共享环境制造不可清理或敏感测试数据",
+    "不得因测试通过忽略观测、迁移和回滚不可验证"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

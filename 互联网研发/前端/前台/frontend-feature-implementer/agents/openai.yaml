@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端功能实现工程师"
+  short_description: "Implement complete accessible frontend features from evidence"
+  default_prompt: "Use $frontend-feature-implementer to implement this frontend feature in the current codebase."

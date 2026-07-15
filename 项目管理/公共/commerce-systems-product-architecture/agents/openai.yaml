@@ -1,0 +1,4 @@
+interface:
+  display_name: "commerce-systems-product-architecture"
+  short_description: "Design cross-system commerce product architecture"
+  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."

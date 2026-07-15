@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境商品合规风险管理器"
+  short_description: "Map product compliance claims evidence and market risks"
+  default_prompt: "Use $product-compliance-risk-manager to screen this product for market compliance risks."

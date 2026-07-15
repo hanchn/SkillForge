@@ -1,0 +1,4 @@
+interface:
+  display_name: "ims-product-architecture"
+  short_description: "Design inventory management system product architecture"
+  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "forecast-scenario-planner"
+  short_description: "Build transparent forecasts scenarios and sensitivities"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

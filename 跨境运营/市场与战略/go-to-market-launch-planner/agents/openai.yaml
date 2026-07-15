@@ -1,0 +1,4 @@
+interface:
+  display_name: "go-to-market-launch-planner"
+  short_description: "Plan cross-border product and market launches"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

@@ -1,0 +1,86 @@
+{
+  "name": "database-migration-planner",
+  "display_name": "数据库变更迁移规划师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "数据库迁移"
+  ],
+  "description": "Plan, implement, and verify safe database schema and data migrations using dependency analysis, locking and runtime estimates, expand-migrate-contract sequencing, backfills, dual reads or writes, reconciliation, constraints, indexes, rollout gates, rollback, and recovery",
+  "search_keywords": [
+    "后端",
+    "数据库迁移",
+    "新增非空字段或约束",
+    "拆表、改类型、重命名或大规模 backfill",
+    "在线建立索引和迁移读写路径"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "当前/目标 schema 和数据语义"
+    ],
+    "optional": [
+      "表规模、查询、流量、部署与数据库版本",
+      "应用、报表、任务和下游依赖"
+    ]
+  },
+  "outputs": [
+    "分阶段迁移计划",
+    "DDL/backfill 与兼容发布顺序",
+    "对账、监控和 gate",
+    "回滚/前滚恢复与清理计划"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把向下迁移脚本等同于可恢复数据",
+    "不得在未知表规模和锁行为下直接执行生产 DDL",
+    "不得删除旧列、表或索引直到依赖和保留期验证完成",
+    "不得依赖不可重入的一次性 backfill"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "pricing-promotion-analyst"
+  short_description: "Measure pricing and promotion effectiveness"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

@@ -1,0 +1,87 @@
+{
+  "name": "frontend-state-integration-designer",
+  "display_name": "前端状态与数据流设计师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "前端",
+    "前台",
+    "状态与数据"
+  ],
+  "description": "Design and review predictable frontend state, URL state, form state, server cache, asynchronous queries, mutations, optimistic updates, invalidation, race handling, offline behavior, and error recovery",
+  "search_keywords": [
+    "前台",
+    "状态与数据",
+    "复杂筛选、分页和 URL 同步",
+    "表单草稿、保存和并发编辑",
+    "接入查询缓存、mutation 与乐观更新"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "功能需求与 UI 状态"
+    ],
+    "optional": [
+      "API 或事件契约",
+      "现有状态、缓存和路由方案"
+    ]
+  },
+  "outputs": [
+    "状态清单和 ownership",
+    "查询/变更生命周期设计",
+    "竞态、错误和恢复矩阵",
+    "数据流图与实现建议"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把服务端数据无理由复制进全局 store",
+    "不得用 effect 链修补可计算状态",
+    "不得把 loading 当作唯一异步状态",
+    "不得乐观更新不可安全回滚或高风险操作"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

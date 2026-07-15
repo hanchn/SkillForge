@@ -1,0 +1,4 @@
+interface:
+  display_name: "nestjs-backend-architecture"
+  short_description: "Design modular production-ready NestJS architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

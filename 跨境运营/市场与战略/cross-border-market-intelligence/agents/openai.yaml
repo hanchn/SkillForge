@@ -1,0 +1,4 @@
+interface:
+  display_name: "cross-border-market-intelligence"
+  short_description: "Analyze markets competitors demand and opportunities"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

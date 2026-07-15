@@ -1,0 +1,4 @@
+interface:
+  display_name: "nodejs-backend-architecture"
+  short_description: "Design reliable Node.js backend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

@@ -1,8 +1,8 @@
 # 亚马逊 PDP 导入草稿生成器
 
-> skill id：amazon-pdp-import-generator  
-> 当前版本：2.0.0  
-> 产品状态：可用  
+> skill id：amazon-pdp-import-generator
+> 当前版本：2.0.0
+> 产品状态：可用
 > 所属分类：跨境运营 / 多渠道运营 / 亚马逊
 
 ## 产品定位
@@ -92,4 +92,3 @@
 |---|---|---|
 | 2.0.0 | 2026-07-15 | 补齐标准触发入口、商品事实隔离、内容声明护栏、独立 parse_log.csv 与真实脚本测试。 |
 | 1.0.0 | 未记录 | 实现按图片文件名生成 Amazon PDP CSV/XLSX 基础草稿。 |
-

@@ -1,0 +1,4 @@
+interface:
+  display_name: "cross-border-growth-operator"
+  short_description: "Operate integrated acquisition conversion and retention growth"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

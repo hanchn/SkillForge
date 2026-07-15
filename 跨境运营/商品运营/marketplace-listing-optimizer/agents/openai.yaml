@@ -1,0 +1,4 @@
+interface:
+  display_name: "marketplace-listing-optimizer"
+  short_description: "Optimize marketplace listings for discovery and conversion"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

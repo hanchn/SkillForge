@@ -1,0 +1,4 @@
+interface:
+  display_name: "gin-backend-architecture"
+  short_description: "Design lean production-ready Gin service architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

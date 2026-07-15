@@ -1,0 +1,4 @@
+interface:
+  display_name: "cms-product-architecture"
+  short_description: "Design commerce content system product architecture"
+  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."

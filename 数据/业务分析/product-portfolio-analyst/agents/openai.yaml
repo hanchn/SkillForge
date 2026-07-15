@@ -1,0 +1,4 @@
+interface:
+  display_name: "product-portfolio-analyst"
+  short_description: "Analyze SKU portfolio performance and actions"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

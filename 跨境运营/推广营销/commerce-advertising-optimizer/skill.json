@@ -1,0 +1,86 @@
+{
+  "name": "commerce-advertising-optimizer",
+  "display_name": "多渠道电商广告优化师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "推广营销",
+    "广告优化"
+  ],
+  "description": "Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments",
+  "search_keywords": [
+    "推广营销",
+    "广告优化",
+    "Amazon Sponsored Products 搜索词和竞价优化",
+    "独立站付费流量漏斗诊断",
+    "新品、旺季或促销预算分配"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "广告、订单、销售和归因数据"
+    ],
+    "optional": [
+      "SKU 利润与 break-even 指标",
+      "库存、价格、促销、listing/落地页和目标"
+    ]
+  },
+  "outputs": [
+    "广告诊断与贡献利润分析",
+    "搜索词/受众/商品动作表",
+    "预算竞价和创意实验计划",
+    "扩量、修复或暂停清单"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得只用平台 ROAS 宣称盈利或增量",
+    "不得在低样本下频繁调价造成学习噪声",
+    "不得把页面、价格、库存或合规问题全部归因广告",
+    "不得虚构关键词量、行业基准或平台规则"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 {
   "project": "SkillForge",
-  "version": "2.0.0",
+  "version": "3.1.0",
   "skills": [
     {
       "name": "skillforge-project-governance",
       "display_name": "SkillForge项目治理",
-      "description": "治理 SkillForge 的分类、技能包质量、索引和分发规则",
+      "description": "描述 SkillForge 项目的定位、架构设计与治理规则，供后续 AI 持续按统一标准升级业务 skill。",
       "category_path": [
         "project-root"
       ],
@@ -20,158 +20,13 @@
         "Qorder"
       ],
       "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "项目治理",
-        "skill仓库",
-        "目录规范",
-        "质量标准"
-      ]
-    },
-    {
-      "name": "amazon-pdp-import-generator",
-      "display_name": "亚马逊 PDP 导入草稿生成器",
-      "description": "从商品图片文件名生成可审计的 Amazon SKU、变体、图片和内容草稿",
-      "category_path": [
-        "跨境运营",
-        "多渠道运营",
-        "亚马逊"
-      ],
-      "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "亚马逊",
-        "PDP",
-        "SKU",
-        "图片分组",
-        "Listing"
-      ]
-    },
-    {
-      "name": "seo-optimizer",
-      "display_name": "SEO 内容优化师",
-      "description": "基于业务事实、搜索意图、SERP 和技术前提规划、撰写与审计 SEO 内容",
-      "category_path": [
-        "跨境运营",
-        "推广营销",
-        "SEO"
-      ],
-      "package_root": "跨境运营/推广营销/seo-optimizer",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "SEO",
-        "搜索意图",
-        "内容简报",
-        "内链",
-        "技术SEO"
-      ]
-    },
-    {
-      "name": "geo-optimizer",
-      "display_name": "GEO 引用就绪优化师",
-      "description": "通过实体一致性、声明溯源和答案模块提升生成式引擎准确理解与引用的可能性",
-      "category_path": [
-        "跨境运营",
-        "推广营销",
-        "GEO"
-      ],
-      "package_root": "跨境运营/推广营销/geo-optimizer",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "GEO",
-        "AI搜索",
-        "引用就绪",
-        "实体优化",
-        "声明溯源"
-      ]
-    },
-    {
-      "name": "ecommerce-product-research",
-      "display_name": "跨境电商选品研究",
-      "description": "从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会",
-      "category_path": [
-        "跨境运营",
-        "选品",
-        "跨渠道机会研究"
-      ],
-      "package_root": "跨境运营/选品/ecommerce-product-research",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "选品",
-        "产品研究",
-        "利润模型",
-        "供应链",
-        "渠道适配"
-      ]
-    },
-    {
-      "name": "shopify-conversion-auditor",
-      "display_name": "Shopify 转化审计师",
-      "description": "基于页面、数据和商品事实审计 Shopify 转化障碍并排序改进项",
-      "category_path": [
-        "跨境运营",
-        "多渠道运营",
-        "独立站",
-        "CRO"
-      ],
-      "package_root": "跨境运营/多渠道运营/独立站/shopify-conversion-auditor",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Shopify",
-        "CRO",
-        "转化率",
-        "商品页",
-        "结账"
-      ]
+      "search_keywords": [],
+      "dashboard_visible": false
     },
     {
       "name": "git-workflow-manager",
       "display_name": "Git 安全工作流管理器",
-      "description": "基于真实仓库状态安全规划或执行 Git 分支、集成、发布和恢复",
+      "description": "基于真实仓库状态安全规划或执行分支、提交、合并、变基、发布流转、冲突处理与恢复",
       "category_path": [
         "互联网研发",
         "git",
@@ -191,10 +46,12 @@
       "search_keywords": [
         "git",
         "分支",
+        "提交",
         "合并",
         "变基",
         "冲突",
-        "发布"
+        "发布",
+        "恢复"
       ]
     },
     {
@@ -220,9 +77,155 @@
       "search_keywords": [
         "PRD",
         "产品需求",
-        "业务规则",
+        "用户流程",
         "验收标准",
+        "业务规则",
         "需求评审"
+      ]
+    },
+    {
+      "name": "frontend-feature-implementer",
+      "display_name": "前端功能实现工程师",
+      "description": "Implement complete frontend features in an existing codebase from product requirements, screenshots, designs, or behavioral specifications while preserving repository conventions, responsive behavior, accessibility, loading and failure states, data contracts, tests, and visual fidelity",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "前台",
+        "功能实现"
+      ],
+      "package_root": "互联网研发/前端/前台/frontend-feature-implementer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "前台",
+        "功能实现",
+        "实现商品页、表单、仪表盘或工作流",
+        "根据 Figma/截图还原现有应用页面",
+        "补齐现有功能的响应式、错误和权限状态"
+      ]
+    },
+    {
+      "name": "frontend-localization-verifier",
+      "display_name": "前端多语言查验师",
+      "description": "Verify frontend internationalization and localization across supported locales, including translation coverage, key drift, ICU messages, variables, plurals, gender, dates, numbers, currency, units, time zones, Unicode, collation, locale routing, persistence, layout expansion, RTL, fonts, accessibility, metadata, hreflang, and localized business behavior",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "前台",
+        "国际化与本地化"
+      ],
+      "package_root": "互联网研发/前端/前台/frontend-localization-verifier",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "前台",
+        "国际化与本地化",
+        "新语言上线前全链路查验",
+        "检查翻译文件缺失、变量和 ICU 错误",
+        "验证 RTL、货币、时区和 hreflang"
+      ]
+    },
+    {
+      "name": "frontend-performance-analyzer",
+      "display_name": "前端性能分析师",
+      "description": "Diagnose frontend performance using field and laboratory evidence, Core Web Vitals, navigation and interaction traces, network waterfalls, rendering, main-thread tasks, JavaScript execution, bundles, images, fonts, caching, hydration, data fetching, third-party scripts, memory, and performance budgets",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "前台",
+        "性能分析"
+      ],
+      "package_root": "互联网研发/前端/前台/frontend-performance-analyzer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "前台",
+        "性能分析",
+        "诊断 LCP、INP 或 CLS 回归",
+        "分析 bundle、hydration 和数据 waterfall",
+        "建立页面和路由性能预算"
+      ]
+    },
+    {
+      "name": "frontend-state-integration-designer",
+      "display_name": "前端状态与数据流设计师",
+      "description": "Design and review predictable frontend state, URL state, form state, server cache, asynchronous queries, mutations, optimistic updates, invalidation, race handling, offline behavior, and error recovery",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "前台",
+        "状态与数据"
+      ],
+      "package_root": "互联网研发/前端/前台/frontend-state-integration-designer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "前台",
+        "状态与数据",
+        "复杂筛选、分页和 URL 同步",
+        "表单草稿、保存和并发编辑",
+        "接入查询缓存、mutation 与乐观更新"
+      ]
+    },
+    {
+      "name": "web-performance-accessibility-auditor",
+      "display_name": "Web 性能与无障碍审计师",
+      "description": "Audit and improve web performance, Core Web Vitals, loading behavior, semantic HTML, keyboard access, focus management, screen-reader communication, contrast, motion, responsive interaction, and regression risk using measured evidence",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "前台",
+        "质量审计"
+      ],
+      "package_root": "互联网研发/前端/前台/web-performance-accessibility-auditor",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "前台",
+        "质量审计",
+        "审计商品页或业务流程的 Core Web Vitals",
+        "检查表单、弹层和动态内容无障碍",
+        "发布前建立性能预算和回归门槛"
       ]
     },
     {
@@ -248,9 +251,95 @@
       "search_keywords": [
         "API",
         "OpenAPI",
+        "AsyncAPI",
         "接口设计",
         "幂等",
+        "错误码",
         "兼容性"
+      ]
+    },
+    {
+      "name": "backend-service-architect",
+      "display_name": "后端服务架构师",
+      "description": "Design and review backend service boundaries, domain invariants, workflows, data ownership, synchronous and asynchronous interactions, authorization, idempotency, consistency, failure recovery, observability, scaling, deployment, and evolutionary rollout",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "服务架构"
+      ],
+      "package_root": "互联网研发/后端/backend-service-architect",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "后端",
+        "服务架构",
+        "新业务能力后端设计",
+        "单体模块化或服务拆分评审",
+        "高可靠异步工作流和补偿方案"
+      ]
+    },
+    {
+      "name": "database-migration-planner",
+      "display_name": "数据库变更迁移规划师",
+      "description": "Plan, implement, and verify safe database schema and data migrations using dependency analysis, locking and runtime estimates, expand-migrate-contract sequencing, backfills, dual reads or writes, reconciliation, constraints, indexes, rollout gates, rollback, and recovery",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "数据库迁移"
+      ],
+      "package_root": "互联网研发/后端/database-migration-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "后端",
+        "数据库迁移",
+        "新增非空字段或约束",
+        "拆表、改类型、重命名或大规模 backfill",
+        "在线建立索引和迁移读写路径"
+      ]
+    },
+    {
+      "name": "production-incident-diagnostician",
+      "display_name": "生产故障诊断师",
+      "description": "Diagnose and coordinate production incidents using impact assessment, safe stabilization, timelines, competing hypotheses, logs, metrics, traces, deploy and configuration changes, dependency evidence, mitigations, rollback, communication, verification, and follow-up learning",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "生产故障"
+      ],
+      "package_root": "互联网研发/后端/production-incident-diagnostician",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "后端",
+        "生产故障",
+        "错误率、延迟或服务不可用",
+        "队列积压、任务失败和依赖超时",
+        "数据错误、部分用户异常和发布回归"
       ]
     },
     {
@@ -275,9 +364,127 @@
       "entrypoint": "SKILL.md",
       "search_keywords": [
         "测试策略",
+        "测试计划",
         "风险覆盖",
         "回归测试",
-        "发布门槛"
+        "发布门槛",
+        "质量保障"
+      ]
+    },
+    {
+      "name": "fullstack-developer-weekly-report",
+      "display_name": "全栈开发周报生成器",
+      "description": "Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes",
+      "category_path": [
+        "互联网研发",
+        "研发角色",
+        "全栈开发",
+        "周报"
+      ],
+      "package_root": "互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "周报",
+        "全栈开发",
+        "周报",
+        "个人全栈开发周报",
+        "项目或小组研发周报",
+        "从 Git、工单和发布记录重建周报"
+      ]
+    },
+    {
+      "name": "fullstack-feature-delivery",
+      "display_name": "全栈功能交付工程师",
+      "description": "Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification",
+      "category_path": [
+        "互联网研发",
+        "研发角色",
+        "全栈开发"
+      ],
+      "package_root": "互联网研发/研发角色/全栈开发/fullstack-feature-delivery",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "研发角色",
+        "全栈开发",
+        "实现跨前端、接口和数据库的新功能",
+        "修复需要多层协同的业务缺陷",
+        "把一个需求拆成可部署、可回滚的垂直切片"
+      ]
+    },
+    {
+      "name": "fullstack-qa-weekly-report",
+      "display_name": "全栈测试周报生成器",
+      "description": "Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics",
+      "category_path": [
+        "互联网研发",
+        "研发角色",
+        "全栈测试",
+        "周报"
+      ],
+      "package_root": "互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "周报",
+        "全栈测试",
+        "周报",
+        "个人或团队测试周报",
+        "版本发布质量周报",
+        "从测试平台、缺陷和生产验证记录重建周报"
+      ]
+    },
+    {
+      "name": "fullstack-quality-engineer",
+      "display_name": "全栈质量工程师",
+      "description": "Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain",
+      "category_path": [
+        "互联网研发",
+        "研发角色",
+        "全栈测试"
+      ],
+      "package_root": "互联网研发/研发角色/全栈测试/fullstack-quality-engineer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "研发角色",
+        "全栈测试",
+        "验证跨前后端和数据库的完整功能",
+        "为重大版本做 release readiness",
+        "审查测试计划的跨层风险漏测"
       ]
     },
     {
@@ -302,6 +509,7 @@
       "entrypoint": "SKILL.md",
       "search_keywords": [
         "指标异常",
+        "数据诊断",
         "归因",
         "漏斗",
         "贡献度",
@@ -332,7 +540,361 @@
         "合同审阅",
         "风险条款",
         "义务清单",
-        "谈判建议"
+        "谈判建议",
+        "NDA",
+        "SaaS合同"
+      ]
+    },
+    {
+      "name": "supplier-sourcing-quality-manager",
+      "display_name": "供应商寻源与质量管理器",
+      "description": "Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk",
+      "category_path": [
+        "跨境运营",
+        "供应链",
+        "寻源与质量"
+      ],
+      "package_root": "跨境运营/供应链/supplier-sourcing-quality-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "供应链",
+        "寻源与质量",
+        "寻找并比较 3-5 家供应商",
+        "设计样品测试和验货规则",
+        "MOQ、价格、交期和付款谈判准备"
+      ]
+    },
+    {
+      "name": "product-compliance-risk-manager",
+      "display_name": "跨境商品合规风险管理器",
+      "description": "Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel",
+      "category_path": [
+        "跨境运营",
+        "合规",
+        "商品与声明"
+      ],
+      "package_root": "跨境运营/合规/product-compliance-risk-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "合规",
+        "商品与声明",
+        "选品和采购前合规初筛",
+        "上架前检查标签、测试和声明证据",
+        "材料、工厂或市场变化后的重新评估"
+      ]
+    },
+    {
+      "name": "amazon-pdp-import-generator",
+      "display_name": "亚马逊 PDP 导入草稿生成器",
+      "description": "从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容",
+      "category_path": [
+        "跨境运营",
+        "多渠道运营",
+        "亚马逊"
+      ],
+      "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "亚马逊",
+        "PDP",
+        "SKU",
+        "变体",
+        "图片分组",
+        "CSV",
+        "XLSX",
+        "Listing"
+      ]
+    },
+    {
+      "name": "shopify-conversion-auditor",
+      "display_name": "Shopify 转化审计师",
+      "description": "基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项",
+      "category_path": [
+        "跨境运营",
+        "多渠道运营",
+        "独立站",
+        "CRO"
+      ],
+      "package_root": "跨境运营/多渠道运营/独立站/shopify-conversion-auditor",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Shopify",
+        "独立站",
+        "CRO",
+        "转化率",
+        "商品页",
+        "购物车",
+        "结账"
+      ]
+    },
+    {
+      "name": "storefront-product-publishing-manager",
+      "display_name": "独立站产品上下架管理器",
+      "description": "安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚",
+      "category_path": [
+        "跨境运营",
+        "多渠道运营",
+        "独立站",
+        "商品运营"
+      ],
+      "package_root": "跨境运营/多渠道运营/独立站/storefront-product-publishing-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "独立站",
+        "产品上架",
+        "产品下架",
+        "商品发布",
+        "定时发布",
+        "产品归档",
+        "SEO重定向"
+      ]
+    },
+    {
+      "name": "inventory-replenishment-planner",
+      "display_name": "多渠道库存补货规划师",
+      "description": "Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk",
+      "category_path": [
+        "跨境运营",
+        "库存",
+        "预测与补货"
+      ],
+      "package_root": "跨境运营/库存/inventory-replenishment-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "库存",
+        "预测与补货",
+        "周度/月度 SKU 补货计划",
+        "大促前备货和渠道分仓",
+        "供应延迟或销量突增时重算风险"
+      ]
+    },
+    {
+      "name": "commerce-advertising-optimizer",
+      "display_name": "多渠道电商广告优化师",
+      "description": "Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments",
+      "category_path": [
+        "跨境运营",
+        "推广营销",
+        "广告优化"
+      ],
+      "package_root": "跨境运营/推广营销/commerce-advertising-optimizer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "推广营销",
+        "广告优化",
+        "Amazon Sponsored Products 搜索词和竞价优化",
+        "独立站付费流量漏斗诊断",
+        "新品、旺季或促销预算分配"
+      ]
+    },
+    {
+      "name": "geo-optimizer",
+      "display_name": "GEO 引用就绪优化师",
+      "description": "通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性",
+      "category_path": [
+        "跨境运营",
+        "推广营销",
+        "GEO"
+      ],
+      "package_root": "跨境运营/推广营销/geo-optimizer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "GEO",
+        "AIO",
+        "AI搜索",
+        "引用就绪",
+        "实体优化",
+        "声明溯源",
+        "答案引擎"
+      ]
+    },
+    {
+      "name": "seo-optimizer",
+      "display_name": "SEO 内容优化师",
+      "description": "基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容",
+      "category_path": [
+        "跨境运营",
+        "推广营销",
+        "SEO"
+      ],
+      "package_root": "跨境运营/推广营销/seo-optimizer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "SEO",
+        "搜索意图",
+        "关键词地图",
+        "内容简报",
+        "页面优化",
+        "内链",
+        "技术SEO"
+      ]
+    },
+    {
+      "name": "ecommerce-fulfillment-logistics-planner",
+      "display_name": "电商履约物流规划师",
+      "description": "Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience",
+      "category_path": [
+        "跨境运营",
+        "物流",
+        "跨境履约"
+      ],
+      "package_root": "跨境运营/物流/ecommerce-fulfillment-logistics-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "物流",
+        "跨境履约",
+        "首批试单和补货运输方式选择",
+        "FBA、FBM、3PL 和直发组合设计",
+        "旺季、爆仓或承运商中断应急"
+      ]
+    },
+    {
+      "name": "ecommerce-unit-economics-analyst",
+      "display_name": "电商单位经济模型分析师",
+      "description": "Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios",
+      "category_path": [
+        "跨境运营",
+        "经营分析",
+        "利润与现金流"
+      ],
+      "package_root": "跨境运营/经营分析/ecommerce-unit-economics-analyst",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "经营分析",
+        "利润与现金流",
+        "新品定价与上市可行性",
+        "广告 ACOS 或独立站 CAC 上限判断",
+        "供应商涨价、运费变化和促销折扣评估"
+      ]
+    },
+    {
+      "name": "ecommerce-product-research",
+      "display_name": "跨境电商选品研究",
+      "description": "从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会",
+      "category_path": [
+        "跨境运营",
+        "选品",
+        "跨渠道机会研究"
+      ],
+      "package_root": "跨境运营/选品/ecommerce-product-research",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "选品",
+        "产品研究",
+        "市场机会",
+        "利润模型",
+        "供应链",
+        "Amazon",
+        "Shopify",
+        "TikTok Shop"
       ]
     }
   ]

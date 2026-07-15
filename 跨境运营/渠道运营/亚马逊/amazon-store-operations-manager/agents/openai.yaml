@@ -1,0 +1,4 @@
+interface:
+  display_name: "amazon-store-operations-manager"
+  short_description: "Run end-to-end Amazon store operations"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

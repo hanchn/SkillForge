@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web性能与无障碍审计师"
+  short_description: "Audit web performance accessibility and interaction quality"
+  default_prompt: "Use $web-performance-accessibility-auditor to audit and prioritize this web experience."

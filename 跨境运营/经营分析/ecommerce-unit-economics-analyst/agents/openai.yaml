@@ -1,0 +1,4 @@
+interface:
+  display_name: "电商单位经济模型分析师"
+  short_description: "Model complete ecommerce profit cash flow and sensitivity"
+  default_prompt: "Use $ecommerce-unit-economics-analyst to model this product profit and cash risk."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "marketing-attribution-planner"
+  short_description: "Design practical cross-channel attribution systems"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

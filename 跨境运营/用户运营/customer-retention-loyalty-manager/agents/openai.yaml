@@ -1,0 +1,4 @@
+interface:
+  display_name: "customer-retention-loyalty-manager"
+  short_description: "Increase repeat purchase retention and loyalty"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

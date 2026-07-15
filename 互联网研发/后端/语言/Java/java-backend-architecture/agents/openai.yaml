@@ -1,0 +1,4 @@
+interface:
+  display_name: "java-backend-architecture"
+  short_description: "Design robust Java backend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

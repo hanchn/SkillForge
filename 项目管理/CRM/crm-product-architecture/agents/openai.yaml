@@ -1,0 +1,4 @@
+interface:
+  display_name: "crm-product-architecture"
+  short_description: "Design customer relationship system product architecture"
+  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."

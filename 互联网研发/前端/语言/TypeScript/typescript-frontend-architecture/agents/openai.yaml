@@ -1,0 +1,4 @@
+interface:
+  display_name: "typescript-frontend-architecture"
+  short_description: "Design type-safe TypeScript frontend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

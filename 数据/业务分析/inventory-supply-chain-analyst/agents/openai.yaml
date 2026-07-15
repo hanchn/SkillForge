@@ -1,0 +1,4 @@
+interface:
+  display_name: "inventory-supply-chain-analyst"
+  short_description: "Analyze inventory availability and supply chain performance"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

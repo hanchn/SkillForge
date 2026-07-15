@@ -1,0 +1,4 @@
+interface:
+  display_name: "后端服务架构师"
+  short_description: "Design evolvable backend boundaries workflows and reliability"
+  default_prompt: "Use $backend-service-architect to design this backend capability in the current system."

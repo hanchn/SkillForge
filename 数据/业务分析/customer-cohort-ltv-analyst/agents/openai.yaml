@@ -1,0 +1,4 @@
+interface:
+  display_name: "customer-cohort-ltv-analyst"
+  short_description: "Analyze cohorts retention repeat purchase and LTV"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

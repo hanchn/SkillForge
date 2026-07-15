@@ -1,0 +1,4 @@
+interface:
+  display_name: "review-reputation-manager"
+  short_description: "Manage compliant reviews ratings and reputation"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "channel-portfolio-strategist"
+  short_description: "Design profitable multi-channel commerce portfolios"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

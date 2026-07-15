@@ -1,0 +1,87 @@
+{
+  "name": "frontend-localization-verifier",
+  "display_name": "前端多语言查验师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "前端",
+    "前台",
+    "国际化与本地化"
+  ],
+  "description": "Verify frontend internationalization and localization across supported locales, including translation coverage, key drift, ICU messages, variables, plurals, gender, dates, numbers, currency, units, time zones, Unicode, collation, locale routing, persistence, layout expansion, RTL, fonts, accessibility, metadata, hreflang, and localized business behavior",
+  "search_keywords": [
+    "前台",
+    "国际化与本地化",
+    "新语言上线前全链路查验",
+    "检查翻译文件缺失、变量和 ICU 错误",
+    "验证 RTL、货币、时区和 hreflang"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "支持 locale 与市场规则"
+    ],
+    "optional": [
+      "前端代码、翻译资源和运行页面",
+      "关键页面、设备、状态和业务流程"
+    ]
+  },
+  "outputs": [
+    "多语言覆盖与 key 漂移报告",
+    "locale 行为和格式矩阵",
+    "布局/RTL/SEO 问题清单",
+    "复测与专业语言复核清单"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把机器翻译通顺度当成完整本地化验收",
+    "不得通过字符串拼接构造需要语法变化的句子",
+    "不得把国家、语言、货币和时区视为同一个概念",
+    "不熟悉目标语言时必须标记语言质量需母语或专业复核"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端多语言查验师"
+  short_description: "Verify localization completeness behavior layout and SEO"
+  default_prompt: "Use $frontend-localization-verifier to verify this frontend across supported locales."

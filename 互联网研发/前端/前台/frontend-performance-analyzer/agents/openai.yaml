@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端性能分析师"
+  short_description: "Diagnose frontend performance with field and trace evidence"
+  default_prompt: "Use $frontend-performance-analyzer to diagnose and prioritize this frontend performance problem."

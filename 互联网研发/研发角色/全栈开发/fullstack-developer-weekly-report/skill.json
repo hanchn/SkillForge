@@ -1,0 +1,87 @@
+{
+  "name": "fullstack-developer-weekly-report",
+  "display_name": "全栈开发周报生成器",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "研发角色",
+    "全栈开发",
+    "周报"
+  ],
+  "description": "Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes",
+  "search_keywords": [
+    "周报",
+    "全栈开发",
+    "周报",
+    "个人全栈开发周报",
+    "项目或小组研发周报",
+    "从 Git、工单和发布记录重建周报"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "报告周期、时区和汇报范围",
+      "工单、PR、提交、部署、迁移与项目记录"
+    ],
+    "optional": [
+      "可选上周周报、指标和下周优先级"
+    ]
+  },
+  "outputs": [
+    "全栈开发周报 Markdown",
+    "证据与状态对照表",
+    "风险、依赖和下周验收计划"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把 commit、PR 或代码行数直接等同业务产出",
+    "不得把已编码、已提测、已合并和已上线混为完成",
+    "不得编造进度百分比、发布日期、指标改善或责任归属",
+    "对外周报避免泄露凭据、内部敏感架构和不必要技术噪音"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

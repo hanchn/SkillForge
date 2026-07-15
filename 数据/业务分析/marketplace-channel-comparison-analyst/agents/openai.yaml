@@ -1,0 +1,4 @@
+interface:
+  display_name: "marketplace-channel-comparison-analyst"
+  short_description: "Compare marketplace and direct channel performance"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

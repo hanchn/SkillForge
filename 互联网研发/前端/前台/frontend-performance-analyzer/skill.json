@@ -1,0 +1,87 @@
+{
+  "name": "frontend-performance-analyzer",
+  "display_name": "前端性能分析师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "前端",
+    "前台",
+    "性能分析"
+  ],
+  "description": "Diagnose frontend performance using field and laboratory evidence, Core Web Vitals, navigation and interaction traces, network waterfalls, rendering, main-thread tasks, JavaScript execution, bundles, images, fonts, caching, hydration, data fetching, third-party scripts, memory, and performance budgets",
+  "search_keywords": [
+    "前台",
+    "性能分析",
+    "诊断 LCP、INP 或 CLS 回归",
+    "分析 bundle、hydration 和数据 waterfall",
+    "建立页面和路由性能预算"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "页面、构建或前端代码"
+    ],
+    "optional": [
+      "RUM、Core Web Vitals、trace、waterfall 或 bundle 数据",
+      "目标设备、网络、地区和用户旅程"
+    ]
+  },
+  "outputs": [
+    "性能根因报告",
+    "证据化优先级 backlog",
+    "before/after 复测",
+    "性能预算、监控和回归门槛"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得只用单次 Lighthouse 或本机高速网络结果下结论",
+    "不得通过延迟功能、隐藏内容或取消必要验证制造指标改善",
+    "不得把服务端 TTFB、第三方和客户端执行问题混成一个前端结论",
+    "不得声称优化有效而没有同条件 before/after 证据"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "production-incident-diagnostician",
+  "display_name": "生产故障诊断师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "生产故障"
+  ],
+  "description": "Diagnose and coordinate production incidents using impact assessment, safe stabilization, timelines, competing hypotheses, logs, metrics, traces, deploy and configuration changes, dependency evidence, mitigations, rollback, communication, verification, and follow-up learning",
+  "search_keywords": [
+    "后端",
+    "生产故障",
+    "错误率、延迟或服务不可用",
+    "队列积压、任务失败和依赖超时",
+    "数据错误、部分用户异常和发布回归"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "症状、时间、影响和环境"
+    ],
+    "optional": [
+      "日志、指标、trace、部署、配置和依赖状态",
+      "权限、SLO、runbook 和最近变更"
+    ]
+  },
+  "outputs": [
+    "事件状态与影响",
+    "时间线和假设记分卡",
+    "止损/恢复动作与验证",
+    "根因、数据修复和后续改进"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得在事故中执行无恢复点的大范围破坏性命令",
+    "不得把时间相关性直接写成根因",
+    "不得泄露凭据、个人信息或敏感日志",
+    "没有授权时只提供诊断与变更建议，不擅自扩大生产操作"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

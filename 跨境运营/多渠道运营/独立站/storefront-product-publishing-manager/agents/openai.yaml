@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立站产品上下架管理器"
+  short_description: "Safely publish unpublish and archive storefront products"
+  default_prompt: "Use $storefront-product-publishing-manager to plan and verify this storefront product publishing change."

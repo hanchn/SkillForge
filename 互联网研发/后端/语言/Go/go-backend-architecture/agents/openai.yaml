@@ -1,0 +1,4 @@
+interface:
+  display_name: "engineering-go-backend-architecture"
+  short_description: "Design idiomatic Go backend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

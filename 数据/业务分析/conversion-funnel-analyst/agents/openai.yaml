@@ -1,0 +1,4 @@
+interface:
+  display_name: "conversion-funnel-analyst"
+  short_description: "Diagnose ecommerce funnel conversion losses"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

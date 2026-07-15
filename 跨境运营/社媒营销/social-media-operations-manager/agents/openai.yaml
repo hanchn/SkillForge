@@ -1,0 +1,4 @@
+interface:
+  display_name: "social-media-operations-manager"
+  short_description: "Operate cross-border social media growth systems"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

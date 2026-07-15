@@ -1,0 +1,4 @@
+interface:
+  display_name: "customer-service-voice-manager"
+  short_description: "Operate multilingual cross-border customer service"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

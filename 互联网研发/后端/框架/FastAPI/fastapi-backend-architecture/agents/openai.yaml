@@ -1,0 +1,4 @@
+interface:
+  display_name: "fastapi-backend-architecture"
+  short_description: "Design scalable FastAPI service architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

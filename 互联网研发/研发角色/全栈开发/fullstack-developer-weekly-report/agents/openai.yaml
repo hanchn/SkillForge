@@ -1,0 +1,4 @@
+interface:
+  display_name: "全栈开发周报生成器"
+  short_description: "Build evidence backed fullstack development weekly reports"
+  default_prompt: "Use $fullstack-developer-weekly-report to create this week fullstack development report from project evidence."

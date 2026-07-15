@@ -1,0 +1,4 @@
+interface:
+  display_name: "backend-architecture-designer"
+  short_description: "Design evolvable backend system architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

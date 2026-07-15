@@ -1,0 +1,86 @@
+{
+  "name": "ecommerce-unit-economics-analyst",
+  "display_name": "电商单位经济模型分析师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "经营分析",
+    "利润与现金流"
+  ],
+  "description": "Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios",
+  "search_keywords": [
+    "经营分析",
+    "利润与现金流",
+    "新品定价与上市可行性",
+    "广告 ACOS 或独立站 CAC 上限判断",
+    "供应商涨价、运费变化和促销折扣评估"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "SKU、市场、渠道和售价"
+    ],
+    "optional": [
+      "采购、包装、运输、平台、履约、退货、广告和税费数据",
+      "可选库存、付款条件、回款和促销数据"
+    ]
+  },
+  "outputs": [
+    "单位经济模型",
+    "情景与敏感性表",
+    "资金占用与盈亏平衡结论",
+    "利润改进优先级"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得遗漏退货、广告、履约、仓储和折扣后仍称净利润",
+    "不得把 GMV、销售额、毛利和现金流混为同一口径",
+    "平台费用和税率会变化，必须注明来源日期和适用市场",
+    "没有可靠数据时输出范围与补证计划，不提供伪精确利润"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

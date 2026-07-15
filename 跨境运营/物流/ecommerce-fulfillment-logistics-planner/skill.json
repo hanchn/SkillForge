@@ -1,0 +1,86 @@
+{
+  "name": "ecommerce-fulfillment-logistics-planner",
+  "display_name": "电商履约物流规划师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "物流",
+    "跨境履约"
+  ],
+  "description": "Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience",
+  "search_keywords": [
+    "物流",
+    "跨境履约",
+    "首批试单和补货运输方式选择",
+    "FBA、FBM、3PL 和直发组合设计",
+    "旺季、爆仓或承运商中断应急"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "产品与包装尺寸重量、起运和目的地"
+    ],
+    "optional": [
+      "渠道需求、订单结构与服务承诺",
+      "承运商、仓库、FBA/3PL 报价和限制"
+    ]
+  },
+  "outputs": [
+    "履约网络与运输方案",
+    "完整成本和时效比较",
+    "入仓/上线日历",
+    "异常、切换与逆向物流方案"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得用基础运价代替完整落地与履约成本",
+    "不得忽略体积重、旺季、偏远、燃油、仓储和退货费用",
+    "不得承诺承运商无法保证的时效",
+    "涉及海关、危险品和税务时必须使用当前专业规则并标记责任人"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

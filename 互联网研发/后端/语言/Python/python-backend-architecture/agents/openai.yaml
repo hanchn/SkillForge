@@ -1,0 +1,4 @@
+interface:
+  display_name: "python-backend-architecture"
+  short_description: "Design maintainable Python backend architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

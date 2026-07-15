@@ -1,0 +1,86 @@
+{
+  "name": "supplier-sourcing-quality-manager",
+  "display_name": "供应商寻源与质量管理器",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "供应链",
+    "寻源与质量"
+  ],
+  "description": "Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk",
+  "search_keywords": [
+    "供应链",
+    "寻源与质量",
+    "寻找并比较 3-5 家供应商",
+    "设计样品测试和验货规则",
+    "MOQ、价格、交期和付款谈判准备"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "产品需求、目标市场与渠道"
+    ],
+    "optional": [
+      "候选供应商报价和样品资料",
+      "质量、包装、MOQ、交期与付款底线"
+    ]
+  },
+  "outputs": [
+    "RFQ 与供应商对比表",
+    "样品测试与质量控制计划",
+    "商业和供应风险清单",
+    "试单/量产建议"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把供应商自述、证书截图或平台等级当作已验证事实",
+    "不得只按最低单价排序",
+    "未经样品和生产证据不得建议大货",
+    "规格、缺陷和验收必须可测量，避免好、优质、差不多等模糊词"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

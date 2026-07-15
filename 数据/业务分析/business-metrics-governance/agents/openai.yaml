@@ -1,0 +1,4 @@
+interface:
+  display_name: "business-metrics-governance"
+  short_description: "Define governed business metrics and dimensions"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

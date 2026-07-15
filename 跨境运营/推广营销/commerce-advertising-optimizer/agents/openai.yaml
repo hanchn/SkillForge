@@ -1,0 +1,4 @@
+interface:
+  display_name: "多渠道电商广告优化师"
+  short_description: "Diagnose and optimize profitable marketplace and store ads"
+  default_prompt: "Use $commerce-advertising-optimizer to diagnose and optimize this commerce advertising portfolio."

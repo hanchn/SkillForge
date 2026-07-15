@@ -1,0 +1,4 @@
+interface:
+  display_name: "tiktok-shop-operations-manager"
+  short_description: "Run end-to-end TikTok Shop operations"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

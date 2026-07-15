@@ -1,0 +1,4 @@
+interface:
+  display_name: "creative-strategy-producer"
+  short_description: "Turn commercial insights into testable creative systems"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

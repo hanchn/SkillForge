@@ -1,8 +1,8 @@
 # Shopify 转化审计师
 
-> skill id：shopify-conversion-auditor  
-> 当前版本：1.0.0  
-> 产品状态：可用  
+> skill id：shopify-conversion-auditor
+> 当前版本：1.0.0
+> 产品状态：可用
 > 所属分类：跨境运营 / 多渠道运营 / 独立站 / CRO
 
 ## 产品定位
@@ -89,4 +89,3 @@
 | 版本 | 日期 | 更新内容 |
 |---|---|---|
 | 1.0.0 | 2026-07-15 | 建立基于页面证据、漏斗机制和实验验收的 Shopify CRO 审计流程。 |
-

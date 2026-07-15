@@ -1,0 +1,4 @@
+interface:
+  display_name: "vue-frontend-architecture"
+  short_description: "Design scalable Vue application architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

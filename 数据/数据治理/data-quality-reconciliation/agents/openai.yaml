@@ -1,0 +1,4 @@
+interface:
+  display_name: "data-quality-reconciliation"
+  short_description: "Validate reconcile and document business data quality"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

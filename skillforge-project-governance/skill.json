@@ -3,7 +3,7 @@
   "display_name": "SkillForge项目治理",
   "type": "portable-governance-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -45,7 +45,7 @@
   },
   "constraints": [
     "业务 skill 不放 .trae",
-    "README.md 只是说明文档",
+    "README.md 是中文产品文档和版本记录，但不承担 AI skill 身份",
     "每个业务 skill 必须可整包单独分发",
     "新增或重构 skill 时优先复用标准模板"
   ],

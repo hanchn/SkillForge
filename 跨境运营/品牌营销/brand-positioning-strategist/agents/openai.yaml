@@ -1,0 +1,4 @@
+interface:
+  display_name: "brand-positioning-strategist"
+  short_description: "Define differentiated cross-border brand positioning"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

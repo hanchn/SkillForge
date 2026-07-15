@@ -1,0 +1,87 @@
+{
+  "name": "fullstack-qa-weekly-report",
+  "display_name": "全栈测试周报生成器",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "研发角色",
+    "全栈测试",
+    "周报"
+  ],
+  "description": "Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics",
+  "search_keywords": [
+    "周报",
+    "全栈测试",
+    "周报",
+    "个人或团队测试周报",
+    "版本发布质量周报",
+    "从测试平台、缺陷和生产验证记录重建周报"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "报告周期、版本与发布范围",
+      "风险、测试、缺陷、环境和发布证据"
+    ],
+    "optional": [
+      "可选上周周报、质量指标和下周版本计划"
+    ]
+  },
+  "outputs": [
+    "全栈测试周报 Markdown",
+    "风险覆盖与发布 gate 摘要",
+    "缺陷、阻塞和下周验证计划"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得用通过率掩盖未覆盖高风险行为",
+    "不得把环境故障或数据问题自动算作产品缺陷",
+    "不得把缺陷关闭等同根因消除和回归完成",
+    "不得编造 release ready、覆盖率、缺陷趋势或生产质量结论"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "多渠道库存补货规划师"
+  short_description: "Plan inventory replenishment under demand and lead time risk"
+  default_prompt: "Use $inventory-replenishment-planner to create a channel aware replenishment plan."

@@ -1,0 +1,86 @@
+{
+  "name": "fullstack-feature-delivery",
+  "display_name": "全栈功能交付工程师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "研发角色",
+    "全栈开发"
+  ],
+  "description": "Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification",
+  "search_keywords": [
+    "研发角色",
+    "全栈开发",
+    "实现跨前端、接口和数据库的新功能",
+    "修复需要多层协同的业务缺陷",
+    "把一个需求拆成可部署、可回滚的垂直切片"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "产品需求、仓库和目标环境"
+    ],
+    "optional": [
+      "现有 API、数据、权限与发布约束",
+      "可选设计、测试账号和验收指标"
+    ]
+  },
+  "outputs": [
+    "端到端实现",
+    "跨层变更和依赖说明",
+    "测试、迁移、发布与回滚证据",
+    "生产验证与剩余风险"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得绕过仓库现有边界重新搭建独立技术栈",
+    "不得伪造 API、数据、权限或产品决策",
+    "不得只验证某一层而宣称端到端完成",
+    "不得在没有迁移、回滚和生产验证时交付高风险变更"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

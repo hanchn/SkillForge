@@ -1,0 +1,86 @@
+{
+  "name": "product-compliance-risk-manager",
+  "display_name": "跨境商品合规风险管理器",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "合规",
+    "商品与声明"
+  ],
+  "description": "Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel",
+  "search_keywords": [
+    "合规",
+    "商品与声明",
+    "选品和采购前合规初筛",
+    "上架前检查标签、测试和声明证据",
+    "材料、工厂或市场变化后的重新评估"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "目标市场、渠道和完整产品定义"
+    ],
+    "optional": [
+      "材料、BOM、用途、用户、包装和声明",
+      "测试、证书、供应商和监管资料"
+    ]
+  },
+  "outputs": [
+    "适用性与风险矩阵",
+    "证据和声明台账",
+    "阻塞项、整改项和专业升级清单",
+    "持续合规复核计划"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得宣布产品合法、合规或已认证，除非有适用且可验证的当前证据",
+    "不得替代律师、海关顾问、认证机构或实验室",
+    "不得用一个市场或型号的证据覆盖其他市场和变体",
+    "高风险儿童、医疗、电气、食品接触、化学品等必须升级专业审查"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

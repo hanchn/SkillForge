@@ -1,0 +1,4 @@
+interface:
+  display_name: "电商履约物流规划师"
+  short_description: "Design reliable fulfillment freight and delivery operations"
+  default_prompt: "Use $ecommerce-fulfillment-logistics-planner to design this product fulfillment and logistics plan."

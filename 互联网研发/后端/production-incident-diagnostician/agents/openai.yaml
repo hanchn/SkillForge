@@ -1,0 +1,4 @@
+interface:
+  display_name: "生产故障诊断师"
+  short_description: "Diagnose production incidents with evidence and safe recovery"
+  default_prompt: "Use $production-incident-diagnostician to diagnose this incident and coordinate safe recovery."

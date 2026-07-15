@@ -1,0 +1,86 @@
+{
+  "name": "backend-service-architect",
+  "display_name": "后端服务架构师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "服务架构"
+  ],
+  "description": "Design and review backend service boundaries, domain invariants, workflows, data ownership, synchronous and asynchronous interactions, authorization, idempotency, consistency, failure recovery, observability, scaling, deployment, and evolutionary rollout",
+  "search_keywords": [
+    "后端",
+    "服务架构",
+    "新业务能力后端设计",
+    "单体模块化或服务拆分评审",
+    "高可靠异步工作流和补偿方案"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "产品需求和现有系统"
+    ],
+    "optional": [
+      "数据、流量、SLO、安全和团队约束",
+      "可选 API、数据库、部署和事故证据"
+    ]
+  },
+  "outputs": [
+    "后端架构设计",
+    "边界、数据 ownership 与交互图",
+    "故障、安全和可观测性方案",
+    "演进实施与回滚计划"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得因为流行趋势默认微服务或事件驱动",
+    "不得让多个服务直接共享写入同一数据而不定义 owner",
+    "不得只画正常流程，必须设计失败和恢复",
+    "不得把授权、幂等、可观测性和迁移留到实现后补"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

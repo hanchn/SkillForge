@@ -414,7 +414,9 @@
         if (!skillName) throw new Error("缺少 skill 参数");
 
         const registry = await fetchJson("../registry/skills-index.json");
-        const skill = registry.skills.find((item) => item.name === skillName);
+        const skill = registry.skills.find(
+          (item) => item.name === skillName && item.dashboard_visible !== false
+        );
         if (!skill) throw new Error(`未找到 skill: ${skillName}`);
 
         const detail = await fetchJson(`../${skill.package_root}/skill.json`);

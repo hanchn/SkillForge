@@ -1,0 +1,4 @@
+interface:
+  display_name: "全栈功能交付工程师"
+  short_description: "Deliver complete frontend backend data and release changes"
+  default_prompt: "Use $fullstack-feature-delivery to implement and verify this feature end to end."

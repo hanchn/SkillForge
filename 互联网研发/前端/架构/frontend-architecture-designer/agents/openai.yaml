@@ -1,0 +1,4 @@
+interface:
+  display_name: "frontend-architecture-designer"
+  short_description: "Design scalable frontend architecture and evolution plans"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

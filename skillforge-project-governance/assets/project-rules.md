@@ -10,7 +10,7 @@
 - 业务 skill 不放 `.trae`
 - 只有“生成 skill 的 skill”才属于平台自身
 - 每个业务 skill 必须尽量可整包单独分发
-- `README.md` 只是说明文件
+- `README.md` 是中文产品文档与版本记录，但不是 AI skill 身份入口
 - 新增业务 skill 时优先使用标准模板
 - `SKILL.md` 必须使用仅含 name 与 description 的 YAML frontmatter
 - description 必须同时说明能力范围和明确触发场景
@@ -25,7 +25,7 @@
 
 ## File Responsibility
 
-- `README.md`：说明文档
+- `README.md`：中文产品定位、使用说明、输入输出、边界、验收与版本升级记录
 - `SKILL.md`：统一入口
 - `skill.json`：机器可读元数据
 - `INVOCATION.md`：调用协议
@@ -43,3 +43,5 @@
 - 同步 `PROJECT_INDEX.md` 与 `registry/project-index.json`
 - 声明了脚本就必须真实存在并经过代表性运行测试；纯判断型 skill 应将 script 设为空字符串
 - 升级旧 skill 时检查触发元数据、输入输出、资源路径、示例、验收和注册表是否一致
+- 实质升级必须提升 skill.json 版本，并在 README 记录日期、版本和已交付变化
+- 公司内部项目使用 `项目管理/<项目代号>/<skill-id>/`；项目代号目录本身只承担浏览和项目说明

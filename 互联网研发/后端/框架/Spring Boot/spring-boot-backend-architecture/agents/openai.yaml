@@ -1,0 +1,4 @@
+interface:
+  display_name: "spring-boot-backend-architecture"
+  short_description: "Design production-ready Spring Boot architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

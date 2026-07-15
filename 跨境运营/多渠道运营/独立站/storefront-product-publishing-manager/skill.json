@@ -1,0 +1,91 @@
+{
+  "name": "storefront-product-publishing-manager",
+  "display_name": "独立站产品上下架管理器",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "多渠道运营",
+    "独立站",
+    "商品运营"
+  ],
+  "description": "安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚",
+  "search_keywords": [
+    "独立站",
+    "产品上架",
+    "产品下架",
+    "商品发布",
+    "定时发布",
+    "产品归档",
+    "SEO重定向"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "store_and_product_identifier",
+      "target_lifecycle_action"
+    ],
+    "optional": [
+      "markets_channels_and_schedule",
+      "product_facts",
+      "inventory_and_fulfillment",
+      "authorization",
+      "marketing_and_seo_dependencies"
+    ]
+  },
+  "outputs": [
+    "publishing_change_plan.md",
+    "preflight_and_dependency_report.md",
+    "execution_and_verification_record.md"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "没有唯一商品标识和明确授权时不得执行线上变更",
+    "不得把删除当成默认下架方式",
+    "不得在未验证客户侧和依赖系统前宣称成功"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

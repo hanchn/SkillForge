@@ -1,0 +1,4 @@
+interface:
+  display_name: "数据库变更迁移规划师"
+  short_description: "Plan safe schema data migration rollout and rollback"
+  default_prompt: "Use $database-migration-planner to plan and verify this database change."

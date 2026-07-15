@@ -1,0 +1,4 @@
+interface:
+  display_name: "email-lifecycle-marketer"
+  short_description: "Design lifecycle email and automation programs"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

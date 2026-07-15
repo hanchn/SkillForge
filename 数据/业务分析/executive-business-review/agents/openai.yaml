@@ -1,0 +1,4 @@
+interface:
+  display_name: "executive-business-review"
+  short_description: "Produce decision-ready weekly and monthly business reviews"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

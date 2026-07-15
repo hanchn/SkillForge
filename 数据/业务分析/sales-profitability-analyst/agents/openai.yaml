@@ -1,0 +1,4 @@
+interface:
+  display_name: "sales-profitability-analyst"
+  short_description: "Analyze revenue margin profit and operating drivers"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

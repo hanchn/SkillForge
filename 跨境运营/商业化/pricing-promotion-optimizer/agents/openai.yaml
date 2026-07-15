@@ -1,0 +1,4 @@
+interface:
+  display_name: "pricing-promotion-optimizer"
+  short_description: "Optimize pricing discounts and promotion economics"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

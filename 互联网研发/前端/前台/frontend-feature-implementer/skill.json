@@ -1,0 +1,86 @@
+{
+  "name": "frontend-feature-implementer",
+  "display_name": "前端功能实现工程师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "前端",
+    "前台",
+    "功能实现"
+  ],
+  "description": "Implement complete frontend features in an existing codebase from product requirements, screenshots, designs, or behavioral specifications while preserving repository conventions, responsive behavior, accessibility, loading and failure states, data contracts, tests, and visual fidelity",
+  "search_keywords": [
+    "前台",
+    "功能实现",
+    "实现商品页、表单、仪表盘或工作流",
+    "根据 Figma/截图还原现有应用页面",
+    "补齐现有功能的响应式、错误和权限状态"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "需求、设计、截图或目标行为"
+    ],
+    "optional": [
+      "现有前端仓库和项目规范",
+      "可选 API 契约、测试账号和验收条件"
+    ]
+  },
+  "outputs": [
+    "可运行前端实现",
+    "测试与验证结果",
+    "行为状态和限制说明"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得忽略仓库现有模式重新搭一套架构",
+    "不得只实现截图正常态而遗漏交互和失败状态",
+    "不得为了视觉相似牺牲语义、键盘或响应式",
+    "不得伪造后端契约、真实数据或未提供的产品决策"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -129,6 +129,10 @@
         background-repeat: no-repeat;
         background-position: right 8px center;
         padding-right: 28px;
+        max-width: 160px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
       }
 
       .category-select:hover {
@@ -454,9 +458,7 @@
           <input id="searchInput" class="search-input" type="search" placeholder="搜索 skill 名称、关键词、描述..." autocomplete="off" spellcheck="false" />
         </div>
         <div class="divider"></div>
-        <select id="categorySelect" class="category-select">
-          <option value="全部">全部分类</option>
-        </select>
+        <div id="categoryFilters" style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;"></div>
       </section>
 
       <section id="cards" class="cards">
@@ -517,15 +519,15 @@
       const state = {
         skills: [],
         search: "",
-        activeCategory: "全部",
-        categories: new Set()
+        selectedPath: [],
+        categoryTree: {}
       };
 
       const elements = {
         metrics: document.getElementById("metrics"),
         cards: document.getElementById("cards"),
         searchInput: document.getElementById("searchInput"),
-        categorySelect: document.getElementById("categorySelect"),
+        categoryFilters: document.getElementById("categoryFilters"),
         dockButton: document.getElementById("dockButton"),
         dockPanel: document.getElementById("dockPanel"),
         dockClose: document.getElementById("dockClose"),
@@ -550,32 +552,85 @@
       async function loadData() {
         const skillsRegistry = await fetchJson("../registry/skills-index.json");
         state.skills = await Promise.all(
-          skillsRegistry.skills.map(async (item) => {
+          skillsRegistry.skills
+            .filter((item) => item.dashboard_visible !== false)
+            .map(async (item) => {
             const detail = await fetchJson(`../${item.package_root}/skill.json`);
             return { ...item, detail };
           })
         );
 
-        // Build category options
+        // Build category tree
         state.skills.forEach(skill => {
           if (skill.category_path && skill.category_path.length) {
-            let currentPath = [];
+            let current = state.categoryTree;
             skill.category_path.forEach(part => {
-              currentPath.push(part);
-              state.categories.add(currentPath.join(" / "));
+              if (!current[part]) current[part] = {};
+              current = current[part];
             });
           }
         });
 
-        const sortedCategories = Array.from(state.categories).sort();
-        sortedCategories.forEach(cat => {
-          const option = document.createElement("option");
-          option.value = cat;
-          option.textContent = cat;
-          elements.categorySelect.appendChild(option);
-        });
-
         render();
+      }
+
+      function renderFilters() {
+        elements.categoryFilters.innerHTML = "";
+        let currentTree = state.categoryTree;
+        let level = 0;
+
+        while (currentTree && Object.keys(currentTree).length > 0) {
+          const select = document.createElement("select");
+          select.className = "category-select";
+          select.dataset.level = level;
+          
+          const defaultOption = document.createElement("option");
+          defaultOption.value = "";
+          defaultOption.textContent = level === 0 ? "全部分类" : "全部子类";
+          select.appendChild(defaultOption);
+
+          const options = Object.keys(currentTree).sort();
+          options.forEach(opt => {
+            const optionEl = document.createElement("option");
+            optionEl.value = opt;
+            optionEl.textContent = opt;
+            select.appendChild(optionEl);
+          });
+
+          const selectedVal = state.selectedPath[level];
+          if (selectedVal && currentTree[selectedVal]) {
+            select.value = selectedVal;
+          }
+
+          select.addEventListener("change", (e) => {
+            const lvl = parseInt(e.target.dataset.level, 10);
+            const val = e.target.value;
+            
+            if (val) {
+              state.selectedPath = state.selectedPath.slice(0, lvl);
+              state.selectedPath.push(val);
+            } else {
+              state.selectedPath = state.selectedPath.slice(0, lvl);
+            }
+            
+            render();
+          });
+
+          elements.categoryFilters.appendChild(select);
+
+          if (selectedVal && currentTree[selectedVal]) {
+            currentTree = currentTree[selectedVal];
+            level++;
+          } else {
+            break;
+          }
+        }
+      }
+
+      function render() {
+        renderFilters();
+        renderMetrics();
+        renderCards();
       }
 
       function getFilteredSkills() {
@@ -593,10 +648,14 @@
           const matchesSearch = !query || haystack.includes(query);
           
           let matchesCategory = true;
-          if (state.activeCategory !== "全部") {
-            const skillCatStr = (skill.category_path || []).join(" / ");
-            // Match exactly or as a parent directory
-            matchesCategory = skillCatStr === state.activeCategory || skillCatStr.startsWith(state.activeCategory + " / ");
+          if (state.selectedPath.length > 0) {
+            const skillPath = skill.category_path || [];
+            for (let i = 0; i < state.selectedPath.length; i++) {
+              if (skillPath[i] !== state.selectedPath[i]) {
+                matchesCategory = false;
+                break;
+              }
+            }
           }
 
           return matchesSearch && matchesCategory;
@@ -650,18 +709,8 @@
           .join("");
       }
 
-      function render() {
-        renderMetrics();
-        renderCards();
-      }
-
       elements.searchInput.addEventListener("input", (e) => {
         state.search = e.target.value;
-        renderCards();
-      });
-
-      elements.categorySelect.addEventListener("change", (e) => {
-        state.activeCategory = e.target.value;
         renderCards();
       });
 

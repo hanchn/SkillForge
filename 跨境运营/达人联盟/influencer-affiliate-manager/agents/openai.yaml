@@ -1,0 +1,4 @@
+interface:
+  display_name: "influencer-affiliate-manager"
+  short_description: "Build and optimize creator affiliate programs"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

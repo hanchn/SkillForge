@@ -1,0 +1,4 @@
+interface:
+  display_name: "traffic-acquisition-analyst"
+  short_description: "Analyze traffic mix quality and acquisition efficiency"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

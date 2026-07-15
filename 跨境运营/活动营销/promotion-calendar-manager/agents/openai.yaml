@@ -1,0 +1,4 @@
+interface:
+  display_name: "promotion-calendar-manager"
+  short_description: "Plan and govern commercial promotion calendars"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

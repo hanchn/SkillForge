@@ -1,0 +1,4 @@
+interface:
+  display_name: "react-frontend-architecture"
+  short_description: "Design scalable React application architecture"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

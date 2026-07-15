@@ -1,0 +1,4 @@
+interface:
+  display_name: "content-marketing-planner"
+  short_description: "Plan measurable cross-border content programs"
+  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."

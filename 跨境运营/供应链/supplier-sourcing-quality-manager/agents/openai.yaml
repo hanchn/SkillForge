@@ -1,0 +1,4 @@
+interface:
+  display_name: "供应商寻源与质量管理器"
+  short_description: "Qualify suppliers samples quality controls and sourcing risk"
+  default_prompt: "Use $supplier-sourcing-quality-manager to evaluate suppliers and create a sourcing quality plan."
