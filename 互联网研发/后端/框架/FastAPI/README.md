@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [FastAPI 后端架构师](fastapi-backend-architecture/README.md)：围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。适用于FastAPI 中大型应用、Python API 模块化、异步 API 性能和可靠性治理，交付FastAPI 包与路由架构、依赖和数据契约、运行、测试和部署方案。
+- [FastAPI 后端资深专家](fastapi-backend-architecture/README.md)：围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。适用于FastAPI 中大型应用、Python API 模块化、异步 API 性能和可靠性治理，交付FastAPI 包与路由架构、依赖和数据契约、运行、测试和部署方案。
 
 ## 迭代记录
 

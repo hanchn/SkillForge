@@ -1,0 +1,4 @@
+interface:
+  display_name: "资金出纳资深经理"
+  short_description: "统筹现金、银行账户、收付款、报销票据、资金日结和支付安全，在授权范围内保证资金执行准确、及时、可追溯。"
+  default_prompt: "使用 $senior-cashier-treasury-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

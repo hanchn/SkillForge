@@ -1,0 +1,84 @@
+{
+  "name": "employee-announcement-writer",
+  "display_name": "企业员工公告撰写专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "员工沟通"
+  ],
+  "description": "把已批准事实转化为清晰、准确、可执行且适配渠道的员工公告，并管理敏感沟通与发布风险。适用于入职、放假、培训、福利和办公通知、制度发布、版本更新和生效公告、组织调整、事故或紧急事项沟通草案，交付正式公告正文、标题、摘要和多渠道短版、审批、发布、问答和反馈清单。",
+  "search_keywords": [
+    "入职、放假、培训、福利和办公通知",
+    "制度发布、版本更新和生效公告",
+    "组织调整、事故或紧急事项沟通草案",
+    "发布目的、受众和知情范围",
+    "已批准事实、版本和生效时间",
+    "员工行动、责任人和截止时间"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "正式公告正文",
+    "标题、摘要和多渠道短版",
+    "审批、发布、问答和反馈清单",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得替管理层发布未经批准的决定；组织调整、纪律、事故、裁员或个人事项必须最小披露并经 HR、法务及授权负责人审查。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

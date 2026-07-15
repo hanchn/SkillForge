@@ -1,4 +1,4 @@
 interface:
   display_name: "AI 视觉打标产品架构师"
-  short_description: "Design governed image-to-label AI products"
-  default_prompt: "Use this skill to design an image tagging product with model, human review, quality and governance loops."
+  short_description: "设计从图片输入、模型推理、标签建议、人审反馈到持续评估的可治理 AI 打标产品。"
+  default_prompt: "使用 $ai-visual-tagging-product-architect 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

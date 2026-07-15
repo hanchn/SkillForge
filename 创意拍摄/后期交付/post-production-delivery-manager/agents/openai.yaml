@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪辑后期与素材交付经理"
+  short_description: "管理选片、剪辑、调色、修图、声音、字幕、包装、多语言版本、质检和多规格交付。"
+  default_prompt: "使用 $post-production-delivery-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

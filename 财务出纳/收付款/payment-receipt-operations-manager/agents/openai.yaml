@@ -1,0 +1,4 @@
+interface:
+  display_name: "收付款执行管理员"
+  short_description: "建立从业务申请、单据校验、授权审批、支付执行、回单归档到状态回写的收付款闭环。"
+  default_prompt: "使用 $payment-receipt-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

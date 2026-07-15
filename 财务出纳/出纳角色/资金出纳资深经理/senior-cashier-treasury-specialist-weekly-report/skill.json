@@ -1,0 +1,85 @@
+{
+  "name": "senior-cashier-treasury-specialist-weekly-report",
+  "display_name": "资金出纳资深经理周报",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.1",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "财务出纳",
+    "出纳角色",
+    "资金出纳资深经理"
+  ],
+  "description": "基于银行流水、支付单据、余额和异常台账生成高级出纳周报。适用于出纳周度复盘、账户余额与大额资金变动同步、未达账、退票和支付风险跟踪，交付高级出纳周报、资金余额与收付款摘要、异常、待复核和下周资金事项。",
+  "search_keywords": [
+    "出纳周度复盘",
+    "账户余额与大额资金变动同步",
+    "未达账、退票和支付风险跟踪",
+    "期初期末余额与可用资金",
+    "收付款笔数、金额与完成状态",
+    "未达账项、退款和在途"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "高级出纳周报",
+    "资金余额与收付款摘要",
+    "异常、待复核和下周资金事项",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把银行余额等同于可自由支配现金；不得遗漏未达账、受限资金、待审批和预估事项。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

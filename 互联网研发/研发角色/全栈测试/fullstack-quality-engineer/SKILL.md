@@ -3,7 +3,7 @@ name: fullstack-quality-engineer
 description: Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain. Use when an AI needs to test a full-stack feature, audit release readiness, diagnose coverage gaps, design cross-layer test data and oracles, or validate that a change is safe to release and recover.
 ---
 
-# 全栈质量工程师
+# 全栈测试资深专家
 
 质量不是测试用例数量，而是高风险用户和系统行为都有可信证据、可定位失败和恢复路径。
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "品牌与内容资深经理周报"
+  short_description: "基于真实经营证据生成品牌与内容资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。"
+  default_prompt: "使用 $senior-brand-content-manager-weekly-report 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

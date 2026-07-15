@@ -1,0 +1,84 @@
+{
+  "name": "expense-reimbursement-cashier",
+  "display_name": "报销与票据出纳专员",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "财务出纳",
+    "报销与票据"
+  ],
+  "description": "按制度、预算、审批和单据完整性执行员工报销、备用金和票据交接。适用于员工费用报销、备用金借支与核销、发票和支付凭证归档，交付报销校验清单、付款与退回台账、备用金、票据和异常跟踪表。",
+  "search_keywords": [
+    "员工费用报销",
+    "备用金借支与核销",
+    "发票和支付凭证归档",
+    "申请人、成本中心和用途",
+    "预算与审批链",
+    "发票、收据和重复报销"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "报销校验清单",
+    "付款与退回台账",
+    "备用金、票据和异常跟踪表",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "出纳只校验制度和执行证据，不自行批准本人或超授权报销，也不代替税务人员判断抵扣资格。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

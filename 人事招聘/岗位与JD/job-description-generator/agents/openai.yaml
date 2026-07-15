@@ -1,0 +1,4 @@
+interface:
+  display_name: "岗位说明书与招聘 JD 生成专家"
+  short_description: "把真实业务目标、岗位成功标准和组织边界转化为清晰、可评估、包容且适合发布的岗位说明书与招聘 JD。"
+  default_prompt: "使用 $job-description-generator 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

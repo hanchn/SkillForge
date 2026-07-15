@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Laravel 后端架构师](laravel-backend-architecture/README.md)：围绕领域模块、service container、Eloquent、队列和请求生命周期设计生产级 Laravel 架构。适用于Laravel 中大型业务系统、Laravel 单体模块化、队列、事件和性能治理，交付Laravel 业务模块架构、容器、数据和异步边界、安全、测试和部署方案。
+- [Laravel 后端资深专家](laravel-backend-architecture/README.md)：围绕领域模块、service container、Eloquent、队列和请求生命周期设计生产级 Laravel 架构。适用于Laravel 中大型业务系统、Laravel 单体模块化、队列、事件和性能治理，交付Laravel 业务模块架构、容器、数据和异步边界、安全、测试和部署方案。
 
 ## 迭代记录
 

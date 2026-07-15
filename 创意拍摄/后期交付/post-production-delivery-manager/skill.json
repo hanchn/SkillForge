@@ -1,0 +1,84 @@
+{
+  "name": "post-production-delivery-manager",
+  "display_name": "剪辑后期与素材交付经理",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "创意拍摄",
+    "后期交付"
+  ],
+  "description": "管理选片、剪辑、调色、修图、声音、字幕、包装、多语言版本、质检和多规格交付。适用于图片精修和批量导出、短视频剪辑与多版本适配、跨语言跨渠道素材交付，交付后期任务与版本矩阵、修图剪辑、字幕和声音规范、质检、命名、归档和交付清单。",
+  "search_keywords": [
+    "图片精修和批量导出",
+    "短视频剪辑与多版本适配",
+    "跨语言跨渠道素材交付",
+    "原始素材、选片和时间线",
+    "调色、修图和事实还原",
+    "节奏、声音、字幕和图形包装"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "后期任务与版本矩阵",
+    "修图剪辑、字幕和声音规范",
+    "质检、命名、归档和交付清单",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得使用后期掩盖产品缺陷或改变关键事实；生成式填充、合成和 AI 修改必须可追溯并按渠道与合规要求披露或限制。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

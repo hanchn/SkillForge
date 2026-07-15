@@ -1,0 +1,4 @@
+interface:
+  display_name: "市场需求与商品机会分析师"
+  short_description: "把消费者需求、搜索、竞品、价格带、渠道和利润证据转化为可验证的采购商品机会。"
+  default_prompt: "使用 $market-demand-opportunity-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

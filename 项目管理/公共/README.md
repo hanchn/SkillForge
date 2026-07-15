@@ -2,7 +2,7 @@
 
 本目录只承载跨项目管理资料和导航。跨系统产品架构 Skill 已迁至互联网研发产品职能：
 
-- [跨境业务系统总产品架构师](../../互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture/README.md)
+- [跨系统产品边界设计师](../../互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture/README.md)
 - [系统产品架构地图](../../互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
 
 ## 版本记录

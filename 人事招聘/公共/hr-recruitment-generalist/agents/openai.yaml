@@ -1,0 +1,4 @@
+interface:
+  display_name: "人事招聘通用执行专家"
+  short_description: "接管日常人事与招聘需求，先识别任务类型、事实、权限和风险，再完成通用流程或路由到专项 Skill。"
+  default_prompt: "使用 $hr-recruitment-generalist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

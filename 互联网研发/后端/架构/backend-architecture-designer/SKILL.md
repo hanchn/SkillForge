@@ -3,12 +3,13 @@ name: backend-architecture-designer
 description: 从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。 Use when an AI needs to handle 企业后端总体架构, 单体、模块化和服务化选型, 跨团队系统演进评审; produce 后端总体架构蓝图, 质量属性与边界决策, 技术路线和分阶段演进计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# 后端通用架构设计师
+# 后端架构师
 
 从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。
 
 ## Load resources
 
+- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
 - Read `references/professional-checklist.md` before making decisions.
 - Use `assets/delivery-template.md` for the final durable artifact.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.

@@ -1,0 +1,84 @@
+{
+  "name": "us-market-regulatory-compliance-counsel",
+  "display_name": "美国市场合规顾问",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "法律政务",
+    "美国合规"
+  ],
+  "description": "按产品、进口模式、销售州和营销行为识别美国联邦、州及主管机构合规责任。适用于产品进入美国市场、美国进口商和平台责任审查、Listing、标签、广告、隐私和召回流程审查，交付美国适用规则与主管机构地图、进口、产品和销售责任矩阵、证据缺口、整改和美国律师升级方案。",
+  "search_keywords": [
+    "产品进入美国市场",
+    "美国进口商和平台责任审查",
+    "Listing、标签、广告、隐私和召回流程审查",
+    "Importer of Record 与海关申报",
+    "HTS、原产地、估价和供应链",
+    "CPSC/FDA/FCC 等产品主管机构路由"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "美国适用规则与主管机构地图",
+    "进口、产品和销售责任矩阵",
+    "证据缺口、整改和美国律师升级方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "美国规则依产品和州而异；不得把平台准入等同于政府合规，也不得在未核实当前联邦和州规则时批准上市。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

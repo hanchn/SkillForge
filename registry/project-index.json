@@ -22,10 +22,15 @@
     ],
     "business_browse": [
       "渠道运营",
+      "客服售前",
       "精准营销",
+      "创意拍摄",
+      "市场采购",
+      "仓储库存",
       "互联网研发",
       "法律政务",
-      "财务",
+      "财务出纳",
+      "人事招聘",
       "数据看板",
       "项目管理",
       "work"
@@ -35,14 +40,21 @@
     {
       "name": "skillforge-project-governance",
       "display_name": "SkillForge项目治理",
+      "version": "2.0.0",
       "package_root": "skillforge-project-governance",
       "entrypoint": "SKILL.md",
       "type": "portable-governance-skill",
-      "search_keywords": []
+      "search_keywords": [],
+      "download_count": 0,
+      "classification": {
+        "kind": "governance",
+        "label": "项目治理"
+      }
     },
     {
       "name": "git-workflow-manager",
       "display_name": "Git 安全工作流管理器",
+      "version": "2.0.0",
       "package_root": "互联网研发/git/git-workflow-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -55,11 +67,38 @@
         "冲突",
         "发布",
         "恢复"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "ai-visual-tagging-product-architect",
+      "display_name": "AI 视觉打标产品架构师",
+      "version": "1.0.0",
+      "package_root": "互联网研发/产品/AI产品/ai-visual-tagging-product-architect",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "图片自动生成标签",
+        "AI 打标工具产品规划",
+        "模型打标质量、人工审核和反馈闭环",
+        "图片来源、权限和数据边界",
+        "标签 taxonomy、定义和版本",
+        "模型、置信度和候选策略"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "product-requirements-architect",
       "display_name": "产品需求架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/B端产品/product-requirements-architect",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -70,11 +109,38 @@
         "验收标准",
         "业务规则",
         "需求评审"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
+    },
+    {
+      "name": "label-governance-workflow-designer",
+      "display_name": "标签治理与审核工作流设计师",
+      "version": "1.0.0",
+      "package_root": "互联网研发/产品/数据产品/label-governance-workflow-designer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "透明计划等标签修改项目",
+        "标签审核和发布流程",
+        "标签冲突、版本和质量治理",
+        "标签对象、taxonomy 和 owner",
+        "草稿、审核、发布和废弃状态",
+        "修改原因、diff 和影响范围"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "cms-product-architecture",
       "display_name": "CMS 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/CMS/cms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -85,11 +151,17 @@
         "先确认 CMS 缩写和业务边界",
         "内容类型、字段和资产关系",
         "版本、草稿、审批和审计"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "crm-product-architecture",
       "display_name": "CRM 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/CRM/crm-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -100,11 +172,17 @@
         "客户身份合并与冲突",
         "同意、偏好和隐私请求",
         "订单、互动和服务视图"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "ims-product-architecture",
       "display_name": "IMS 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/IMS/ims-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -115,11 +193,17 @@
         "SKU、库存位置和批次",
         "现货、在途、锁定和不可售",
         "预占、扣减、释放和补偿"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "ofs-product-architecture",
       "display_name": "OFS 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/OFS/ofs-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -130,11 +214,17 @@
         "履约意图和履约单",
         "仓、店、供应商节点选择",
         "波次外部编排和状态推进"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "oms-product-architecture",
       "display_name": "OMS 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/OMS/oms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -145,11 +235,17 @@
         "订单来源和统一模型",
         "价格、支付、风控和校验",
         "拆单、合单和路由"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "plm-product-architecture",
       "display_name": "PLM 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/PLM/plm-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -160,11 +256,17 @@
         "产品概念、款式和规格",
         "BOM、材料和供应商",
         "样品、测试和变更"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "tms-product-architecture",
       "display_name": "TMS 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/TMS/tms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -175,11 +277,17 @@
         "运输需求和运输订单",
         "承运商、服务和线路",
         "询价、比价、面单和交接"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "wms-product-architecture",
       "display_name": "WMS 产品架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/产品/系统产品架构/WMS/wms-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -190,26 +298,59 @@
         "仓库、库区、库位和容器",
         "预约、收货、质检和上架",
         "波次、拣选、复核和包装"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "commerce-systems-product-architecture",
-      "display_name": "跨境业务系统总产品架构师",
+      "display_name": "跨系统产品架构师",
+      "version": "1.1.0",
       "package_root": "互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "跨境业务系统蓝图",
-        "系统边界重构",
-        "新系统立项和集成治理",
-        "业务能力和端到端旅程",
-        "系统职责与不负责范围",
+        "跨系统业务流程设计",
+        "系统职责重叠与空白治理",
+        "新系统接入和系统边界调整",
+        "端到端业务旅程",
+        "系统负责与不负责范围",
         "主数据和 source of truth"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
+    },
+    {
+      "name": "ui-interaction-designer",
+      "display_name": "UI 交互设计与实现专家",
+      "version": "1.0.0",
+      "package_root": "互联网研发/前端/UI交互/ui-interaction-designer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新页面或组件交互设计",
+        "复杂表单、列表、弹窗和工作流改版",
+        "交互缺失、反馈不清或前端验收争议",
+        "用户目标、入口、主路径和退出",
+        "默认、悬停、焦点、禁用、加载、空、错误和成功状态",
+        "鼠标、键盘、触摸、拖拽和响应式行为"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "frontend-feature-implementer",
       "display_name": "前端功能实现工程师",
+      "version": "1.0.0",
       "package_root": "互联网研发/前端/前台/frontend-feature-implementer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -219,11 +360,17 @@
         "实现商品页、表单、仪表盘或工作流",
         "根据 Figma/截图还原现有应用页面",
         "补齐现有功能的响应式、错误和权限状态"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "frontend-localization-verifier",
       "display_name": "前端多语言查验师",
+      "version": "1.0.0",
       "package_root": "互联网研发/前端/前台/frontend-localization-verifier",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -233,11 +380,17 @@
         "新语言上线前全链路查验",
         "检查翻译文件缺失、变量和 ICU 错误",
         "验证 RTL、货币、时区和 hreflang"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "frontend-performance-analyzer",
       "display_name": "前端性能分析师",
+      "version": "1.0.0",
       "package_root": "互联网研发/前端/前台/frontend-performance-analyzer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -247,25 +400,17 @@
         "诊断 LCP、INP 或 CLS 回归",
         "分析 bundle、hydration 和数据 waterfall",
         "建立页面和路由性能预算"
-      ]
-    },
-    {
-      "name": "frontend-state-integration-designer",
-      "display_name": "前端状态与数据流设计师",
-      "package_root": "互联网研发/前端/前台/frontend-state-integration-designer",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "前台",
-        "状态与数据",
-        "复杂筛选、分页和 URL 同步",
-        "表单草稿、保存和并发编辑",
-        "接入查询缓存、mutation 与乐观更新"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "web-performance-accessibility-auditor",
       "display_name": "Web 性能与无障碍审计师",
+      "version": "1.0.0",
       "package_root": "互联网研发/前端/前台/web-performance-accessibility-auditor",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -275,11 +420,17 @@
         "审计商品页或业务流程的 Core Web Vitals",
         "检查表单、弹层和动态内容无障碍",
         "发布前建立性能预算和回归门槛"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "frontend-architecture-designer",
-      "display_name": "前端通用架构设计师",
+      "display_name": "前端架构师",
+      "version": "1.0.1",
       "package_root": "互联网研发/前端/架构/frontend-architecture-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -290,11 +441,17 @@
         "渲染策略与运行环境",
         "模块、领域和依赖方向",
         "状态、数据获取与缓存"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "react-senior-expert",
       "display_name": "React 资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/前端/框架/React/react-senior-expert",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -305,11 +462,17 @@
         "组件组合和领域边界",
         "本地、URL、表单与服务端状态",
         "副作用、并发渲染和错误恢复"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "vue3-senior-expert",
       "display_name": "Vue3 资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/前端/框架/Vue3/vue3-senior-expert",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -320,11 +483,17 @@
         "SFC、组件和 feature 边界",
         "Composition API 与 composable 设计",
         "响应式陷阱、Pinia 和服务端状态"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "api-contract-designer",
       "display_name": "API 契约设计师",
+      "version": "1.0.0",
       "package_root": "互联网研发/后端/api-contract-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -336,11 +505,17 @@
         "幂等",
         "错误码",
         "兼容性"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "database-migration-planner",
       "display_name": "数据库变更迁移规划师",
+      "version": "1.0.0",
       "package_root": "互联网研发/后端/database-migration-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -350,11 +525,17 @@
         "新增非空字段或约束",
         "拆表、改类型、重命名或大规模 backfill",
         "在线建立索引和迁移读写路径"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "backend-service-architect",
       "display_name": "后端服务架构师",
+      "version": "1.0.0",
       "package_root": "互联网研发/后端/backend-service-architect",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -364,11 +545,17 @@
         "新业务能力后端设计",
         "单体模块化或服务拆分评审",
         "高可靠异步工作流和补偿方案"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "backend-architecture-designer",
-      "display_name": "后端通用架构设计师",
+      "display_name": "后端架构师",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/架构/backend-architecture-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -379,11 +566,17 @@
         "领域与系统上下文",
         "一致性、可用性和延迟目标",
         "数据 ownership 与集成契约"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "architect",
+        "label": "架构师"
+      }
     },
     {
       "name": "aspnet-core-backend-architecture",
-      "display_name": "ASP.NET Core 后端架构师",
+      "display_name": "ASP.NET Core 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -394,11 +587,17 @@
         "host、configuration 和 options",
         "DI lifetime 与 module registration",
         "middleware 顺序和 endpoint"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "fastapi-backend-architecture",
-      "display_name": "FastAPI 后端架构师",
+      "display_name": "FastAPI 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/框架/FastAPI/fastapi-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -409,11 +608,17 @@
         "APIRouter 与业务模块",
         "Depends 生命周期和授权",
         "Pydantic 输入输出契约"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "gin-backend-architecture",
-      "display_name": "Gin 后端架构师",
+      "display_name": "Gin 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/框架/Gin/gin-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -424,11 +629,17 @@
         "route group 与业务模块",
         "middleware 顺序和短路",
         "请求绑定、验证和错误"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "laravel-backend-architecture",
-      "display_name": "Laravel 后端架构师",
+      "display_name": "Laravel 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/框架/Laravel/laravel-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -439,11 +650,17 @@
         "业务模块与 service provider",
         "container binding 和生命周期",
         "Eloquent、事务和查询边界"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "nestjs-backend-architecture",
-      "display_name": "NestJS 后端架构师",
+      "display_name": "NestJS 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/框架/NestJS/nestjs-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -454,11 +671,17 @@
         "module 导入导出边界",
         "provider scope 与依赖注入",
         "pipe、guard、interceptor 和 filter"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "spring-boot-backend-architecture",
-      "display_name": "Spring Boot 后端架构师",
+      "display_name": "Spring Boot 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/框架/Spring Boot/spring-boot-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -469,11 +692,17 @@
         "业务模块和 bean 边界",
         "配置、profiles 和 secrets",
         "事务、持久化和事件"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "production-incident-diagnostician",
       "display_name": "生产故障诊断师",
+      "version": "1.0.0",
       "package_root": "互联网研发/后端/production-incident-diagnostician",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -483,11 +712,17 @@
         "错误率、延迟或服务不可用",
         "队列积压、任务失败和依赖超时",
         "数据错误、部分用户异常和发布回归"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "csharp-backend-architecture",
-      "display_name": "C# 后端架构师",
+      "display_name": "C# 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/C#/csharp-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -498,11 +733,17 @@
         "solution、project 和 namespace 边界",
         "nullable、record 和领域类型",
         "async/await、CancellationToken 和线程池"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "go-backend-architecture",
-      "display_name": "Go 后端架构师",
+      "display_name": "Go 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/Go/go-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -513,11 +754,17 @@
         "package 责任与依赖方向",
         "context、goroutine 和背压",
         "错误语义与接口最小化"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "java-backend-architecture",
-      "display_name": "Java 后端架构师",
+      "display_name": "Java 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/Java/java-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -528,11 +775,17 @@
         "package/module 依赖",
         "线程、虚拟线程和阻塞边界",
         "异常、空值和领域类型"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "nodejs-backend-architecture",
-      "display_name": "Node.js 后端架构师",
+      "display_name": "Node.js 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/Node.js/nodejs-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -543,11 +796,17 @@
         "ESM/CommonJS 与 package 边界",
         "事件循环和阻塞工作",
         "Promise、取消和错误传播"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "php-backend-architecture",
-      "display_name": "PHP 后端架构师",
+      "display_name": "PHP 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/PHP/php-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -558,11 +817,17 @@
         "namespace、PSR 和 Composer",
         "请求生命周期与共享状态",
         "领域类型、异常和校验"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "python-backend-architecture",
-      "display_name": "Python 后端架构师",
+      "display_name": "Python 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/Python/python-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -573,11 +838,17 @@
         "package、module 和 import 边界",
         "typing 与运行时校验",
         "asyncio、线程和进程选择"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "rust-backend-architecture",
-      "display_name": "Rust 后端架构师",
+      "display_name": "Rust 后端资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/后端/语言/Rust/rust-backend-architecture",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -588,11 +859,17 @@
         "crate、module 和 feature 边界",
         "ownership、borrowing 和领域类型",
         "Result、错误分层和恢复"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "test-strategy-designer",
       "display_name": "测试策略设计师",
+      "version": "1.0.0",
       "package_root": "互联网研发/测试/test-strategy-designer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -603,11 +880,17 @@
         "回归测试",
         "发布门槛",
         "质量保障"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "fullstack-feature-delivery",
-      "display_name": "全栈功能交付工程师",
+      "display_name": "全栈开发资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-feature-delivery",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -617,11 +900,17 @@
         "实现跨前端、接口和数据库的新功能",
         "修复需要多层协同的业务缺陷",
         "把一个需求拆成可部署、可回滚的垂直切片"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "fullstack-developer-weekly-report",
       "display_name": "全栈开发周报生成器",
+      "version": "1.0.0",
       "package_root": "互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -632,11 +921,17 @@
         "个人全栈开发周报",
         "项目或小组研发周报",
         "从 Git、工单和发布记录重建周报"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "fullstack-quality-engineer",
-      "display_name": "全栈质量工程师",
+      "display_name": "全栈测试资深专家",
+      "version": "1.0.1",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-quality-engineer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -646,11 +941,17 @@
         "验证跨前后端和数据库的完整功能",
         "为重大版本做 release readiness",
         "审查测试计划的跨层风险漏测"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-expert",
+        "label": "资深专家"
+      }
     },
     {
       "name": "fullstack-qa-weekly-report",
       "display_name": "全栈测试周报生成器",
+      "version": "1.0.0",
       "package_root": "互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -661,11 +962,1109 @@
         "个人或团队测试周报",
         "版本发布质量周报",
         "从测试平台、缺陷和生产验证记录重建周报"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "senior-hr-recruiting-manager",
+      "display_name": "人事招聘资深经理",
+      "version": "1.0.1",
+      "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "人事招聘体系建设",
+        "年度或季度人才规划",
+        "关键岗位招聘和员工生命周期治理",
+        "组织目标、编制和岗位",
+        "人才渠道、漏斗和质量",
+        "面试、录用和入职体验"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-hr-recruiting-manager-weekly-report",
+      "display_name": "人事招聘资深经理周报",
+      "version": "1.0.1",
+      "package_root": "人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "人事招聘周度复盘",
+        "关键岗位和人才风险同步",
+        "入离职、员工关系和跨团队事项跟踪",
+        "编制、在岗和缺口",
+        "候选人漏斗、时效和质量",
+        "Offer、入职和试用期"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "candidate-sourcing-operator",
+      "display_name": "候选人寻访运营专员",
+      "version": "1.0.0",
+      "package_root": "人事招聘/人才寻访/candidate-sourcing-operator",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "关键岗位人才寻访",
+        "招聘渠道组合优化",
+        "人才库建设和候选人触达",
+        "必需与可培养能力",
+        "行业、公司和人才地图",
+        "渠道成本、速度和质量"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "hr-recruitment-generalist",
+      "display_name": "人事招聘通用执行专家",
+      "version": "1.0.0",
+      "package_root": "人事招聘/公共/hr-recruitment-generalist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "不确定该使用哪个人事 Skill",
+        "日常招聘和员工流程执行",
+        "跨编制、JD、寻访、面试、录用和入职的组合任务",
+        "业务目标、工作地与用工主体",
+        "编制、岗位和预算授权",
+        "招聘与员工生命周期阶段"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "performance-employee-relations-manager",
+      "display_name": "绩效与员工关系管理专员",
+      "version": "1.0.0",
+      "package_root": "人事招聘/员工关系/performance-employee-relations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "绩效周期和反馈机制",
+        "试用期或绩效改进",
+        "员工申诉、冲突和调查协同",
+        "目标、期望和证据",
+        "持续反馈与改进支持",
+        "一致性、公平性和反报复"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "employee-announcement-writer",
+      "display_name": "企业员工公告撰写专家",
+      "version": "1.0.0",
+      "package_root": "人事招聘/员工沟通/employee-announcement-writer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "入职、放假、培训、福利和办公通知",
+        "制度发布、版本更新和生效公告",
+        "组织调整、事故或紧急事项沟通草案",
+        "发布目的、受众和知情范围",
+        "已批准事实、版本和生效时间",
+        "员工行动、责任人和截止时间"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "employee-lifecycle-records-manager",
+      "display_name": "员工生命周期与档案管理员",
+      "version": "1.0.0",
+      "package_root": "人事招聘/员工生命周期/employee-lifecycle-records-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "员工主档维护",
+        "转岗晋升和合同变更",
+        "离职交接与权限回收",
+        "员工唯一标识和数据 owner",
+        "合同、职位、汇报和成本中心",
+        "假勤、证明和变更证据"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "employee-training-organization-manager",
+      "display_name": "员工培训组织与运营经理",
+      "version": "1.0.0",
+      "package_root": "人事招聘/培训发展/employee-training-organization-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "年度或季度培训规划",
+        "新人、岗位、管理与专项培训组织",
+        "内部讲师、外部供应商和培训效果治理",
+        "业务目标、岗位能力和参训对象",
+        "课程目标、形式、讲师和供应商",
+        "预算、排期、场地、设备和通知"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "job-description-generator",
+      "display_name": "岗位说明书与招聘 JD 生成专家",
+      "version": "1.0.0",
+      "package_root": "人事招聘/岗位与JD/job-description-generator",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新增或重写招聘 JD",
+        "岗位职责模糊或要求堆砌",
+        "多平台、多语言或跨区域岗位发布",
+        "岗位使命、业务结果和上下游",
+        "职责、权限与不负责范围",
+        "必需能力、可培养能力和证据"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "offer-onboarding-manager",
+      "display_name": "录用与入职管理专员",
+      "version": "1.0.0",
+      "package_root": "人事招聘/录用入职/offer-onboarding-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "候选人录用审批",
+        "Offer 谈判和签署",
+        "跨部门入职和试用期启动",
+        "岗位、职级、薪酬和预算审批",
+        "条件、有效期和候选人沟通",
+        "背景核验授权与必要性"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "workforce-recruiting-planner",
+      "display_name": "人力编制与招聘规划师",
+      "version": "1.0.0",
+      "package_root": "人事招聘/招聘规划/workforce-recruiting-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "年度人力规划",
+        "业务扩张或组织调整",
+        "招聘优先级和预算配置",
+        "业务目标和工作量驱动",
+        "现有人力、能力和产能",
+        "岗位职责与替代方案"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "structured-interview-designer",
+      "display_name": "结构化面试与评估设计师",
+      "version": "1.0.0",
+      "package_root": "人事招聘/面试评估/structured-interview-designer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "岗位面试方案设计",
+        "面试官培训和校准",
+        "候选人评审争议治理",
+        "岗位成功结果和关键能力",
+        "问题、追问和行为证据",
+        "工作样本与一致评分"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "senior-warehouse-inventory-manager",
+      "display_name": "仓储库存资深经理",
+      "version": "1.0.1",
+      "package_root": "仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由仓储库存资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "库存准确性与可用性",
+        "入库、上架、拣配和出库",
+        "库位、仓容、人效和设备"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-warehouse-inventory-manager-weekly-report",
+      "display_name": "仓储库存资深经理周报",
+      "version": "1.0.1",
+      "package_root": "仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "仓储库存资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "库存准确性与可用性",
+        "入库、上架、拣配和出库",
+        "库位、仓容、人效和设备"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "senior-supply-chain-manager",
+      "display_name": "供应链资深经理",
+      "version": "1.0.1",
+      "package_root": "仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由供应链资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "供应商和质量体系",
+        "需求、采购和补货",
+        "库存、仓储和渠道分配"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-supply-chain-manager-weekly-report",
+      "display_name": "供应链资深经理周报",
+      "version": "1.0.1",
+      "package_root": "仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "供应链资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "供应商和质量体系",
+        "需求、采购和补货",
+        "库存、仓储和渠道分配"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "warehouse-safety-capacity-manager",
+      "display_name": "仓容、现场安全与连续性经理",
+      "version": "1.0.0",
+      "package_root": "仓储库存/仓容安全/warehouse-safety-capacity-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新仓或仓库扩容",
+        "大促峰值仓容与人效规划",
+        "仓库安全检查和中断应急",
+        "库位、容积、重量和周转",
+        "收发存动线与人车分离",
+        "设备、消防、用电和人体工学"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "warehouse-inbound-operations-manager",
+      "display_name": "仓库入库作业经理",
+      "version": "1.0.0",
+      "package_root": "仓储库存/入库管理/warehouse-inbound-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "采购或调拨入库",
+        "多仓预约和上架治理",
+        "短少、破损、错货和超收异常处理",
+        "ASN、采购单、调拨单和到货",
+        "箱、托、SKU、批次和序列",
+        "计数、质检、短溢损和拒收"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "warehouse-outbound-fulfillment-manager",
+      "display_name": "仓库出库履约经理",
+      "version": "1.0.0",
+      "package_root": "仓储库存/出库履约/warehouse-outbound-fulfillment-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "电商订单出库",
+        "大促波次与仓内产能",
+        "错发、漏发、超时和承运交接异常",
+        "订单优先级、截单和释放",
+        "波次、路径、拣选和缺货",
+        "复核、包装、赠品和称重"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "ecommerce-fulfillment-logistics-planner",
+      "display_name": "电商履约物流规划师",
+      "version": "1.0.0",
+      "package_root": "仓储库存/履约物流/ecommerce-fulfillment-logistics-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "物流",
+        "跨境履约",
+        "首批试单和补货运输方式选择",
+        "FBA、FBM、3PL 和直发组合设计",
+        "旺季、爆仓或承运商中断应急"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "inventory-allocation-planner",
+      "display_name": "多仓多渠道库存分配规划师",
+      "version": "1.0.0",
+      "package_root": "仓储库存/库存分配/inventory-allocation-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Amazon、独立站和 TikTok 库存分配",
+        "多仓调拨和缺货配给",
+        "大促、新品和区域备货",
+        "现货、在途、预占和不可售",
+        "渠道需求、承诺和优先级",
+        "仓网、时效、成本和容量"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "inventory-control-cycle-count-manager",
+      "display_name": "库存控制与循环盘点经理",
+      "version": "1.0.0",
+      "package_root": "仓储库存/库存控制/inventory-control-cycle-count-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "日常循环盘点",
+        "月末或年度盘点",
+        "库存差异、负库存和异常损耗治理",
+        "库存所有权、位置、状态和批次",
+        "ABC/风险盘点频率",
+        "冻结、盲盘、复盘和抽查"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "inventory-replenishment-planner",
+      "display_name": "多渠道库存补货规划师",
+      "version": "2.0.0",
+      "package_root": "仓储库存/库存计划/inventory-replenishment-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "库存",
+        "预测与补货",
+        "周度/月度 SKU 补货计划",
+        "大促前备货和渠道分仓",
+        "供应延迟或销量突增时重算风险",
+        "库存补货告警与处置闭环"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "returns-reverse-logistics-manager",
+      "display_name": "退货与逆向物流经理",
+      "version": "1.0.0",
+      "package_root": "仓储库存/逆向物流/returns-reverse-logistics-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "客户退货处理",
+        "平台退仓和批量逆向",
+        "残次、翻新、再售与报废治理",
+        "RMA、订单、原因和责任",
+        "运输、收货、身份和完整性",
+        "检验、分级、清洁和翻新"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "ai-image-video-production-manager",
+      "display_name": "AI 图片与视频成片专家",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/AI创意制作/AI成片/ai-image-video-production-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "AI 商品场景图和广告图",
+        "文生视频、图生视频和镜头扩展",
+        "批量多语言多比例创意成片",
+        "商品事实锁定与参考图",
+        "模型、输入输出、参数和随机种",
+        "镜头连续性、运动和物理合理性"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "intelligent-video-editing-specialist",
+      "display_name": "智能剪辑工作流专家",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/AI创意制作/智能剪辑/intelligent-video-editing-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "长素材自动粗剪",
+        "广告短视频批量变体",
+        "字幕、配音、横竖版和多语言适配",
+        "素材入库、镜头语义和优先级",
+        "转写、说话人、字幕和敏感词",
+        "节奏、静音、重复和 CTA"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "ai-creative-authenticity-compliance-reviewer",
+      "display_name": "AI 创意真实性与合规审查师",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/AI创意制作/真实性合规/ai-creative-authenticity-compliance-reviewer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "AI 商品图视频上线前审查",
+        "虚拟模特和数字人风险检查",
+        "AI 素材来源、修改和披露审计",
+        "商品事实与生成差异",
+        "人像、声音、肖像和深度合成",
+        "版权、商标、字体和训练来源"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "virtual-model-content-producer",
+      "display_name": "虚拟模特内容制作专家",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/AI创意制作/虚拟模特/virtual-model-content-producer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "服饰、配件和生活方式虚拟模特图",
+        "多地区模特与场景版本",
+        "真人素材的合规模特替换",
+        "商品版型、纹理、颜色和遮挡",
+        "人物身份、年龄表达、体型和肤色覆盖",
+        "姿态、手部、接触点和物理合理性"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "ugc-content-production-manager",
+      "display_name": "UGC 与达人内容制作经理",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/UGC制作/ugc-content-production-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "UGC 广告素材采购",
+        "达人寄样内容制作",
+        "多创作者多角度内容测试",
+        "受众与创作者匹配",
+        "真实体验和产品证据",
+        "自然表达、钩子和镜头要求"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "creative-strategy-producer",
+      "display_name": "跨境广告创意策略师",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/创意策略/creative-strategy-producer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "广告素材策略",
+        "UGC brief 和脚本矩阵",
+        "创意疲劳治理",
+        "人群问题和欲望",
+        "产品证据与演示",
+        "角度、钩子、格式和 CTA"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "senior-creative-production-manager",
+      "display_name": "创意拍摄资深经理",
+      "version": "1.0.1",
+      "package_root": "创意拍摄/创意角色/创意拍摄资深经理/senior-creative-production-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由创意拍摄资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "创意需求和产能组合",
+        "策略、脚本和拍摄优先级",
+        "人员、供应商、预算和排期"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-creative-production-manager-weekly-report",
+      "display_name": "创意拍摄资深经理周报",
+      "version": "1.0.1",
+      "package_root": "创意拍摄/创意角色/创意拍摄资深经理/senior-creative-production-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "创意拍摄资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "创意需求和产能组合",
+        "策略、脚本和拍摄优先级",
+        "人员、供应商、预算和排期"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "post-production-delivery-manager",
+      "display_name": "剪辑后期与素材交付经理",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/后期交付/post-production-delivery-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "图片精修和批量导出",
+        "短视频剪辑与多版本适配",
+        "跨语言跨渠道素材交付",
+        "原始素材、选片和时间线",
+        "调色、修图和事实还原",
+        "节奏、声音、字幕和图形包装"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "product-photography-director",
+      "display_name": "商品摄影导演",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/商品摄影/product-photography-director",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Amazon 或独立站商品摄影",
+        "新品主图与场景图拍摄",
+        "多颜色多款式批量摄影",
+        "商品结构、材质、颜色和比例",
+        "白底、细节、尺度和使用场景",
+        "灯光、镜头、构图和景深"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "product-photo-video-production-manager",
+      "display_name": "商品图片与视频拍摄制作经理",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/拍摄制作/product-photo-video-production-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "商品主图、场景图和视频拍摄",
+        "广告、社媒、达人和独立站素材制作",
+        "跨市场拍摄重制与批量交付",
+        "受众、卖点和证据镜头",
+        "主图、细节、场景、UGC 和短视频格式",
+        "样品、模特、场地、灯光和收音"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "shooting-production-coordinator",
+      "display_name": "拍摄制片与现场统筹",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/拍摄统筹/shooting-production-coordinator",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "棚拍或外景拍摄筹备",
+        "多 SKU 批量拍摄",
+        "跨团队拍摄进度和成本治理",
+        "brief、shot list 和优先级",
+        "样品状态、道具和物流",
+        "摄影、导演、模特和供应商"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "short-form-video-producer",
+      "display_name": "跨境短视频制作导演",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/短视频制作/short-form-video-producer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "商品广告短视频",
+        "社媒竖屏内容",
+        "功能演示、场景故事和口播制作",
+        "首秒钩子和目标人群",
+        "问题、证据、演示和 CTA",
+        "9:16 构图、节奏和安全区"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "creative-asset-operations-manager",
+      "display_name": "创意素材运营经理",
+      "version": "1.0.0",
+      "package_root": "创意拍摄/素材运营/creative-asset-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "素材中台和资产库治理",
+        "多渠道素材供给与复用",
+        "素材版本、授权和效果复盘",
+        "商品事实、市场和使用场景",
+        "格式、尺寸、语言和渠道规格",
+        "素材 ID、标签、版本和血缘"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "senior-customer-service-presales-manager",
+      "display_name": "客服售前资深经理",
+      "version": "1.0.1",
+      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由客服售前资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "咨询量、响应和解决质量",
+        "商品事实、推荐适配和转化",
+        "多语言体验与合规"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-customer-service-presales-manager-weekly-report",
+      "display_name": "客服售前资深经理周报",
+      "version": "1.0.1",
+      "package_root": "客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "客服售前资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "咨询量、响应和解决质量",
+        "商品事实、推荐适配和转化",
+        "多语言体验与合规"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "customer-service-voice-manager",
+      "display_name": "跨境客服售前运营专家",
+      "version": "2.0.0",
+      "package_root": "客服售前/客服运营/customer-service-voice-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "邮件、聊天和平台消息售前接待",
+        "商品推荐、异议处理与多语言沟通",
+        "客服知识库、线索交接和质量改进",
+        "客户场景、预算和硬约束",
+        "商品、价格、库存、履约与政策事实",
+        "语言、文化、隐私和品牌语气"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "supplier-sourcing-quality-manager",
+      "display_name": "供应商寻源与质量管理器",
+      "version": "1.0.0",
+      "package_root": "市场采购/供应商与质量/supplier-sourcing-quality-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "供应链",
+        "寻源与质量",
+        "寻找并比较 3-5 家供应商",
+        "设计样品测试和验货规则",
+        "MOQ、价格、交期和付款谈判准备"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "supplier-negotiation-cost-manager",
+      "display_name": "供应商谈判与成本经理",
+      "version": "1.0.0",
+      "package_root": "市场采购/商务谈判/supplier-negotiation-cost-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "询价比价和成本拆解",
+        "MOQ、价格、账期和交期谈判",
+        "年度降本和供应商商务复盘",
+        "规格、数量和报价可比性",
+        "材料、人工、制造、包装和物流",
+        "MOQ、阶梯价、模具和开发费"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "market-demand-opportunity-analyst",
+      "display_name": "市场需求与商品机会分析师",
+      "version": "1.0.0",
+      "package_root": "市场采购/市场机会/market-demand-opportunity-analyst",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新品机会扫描",
+        "类目和价格带进入判断",
+        "采购方向和商品组合规划",
+        "目标人群、场景和未满足需求",
+        "搜索、销量、评价和季节证据",
+        "竞争、价格带和差异空间"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "sample-evaluation-sourcing-manager",
+      "display_name": "采购样品验证经理",
+      "version": "1.0.0",
+      "package_root": "市场采购/样品验证/sample-evaluation-sourcing-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新品打样和多供应商比样",
+        "样品改版和确认",
+        "量产前样、封样和放行",
+        "规格、BOM、外观和使用场景",
+        "供应商、版本、日期和样品身份",
+        "功能、耐久、安全和包装测试"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "ecommerce-product-research",
+      "display_name": "跨境电商选品研究",
+      "version": "1.0.0",
+      "package_root": "市场采购/选品/ecommerce-product-research",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "选品",
+        "产品研究",
+        "市场机会",
+        "利润模型",
+        "供应链",
+        "Amazon",
+        "Shopify",
+        "TikTok Shop"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "purchase-order-delivery-manager",
+      "display_name": "采购订单与交付经理",
+      "version": "1.0.0",
+      "package_root": "市场采购/采购执行/purchase-order-delivery-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "采购订单下达",
+        "生产和交期跟踪",
+        "数量价格交付变更与异常处理",
+        "申请、预算、合同和审批",
+        "SKU、规格、数量、价格和币种",
+        "生产、质检、装运和到仓节点"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "senior-market-procurement-manager",
+      "display_name": "市场采购资深经理",
+      "version": "1.0.1",
+      "package_root": "市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由市场采购资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "市场机会与商品组合",
+        "供应商与产能质量",
+        "样品、成本和商务谈判"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-market-procurement-manager-weekly-report",
+      "display_name": "市场采购资深经理周报",
+      "version": "1.0.1",
+      "package_root": "市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "市场采购资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "市场机会与商品组合",
+        "供应商与产能质量",
+        "样品、成本和商务谈判"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "senior-merchandising-manager",
+      "display_name": "选品与商品资深经理",
+      "version": "1.0.1",
+      "package_root": "市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由选品与商品资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "市场机会和需求证据",
+        "选品门槛与单位经济",
+        "SKU 组合和生命周期"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-merchandising-manager-weekly-report",
+      "display_name": "选品与商品资深经理周报",
+      "version": "1.0.1",
+      "package_root": "市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "选品与商品资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "市场机会和需求证据",
+        "选品门槛与单位经济",
+        "SKU 组合和生命周期"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "procurement-risk-compliance-manager",
+      "display_name": "采购风险与供应韧性经理",
+      "version": "1.0.0",
+      "package_root": "市场采购/采购风险/procurement-risk-compliance-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新供应商准入",
+        "单一来源和供应中断治理",
+        "采购合规与供应链尽调",
+        "主体、所有权和经营资质",
+        "产地、材料、劳工和环境证据",
+        "制裁、出口管制和产品合规"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "advertising-performance-analyst",
       "display_name": "广告效果分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/advertising-performance-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -676,11 +2075,17 @@
         "spend、delivery 和归因窗口",
         "CTR、CVR、CPA、ROAS 与 TACOS",
         "新客、毛利和回收期"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "business-metrics-governance",
       "display_name": "业务指标治理师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/business-metrics-governance",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -691,11 +2096,17 @@
         "业务定义与公式",
         "粒度、去重和状态",
         "时区、币种和税口径"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "conversion-funnel-analyst",
       "display_name": "电商转化漏斗分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/conversion-funnel-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -706,11 +2117,17 @@
         "漏斗定义和可比 cohort",
         "曝光、查看、加购、结账和购买",
         "设备、页面、国家和渠道"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "customer-cohort-ltv-analyst",
       "display_name": "客户 Cohort 与 LTV 分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/customer-cohort-ltv-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -721,11 +2138,17 @@
         "客户身份与 cohort 定义",
         "复购、留存和间隔",
         "收入、毛利和贡献 LTV"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "executive-business-review",
       "display_name": "经营分析与周月报专家",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/executive-business-review",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -736,11 +2159,17 @@
         "目标、同比和环比口径",
         "收入利润和现金",
         "商品渠道客户驱动"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "forecast-scenario-planner",
       "display_name": "经营预测与情景规划师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/forecast-scenario-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -751,11 +2180,17 @@
         "历史基线和结构变化",
         "流量、转化、价格和复购驱动",
         "季节、活动和供给约束"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "inventory-supply-chain-analyst",
       "display_name": "库存与供应链分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/inventory-supply-chain-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -766,11 +2201,17 @@
         "库存状态和位置",
         "需求、覆盖和安全库存",
         "供应商交期和波动"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "marketplace-channel-comparison-analyst",
       "display_name": "跨平台渠道对比分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/marketplace-channel-comparison-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -781,11 +2222,17 @@
         "订单状态与收入确认",
         "平台费、履约、广告和退款",
         "新客、复购和数据 ownership"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "pricing-promotion-analyst",
       "display_name": "价格与促销分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/pricing-promotion-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -796,11 +2243,17 @@
         "基线和对照",
         "价格、折扣和实际成交价",
         "销量、转化和弹性"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "product-portfolio-analyst",
       "display_name": "商品组合分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/product-portfolio-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -811,11 +2264,17 @@
         "流量、转化和销量",
         "毛利和贡献",
         "库存周转和缺货"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "sales-profitability-analyst",
       "display_name": "销售与利润分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/sales-profitability-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -826,11 +2285,17 @@
         "销量、价格和组合",
         "退款、折扣和税费",
         "平台、支付、物流和广告成本"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "traffic-acquisition-analyst",
       "display_name": "流量与获客分析师",
+      "version": "1.0.0",
       "package_root": "数据看板/业务分析/traffic-acquisition-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -841,11 +2306,17 @@
         "user/session scope",
         "source、medium、campaign 规范",
         "新客、参与和落地页"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "metric-diagnostics",
       "display_name": "业务指标诊断师",
+      "version": "1.0.0",
       "package_root": "数据看板/metric-diagnostics",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -856,11 +2327,17 @@
         "漏斗",
         "贡献度",
         "数据质量"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "data-quality-reconciliation",
       "display_name": "业务数据质量与对账专家",
+      "version": "1.0.0",
       "package_root": "数据看板/数据治理/data-quality-reconciliation",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -871,11 +2348,17 @@
         "来源、抽取时间和范围",
         "主键、重复和缺失",
         "状态、时区、币种和税"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "dispute-resolution-case-manager",
       "display_name": "争议解决案件经理",
+      "version": "1.0.0",
       "package_root": "法律政务/争议解决/dispute-resolution-case-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -886,11 +2369,17 @@
         "当事人、合同和管辖",
         "事实、损失和因果",
         "证据真实性和保全"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "corporate-governance-counsel",
       "display_name": "公司治理法务顾问",
+      "version": "1.0.0",
       "package_root": "法律政务/公司治理/corporate-governance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -901,11 +2390,17 @@
         "实体、股权和最终受益人",
         "章程与保留事项",
         "签字权和授权期限"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "employment-labor-compliance-counsel",
       "display_name": "劳动用工合规顾问",
+      "version": "1.0.0",
       "package_root": "法律政务/劳动用工/employment-labor-compliance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -916,11 +2411,17 @@
         "工作地与雇佣主体",
         "员工/承包商分类",
         "薪酬、工时、福利和税"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "contract-risk-reviewer",
       "display_name": "合同风险审阅师",
+      "version": "1.0.0",
       "package_root": "法律政务/contract-risk-reviewer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -931,11 +2432,17 @@
         "谈判建议",
         "NDA",
         "SaaS合同"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "advertising-claims-legal-reviewer",
       "display_name": "广告声明法律审查师",
+      "version": "1.0.0",
       "package_root": "法律政务/广告与消费者保护/advertising-claims-legal-reviewer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -946,12 +2453,39 @@
         "明示和暗示声明",
         "可靠证据与适用人群",
         "达人关系和显著披露"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "eu-market-regulatory-compliance-counsel",
+      "display_name": "欧盟市场合规顾问",
+      "version": "1.0.0",
+      "package_root": "法律政务/欧盟合规/eu-market-regulatory-compliance-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "产品进入欧盟市场",
+        "欧盟责任人、进口商和平台责任审查",
+        "CE、GPSR、标签、VAT、隐私和召回流程审查",
+        "制造商、进口商、授权代表和责任人",
+        "GPSR、CE 与产品专项法规路由",
+        "风险评估、技术文件、测试和追溯"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "senior-cross-border-legal-counsel",
-      "display_name": "跨境法务负责人",
-      "package_root": "法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel",
+      "display_name": "跨境法务资深经理",
+      "version": "1.0.1",
+      "package_root": "法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -961,12 +2495,18 @@
         "司法辖区和主体",
         "权利义务与授权",
         "监管、消费者和平台风险"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-cross-border-legal-counsel-weekly-report",
-      "display_name": "跨境法务负责人周报",
-      "package_root": "法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel-weekly-report",
+      "display_name": "跨境法务资深经理周报",
+      "version": "1.0.1",
+      "package_root": "法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -976,11 +2516,17 @@
         "新增与关闭事项",
         "风险等级和金额暴露",
         "期限、证据和保全"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "intellectual-property-protection-counsel",
       "display_name": "知识产权保护顾问",
+      "version": "1.0.0",
       "package_root": "法律政务/知识产权/intellectual-property-protection-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -991,11 +2537,38 @@
         "权利类型与国家覆盖",
         "所有权、许可和使用证据",
         "近似、混淆和在先权利"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "us-market-regulatory-compliance-counsel",
+      "display_name": "美国市场合规顾问",
+      "version": "1.0.0",
+      "package_root": "法律政务/美国合规/us-market-regulatory-compliance-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "产品进入美国市场",
+        "美国进口商和平台责任审查",
+        "Listing、标签、广告、隐私和召回流程审查",
+        "Importer of Record 与海关申报",
+        "HTS、原产地、估价和供应链",
+        "CPSC/FDA/FCC 等产品主管机构路由"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "cross-border-regulatory-compliance-counsel",
       "display_name": "跨境监管合规顾问",
+      "version": "1.0.0",
       "package_root": "法律政务/跨境监管/cross-border-regulatory-compliance-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1006,11 +2579,38 @@
         "司法辖区与经营主体",
         "产品、进口和市场准入",
         "消费者、平台和信息披露"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "import-export-trade-compliance-reviewer",
+      "display_name": "进出口贸易合规审查顾问",
+      "version": "1.0.0",
+      "package_root": "法律政务/进出口合规/import-export-trade-compliance-reviewer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新品或新国家进出口审查",
+        "报关资料和责任链复核",
+        "制裁、许可证或出口管制红旗处理",
+        "出口方、进口商和最终受益人",
+        "商品描述、HS、原产地和估价",
+        "目的地、最终用户和最终用途"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "privacy-data-protection-counsel",
       "display_name": "隐私与数据保护顾问",
+      "version": "1.0.0",
       "package_root": "法律政务/隐私与数据/privacy-data-protection-counsel",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1021,25 +2621,17 @@
         "数据类型、目的和主体",
         "controller/processor 与合法基础",
         "同意、Cookie 和营销偏好"
-      ]
-    },
-    {
-      "name": "supplier-sourcing-quality-manager",
-      "display_name": "供应商寻源与质量管理器",
-      "package_root": "渠道运营/供应链/supplier-sourcing-quality-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "供应链",
-        "寻源与质量",
-        "寻找并比较 3-5 家供应商",
-        "设计样品测试和验货规则",
-        "MOQ、价格、交期和付款谈判准备"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "product-compliance-risk-manager",
       "display_name": "跨境商品合规风险管理器",
+      "version": "1.0.0",
       "package_root": "渠道运营/合规/product-compliance-risk-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1049,11 +2641,17 @@
         "选品和采购前合规初筛",
         "上架前检查标签、测试和声明证据",
         "材料、工厂或市场变化后的重新评估"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "pricing-promotion-optimizer",
       "display_name": "定价与促销优化经理",
+      "version": "1.0.0",
       "package_root": "渠道运营/商业化/pricing-promotion-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1064,11 +2662,17 @@
         "成本和最低可接受贡献",
         "价值与竞争价格带",
         "税费、汇率和渠道费用"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "marketplace-listing-optimizer",
       "display_name": "平台商品信息优化师",
+      "version": "1.0.0",
       "package_root": "渠道运营/商品运营/marketplace-listing-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1079,11 +2683,17 @@
         "产品事实与证据",
         "搜索词意图和优先级",
         "标题、要点、属性和后台词"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊 PDP 导入草稿生成器",
+      "version": "2.0.0",
       "package_root": "渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1096,11 +2706,17 @@
         "CSV",
         "XLSX",
         "Listing"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "shopify-conversion-auditor",
       "display_name": "Shopify 转化审计师",
+      "version": "1.0.0",
       "package_root": "渠道运营/多渠道运营/独立站/shopify-conversion-auditor",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1112,11 +2728,17 @@
         "商品页",
         "购物车",
         "结账"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "storefront-product-publishing-manager",
       "display_name": "独立站产品上下架管理器",
+      "version": "1.0.0",
       "package_root": "渠道运营/多渠道运营/独立站/storefront-product-publishing-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1128,26 +2750,17 @@
         "定时发布",
         "产品归档",
         "SEO重定向"
-      ]
-    },
-    {
-      "name": "customer-service-voice-manager",
-      "display_name": "跨境多语言客服经理",
-      "package_root": "渠道运营/客户体验/customer-service-voice-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "邮件、在线聊天和平台消息客服",
-        "多语言话术体系",
-        "客服质检和 VOC 闭环",
-        "语言、语气和文化",
-        "意图识别和信息核验",
-        "政策、权限和升级"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "review-reputation-manager",
       "display_name": "评价与品牌声誉经理",
+      "version": "1.0.0",
       "package_root": "渠道运营/客户体验/review-reputation-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1158,11 +2771,17 @@
         "评价来源和真实性",
         "主题、严重度和趋势",
         "公开回复与私下解决"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "channel-portfolio-strategist",
       "display_name": "跨境渠道组合策略师",
+      "version": "1.0.0",
       "package_root": "渠道运营/平台运营/channel-portfolio-strategist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1173,11 +2792,17 @@
         "客群和购买任务",
         "流量 ownership 与数据可得性",
         "毛利、费用和现金周期"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "tiktok-shop-operations-manager",
       "display_name": "TikTok Shop 运营经理",
+      "version": "1.0.0",
       "package_root": "渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1188,11 +2813,17 @@
         "店铺和商品健康",
         "短视频与直播供给",
         "达人联盟和授权"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "amazon-store-operations-manager",
       "display_name": "亚马逊店铺运营经理",
+      "version": "1.0.0",
       "package_root": "渠道运营/平台运营/亚马逊/amazon-store-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1203,11 +2834,17 @@
         "账户与合规健康",
         "目录、搜索和转化",
         "广告和促销"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "shopify-store-operations-manager",
       "display_name": "Shopify 独立站运营经理",
+      "version": "1.0.0",
       "package_root": "渠道运营/平台运营/独立站/shopify-store-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1218,39 +2855,17 @@
         "商品、集合和内容",
         "流量、落地页和转化",
         "促销、结账和支付"
-      ]
-    },
-    {
-      "name": "inventory-replenishment-planner",
-      "display_name": "多渠道库存补货规划师",
-      "package_root": "渠道运营/库存/inventory-replenishment-planner",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "库存",
-        "预测与补货",
-        "周度/月度 SKU 补货计划",
-        "大促前备货和渠道分仓",
-        "供应延迟或销量突增时重算风险"
-      ]
-    },
-    {
-      "name": "ecommerce-fulfillment-logistics-planner",
-      "display_name": "电商履约物流规划师",
-      "package_root": "渠道运营/物流/ecommerce-fulfillment-logistics-planner",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "物流",
-        "跨境履约",
-        "首批试单和补货运输方式选择",
-        "FBA、FBM、3PL 和直发组合设计",
-        "旺季、爆仓或承运商中断应急"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "ecommerce-unit-economics-analyst",
       "display_name": "电商单位经济模型分析师",
+      "version": "1.0.0",
       "package_root": "渠道运营/经营分析/ecommerce-unit-economics-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1260,268 +2875,269 @@
         "新品定价与上市可行性",
         "广告 ACOS 或独立站 CAC 上限判断",
         "供应商涨价、运费变化和促销折扣评估"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "senior-tiktok-shop-operations-manager",
-      "display_name": "TikTok Shop 运营高级经理",
-      "package_root": "渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager",
+      "display_name": "TikTok Shop 运营资深经理",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由TikTok Shop 运营高级经理接管复杂经营任务",
+        "由TikTok Shop 运营资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "店铺与商品健康",
         "短视频和直播供给",
         "达人、联盟和授权"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-tiktok-shop-operations-manager-weekly-report",
-      "display_name": "TikTok Shop 运营高级经理周报",
-      "package_root": "渠道运营/运营角色/TikTok-Shop运营高级经理/senior-tiktok-shop-operations-manager-weekly-report",
+      "display_name": "TikTok Shop 运营资深经理周报",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "TikTok Shop 运营高级经理本周经营复盘",
+        "TikTok Shop 运营资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "店铺与商品健康",
         "短视频和直播供给",
         "达人、联盟和授权"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "senior-business-analytics-manager",
-      "display_name": "业务数据分析高级经理",
-      "package_root": "渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager",
+      "display_name": "业务数据分析资深经理",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由业务数据分析高级经理接管复杂经营任务",
+        "由业务数据分析资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "指标语义和数据质量",
         "经营、利润和现金分析",
         "商品、渠道和客户分析"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-business-analytics-manager-weekly-report",
-      "display_name": "业务数据分析高级经理周报",
-      "package_root": "渠道运营/运营角色/业务数据分析高级经理/senior-business-analytics-manager-weekly-report",
+      "display_name": "业务数据分析资深经理周报",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "业务数据分析高级经理本周经营复盘",
+        "业务数据分析资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "指标语义和数据质量",
         "经营、利润和现金分析",
         "商品、渠道和客户分析"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "senior-amazon-operations-manager",
-      "display_name": "亚马逊运营高级经理",
-      "package_root": "渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager",
+      "display_name": "亚马逊运营资深经理",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由亚马逊运营高级经理接管复杂经营任务",
+        "由亚马逊运营资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "账户与合规健康",
         "目录、搜索和转化",
         "广告、促销和价格"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-amazon-operations-manager-weekly-report",
-      "display_name": "亚马逊运营高级经理周报",
-      "package_root": "渠道运营/运营角色/亚马逊运营高级经理/senior-amazon-operations-manager-weekly-report",
+      "display_name": "亚马逊运营资深经理周报",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "亚马逊运营高级经理本周经营复盘",
+        "亚马逊运营资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "账户与合规健康",
         "目录、搜索和转化",
         "广告、促销和价格"
-      ]
-    },
-    {
-      "name": "senior-supply-chain-manager",
-      "display_name": "供应链高级经理",
-      "package_root": "渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "由供应链高级经理接管复杂经营任务",
-        "制定季度或月度计划",
-        "跨专项协同、经营诊断和复盘",
-        "供应商和质量体系",
-        "需求、采购和补货",
-        "库存、仓储和渠道分配"
-      ]
-    },
-    {
-      "name": "senior-supply-chain-manager-weekly-report",
-      "display_name": "供应链高级经理周报",
-      "package_root": "渠道运营/运营角色/供应链高级经理/senior-supply-chain-manager-weekly-report",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "供应链高级经理本周经营复盘",
-        "本周与上周或目标对比",
-        "管理层同步和跨团队行动跟踪",
-        "供应商和质量体系",
-        "需求、采购和补货",
-        "库存、仓储和渠道分配"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "senior-customer-experience-manager",
-      "display_name": "客户体验高级经理",
-      "package_root": "渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager",
+      "display_name": "客户体验资深经理",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由客户体验高级经理接管复杂经营任务",
+        "由客户体验资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "全旅程体验和服务标准",
         "客服 SLA、权限和质检",
         "退款退货和异常升级"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-customer-experience-manager-weekly-report",
-      "display_name": "客户体验高级经理周报",
-      "package_root": "渠道运营/运营角色/客户体验高级经理/senior-customer-experience-manager-weekly-report",
+      "display_name": "客户体验资深经理周报",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "客户体验高级经理本周经营复盘",
+        "客户体验资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "全旅程体验和服务标准",
         "客服 SLA、权限和质检",
         "退款退货和异常升级"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "senior-dtc-operations-manager",
-      "display_name": "独立站运营高级经理",
-      "package_root": "渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager",
+      "display_name": "独立站运营资深经理",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由独立站运营高级经理接管复杂经营任务",
+        "由独立站运营资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "商品与站点体验",
         "流量组合与落地页",
         "转化、客单和复购"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-dtc-operations-manager-weekly-report",
-      "display_name": "独立站运营高级经理周报",
-      "package_root": "渠道运营/运营角色/独立站运营高级经理/senior-dtc-operations-manager-weekly-report",
+      "display_name": "独立站运营资深经理周报",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "独立站运营高级经理本周经营复盘",
+        "独立站运营资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "商品与站点体验",
         "流量组合与落地页",
         "转化、客单和复购"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "senior-cross-border-commerce-leader",
-      "display_name": "跨境电商业务负责人",
-      "package_root": "渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader",
+      "display_name": "跨境电商资深经理",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由跨境电商业务负责人接管复杂经营任务",
+        "由跨境电商资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "战略与经营模型",
         "渠道和资源组合",
         "商品与品牌组合"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-cross-border-commerce-leader-weekly-report",
-      "display_name": "跨境电商业务负责人周报",
-      "package_root": "渠道运营/运营角色/跨境电商负责人/senior-cross-border-commerce-leader-weekly-report",
+      "display_name": "跨境电商资深经理周报",
+      "version": "1.0.1",
+      "package_root": "渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "跨境电商业务负责人本周经营复盘",
+        "跨境电商资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "战略与经营模型",
         "渠道和资源组合",
         "商品与品牌组合"
-      ]
-    },
-    {
-      "name": "senior-merchandising-manager",
-      "display_name": "选品与商品高级经理",
-      "package_root": "渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "由选品与商品高级经理接管复杂经营任务",
-        "制定季度或月度计划",
-        "跨专项协同、经营诊断和复盘",
-        "市场机会和需求证据",
-        "选品门槛与单位经济",
-        "SKU 组合和生命周期"
-      ]
-    },
-    {
-      "name": "senior-merchandising-manager-weekly-report",
-      "display_name": "选品与商品高级经理周报",
-      "package_root": "渠道运营/运营角色/选品与商品高级经理/senior-merchandising-manager-weekly-report",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "选品与商品高级经理本周经营复盘",
-        "本周与上周或目标对比",
-        "管理层同步和跨团队行动跟踪",
-        "市场机会和需求证据",
-        "选品门槛与单位经济",
-        "SKU 组合和生命周期"
-      ]
-    },
-    {
-      "name": "ecommerce-product-research",
-      "display_name": "跨境电商选品研究",
-      "package_root": "渠道运营/选品/ecommerce-product-research",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "选品",
-        "产品研究",
-        "市场机会",
-        "利润模型",
-        "供应链",
-        "Amazon",
-        "Shopify",
-        "TikTok Shop"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "content-marketing-planner",
       "display_name": "跨境内容营销规划师",
+      "version": "1.0.0",
       "package_root": "精准营销/内容营销/content-marketing-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1532,26 +3148,17 @@
         "受众问题和意图",
         "主题支柱与内容缺口",
         "产品证据和内链"
-      ]
-    },
-    {
-      "name": "creative-strategy-producer",
-      "display_name": "跨境广告创意策略师",
-      "package_root": "精准营销/创意生产/creative-strategy-producer",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "广告素材策略",
-        "UGC brief 和脚本矩阵",
-        "创意疲劳治理",
-        "人群问题和欲望",
-        "产品证据与演示",
-        "角度、钩子、格式和 CTA"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "brand-positioning-strategist",
       "display_name": "跨境品牌定位策略师",
+      "version": "1.0.0",
       "package_root": "精准营销/品牌营销/brand-positioning-strategist",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1562,11 +3169,17 @@
         "目标人群和使用场景",
         "竞争参照与差异",
         "功能到利益的证据链"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "cross-border-growth-operator",
       "display_name": "跨境全链路增长负责人",
+      "version": "1.0.0",
       "package_root": "精准营销/增长营销/cross-border-growth-operator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1577,11 +3190,17 @@
         "增长方程和北极星指标",
         "获客质量与转化",
         "客单、复购和毛利"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "marketing-attribution-planner",
       "display_name": "跨渠道营销归因规划师",
+      "version": "1.0.0",
       "package_root": "精准营销/增长营销/marketing-attribution-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1592,11 +3211,38 @@
         "业务问题和转化窗口",
         "用户、会话和平台口径",
         "身份、UTM 和事件质量"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "customer-acquisition-growth-manager",
+      "display_name": "新客获取与拉新增长经理",
+      "version": "1.0.0",
+      "package_root": "精准营销/增长营销/拉新/customer-acquisition-growth-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新品或新市场拉新",
+        "付费、自然、达人和推荐获客组合",
+        "获客成本上升或新客质量下降诊断",
+        "新客定义、排除和去重",
+        "人群、需求和渠道任务",
+        "创意、落地页和首购转化"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "cross-border-market-intelligence",
       "display_name": "跨境市场情报分析师",
+      "version": "1.0.0",
       "package_root": "精准营销/市场策略/cross-border-market-intelligence",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1607,11 +3253,17 @@
         "需求与搜索信号",
         "竞争格局和价格带",
         "消费者场景与障碍"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "go-to-market-launch-planner",
       "display_name": "跨境上市规划师",
+      "version": "1.0.0",
       "package_root": "精准营销/市场策略/go-to-market-launch-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1622,11 +3274,17 @@
         "市场与产品准备度",
         "渠道和库存 readiness",
         "内容、评价和广告冷启动"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "commerce-advertising-optimizer",
       "display_name": "多渠道电商广告优化师",
+      "version": "1.0.0",
       "package_root": "精准营销/推广营销/commerce-advertising-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1636,11 +3294,17 @@
         "Amazon Sponsored Products 搜索词和竞价优化",
         "独立站付费流量漏斗诊断",
         "新品、旺季或促销预算分配"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "geo-optimizer",
       "display_name": "GEO 引用就绪优化师",
+      "version": "2.0.0",
       "package_root": "精准营销/推广营销/geo-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1652,11 +3316,17 @@
         "实体优化",
         "声明溯源",
         "答案引擎"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "seo-optimizer",
       "display_name": "SEO 内容优化师",
+      "version": "2.0.0",
       "package_root": "精准营销/推广营销/seo-optimizer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1668,11 +3338,17 @@
         "页面优化",
         "内链",
         "技术SEO"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "promotion-calendar-manager",
       "display_name": "跨境活动营销经理",
+      "version": "1.0.0",
       "package_root": "精准营销/活动营销/promotion-calendar-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1683,11 +3359,17 @@
         "市场节点和提前期",
         "活动目标与目标人群",
         "折扣、毛利和库存"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "customer-retention-loyalty-manager",
       "display_name": "客户留存与忠诚度经理",
+      "version": "1.0.0",
       "package_root": "精准营销/用户运营/customer-retention-loyalty-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1698,11 +3380,17 @@
         "复购周期和流失信号",
         "cohort、RFM 和 LTV",
         "购后教育与服务"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "email-lifecycle-marketer",
       "display_name": "邮件生命周期营销师",
+      "version": "1.0.0",
       "package_root": "精准营销/用户运营/email-lifecycle-marketer",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1713,11 +3401,17 @@
         "同意、偏好和退订",
         "触发、频控和冲突",
         "分群与个性化"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "social-media-operations-manager",
       "display_name": "跨境社媒运营经理",
+      "version": "1.0.0",
       "package_root": "精准营销/社媒营销/social-media-operations-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1728,71 +3422,143 @@
         "平台人群和内容语法",
         "栏目、节奏和素材供给",
         "社区互动和舆情"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "senior-brand-content-manager",
-      "display_name": "品牌与内容高级经理",
-      "package_root": "精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager",
+      "display_name": "品牌与内容资深经理",
+      "version": "1.0.1",
+      "package_root": "精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由品牌与内容高级经理接管复杂经营任务",
+        "由品牌与内容资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "品牌定位和信息支柱",
         "内容主题与用户旅程",
         "创意生产和资产治理"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-brand-content-manager-weekly-report",
-      "display_name": "品牌与内容高级经理周报",
-      "package_root": "精准营销/营销角色/品牌与内容高级经理/senior-brand-content-manager-weekly-report",
+      "display_name": "品牌与内容资深经理周报",
+      "version": "1.0.1",
+      "package_root": "精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "品牌与内容高级经理本周经营复盘",
+        "品牌与内容资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "品牌定位和信息支柱",
         "内容主题与用户旅程",
         "创意生产和资产治理"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "senior-growth-marketing-manager",
-      "display_name": "增长营销高级经理",
-      "package_root": "精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager",
+      "display_name": "增长营销资深经理",
+      "version": "1.0.1",
+      "package_root": "精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "由增长营销高级经理接管复杂经营任务",
+        "由增长营销资深经理接管复杂经营任务",
         "制定季度或月度计划",
         "跨专项协同、经营诊断和复盘",
         "增长模型和机会树",
         "渠道预算与获客质量",
         "创意、落地页和转化"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-growth-marketing-manager-weekly-report",
-      "display_name": "增长营销高级经理周报",
-      "package_root": "精准营销/营销角色/增长营销高级经理/senior-growth-marketing-manager-weekly-report",
+      "display_name": "增长营销资深经理周报",
+      "version": "1.0.1",
+      "package_root": "精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "增长营销高级经理本周经营复盘",
+        "增长营销资深经理本周经营复盘",
         "本周与上周或目标对比",
         "管理层同步和跨团队行动跟踪",
         "增长模型和机会树",
         "渠道预算与获客质量",
         "创意、落地页和转化"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "senior-user-operations-manager",
+      "display_name": "用户运营资深经理",
+      "version": "1.0.1",
+      "package_root": "精准营销/营销角色/用户运营资深经理/senior-user-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "由用户运营资深经理接管复杂经营任务",
+        "制定季度或月度计划",
+        "跨专项协同、经营诊断和复盘",
+        "用户身份、同意和分层",
+        "生命周期旅程和触达编排",
+        "购后、复购、召回和会员"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-user-operations-manager-weekly-report",
+      "display_name": "用户运营资深经理周报",
+      "version": "1.0.1",
+      "package_root": "精准营销/营销角色/用户运营资深经理/senior-user-operations-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "用户运营资深经理本周经营复盘",
+        "本周与上周或目标对比",
+        "管理层同步和跨团队行动跟踪",
+        "用户身份、同意和分层",
+        "生命周期旅程和触达编排",
+        "购后、复购、召回和会员"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
     },
     {
       "name": "influencer-affiliate-manager",
       "display_name": "达人与联盟营销经理",
+      "version": "1.0.0",
       "package_root": "精准营销/达人联盟/influencer-affiliate-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1803,12 +3569,102 @@
         "人群与内容匹配",
         "真实性和历史表现",
         "合作模式与单位经济"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "senior-cashier-treasury-specialist",
+      "display_name": "资金出纳资深经理",
+      "version": "1.0.1",
+      "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "公司日常出纳工作统筹",
+        "多账户多币种收付款安排",
+        "支付异常和资金安全治理",
+        "账户、主体与币种",
+        "收款、付款与在途",
+        "票据、单据与审批"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
+    },
+    {
+      "name": "senior-cashier-treasury-specialist-weekly-report",
+      "display_name": "资金出纳资深经理周报",
+      "version": "1.0.1",
+      "package_root": "财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "出纳周度复盘",
+        "账户余额与大额资金变动同步",
+        "未达账、退票和支付风险跟踪",
+        "期初期末余额与可用资金",
+        "收付款笔数、金额与完成状态",
+        "未达账项、退款和在途"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "expense-reimbursement-cashier",
+      "display_name": "报销与票据出纳专员",
+      "version": "1.0.0",
+      "package_root": "财务出纳/报销与票据/expense-reimbursement-cashier",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "员工费用报销",
+        "备用金借支与核销",
+        "发票和支付凭证归档",
+        "申请人、成本中心和用途",
+        "预算与审批链",
+        "发票、收据和重复报销"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "payment-receipt-operations-manager",
+      "display_name": "收付款执行管理员",
+      "version": "1.0.0",
+      "package_root": "财务出纳/收付款/payment-receipt-operations-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "供应商和物流付款",
+        "客户、平台和渠道收款认领",
+        "批量付款与失败重试",
+        "付款主体、账户和币种",
+        "申请、合同、发票与审批",
+        "收款识别和核销线索"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "financial-close-reconciliation-manager",
       "display_name": "财务关账与对账经理",
-      "package_root": "财务/核算关账/financial-close-reconciliation-manager",
+      "version": "1.0.0",
+      "package_root": "财务出纳/核算关账/financial-close-reconciliation-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1818,12 +3674,18 @@
         "主体、期间和截止",
         "订单、退款、费用和结算",
         "银行、支付和清算在途"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "cross-border-tax-vat-planner",
       "display_name": "跨境税务与 VAT 规划师",
-      "package_root": "财务/税务合规/cross-border-tax-vat-planner",
+      "version": "1.0.0",
+      "package_root": "财务出纳/税务合规/cross-border-tax-vat-planner",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1833,12 +3695,18 @@
         "主体、常设机构和交易链",
         "货物所在地与税收地点",
         "平台代征与卖家责任"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "management-accounting-profitability-manager",
       "display_name": "经营财务与利润经理",
-      "package_root": "财务/经营财务/management-accounting-profitability-manager",
+      "version": "1.0.0",
+      "package_root": "财务出纳/经营财务/management-accounting-profitability-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1848,12 +3716,18 @@
         "法定与管理口径桥",
         "收入、退款和折扣",
         "采购、履约、平台和广告成本"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "senior-cross-border-finance-manager",
-      "display_name": "跨境财务高级经理",
-      "package_root": "财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager",
+      "display_name": "跨境财务资深经理",
+      "version": "1.0.1",
+      "package_root": "财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1863,12 +3737,18 @@
         "会计主体与账套",
         "收入、成本和利润口径",
         "现金、结算和营运资金"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "senior-manager",
+        "label": "资深经理"
+      }
     },
     {
       "name": "senior-cross-border-finance-manager-weekly-report",
-      "display_name": "跨境财务高级经理周报",
-      "package_root": "财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report",
+      "display_name": "跨境财务资深经理周报",
+      "version": "1.0.1",
+      "package_root": "财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager-weekly-report",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1878,12 +3758,39 @@
         "数据截止和关账状态",
         "收入、利润和预算差异",
         "现金、应收应付和库存"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "weekly-report",
+        "label": "周报"
+      }
+    },
+    {
+      "name": "cash-security-access-controller",
+      "display_name": "资金安全与支付权限控制专员",
+      "version": "1.0.0",
+      "package_root": "财务出纳/资金安全/cash-security-access-controller",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "支付权限和账户安全检查",
+        "人员变动权限回收",
+        "疑似欺诈、账户异常和支付应急",
+        "申请、审批、执行和复核分离",
+        "账户角色、限额与双人复核",
+        "UKey、印鉴和密钥保管"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "cash-flow-working-capital-manager",
       "display_name": "现金流与营运资金经理",
-      "package_root": "财务/资金管理/cash-flow-working-capital-manager",
+      "version": "1.0.0",
+      "package_root": "财务出纳/资金管理/cash-flow-working-capital-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1893,12 +3800,18 @@
         "期初现金和可用额度",
         "回款、结算和应收",
         "采购、物流、税和应付"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "multi-currency-treasury-manager",
       "display_name": "多币种资金与汇率经理",
-      "package_root": "财务/资金管理/multi-currency-treasury-manager",
+      "version": "1.0.0",
+      "package_root": "财务出纳/资金管理/multi-currency-treasury-manager",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1908,12 +3821,39 @@
         "账户、主体和币种",
         "应收应付自然对冲",
         "结算周期和费用"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
+    },
+    {
+      "name": "bank-account-reconciliation-cashier",
+      "display_name": "银行账户与出纳对账专员",
+      "version": "1.0.0",
+      "package_root": "财务出纳/银行与对账/bank-account-reconciliation-cashier",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "银行日记账维护",
+        "每日资金余额核对",
+        "未达账和异常流水处理",
+        "账户状态、用途和授权人",
+        "账面、银行与可用余额",
+        "流水唯一标识和交易对手"
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     },
     {
       "name": "budget-forecast-controller",
       "display_name": "预算与预测控制经理",
-      "package_root": "财务/预算管理/budget-forecast-controller",
+      "version": "1.0.0",
+      "package_root": "财务出纳/预算管理/budget-forecast-controller",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
@@ -1923,7 +3863,12 @@
         "目标、版本和责任中心",
         "销量、价格、成本和人效驱动",
         "汇率、税和季节情景"
-      ]
+      ],
+      "download_count": 0,
+      "classification": {
+        "kind": "capability",
+        "label": "专项能力"
+      }
     }
   ]
 }

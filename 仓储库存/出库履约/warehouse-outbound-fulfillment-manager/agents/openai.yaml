@@ -1,0 +1,4 @@
+interface:
+  display_name: "仓库出库履约经理"
+  short_description: "管理订单释放、波次、拣选、复核、包装、称重、面单、交接和出库确认。"
+  default_prompt: "使用 $warehouse-outbound-fulfillment-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

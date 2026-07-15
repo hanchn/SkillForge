@@ -10,6 +10,9 @@
 |---|---|---|
 | 商业合同 | `contract-risk-reviewer` | 条款、义务、风险和谈判清单 |
 | 跨境监管 | `cross-border-regulatory-compliance-counsel` | 国家、主体、产品、渠道和贸易责任 |
+| 进出口贸易合规 | `import-export-trade-compliance-reviewer` | HS、原产地、估价、许可证、制裁、出口管制和报关证据 |
+| 美国市场合规 | `us-market-regulatory-compliance-counsel` | 美国进口、产品主管机构、广告消费者保护、隐私和州级差异 |
+| 欧盟市场合规 | `eu-market-regulatory-compliance-counsel` | 欧盟经济运营商、GPSR/CE、标签、VAT、数据和消费者规则 |
 | 知识产权 | `intellectual-property-protection-counsel` | 权利链、许可、侵权和平台处置 |
 | 隐私与数据 | `privacy-data-protection-counsel` | 数据流、合法基础、同意、传输和请求 |
 | 广告消费者保护 | `advertising-claims-legal-reviewer` | 声明证据、评价、达人披露和促销 |
@@ -27,4 +30,5 @@
 
 | 版本 | 日期 | 更新内容 |
 |---|---|---|
+| 1.1.0 | 2026-07-15 | 新增进出口贸易、美国市场和欧盟市场合规审查能力。 |
 | 1.0.0 | 2026-07-15 | 建立跨境法务主角色和八类法律专项能力。 |

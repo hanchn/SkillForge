@@ -3,7 +3,7 @@ name: fullstack-qa-weekly-report
 description: Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics. Use when an AI needs to summarize weekly testing and quality status, report release readiness, explain uncovered risks and blockers, compare quality trends with consistent definitions, or plan next-week verification without treating raw test counts as quality.
 ---
 
-# 全栈测试周报生成器
+# 全栈测试资深专家周报
 
 周报围绕风险是否被验证和版本是否可安全发布，不用用例执行数量制造质量感。
 

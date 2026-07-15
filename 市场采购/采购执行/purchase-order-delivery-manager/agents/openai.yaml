@@ -1,0 +1,4 @@
+interface:
+  display_name: "采购订单与交付经理"
+  short_description: "管理采购申请、订单、确认、预付款、生产、质检、交付、变更、异常和关闭。"
+  default_prompt: "使用 $purchase-order-delivery-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

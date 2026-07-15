@@ -1,4 +1,4 @@
 interface:
-  display_name: "全栈测试周报生成器"
+  display_name: "全栈测试资深专家周报"
   short_description: "Build evidence backed fullstack quality weekly reports"
   default_prompt: "Use $fullstack-qa-weekly-report to create this week quality report from test and release evidence."

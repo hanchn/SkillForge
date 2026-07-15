@@ -1,0 +1,4 @@
+interface:
+  display_name: "供应商谈判与成本经理"
+  short_description: "基于成本结构、需求承诺、产能、质量、交期、付款和风险设计供应商商务谈判。"
+  default_prompt: "使用 $supplier-negotiation-cost-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

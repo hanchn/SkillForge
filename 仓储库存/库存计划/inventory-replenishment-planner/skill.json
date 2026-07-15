@@ -1,0 +1,88 @@
+{
+  "name": "inventory-replenishment-planner",
+  "display_name": "多渠道库存补货规划师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "2.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "仓储库存",
+    "库存计划"
+  ],
+  "description": "Plan and monitor multi-channel replenishment end to end, including inventory alerts, demand, lead time, safety stock, order timing, channel allocation, cash and storage constraints",
+  "search_keywords": [
+    "库存",
+    "预测与补货",
+    "周度/月度 SKU 补货计划",
+    "大促前备货和渠道分仓",
+    "供应延迟或销量突增时重算风险",
+    "库存补货告警与处置闭环"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "SKU 级销量、库存状态和在途"
+    ],
+    "optional": [
+      "生产、质检、运输、清关和入仓交期",
+      "活动、季节、价格、服务水平、资金和仓储约束"
+    ]
+  },
+  "outputs": [
+    "补货建议与最晚下单日",
+    "安全库存和渠道分配",
+    "缺货/过量情景与加急方案",
+    "滚动复核和例外清单",
+    "分级告警、处置 SLA、采购交接与关闭记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把采购在途、海运在途、入仓中和可售库存混为一体",
+    "不得用缺货期的销量直接代表真实需求",
+    "不得在没有资金、仓储和生命周期约束时只追求零缺货",
+    "预测必须提供误差或情景，不给单点伪精确答案",
+    "告警不得绕过预算、MOQ、供应和审批自动形成采购承诺"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/replenishment-plan-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/replenishment-method.md",
+      "skill.json"
+    ]
+  }
+}

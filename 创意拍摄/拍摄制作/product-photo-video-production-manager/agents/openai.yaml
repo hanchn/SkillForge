@@ -1,0 +1,4 @@
+interface:
+  display_name: "商品图片与视频拍摄制作经理"
+  short_description: "把营销目标、商品事实和渠道规范转化为可执行的图片与视频拍摄、后期、验收和交付计划。"
+  default_prompt: "使用 $product-photo-video-production-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

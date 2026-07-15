@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境短视频制作导演"
+  short_description: "面向广告、TikTok、Reels、Shorts 和商品页设计高密度、平台原生、可测试的短视频。"
+  default_prompt: "使用 $short-form-video-producer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

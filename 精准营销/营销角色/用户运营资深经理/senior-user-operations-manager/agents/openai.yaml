@@ -1,0 +1,4 @@
+interface:
+  display_name: "用户运营资深经理"
+  short_description: "统筹用户分层、生命周期、邮件触达、购后体验、会员、召回、推荐和客户价值增长。"
+  default_prompt: "使用 $senior-user-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

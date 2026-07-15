@@ -1,0 +1,4 @@
+interface:
+  display_name: "结构化面试与评估设计师"
+  short_description: "按岗位成功标准设计结构化面试、工作样本、评分锚点和独立评估机制。"
+  default_prompt: "使用 $structured-interview-designer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

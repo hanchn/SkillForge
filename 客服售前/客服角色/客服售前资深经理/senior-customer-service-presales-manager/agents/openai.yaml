@@ -1,0 +1,4 @@
+interface:
+  display_name: "客服售前资深经理"
+  short_description: "统筹跨渠道售前咨询、商品推荐、多语言沟通、知识库、线索分级、质检培训和销售交接。"
+  default_prompt: "使用 $senior-customer-service-presales-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

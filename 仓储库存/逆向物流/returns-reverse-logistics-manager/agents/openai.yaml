@@ -1,0 +1,4 @@
+interface:
+  display_name: "退货与逆向物流经理"
+  short_description: "管理退货授权、运输、收货、检验、分级、退款证据、翻新、再售、报废和供应商追偿。"
+  default_prompt: "使用 $returns-reverse-logistics-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

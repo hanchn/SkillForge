@@ -1,0 +1,84 @@
+{
+  "name": "candidate-sourcing-operator",
+  "display_name": "候选人寻访运营专员",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "人才寻访"
+  ],
+  "description": "设计岗位画像、人才地图、渠道组合、触达和候选人关系管理，提高合格候选人供给。适用于关键岗位人才寻访、招聘渠道组合优化、人才库建设和候选人触达，交付岗位人才画像、渠道和搜寻策略、候选人管道与触达复盘。",
+  "search_keywords": [
+    "关键岗位人才寻访",
+    "招聘渠道组合优化",
+    "人才库建设和候选人触达",
+    "必需与可培养能力",
+    "行业、公司和人才地图",
+    "渠道成本、速度和质量"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "岗位人才画像",
+    "渠道和搜寻策略",
+    "候选人管道与触达复盘",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得抓取或使用无授权的敏感个人数据，不得用学校、年龄、性别等受保护特征代替能力判断。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

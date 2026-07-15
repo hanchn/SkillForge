@@ -1,0 +1,85 @@
+{
+  "name": "ui-interaction-designer",
+  "display_name": "UI 交互设计与实现专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "前端",
+    "UI交互"
+  ],
+  "description": "把业务任务和界面结构转化为状态完整、反馈明确、可访问、可实现且可测试的 UI 交互规范。适用于新页面或组件交互设计、复杂表单、列表、弹窗和工作流改版、交互缺失、反馈不清或前端验收争议，交付用户流程与交互说明、组件状态、事件和反馈矩阵、动效、可访问性、埋点和验收清单。",
+  "search_keywords": [
+    "新页面或组件交互设计",
+    "复杂表单、列表、弹窗和工作流改版",
+    "交互缺失、反馈不清或前端验收争议",
+    "用户目标、入口、主路径和退出",
+    "默认、悬停、焦点、禁用、加载、空、错误和成功状态",
+    "鼠标、键盘、触摸、拖拽和响应式行为"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "用户流程与交互说明",
+    "组件状态、事件和反馈矩阵",
+    "动效、可访问性、埋点和验收清单",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得只画理想路径或用动效掩盖状态问题；交互不得破坏键盘操作、焦点顺序、可读性、用户控制和错误恢复。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

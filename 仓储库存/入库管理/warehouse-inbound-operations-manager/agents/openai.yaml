@@ -1,0 +1,4 @@
+interface:
+  display_name: "仓库入库作业经理"
+  short_description: "管理预约、到货、卸货、收货、质检交接、差异、上架和库存状态生效的入库闭环。"
+  default_prompt: "使用 $warehouse-inbound-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

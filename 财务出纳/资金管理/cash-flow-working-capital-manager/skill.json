@@ -8,7 +8,7 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "财务",
+    "财务出纳",
     "资金管理"
   ],
   "description": "管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。适用于十三周现金预测、营运资金改善、资金缺口和付款安排，交付现金流预测、现金转换周期分析、付款、融资和预警计划。",
@@ -68,17 +68,17 @@
       "BASE_PROMPT.md"
     ],
     "package_files": [
-      "SKILL.md",
-      "skill.json",
-      "README.md",
-      "INVOCATION.md",
       "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
       "agents/openai.yaml",
-      "references",
-      "assets",
-      "examples",
-      "eval",
-      "platforms"
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
     ]
   }
 }

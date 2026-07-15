@@ -1,0 +1,46 @@
+profile_version: 1.0.0
+updated_at: 2026-07-15
+status: draft_pending_business_confirmation
+
+company:
+  name: 待确认
+  business_type: 跨境业务团队
+  brands: []
+  legal_entities: []
+  default_working_language: zh-CN
+
+markets:
+  countries: []
+  marketplaces: []
+  direct_to_consumer_sites: []
+  currencies: []
+  operating_timezones: []
+
+business_functions:
+  - 渠道运营
+  - 客服售前
+  - 精准营销
+  - 创意拍摄
+  - 市场采购
+  - 仓储库存
+  - 互联网研发
+  - 数据分析
+  - 法律政务
+  - 财务出纳
+  - 人事招聘
+
+systems:
+  OMS: {meaning: 订单管理系统, owner: 待确认, source_of_truth: 待确认}
+  IMS: {meaning: 库存管理系统, owner: 待确认, source_of_truth: 待确认}
+  OFS: {meaning: 订单履约系统, owner: 待确认, source_of_truth: 待确认}
+  CMS: {meaning: 商品或内容管理系统, owner: 待确认, source_of_truth: 待确认}
+  WMS: {meaning: 仓储管理系统, owner: 待确认, source_of_truth: 待确认}
+  TMS: {meaning: 运输管理系统, owner: 待确认, source_of_truth: 待确认}
+  CRM: {meaning: 客户关系管理系统, owner: 待确认, source_of_truth: 待确认}
+  PLM: {meaning: 产品生命周期管理系统, owner: 待确认, source_of_truth: 待确认}
+
+governance:
+  skill_granularity: 一个 Skill 完成一个可验收的完整业务结果
+  company_facts_override_generic_assumptions: true
+  unknown_values_must_not_be_invented: true
+  secrets_must_not_be_stored: true

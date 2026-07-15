@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Go 后端架构师](go-backend-architecture/README.md)：按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。适用于Go API 或任务服务、高并发 Go 服务治理、Go 单仓多服务架构，交付Go 包与服务架构、并发和取消模型、错误、测试和部署方案。
+- [Go 后端资深专家](go-backend-architecture/README.md)：按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。适用于Go API 或任务服务、高并发 Go 服务治理、Go 单仓多服务架构，交付Go 包与服务架构、并发和取消模型、错误、测试和部署方案。
 
 ## 迭代记录
 

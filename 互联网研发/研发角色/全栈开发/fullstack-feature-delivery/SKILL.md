@@ -3,7 +3,7 @@ name: fullstack-feature-delivery
 description: Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification. Use when an AI needs to implement a complete vertical slice in an existing repository or coordinate changes that cross web, service, database, and operational boundaries.
 ---
 
-# 全栈功能交付工程师
+# 全栈开发资深专家
 
 按用户可验证的垂直切片交付，不把前端完成、接口完成或代码合并误认为功能完成。
 

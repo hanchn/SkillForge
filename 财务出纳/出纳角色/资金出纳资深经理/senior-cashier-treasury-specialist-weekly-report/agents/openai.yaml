@@ -1,0 +1,4 @@
+interface:
+  display_name: "资金出纳资深经理周报"
+  short_description: "基于银行流水、支付单据、余额和异常台账生成高级出纳周报。"
+  default_prompt: "使用 $senior-cashier-treasury-specialist-weekly-report 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "PHP 后端架构师"
+  display_name: "PHP 后端资深专家"
   short_description: "围绕 namespace、Composer、请求生命周期和显式模块边界设计可维护 PHP 后端。"
   default_prompt: "使用 $php-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

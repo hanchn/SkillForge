@@ -3,7 +3,7 @@ name: fullstack-developer-weekly-report
 description: Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes. Use when an AI needs to summarize a developer or full-stack team's weekly delivery, separate completed and in-progress work, explain technical impact in business-readable language, report risks and release status, or prepare next-week priorities without fabricating progress.
 ---
 
-# 全栈开发周报生成器
+# 全栈开发资深专家周报
 
 周报按已验证交付结果组织，不按提交数量堆砌，也不把进行中包装成已完成。
 

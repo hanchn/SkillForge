@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [Rust 后端架构师](rust-backend-architecture/README.md)：利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。适用于Rust API 或系统服务、高可靠高性能服务、Rust workspace 和 crate 架构，交付Rust crate 与领域架构、并发和资源模型、错误、测试和部署方案。
+- [Rust 后端资深专家](rust-backend-architecture/README.md)：利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。适用于Rust API 或系统服务、高可靠高性能服务、Rust workspace 和 crate 架构，交付Rust crate 与领域架构、并发和资源模型、错误、测试和部署方案。
 
 ## 迭代记录
 

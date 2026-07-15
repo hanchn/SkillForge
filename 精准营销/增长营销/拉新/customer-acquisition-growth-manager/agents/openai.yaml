@@ -1,0 +1,4 @@
+interface:
+  display_name: "新客获取与拉新增长经理"
+  short_description: "围绕目标人群、获客渠道、首购路径和回收期设计可验证的新客增长系统。"
+  default_prompt: "使用 $customer-acquisition-growth-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

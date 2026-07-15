@@ -1,4 +1,0 @@
-interface:
-  display_name: "增长营销高级经理"
-  short_description: "统筹付费、自然、达人、邮件和活动增长，对获客质量、转化、留存和贡献利润负责。"
-  default_prompt: "使用 $senior-growth-marketing-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

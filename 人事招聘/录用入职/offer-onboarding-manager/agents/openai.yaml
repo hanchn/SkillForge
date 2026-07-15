@@ -1,0 +1,4 @@
+interface:
+  display_name: "录用与入职管理专员"
+  short_description: "管理候选人审批、Offer、背景核验、合同资料、入职准备和首日到试用期交接。"
+  default_prompt: "使用 $offer-onboarding-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Spring Boot 后端架构师"
+  display_name: "Spring Boot 后端资深专家"
   short_description: "围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。"
   default_prompt: "使用 $spring-boot-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -179,6 +179,42 @@
         border-color: var(--text-secondary);
       }
 
+      .tag.kind-role {
+        color: #1d4ed8;
+        background: #eff6ff;
+        border-color: #bfdbfe;
+      }
+
+      .tag.kind-architect {
+        color: #1d4ed8;
+        background: #eff6ff;
+        border-color: #bfdbfe;
+      }
+
+      .tag.kind-senior-expert {
+        color: #0f766e;
+        background: #f0fdfa;
+        border-color: #99f6e4;
+      }
+
+      .tag.kind-senior-manager {
+        color: #b45309;
+        background: #fffbeb;
+        border-color: #fde68a;
+      }
+
+      .tag.kind-weekly-report {
+        color: #7c3aed;
+        background: #f5f3ff;
+        border-color: #ddd6fe;
+      }
+
+      .tag.kind-capability {
+        color: #047857;
+        background: #ecfdf5;
+        border-color: #a7f3d0;
+      }
+
       .mono {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
@@ -360,6 +396,27 @@
         return encodeURI(`../${skill.package_root}/${relativePath}`).replace(/#/g, "%23");
       }
 
+      const LOCAL_DOWNLOAD_KEY = "skillforge-local-download-counts-v1";
+
+      function localDownloadCounts() {
+        try {
+          return JSON.parse(localStorage.getItem(LOCAL_DOWNLOAD_KEY) || "{}") || {};
+        } catch (_) {
+          return {};
+        }
+      }
+
+      function effectiveDownloadCount(skill) {
+        const local = localDownloadCounts();
+        return Math.max(0, Number(skill.download_count) || 0) + Math.max(0, Number(local[skill.name]) || 0);
+      }
+
+      function recordLocalDownload(skill) {
+        const local = localDownloadCounts();
+        local[skill.name] = Math.max(0, Number(local[skill.name]) || 0) + 1;
+        localStorage.setItem(LOCAL_DOWNLOAD_KEY, JSON.stringify(local));
+      }
+
       async function downloadZip(skill) {
         const button = document.getElementById("downloadZipButton");
         const detail = skill.detail || {};
@@ -402,6 +459,7 @@
           link.click();
           link.remove();
           URL.revokeObjectURL(url);
+          recordLocalDownload(skill);
         } catch (error) {
           window.alert(error.message || "ZIP 打包失败");
         } finally {
@@ -435,6 +493,7 @@
         const optionalInputs = detail.inputs?.optional || [];
         const outputs = detail.outputs || [];
         const constraints = detail.constraints || [];
+        const classification = skill.classification || { kind: "capability", label: "专项能力" };
 
         const links = [
           ["README.md", buildDocLink(skill, implementation.readme || "README.md")],
@@ -499,6 +558,8 @@
               <div class="info-group">
                 <div class="info-label">类型</div>
                 <div class="tag-list">
+                  <span class="tag kind-${escapeHtml(classification.kind)}">${escapeHtml(classification.label)}</span>
+                  <span class="tag">v${escapeHtml(skill.version || detail.version || "0.0.0")}</span>
                   <span class="tag highlight">${escapeHtml(detail.type || skill.type || "skill")}</span>
                   <span class="tag">${detail.portable === false ? "非便携" : "整包可分发"}</span>
                 </div>

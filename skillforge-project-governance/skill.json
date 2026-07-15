@@ -61,23 +61,23 @@
       "assets/project-rules.md"
     ],
     "package_files": [
-      "SKILL.md",
-      "README.md",
-      "skill.json",
-      "INVOCATION.md",
-      "BASE_PROMPT.md",
       "ARCHITECTURE.md",
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
       "assets/project-rules.md",
-      "scripts/README.md",
-      "examples/README.md",
       "eval/acceptance.md",
+      "examples/README.md",
       "platforms/README.md",
       "platforms/claude.md",
       "platforms/codex.md",
       "platforms/gpt.md",
       "platforms/manus.md",
       "platforms/qorder.md",
-      "platforms/trae.md"
+      "platforms/trae.md",
+      "scripts/README.md",
+      "skill.json"
     ]
   }
 }

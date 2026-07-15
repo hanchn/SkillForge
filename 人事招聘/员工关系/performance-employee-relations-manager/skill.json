@@ -1,0 +1,84 @@
+{
+  "name": "performance-employee-relations-manager",
+  "display_name": "绩效与员工关系管理专员",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "员工关系"
+  ],
+  "description": "建立目标反馈、试用期、绩效改进、员工诉求、调查和沟通的公平、可记录工作流。适用于绩效周期和反馈机制、试用期或绩效改进、员工申诉、冲突和调查协同，交付绩效与反馈流程、事实、沟通和行动记录、员工关系风险与升级方案。",
+  "search_keywords": [
+    "绩效周期和反馈机制",
+    "试用期或绩效改进",
+    "员工申诉、冲突和调查协同",
+    "目标、期望和证据",
+    "持续反馈与改进支持",
+    "一致性、公平性和反报复"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "绩效与反馈流程",
+    "事实、沟通和行动记录",
+    "员工关系风险与升级方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得预设调查结论或把绩效流程作为报复工具；纪律、解雇、歧视和跨境事项必须升级合格 HR/法务人员。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

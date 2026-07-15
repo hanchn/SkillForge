@@ -1,9 +1,9 @@
 {
   "name": "commerce-systems-product-architecture",
-  "display_name": "跨境业务系统总产品架构师",
+  "display_name": "跨系统产品架构师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -13,13 +13,13 @@
     "系统产品架构",
     "公共"
   ],
-  "description": "设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。",
+  "description": "为贵司 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 建立业务能力分工、主数据归属、系统接口和端到端协作边界。适用于跨系统业务流程设计、系统职责重叠与空白治理、新系统接入和系统边界调整，交付业务能力与系统责任地图、主数据、状态与 source of truth 矩阵、跨系统流程、交接契约与异常闭环。",
   "search_keywords": [
-    "跨境业务系统蓝图",
-    "系统边界重构",
-    "新系统立项和集成治理",
-    "业务能力和端到端旅程",
-    "系统职责与不负责范围",
+    "跨系统业务流程设计",
+    "系统职责重叠与空白治理",
+    "新系统接入和系统边界调整",
+    "端到端业务旅程",
+    "系统负责与不负责范围",
     "主数据和 source of truth"
   ],
   "supported_platforms": [
@@ -39,9 +39,9 @@
     ]
   },
   "outputs": [
-    "业务能力与系统地图",
-    "主数据和状态 ownership 矩阵",
-    "跨系统流程、契约与演进路线",
+    "业务能力与系统责任地图",
+    "主数据、状态与 source of truth 矩阵",
+    "跨系统流程、交接契约与异常闭环",
     "决策、执行、验收、风险和未知项记录"
   ],
   "implementation": {
@@ -56,7 +56,7 @@
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "不得先按现有部门或系统名称切边界，必须先锁定业务能力与贵司缩写口径。",
+    "只负责跨系统边界和协作，不替代 OMS、IMS、OFS 等单系统产品架构 Skill；不得先按现有菜单或部门直接划分系统。",
     "不得虚构事实、数据、权限、实施或验证结果",
     "必须明确口径、责任、验收、风险和未知项"
   ],
@@ -70,17 +70,17 @@
       "BASE_PROMPT.md"
     ],
     "package_files": [
-      "SKILL.md",
-      "skill.json",
-      "README.md",
-      "INVOCATION.md",
       "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
       "agents/openai.yaml",
-      "references",
-      "assets",
-      "examples",
-      "eval",
-      "platforms"
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
     ]
   }
 }

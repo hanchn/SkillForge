@@ -29,7 +29,7 @@
 
 ## 使用方式
 
-- 跨系统规划先调用 `commerce-systems-product-architecture`。
+- 涉及两个及以上系统的责任、主数据或流程交接时，调用 `commerce-systems-product-architecture` 完成跨系统边界设计；它不替代任何单系统产品架构 Skill。
 - 单系统深化再调用对应系统产品架构 Skill。
 - 仓储细化调用 `wms-product-architecture`，并与 IMS 的账本/可售职责分离。
 - 具体 PRD 再组合 `product-requirements-architect`，接口组合 `api-contract-designer`，系统技术实现组合前后端架构 Skill。
@@ -38,5 +38,6 @@
 
 | 版本 | 日期 | 更新内容 |
 |---|---|---|
+| 1.2.0 | 2026-07-15 | 将“总产品架构师”收敛为跨系统产品边界专项能力，明确不替代单系统架构。 |
 | 1.1.0 | 2026-07-15 | 增加 WMS 仓内作业架构并补齐履约执行链。 |
 | 1.0.0 | 2026-07-15 | 建立 OMS、IMS、OFS、CMS、TMS、CRM、PLM 跨系统职责与主对象地图。 |

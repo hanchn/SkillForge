@@ -9,6 +9,7 @@ description: 按获客 cohort、复购周期和贡献利润评估客户留存与
 
 ## Load resources
 
+- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
 - Read `references/professional-checklist.md` before making decisions.
 - Use `assets/delivery-template.md` for the final durable artifact.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.

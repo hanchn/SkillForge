@@ -1,0 +1,4 @@
+interface:
+  display_name: "采购样品验证经理"
+  short_description: "管理打样需求、样品版本、功能外观评估、成本、测试、用户验证和量产放行证据。"
+  default_prompt: "使用 $sample-evaluation-sourcing-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

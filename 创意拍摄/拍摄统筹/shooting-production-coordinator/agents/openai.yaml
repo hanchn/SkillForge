@@ -1,0 +1,4 @@
+interface:
+  display_name: "拍摄制片与现场统筹"
+  short_description: "把创意方案转化为预算、排期、样品、人员、场地、设备、通告和现场执行计划。"
+  default_prompt: "使用 $shooting-production-coordinator 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

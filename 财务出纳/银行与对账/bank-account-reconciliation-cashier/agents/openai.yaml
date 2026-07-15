@@ -1,0 +1,4 @@
+interface:
+  display_name: "银行账户与出纳对账专员"
+  short_description: "维护银行账户台账、日记账和每日余额核对，及时识别未达账项、银行费用、退票和异常流水。"
+  default_prompt: "使用 $bank-account-reconciliation-cashier 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

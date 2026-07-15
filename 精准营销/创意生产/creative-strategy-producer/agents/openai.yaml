@@ -1,4 +1,0 @@
-interface:
-  display_name: "跨境广告创意策略师"
-  short_description: "从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。"
-  default_prompt: "使用 $creative-strategy-producer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

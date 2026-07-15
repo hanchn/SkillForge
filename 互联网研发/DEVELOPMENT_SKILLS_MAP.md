@@ -8,7 +8,7 @@
 | 排名 | Skill | 主要职责 |
 |---:|---|---|
 | 1 | frontend-feature-implementer | 在现有仓库中实现完整前端功能和全部交互状态 |
-| 2 | frontend-state-integration-designer | 管理 URL、服务端缓存、表单、本地状态与 mutation |
+| 2 | frontend-architecture-designer | 统一管理模块边界、URL、服务端缓存、表单、本地状态与数据流 |
 | 3 | frontend-localization-verifier | 验证翻译、格式、布局、RTL、路由和多语言 SEO |
 | 4 | frontend-performance-analyzer | 用 RUM、trace、waterfall 和 bundle 定位性能根因 |
 | 5 | web-performance-accessibility-auditor | 联合审计性能、键盘、语义、焦点和响应式体验 |
@@ -29,9 +29,9 @@
 
 ## 研发角色组合
 
-- `fullstack-feature-delivery`：把前端、API、后端、数据库、测试、迁移和发布组合成可部署垂直切片。
+- `fullstack-feature-delivery`（全栈开发资深专家）：把前端、API、后端、数据库、测试、迁移和发布组合成可部署垂直切片。
 - `fullstack-developer-weekly-report`：生成证据驱动的全栈开发周报。
-- `fullstack-quality-engineer`：跨前端、后端、数据、性能、安全和发布验证完整质量风险。
+- `fullstack-quality-engineer`（全栈测试资深专家）：跨前端、后端、数据、性能、安全和发布验证完整质量风险。
 - `fullstack-qa-weekly-report`：生成风险与发布 gate 驱动的全栈测试周报。
 
 ## 官方技术依据

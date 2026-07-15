@@ -1,4 +1,4 @@
-# 全栈开发周报生成器
+# 全栈开发资深专家周报
 
 > skill id：fullstack-developer-weekly-report
 > 当前版本：1.0.0

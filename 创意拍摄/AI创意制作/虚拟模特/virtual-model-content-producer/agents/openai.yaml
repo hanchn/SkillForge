@@ -1,0 +1,4 @@
+interface:
+  display_name: "虚拟模特内容制作专家"
+  short_description: "使用合规的人像生成、模特替换或虚拟试穿工具制作跨人群商品内容，并严格保持商品结构与真实属性。"
+  default_prompt: "使用 $virtual-model-content-producer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

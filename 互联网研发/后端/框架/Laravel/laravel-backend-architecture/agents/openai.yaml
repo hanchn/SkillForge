@@ -1,4 +1,4 @@
 interface:
-  display_name: "Laravel 后端架构师"
+  display_name: "Laravel 后端资深专家"
   short_description: "围绕领域模块、service container、Eloquent、队列和请求生命周期设计生产级 Laravel 架构。"
   default_prompt: "使用 $laravel-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

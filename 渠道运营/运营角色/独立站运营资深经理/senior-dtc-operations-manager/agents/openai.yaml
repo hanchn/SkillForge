@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立站运营资深经理"
+  short_description: "对独立站商品、内容、获客、转化、客单、复购、技术健康和贡献利润承担端到端责任。"
+  default_prompt: "使用 $senior-dtc-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

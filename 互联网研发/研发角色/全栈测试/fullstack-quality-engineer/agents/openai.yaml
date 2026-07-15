@@ -1,4 +1,4 @@
 interface:
-  display_name: "全栈质量工程师"
+  display_name: "全栈测试资深专家"
   short_description: "Verify complete product behavior across every system layer"
   default_prompt: "Use $fullstack-quality-engineer to verify this change across frontend backend data and production risks."

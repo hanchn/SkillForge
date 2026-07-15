@@ -1,0 +1,4 @@
+interface:
+  display_name: "资金安全与支付权限控制专员"
+  short_description: "设计和检查银行账户、网银、支付平台、印鉴、UKey、密码和付款指令的分权控制与应急机制。"
+  default_prompt: "使用 $cash-security-access-controller 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

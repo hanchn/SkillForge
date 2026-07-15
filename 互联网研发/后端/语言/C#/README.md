@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [C# 后端架构师](csharp-backend-architecture/README.md)：围绕 solution/project、类型、async/await、依赖注入和 .NET 运行时设计稳健后端。适用于C# 企业后端架构、.NET 单体模块化、异步、资源和版本升级治理，交付C# solution 与模块架构、异步和资源生命周期、依赖、测试和部署方案。
+- [C# 后端资深专家](csharp-backend-architecture/README.md)：围绕 solution/project、类型、async/await、依赖注入和 .NET 运行时设计稳健后端。适用于C# 企业后端架构、.NET 单体模块化、异步、资源和版本升级治理，交付C# solution 与模块架构、异步和资源生命周期、依赖、测试和部署方案。
 
 ## 迭代记录
 

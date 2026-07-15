@@ -1,0 +1,4 @@
+interface:
+  display_name: "商品摄影导演"
+  short_description: "以真实还原商品和渠道转化任务为目标，设计主图、细节、场景、模特和对比图片的摄影方案。"
+  default_prompt: "使用 $product-photography-director 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,0 +1,84 @@
+{
+  "name": "cash-security-access-controller",
+  "display_name": "资金安全与支付权限控制专员",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "财务出纳",
+    "资金安全"
+  ],
+  "description": "设计和检查银行账户、网银、支付平台、印鉴、UKey、密码和付款指令的分权控制与应急机制。适用于支付权限和账户安全检查、人员变动权限回收、疑似欺诈、账户异常和支付应急，交付资金权限矩阵、安全检查与轮换计划、异常冻结、取证和恢复预案。",
+  "search_keywords": [
+    "支付权限和账户安全检查",
+    "人员变动权限回收",
+    "疑似欺诈、账户异常和支付应急",
+    "申请、审批、执行和复核分离",
+    "账户角色、限额与双人复核",
+    "UKey、印鉴和密钥保管"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "资金权限矩阵",
+    "安全检查与轮换计划",
+    "异常冻结、取证和恢复预案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得索取、记录或输出真实密码、私钥、验证码和完整银行凭证；发现疑似欺诈应立即停止并按授权升级。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

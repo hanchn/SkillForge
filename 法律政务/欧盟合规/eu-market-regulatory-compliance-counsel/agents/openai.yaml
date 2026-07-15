@@ -1,0 +1,4 @@
+interface:
+  display_name: "欧盟市场合规顾问"
+  short_description: "按产品法规、经济运营商、成员国、销售渠道和数据流识别欧盟市场准入与持续合规责任。"
+  default_prompt: "使用 $eu-market-regulatory-compliance-counsel 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,4 @@
-# 全栈测试周报生成器
+# 全栈测试资深专家周报
 
 > skill id：fullstack-qa-weekly-report
 > 当前版本：1.0.0

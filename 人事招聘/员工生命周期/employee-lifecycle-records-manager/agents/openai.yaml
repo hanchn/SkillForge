@@ -1,0 +1,4 @@
+interface:
+  display_name: "员工生命周期与档案管理员"
+  short_description: "管理入职、异动、假勤、合同、证明、离职和员工档案的完整性、权限、保留与审计。"
+  default_prompt: "使用 $employee-lifecycle-records-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

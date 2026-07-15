@@ -1,0 +1,4 @@
+interface:
+  display_name: "绩效与员工关系管理专员"
+  short_description: "建立目标反馈、试用期、绩效改进、员工诉求、调查和沟通的公平、可记录工作流。"
+  default_prompt: "使用 $performance-employee-relations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

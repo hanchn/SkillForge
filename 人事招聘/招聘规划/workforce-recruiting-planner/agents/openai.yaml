@@ -1,0 +1,4 @@
+interface:
+  display_name: "人力编制与招聘规划师"
+  short_description: "把业务目标、组织能力和预算转化为可审批的编制、岗位优先级和招聘计划。"
+  default_prompt: "使用 $workforce-recruiting-planner 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

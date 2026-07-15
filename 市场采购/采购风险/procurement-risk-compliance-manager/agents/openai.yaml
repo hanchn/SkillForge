@@ -1,0 +1,4 @@
+interface:
+  display_name: "采购风险与供应韧性经理"
+  short_description: "识别供应商、产地、材料、质量、合规、制裁、集中度、产能、灾害和商业连续性风险。"
+  default_prompt: "使用 $procurement-risk-compliance-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

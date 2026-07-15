@@ -327,6 +327,46 @@
         font-weight: 500;
       }
 
+      .kind-tag {
+        border: 1px solid transparent;
+      }
+
+      .kind-role {
+        color: #1d4ed8;
+        background: #eff6ff;
+        border-color: #bfdbfe;
+      }
+
+      .kind-architect {
+        color: #1d4ed8;
+        background: #eff6ff;
+        border-color: #bfdbfe;
+      }
+
+      .kind-senior-expert {
+        color: #0f766e;
+        background: #f0fdfa;
+        border-color: #99f6e4;
+      }
+
+      .kind-senior-manager {
+        color: #b45309;
+        background: #fffbeb;
+        border-color: #fde68a;
+      }
+
+      .kind-weekly-report {
+        color: #7c3aed;
+        background: #f5f3ff;
+        border-color: #ddd6fe;
+      }
+
+      .kind-capability {
+        color: #047857;
+        background: #ecfdf5;
+        border-color: #a7f3d0;
+      }
+
       .empty,
       .loading,
       .markdown-body {
@@ -767,6 +807,30 @@
         batchDownload: document.getElementById("batchDownload")
       };
 
+      const LOCAL_DOWNLOAD_KEY = "skillforge-local-download-counts-v1";
+
+      function readLocalDownloadCounts() {
+        try {
+          const value = JSON.parse(localStorage.getItem(LOCAL_DOWNLOAD_KEY) || "{}");
+          return value && typeof value === "object" ? value : {};
+        } catch (_) {
+          return {};
+        }
+      }
+
+      function effectiveDownloadCount(skill) {
+        const local = readLocalDownloadCounts();
+        return Math.max(0, Number(skill.download_count) || 0) + Math.max(0, Number(local[skill.name]) || 0);
+      }
+
+      function recordLocalDownload(skillNames) {
+        const local = readLocalDownloadCounts();
+        skillNames.forEach((name) => {
+          local[name] = Math.max(0, Number(local[name]) || 0) + 1;
+        });
+        localStorage.setItem(LOCAL_DOWNLOAD_KEY, JSON.stringify(local));
+      }
+
       function escapeHtml(value) {
         return String(value ?? "")
           .replace(/&/g, "&amp;")
@@ -909,7 +973,7 @@
       }
 
       function getFilteredSkills() {
-        return state.skills.filter((skill) => {
+        const filtered = state.skills.filter((skill) => {
           const query = state.search.trim().toLowerCase();
           const haystack = [
             skill.name,
@@ -934,6 +998,11 @@
           }
 
           return matchesSearch && matchesCategory;
+        });
+        return filtered.sort((a, b) => {
+          const heat = effectiveDownloadCount(b) - effectiveDownloadCount(a);
+          if (heat !== 0) return heat;
+          return String(a.display_name || a.name).localeCompare(String(b.display_name || b.name), "zh-CN");
         });
       }
 
@@ -970,6 +1039,7 @@
 
             const isChecked = state.selectedSkills.has(skill.name);
             const checkedClass = isChecked ? "checked" : "";
+            const classification = skill.classification || { kind: "capability", label: "专项能力" };
             
             return `
               <div class="card" onclick="window.location.href='${detailUrl}'">
@@ -983,7 +1053,9 @@
                 <p class="card-desc">${detail.description || "暂无描述"}</p>
                 <div class="card-footer">
                   <div class="card-tags">
+                    <span class="tag kind-tag kind-${escapeHtml(classification.kind)}">${escapeHtml(classification.label)}</span>
                     <span class="tag">${skill.category_path ? skill.category_path[skill.category_path.length - 1] : "通用"}</span>
+                    <span class="tag">v${escapeHtml(skill.version || detail.version || "0.0.0")}</span>
                   </div>
                   <button class="card-download-btn" data-name="${skill.name}" title="下载 ZIP" onclick="event.stopPropagation()">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
@@ -1085,6 +1157,7 @@
           link.click();
           link.remove();
           URL.revokeObjectURL(url);
+          recordLocalDownload(selected);
           
           // Clear selection after download
           state.selectedSkills.clear();
@@ -1141,6 +1214,9 @@
           link.click();
           link.remove();
           URL.revokeObjectURL(url);
+          recordLocalDownload([skill.name]);
+          renderMetrics();
+          renderCards();
         } catch (error) {
           window.alert(error.message || "ZIP 打包失败");
         } finally {

@@ -1,4 +1,4 @@
 interface:
-  display_name: "NestJS 后端架构师"
+  display_name: "NestJS 后端资深专家"
   short_description: "围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。"
   default_prompt: "使用 $nestjs-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

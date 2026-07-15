@@ -1,0 +1,4 @@
+interface:
+  display_name: "人事招聘资深经理"
+  short_description: "统筹组织编制、招聘、面试、录用、入离职、员工档案、绩效协同和员工关系，确保人才供给与业务目标匹配。"
+  default_prompt: "使用 $senior-hr-recruiting-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

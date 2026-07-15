@@ -1,0 +1,84 @@
+{
+  "name": "workforce-recruiting-planner",
+  "display_name": "人力编制与招聘规划师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "招聘规划"
+  ],
+  "description": "把业务目标、组织能力和预算转化为可审批的编制、岗位优先级和招聘计划。适用于年度人力规划、业务扩张或组织调整、招聘优先级和预算配置，交付编制与能力缺口图、岗位优先级和招聘计划、预算、里程碑和风险方案。",
+  "search_keywords": [
+    "年度人力规划",
+    "业务扩张或组织调整",
+    "招聘优先级和预算配置",
+    "业务目标和工作量驱动",
+    "现有人力、能力和产能",
+    "岗位职责与替代方案"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "编制与能力缺口图",
+    "岗位优先级和招聘计划",
+    "预算、里程碑和风险方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得仅按部门主观需求扩编；必须区分新增、替补、外包、自动化和内部流动方案。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

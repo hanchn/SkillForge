@@ -3,24 +3,25 @@ name: aspnet-core-backend-architecture
 description: 围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架构。 Use when an AI needs to handle ASP.NET Core API, 模块化 .NET 后端, Minimal API 与 Controller 架构评审; produce ASP.NET Core 模块架构, DI 与请求管道, 数据、安全和生产运行方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# ASP.NET Core 后端架构师
+# ASP.NET Core 后端资深专家
 
 围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架构。
 
 ## Load resources
 
+- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
 - Read `references/professional-checklist.md` before making decisions.
 - Use `assets/delivery-template.md` for the final durable artifact.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
 
 ## Workflow
 
-1. 检查现有仓库、运行拓扑、质量目标、团队边界和约束；区分已验证事实、假设与未知项
-2. 建立系统上下文、关键用户旅程或请求路径，明确边界外依赖和非功能目标
-3. 按业务能力划分模块，定义 ownership、依赖方向、公共契约和禁止跨越的边界
-4. 设计数据、状态、错误、权限、缓存、并发和资源生命周期，不只覆盖正常路径
-5. 评估备选架构的复杂度、性能、可靠性、交付成本和可逆性，记录决策理由
-6. 制定增量实施、兼容迁移、验证、观测、灰度和回滚计划
+1. 确认业务目标、现有代码、语言或框架版本、运行环境、质量标准和交付边界
+2. 复现或拆解真实功能与问题，定位到模块、依赖、状态、数据、线程、资源或运行时机制
+3. 基于该语言或框架的官方机制设计实现，明确代码边界、失败路径、兼容性和安全约束
+4. 完成或指导关键实现、重构、调优和测试，避免用抽象架构代替可运行工程结果
+5. 用单元、集成、端到端、性能或生产证据验证，并记录版本、环境和未覆盖风险
+6. 输出代码级方案、实施顺序、验收、发布、观测和回滚计划，与通用架构师保持边界一致
 
 ## Required decision lenses
 

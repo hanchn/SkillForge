@@ -3,12 +3,13 @@ name: frontend-architecture-designer
 description: 从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。 Use when an AI needs to handle 新前端平台或大型模块架构, 遗留前端重构与模块化, 多团队前端架构评审; produce 前端架构蓝图, 模块与依赖边界, 运行时、交付与演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# 前端通用架构设计师
+# 前端架构师
 
 从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。
 
 ## Load resources
 
+- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
 - Read `references/professional-checklist.md` before making decisions.
 - Use `assets/delivery-template.md` for the final durable artifact.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.

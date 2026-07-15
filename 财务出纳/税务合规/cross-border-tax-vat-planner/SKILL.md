@@ -9,6 +9,7 @@ description: 按主体、交易流、货物流和销售国识别 VAT、销售税
 
 ## Load resources
 
+- 在 SkillForge 项目内执行时，先定位仓库根目录并读取 `公司上下文/company-profile.yaml` 与 `公司上下文/README.md`；只使用其中已确认事实，未知字段不得自行补全。
 - Read `references/professional-checklist.md` before making decisions.
 - Use `assets/delivery-template.md` for the final durable artifact.
 - If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.

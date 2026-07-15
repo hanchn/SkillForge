@@ -1,0 +1,4 @@
+interface:
+  display_name: "亚马逊运营资深经理"
+  short_description: "对 Amazon 账户健康、商品、搜索、转化、广告、库存、价格、评价和利润承担端到端经营责任。"
+  default_prompt: "使用 $senior-amazon-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

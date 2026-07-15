@@ -1,0 +1,84 @@
+{
+  "name": "offer-onboarding-manager",
+  "display_name": "录用与入职管理专员",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "录用入职"
+  ],
+  "description": "管理候选人审批、Offer、背景核验、合同资料、入职准备和首日到试用期交接。适用于候选人录用审批、Offer 谈判和签署、跨部门入职和试用期启动，交付录用审批与 Offer 清单、入职准备责任表、首日、30/60/90 天交接计划。",
+  "search_keywords": [
+    "候选人录用审批",
+    "Offer 谈判和签署",
+    "跨部门入职和试用期启动",
+    "岗位、职级、薪酬和预算审批",
+    "条件、有效期和候选人沟通",
+    "背景核验授权与必要性"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "录用审批与 Offer 清单",
+    "入职准备责任表",
+    "首日、30/60/90 天交接计划",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得在未授权时承诺薪酬、股权或用工条款；背景核验和合同必须符合工作地规则并保护候选人隐私。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

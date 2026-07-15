@@ -20,7 +20,7 @@
 - [PLM 产品架构师](PLM/plm-product-architecture/README.md)：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。适用于新品研发数字化、款式/BOM/样品协同、产品版本和上市门禁，交付PLM 能力地图、产品版本和阶段门模型、BOM、样品、成本、合规与集成方案。
 - [TMS 产品架构师](TMS/tms-product-architecture/README.md)：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。适用于头程或尾程运输管理、承运商和运费治理、轨迹、异常和运费对账，交付TMS 能力地图、运输订单与状态机、承运商、轨迹、费用和异常方案。
 - [WMS 产品架构师](WMS/wms-product-architecture/README.md)：围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。适用于多仓 WMS 规划、仓内作业数字化、库存差异和履约效率治理，交付WMS 能力地图、仓内任务与状态机、作业、设备、异常和集成方案。
-- [跨境业务系统总产品架构师](公共/commerce-systems-product-architecture/README.md)：设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。
+- [跨系统产品架构师](公共/commerce-systems-product-architecture/README.md)：为贵司 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 建立业务能力分工、主数据归属、系统接口和端到端协作边界。适用于跨系统业务流程设计、系统职责重叠与空白治理、新系统接入和系统边界调整，交付业务能力与系统责任地图、主数据、状态与 source of truth 矩阵、跨系统流程、交接契约与异常闭环。
 
 ## 迭代记录
 

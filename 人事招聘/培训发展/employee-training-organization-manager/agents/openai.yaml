@@ -1,0 +1,4 @@
+interface:
+  display_name: "员工培训组织与运营经理"
+  short_description: "端到端组织员工培训，从需求和能力差距、计划预算、课程讲师、通知报名、现场交付到效果评估、档案和改进闭环。"
+  default_prompt: "使用 $employee-training-organization-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

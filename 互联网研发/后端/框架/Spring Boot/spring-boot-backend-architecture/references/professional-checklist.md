@@ -1,4 +1,4 @@
-# Spring Boot 后端架构师专业检查表
+# Spring Boot 后端资深专家专业检查表
 
 ## 执行前
 

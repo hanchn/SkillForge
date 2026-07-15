@@ -1,0 +1,4 @@
+interface:
+  display_name: "仓储库存资深经理"
+  short_description: "统筹多仓库存准确性、入出库、库内作业、库存分配、退货逆向、仓容安全、成本和履约 SLA。"
+  default_prompt: "使用 $senior-warehouse-inventory-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

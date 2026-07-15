@@ -1,0 +1,4 @@
+interface:
+  display_name: "进出口贸易合规审查顾问"
+  short_description: "对跨境货物流的进口、出口、再出口、海关、制裁与出口管制责任进行证据化审查。"
+  default_prompt: "使用 $import-export-trade-compliance-reviewer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,0 +1,85 @@
+{
+  "name": "senior-hr-recruiting-manager",
+  "display_name": "人事招聘资深经理",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.1",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "人事招聘",
+    "人事角色",
+    "人事招聘资深经理"
+  ],
+  "description": "统筹组织编制、招聘、面试、录用、入离职、员工档案、绩效协同和员工关系，确保人才供给与业务目标匹配。适用于人事招聘体系建设、年度或季度人才规划、关键岗位招聘和员工生命周期治理，交付人力目标与责任矩阵、人事招聘专项 Skill 编排、人才、组织风险和执行节奏。",
+  "search_keywords": [
+    "人事招聘体系建设",
+    "年度或季度人才规划",
+    "关键岗位招聘和员工生命周期治理",
+    "组织目标、编制和岗位",
+    "人才渠道、漏斗和质量",
+    "面试、录用和入职体验"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "人力目标与责任矩阵",
+    "人事招聘专项 Skill 编排",
+    "人才、组织风险和执行节奏",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得基于受保护特征作歧视性决定；涉及劳动法、解雇、调查或跨境用工时必须升级劳动用工合规 Skill 和当地专业人士。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

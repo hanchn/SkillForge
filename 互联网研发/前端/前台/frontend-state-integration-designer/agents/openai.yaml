@@ -1,4 +1,0 @@
-interface:
-  display_name: "前端状态与数据流设计师"
-  short_description: "Design predictable frontend state async data and mutations"
-  default_prompt: "Use $frontend-state-integration-designer to design this feature state and data flow."

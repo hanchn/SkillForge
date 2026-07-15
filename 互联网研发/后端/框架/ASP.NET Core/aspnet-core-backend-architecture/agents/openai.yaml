@@ -1,4 +1,4 @@
 interface:
-  display_name: "ASP.NET Core 后端架构师"
+  display_name: "ASP.NET Core 后端资深专家"
   short_description: "围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架"
   default_prompt: "使用 $aspnet-core-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

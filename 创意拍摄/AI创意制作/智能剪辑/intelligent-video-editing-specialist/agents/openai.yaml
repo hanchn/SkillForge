@@ -1,0 +1,4 @@
+interface:
+  display_name: "智能剪辑工作流专家"
+  short_description: "利用镜头识别、语音转写、节奏分析、自动重构和批量渲染工具提升粗剪、多版本与本地化交付效率。"
+  default_prompt: "使用 $intelligent-video-editing-specialist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

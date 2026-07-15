@@ -1,0 +1,85 @@
+{
+  "name": "label-governance-workflow-designer",
+  "display_name": "标签治理与审核工作流设计师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "产品",
+    "数据产品"
+  ],
+  "description": "设计标签创建、修改、审核、发布、版本、回滚、权限、质量和血缘治理工作流。适用于透明计划等标签修改项目、标签审核和发布流程、标签冲突、版本和质量治理，交付标签生命周期和状态机、角色权限、审核与发布流程、版本、审计、回滚和质量方案。",
+  "search_keywords": [
+    "透明计划等标签修改项目",
+    "标签审核和发布流程",
+    "标签冲突、版本和质量治理",
+    "标签对象、taxonomy 和 owner",
+    "草稿、审核、发布和废弃状态",
+    "修改原因、diff 和影响范围"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "标签生命周期和状态机",
+    "角色权限、审核与发布流程",
+    "版本、审计、回滚和质量方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得覆盖历史标签或丢失修改证据；批量修改必须提供影响预览、审批、幂等和回滚。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}

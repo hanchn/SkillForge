@@ -1,4 +1,4 @@
 interface:
-  display_name: "Gin 后端架构师"
+  display_name: "Gin 后端资深专家"
   short_description: "围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。"
   default_prompt: "使用 $gin-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

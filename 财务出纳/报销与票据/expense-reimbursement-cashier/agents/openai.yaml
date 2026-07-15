@@ -1,0 +1,4 @@
+interface:
+  display_name: "报销与票据出纳专员"
+  short_description: "按制度、预算、审批和单据完整性执行员工报销、备用金和票据交接。"
+  default_prompt: "使用 $expense-reimbursement-cashier 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "业务数据分析高级经理"
-  short_description: "统筹指标治理、数据质量、经营分析、专项诊断、预测和管理层决策支持。"
-  default_prompt: "使用 $senior-business-analytics-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

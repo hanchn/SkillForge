@@ -71,17 +71,17 @@
       "BASE_PROMPT.md"
     ],
     "package_files": [
-      "SKILL.md",
-      "skill.json",
-      "README.md",
-      "INVOCATION.md",
       "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
       "agents/openai.yaml",
-      "references",
-      "assets",
-      "examples",
-      "eval",
-      "platforms"
+      "assets/test-strategy-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/risk-model.md",
+      "skill.json"
     ]
   }
 }

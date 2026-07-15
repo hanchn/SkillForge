@@ -8,7 +8,7 @@
   "portable": true,
   "entrypoint": "SKILL.md",
   "category_path": [
-    "财务",
+    "财务出纳",
     "经营财务"
   ],
   "description": "连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。适用于渠道和 SKU 盈利核算、经营复盘、定价、促销和资源决策，交付管理利润口径、商品渠道盈利矩阵、差异、情景和经营建议。",
@@ -68,17 +68,17 @@
       "BASE_PROMPT.md"
     ],
     "package_files": [
-      "SKILL.md",
-      "skill.json",
-      "README.md",
-      "INVOCATION.md",
       "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
       "agents/openai.yaml",
-      "references",
-      "assets",
-      "examples",
-      "eval",
-      "platforms"
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
     ]
   }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI 交互设计与实现专家"
+  short_description: "把业务任务和界面结构转化为状态完整、反馈明确、可访问、可实现且可测试的 UI 交互规范。"
+  default_prompt: "使用 $ui-interaction-designer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

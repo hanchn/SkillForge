@@ -1,0 +1,84 @@
+{
+  "name": "warehouse-inbound-operations-manager",
+  "display_name": "仓库入库作业经理",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "仓储库存",
+    "入库管理"
+  ],
+  "description": "管理预约、到货、卸货、收货、质检交接、差异、上架和库存状态生效的入库闭环。适用于采购或调拨入库、多仓预约和上架治理、短少、破损、错货和超收异常处理，交付入库 SOP 与状态图、预约、收货、差异和上架任务表、SLA、证据、异常和对账清单。",
+  "search_keywords": [
+    "采购或调拨入库",
+    "多仓预约和上架治理",
+    "短少、破损、错货和超收异常处理",
+    "ASN、采购单、调拨单和到货",
+    "箱、托、SKU、批次和序列",
+    "计数、质检、短溢损和拒收"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "入库 SOP 与状态图",
+    "预约、收货、差异和上架任务表",
+    "SLA、证据、异常和对账清单",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得在未完成数量、质量和差异记录时直接转为可售；实物、单据和系统状态不一致必须隔离并升级。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  }
+}
