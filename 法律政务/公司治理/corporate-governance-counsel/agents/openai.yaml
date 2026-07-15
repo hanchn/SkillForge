@@ -1,0 +1,4 @@
+interface:
+  display_name: "公司治理法务顾问"
+  short_description: "Review entity governance authority and approvals"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

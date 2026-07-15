@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境财务高级经理"
+  short_description: "Lead accounting finance cash tax and controls"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

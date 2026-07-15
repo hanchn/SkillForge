@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境法务负责人周报"
+  short_description: "Create an evidence-backed legal weekly report"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

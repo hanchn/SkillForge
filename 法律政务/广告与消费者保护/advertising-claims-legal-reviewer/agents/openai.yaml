@@ -1,0 +1,4 @@
+interface:
+  display_name: "广告声明法律审查师"
+  short_description: "Review claims endorsements reviews and promotions"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

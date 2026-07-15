@@ -1,0 +1,4 @@
+interface:
+  display_name: "预算与预测控制经理"
+  short_description: "Govern budgets forecasts and variance actions"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

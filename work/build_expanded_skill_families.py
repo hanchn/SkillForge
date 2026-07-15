@@ -125,6 +125,26 @@ for role_area, folder, role_id, display, positioning, lenses in ROLE_DEFS:
         lenses,
         "主角色负责目标、取舍、编排和验收，不替代专项 Skill 的深度执行，也不得越过授权直接操作生产账户。",
     ))
+
+SPECS.extend([
+    spec("法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel", "senior-cross-border-legal-counsel", "跨境法务负责人", "role", "统筹跨境合同、监管、知识产权、隐私、营销、用工、争议和公司治理风险。", ["跨境法务体系建设", "重大项目法律风险评审", "外部律师、证据和决策协调"], ["法律风险组合与优先级", "专项法律 Skill 编排", "决策、升级律师和治理计划"], ["司法辖区和主体", "权利义务与授权", "监管、消费者和平台风险", "证据、时效和争议", "外部律师升级与整改闭环"], "本 Skill 不构成律师法律意见；高风险、争议或司法辖区不明事项必须升级合格律师。"),
+    spec("法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel-weekly-report", "senior-cross-border-legal-counsel-weekly-report", "跨境法务负责人周报", "weekly", "基于真实案件、合同和监管证据生成法务周报。", ["法务周度复盘", "重大风险与案件升级", "合同、合规和整改跟踪"], ["法务周报", "风险与时效台账", "决策、外部律师和下周行动"], ["新增与关闭事项", "风险等级和金额暴露", "期限、证据和保全", "业务影响与整改", "待决策和外部律师事项"], "不得披露超出授权的特权或敏感信息，不得虚构案件状态或法律结论。"),
+    spec("法律政务/跨境监管/cross-border-regulatory-compliance-counsel", "cross-border-regulatory-compliance-counsel", "跨境监管合规顾问", "legal", "按销售国、主体、产品、渠道和责任链识别跨境贸易与电商监管义务。", ["进入新国家或平台", "进口商、卖家和平台责任审查", "监管变化与整改"], ["适用法规和责任矩阵", "证据缺口与风险等级", "整改、监控和律师升级方案"], ["司法辖区与经营主体", "产品、进口和市场准入", "消费者、平台和信息披露", "海关、制裁和供应链证据", "更新日期、主管机关和升级门槛"], "不得用一个国家的规则外推其他市场；执行前必须核实当前官方法规。"),
+    spec("法律政务/知识产权/intellectual-property-protection-counsel", "intellectual-property-protection-counsel", "知识产权保护顾问", "legal", "管理商标、版权、专利、外观设计、域名、授权链和平台侵权处置。", ["品牌和新品 IP 清查", "素材和达人内容授权", "侵权投诉、应诉和证据保全"], ["IP 资产与权利链台账", "侵权/被诉风险分析", "申请、许可、取证和处置计划"], ["权利类型与国家覆盖", "所有权、许可和使用证据", "近似、混淆和在先权利", "平台程序和反通知", "期限、保全和律师升级"], "不得在无权利证明时发起投诉，也不得把平台处理结果等同于法院结论。"),
+    spec("法律政务/隐私与数据/privacy-data-protection-counsel", "privacy-data-protection-counsel", "隐私与数据保护顾问", "legal", "审查个人数据、Cookie、营销同意、供应商处理、跨境传输、数据主体请求和事件响应。", ["网站与 CRM 隐私审查", "数据出境和供应商合同", "删除访问请求或数据事件"], ["数据处理活动与角色图", "合法基础、告知和传输差距", "整改、请求和事件响应方案"], ["数据类型、目的和主体", "controller/processor 与合法基础", "同意、Cookie 和营销偏好", "保留、权限和数据主体权利", "跨境传输、供应商和事件通知"], "不得把隐私政策文本当作实际合规证明；必须核对真实数据流和当前司法辖区规则。"),
+    spec("法律政务/广告与消费者保护/advertising-claims-legal-reviewer", "advertising-claims-legal-reviewer", "广告声明法律审查师", "legal", "审查产品声明、比较广告、折扣、评价、达人背书、环保和健康表达的证据与披露。", ["Listing、落地页和广告上线前审查", "达人、评价和促销机制", "高风险产品声明整改"], ["声明逐条证据矩阵", "风险等级与修改稿", "披露、审批和留档要求"], ["明示和暗示声明", "可靠证据与适用人群", "达人关系和显著披露", "评价、折扣和参照价", "健康、环保、产地和儿童声明"], "不得用免责声明修复核心误导，也不得批准缺少可靠证据的客观声明。"),
+    spec("法律政务/劳动用工/employment-labor-compliance-counsel", "employment-labor-compliance-counsel", "劳动用工合规顾问", "legal", "审查员工、独立承包商、远程团队、薪酬工时、保密知识产权和离职流程风险。", ["跨国招聘与用工模式", "员工或承包商协议", "绩效、调查和离职处理"], ["用工分类与义务矩阵", "合同和流程风险", "整改、证据和律师升级清单"], ["工作地与雇佣主体", "员工/承包商分类", "薪酬、工时、福利和税", "保密、IP、监控和隐私", "调查、纪律、终止和记录"], "不得跨司法辖区套用同一劳动模板；解雇、歧视或集体事项必须升级当地律师。"),
+    spec("法律政务/争议解决/dispute-resolution-case-manager", "dispute-resolution-case-manager", "争议解决案件经理", "legal", "组织合同、平台、客户、供应商和知识产权争议的事实、证据、时效、策略和执行。", ["争议事实梳理", "平台申诉和合同索赔", "诉前谈判与外部律师协同"], ["案件事实与时间线", "请求、抗辩和证据地图", "策略、成本、时效和升级计划"], ["当事人、合同和管辖", "事实、损失和因果", "证据真实性和保全", "期限、程序和送达", "和解、执行和沟通权限"], "不得删除、修改或选择性隐藏证据；诉讼、仲裁或法定期限事项必须及时升级律师。"),
+    spec("法律政务/公司治理/corporate-governance-counsel", "corporate-governance-counsel", "公司治理法务顾问", "legal", "管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。", ["新实体或治理体系", "重大合同和付款授权", "董事股东决议与档案审查"], ["实体和治理台账", "授权与审批矩阵", "决议、缺口和整改计划"], ["实体、股权和最终受益人", "章程与保留事项", "签字权和授权期限", "董事义务与利益冲突", "决议、申报和法定记录"], "不得把内部审批等同于法定授权；重大公司行动需由当地专业人士确认形式要求。"),
+    spec("财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager", "senior-cross-border-finance-manager", "跨境财务高级经理", "role", "统筹核算关账、管理报表、预算、现金、营运资金、税务、外汇和内部控制。", ["跨境财务体系建设", "月度经营和资金决策", "财务专项协同与风险治理"], ["财务目标与责任矩阵", "专项财务 Skill 编排", "关账、现金、预算和风险计划"], ["会计主体与账套", "收入、成本和利润口径", "现金、结算和营运资金", "预算、预测和差异", "税务、外汇、控制和审计证据"], "不得把管理口径替代法定会计和税务口径；正式申报与审计事项必须由合格专业人士确认。"),
+    spec("财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report", "senior-cross-border-finance-manager-weekly-report", "跨境财务高级经理周报", "weekly", "基于账务、现金、预算和税务证据生成财务周报。", ["财务周度复盘", "现金和营运资金预警", "关账、税务和预算事项跟踪"], ["财务周报", "现金、利润和风险摘要", "决策、责任人与下周行动"], ["数据截止和关账状态", "收入、利润和预算差异", "现金、应收应付和库存", "税务、汇率和申报期限", "控制缺口与待决策事项"], "不得用未关账数据冒充正式结果；必须标记预估、调整和未对账项目。"),
+    spec("财务/核算关账/financial-close-reconciliation-manager", "financial-close-reconciliation-manager", "财务关账与对账经理", "finance", "建立从平台、支付、订单、库存、银行到总账的可复核关账和对账流程。", ["月结关账", "平台支付与银行对账", "差异和审计证据治理"], ["关账日历和责任矩阵", "对账差异桥", "调整、审批和证据包"], ["主体、期间和截止", "订单、退款、费用和结算", "银行、支付和清算在途", "库存、成本和收入确认", "调整分录、审批和审计轨迹"], "不得以手工调平替代差异解释，不得在未授权时过账或修改正式账簿。"),
+    spec("财务/预算管理/budget-forecast-controller", "budget-forecast-controller", "预算与预测控制经理", "finance", "把战略目标转化为驱动型预算、滚动预测、差异分析和资源控制。", ["年度预算", "月度滚动预测", "预算差异和资源重配"], ["预算模型与假设", "滚动预测和差异桥", "资源、预警和决策规则"], ["目标、版本和责任中心", "销量、价格、成本和人效驱动", "汇率、税和季节情景", "预算承诺与实际", "差异 owner 和纠偏动作"], "不得用预算填数代替驱动模型，也不得覆盖原版本和审批轨迹。"),
+    spec("财务/资金管理/cash-flow-working-capital-manager", "cash-flow-working-capital-manager", "现金流与营运资金经理", "finance", "管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。", ["十三周现金预测", "营运资金改善", "资金缺口和付款安排"], ["现金流预测", "现金转换周期分析", "付款、融资和预警计划"], ["期初现金和可用额度", "回款、结算和应收", "采购、物流、税和应付", "库存和现金转换周期", "情景、最低现金和升级阈值"], "不得把账面利润等同于可用现金，不得未经授权安排付款或融资。"),
+    spec("财务/税务合规/cross-border-tax-vat-planner", "cross-border-tax-vat-planner", "跨境税务与 VAT 规划师", "finance", "按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。", ["进入新市场税务评估", "VAT/IOSS/销售税流程", "税务申报和审计证据准备"], ["交易与税务责任图", "注册申报和证据日历", "风险、整改和专业顾问升级清单"], ["主体、常设机构和交易链", "货物所在地与税收地点", "平台代征与卖家责任", "注册、税率、发票和申报", "关税、转让定价、证据和更新日期"], "税务规则高度时效且依赖司法辖区；不得据此直接申报，必须由当地税务专业人士复核。"),
+    spec("财务/资金管理/multi-currency-treasury-manager", "multi-currency-treasury-manager", "多币种资金与汇率经理", "finance", "管理多币种账户、平台结算、汇率暴露、换汇、流动性和资金权限。", ["多币种现金管理", "平台结算和换汇优化", "汇率风险和资金安全治理"], ["币种资金头寸", "汇率暴露与情景", "换汇、归集、权限和预警方案"], ["账户、主体和币种", "应收应付自然对冲", "结算周期和费用", "汇率情景与风险限额", "付款权限、欺诈和银行连续性"], "不得把预测汇率当事实，不得未经授权执行交易或提供投机建议。"),
+    spec("财务/经营财务/management-accounting-profitability-manager", "management-accounting-profitability-manager", "经营财务与利润经理", "finance", "连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。", ["渠道和 SKU 盈利核算", "经营复盘", "定价、促销和资源决策"], ["管理利润口径", "商品渠道盈利矩阵", "差异、情景和经营建议"], ["法定与管理口径桥", "收入、退款和折扣", "采购、履约、平台和广告成本", "共同成本和分摊原则", "贡献利润、现金和决策敏感性"], "不得隐匿分摊假设或把管理贡献利润冒充法定利润。"),
+])
     SPECS.append(spec(
         f"{role_area}/{folder}/{role_id}-weekly-report", f"{role_id}-weekly-report", f"{display}周报", "weekly",
         f"基于真实经营证据生成{display}视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。",
@@ -184,6 +204,22 @@ FAMILY_STEPS = {
         "形成下周优先级、预期影响、资源需求、护栏和需要管理层决定的事项",
         "按模板输出可持续追踪的周报，并保留口径变化、未知项和上周行动回看",
     ],
+    "legal": [
+        "确认司法辖区、适用主体、交易或行为、时间点、目标和需要作出的业务决策",
+        "收集合同、政策、证据、通信和当前官方规则，区分事实、主张、假设和法律问题",
+        "建立权利义务、责任主体、期限、证据和潜在救济矩阵，按影响与可能性分级",
+        "提出低风险可执行方案、替代文本、控制和保全动作，不把业务建议包装成确定法律结论",
+        "识别必须升级当地律师、监管专家或诉讼代理人的触发条件和最晚时间",
+        "输出审查记录、责任人、整改、审批、持续监控和特权/敏感信息边界",
+    ],
+    "finance": [
+        "确认会计主体、期间、币种、账簿、管理口径、数据截止和决策用途",
+        "收集总账、明细账、订单、支付、平台、银行、库存、税务和合同证据并完成勾稽",
+        "定义收入、成本、税、汇率、分摊和状态规则，区分法定、管理、预估和现金口径",
+        "分析余额、变动、差异、驱动和情景，保留公式、来源、调整和审批轨迹",
+        "建立控制、复核、权限、阈值、申报或关账日历，并标记需会计师或税务顾问确认事项",
+        "输出可复核报表、差异桥、决策建议、owner、截止、风险和后续监控",
+    ],
 }
 
 OFFICIAL_SOURCES = {
@@ -210,6 +246,10 @@ OFFICIAL_SOURCES = {
     "traffic-acquisition-analyst": [("GA4 Acquisition Scope", "https://support.google.com/analytics/answer/14731736"), ("GA4 Reports Overview", "https://support.google.com/analytics/answer/9212670")],
     "conversion-funnel-analyst": [("GA4 Life Cycle Reports", "https://support.google.com/analytics/answer/12924233"), ("GA4 Ecommerce Metrics", "https://support.google.com/analytics/answer/13428834")],
     "customer-cohort-ltv-analyst": [("GA4 Retention Overview", "https://support.google.com/analytics/answer/11004084"), ("GA4 Data Retention", "https://support.google.com/analytics/answer/7667196")],
+    "cross-border-regulatory-compliance-counsel": [("EU Customs Ecommerce", "https://taxation-customs.ec.europa.eu/customs/eu-customs-union-facts-and-figures/goods-bought-online_en")],
+    "privacy-data-protection-counsel": [("European Commission Data Protection", "https://commission.europa.eu/law/law-topic/data-protection_en")],
+    "advertising-claims-legal-reviewer": [("FTC Advertising and Marketing", "https://www.ftc.gov/business-guidance/advertising-marketing"), ("FTC Endorsements", "https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements")],
+    "cross-border-tax-vat-planner": [("EU VAT Place of Taxation", "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/place-taxation_en"), ("EU Ecommerce Customs and VAT", "https://taxation-customs.ec.europa.eu/customs/customs-procedures-import-and-export/customs-operations/customs-formalities-low-value-consignments_en")],
 }
 
 
@@ -530,6 +570,24 @@ CATEGORIES.update({
     "渠道运营/运营角色": ("渠道运营主角色", "沉淀渠道经营主角色 Skill，并由主角色编排各专项执行 Skill。"),
     "精准营销": ("精准营销", "以人群、内容、触达、转化、留存和增量衡量为核心，对营销效率和客户价值负责。参见 [精准营销 Skill 地图](PRECISION_MARKETING_SKILLS_MAP.md)。"),
     "精准营销/营销角色": ("精准营销主角色", "沉淀品牌内容和增长营销主角色 Skill，并由主角色编排各专项执行 Skill。"),
+    "法律政务": ("法律政务", "覆盖跨境法务主角色、合同、监管、知识产权、隐私、广告消费者保护、用工、争议和公司治理。"),
+    "法律政务/法律角色": ("法律主角色", "沉淀跨境法务负责人及专属周报 Skill。"),
+    "法律政务/法律角色/跨境法务负责人": ("跨境法务负责人", "统筹跨境法律风险、专项审查和外部律师升级。"),
+    "法律政务/跨境监管": ("跨境监管", "识别国家、主体、产品、渠道和贸易监管责任。"),
+    "法律政务/知识产权": ("知识产权", "管理商标、版权、专利、外观、域名和授权链。"),
+    "法律政务/隐私与数据": ("隐私与数据", "管理数据处理、同意、跨境传输、请求和事件。"),
+    "法律政务/广告与消费者保护": ("广告与消费者保护", "审查声明、评价、达人披露、促销和消费者规则。"),
+    "法律政务/劳动用工": ("劳动用工", "审查跨区域员工、承包商和劳动流程风险。"),
+    "法律政务/争议解决": ("争议解决", "管理事实、证据、时效、策略和外部律师协同。"),
+    "法律政务/公司治理": ("公司治理", "管理实体、授权、决议、利益冲突和法定档案。"),
+    "财务": ("财务", "覆盖跨境财务主角色、关账对账、预算预测、现金、税务、外汇和经营财务。"),
+    "财务/财务角色": ("财务主角色", "沉淀跨境财务高级经理及专属周报 Skill。"),
+    "财务/财务角色/跨境财务高级经理": ("跨境财务高级经理", "统筹会计、管理报表、预算、现金、税务、外汇和内控。"),
+    "财务/核算关账": ("核算关账", "管理平台、支付、银行、库存和总账关账对账。"),
+    "财务/预算管理": ("预算管理", "管理驱动型预算、滚动预测和差异纠偏。"),
+    "财务/资金管理": ("资金管理", "管理现金、营运资金、多币种头寸和汇率风险。"),
+    "财务/税务合规": ("税务合规", "管理跨境 VAT、销售税、关税和税务证据。"),
+    "财务/经营财务": ("经营财务", "连接财务账、商品渠道单位经济和经营决策。"),
 })
 for role_area, folder, _role_id, display, _positioning, _lenses in ROLE_DEFS:
     CATEGORIES[f"{role_area}/{folder}"] = (display, f"{display}主角色、责任边界和配套周报 Skill。")

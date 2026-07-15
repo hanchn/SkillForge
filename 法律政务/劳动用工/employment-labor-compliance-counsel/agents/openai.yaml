@@ -1,0 +1,4 @@
+interface:
+  display_name: "劳动用工合规顾问"
+  short_description: "Review employment contractor and labor risks"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

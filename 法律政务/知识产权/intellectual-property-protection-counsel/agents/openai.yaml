@@ -1,0 +1,4 @@
+interface:
+  display_name: "知识产权保护顾问"
+  short_description: "Protect trademarks patents copyrights and designs"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

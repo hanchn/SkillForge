@@ -1,0 +1,4 @@
+interface:
+  display_name: "财务关账与对账经理"
+  short_description: "Run controlled close and reconciliation workflows"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

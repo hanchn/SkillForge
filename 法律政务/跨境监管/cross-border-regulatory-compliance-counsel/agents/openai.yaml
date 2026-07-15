@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境监管合规顾问"
+  short_description: "Review cross-border regulatory compliance risks"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

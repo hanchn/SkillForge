@@ -1,0 +1,4 @@
+interface:
+  display_name: "隐私与数据保护顾问"
+  short_description: "Review privacy data and transfer compliance"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

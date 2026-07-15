@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境财务高级经理周报"
+  short_description: "Create an evidence-backed finance weekly report"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

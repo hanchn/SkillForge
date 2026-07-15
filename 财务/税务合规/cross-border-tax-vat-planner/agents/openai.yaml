@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨境税务与 VAT 规划师"
+  short_description: "Plan cross-border tax VAT and evidence controls"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

@@ -859,16 +859,17 @@
         while (currentTree && Object.keys(currentTree).length > 0) {
           if (level >= 2) break; // 只展示到二级分类，不展示三级及以下的 tag
 
+          const currentLevel = level;
           const row = document.createElement("div");
           row.className = "filter-row";
 
           // "All" tag for this level
           const defaultTag = document.createElement("button");
           defaultTag.className = "filter-tag";
-          if (!state.selectedPath[level]) defaultTag.classList.add("active");
+          if (!state.selectedPath[currentLevel]) defaultTag.classList.add("active");
           defaultTag.textContent = "全部";
           defaultTag.onclick = () => {
-            state.selectedPath = state.selectedPath.slice(0, level);
+            state.selectedPath = state.selectedPath.slice(0, currentLevel);
             render();
           };
           row.appendChild(defaultTag);
@@ -878,10 +879,10 @@
           options.forEach(opt => {
             const tag = document.createElement("button");
             tag.className = "filter-tag";
-            if (state.selectedPath[level] === opt) tag.classList.add("active");
+            if (state.selectedPath[currentLevel] === opt) tag.classList.add("active");
             tag.textContent = opt;
             tag.onclick = () => {
-              state.selectedPath = state.selectedPath.slice(0, level);
+              state.selectedPath = state.selectedPath.slice(0, currentLevel);
               state.selectedPath.push(opt);
               render();
             };
@@ -890,7 +891,7 @@
 
           elements.categoryFilters.appendChild(row);
 
-          const selectedVal = state.selectedPath[level];
+          const selectedVal = state.selectedPath[currentLevel];
           if (selectedVal && currentTree[selectedVal]) {
             currentTree = currentTree[selectedVal];
             level++;

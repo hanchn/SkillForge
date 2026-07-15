@@ -1,0 +1,4 @@
+interface:
+  display_name: "多币种资金与汇率经理"
+  short_description: "Manage currency exposure liquidity and treasury"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."

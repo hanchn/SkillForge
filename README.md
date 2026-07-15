@@ -11,7 +11,7 @@
 
 ## 当前能力规模
 
-- 115 个正式 Skill 包，其中 114 个在可视化管理页展示。
+- 127 个正式 Skill 包，其中 126 个在可视化管理页展示。
 - 后端研发采用“通用架构 → 语言架构 → 框架架构 → 交付专项”；前端收敛为通用架构加 React/Vue3 资深专家。
 - 跨境业务覆盖市场、选品、供应链、品牌、内容、渠道、广告、客户、增长和经营分析。
 - 企业系统覆盖 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 及跨系统总架构。
@@ -23,6 +23,8 @@
 - [渠道运营 Skill 地图](渠道运营/CHANNEL_OPERATIONS_SKILLS_MAP.md)
 - [精准营销 Skill 地图](精准营销/PRECISION_MARKETING_SKILLS_MAP.md)
 - [业务数据分析 Skill 地图](数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md)
+- [跨境法律 Skill 地图](法律政务/LEGAL_SKILLS_MAP.md)
+- [跨境财务 Skill 地图](财务/FINANCE_SKILLS_MAP.md)
 - [企业业务系统产品架构地图](互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md)
 
 ## 架构原则
@@ -70,7 +72,7 @@
 - `registry/`：全局 skill 索引
 - `platforms/`：项目级平台适配约定
 - `skillforge-project-governance/`：描述整个项目定位、架构设计与规则的项目级 skill
-- 业务目录：如 `渠道运营/`、`精准营销/`、`互联网研发/`、`项目管理/`
+- 业务目录：如 `渠道运营/`、`精准营销/`、`互联网研发/`、`数据看板/`、`法律政务/`、`财务/`、`项目管理/`
 
 ## 当前要求
 

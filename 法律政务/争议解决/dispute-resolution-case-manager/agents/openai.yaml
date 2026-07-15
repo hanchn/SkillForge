@@ -1,0 +1,4 @@
+interface:
+  display_name: "争议解决案件经理"
+  short_description: "Manage evidence strategy and dispute workflows"
+  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
