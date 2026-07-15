@@ -1,6 +1,6 @@
 {
   "project": "SkillForge",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "skills": [
     {
       "name": "skillforge-project-governance",
@@ -528,76 +528,16 @@
       ]
     },
     {
-      "name": "angular-frontend-architecture",
-      "display_name": "Angular 前端架构师",
-      "description": "围绕 standalone components、signals、依赖注入、路由和混合渲染设计大型 Angular 应用。适用于Angular 企业应用架构、NgModule 到 standalone 演进、大型团队前端平台治理，交付Angular 功能域架构、依赖注入与状态边界、渲染、测试和升级方案。",
-      "category_path": [
-        "互联网研发",
-        "前端",
-        "框架",
-        "Angular"
-      ],
-      "package_root": "互联网研发/前端/框架/Angular/angular-frontend-architecture",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Angular 企业应用架构",
-        "NgModule 到 standalone 演进",
-        "大型团队前端平台治理",
-        "standalone component 与 feature 边界",
-        "signals、RxJS 和状态 ownership",
-        "DI scope 与 provider"
-      ]
-    },
-    {
-      "name": "nextjs-frontend-architecture",
-      "display_name": "Next.js 前端架构师",
-      "description": "按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。适用于Next.js App Router 新项目、Pages Router 迁移、电商 SEO、性能和缓存架构，交付Next.js 路由与渲染蓝图、Server/Client 边界、缓存、数据和部署方案。",
-      "category_path": [
-        "互联网研发",
-        "前端",
-        "框架",
-        "Next.js"
-      ],
-      "package_root": "互联网研发/前端/框架/Next.js/nextjs-frontend-architecture",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Next.js App Router 新项目",
-        "Pages Router 迁移",
-        "电商 SEO、性能和缓存架构",
-        "路由、layout 和 segment",
-        "Server Components 与 Client Components",
-        "请求缓存、重验证和动态渲染"
-      ]
-    },
-    {
-      "name": "react-frontend-architecture",
-      "display_name": "React 前端架构师",
-      "description": "围绕组件、状态、数据流和渲染边界设计可演进 React 应用。适用于React 应用架构和重构、复杂状态与数据流治理、组件平台和多团队协作，交付React 架构蓝图、组件与状态边界、渲染、测试和迁移方案。",
+      "name": "react-senior-expert",
+      "display_name": "React 资深专家",
+      "description": "从架构、实现、状态、渲染性能、测试和演进角度解决复杂 React 工程问题。适用于React 复杂功能和架构设计、React 性能或状态问题诊断、React 代码评审、重构和技术升级，交付React 方案与代码边界、状态、渲染和性能决策、测试、迁移和验证计划。",
       "category_path": [
         "互联网研发",
         "前端",
         "框架",
         "React"
       ],
-      "package_root": "互联网研发/前端/框架/React/react-frontend-architecture",
+      "package_root": "互联网研发/前端/框架/React/react-senior-expert",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -609,25 +549,25 @@
       ],
       "entrypoint": "SKILL.md",
       "search_keywords": [
-        "React 应用架构和重构",
-        "复杂状态与数据流治理",
-        "组件平台和多团队协作",
-        "组件 ownership 与组合",
-        "本地、共享、服务端和 URL 状态",
-        "副作用与数据获取"
+        "React 复杂功能和架构设计",
+        "React 性能或状态问题诊断",
+        "React 代码评审、重构和技术升级",
+        "组件组合和领域边界",
+        "本地、URL、表单与服务端状态",
+        "副作用、并发渲染和错误恢复"
       ]
     },
     {
-      "name": "sveltekit-frontend-architecture",
-      "display_name": "SvelteKit 前端架构师",
-      "description": "围绕文件路由、load、form actions、服务端边界和 adapter 设计生产级 SvelteKit 应用。适用于SvelteKit 新项目、SSR/SSG/SPA 混合架构、SvelteKit 数据与部署治理，交付SvelteKit 路由和渲染架构、数据、表单与状态边界、adapter、观测和部署方案。",
+      "name": "vue3-senior-expert",
+      "display_name": "Vue3 资深专家",
+      "description": "从架构、实现、响应式状态、性能、测试和演进角度解决复杂 Vue 3 工程问题。适用于Vue 3 复杂功能和架构设计、响应式、状态或性能问题诊断、Vue 代码评审、重构和版本升级，交付Vue 3 方案与代码边界、响应式、状态和性能决策、测试、迁移和验证计划。",
       "category_path": [
         "互联网研发",
         "前端",
         "框架",
-        "SvelteKit"
+        "Vue3"
       ],
-      "package_root": "互联网研发/前端/框架/SvelteKit/sveltekit-frontend-architecture",
+      "package_root": "互联网研发/前端/框架/Vue3/vue3-senior-expert",
       "portable": true,
       "supported_platforms": [
         "Claude",
@@ -639,102 +579,12 @@
       ],
       "entrypoint": "SKILL.md",
       "search_keywords": [
-        "SvelteKit 新项目",
-        "SSR/SSG/SPA 混合架构",
-        "SvelteKit 数据与部署治理",
-        "route、layout 与项目结构",
-        "load、form actions 和 remote functions",
-        "server-only 模块与 secrets"
-      ]
-    },
-    {
-      "name": "vue-frontend-architecture",
-      "display_name": "Vue 前端架构师",
-      "description": "围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。适用于Vue 3 大型应用架构、Options API 到 Composition API 演进、组件库与业务应用分层，交付Vue 架构方案、组件与 composable 边界、状态、路由和测试方案。",
-      "category_path": [
-        "互联网研发",
-        "前端",
-        "框架",
-        "Vue"
-      ],
-      "package_root": "互联网研发/前端/框架/Vue/vue-frontend-architecture",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Vue 3 大型应用架构",
-        "Options API 到 Composition API 演进",
-        "组件库与业务应用分层",
-        "SFC 与组件职责",
-        "composable 复用边界",
-        "响应式数据和副作用"
-      ]
-    },
-    {
-      "name": "javascript-frontend-architecture",
-      "display_name": "JavaScript 前端架构师",
-      "description": "针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。适用于大型 JavaScript 应用治理、ESM 与旧模块迁移、运行时契约和质量门禁设计，交付JavaScript 架构方案、模块与运行时契约、渐进治理计划。",
-      "category_path": [
-        "互联网研发",
-        "前端",
-        "语言",
-        "JavaScript"
-      ],
-      "package_root": "互联网研发/前端/语言/JavaScript/javascript-frontend-architecture",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "大型 JavaScript 应用治理",
-        "ESM 与旧模块迁移",
-        "运行时契约和质量门禁设计",
-        "ES Modules 和包边界",
-        "运行时校验与错误隔离",
-        "异步、事件循环和资源生命周期"
-      ]
-    },
-    {
-      "name": "typescript-frontend-architecture",
-      "display_name": "TypeScript 前端架构师",
-      "description": "利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。适用于TypeScript 单仓或多包架构、类型边界和 API 类型治理、大型项目编译性能治理，交付TypeScript 分层方案、类型与运行时边界、tsconfig 和包治理建议。",
-      "category_path": [
-        "互联网研发",
-        "前端",
-        "语言",
-        "TypeScript"
-      ],
-      "package_root": "互联网研发/前端/语言/TypeScript/typescript-frontend-architecture",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "TypeScript 单仓或多包架构",
-        "类型边界和 API 类型治理",
-        "大型项目编译性能治理",
-        "strict 策略和类型债务",
-        "project references 与工作区",
-        "模块解析和发布格式"
+        "Vue 3 复杂功能和架构设计",
+        "响应式、状态或性能问题诊断",
+        "Vue 代码评审、重构和版本升级",
+        "SFC、组件和 feature 边界",
+        "Composition API 与 composable 设计",
+        "响应式陷阱、Pinia 和服务端状态"
       ]
     },
     {
@@ -1420,370 +1270,6 @@
       "display_name": "广告效果分析师",
       "description": "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。",
       "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/advertising-performance-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "广告周报和预算复盘",
-        "ROAS/ACOS 波动",
-        "创意和投放结构诊断",
-        "spend、delivery 和归因窗口",
-        "CTR、CVR、CPA、ROAS 与 TACOS",
-        "新客、毛利和回收期"
-      ]
-    },
-    {
-      "name": "business-metrics-governance",
-      "display_name": "业务指标治理师",
-      "description": "建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/business-metrics-governance",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "经营指标字典",
-        "多系统口径统一",
-        "看板和周报上线前治理",
-        "业务定义与公式",
-        "粒度、去重和状态",
-        "时区、币种和税口径"
-      ]
-    },
-    {
-      "name": "conversion-funnel-analyst",
-      "display_name": "电商转化漏斗分析师",
-      "description": "按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/conversion-funnel-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "商品或结账转化下降",
-        "设备国家渠道漏斗比较",
-        "改版和实验效果诊断",
-        "漏斗定义和可比 cohort",
-        "曝光、查看、加购、结账和购买",
-        "设备、页面、国家和渠道"
-      ]
-    },
-    {
-      "name": "customer-cohort-ltv-analyst",
-      "display_name": "客户 Cohort 与 LTV 分析师",
-      "description": "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/customer-cohort-ltv-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "复购和留存分析",
-        "渠道客户质量比较",
-        "CAC 回收和 LTV 预测",
-        "客户身份与 cohort 定义",
-        "复购、留存和间隔",
-        "收入、毛利和贡献 LTV"
-      ]
-    },
-    {
-      "name": "executive-business-review",
-      "display_name": "经营分析与周月报专家",
-      "description": "把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/executive-business-review",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "跨境经营周报月报",
-        "管理层业务复盘",
-        "目标差距和行动跟踪",
-        "目标、同比和环比口径",
-        "收入利润和现金",
-        "商品渠道客户驱动"
-      ]
-    },
-    {
-      "name": "forecast-scenario-planner",
-      "display_name": "经营预测与情景规划师",
-      "description": "用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/forecast-scenario-planner",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "月度滚动预测",
-        "预算和目标拆解",
-        "乐观基准悲观情景",
-        "历史基线和结构变化",
-        "流量、转化、价格和复购驱动",
-        "季节、活动和供给约束"
-      ]
-    },
-    {
-      "name": "inventory-supply-chain-analyst",
-      "display_name": "库存与供应链分析师",
-      "description": "量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/inventory-supply-chain-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "缺货和积压诊断",
-        "库存健康周报",
-        "供应商和物流绩效分析",
-        "库存状态和位置",
-        "需求、覆盖和安全库存",
-        "供应商交期和波动"
-      ]
-    },
-    {
-      "name": "marketplace-channel-comparison-analyst",
-      "display_name": "跨平台渠道对比分析师",
-      "description": "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/marketplace-channel-comparison-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "Amazon、Shopify、TikTok 横向比较",
-        "渠道资源分配",
-        "渠道利润和客户质量评估",
-        "订单状态与收入确认",
-        "平台费、履约、广告和退款",
-        "新客、复购和数据 ownership"
-      ]
-    },
-    {
-      "name": "pricing-promotion-analyst",
-      "display_name": "价格与促销分析师",
-      "description": "评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/pricing-promotion-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "大促复盘",
-        "价格调整效果",
-        "优惠券和捆绑机制比较",
-        "基线和对照",
-        "价格、折扣和实际成交价",
-        "销量、转化和弹性"
-      ]
-    },
-    {
-      "name": "product-portfolio-analyst",
-      "display_name": "商品组合分析师",
-      "description": "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/product-portfolio-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "SKU 分层",
-        "新品和长尾评估",
-        "淘汰、补货与资源分配",
-        "流量、转化和销量",
-        "毛利和贡献",
-        "库存周转和缺货"
-      ]
-    },
-    {
-      "name": "sales-profitability-analyst",
-      "display_name": "销售与利润分析师",
-      "description": "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/sales-profitability-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "销售和利润波动",
-        "国家渠道 SKU 盈利分析",
-        "利润改善机会评估",
-        "销量、价格和组合",
-        "退款、折扣和税费",
-        "平台、支付、物流和广告成本"
-      ]
-    },
-    {
-      "name": "traffic-acquisition-analyst",
-      "display_name": "流量与获客分析师",
-      "description": "区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。",
-      "category_path": [
-        "数据",
-        "业务分析"
-      ],
-      "package_root": "数据/业务分析/traffic-acquisition-analyst",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "渠道流量波动",
-        "自然与付费获客质量",
-        "UTM 和来源口径排查",
-        "user/session scope",
-        "source、medium、campaign 规范",
-        "新客、参与和落地页"
-      ]
-    },
-    {
-      "name": "data-quality-reconciliation",
-      "display_name": "业务数据质量与对账专家",
-      "description": "验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。",
-      "category_path": [
-        "数据",
-        "数据治理"
-      ],
-      "package_root": "数据/数据治理/data-quality-reconciliation",
-      "portable": true,
-      "supported_platforms": [
-        "Claude",
-        "Codex",
-        "GPT",
-        "Manus",
-        "Trae",
-        "Qorder"
-      ],
-      "entrypoint": "SKILL.md",
-      "search_keywords": [
-        "平台与财务对账",
-        "看板数据验收",
-        "异常数据和口径争议",
-        "来源、抽取时间和范围",
-        "主键、重复和缺失",
-        "状态、时区、币种和税"
-      ]
-    },
-    {
-      "name": "advertising-performance-analyst",
-      "display_name": "广告效果分析师",
-      "description": "统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。",
-      "category_path": [
         "数据看板",
         "业务分析"
       ],
@@ -2173,6 +1659,90 @@
       ]
     },
     {
+      "name": "dispute-resolution-case-manager",
+      "display_name": "争议解决案件经理",
+      "description": "组织合同、平台、客户、供应商和知识产权争议的事实、证据、时效、策略和执行。适用于争议事实梳理、平台申诉和合同索赔、诉前谈判与外部律师协同，交付案件事实与时间线、请求、抗辩和证据地图、策略、成本、时效和升级计划。",
+      "category_path": [
+        "法律政务",
+        "争议解决"
+      ],
+      "package_root": "法律政务/争议解决/dispute-resolution-case-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "争议事实梳理",
+        "平台申诉和合同索赔",
+        "诉前谈判与外部律师协同",
+        "当事人、合同和管辖",
+        "事实、损失和因果",
+        "证据真实性和保全"
+      ]
+    },
+    {
+      "name": "corporate-governance-counsel",
+      "display_name": "公司治理法务顾问",
+      "description": "管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。适用于新实体或治理体系、重大合同和付款授权、董事股东决议与档案审查，交付实体和治理台账、授权与审批矩阵、决议、缺口和整改计划。",
+      "category_path": [
+        "法律政务",
+        "公司治理"
+      ],
+      "package_root": "法律政务/公司治理/corporate-governance-counsel",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "新实体或治理体系",
+        "重大合同和付款授权",
+        "董事股东决议与档案审查",
+        "实体、股权和最终受益人",
+        "章程与保留事项",
+        "签字权和授权期限"
+      ]
+    },
+    {
+      "name": "employment-labor-compliance-counsel",
+      "display_name": "劳动用工合规顾问",
+      "description": "审查员工、独立承包商、远程团队、薪酬工时、保密知识产权和离职流程风险。适用于跨国招聘与用工模式、员工或承包商协议、绩效、调查和离职处理，交付用工分类与义务矩阵、合同和流程风险、整改、证据和律师升级清单。",
+      "category_path": [
+        "法律政务",
+        "劳动用工"
+      ],
+      "package_root": "法律政务/劳动用工/employment-labor-compliance-counsel",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "跨国招聘与用工模式",
+        "员工或承包商协议",
+        "绩效、调查和离职处理",
+        "工作地与雇佣主体",
+        "员工/承包商分类",
+        "薪酬、工时、福利和税"
+      ]
+    },
+    {
       "name": "contract-risk-reviewer",
       "display_name": "合同风险审阅师",
       "description": "逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单",
@@ -2199,6 +1769,176 @@
         "谈判建议",
         "NDA",
         "SaaS合同"
+      ]
+    },
+    {
+      "name": "advertising-claims-legal-reviewer",
+      "display_name": "广告声明法律审查师",
+      "description": "审查产品声明、比较广告、折扣、评价、达人背书、环保和健康表达的证据与披露。适用于Listing、落地页和广告上线前审查、达人、评价和促销机制、高风险产品声明整改，交付声明逐条证据矩阵、风险等级与修改稿、披露、审批和留档要求。",
+      "category_path": [
+        "法律政务",
+        "广告与消费者保护"
+      ],
+      "package_root": "法律政务/广告与消费者保护/advertising-claims-legal-reviewer",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Listing、落地页和广告上线前审查",
+        "达人、评价和促销机制",
+        "高风险产品声明整改",
+        "明示和暗示声明",
+        "可靠证据与适用人群",
+        "达人关系和显著披露"
+      ]
+    },
+    {
+      "name": "senior-cross-border-legal-counsel",
+      "display_name": "跨境法务负责人",
+      "description": "统筹跨境合同、监管、知识产权、隐私、营销、用工、争议和公司治理风险。适用于跨境法务体系建设、重大项目法律风险评审、外部律师、证据和决策协调，交付法律风险组合与优先级、专项法律 Skill 编排、决策、升级律师和治理计划。",
+      "category_path": [
+        "法律政务",
+        "法律角色",
+        "跨境法务负责人"
+      ],
+      "package_root": "法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "跨境法务体系建设",
+        "重大项目法律风险评审",
+        "外部律师、证据和决策协调",
+        "司法辖区和主体",
+        "权利义务与授权",
+        "监管、消费者和平台风险"
+      ]
+    },
+    {
+      "name": "senior-cross-border-legal-counsel-weekly-report",
+      "display_name": "跨境法务负责人周报",
+      "description": "基于真实案件、合同和监管证据生成法务周报。适用于法务周度复盘、重大风险与案件升级、合同、合规和整改跟踪，交付法务周报、风险与时效台账、决策、外部律师和下周行动。",
+      "category_path": [
+        "法律政务",
+        "法律角色",
+        "跨境法务负责人"
+      ],
+      "package_root": "法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "法务周度复盘",
+        "重大风险与案件升级",
+        "合同、合规和整改跟踪",
+        "新增与关闭事项",
+        "风险等级和金额暴露",
+        "期限、证据和保全"
+      ]
+    },
+    {
+      "name": "intellectual-property-protection-counsel",
+      "display_name": "知识产权保护顾问",
+      "description": "管理商标、版权、专利、外观设计、域名、授权链和平台侵权处置。适用于品牌和新品 IP 清查、素材和达人内容授权、侵权投诉、应诉和证据保全，交付IP 资产与权利链台账、侵权/被诉风险分析、申请、许可、取证和处置计划。",
+      "category_path": [
+        "法律政务",
+        "知识产权"
+      ],
+      "package_root": "法律政务/知识产权/intellectual-property-protection-counsel",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "品牌和新品 IP 清查",
+        "素材和达人内容授权",
+        "侵权投诉、应诉和证据保全",
+        "权利类型与国家覆盖",
+        "所有权、许可和使用证据",
+        "近似、混淆和在先权利"
+      ]
+    },
+    {
+      "name": "cross-border-regulatory-compliance-counsel",
+      "display_name": "跨境监管合规顾问",
+      "description": "按销售国、主体、产品、渠道和责任链识别跨境贸易与电商监管义务。适用于进入新国家或平台、进口商、卖家和平台责任审查、监管变化与整改，交付适用法规和责任矩阵、证据缺口与风险等级、整改、监控和律师升级方案。",
+      "category_path": [
+        "法律政务",
+        "跨境监管"
+      ],
+      "package_root": "法律政务/跨境监管/cross-border-regulatory-compliance-counsel",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "进入新国家或平台",
+        "进口商、卖家和平台责任审查",
+        "监管变化与整改",
+        "司法辖区与经营主体",
+        "产品、进口和市场准入",
+        "消费者、平台和信息披露"
+      ]
+    },
+    {
+      "name": "privacy-data-protection-counsel",
+      "display_name": "隐私与数据保护顾问",
+      "description": "审查个人数据、Cookie、营销同意、供应商处理、跨境传输、数据主体请求和事件响应。适用于网站与 CRM 隐私审查、数据出境和供应商合同、删除访问请求或数据事件，交付数据处理活动与角色图、合法基础、告知和传输差距、整改、请求和事件响应方案。",
+      "category_path": [
+        "法律政务",
+        "隐私与数据"
+      ],
+      "package_root": "法律政务/隐私与数据/privacy-data-protection-counsel",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "网站与 CRM 隐私审查",
+        "数据出境和供应商合同",
+        "删除访问请求或数据事件",
+        "数据类型、目的和主体",
+        "controller/processor 与合法基础",
+        "同意、Cookie 和营销偏好"
       ]
     },
     {
@@ -3683,6 +3423,232 @@
         "人群与内容匹配",
         "真实性和历史表现",
         "合作模式与单位经济"
+      ]
+    },
+    {
+      "name": "financial-close-reconciliation-manager",
+      "display_name": "财务关账与对账经理",
+      "description": "建立从平台、支付、订单、库存、银行到总账的可复核关账和对账流程。适用于月结关账、平台支付与银行对账、差异和审计证据治理，交付关账日历和责任矩阵、对账差异桥、调整、审批和证据包。",
+      "category_path": [
+        "财务",
+        "核算关账"
+      ],
+      "package_root": "财务/核算关账/financial-close-reconciliation-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "月结关账",
+        "平台支付与银行对账",
+        "差异和审计证据治理",
+        "主体、期间和截止",
+        "订单、退款、费用和结算",
+        "银行、支付和清算在途"
+      ]
+    },
+    {
+      "name": "cross-border-tax-vat-planner",
+      "display_name": "跨境税务与 VAT 规划师",
+      "description": "按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。适用于进入新市场税务评估、VAT/IOSS/销售税流程、税务申报和审计证据准备，交付交易与税务责任图、注册申报和证据日历、风险、整改和专业顾问升级清单。",
+      "category_path": [
+        "财务",
+        "税务合规"
+      ],
+      "package_root": "财务/税务合规/cross-border-tax-vat-planner",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "进入新市场税务评估",
+        "VAT/IOSS/销售税流程",
+        "税务申报和审计证据准备",
+        "主体、常设机构和交易链",
+        "货物所在地与税收地点",
+        "平台代征与卖家责任"
+      ]
+    },
+    {
+      "name": "management-accounting-profitability-manager",
+      "display_name": "经营财务与利润经理",
+      "description": "连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。适用于渠道和 SKU 盈利核算、经营复盘、定价、促销和资源决策，交付管理利润口径、商品渠道盈利矩阵、差异、情景和经营建议。",
+      "category_path": [
+        "财务",
+        "经营财务"
+      ],
+      "package_root": "财务/经营财务/management-accounting-profitability-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "渠道和 SKU 盈利核算",
+        "经营复盘",
+        "定价、促销和资源决策",
+        "法定与管理口径桥",
+        "收入、退款和折扣",
+        "采购、履约、平台和广告成本"
+      ]
+    },
+    {
+      "name": "senior-cross-border-finance-manager",
+      "display_name": "跨境财务高级经理",
+      "description": "统筹核算关账、管理报表、预算、现金、营运资金、税务、外汇和内部控制。适用于跨境财务体系建设、月度经营和资金决策、财务专项协同与风险治理，交付财务目标与责任矩阵、专项财务 Skill 编排、关账、现金、预算和风险计划。",
+      "category_path": [
+        "财务",
+        "财务角色",
+        "跨境财务高级经理"
+      ],
+      "package_root": "财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "跨境财务体系建设",
+        "月度经营和资金决策",
+        "财务专项协同与风险治理",
+        "会计主体与账套",
+        "收入、成本和利润口径",
+        "现金、结算和营运资金"
+      ]
+    },
+    {
+      "name": "senior-cross-border-finance-manager-weekly-report",
+      "display_name": "跨境财务高级经理周报",
+      "description": "基于账务、现金、预算和税务证据生成财务周报。适用于财务周度复盘、现金和营运资金预警、关账、税务和预算事项跟踪，交付财务周报、现金、利润和风险摘要、决策、责任人与下周行动。",
+      "category_path": [
+        "财务",
+        "财务角色",
+        "跨境财务高级经理"
+      ],
+      "package_root": "财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "财务周度复盘",
+        "现金和营运资金预警",
+        "关账、税务和预算事项跟踪",
+        "数据截止和关账状态",
+        "收入、利润和预算差异",
+        "现金、应收应付和库存"
+      ]
+    },
+    {
+      "name": "cash-flow-working-capital-manager",
+      "display_name": "现金流与营运资金经理",
+      "description": "管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。适用于十三周现金预测、营运资金改善、资金缺口和付款安排，交付现金流预测、现金转换周期分析、付款、融资和预警计划。",
+      "category_path": [
+        "财务",
+        "资金管理"
+      ],
+      "package_root": "财务/资金管理/cash-flow-working-capital-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "十三周现金预测",
+        "营运资金改善",
+        "资金缺口和付款安排",
+        "期初现金和可用额度",
+        "回款、结算和应收",
+        "采购、物流、税和应付"
+      ]
+    },
+    {
+      "name": "multi-currency-treasury-manager",
+      "display_name": "多币种资金与汇率经理",
+      "description": "管理多币种账户、平台结算、汇率暴露、换汇、流动性和资金权限。适用于多币种现金管理、平台结算和换汇优化、汇率风险和资金安全治理，交付币种资金头寸、汇率暴露与情景、换汇、归集、权限和预警方案。",
+      "category_path": [
+        "财务",
+        "资金管理"
+      ],
+      "package_root": "财务/资金管理/multi-currency-treasury-manager",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "多币种现金管理",
+        "平台结算和换汇优化",
+        "汇率风险和资金安全治理",
+        "账户、主体和币种",
+        "应收应付自然对冲",
+        "结算周期和费用"
+      ]
+    },
+    {
+      "name": "budget-forecast-controller",
+      "display_name": "预算与预测控制经理",
+      "description": "把战略目标转化为驱动型预算、滚动预测、差异分析和资源控制。适用于年度预算、月度滚动预测、预算差异和资源重配，交付预算模型与假设、滚动预测和差异桥、资源、预警和决策规则。",
+      "category_path": [
+        "财务",
+        "预算管理"
+      ],
+      "package_root": "财务/预算管理/budget-forecast-controller",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "年度预算",
+        "月度滚动预测",
+        "预算差异和资源重配",
+        "目标、版本和责任中心",
+        "销量、价格、成本和人效驱动",
+        "汇率、税和季节情景"
       ]
     }
   ]

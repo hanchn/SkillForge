@@ -1,4 +1,4 @@
 interface:
   display_name: "跨境法务负责人"
-  short_description: "Lead cross-border legal risk and governance work"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "统筹跨境合同、监管、知识产权、隐私、营销、用工、争议和公司治理风险。"
+  default_prompt: "使用 $senior-cross-border-legal-counsel 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

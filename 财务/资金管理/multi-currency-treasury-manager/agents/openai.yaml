@@ -1,4 +1,4 @@
 interface:
   display_name: "多币种资金与汇率经理"
-  short_description: "Manage currency exposure liquidity and treasury"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "管理多币种账户、平台结算、汇率暴露、换汇、流动性和资金权限。"
+  default_prompt: "使用 $multi-currency-treasury-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

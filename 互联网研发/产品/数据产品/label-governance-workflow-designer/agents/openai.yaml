@@ -1,0 +1,4 @@
+interface:
+  display_name: "标签治理与审核工作流设计师"
+  short_description: "Design label editing review and governance workflows"
+  default_prompt: "Use this skill to design traceable label editing review version and quality workflows."

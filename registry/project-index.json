@@ -1,6 +1,6 @@
 {
   "project": "SkillForge",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "entry_docs": {
     "readme": "README.md",
     "project_index": "PROJECT_INDEX.md",
@@ -25,7 +25,8 @@
       "精准营销",
       "互联网研发",
       "法律政务",
-      "数据",
+      "财务",
+      "数据看板",
       "项目管理",
       "work"
     ]
@@ -292,108 +293,33 @@
       ]
     },
     {
-      "name": "angular-frontend-architecture",
-      "display_name": "Angular 前端架构师",
-      "package_root": "互联网研发/前端/框架/Angular/angular-frontend-architecture",
+      "name": "react-senior-expert",
+      "display_name": "React 资深专家",
+      "package_root": "互联网研发/前端/框架/React/react-senior-expert",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "Angular 企业应用架构",
-        "NgModule 到 standalone 演进",
-        "大型团队前端平台治理",
-        "standalone component 与 feature 边界",
-        "signals、RxJS 和状态 ownership",
-        "DI scope 与 provider"
+        "React 复杂功能和架构设计",
+        "React 性能或状态问题诊断",
+        "React 代码评审、重构和技术升级",
+        "组件组合和领域边界",
+        "本地、URL、表单与服务端状态",
+        "副作用、并发渲染和错误恢复"
       ]
     },
     {
-      "name": "nextjs-frontend-architecture",
-      "display_name": "Next.js 前端架构师",
-      "package_root": "互联网研发/前端/框架/Next.js/nextjs-frontend-architecture",
+      "name": "vue3-senior-expert",
+      "display_name": "Vue3 资深专家",
+      "package_root": "互联网研发/前端/框架/Vue3/vue3-senior-expert",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
-        "Next.js App Router 新项目",
-        "Pages Router 迁移",
-        "电商 SEO、性能和缓存架构",
-        "路由、layout 和 segment",
-        "Server Components 与 Client Components",
-        "请求缓存、重验证和动态渲染"
-      ]
-    },
-    {
-      "name": "react-frontend-architecture",
-      "display_name": "React 前端架构师",
-      "package_root": "互联网研发/前端/框架/React/react-frontend-architecture",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "React 应用架构和重构",
-        "复杂状态与数据流治理",
-        "组件平台和多团队协作",
-        "组件 ownership 与组合",
-        "本地、共享、服务端和 URL 状态",
-        "副作用与数据获取"
-      ]
-    },
-    {
-      "name": "sveltekit-frontend-architecture",
-      "display_name": "SvelteKit 前端架构师",
-      "package_root": "互联网研发/前端/框架/SvelteKit/sveltekit-frontend-architecture",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "SvelteKit 新项目",
-        "SSR/SSG/SPA 混合架构",
-        "SvelteKit 数据与部署治理",
-        "route、layout 与项目结构",
-        "load、form actions 和 remote functions",
-        "server-only 模块与 secrets"
-      ]
-    },
-    {
-      "name": "vue-frontend-architecture",
-      "display_name": "Vue 前端架构师",
-      "package_root": "互联网研发/前端/框架/Vue/vue-frontend-architecture",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "Vue 3 大型应用架构",
-        "Options API 到 Composition API 演进",
-        "组件库与业务应用分层",
-        "SFC 与组件职责",
-        "composable 复用边界",
-        "响应式数据和副作用"
-      ]
-    },
-    {
-      "name": "javascript-frontend-architecture",
-      "display_name": "JavaScript 前端架构师",
-      "package_root": "互联网研发/前端/语言/JavaScript/javascript-frontend-architecture",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "大型 JavaScript 应用治理",
-        "ESM 与旧模块迁移",
-        "运行时契约和质量门禁设计",
-        "ES Modules 和包边界",
-        "运行时校验与错误隔离",
-        "异步、事件循环和资源生命周期"
-      ]
-    },
-    {
-      "name": "typescript-frontend-architecture",
-      "display_name": "TypeScript 前端架构师",
-      "package_root": "互联网研发/前端/语言/TypeScript/typescript-frontend-architecture",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "TypeScript 单仓或多包架构",
-        "类型边界和 API 类型治理",
-        "大型项目编译性能治理",
-        "strict 策略和类型债务",
-        "project references 与工作区",
-        "模块解析和发布格式"
+        "Vue 3 复杂功能和架构设计",
+        "响应式、状态或性能问题诊断",
+        "Vue 代码评审、重构和版本升级",
+        "SFC、组件和 feature 边界",
+        "Composition API 与 composable 设计",
+        "响应式陷阱、Pinia 和服务端状态"
       ]
     },
     {
@@ -740,201 +666,6 @@
     {
       "name": "advertising-performance-analyst",
       "display_name": "广告效果分析师",
-      "package_root": "数据/业务分析/advertising-performance-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "广告周报和预算复盘",
-        "ROAS/ACOS 波动",
-        "创意和投放结构诊断",
-        "spend、delivery 和归因窗口",
-        "CTR、CVR、CPA、ROAS 与 TACOS",
-        "新客、毛利和回收期"
-      ]
-    },
-    {
-      "name": "business-metrics-governance",
-      "display_name": "业务指标治理师",
-      "package_root": "数据/业务分析/business-metrics-governance",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "经营指标字典",
-        "多系统口径统一",
-        "看板和周报上线前治理",
-        "业务定义与公式",
-        "粒度、去重和状态",
-        "时区、币种和税口径"
-      ]
-    },
-    {
-      "name": "conversion-funnel-analyst",
-      "display_name": "电商转化漏斗分析师",
-      "package_root": "数据/业务分析/conversion-funnel-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "商品或结账转化下降",
-        "设备国家渠道漏斗比较",
-        "改版和实验效果诊断",
-        "漏斗定义和可比 cohort",
-        "曝光、查看、加购、结账和购买",
-        "设备、页面、国家和渠道"
-      ]
-    },
-    {
-      "name": "customer-cohort-ltv-analyst",
-      "display_name": "客户 Cohort 与 LTV 分析师",
-      "package_root": "数据/业务分析/customer-cohort-ltv-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "复购和留存分析",
-        "渠道客户质量比较",
-        "CAC 回收和 LTV 预测",
-        "客户身份与 cohort 定义",
-        "复购、留存和间隔",
-        "收入、毛利和贡献 LTV"
-      ]
-    },
-    {
-      "name": "executive-business-review",
-      "display_name": "经营分析与周月报专家",
-      "package_root": "数据/业务分析/executive-business-review",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "跨境经营周报月报",
-        "管理层业务复盘",
-        "目标差距和行动跟踪",
-        "目标、同比和环比口径",
-        "收入利润和现金",
-        "商品渠道客户驱动"
-      ]
-    },
-    {
-      "name": "forecast-scenario-planner",
-      "display_name": "经营预测与情景规划师",
-      "package_root": "数据/业务分析/forecast-scenario-planner",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "月度滚动预测",
-        "预算和目标拆解",
-        "乐观基准悲观情景",
-        "历史基线和结构变化",
-        "流量、转化、价格和复购驱动",
-        "季节、活动和供给约束"
-      ]
-    },
-    {
-      "name": "inventory-supply-chain-analyst",
-      "display_name": "库存与供应链分析师",
-      "package_root": "数据/业务分析/inventory-supply-chain-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "缺货和积压诊断",
-        "库存健康周报",
-        "供应商和物流绩效分析",
-        "库存状态和位置",
-        "需求、覆盖和安全库存",
-        "供应商交期和波动"
-      ]
-    },
-    {
-      "name": "marketplace-channel-comparison-analyst",
-      "display_name": "跨平台渠道对比分析师",
-      "package_root": "数据/业务分析/marketplace-channel-comparison-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "Amazon、Shopify、TikTok 横向比较",
-        "渠道资源分配",
-        "渠道利润和客户质量评估",
-        "订单状态与收入确认",
-        "平台费、履约、广告和退款",
-        "新客、复购和数据 ownership"
-      ]
-    },
-    {
-      "name": "pricing-promotion-analyst",
-      "display_name": "价格与促销分析师",
-      "package_root": "数据/业务分析/pricing-promotion-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "大促复盘",
-        "价格调整效果",
-        "优惠券和捆绑机制比较",
-        "基线和对照",
-        "价格、折扣和实际成交价",
-        "销量、转化和弹性"
-      ]
-    },
-    {
-      "name": "product-portfolio-analyst",
-      "display_name": "商品组合分析师",
-      "package_root": "数据/业务分析/product-portfolio-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "SKU 分层",
-        "新品和长尾评估",
-        "淘汰、补货与资源分配",
-        "流量、转化和销量",
-        "毛利和贡献",
-        "库存周转和缺货"
-      ]
-    },
-    {
-      "name": "sales-profitability-analyst",
-      "display_name": "销售与利润分析师",
-      "package_root": "数据/业务分析/sales-profitability-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "销售和利润波动",
-        "国家渠道 SKU 盈利分析",
-        "利润改善机会评估",
-        "销量、价格和组合",
-        "退款、折扣和税费",
-        "平台、支付、物流和广告成本"
-      ]
-    },
-    {
-      "name": "traffic-acquisition-analyst",
-      "display_name": "流量与获客分析师",
-      "package_root": "数据/业务分析/traffic-acquisition-analyst",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "渠道流量波动",
-        "自然与付费获客质量",
-        "UTM 和来源口径排查",
-        "user/session scope",
-        "source、medium、campaign 规范",
-        "新客、参与和落地页"
-      ]
-    },
-    {
-      "name": "data-quality-reconciliation",
-      "display_name": "业务数据质量与对账专家",
-      "package_root": "数据/数据治理/data-quality-reconciliation",
-      "entrypoint": "SKILL.md",
-      "type": "portable-business-skill",
-      "search_keywords": [
-        "平台与财务对账",
-        "看板数据验收",
-        "异常数据和口径争议",
-        "来源、抽取时间和范围",
-        "主键、重复和缺失",
-        "状态、时区、币种和税"
-      ]
-    },
-    {
-      "name": "advertising-performance-analyst",
-      "display_name": "广告效果分析师",
       "package_root": "数据看板/业务分析/advertising-performance-analyst",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
@@ -1143,6 +874,51 @@
       ]
     },
     {
+      "name": "dispute-resolution-case-manager",
+      "display_name": "争议解决案件经理",
+      "package_root": "法律政务/争议解决/dispute-resolution-case-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "争议事实梳理",
+        "平台申诉和合同索赔",
+        "诉前谈判与外部律师协同",
+        "当事人、合同和管辖",
+        "事实、损失和因果",
+        "证据真实性和保全"
+      ]
+    },
+    {
+      "name": "corporate-governance-counsel",
+      "display_name": "公司治理法务顾问",
+      "package_root": "法律政务/公司治理/corporate-governance-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "新实体或治理体系",
+        "重大合同和付款授权",
+        "董事股东决议与档案审查",
+        "实体、股权和最终受益人",
+        "章程与保留事项",
+        "签字权和授权期限"
+      ]
+    },
+    {
+      "name": "employment-labor-compliance-counsel",
+      "display_name": "劳动用工合规顾问",
+      "package_root": "法律政务/劳动用工/employment-labor-compliance-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "跨国招聘与用工模式",
+        "员工或承包商协议",
+        "绩效、调查和离职处理",
+        "工作地与雇佣主体",
+        "员工/承包商分类",
+        "薪酬、工时、福利和税"
+      ]
+    },
+    {
       "name": "contract-risk-reviewer",
       "display_name": "合同风险审阅师",
       "package_root": "法律政务/contract-risk-reviewer",
@@ -1155,6 +931,96 @@
         "谈判建议",
         "NDA",
         "SaaS合同"
+      ]
+    },
+    {
+      "name": "advertising-claims-legal-reviewer",
+      "display_name": "广告声明法律审查师",
+      "package_root": "法律政务/广告与消费者保护/advertising-claims-legal-reviewer",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Listing、落地页和广告上线前审查",
+        "达人、评价和促销机制",
+        "高风险产品声明整改",
+        "明示和暗示声明",
+        "可靠证据与适用人群",
+        "达人关系和显著披露"
+      ]
+    },
+    {
+      "name": "senior-cross-border-legal-counsel",
+      "display_name": "跨境法务负责人",
+      "package_root": "法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "跨境法务体系建设",
+        "重大项目法律风险评审",
+        "外部律师、证据和决策协调",
+        "司法辖区和主体",
+        "权利义务与授权",
+        "监管、消费者和平台风险"
+      ]
+    },
+    {
+      "name": "senior-cross-border-legal-counsel-weekly-report",
+      "display_name": "跨境法务负责人周报",
+      "package_root": "法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "法务周度复盘",
+        "重大风险与案件升级",
+        "合同、合规和整改跟踪",
+        "新增与关闭事项",
+        "风险等级和金额暴露",
+        "期限、证据和保全"
+      ]
+    },
+    {
+      "name": "intellectual-property-protection-counsel",
+      "display_name": "知识产权保护顾问",
+      "package_root": "法律政务/知识产权/intellectual-property-protection-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "品牌和新品 IP 清查",
+        "素材和达人内容授权",
+        "侵权投诉、应诉和证据保全",
+        "权利类型与国家覆盖",
+        "所有权、许可和使用证据",
+        "近似、混淆和在先权利"
+      ]
+    },
+    {
+      "name": "cross-border-regulatory-compliance-counsel",
+      "display_name": "跨境监管合规顾问",
+      "package_root": "法律政务/跨境监管/cross-border-regulatory-compliance-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "进入新国家或平台",
+        "进口商、卖家和平台责任审查",
+        "监管变化与整改",
+        "司法辖区与经营主体",
+        "产品、进口和市场准入",
+        "消费者、平台和信息披露"
+      ]
+    },
+    {
+      "name": "privacy-data-protection-counsel",
+      "display_name": "隐私与数据保护顾问",
+      "package_root": "法律政务/隐私与数据/privacy-data-protection-counsel",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "网站与 CRM 隐私审查",
+        "数据出境和供应商合同",
+        "删除访问请求或数据事件",
+        "数据类型、目的和主体",
+        "controller/processor 与合法基础",
+        "同意、Cookie 和营销偏好"
       ]
     },
     {
@@ -1937,6 +1803,126 @@
         "人群与内容匹配",
         "真实性和历史表现",
         "合作模式与单位经济"
+      ]
+    },
+    {
+      "name": "financial-close-reconciliation-manager",
+      "display_name": "财务关账与对账经理",
+      "package_root": "财务/核算关账/financial-close-reconciliation-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "月结关账",
+        "平台支付与银行对账",
+        "差异和审计证据治理",
+        "主体、期间和截止",
+        "订单、退款、费用和结算",
+        "银行、支付和清算在途"
+      ]
+    },
+    {
+      "name": "cross-border-tax-vat-planner",
+      "display_name": "跨境税务与 VAT 规划师",
+      "package_root": "财务/税务合规/cross-border-tax-vat-planner",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "进入新市场税务评估",
+        "VAT/IOSS/销售税流程",
+        "税务申报和审计证据准备",
+        "主体、常设机构和交易链",
+        "货物所在地与税收地点",
+        "平台代征与卖家责任"
+      ]
+    },
+    {
+      "name": "management-accounting-profitability-manager",
+      "display_name": "经营财务与利润经理",
+      "package_root": "财务/经营财务/management-accounting-profitability-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "渠道和 SKU 盈利核算",
+        "经营复盘",
+        "定价、促销和资源决策",
+        "法定与管理口径桥",
+        "收入、退款和折扣",
+        "采购、履约、平台和广告成本"
+      ]
+    },
+    {
+      "name": "senior-cross-border-finance-manager",
+      "display_name": "跨境财务高级经理",
+      "package_root": "财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "跨境财务体系建设",
+        "月度经营和资金决策",
+        "财务专项协同与风险治理",
+        "会计主体与账套",
+        "收入、成本和利润口径",
+        "现金、结算和营运资金"
+      ]
+    },
+    {
+      "name": "senior-cross-border-finance-manager-weekly-report",
+      "display_name": "跨境财务高级经理周报",
+      "package_root": "财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "财务周度复盘",
+        "现金和营运资金预警",
+        "关账、税务和预算事项跟踪",
+        "数据截止和关账状态",
+        "收入、利润和预算差异",
+        "现金、应收应付和库存"
+      ]
+    },
+    {
+      "name": "cash-flow-working-capital-manager",
+      "display_name": "现金流与营运资金经理",
+      "package_root": "财务/资金管理/cash-flow-working-capital-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "十三周现金预测",
+        "营运资金改善",
+        "资金缺口和付款安排",
+        "期初现金和可用额度",
+        "回款、结算和应收",
+        "采购、物流、税和应付"
+      ]
+    },
+    {
+      "name": "multi-currency-treasury-manager",
+      "display_name": "多币种资金与汇率经理",
+      "package_root": "财务/资金管理/multi-currency-treasury-manager",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "多币种现金管理",
+        "平台结算和换汇优化",
+        "汇率风险和资金安全治理",
+        "账户、主体和币种",
+        "应收应付自然对冲",
+        "结算周期和费用"
+      ]
+    },
+    {
+      "name": "budget-forecast-controller",
+      "display_name": "预算与预测控制经理",
+      "package_root": "财务/预算管理/budget-forecast-controller",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "年度预算",
+        "月度滚动预测",
+        "预算差异和资源重配",
+        "目标、版本和责任中心",
+        "销量、价格、成本和人效驱动",
+        "汇率、税和季节情景"
       ]
     }
   ]

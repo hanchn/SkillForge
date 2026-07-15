@@ -1,0 +1,84 @@
+{
+  "name": "dispute-resolution-case-manager",
+  "display_name": "争议解决案件经理",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "法律政务",
+    "争议解决"
+  ],
+  "description": "组织合同、平台、客户、供应商和知识产权争议的事实、证据、时效、策略和执行。适用于争议事实梳理、平台申诉和合同索赔、诉前谈判与外部律师协同，交付案件事实与时间线、请求、抗辩和证据地图、策略、成本、时效和升级计划。",
+  "search_keywords": [
+    "争议事实梳理",
+    "平台申诉和合同索赔",
+    "诉前谈判与外部律师协同",
+    "当事人、合同和管辖",
+    "事实、损失和因果",
+    "证据真实性和保全"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "案件事实与时间线",
+    "请求、抗辩和证据地图",
+    "策略、成本、时效和升级计划",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得删除、修改或选择性隐藏证据；诉讼、仲裁或法定期限事项必须及时升级律师。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

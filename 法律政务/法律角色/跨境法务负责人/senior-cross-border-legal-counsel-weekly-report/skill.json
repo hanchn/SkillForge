@@ -1,0 +1,85 @@
+{
+  "name": "senior-cross-border-legal-counsel-weekly-report",
+  "display_name": "跨境法务负责人周报",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "法律政务",
+    "法律角色",
+    "跨境法务负责人"
+  ],
+  "description": "基于真实案件、合同和监管证据生成法务周报。适用于法务周度复盘、重大风险与案件升级、合同、合规和整改跟踪，交付法务周报、风险与时效台账、决策、外部律师和下周行动。",
+  "search_keywords": [
+    "法务周度复盘",
+    "重大风险与案件升级",
+    "合同、合规和整改跟踪",
+    "新增与关闭事项",
+    "风险等级和金额暴露",
+    "期限、证据和保全"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "法务周报",
+    "风险与时效台账",
+    "决策、外部律师和下周行动",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得披露超出授权的特权或敏感信息，不得虚构案件状态或法律结论。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

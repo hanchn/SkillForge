@@ -1,4 +1,4 @@
 interface:
   display_name: "经营财务与利润经理"
-  short_description: "Connect management accounting to business decisions"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。"
+  default_prompt: "使用 $management-accounting-profitability-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

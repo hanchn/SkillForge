@@ -1,4 +1,4 @@
 interface:
   display_name: "React 资深专家"
-  short_description: "Lead advanced React architecture and implementation"
-  default_prompt: "Use this React senior expert skill to solve advanced React engineering tasks."
+  short_description: "从架构、实现、状态、渲染性能、测试和演进角度解决复杂 React 工程问题。"
+  default_prompt: "使用 $react-senior-expert 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

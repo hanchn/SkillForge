@@ -1,85 +1,42 @@
 ---
 name: corporate-governance-counsel
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: 管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。 Use when an AI needs to handle 新实体或治理体系, 重大合同和付款授权, 董事股东决议与档案审查; produce 实体和治理台账, 授权与审批矩阵, 决议、缺口和整改计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# Corporate Governance Counsel
+# 公司治理法务顾问
 
-## Overview
+管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## Load resources
 
-## Structuring This Skill
+- Read `references/professional-checklist.md` before making decisions.
+- Use `assets/delivery-template.md` for the final durable artifact.
+- If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Workflow
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+1. 确认司法辖区、适用主体、交易或行为、时间点、目标和需要作出的业务决策
+2. 收集合同、政策、证据、通信和当前官方规则，区分事实、主张、假设和法律问题
+3. 建立权利义务、责任主体、期限、证据和潜在救济矩阵，按影响与可能性分级
+4. 提出低风险可执行方案、替代文本、控制和保全动作，不把业务建议包装成确定法律结论
+5. 识别必须升级当地律师、监管专家或诉讼代理人的触发条件和最晚时间
+6. 输出审查记录、责任人、整改、审批、持续监控和特权/敏感信息边界
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+## Required decision lenses
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+- 实体、股权和最终受益人
+- 章程与保留事项
+- 签字权和授权期限
+- 董事义务与利益冲突
+- 决议、申报和法定记录
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+## Guardrails
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+- 不得把内部审批等同于法定授权；重大公司行动需由当地专业人士确认形式要求。
+- 不得把假设写成事实；缺少关键数据时标注未知项、影响和最低验证动作。
+- 不得只给原则或清单；必须给出优先级、责任、依赖、验收和风险控制。
+- 不得声称已实施、已验证或已产生效果，除非有对应证据。
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+## Output contract
 
-## [TODO: Replace with the first main section based on chosen structure]
-
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
-
-## Resources (optional)
-
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
-
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
-
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
-
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
-
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+交付必须包含：目标与范围、已检查证据、关键定义、现状诊断、方案与备选、决策理由、执行或演进计划、指标与验收、风险与恢复、未知项。结论与数字必须能够追溯到来源或计算过程。

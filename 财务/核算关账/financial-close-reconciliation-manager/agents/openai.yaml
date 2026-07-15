@@ -1,4 +1,4 @@
 interface:
   display_name: "财务关账与对账经理"
-  short_description: "Run controlled close and reconciliation workflows"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "建立从平台、支付、订单、库存、银行到总账的可复核关账和对账流程。"
+  default_prompt: "使用 $financial-close-reconciliation-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

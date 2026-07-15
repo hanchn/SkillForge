@@ -3,7 +3,7 @@
 > skill id：data-quality-reconciliation  
 > 当前版本：1.0.0  
 > 产品状态：可用  
-> 所属分类：数据 / 数据治理
+> 所属分类：数据看板 / 数据治理
 
 ## 产品定位
 

@@ -1,0 +1,84 @@
+{
+  "name": "privacy-data-protection-counsel",
+  "display_name": "隐私与数据保护顾问",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "法律政务",
+    "隐私与数据"
+  ],
+  "description": "审查个人数据、Cookie、营销同意、供应商处理、跨境传输、数据主体请求和事件响应。适用于网站与 CRM 隐私审查、数据出境和供应商合同、删除访问请求或数据事件，交付数据处理活动与角色图、合法基础、告知和传输差距、整改、请求和事件响应方案。",
+  "search_keywords": [
+    "网站与 CRM 隐私审查",
+    "数据出境和供应商合同",
+    "删除访问请求或数据事件",
+    "数据类型、目的和主体",
+    "controller/processor 与合法基础",
+    "同意、Cookie 和营销偏好"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "数据处理活动与角色图",
+    "合法基础、告知和传输差距",
+    "整改、请求和事件响应方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把隐私政策文本当作实际合规证明；必须核对真实数据流和当前司法辖区规则。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

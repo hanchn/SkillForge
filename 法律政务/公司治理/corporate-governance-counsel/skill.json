@@ -1,0 +1,84 @@
+{
+  "name": "corporate-governance-counsel",
+  "display_name": "公司治理法务顾问",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "法律政务",
+    "公司治理"
+  ],
+  "description": "管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。适用于新实体或治理体系、重大合同和付款授权、董事股东决议与档案审查，交付实体和治理台账、授权与审批矩阵、决议、缺口和整改计划。",
+  "search_keywords": [
+    "新实体或治理体系",
+    "重大合同和付款授权",
+    "董事股东决议与档案审查",
+    "实体、股权和最终受益人",
+    "章程与保留事项",
+    "签字权和授权期限"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "实体和治理台账",
+    "授权与审批矩阵",
+    "决议、缺口和整改计划",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把内部审批等同于法定授权；重大公司行动需由当地专业人士确认形式要求。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

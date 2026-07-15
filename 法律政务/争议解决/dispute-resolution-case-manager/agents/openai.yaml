@@ -1,4 +1,4 @@
 interface:
   display_name: "争议解决案件经理"
-  short_description: "Manage evidence strategy and dispute workflows"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "组织合同、平台、客户、供应商和知识产权争议的事实、证据、时效、策略和执行。"
+  default_prompt: "使用 $dispute-resolution-case-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

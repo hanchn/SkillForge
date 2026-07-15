@@ -1,0 +1,84 @@
+{
+  "name": "cross-border-tax-vat-planner",
+  "display_name": "跨境税务与 VAT 规划师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "财务",
+    "税务合规"
+  ],
+  "description": "按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。适用于进入新市场税务评估、VAT/IOSS/销售税流程、税务申报和审计证据准备，交付交易与税务责任图、注册申报和证据日历、风险、整改和专业顾问升级清单。",
+  "search_keywords": [
+    "进入新市场税务评估",
+    "VAT/IOSS/销售税流程",
+    "税务申报和审计证据准备",
+    "主体、常设机构和交易链",
+    "货物所在地与税收地点",
+    "平台代征与卖家责任"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "交易与税务责任图",
+    "注册申报和证据日历",
+    "风险、整改和专业顾问升级清单",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "税务规则高度时效且依赖司法辖区；不得据此直接申报，必须由当地税务专业人士复核。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

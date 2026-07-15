@@ -1,4 +1,4 @@
 interface:
   display_name: "知识产权保护顾问"
-  short_description: "Protect trademarks patents copyrights and designs"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "管理商标、版权、专利、外观设计、域名、授权链和平台侵权处置。"
+  default_prompt: "使用 $intellectual-property-protection-counsel 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

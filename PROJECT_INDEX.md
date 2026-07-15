@@ -13,7 +13,9 @@
 - 前后端架构地图：互联网研发/ARCHITECTURE_SKILLS_MAP.md
 - 渠道运营地图：渠道运营/CHANNEL_OPERATIONS_SKILLS_MAP.md
 - 精准营销地图：精准营销/PRECISION_MARKETING_SKILLS_MAP.md
-- 业务数据分析地图：数据/BUSINESS_ANALYTICS_SKILLS_MAP.md
+- 业务数据分析地图：数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md
+- 跨境法律地图：法律政务/LEGAL_SKILLS_MAP.md
+- 跨境财务地图：财务/FINANCE_SKILLS_MAP.md
 - 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
 
 ## Search Strategy
@@ -102,34 +104,14 @@
   - 路径：`互联网研发/前端/架构/frontend-architecture-designer/`
   - 分类：互联网研发 / 前端 / 架构
   - 用途：从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。适用于新前端平台或大型模块架构、遗留前端重构与模块化、多团队前端架构评审，交付前端架构蓝图、模块与依赖边界、运行时、交付与演进方案。
-- **Angular 前端架构师**（`angular-frontend-architecture`）
-  - 路径：`互联网研发/前端/框架/Angular/angular-frontend-architecture/`
-  - 分类：互联网研发 / 前端 / 框架 / Angular
-  - 用途：围绕 standalone components、signals、依赖注入、路由和混合渲染设计大型 Angular 应用。适用于Angular 企业应用架构、NgModule 到 standalone 演进、大型团队前端平台治理，交付Angular 功能域架构、依赖注入与状态边界、渲染、测试和升级方案。
-- **Next.js 前端架构师**（`nextjs-frontend-architecture`）
-  - 路径：`互联网研发/前端/框架/Next.js/nextjs-frontend-architecture/`
-  - 分类：互联网研发 / 前端 / 框架 / Next.js
-  - 用途：按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。适用于Next.js App Router 新项目、Pages Router 迁移、电商 SEO、性能和缓存架构，交付Next.js 路由与渲染蓝图、Server/Client 边界、缓存、数据和部署方案。
-- **React 前端架构师**（`react-frontend-architecture`）
-  - 路径：`互联网研发/前端/框架/React/react-frontend-architecture/`
+- **React 资深专家**（`react-senior-expert`）
+  - 路径：`互联网研发/前端/框架/React/react-senior-expert/`
   - 分类：互联网研发 / 前端 / 框架 / React
-  - 用途：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。适用于React 应用架构和重构、复杂状态与数据流治理、组件平台和多团队协作，交付React 架构蓝图、组件与状态边界、渲染、测试和迁移方案。
-- **SvelteKit 前端架构师**（`sveltekit-frontend-architecture`）
-  - 路径：`互联网研发/前端/框架/SvelteKit/sveltekit-frontend-architecture/`
-  - 分类：互联网研发 / 前端 / 框架 / SvelteKit
-  - 用途：围绕文件路由、load、form actions、服务端边界和 adapter 设计生产级 SvelteKit 应用。适用于SvelteKit 新项目、SSR/SSG/SPA 混合架构、SvelteKit 数据与部署治理，交付SvelteKit 路由和渲染架构、数据、表单与状态边界、adapter、观测和部署方案。
-- **Vue 前端架构师**（`vue-frontend-architecture`）
-  - 路径：`互联网研发/前端/框架/Vue/vue-frontend-architecture/`
-  - 分类：互联网研发 / 前端 / 框架 / Vue
-  - 用途：围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。适用于Vue 3 大型应用架构、Options API 到 Composition API 演进、组件库与业务应用分层，交付Vue 架构方案、组件与 composable 边界、状态、路由和测试方案。
-- **JavaScript 前端架构师**（`javascript-frontend-architecture`）
-  - 路径：`互联网研发/前端/语言/JavaScript/javascript-frontend-architecture/`
-  - 分类：互联网研发 / 前端 / 语言 / JavaScript
-  - 用途：针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。适用于大型 JavaScript 应用治理、ESM 与旧模块迁移、运行时契约和质量门禁设计，交付JavaScript 架构方案、模块与运行时契约、渐进治理计划。
-- **TypeScript 前端架构师**（`typescript-frontend-architecture`）
-  - 路径：`互联网研发/前端/语言/TypeScript/typescript-frontend-architecture/`
-  - 分类：互联网研发 / 前端 / 语言 / TypeScript
-  - 用途：利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。适用于TypeScript 单仓或多包架构、类型边界和 API 类型治理、大型项目编译性能治理，交付TypeScript 分层方案、类型与运行时边界、tsconfig 和包治理建议。
+  - 用途：从架构、实现、状态、渲染性能、测试和演进角度解决复杂 React 工程问题。适用于React 复杂功能和架构设计、React 性能或状态问题诊断、React 代码评审、重构和技术升级，交付React 方案与代码边界、状态、渲染和性能决策、测试、迁移和验证计划。
+- **Vue3 资深专家**（`vue3-senior-expert`）
+  - 路径：`互联网研发/前端/框架/Vue3/vue3-senior-expert/`
+  - 分类：互联网研发 / 前端 / 框架 / Vue3
+  - 用途：从架构、实现、响应式状态、性能、测试和演进角度解决复杂 Vue 3 工程问题。适用于Vue 3 复杂功能和架构设计、响应式、状态或性能问题诊断、Vue 代码评审、重构和版本升级，交付Vue 3 方案与代码边界、响应式、状态和性能决策、测试、迁移和验证计划。
 - **API 契约设计师**（`api-contract-designer`）
   - 路径：`互联网研发/后端/api-contract-designer/`
   - 分类：互联网研发 / 后端 / API设计
@@ -222,60 +204,6 @@
   - 路径：`互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report/`
   - 分类：互联网研发 / 研发角色 / 全栈测试 / 周报
   - 用途：Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics
-### 数据
-
-- **广告效果分析师**（`advertising-performance-analyst`）
-  - 路径：`数据/业务分析/advertising-performance-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。
-- **业务指标治理师**（`business-metrics-governance`）
-  - 路径：`数据/业务分析/business-metrics-governance/`
-  - 分类：数据 / 业务分析
-  - 用途：建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。
-- **电商转化漏斗分析师**（`conversion-funnel-analyst`）
-  - 路径：`数据/业务分析/conversion-funnel-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。
-- **客户 Cohort 与 LTV 分析师**（`customer-cohort-ltv-analyst`）
-  - 路径：`数据/业务分析/customer-cohort-ltv-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。
-- **经营分析与周月报专家**（`executive-business-review`）
-  - 路径：`数据/业务分析/executive-business-review/`
-  - 分类：数据 / 业务分析
-  - 用途：把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。
-- **经营预测与情景规划师**（`forecast-scenario-planner`）
-  - 路径：`数据/业务分析/forecast-scenario-planner/`
-  - 分类：数据 / 业务分析
-  - 用途：用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。
-- **库存与供应链分析师**（`inventory-supply-chain-analyst`）
-  - 路径：`数据/业务分析/inventory-supply-chain-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。
-- **跨平台渠道对比分析师**（`marketplace-channel-comparison-analyst`）
-  - 路径：`数据/业务分析/marketplace-channel-comparison-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。
-- **价格与促销分析师**（`pricing-promotion-analyst`）
-  - 路径：`数据/业务分析/pricing-promotion-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。
-- **商品组合分析师**（`product-portfolio-analyst`）
-  - 路径：`数据/业务分析/product-portfolio-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。
-- **销售与利润分析师**（`sales-profitability-analyst`）
-  - 路径：`数据/业务分析/sales-profitability-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。
-- **流量与获客分析师**（`traffic-acquisition-analyst`）
-  - 路径：`数据/业务分析/traffic-acquisition-analyst/`
-  - 分类：数据 / 业务分析
-  - 用途：区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。
-- **业务数据质量与对账专家**（`data-quality-reconciliation`）
-  - 路径：`数据/数据治理/data-quality-reconciliation/`
-  - 分类：数据 / 数据治理
-  - 用途：验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。
 ### 数据看板
 
 - **广告效果分析师**（`advertising-performance-analyst`）
@@ -336,10 +264,46 @@
   - 用途：验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。
 ### 法律政务
 
+- **争议解决案件经理**（`dispute-resolution-case-manager`）
+  - 路径：`法律政务/争议解决/dispute-resolution-case-manager/`
+  - 分类：法律政务 / 争议解决
+  - 用途：组织合同、平台、客户、供应商和知识产权争议的事实、证据、时效、策略和执行。适用于争议事实梳理、平台申诉和合同索赔、诉前谈判与外部律师协同，交付案件事实与时间线、请求、抗辩和证据地图、策略、成本、时效和升级计划。
+- **公司治理法务顾问**（`corporate-governance-counsel`）
+  - 路径：`法律政务/公司治理/corporate-governance-counsel/`
+  - 分类：法律政务 / 公司治理
+  - 用途：管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。适用于新实体或治理体系、重大合同和付款授权、董事股东决议与档案审查，交付实体和治理台账、授权与审批矩阵、决议、缺口和整改计划。
+- **劳动用工合规顾问**（`employment-labor-compliance-counsel`）
+  - 路径：`法律政务/劳动用工/employment-labor-compliance-counsel/`
+  - 分类：法律政务 / 劳动用工
+  - 用途：审查员工、独立承包商、远程团队、薪酬工时、保密知识产权和离职流程风险。适用于跨国招聘与用工模式、员工或承包商协议、绩效、调查和离职处理，交付用工分类与义务矩阵、合同和流程风险、整改、证据和律师升级清单。
 - **合同风险审阅师**（`contract-risk-reviewer`）
   - 路径：`法律政务/contract-risk-reviewer/`
   - 分类：法律政务 / 合同 / 商业合同审阅
   - 用途：逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单
+- **广告声明法律审查师**（`advertising-claims-legal-reviewer`）
+  - 路径：`法律政务/广告与消费者保护/advertising-claims-legal-reviewer/`
+  - 分类：法律政务 / 广告与消费者保护
+  - 用途：审查产品声明、比较广告、折扣、评价、达人背书、环保和健康表达的证据与披露。适用于Listing、落地页和广告上线前审查、达人、评价和促销机制、高风险产品声明整改，交付声明逐条证据矩阵、风险等级与修改稿、披露、审批和留档要求。
+- **跨境法务负责人**（`senior-cross-border-legal-counsel`）
+  - 路径：`法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel/`
+  - 分类：法律政务 / 法律角色 / 跨境法务负责人
+  - 用途：统筹跨境合同、监管、知识产权、隐私、营销、用工、争议和公司治理风险。适用于跨境法务体系建设、重大项目法律风险评审、外部律师、证据和决策协调，交付法律风险组合与优先级、专项法律 Skill 编排、决策、升级律师和治理计划。
+- **跨境法务负责人周报**（`senior-cross-border-legal-counsel-weekly-report`）
+  - 路径：`法律政务/法律角色/跨境法务负责人/senior-cross-border-legal-counsel-weekly-report/`
+  - 分类：法律政务 / 法律角色 / 跨境法务负责人
+  - 用途：基于真实案件、合同和监管证据生成法务周报。适用于法务周度复盘、重大风险与案件升级、合同、合规和整改跟踪，交付法务周报、风险与时效台账、决策、外部律师和下周行动。
+- **知识产权保护顾问**（`intellectual-property-protection-counsel`）
+  - 路径：`法律政务/知识产权/intellectual-property-protection-counsel/`
+  - 分类：法律政务 / 知识产权
+  - 用途：管理商标、版权、专利、外观设计、域名、授权链和平台侵权处置。适用于品牌和新品 IP 清查、素材和达人内容授权、侵权投诉、应诉和证据保全，交付IP 资产与权利链台账、侵权/被诉风险分析、申请、许可、取证和处置计划。
+- **跨境监管合规顾问**（`cross-border-regulatory-compliance-counsel`）
+  - 路径：`法律政务/跨境监管/cross-border-regulatory-compliance-counsel/`
+  - 分类：法律政务 / 跨境监管
+  - 用途：按销售国、主体、产品、渠道和责任链识别跨境贸易与电商监管义务。适用于进入新国家或平台、进口商、卖家和平台责任审查、监管变化与整改，交付适用法规和责任矩阵、证据缺口与风险等级、整改、监控和律师升级方案。
+- **隐私与数据保护顾问**（`privacy-data-protection-counsel`）
+  - 路径：`法律政务/隐私与数据/privacy-data-protection-counsel/`
+  - 分类：法律政务 / 隐私与数据
+  - 用途：审查个人数据、Cookie、营销同意、供应商处理、跨境传输、数据主体请求和事件响应。适用于网站与 CRM 隐私审查、数据出境和供应商合同、删除访问请求或数据事件，交付数据处理活动与角色图、合法基础、告知和传输差距、整改、请求和事件响应方案。
 ### 渠道运营
 
 - **供应商寻源与质量管理器**（`supplier-sourcing-quality-manager`）
@@ -552,3 +516,37 @@
   - 路径：`精准营销/达人联盟/influencer-affiliate-manager/`
   - 分类：精准营销 / 达人联盟
   - 用途：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。适用于达人种草和带货、联盟计划搭建、UGC 采购与授权，交付达人分层池、合作 brief 与跟进管道、佣金、授权和效果复盘。
+### 财务
+
+- **财务关账与对账经理**（`financial-close-reconciliation-manager`）
+  - 路径：`财务/核算关账/financial-close-reconciliation-manager/`
+  - 分类：财务 / 核算关账
+  - 用途：建立从平台、支付、订单、库存、银行到总账的可复核关账和对账流程。适用于月结关账、平台支付与银行对账、差异和审计证据治理，交付关账日历和责任矩阵、对账差异桥、调整、审批和证据包。
+- **跨境税务与 VAT 规划师**（`cross-border-tax-vat-planner`）
+  - 路径：`财务/税务合规/cross-border-tax-vat-planner/`
+  - 分类：财务 / 税务合规
+  - 用途：按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。适用于进入新市场税务评估、VAT/IOSS/销售税流程、税务申报和审计证据准备，交付交易与税务责任图、注册申报和证据日历、风险、整改和专业顾问升级清单。
+- **经营财务与利润经理**（`management-accounting-profitability-manager`）
+  - 路径：`财务/经营财务/management-accounting-profitability-manager/`
+  - 分类：财务 / 经营财务
+  - 用途：连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。适用于渠道和 SKU 盈利核算、经营复盘、定价、促销和资源决策，交付管理利润口径、商品渠道盈利矩阵、差异、情景和经营建议。
+- **跨境财务高级经理**（`senior-cross-border-finance-manager`）
+  - 路径：`财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager/`
+  - 分类：财务 / 财务角色 / 跨境财务高级经理
+  - 用途：统筹核算关账、管理报表、预算、现金、营运资金、税务、外汇和内部控制。适用于跨境财务体系建设、月度经营和资金决策、财务专项协同与风险治理，交付财务目标与责任矩阵、专项财务 Skill 编排、关账、现金、预算和风险计划。
+- **跨境财务高级经理周报**（`senior-cross-border-finance-manager-weekly-report`）
+  - 路径：`财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report/`
+  - 分类：财务 / 财务角色 / 跨境财务高级经理
+  - 用途：基于账务、现金、预算和税务证据生成财务周报。适用于财务周度复盘、现金和营运资金预警、关账、税务和预算事项跟踪，交付财务周报、现金、利润和风险摘要、决策、责任人与下周行动。
+- **现金流与营运资金经理**（`cash-flow-working-capital-manager`）
+  - 路径：`财务/资金管理/cash-flow-working-capital-manager/`
+  - 分类：财务 / 资金管理
+  - 用途：管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。适用于十三周现金预测、营运资金改善、资金缺口和付款安排，交付现金流预测、现金转换周期分析、付款、融资和预警计划。
+- **多币种资金与汇率经理**（`multi-currency-treasury-manager`）
+  - 路径：`财务/资金管理/multi-currency-treasury-manager/`
+  - 分类：财务 / 资金管理
+  - 用途：管理多币种账户、平台结算、汇率暴露、换汇、流动性和资金权限。适用于多币种现金管理、平台结算和换汇优化、汇率风险和资金安全治理，交付币种资金头寸、汇率暴露与情景、换汇、归集、权限和预警方案。
+- **预算与预测控制经理**（`budget-forecast-controller`）
+  - 路径：`财务/预算管理/budget-forecast-controller/`
+  - 分类：财务 / 预算管理
+  - 用途：把战略目标转化为驱动型预算、滚动预测、差异分析和资源控制。适用于年度预算、月度滚动预测、预算差异和资源重配，交付预算模型与假设、滚动预测和差异桥、资源、预警和决策规则。

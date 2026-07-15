@@ -1,4 +1,4 @@
 interface:
   display_name: "预算与预测控制经理"
-  short_description: "Govern budgets forecasts and variance actions"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "把战略目标转化为驱动型预算、滚动预测、差异分析和资源控制。"
+  default_prompt: "使用 $budget-forecast-controller 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

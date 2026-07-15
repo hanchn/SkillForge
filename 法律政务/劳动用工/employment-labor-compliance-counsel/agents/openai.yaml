@@ -1,4 +1,4 @@
 interface:
   display_name: "劳动用工合规顾问"
-  short_description: "Review employment contractor and labor risks"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "审查员工、独立承包商、远程团队、薪酬工时、保密知识产权和离职流程风险。"
+  default_prompt: "使用 $employment-labor-compliance-counsel 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

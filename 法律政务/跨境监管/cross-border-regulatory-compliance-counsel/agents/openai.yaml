@@ -1,4 +1,4 @@
 interface:
   display_name: "跨境监管合规顾问"
-  short_description: "Review cross-border regulatory compliance risks"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "按销售国、主体、产品、渠道和责任链识别跨境贸易与电商监管义务。"
+  default_prompt: "使用 $cross-border-regulatory-compliance-counsel 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,4 @@
 interface:
   display_name: "广告声明法律审查师"
-  short_description: "Review claims endorsements reviews and promotions"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "审查产品声明、比较广告、折扣、评价、达人背书、环保和健康表达的证据与披露。"
+  default_prompt: "使用 $advertising-claims-legal-reviewer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

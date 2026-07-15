@@ -1,4 +1,4 @@
 interface:
   display_name: "隐私与数据保护顾问"
-  short_description: "Review privacy data and transfer compliance"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "审查个人数据、Cookie、营销同意、供应商处理、跨境传输、数据主体请求和事件响应。"
+  default_prompt: "使用 $privacy-data-protection-counsel 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

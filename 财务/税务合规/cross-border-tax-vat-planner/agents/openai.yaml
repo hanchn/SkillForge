@@ -1,4 +1,4 @@
 interface:
   display_name: "跨境税务与 VAT 规划师"
-  short_description: "Plan cross-border tax VAT and evidence controls"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。"
+  default_prompt: "使用 $cross-border-tax-vat-planner 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

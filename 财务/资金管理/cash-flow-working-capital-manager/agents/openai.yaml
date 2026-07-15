@@ -1,4 +1,4 @@
 interface:
   display_name: "现金流与营运资金经理"
-  short_description: "Manage cash conversion and working capital"
-  default_prompt: "Use this skill to produce an evidence-backed review with explicit professional escalation boundaries."
+  short_description: "管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。"
+  default_prompt: "使用 $cash-flow-working-capital-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
