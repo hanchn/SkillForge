@@ -887,7 +887,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         const pathParam = urlParams.get('path');
         if (pathParam) {
-          state.selectedPath = pathParam.split(',').filter(Boolean);
+          state.selectedPath = pathParam.split(',').map(decodeURIComponent).filter(Boolean);
         }
 
         render();
