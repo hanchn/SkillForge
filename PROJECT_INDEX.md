@@ -10,254 +10,378 @@
 - 元数据规范：schemas/skill.schema.json
 - 标准模板：templates/standard-skill-package/
 - 可视化管理：skills-dashboard/
-- 电商前十能力：跨境运营/ECOMMERCE_TOP10_SKILLS.md
-- 前后端能力地图：互联网研发/DEVELOPMENT_SKILLS_MAP.md
-- 研发角色：互联网研发/研发角色/README.md
-- 公司项目浏览：项目管理/README.md
+- 前后端架构地图：互联网研发/ARCHITECTURE_SKILLS_MAP.md
+- 跨境运营营销地图：跨境运营/OPERATIONS_MARKETING_SKILLS_MAP.md
+- 业务数据分析地图：数据/BUSINESS_ANALYTICS_SKILLS_MAP.md
+- 企业系统产品架构：项目管理/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
 
 ## Search Strategy
 
-1. 新建、升级或打包 skill 前先读项目治理 skill。
+1. 新建、升级或打包 Skill 前先读项目治理 Skill。
 2. 从 registry/skills-index.json 按 name、category_path 或 search_keywords 定位。
-3. 进入技能包后先读 README.md 理解中文产品能力和版本，再读 SKILL.md 执行。
-4. 按 SKILL.md 指示加载 references 与 assets。
-5. 执行后使用 eval/acceptance.md 验收；声明脚本的技能还必须运行脚本测试。
-
-## Business Browse Directories
-
-- 跨境运营/：选品、供应链、合规、利润、库存、物流、渠道和推广营销。
-- 互联网研发/：产品、前端、后端、测试、Git 和研发角色。
-- 数据/：业务分析与指标诊断。
-- 法律政务/：合同和法律政务辅助。
-- 项目管理/：公司 IMS、TMS、OMS、OFS、WMS 项目及未来细分 skill。
-- work/：工作台与基座行为资料。
+3. 先用能力地图选择主 Skill，再组合必要的专项 Skill。
+4. 进入技能包后先读 README.md 理解中文产品能力和版本，再读 SKILL.md 执行。
+5. 按 SKILL.md 加载 references 与 assets，最后使用 eval/acceptance.md 验收。
 
 ## Registered Skills
 
-### SkillForge项目治理
+### project-root
 
-- skill id：skillforge-project-governance
-- 路径：skillforge-project-governance/
-- 分类：project-root
-- 用途：描述 SkillForge 项目的定位、架构设计与治理规则，供后续 AI 持续按统一标准升级业务 skill。
-- 前端展示：隐藏（项目治理基座）
+- **SkillForge项目治理**（`skillforge-project-governance`）；前端隐藏
+  - 路径：`skillforge-project-governance/`
+  - 分类：project-root
+  - 用途：描述 SkillForge 项目的定位、架构设计与治理规则，供后续 AI 持续按统一标准升级业务 skill。
+### 互联网研发
 
-### Git 安全工作流管理器
+- **Git 安全工作流管理器**（`git-workflow-manager`）
+  - 路径：`互联网研发/git/git-workflow-manager/`
+  - 分类：互联网研发 / git / 安全工作流
+  - 用途：基于真实仓库状态安全规划或执行分支、提交、合并、变基、发布流转、冲突处理与恢复
+- **产品需求架构师**（`product-requirements-architect`）
+  - 路径：`互联网研发/产品/B端产品/product-requirements-architect/`
+  - 分类：互联网研发 / 产品 / B端产品
+  - 用途：把模糊产品想法转成可评审、可开发、可测试、可度量的需求包
+- **前端功能实现工程师**（`frontend-feature-implementer`）
+  - 路径：`互联网研发/前端/前台/frontend-feature-implementer/`
+  - 分类：互联网研发 / 前端 / 前台 / 功能实现
+  - 用途：Implement complete frontend features in an existing codebase from product requirements, screenshots, designs, or behavioral specifications while preserving repository conventions, responsive behavior, accessibility, loading and failure states, data contracts, tests, and visual fidelity
+- **前端多语言查验师**（`frontend-localization-verifier`）
+  - 路径：`互联网研发/前端/前台/frontend-localization-verifier/`
+  - 分类：互联网研发 / 前端 / 前台 / 国际化与本地化
+  - 用途：Verify frontend internationalization and localization across supported locales, including translation coverage, key drift, ICU messages, variables, plurals, gender, dates, numbers, currency, units, time zones, Unicode, collation, locale routing, persistence, layout expansion, RTL, fonts, accessibility, metadata, hreflang, and localized business behavior
+- **前端性能分析师**（`frontend-performance-analyzer`）
+  - 路径：`互联网研发/前端/前台/frontend-performance-analyzer/`
+  - 分类：互联网研发 / 前端 / 前台 / 性能分析
+  - 用途：Diagnose frontend performance using field and laboratory evidence, Core Web Vitals, navigation and interaction traces, network waterfalls, rendering, main-thread tasks, JavaScript execution, bundles, images, fonts, caching, hydration, data fetching, third-party scripts, memory, and performance budgets
+- **前端状态与数据流设计师**（`frontend-state-integration-designer`）
+  - 路径：`互联网研发/前端/前台/frontend-state-integration-designer/`
+  - 分类：互联网研发 / 前端 / 前台 / 状态与数据
+  - 用途：Design and review predictable frontend state, URL state, form state, server cache, asynchronous queries, mutations, optimistic updates, invalidation, race handling, offline behavior, and error recovery
+- **Web 性能与无障碍审计师**（`web-performance-accessibility-auditor`）
+  - 路径：`互联网研发/前端/前台/web-performance-accessibility-auditor/`
+  - 分类：互联网研发 / 前端 / 前台 / 质量审计
+  - 用途：Audit and improve web performance, Core Web Vitals, loading behavior, semantic HTML, keyboard access, focus management, screen-reader communication, contrast, motion, responsive interaction, and regression risk using measured evidence
+- **前端通用架构设计师**（`frontend-architecture-designer`）
+  - 路径：`互联网研发/前端/架构/frontend-architecture-designer/`
+  - 分类：互联网研发 / 前端 / 架构
+  - 用途：从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。 Use when an AI needs to handle 新前端平台或大型模块架构, 遗留前端重构与模块化, 多团队前端架构评审; produce 前端架构蓝图, 模块与依赖边界, 运行时、交付与演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Next.js 前端架构师**（`nextjs-frontend-architecture`）
+  - 路径：`互联网研发/前端/框架/Next.js/nextjs-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 框架 / Next.js
+  - 用途：按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。 Use when an AI needs to handle Next.js App Router 新项目, Pages Router 迁移, 电商 SEO、性能和缓存架构; produce Next.js 路由与渲染蓝图, Server/Client 边界, 缓存、数据和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **React 前端架构师**（`react-frontend-architecture`）
+  - 路径：`互联网研发/前端/框架/React/react-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 框架 / React
+  - 用途：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。 Use when an AI needs to handle React 应用架构和重构, 复杂状态与数据流治理, 组件平台和多团队协作; produce React 架构蓝图, 组件与状态边界, 渲染、测试和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Vue 前端架构师**（`vue-frontend-architecture`）
+  - 路径：`互联网研发/前端/框架/Vue/vue-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 框架 / Vue
+  - 用途：围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。 Use when an AI needs to handle Vue 3 大型应用架构, Options API 到 Composition API 演进, 组件库与业务应用分层; produce Vue 架构方案, 组件与 composable 边界, 状态、路由和测试方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **JavaScript 前端架构师**（`javascript-frontend-architecture`）
+  - 路径：`互联网研发/前端/语言/JavaScript/javascript-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 语言 / JavaScript
+  - 用途：针对 JavaScript 动态类型、模块系统和浏览器运行时设计可维护前端架构。 Use when an AI needs to handle 大型 JavaScript 应用治理, ESM 与旧模块迁移, 运行时契约和质量门禁设计; produce JavaScript 架构方案, 模块与运行时契约, 渐进治理计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **TypeScript 前端架构师**（`typescript-frontend-architecture`）
+  - 路径：`互联网研发/前端/语言/TypeScript/typescript-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 语言 / TypeScript
+  - 用途：利用类型系统、项目引用和真实运行时契约设计可扩展 TypeScript 前端。 Use when an AI needs to handle TypeScript 单仓或多包架构, 类型边界和 API 类型治理, 大型项目编译性能治理; produce TypeScript 分层方案, 类型与运行时边界, tsconfig 和包治理建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **API 契约设计师**（`api-contract-designer`）
+  - 路径：`互联网研发/后端/api-contract-designer/`
+  - 分类：互联网研发 / 后端 / API设计
+  - 用途：设计一致、可演进、可测试并能直接评审的 HTTP 或事件 API 契约
+- **数据库变更迁移规划师**（`database-migration-planner`）
+  - 路径：`互联网研发/后端/database-migration-planner/`
+  - 分类：互联网研发 / 后端 / 数据库迁移
+  - 用途：Plan, implement, and verify safe database schema and data migrations using dependency analysis, locking and runtime estimates, expand-migrate-contract sequencing, backfills, dual reads or writes, reconciliation, constraints, indexes, rollout gates, rollback, and recovery
+- **后端服务架构师**（`backend-service-architect`）
+  - 路径：`互联网研发/后端/backend-service-architect/`
+  - 分类：互联网研发 / 后端 / 服务架构
+  - 用途：Design and review backend service boundaries, domain invariants, workflows, data ownership, synchronous and asynchronous interactions, authorization, idempotency, consistency, failure recovery, observability, scaling, deployment, and evolutionary rollout
+- **后端通用架构设计师**（`backend-architecture-designer`）
+  - 路径：`互联网研发/后端/架构/backend-architecture-designer/`
+  - 分类：互联网研发 / 后端 / 架构
+  - 用途：从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。 Use when an AI needs to handle 企业后端总体架构, 单体、模块化和服务化选型, 跨团队系统演进评审; produce 后端总体架构蓝图, 质量属性与边界决策, 技术路线和分阶段演进计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **FastAPI 后端架构师**（`fastapi-backend-architecture`）
+  - 路径：`互联网研发/后端/框架/FastAPI/fastapi-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 框架 / FastAPI
+  - 用途：围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。 Use when an AI needs to handle FastAPI 中大型应用, Python API 模块化, 异步 API 性能和可靠性治理; produce FastAPI 包与路由架构, 依赖和数据契约, 运行、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Gin 后端架构师**（`gin-backend-architecture`）
+  - 路径：`互联网研发/后端/框架/Gin/gin-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 框架 / Gin
+  - 用途：围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。 Use when an AI needs to handle Gin API 新建或重构, 高吞吐 Go HTTP 服务, middleware 和安全治理; produce Gin 路由与模块架构, middleware 和依赖方案, 性能、安全和部署计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **NestJS 后端架构师**（`nestjs-backend-architecture`）
+  - 路径：`互联网研发/后端/框架/NestJS/nestjs-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 框架 / NestJS
+  - 用途：围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。 Use when an AI needs to handle NestJS 企业 API, 模块边界和依赖治理, 单体到服务化演进; produce NestJS 模块架构, provider 与请求管道设计, 测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Spring Boot 后端架构师**（`spring-boot-backend-architecture`）
+  - 路径：`互联网研发/后端/框架/Spring Boot/spring-boot-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 框架 / Spring Boot
+  - 用途：围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。 Use when an AI needs to handle Spring Boot 服务新建或重构, 模块化单体与服务拆分, 生产可观测和升级治理; produce Spring Boot 模块架构, 事务与集成边界, 生产运行和迁移方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **生产故障诊断师**（`production-incident-diagnostician`）
+  - 路径：`互联网研发/后端/production-incident-diagnostician/`
+  - 分类：互联网研发 / 后端 / 生产故障
+  - 用途：Diagnose and coordinate production incidents using impact assessment, safe stabilization, timelines, competing hypotheses, logs, metrics, traces, deploy and configuration changes, dependency evidence, mitigations, rollback, communication, verification, and follow-up learning
+- **Go 后端架构师**（`go-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/Go/go-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / Go
+  - 用途：按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。 Use when an AI needs to handle Go API 或任务服务, 高并发 Go 服务治理, Go 单仓多服务架构; produce Go 包与服务架构, 并发和取消模型, 错误、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Java 后端架构师**（`java-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/Java/java-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / Java
+  - 用途：利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。 Use when an AI needs to handle Java 服务平台架构, 大型 Java 单体模块化, JVM 性能和升级治理; produce Java 模块架构, 并发与资源模型, JVM 运行和演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Node.js 后端架构师**（`nodejs-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/Node.js/nodejs-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / Node.js
+  - 用途：按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。 Use when an AI needs to handle Node.js API 和 BFF, 高 I/O 服务架构, CommonJS 到 ESM 迁移; produce Node.js 模块架构, 异步与资源模型, 可靠性和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Python 后端架构师**（`python-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/Python/python-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / Python
+  - 用途：围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。 Use when an AI needs to handle Python Web 或任务平台, 脚本向服务化演进, 同步与异步混合系统治理; produce Python 包与层次架构, 执行和并发模型, 依赖、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **测试策略设计师**（`test-strategy-designer`）
+  - 路径：`互联网研发/测试/test-strategy-designer/`
+  - 分类：互联网研发 / 测试 / 测试策略
+  - 用途：根据变更影响和风险设计分层覆盖、发布门槛与生产验证方案
+- **全栈功能交付工程师**（`fullstack-feature-delivery`）
+  - 路径：`互联网研发/研发角色/全栈开发/fullstack-feature-delivery/`
+  - 分类：互联网研发 / 研发角色 / 全栈开发
+  - 用途：Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification
+- **全栈开发周报生成器**（`fullstack-developer-weekly-report`）
+  - 路径：`互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report/`
+  - 分类：互联网研发 / 研发角色 / 全栈开发 / 周报
+  - 用途：Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes
+- **全栈质量工程师**（`fullstack-quality-engineer`）
+  - 路径：`互联网研发/研发角色/全栈测试/fullstack-quality-engineer/`
+  - 分类：互联网研发 / 研发角色 / 全栈测试
+  - 用途：Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain
+- **全栈测试周报生成器**（`fullstack-qa-weekly-report`）
+  - 路径：`互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report/`
+  - 分类：互联网研发 / 研发角色 / 全栈测试 / 周报
+  - 用途：Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics
+### 数据
 
-- skill id：git-workflow-manager
-- 路径：互联网研发/git/git-workflow-manager/
-- 分类：互联网研发 / git / 安全工作流
-- 用途：基于真实仓库状态安全规划或执行分支、提交、合并、变基、发布流转、冲突处理与恢复
+- **广告效果分析师**（`advertising-performance-analyst`）
+  - 路径：`数据/业务分析/advertising-performance-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。 Use when an AI needs to handle 广告周报和预算复盘, ROAS/ACOS 波动, 创意和投放结构诊断; produce 广告表现报告, 驱动拆解与预算建议, 增量验证和测试计划; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **业务指标治理师**（`business-metrics-governance`）
+  - 路径：`数据/业务分析/business-metrics-governance/`
+  - 分类：数据 / 业务分析
+  - 用途：建立跨平台可复算的指标、维度、时间、币种和责任人标准。 Use when an AI needs to handle 经营指标字典, 多系统口径统一, 看板和周报上线前治理; produce 指标字典, 维度与数据血缘, 变更、认证和争议处理机制; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **电商转化漏斗分析师**（`conversion-funnel-analyst`）
+  - 路径：`数据/业务分析/conversion-funnel-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：按一致人群、事件和时间窗定位从曝光到购买的转化损失。 Use when an AI needs to handle 商品或结账转化下降, 设备国家渠道漏斗比较, 改版和实验效果诊断; produce 漏斗诊断, 流失分层和证据, 实验与修复优先级; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **客户 Cohort 与 LTV 分析师**（`customer-cohort-ltv-analyst`）
+  - 路径：`数据/业务分析/customer-cohort-ltv-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。 Use when an AI needs to handle 复购和留存分析, 渠道客户质量比较, CAC 回收和 LTV 预测; produce cohort 留存表, LTV/CAC 和回收期, 分层策略与不确定性; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **经营分析与周月报专家**（`executive-business-review`）
+  - 路径：`数据/业务分析/executive-business-review/`
+  - 分类：数据 / 业务分析
+  - 用途：把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。 Use when an AI needs to handle 跨境经营周报月报, 管理层业务复盘, 目标差距和行动跟踪; produce 经营摘要, KPI 与驱动分析, 风险、决策和责任闭环; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **经营预测与情景规划师**（`forecast-scenario-planner`）
+  - 路径：`数据/业务分析/forecast-scenario-planner/`
+  - 分类：数据 / 业务分析
+  - 用途：用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。 Use when an AI needs to handle 月度滚动预测, 预算和目标拆解, 乐观基准悲观情景; produce 驱动型预测模型, 情景和敏感性分析, 假设、预警和更新机制; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **库存与供应链分析师**（`inventory-supply-chain-analyst`）
+  - 路径：`数据/业务分析/inventory-supply-chain-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。 Use when an AI needs to handle 缺货和积压诊断, 库存健康周报, 供应商和物流绩效分析; produce 库存健康矩阵, 供需与交期驱动, 补货、处置和风险建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨平台渠道对比分析师**（`marketplace-channel-comparison-analyst`）
+  - 路径：`数据/业务分析/marketplace-channel-comparison-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。 Use when an AI needs to handle Amazon、Shopify、TikTok 横向比较, 渠道资源分配, 渠道利润和客户质量评估; produce 渠道可比口径, 规模效率利润矩阵, 渠道角色和资源建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **价格与促销分析师**（`pricing-promotion-analyst`）
+  - 路径：`数据/业务分析/pricing-promotion-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。 Use when an AI needs to handle 大促复盘, 价格调整效果, 优惠券和捆绑机制比较; produce 价格促销效果报告, 增量和蚕食测算, 机制优化建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **商品组合分析师**（`product-portfolio-analyst`）
+  - 路径：`数据/业务分析/product-portfolio-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。 Use when an AI needs to handle SKU 分层, 新品和长尾评估, 淘汰、补货与资源分配; produce 商品组合矩阵, SKU 诊断与动作, 新品、保留和退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **销售与利润分析师**（`sales-profitability-analyst`）
+  - 路径：`数据/业务分析/sales-profitability-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。 Use when an AI needs to handle 销售和利润波动, 国家渠道 SKU 盈利分析, 利润改善机会评估; produce 收入利润桥, 分层盈利矩阵, 驱动、风险和改善测算; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **流量与获客分析师**（`traffic-acquisition-analyst`）
+  - 路径：`数据/业务分析/traffic-acquisition-analyst/`
+  - 分类：数据 / 业务分析
+  - 用途：区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。 Use when an AI needs to handle 渠道流量波动, 自然与付费获客质量, UTM 和来源口径排查; produce 流量来源分析, 质量与成本矩阵, 归因限制和优化建议; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **业务指标诊断师**（`metric-diagnostics`）
+  - 路径：`数据/metric-diagnostics/`
+  - 分类：数据 / 业务分析 / 指标诊断
+  - 用途：验证指标口径与数据质量，量化拆解异常变化并区分驱动因素和假设
+- **业务数据质量与对账专家**（`data-quality-reconciliation`）
+  - 路径：`数据/数据治理/data-quality-reconciliation/`
+  - 分类：数据 / 数据治理
+  - 用途：验证完整性、唯一性、及时性、一致性并解释跨系统差异。 Use when an AI needs to handle 平台与财务对账, 看板数据验收, 异常数据和口径争议; produce 数据质量报告, 差异桥和根因, 修复、监控和责任清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+### 法律政务
 
-### 产品需求架构师
+- **合同风险审阅师**（`contract-risk-reviewer`）
+  - 路径：`法律政务/contract-risk-reviewer/`
+  - 分类：法律政务 / 合同 / 商业合同审阅
+  - 用途：逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单
+### 跨境运营
 
-- skill id：product-requirements-architect
-- 路径：互联网研发/产品/B端产品/product-requirements-architect/
-- 分类：互联网研发 / 产品 / B端产品
-- 用途：把模糊产品想法转成可评审、可开发、可测试、可度量的需求包
+- **供应商寻源与质量管理器**（`supplier-sourcing-quality-manager`）
+  - 路径：`跨境运营/供应链/supplier-sourcing-quality-manager/`
+  - 分类：跨境运营 / 供应链 / 寻源与质量
+  - 用途：Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk
+- **跨境内容营销规划师**（`content-marketing-planner`）
+  - 路径：`跨境运营/内容营销/content-marketing-planner/`
+  - 分类：跨境运营 / 内容营销
+  - 用途：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。 Use when an AI needs to handle 博客和指南规划, 季度内容矩阵, SEO、社媒、邮件内容协同; produce 内容战略, 主题集群和编辑日历, 分发、转化与衡量方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境广告创意策略师**（`creative-strategy-producer`）
+  - 路径：`跨境运营/创意生产/creative-strategy-producer/`
+  - 分类：跨境运营 / 创意生产
+  - 用途：从人群洞察和产品证据建立可批量测试、可归因的创意生产系统。 Use when an AI needs to handle 广告素材策略, UGC brief 和脚本矩阵, 创意疲劳治理; produce 创意策略地图, 角度、钩子和脚本矩阵, 测试编码与复盘规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境商品合规风险管理器**（`product-compliance-risk-manager`）
+  - 路径：`跨境运营/合规/product-compliance-risk-manager/`
+  - 分类：跨境运营 / 合规 / 商品与声明
+  - 用途：Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel
+- **跨境品牌定位策略师**（`brand-positioning-strategist`）
+  - 路径：`跨境运营/品牌营销/brand-positioning-strategist/`
+  - 分类：跨境运营 / 品牌营销
+  - 用途：以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。 Use when an AI needs to handle 新品牌定位, 品牌升级或多市场适配, 产品线信息架构统一; produce 定位陈述, 价值支柱与证据, 品牌信息和禁用表达; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **定价与促销优化经理**（`pricing-promotion-optimizer`）
+  - 路径：`跨境运营/商业化/pricing-promotion-optimizer/`
+  - 分类：跨境运营 / 商业化
+  - 用途：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。 Use when an AI needs to handle 新品定价, 跨国家跨渠道价格治理, 折扣和优惠机制优化; produce 价格架构, 促销方案和利润模拟, 实验、监控与退出规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **平台商品信息优化师**（`marketplace-listing-optimizer`）
+  - 路径：`跨境运营/商品运营/marketplace-listing-optimizer/`
+  - 分类：跨境运营 / 商品运营
+  - 用途：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。 Use when an AI needs to handle Amazon 等平台 listing 优化, 新品信息搭建, 低流量或低转化详情修复; produce 关键词和信息架构, 标题、卖点和详情建议, 合规与实验清单; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境全链路增长负责人**（`cross-border-growth-operator`）
+  - 路径：`跨境运营/增长营销/cross-border-growth-operator/`
+  - 分类：跨境运营 / 增长营销
+  - 用途：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。 Use when an AI needs to handle 季度增长规划, GMV 或利润增长诊断, 跨团队增长实验组合; produce 增长模型和机会树, 实验组合与责任矩阵, 周度经营节奏和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨渠道营销归因规划师**（`marketing-attribution-planner`）
+  - 路径：`跨境运营/增长营销/marketing-attribution-planner/`
+  - 分类：跨境运营 / 增长营销
+  - 用途：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。 Use when an AI needs to handle 广告平台与 GA4 对数, 多触点归因治理, 预算分配和增量评估; produce 归因测量方案, 渠道数据和 UTM 规范, 模型差异、实验与决策规则; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **亚马逊 PDP 导入草稿生成器**（`amazon-pdp-import-generator`）
+  - 路径：`跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator/`
+  - 分类：跨境运营 / 多渠道运营 / 亚马逊
+  - 用途：从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容
+- **Shopify 转化审计师**（`shopify-conversion-auditor`）
+  - 路径：`跨境运营/多渠道运营/独立站/shopify-conversion-auditor/`
+  - 分类：跨境运营 / 多渠道运营 / 独立站 / CRO
+  - 用途：基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项
+- **独立站产品上下架管理器**（`storefront-product-publishing-manager`）
+  - 路径：`跨境运营/多渠道运营/独立站/storefront-product-publishing-manager/`
+  - 分类：跨境运营 / 多渠道运营 / 独立站 / 商品运营
+  - 用途：安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚
+- **跨境多语言客服经理**（`customer-service-voice-manager`）
+  - 路径：`跨境运营/客户体验/customer-service-voice-manager/`
+  - 分类：跨境运营 / 客户体验
+  - 用途：以多语言一致性、问题解决和客户洞察运营售前售后服务。 Use when an AI needs to handle 邮件、在线聊天和平台消息客服, 多语言话术体系, 客服质检和 VOC 闭环; produce 客服 SOP 与话术库, 升级和赔付矩阵, VOC 分类与改进报告; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **评价与品牌声誉经理**（`review-reputation-manager`）
+  - 路径：`跨境运营/客户体验/review-reputation-manager/`
+  - 分类：跨境运营 / 客户体验
+  - 用途：合规监控评价、识别根因、回复客户并推动产品和履约改进。 Use when an AI needs to handle 平台评价治理, 差评和舆情响应, 评分下降根因分析; produce 评价健康报告, 合规回复和升级方案, 根因与改进闭环; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境市场情报分析师**（`cross-border-market-intelligence`）
+  - 路径：`跨境运营/市场与战略/cross-border-market-intelligence/`
+  - 分类：跨境运营 / 市场与战略
+  - 用途：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。 Use when an AI needs to handle 进入新国家或类目, 竞品与价格带扫描, 季度市场机会更新; produce 市场情报简报, 机会评分和证据表, 验证计划与预警项; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境上市规划师**（`go-to-market-launch-planner`）
+  - 路径：`跨境运营/市场与战略/go-to-market-launch-planner/`
+  - 分类：跨境运营 / 市场与战略
+  - 用途：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。 Use when an AI needs to handle 新品上市, 新站点或新国家启动, 重大版本或季节发布; produce GTM 计划, 阶段门和责任矩阵, 预算、指标与复盘设计; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **多渠道库存补货规划师**（`inventory-replenishment-planner`）
+  - 路径：`跨境运营/库存/inventory-replenishment-planner/`
+  - 分类：跨境运营 / 库存 / 预测与补货
+  - 用途：Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk
+- **GEO 引用就绪优化师**（`geo-optimizer`）
+  - 路径：`跨境运营/推广营销/geo-optimizer/`
+  - 分类：跨境运营 / 推广营销 / GEO
+  - 用途：通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性
+- **SEO 内容优化师**（`seo-optimizer`）
+  - 路径：`跨境运营/推广营销/seo-optimizer/`
+  - 分类：跨境运营 / 推广营销 / SEO
+  - 用途：基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容
+- **多渠道电商广告优化师**（`commerce-advertising-optimizer`）
+  - 路径：`跨境运营/推广营销/commerce-advertising-optimizer/`
+  - 分类：跨境运营 / 推广营销 / 广告优化
+  - 用途：Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments
+- **跨境活动营销经理**（`promotion-calendar-manager`）
+  - 路径：`跨境运营/活动营销/promotion-calendar-manager/`
+  - 分类：跨境运营 / 活动营销
+  - 用途：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。 Use when an AI needs to handle 黑五网一和节日大促, 季度促销规划, 多渠道活动冲突治理; produce 年度/季度活动日历, 活动机制和资源表, 上线检查与复盘模板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境渠道组合策略师**（`channel-portfolio-strategist`）
+  - 路径：`跨境运营/渠道运营/channel-portfolio-strategist/`
+  - 分类：跨境运营 / 渠道运营
+  - 用途：按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。 Use when an AI needs to handle Amazon、Shopify、TikTok 等渠道组合, 新渠道评估, 渠道冲突和资源分配; produce 渠道角色地图, 进入与退出评分, 资源和治理方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **TikTok Shop 运营经理**（`tiktok-shop-operations-manager`）
+  - 路径：`跨境运营/渠道运营/TikTok Shop/tiktok-shop-operations-manager/`
+  - 分类：跨境运营 / 渠道运营 / TikTok Shop
+  - 用途：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。 Use when an AI needs to handle TikTok Shop 冷启动, 内容电商日常经营, GMV 波动诊断; produce TikTok Shop 经营计划, 内容达人商品协同表, 店铺健康和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **亚马逊店铺运营经理**（`amazon-store-operations-manager`）
+  - 路径：`跨境运营/渠道运营/亚马逊/amazon-store-operations-manager/`
+  - 分类：跨境运营 / 渠道运营 / 亚马逊
+  - 用途：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。 Use when an AI needs to handle Amazon 日常经营, 新品启动, 店铺问题诊断和周月度复盘; produce Amazon 经营计划, 问题优先级与执行清单, 店铺经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **Shopify 独立站运营经理**（`shopify-store-operations-manager`）
+  - 路径：`跨境运营/渠道运营/独立站/shopify-store-operations-manager/`
+  - 分类：跨境运营 / 渠道运营 / 独立站
+  - 用途：统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。 Use when an AI needs to handle Shopify 日常运营, 新品与活动上线, 独立站增长和问题排查; produce 独立站经营计划, 上线与健康检查表, 渠道和站内经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **电商履约物流规划师**（`ecommerce-fulfillment-logistics-planner`）
+  - 路径：`跨境运营/物流/ecommerce-fulfillment-logistics-planner/`
+  - 分类：跨境运营 / 物流 / 跨境履约
+  - 用途：Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience
+- **客户留存与忠诚度经理**（`customer-retention-loyalty-manager`）
+  - 路径：`跨境运营/用户运营/customer-retention-loyalty-manager/`
+  - 分类：跨境运营 / 用户运营
+  - 用途：按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。 Use when an AI needs to handle 复购率提升, 会员或积分计划, 流失客户召回; produce 留存策略, 客户分层和触达旅程, 会员经济模型与实验; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **邮件生命周期营销师**（`email-lifecycle-marketer`）
+  - 路径：`跨境运营/用户运营/email-lifecycle-marketer/`
+  - 分类：跨境运营 / 用户运营
+  - 用途：按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。 Use when an AI needs to handle 欢迎、弃购、购后、召回流程, Newsletter 运营, 邮件收入和送达率治理; produce 生命周期流程图, 分群、触发与内容方案, 实验和送达健康看板; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境社媒运营经理**（`social-media-operations-manager`）
+  - 路径：`跨境运营/社媒营销/social-media-operations-manager/`
+  - 分类：跨境运营 / 社媒营销
+  - 用途：建立平台适配的内容、互动、增长、风险和复盘机制。 Use when an AI needs to handle TikTok、Instagram、YouTube、Pinterest 运营, 账号冷启动, 社媒内容和社区增长; produce 平台运营方案, 内容栏目和发布节奏, 互动 SOP 与周度复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **电商单位经济模型分析师**（`ecommerce-unit-economics-analyst`）
+  - 路径：`跨境运营/经营分析/ecommerce-unit-economics-analyst/`
+  - 分类：跨境运营 / 经营分析 / 利润与现金流
+  - 用途：Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios
+- **达人与联盟营销经理**（`influencer-affiliate-manager`）
+  - 路径：`跨境运营/达人联盟/influencer-affiliate-manager/`
+  - 分类：跨境运营 / 达人联盟
+  - 用途：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。 Use when an AI needs to handle 达人种草和带货, 联盟计划搭建, UGC 采购与授权; produce 达人分层池, 合作 brief 与跟进管道, 佣金、授权和效果复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境电商选品研究**（`ecommerce-product-research`）
+  - 路径：`跨境运营/选品/ecommerce-product-research/`
+  - 分类：跨境运营 / 选品 / 跨渠道机会研究
+  - 用途：从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会
+### 项目管理
 
-### 前端功能实现工程师
-
-- skill id：frontend-feature-implementer
-- 路径：互联网研发/前端/前台/frontend-feature-implementer/
-- 分类：互联网研发 / 前端 / 前台 / 功能实现
-- 用途：Implement complete frontend features in an existing codebase from product requirements, screenshots, designs, or behavioral specifications while preserving repository conventions, responsive behavior, accessibility, loading and failure states, data contracts, tests, and visual fidelity
-
-### 前端多语言查验师
-
-- skill id：frontend-localization-verifier
-- 路径：互联网研发/前端/前台/frontend-localization-verifier/
-- 分类：互联网研发 / 前端 / 前台 / 国际化与本地化
-- 用途：Verify frontend internationalization and localization across supported locales, including translation coverage, key drift, ICU messages, variables, plurals, gender, dates, numbers, currency, units, time zones, Unicode, collation, locale routing, persistence, layout expansion, RTL, fonts, accessibility, metadata, hreflang, and localized business behavior
-
-### 前端性能分析师
-
-- skill id：frontend-performance-analyzer
-- 路径：互联网研发/前端/前台/frontend-performance-analyzer/
-- 分类：互联网研发 / 前端 / 前台 / 性能分析
-- 用途：Diagnose frontend performance using field and laboratory evidence, Core Web Vitals, navigation and interaction traces, network waterfalls, rendering, main-thread tasks, JavaScript execution, bundles, images, fonts, caching, hydration, data fetching, third-party scripts, memory, and performance budgets
-
-### 前端状态与数据流设计师
-
-- skill id：frontend-state-integration-designer
-- 路径：互联网研发/前端/前台/frontend-state-integration-designer/
-- 分类：互联网研发 / 前端 / 前台 / 状态与数据
-- 用途：Design and review predictable frontend state, URL state, form state, server cache, asynchronous queries, mutations, optimistic updates, invalidation, race handling, offline behavior, and error recovery
-
-### Web 性能与无障碍审计师
-
-- skill id：web-performance-accessibility-auditor
-- 路径：互联网研发/前端/前台/web-performance-accessibility-auditor/
-- 分类：互联网研发 / 前端 / 前台 / 质量审计
-- 用途：Audit and improve web performance, Core Web Vitals, loading behavior, semantic HTML, keyboard access, focus management, screen-reader communication, contrast, motion, responsive interaction, and regression risk using measured evidence
-
-### API 契约设计师
-
-- skill id：api-contract-designer
-- 路径：互联网研发/后端/api-contract-designer/
-- 分类：互联网研发 / 后端 / API设计
-- 用途：设计一致、可演进、可测试并能直接评审的 HTTP 或事件 API 契约
-
-### 后端服务架构师
-
-- skill id：backend-service-architect
-- 路径：互联网研发/后端/backend-service-architect/
-- 分类：互联网研发 / 后端 / 服务架构
-- 用途：Design and review backend service boundaries, domain invariants, workflows, data ownership, synchronous and asynchronous interactions, authorization, idempotency, consistency, failure recovery, observability, scaling, deployment, and evolutionary rollout
-
-### 数据库变更迁移规划师
-
-- skill id：database-migration-planner
-- 路径：互联网研发/后端/database-migration-planner/
-- 分类：互联网研发 / 后端 / 数据库迁移
-- 用途：Plan, implement, and verify safe database schema and data migrations using dependency analysis, locking and runtime estimates, expand-migrate-contract sequencing, backfills, dual reads or writes, reconciliation, constraints, indexes, rollout gates, rollback, and recovery
-
-### 生产故障诊断师
-
-- skill id：production-incident-diagnostician
-- 路径：互联网研发/后端/production-incident-diagnostician/
-- 分类：互联网研发 / 后端 / 生产故障
-- 用途：Diagnose and coordinate production incidents using impact assessment, safe stabilization, timelines, competing hypotheses, logs, metrics, traces, deploy and configuration changes, dependency evidence, mitigations, rollback, communication, verification, and follow-up learning
-
-### 测试策略设计师
-
-- skill id：test-strategy-designer
-- 路径：互联网研发/测试/test-strategy-designer/
-- 分类：互联网研发 / 测试 / 测试策略
-- 用途：根据变更影响和风险设计分层覆盖、发布门槛与生产验证方案
-
-### 全栈开发周报生成器
-
-- skill id：fullstack-developer-weekly-report
-- 路径：互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report/
-- 分类：互联网研发 / 研发角色 / 全栈开发 / 周报
-- 用途：Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes
-
-### 全栈功能交付工程师
-
-- skill id：fullstack-feature-delivery
-- 路径：互联网研发/研发角色/全栈开发/fullstack-feature-delivery/
-- 分类：互联网研发 / 研发角色 / 全栈开发
-- 用途：Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification
-
-### 全栈测试周报生成器
-
-- skill id：fullstack-qa-weekly-report
-- 路径：互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report/
-- 分类：互联网研发 / 研发角色 / 全栈测试 / 周报
-- 用途：Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics
-
-### 全栈质量工程师
-
-- skill id：fullstack-quality-engineer
-- 路径：互联网研发/研发角色/全栈测试/fullstack-quality-engineer/
-- 分类：互联网研发 / 研发角色 / 全栈测试
-- 用途：Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain
-
-### 业务指标诊断师
-
-- skill id：metric-diagnostics
-- 路径：数据/metric-diagnostics/
-- 分类：数据 / 业务分析 / 指标诊断
-- 用途：验证指标口径与数据质量，量化拆解异常变化并区分驱动因素和假设
-
-### 合同风险审阅师
-
-- skill id：contract-risk-reviewer
-- 路径：法律政务/contract-risk-reviewer/
-- 分类：法律政务 / 合同 / 商业合同审阅
-- 用途：逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单
-
-### 供应商寻源与质量管理器
-
-- skill id：supplier-sourcing-quality-manager
-- 路径：跨境运营/供应链/supplier-sourcing-quality-manager/
-- 分类：跨境运营 / 供应链 / 寻源与质量
-- 用途：Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk
-
-### 跨境商品合规风险管理器
-
-- skill id：product-compliance-risk-manager
-- 路径：跨境运营/合规/product-compliance-risk-manager/
-- 分类：跨境运营 / 合规 / 商品与声明
-- 用途：Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel
-
-### 亚马逊 PDP 导入草稿生成器
-
-- skill id：amazon-pdp-import-generator
-- 路径：跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator/
-- 分类：跨境运营 / 多渠道运营 / 亚马逊
-- 用途：从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容
-
-### Shopify 转化审计师
-
-- skill id：shopify-conversion-auditor
-- 路径：跨境运营/多渠道运营/独立站/shopify-conversion-auditor/
-- 分类：跨境运营 / 多渠道运营 / 独立站 / CRO
-- 用途：基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项
-
-### 独立站产品上下架管理器
-
-- skill id：storefront-product-publishing-manager
-- 路径：跨境运营/多渠道运营/独立站/storefront-product-publishing-manager/
-- 分类：跨境运营 / 多渠道运营 / 独立站 / 商品运营
-- 用途：安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚
-
-### 多渠道库存补货规划师
-
-- skill id：inventory-replenishment-planner
-- 路径：跨境运营/库存/inventory-replenishment-planner/
-- 分类：跨境运营 / 库存 / 预测与补货
-- 用途：Plan multi-channel ecommerce inventory and replenishment using demand, seasonality, promotions, lead-time distributions, safety stock, service levels, inbound stages, channel allocation, storage constraints, cash limits, and stockout or overstock risk
-
-### 多渠道电商广告优化师
-
-- skill id：commerce-advertising-optimizer
-- 路径：跨境运营/推广营销/commerce-advertising-optimizer/
-- 分类：跨境运营 / 推广营销 / 广告优化
-- 用途：Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments
-
-### GEO 引用就绪优化师
-
-- skill id：geo-optimizer
-- 路径：跨境运营/推广营销/geo-optimizer/
-- 分类：跨境运营 / 推广营销 / GEO
-- 用途：通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性
-
-### SEO 内容优化师
-
-- skill id：seo-optimizer
-- 路径：跨境运营/推广营销/seo-optimizer/
-- 分类：跨境运营 / 推广营销 / SEO
-- 用途：基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容
-
-### 电商履约物流规划师
-
-- skill id：ecommerce-fulfillment-logistics-planner
-- 路径：跨境运营/物流/ecommerce-fulfillment-logistics-planner/
-- 分类：跨境运营 / 物流 / 跨境履约
-- 用途：Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience
-
-### 电商单位经济模型分析师
-
-- skill id：ecommerce-unit-economics-analyst
-- 路径：跨境运营/经营分析/ecommerce-unit-economics-analyst/
-- 分类：跨境运营 / 经营分析 / 利润与现金流
-- 用途：Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios
-
-### 跨境电商选品研究
-
-- skill id：ecommerce-product-research
-- 路径：跨境运营/选品/ecommerce-product-research/
-- 分类：跨境运营 / 选品 / 跨渠道机会研究
-- 用途：从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会
-
-## Architecture Notes
-
-- 中文目录负责业务、公司项目和研发角色浏览，稳定英文目录负责 skill id。
-- 每个正式 skill 优先按整个文件夹独立分发。
-- README.md 是中文产品文档和版本记录；SKILL.md 是 AI 执行入口。
-- 项目代号、角色和分类目录本身不等于正式 skill。
-- 业务核心保持跨平台；agents 与 platforms 只适配界面或工具差异。
-- 新增或升级 skill 必须同步 registry、PROJECT_INDEX 和分类 README。
-- SkillForge 项目治理保留在索引中，但不在业务 Dashboard 展示。
+- **CMS 产品架构师**（`cms-product-architecture`）
+  - 路径：`项目管理/CMS/cms-product-architecture/`
+  - 分类：项目管理 / CMS
+  - 用途：按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。 Use when an AI needs to handle 商品内容中台, 多语言多渠道内容治理, 内容版本审批和发布; produce CMS 能力地图, 内容模型与版本机制, 审批、本地化和分发契约; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **CRM 产品架构师**（`crm-product-architecture`）
+  - 路径：`项目管理/CRM/crm-product-architecture/`
+  - 分类：项目管理 / CRM
+  - 用途：围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。 Use when an AI needs to handle 跨渠道客户中心, 营销与客服 CRM, 客户 360 和生命周期运营; produce CRM 能力地图, 客户身份与同意模型, 互动、分群、任务和集成方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **IMS 产品架构师**（`ims-product-architecture`）
+  - 路径：`项目管理/IMS/ims-product-architecture/`
+  - 分类：项目管理 / IMS
+  - 用途：围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。 Use when an AI needs to handle 多仓多渠道库存中心, 库存预占和超卖治理, 库存对账与可售计算; produce IMS 能力地图, 库存账本和状态模型, 预占、同步、对账和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **OFS 产品架构师**（`ofs-product-architecture`）
+  - 路径：`项目管理/OFS/ofs-product-architecture/`
+  - 分类：项目管理 / OFS
+  - 用途：围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。 Use when an AI needs to handle 跨仓跨渠道履约平台, 订单到交付编排, 履约异常和补偿治理; produce OFS 能力地图, 履约单与状态机, 节点编排、SLA 和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **OMS 产品架构师**（`oms-product-architecture`）
+  - 路径：`项目管理/OMS/oms-product-architecture/`
+  - 分类：项目管理 / OMS
+  - 用途：围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。 Use when an AI needs to handle 全渠道 OMS 规划, 订单状态和异常治理, OMS 与渠道、库存、履约集成; produce OMS 能力地图, 订单域模型与状态机, 路由、异常和集成契约; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **PLM 产品架构师**（`plm-product-architecture`）
+  - 路径：`项目管理/PLM/plm-product-architecture/`
+  - 分类：项目管理 / PLM
+  - 用途：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。 Use when an AI needs to handle 新品研发数字化, 款式/BOM/样品协同, 产品版本和上市门禁; produce PLM 能力地图, 产品版本和阶段门模型, BOM、样品、成本、合规与集成方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **TMS 产品架构师**（`tms-product-architecture`）
+  - 路径：`项目管理/TMS/tms-product-architecture/`
+  - 分类：项目管理 / TMS
+  - 用途：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。 Use when an AI needs to handle 头程或尾程运输管理, 承运商和运费治理, 轨迹、异常和运费对账; produce TMS 能力地图, 运输订单与状态机, 承运商、轨迹、费用和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
+- **跨境业务系统总产品架构师**（`commerce-systems-product-architecture`）
+  - 路径：`项目管理/公共/commerce-systems-product-architecture/`
+  - 分类：项目管理 / 公共
+  - 用途：设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。 Use when an AI needs to handle 跨境业务系统蓝图, 系统边界重构, 新系统立项和集成治理; produce 业务能力与系统地图, 主数据和状态 ownership 矩阵, 跨系统流程、契约与演进路线; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.

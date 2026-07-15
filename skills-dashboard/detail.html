@@ -90,13 +90,14 @@
       .title-row {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         gap: 16px;
         flex-wrap: wrap;
+        margin-bottom: 12px;
       }
 
       h1 {
-        margin: 0 0 12px 0;
+        margin: 0;
         font-size: 24px;
         font-weight: 600;
         letter-spacing: -0.01em;
@@ -451,15 +452,13 @@
 
           <header class="header">
             <div class="title-row">
-              <div>
-                <h1>${escapeHtml(skill.display_name || skill.name)}</h1>
-                <p class="sub">${escapeHtml(detail.description || "暂无描述")}</p>
-              </div>
+              <h1>${escapeHtml(skill.display_name || skill.name)}</h1>
               <button class="download-btn" id="downloadZipButton" type="button">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                 下载 ZIP
               </button>
             </div>
+            <p class="sub">${escapeHtml(detail.description || "暂无描述")}</p>
           </header>
 
           <section class="section">
