@@ -17,6 +17,7 @@
     "Claude",
     "Codex",
     "GPT",
+    "Manus",
     "Trae",
     "Qorder"
   ],
@@ -49,6 +50,13 @@
   "distribution": {
     "share_as_single_folder": true,
     "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
       "SKILL.md",
       "skill.json",
       "README.md",

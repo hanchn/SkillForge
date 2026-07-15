@@ -17,6 +17,7 @@
     "Claude",
     "Codex",
     "GPT",
+    "Manus",
     "Trae",
     "Qorder"
   ],
@@ -62,6 +63,25 @@
       "BASE_PROMPT.md",
       "scripts/generate_pdp_import.py",
       "assets/parser_config.json"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "scripts/generate_pdp_import.py",
+      "assets/parser_config.json",
+      "examples/README.md",
+      "examples/sample_input_files.txt",
+      "examples/sample_output.csv",
+      "eval/acceptance.md",
+      "platforms/claude.md",
+      "platforms/codex.md",
+      "platforms/gpt.md",
+      "platforms/manus.md",
+      "platforms/qorder.md",
+      "platforms/trae.md"
     ]
   }
 }

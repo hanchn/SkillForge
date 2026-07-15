@@ -14,5 +14,6 @@
 - Claude
 - Codex
 - GPT
+- Manus
 - Trae
 - Qorder

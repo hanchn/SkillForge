@@ -15,6 +15,7 @@
     "Claude",
     "Codex",
     "GPT",
+    "Manus",
     "Trae",
     "Qorder"
   ],
@@ -58,6 +59,25 @@
       "BASE_PROMPT.md",
       "ARCHITECTURE.md",
       "assets/project-rules.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "README.md",
+      "skill.json",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "ARCHITECTURE.md",
+      "assets/project-rules.md",
+      "scripts/README.md",
+      "examples/README.md",
+      "eval/acceptance.md",
+      "platforms/README.md",
+      "platforms/claude.md",
+      "platforms/codex.md",
+      "platforms/gpt.md",
+      "platforms/manus.md",
+      "platforms/qorder.md",
+      "platforms/trae.md"
     ]
   }
 }
