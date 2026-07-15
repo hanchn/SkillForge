@@ -22,7 +22,7 @@
     },
     {
       "name": "amazon-pdp-import-generator",
-      "display_name": "亚马逊PDP导入生成器",
+      "display_name": "亚马逊PDP内容生成技能",
       "category_path": [
         "跨境运营",
         "多渠道运营",

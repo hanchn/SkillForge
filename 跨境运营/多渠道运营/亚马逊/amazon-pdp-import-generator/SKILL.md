@@ -1,9 +1,9 @@
-# Amazon PDP Import Generator
+# Amazon PDP Content Generator
 
 ## Identity
 
 - skill id: `amazon-pdp-import-generator`
-- display name: `亚马逊PDP导入生成器`
+- display name: `亚马逊PDP内容生成技能`
 - type: `portable-business-skill`
 - scope: `cross-platform`
 
