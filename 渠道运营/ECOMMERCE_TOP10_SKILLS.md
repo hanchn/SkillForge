@@ -14,7 +14,7 @@
 | 2 | ecommerce-unit-economics-analyst | 售价、广告、费用和现金流下是否真正盈利 | Amazon + 独立站 |
 | 3 | supplier-sourcing-quality-manager | 哪个供应商具备可控量产和质量能力 | Amazon + 独立站 |
 | 4 | product-compliance-risk-manager | 产品、标签、测试和声明能否进入目标市场 | Amazon + 独立站 |
-| 5 | amazon-pdp-import-generator | 如何把图片和真实商品事实变成可审计 Amazon 草稿 | Amazon |
+| 5 | amazon-pdp-import-generator | 如何把图片、商品事实、当前 Rank 趋势和 SEO/GEO 关键词变成可审计并完成自检的 Amazon 草稿 | Amazon |
 | 6 | storefront-product-publishing-manager | 如何安全上架、隐藏、退市、归档和恢复 | 独立站 |
 | 7 | inventory-replenishment-planner | 何时补、补多少、如何跨渠道分配库存 | Amazon + 独立站 |
 | 8 | ecommerce-fulfillment-logistics-planner | 头程、FBA、FBM、3PL 和逆向物流如何组合 | Amazon + 独立站 |

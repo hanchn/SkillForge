@@ -15,7 +15,7 @@
 - [跨境商品合规风险管理器](合规/product-compliance-risk-manager/README.md)：Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel
 - [定价与促销优化经理](商业化/pricing-promotion-optimizer/README.md)：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。适用于新品定价、跨国家跨渠道价格治理、折扣和优惠机制优化，交付价格架构、促销方案和利润模拟、实验、监控与退出规则。
 - [平台商品信息优化师](商品运营/marketplace-listing-optimizer/README.md)：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。适用于Amazon 等平台 listing 优化、新品信息搭建、低流量或低转化详情修复，交付关键词和信息架构、标题、卖点和详情建议、合规与实验清单。
-- [亚马逊 PDP 导入草稿生成器](多渠道运营/亚马逊/amazon-pdp-import-generator/README.md)：从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容
+- [亚马逊 PDP 导入草稿生成器](多渠道运营/亚马逊/amazon-pdp-import-generator/README.md)：从图片和商品事实生成 SKU、变体与 PDP 草稿，结合当前市场 Rank、趋势、SEO/GEO 关键词策略和生成前关键词库优先确认完成上线自检
 - [Shopify 转化审计师](多渠道运营/独立站/shopify-conversion-auditor/README.md)：基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项
 - [独立站产品上下架管理器](多渠道运营/独立站/storefront-product-publishing-manager/README.md)：安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚
 - [评价与品牌声誉经理](客户体验/review-reputation-manager/README.md)：合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。

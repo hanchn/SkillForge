@@ -101,7 +101,10 @@
       "agents/openai.yaml",
       "assets/content-guardrails.md",
       "assets/decision-record-template.md",
+      "assets/keyword-library-intake-template.md",
+      "assets/market-keyword-research-template.md",
       "assets/parser_config.json",
+      "assets/pdp-self-check-checklist.md",
       "eval/acceptance.md",
       "examples/README.md",
       "examples/sample_input_files.txt",
@@ -113,7 +116,9 @@
       "platforms/qorder.md",
       "platforms/trae.md",
       "references/compliance-baseline.md",
+      "references/market-rank-trend-method.md",
       "references/scenario-playbook.md",
+      "references/seo-geo-keyword-method.md",
       "scripts/generate_pdp_import.py",
       "skill.json"
     ]
