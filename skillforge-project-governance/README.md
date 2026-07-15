@@ -22,6 +22,7 @@
 - `ARCHITECTURE.md`：项目架构设计说明
 - `assets/project-rules.md`：项目级规则清单
 - `platforms/`：各平台读取建议
+- `PROJECT_INDEX.md`：项目全局搜索与导航入口
 
 ## 核心原则
 

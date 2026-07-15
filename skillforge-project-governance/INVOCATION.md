@@ -2,11 +2,12 @@
 
 ## Standard Read Order
 
-1. 读取 `SKILL.md`
-2. 读取 `README.md`
-3. 读取 `ARCHITECTURE.md`
-4. 读取 `assets/project-rules.md`
-5. 如有平台差异，再读取 `platforms/<platform>.md`
+1. 读取 `../PROJECT_INDEX.md`
+2. 读取 `SKILL.md`
+3. 读取 `README.md`
+4. 读取 `ARCHITECTURE.md`
+5. 读取 `assets/project-rules.md`
+6. 如有平台差异，再读取 `platforms/<platform>.md`
 
 ## Standard Use Cases
 
