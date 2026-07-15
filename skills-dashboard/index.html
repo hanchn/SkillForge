@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SkillForge</title>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
     <style>
       :root {
         --bg: #ffffff;
@@ -183,6 +184,17 @@
         cursor: pointer;
         min-height: 190px;
         height: 100%;
+        position: relative;
+      }
+
+      .card-checkbox {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        z-index: 2;
       }
 
       .card:hover {
@@ -196,6 +208,7 @@
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 8px;
+        padding-left: 24px; /* Space for checkbox */
       }
 
       .card-title {
@@ -235,6 +248,33 @@
         gap: 8px;
         flex-wrap: wrap;
         margin-top: auto;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .card-tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        flex: 1;
+      }
+
+      .card-download-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        border-radius: var(--radius);
+        color: var(--text-secondary);
+        background: var(--bg-hover);
+        transition: all 0.2s;
+        z-index: 2;
+      }
+
+      .card-download-btn:hover {
+        background: var(--border);
+        color: var(--text);
       }
 
       .tag {
@@ -479,6 +519,65 @@
           width: 100%;
         }
       }
+
+      .batch-bar {
+        position: fixed;
+        bottom: 24px;
+        left: 50%;
+        transform: translateX(-50%) translateY(100px);
+        background: #fff;
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-lg);
+        border-radius: 32px;
+        padding: 12px 24px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        z-index: 100;
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .batch-bar.visible {
+        transform: translateX(-50%) translateY(0);
+      }
+
+      .batch-count {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text);
+      }
+
+      .batch-actions {
+        display: flex;
+        gap: 8px;
+      }
+
+      .batch-btn {
+        padding: 6px 16px;
+        border-radius: 16px;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .batch-btn.primary {
+        background: var(--accent);
+        color: #fff;
+      }
+
+      .batch-btn.primary:hover {
+        background: var(--accent-hover);
+      }
+
+      .batch-btn.secondary {
+        background: var(--bg-hover);
+        color: var(--text);
+      }
+
+      .batch-btn.secondary:hover {
+        background: var(--border);
+      }
     </style>
   </head>
   <body>
@@ -555,6 +654,14 @@
         </div>
       </div>
     </main>
+
+    <div class="batch-bar" id="batchBar">
+      <div class="batch-count">已选择 <span id="batchCount">0</span> 个 Skill</div>
+      <div class="batch-actions">
+        <button class="batch-btn secondary" id="batchCancel">取消</button>
+        <button class="batch-btn primary" id="batchDownload">批量下载 ZIP</button>
+      </div>
+    </div>
 
     <script>
       const state = {
@@ -707,6 +814,7 @@
       }
 
       function render() {
+        renderTabs();
         renderFilters();
         renderMetrics();
         renderCards();
