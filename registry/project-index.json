@@ -1691,17 +1691,18 @@
     {
       "name": "job-description-generator",
       "display_name": "岗位说明书与招聘 JD 生成专家",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "package_root": "人事招聘/岗位与JD/job-description-generator",
       "entrypoint": "SKILL.md",
       "type": "portable-business-skill",
       "search_keywords": [
+        "HR 不熟悉技术、运营或专业岗位时的招聘需求培训",
         "新增或重写招聘 JD",
-        "岗位职责模糊或要求堆砌",
+        "岗位职责模糊、要求堆砌或招聘双方理解不一致",
         "多平台、多语言或跨区域岗位发布",
-        "岗位使命、业务结果和上下游",
-        "职责、权限与不负责范围",
-        "必需能力、可培养能力和证据"
+        "岗位存在原因、业务场景、日常工作和成功结果",
+        "上下游、工具系统、专业术语和 HR 常见误解",
+        "职责、权限、不负责范围和职级边界"
       ],
       "download_count": 0,
       "classification": {

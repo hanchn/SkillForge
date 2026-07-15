@@ -3,7 +3,7 @@
   "display_name": "岗位说明书与招聘 JD 生成专家",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -11,14 +11,15 @@
     "人事招聘",
     "岗位与JD"
   ],
-  "description": "把真实业务目标、岗位成功标准和组织边界转化为清晰、可评估、包容且适合发布的岗位说明书与招聘 JD。适用于新增或重写招聘 JD、岗位职责模糊或要求堆砌、多平台、多语言或跨区域岗位发布，交付内部岗位说明书、候选人版招聘 JD、能力证据、面试评估和发布检查表。",
+  "description": "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解偏差招错人。适用于HR 不熟悉技术、运营或专业岗位时的招聘需求培训、新增或重写招聘 JD、岗位职责模糊、要求堆砌或招聘双方理解不一致、多平台、多语言或跨区域岗位发布，交付HR 岗位培训与详细岗位介绍、招聘需求澄清与建议预问问题、内部岗位说明书、候选人版招聘 JD、可复制的 JD 空白模板、能力证据、面试评估和发布检查表。",
   "search_keywords": [
+    "HR 不熟悉技术、运营或专业岗位时的招聘需求培训",
     "新增或重写招聘 JD",
-    "岗位职责模糊或要求堆砌",
+    "岗位职责模糊、要求堆砌或招聘双方理解不一致",
     "多平台、多语言或跨区域岗位发布",
-    "岗位使命、业务结果和上下游",
-    "职责、权限与不负责范围",
-    "必需能力、可培养能力和证据"
+    "岗位存在原因、业务场景、日常工作和成功结果",
+    "上下游、工具系统、专业术语和 HR 常见误解",
+    "职责、权限、不负责范围和职级边界"
   ],
   "supported_platforms": [
     "Claude",
@@ -37,8 +38,11 @@
     ]
   },
   "outputs": [
+    "HR 岗位培训与详细岗位介绍",
+    "招聘需求澄清与建议预问问题",
     "内部岗位说明书",
     "候选人版招聘 JD",
+    "可复制的 JD 空白模板",
     "能力证据、面试评估和发布检查表",
     "决策、执行、验收、风险和未知项记录"
   ],
@@ -54,7 +58,7 @@
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "不得虚构薪资、福利、组织承诺或岗位事实；不得加入与工作无关或可能造成歧视的年龄、性别、婚育、户籍、健康等条件。",
+    "不得在 HR 尚未理解或招聘经理尚未确认岗位关键事实时直接定稿发布；不得虚构薪资、福利、组织承诺或岗位事实，也不得加入与工作无关或可能造成歧视的年龄、性别、婚育、户籍、健康等条件。",
     "不得虚构事实、数据、权限、实施或验证结果",
     "必须明确口径、责任、验收、风险和未知项"
   ],
@@ -73,11 +77,13 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/blank-jd-template.md",
       "assets/delivery-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
+      "references/hr-role-training-checklist.md",
       "references/professional-checklist.md",
       "skill.json"
     ]

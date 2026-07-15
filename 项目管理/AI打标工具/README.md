@@ -6,7 +6,7 @@
 
 ## 对应能力
 
-- [AI 视觉打标产品架构师](../../互联网研发/产品/AI产品/ai-visual-tagging-product-architect/README.md)
+- [创意素材智能打标专家](../../创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist/README.md)
 - [标签治理与审核工作流设计师](../../互联网研发/产品/数据产品/label-governance-workflow-designer/README.md)
 
 ## Tool 与 Skill
@@ -18,4 +18,5 @@
 
 | 版本 | 日期 | 更新内容 |
 |---|---|---|
+| 1.1.0 | 2026-07-15 | AI 打标完整能力调整至创拍视觉，统一工具规划、标签体系、模型、人审、回写、评估与合规治理。 |
 | 1.0.0 | 2026-07-15 | 建立项目导航和 AI 打标产品能力归属。 |

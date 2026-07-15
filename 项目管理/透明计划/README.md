@@ -7,7 +7,7 @@
 ## 对应能力
 
 - [标签治理与审核工作流设计师](../../互联网研发/产品/数据产品/label-governance-workflow-designer/README.md)
-- 如包含图片自动识别，再组合 [AI 视觉打标产品架构师](../../互联网研发/产品/AI产品/ai-visual-tagging-product-architect/README.md)。
+- 如包含图片自动识别，再组合 [创意素材智能打标专家](../../创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist/README.md)。
 
 ## 待项目资料确认
 

@@ -315,8 +315,8 @@
       "updated_at": "2026-07-15"
     },
     "job-description-generator": {
-      "version": "1.0.1",
-      "fingerprint": "ffc870f3e9595c53a57d15b24353504b7f0db5d57bcf86c7038c7f7b93ad17f7",
+      "version": "1.0.2",
+      "fingerprint": "bb942369e6952aa84cc886d6d26e837e763bdbb4e9227013afa85c39434b2055",
       "package_root": "人事招聘/岗位与JD/job-description-generator",
       "updated_at": "2026-07-15"
     },
