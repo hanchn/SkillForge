@@ -1,0 +1,49 @@
+{
+  "name": "amazon-pdp-import-generator",
+  "display_name": "亚马逊PDP导入生成器",
+  "type": "project-local-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "category_path": [
+    "跨境运营",
+    "多渠道运营",
+    "亚马逊"
+  ],
+  "description": "根据商品图片文件名自动生成亚马逊 PDP 导入草稿文件，支持多平台 AI 复用。",
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "image_folder_path"
+    ],
+    "optional": [
+      "brand",
+      "marketplace",
+      "category",
+      "variation_theme"
+    ]
+  },
+  "outputs": [
+    "amazon_pdp_import_draft.xlsx",
+    "amazon_pdp_import_draft.csv"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "script": "generate_pdp_import.py",
+    "config": "parser_config.json",
+    "base_prompt": "BASE_PROMPT.md",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "README.md 只是说明文件",
+    "不要把 skill 放进 .trae",
+    "优先复用现有脚本，不重复造轮子",
+    "目录为空时不得伪造结果"
+  ]
+}

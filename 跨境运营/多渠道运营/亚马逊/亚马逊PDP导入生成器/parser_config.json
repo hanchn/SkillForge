@@ -1,0 +1,71 @@
+{
+  "image_extensions": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".webp"
+  ],
+  "role_aliases": {
+    "main": "main",
+    "hero": "main",
+    "cover": "main",
+    "front": "front",
+    "back": "back",
+    "side": "side",
+    "detail": "detail",
+    "lifestyle": "lifestyle",
+    "model": "lifestyle",
+    "package": "package"
+  },
+  "known_colors": [
+    "black",
+    "white",
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "pink",
+    "purple",
+    "orange",
+    "brown",
+    "gray",
+    "grey",
+    "silver",
+    "gold",
+    "beige",
+    "khaki",
+    "navy"
+  ],
+  "stop_tokens": [
+    "img",
+    "image",
+    "photo",
+    "pic",
+    "copy",
+    "draft",
+    "final"
+  ],
+  "output_columns": [
+    "sku",
+    "parent_sku",
+    "product_type",
+    "color_name",
+    "item_name",
+    "brand_name",
+    "marketplace",
+    "category",
+    "variation_theme",
+    "main_image_file",
+    "other_image_files",
+    "main_image_url",
+    "other_image_urls",
+    "bullet_point_1",
+    "bullet_point_2",
+    "bullet_point_3",
+    "bullet_point_4",
+    "bullet_point_5",
+    "product_description",
+    "parse_confidence",
+    "source_files"
+  ]
+}
