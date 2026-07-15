@@ -488,6 +488,8 @@
         <div class="header-sub">Skills 管理与检索</div>
       </header>
 
+      <div class="main-tabs" id="mainTabs"></div>
+
       <section class="toolbar">
         <div class="search-wrapper">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -563,6 +565,7 @@
       };
 
       const elements = {
+        mainTabs: document.getElementById("mainTabs"),
         metrics: document.getElementById("metrics"),
         cards: document.getElementById("cards"),
         searchInput: document.getElementById("searchInput"),
@@ -575,6 +578,15 @@
         viewerContent: document.getElementById("viewerContent"),
         viewerClose: document.getElementById("viewerClose")
       };
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
 
       async function fetchJson(path) {
         const response = await fetch(path);
@@ -613,10 +625,38 @@
         render();
       }
 
+      function renderTabs() {
+        const topLevels = Object.keys(state.categoryTree).sort();
+        const currentTop = state.selectedPath.length > 0 ? state.selectedPath[0] : "";
+
+        let html = `<button class="main-tab-btn ${currentTop === "" ? 'active' : ''}" data-top="">全部分类</button>`;
+        
+        topLevels.forEach(top => {
+          html += `<button class="main-tab-btn ${currentTop === top ? 'active' : ''}" data-top="${escapeHtml(top)}">${escapeHtml(top)}</button>`;
+        });
+
+        elements.mainTabs.innerHTML = html;
+
+        elements.mainTabs.querySelectorAll('.main-tab-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const top = e.target.dataset.top;
+            if (top) {
+              state.selectedPath = [top];
+            } else {
+              state.selectedPath = [];
+            }
+            render();
+          });
+        });
+      }
+
       function renderFilters() {
         elements.categoryFilters.innerHTML = "";
-        let currentTree = state.categoryTree;
-        let level = 0;
+        if (state.selectedPath.length === 0) return;
+
+        const topLevel = state.selectedPath[0];
+        let currentTree = state.categoryTree[topLevel];
+        let level = 1;
 
         while (currentTree && Object.keys(currentTree).length > 0) {
           const select = document.createElement("select");
@@ -625,7 +665,7 @@
           
           const defaultOption = document.createElement("option");
           defaultOption.value = "";
-          defaultOption.textContent = level === 0 ? "全部分类" : "全部子类";
+          defaultOption.textContent = "全部子类";
           select.appendChild(defaultOption);
 
           const options = Object.keys(currentTree).sort();

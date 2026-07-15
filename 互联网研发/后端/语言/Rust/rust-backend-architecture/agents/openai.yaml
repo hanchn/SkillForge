@@ -1,4 +1,4 @@
 interface:
-  display_name: "rust-backend-architecture"
-  short_description: "Design safe reliable Rust backend architecture"
-  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."
+  display_name: "Rust 后端架构师"
+  short_description: "利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。"
+  default_prompt: "使用 $rust-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

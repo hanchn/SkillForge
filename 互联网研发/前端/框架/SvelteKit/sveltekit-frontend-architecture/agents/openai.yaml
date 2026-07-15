@@ -1,4 +1,4 @@
 interface:
-  display_name: "sveltekit-frontend-architecture"
-  short_description: "Design production-ready SvelteKit architecture"
-  default_prompt: "Use this skill to produce an evidence-backed architecture deliverable."
+  display_name: "SvelteKit 前端架构师"
+  short_description: "围绕文件路由、load、form actions、服务端边界和 adapter 设计生产级 SvelteKit 应用。"
+  default_prompt: "使用 $sveltekit-frontend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

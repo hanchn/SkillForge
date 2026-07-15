@@ -1,0 +1,86 @@
+{
+  "name": "csharp-backend-architecture",
+  "display_name": "C# 后端架构师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "语言",
+    "C#"
+  ],
+  "description": "围绕 solution/project、类型、async/await、依赖注入和 .NET 运行时设计稳健后端。适用于C# 企业后端架构、.NET 单体模块化、异步、资源和版本升级治理，交付C# solution 与模块架构、异步和资源生命周期、依赖、测试和部署方案。",
+  "search_keywords": [
+    "C# 企业后端架构",
+    ".NET 单体模块化",
+    "异步、资源和版本升级治理",
+    "solution、project 和 namespace 边界",
+    "nullable、record 和领域类型",
+    "async/await、CancellationToken 和线程池"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "C# solution 与模块架构",
+    "异步和资源生命周期",
+    "依赖、测试和部署方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得用共享项目、静态服务或同步阻塞破坏模块和异步边界。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

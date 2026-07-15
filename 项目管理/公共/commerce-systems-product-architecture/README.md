@@ -7,7 +7,7 @@
 
 ## 产品定位
 
-设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。
+设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。
 
 ## 解决的问题
 

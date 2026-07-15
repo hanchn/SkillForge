@@ -258,6 +258,36 @@
       ]
     },
     {
+      "name": "angular-frontend-architecture",
+      "display_name": "Angular 前端架构师",
+      "description": "围绕 standalone components、signals、依赖注入、路由和混合渲染设计大型 Angular 应用。适用于Angular 企业应用架构、NgModule 到 standalone 演进、大型团队前端平台治理，交付Angular 功能域架构、依赖注入与状态边界、渲染、测试和升级方案。",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "框架",
+        "Angular"
+      ],
+      "package_root": "互联网研发/前端/框架/Angular/angular-frontend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Angular 企业应用架构",
+        "NgModule 到 standalone 演进",
+        "大型团队前端平台治理",
+        "standalone component 与 feature 边界",
+        "signals、RxJS 和状态 ownership",
+        "DI scope 与 provider"
+      ]
+    },
+    {
       "name": "nextjs-frontend-architecture",
       "display_name": "Next.js 前端架构师",
       "description": "按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。适用于Next.js App Router 新项目、Pages Router 迁移、电商 SEO、性能和缓存架构，交付Next.js 路由与渲染蓝图、Server/Client 边界、缓存、数据和部署方案。",
@@ -315,6 +345,36 @@
         "组件 ownership 与组合",
         "本地、共享、服务端和 URL 状态",
         "副作用与数据获取"
+      ]
+    },
+    {
+      "name": "sveltekit-frontend-architecture",
+      "display_name": "SvelteKit 前端架构师",
+      "description": "围绕文件路由、load、form actions、服务端边界和 adapter 设计生产级 SvelteKit 应用。适用于SvelteKit 新项目、SSR/SSG/SPA 混合架构、SvelteKit 数据与部署治理，交付SvelteKit 路由和渲染架构、数据、表单与状态边界、adapter、观测和部署方案。",
+      "category_path": [
+        "互联网研发",
+        "前端",
+        "框架",
+        "SvelteKit"
+      ],
+      "package_root": "互联网研发/前端/框架/SvelteKit/sveltekit-frontend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "SvelteKit 新项目",
+        "SSR/SSG/SPA 混合架构",
+        "SvelteKit 数据与部署治理",
+        "route、layout 与项目结构",
+        "load、form actions 和 remote functions",
+        "server-only 模块与 secrets"
       ]
     },
     {
@@ -523,6 +583,36 @@
       ]
     },
     {
+      "name": "aspnet-core-backend-architecture",
+      "display_name": "ASP.NET Core 后端架构师",
+      "description": "围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架构。适用于ASP.NET Core API、模块化 .NET 后端、Minimal API 与 Controller 架构评审，交付ASP.NET Core 模块架构、DI 与请求管道、数据、安全和生产运行方案。",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "框架",
+        "ASP.NET Core"
+      ],
+      "package_root": "互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "ASP.NET Core API",
+        "模块化 .NET 后端",
+        "Minimal API 与 Controller 架构评审",
+        "host、configuration 和 options",
+        "DI lifetime 与 module registration",
+        "middleware 顺序和 endpoint"
+      ]
+    },
+    {
       "name": "fastapi-backend-architecture",
       "display_name": "FastAPI 后端架构师",
       "description": "围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。适用于FastAPI 中大型应用、Python API 模块化、异步 API 性能和可靠性治理，交付FastAPI 包与路由架构、依赖和数据契约、运行、测试和部署方案。",
@@ -580,6 +670,36 @@
         "route group 与业务模块",
         "middleware 顺序和短路",
         "请求绑定、验证和错误"
+      ]
+    },
+    {
+      "name": "laravel-backend-architecture",
+      "display_name": "Laravel 后端架构师",
+      "description": "围绕领域模块、service container、Eloquent、队列和请求生命周期设计生产级 Laravel 架构。适用于Laravel 中大型业务系统、Laravel 单体模块化、队列、事件和性能治理，交付Laravel 业务模块架构、容器、数据和异步边界、安全、测试和部署方案。",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "框架",
+        "Laravel"
+      ],
+      "package_root": "互联网研发/后端/框架/Laravel/laravel-backend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Laravel 中大型业务系统",
+        "Laravel 单体模块化",
+        "队列、事件和性能治理",
+        "业务模块与 service provider",
+        "container binding 和生命周期",
+        "Eloquent、事务和查询边界"
       ]
     },
     {
@@ -668,6 +788,36 @@
         "错误率、延迟或服务不可用",
         "队列积压、任务失败和依赖超时",
         "数据错误、部分用户异常和发布回归"
+      ]
+    },
+    {
+      "name": "csharp-backend-architecture",
+      "display_name": "C# 后端架构师",
+      "description": "围绕 solution/project、类型、async/await、依赖注入和 .NET 运行时设计稳健后端。适用于C# 企业后端架构、.NET 单体模块化、异步、资源和版本升级治理，交付C# solution 与模块架构、异步和资源生命周期、依赖、测试和部署方案。",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "语言",
+        "C#"
+      ],
+      "package_root": "互联网研发/后端/语言/C#/csharp-backend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "C# 企业后端架构",
+        ".NET 单体模块化",
+        "异步、资源和版本升级治理",
+        "solution、project 和 namespace 边界",
+        "nullable、record 和领域类型",
+        "async/await、CancellationToken 和线程池"
       ]
     },
     {
@@ -761,6 +911,36 @@
       ]
     },
     {
+      "name": "php-backend-architecture",
+      "display_name": "PHP 后端架构师",
+      "description": "围绕 namespace、Composer、请求生命周期和显式模块边界设计可维护 PHP 后端。适用于PHP 业务系统架构、遗留 PHP 模块化重构、PHP 运行和依赖治理，交付PHP 模块与包架构、请求和资源生命周期、依赖、测试和部署方案。",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "语言",
+        "PHP"
+      ],
+      "package_root": "互联网研发/后端/语言/PHP/php-backend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "PHP 业务系统架构",
+        "遗留 PHP 模块化重构",
+        "PHP 运行和依赖治理",
+        "namespace、PSR 和 Composer",
+        "请求生命周期与共享状态",
+        "领域类型、异常和校验"
+      ]
+    },
+    {
       "name": "python-backend-architecture",
       "display_name": "Python 后端架构师",
       "description": "围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。适用于Python Web 或任务平台、脚本向服务化演进、同步与异步混合系统治理，交付Python 包与层次架构、执行和并发模型、依赖、测试和部署方案。",
@@ -788,6 +968,36 @@
         "package、module 和 import 边界",
         "typing 与运行时校验",
         "asyncio、线程和进程选择"
+      ]
+    },
+    {
+      "name": "rust-backend-architecture",
+      "display_name": "Rust 后端架构师",
+      "description": "利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。适用于Rust API 或系统服务、高可靠高性能服务、Rust workspace 和 crate 架构，交付Rust crate 与领域架构、并发和资源模型、错误、测试和部署方案。",
+      "category_path": [
+        "互联网研发",
+        "后端",
+        "语言",
+        "Rust"
+      ],
+      "package_root": "互联网研发/后端/语言/Rust/rust-backend-architecture",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Manus",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md",
+      "search_keywords": [
+        "Rust API 或系统服务",
+        "高可靠高性能服务",
+        "Rust workspace 和 crate 架构",
+        "crate、module 和 feature 边界",
+        "ownership、borrowing 和领域类型",
+        "Result、错误分层和恢复"
       ]
     },
     {
@@ -2499,7 +2709,7 @@
     {
       "name": "commerce-systems-product-architecture",
       "display_name": "跨境业务系统总产品架构师",
-      "description": "设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。",
+      "description": "设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。",
       "category_path": [
         "项目管理",
         "公共"

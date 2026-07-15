@@ -1,85 +1,42 @@
 ---
 name: rust-backend-architecture
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: 利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。 Use when an AI needs to handle Rust API 或系统服务, 高可靠高性能服务, Rust workspace 和 crate 架构; produce Rust crate 与领域架构, 并发和资源模型, 错误、测试和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# Rust Backend Architecture
+# Rust 后端架构师
 
-## Overview
+利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## Load resources
 
-## Structuring This Skill
+- Read `references/professional-checklist.md` before making decisions.
+- Use `assets/delivery-template.md` for the final durable artifact.
+- If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Workflow
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+1. 检查现有仓库、运行拓扑、质量目标、团队边界和约束；区分已验证事实、假设与未知项
+2. 建立系统上下文、关键用户旅程或请求路径，明确边界外依赖和非功能目标
+3. 按业务能力划分模块，定义 ownership、依赖方向、公共契约和禁止跨越的边界
+4. 设计数据、状态、错误、权限、缓存、并发和资源生命周期，不只覆盖正常路径
+5. 评估备选架构的复杂度、性能、可靠性、交付成本和可逆性，记录决策理由
+6. 制定增量实施、兼容迁移、验证、观测、灰度和回滚计划
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+## Required decision lenses
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+- crate、module 和 feature 边界
+- ownership、borrowing 和领域类型
+- Result、错误分层和恢复
+- async runtime、Send/Sync 和取消
+- unsafe 边界、测试和性能测量
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+## Guardrails
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+- 不得为绕过编译器随意扩大 clone、Arc/Mutex 或 unsafe 使用范围。
+- 不得把假设写成事实；缺少关键数据时标注未知项、影响和最低验证动作。
+- 不得只给原则或清单；必须给出优先级、责任、依赖、验收和风险控制。
+- 不得声称已实施、已验证或已产生效果，除非有对应证据。
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+## Output contract
 
-## [TODO: Replace with the first main section based on chosen structure]
-
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
-
-## Resources (optional)
-
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
-
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
-
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
-
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
-
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+交付必须包含：目标与范围、已检查证据、关键定义、现状诊断、方案与备选、决策理由、执行或演进计划、指标与验收、风险与恢复、未知项。结论与数字必须能够追溯到来源或计算过程。

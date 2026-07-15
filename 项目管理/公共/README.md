@@ -12,7 +12,7 @@
 
 ## 当前 Skill
 
-- [跨境业务系统总产品架构师](commerce-systems-product-architecture/README.md)：设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。
+- [跨境业务系统总产品架构师](commerce-systems-product-architecture/README.md)：设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。
 
 ## 迭代记录
 

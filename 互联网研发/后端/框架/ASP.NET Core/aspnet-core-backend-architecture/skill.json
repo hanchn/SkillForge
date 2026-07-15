@@ -1,0 +1,86 @@
+{
+  "name": "aspnet-core-backend-architecture",
+  "display_name": "ASP.NET Core 后端架构师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "框架",
+    "ASP.NET Core"
+  ],
+  "description": "围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架构。适用于ASP.NET Core API、模块化 .NET 后端、Minimal API 与 Controller 架构评审，交付ASP.NET Core 模块架构、DI 与请求管道、数据、安全和生产运行方案。",
+  "search_keywords": [
+    "ASP.NET Core API",
+    "模块化 .NET 后端",
+    "Minimal API 与 Controller 架构评审",
+    "host、configuration 和 options",
+    "DI lifetime 与 module registration",
+    "middleware 顺序和 endpoint"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "ASP.NET Core 模块架构",
+    "DI 与请求管道",
+    "数据、安全和生产运行方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得混淆 Singleton、Scoped、Transient 生命周期或让 middleware 顺序依赖隐含。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

@@ -65,6 +65,10 @@
   - 路径：`互联网研发/前端/架构/frontend-architecture-designer/`
   - 分类：互联网研发 / 前端 / 架构
   - 用途：从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。适用于新前端平台或大型模块架构、遗留前端重构与模块化、多团队前端架构评审，交付前端架构蓝图、模块与依赖边界、运行时、交付与演进方案。
+- **Angular 前端架构师**（`angular-frontend-architecture`）
+  - 路径：`互联网研发/前端/框架/Angular/angular-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 框架 / Angular
+  - 用途：围绕 standalone components、signals、依赖注入、路由和混合渲染设计大型 Angular 应用。适用于Angular 企业应用架构、NgModule 到 standalone 演进、大型团队前端平台治理，交付Angular 功能域架构、依赖注入与状态边界、渲染、测试和升级方案。
 - **Next.js 前端架构师**（`nextjs-frontend-architecture`）
   - 路径：`互联网研发/前端/框架/Next.js/nextjs-frontend-architecture/`
   - 分类：互联网研发 / 前端 / 框架 / Next.js
@@ -73,6 +77,10 @@
   - 路径：`互联网研发/前端/框架/React/react-frontend-architecture/`
   - 分类：互联网研发 / 前端 / 框架 / React
   - 用途：围绕组件、状态、数据流和渲染边界设计可演进 React 应用。适用于React 应用架构和重构、复杂状态与数据流治理、组件平台和多团队协作，交付React 架构蓝图、组件与状态边界、渲染、测试和迁移方案。
+- **SvelteKit 前端架构师**（`sveltekit-frontend-architecture`）
+  - 路径：`互联网研发/前端/框架/SvelteKit/sveltekit-frontend-architecture/`
+  - 分类：互联网研发 / 前端 / 框架 / SvelteKit
+  - 用途：围绕文件路由、load、form actions、服务端边界和 adapter 设计生产级 SvelteKit 应用。适用于SvelteKit 新项目、SSR/SSG/SPA 混合架构、SvelteKit 数据与部署治理，交付SvelteKit 路由和渲染架构、数据、表单与状态边界、adapter、观测和部署方案。
 - **Vue 前端架构师**（`vue-frontend-architecture`）
   - 路径：`互联网研发/前端/框架/Vue/vue-frontend-architecture/`
   - 分类：互联网研发 / 前端 / 框架 / Vue
@@ -101,6 +109,10 @@
   - 路径：`互联网研发/后端/架构/backend-architecture-designer/`
   - 分类：互联网研发 / 后端 / 架构
   - 用途：从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。适用于企业后端总体架构、单体、模块化和服务化选型、跨团队系统演进评审，交付后端总体架构蓝图、质量属性与边界决策、技术路线和分阶段演进计划。
+- **ASP.NET Core 后端架构师**（`aspnet-core-backend-architecture`）
+  - 路径：`互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 框架 / ASP.NET Core
+  - 用途：围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架构。适用于ASP.NET Core API、模块化 .NET 后端、Minimal API 与 Controller 架构评审，交付ASP.NET Core 模块架构、DI 与请求管道、数据、安全和生产运行方案。
 - **FastAPI 后端架构师**（`fastapi-backend-architecture`）
   - 路径：`互联网研发/后端/框架/FastAPI/fastapi-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / FastAPI
@@ -109,6 +121,10 @@
   - 路径：`互联网研发/后端/框架/Gin/gin-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / Gin
   - 用途：围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。适用于Gin API 新建或重构、高吞吐 Go HTTP 服务、middleware 和安全治理，交付Gin 路由与模块架构、middleware 和依赖方案、性能、安全和部署计划。
+- **Laravel 后端架构师**（`laravel-backend-architecture`）
+  - 路径：`互联网研发/后端/框架/Laravel/laravel-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 框架 / Laravel
+  - 用途：围绕领域模块、service container、Eloquent、队列和请求生命周期设计生产级 Laravel 架构。适用于Laravel 中大型业务系统、Laravel 单体模块化、队列、事件和性能治理，交付Laravel 业务模块架构、容器、数据和异步边界、安全、测试和部署方案。
 - **NestJS 后端架构师**（`nestjs-backend-architecture`）
   - 路径：`互联网研发/后端/框架/NestJS/nestjs-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / NestJS
@@ -121,6 +137,10 @@
   - 路径：`互联网研发/后端/production-incident-diagnostician/`
   - 分类：互联网研发 / 后端 / 生产故障
   - 用途：Diagnose and coordinate production incidents using impact assessment, safe stabilization, timelines, competing hypotheses, logs, metrics, traces, deploy and configuration changes, dependency evidence, mitigations, rollback, communication, verification, and follow-up learning
+- **C# 后端架构师**（`csharp-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/C#/csharp-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / C#
+  - 用途：围绕 solution/project、类型、async/await、依赖注入和 .NET 运行时设计稳健后端。适用于C# 企业后端架构、.NET 单体模块化、异步、资源和版本升级治理，交付C# solution 与模块架构、异步和资源生命周期、依赖、测试和部署方案。
 - **Go 后端架构师**（`go-backend-architecture`）
   - 路径：`互联网研发/后端/语言/Go/go-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Go
@@ -133,10 +153,18 @@
   - 路径：`互联网研发/后端/语言/Node.js/nodejs-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Node.js
   - 用途：按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。适用于Node.js API 和 BFF、高 I/O 服务架构、CommonJS 到 ESM 迁移，交付Node.js 模块架构、异步与资源模型、可靠性和部署方案。
+- **PHP 后端架构师**（`php-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/PHP/php-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / PHP
+  - 用途：围绕 namespace、Composer、请求生命周期和显式模块边界设计可维护 PHP 后端。适用于PHP 业务系统架构、遗留 PHP 模块化重构、PHP 运行和依赖治理，交付PHP 模块与包架构、请求和资源生命周期、依赖、测试和部署方案。
 - **Python 后端架构师**（`python-backend-architecture`）
   - 路径：`互联网研发/后端/语言/Python/python-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Python
   - 用途：围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。适用于Python Web 或任务平台、脚本向服务化演进、同步与异步混合系统治理，交付Python 包与层次架构、执行和并发模型、依赖、测试和部署方案。
+- **Rust 后端架构师**（`rust-backend-architecture`）
+  - 路径：`互联网研发/后端/语言/Rust/rust-backend-architecture/`
+  - 分类：互联网研发 / 后端 / 语言 / Rust
+  - 用途：利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。适用于Rust API 或系统服务、高可靠高性能服务、Rust workspace 和 crate 架构，交付Rust crate 与领域架构、并发和资源模型、错误、测试和部署方案。
 - **测试策略设计师**（`test-strategy-designer`）
   - 路径：`互联网研发/测试/test-strategy-designer/`
   - 分类：互联网研发 / 测试 / 测试策略
@@ -388,4 +416,4 @@
 - **跨境业务系统总产品架构师**（`commerce-systems-product-architecture`）
   - 路径：`项目管理/公共/commerce-systems-product-architecture/`
   - 分类：项目管理 / 公共
-  - 用途：设计 OMS、IMS、OFS、CMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。
+  - 用途：设计 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 等系统的职责地图、主数据归属和端到端协同。适用于跨境业务系统蓝图、系统边界重构、新系统立项和集成治理，交付业务能力与系统地图、主数据和状态 ownership 矩阵、跨系统流程、契约与演进路线。

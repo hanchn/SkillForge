@@ -156,6 +156,21 @@
       ]
     },
     {
+      "name": "angular-frontend-architecture",
+      "display_name": "Angular 前端架构师",
+      "package_root": "互联网研发/前端/框架/Angular/angular-frontend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Angular 企业应用架构",
+        "NgModule 到 standalone 演进",
+        "大型团队前端平台治理",
+        "standalone component 与 feature 边界",
+        "signals、RxJS 和状态 ownership",
+        "DI scope 与 provider"
+      ]
+    },
+    {
       "name": "nextjs-frontend-architecture",
       "display_name": "Next.js 前端架构师",
       "package_root": "互联网研发/前端/框架/Next.js/nextjs-frontend-architecture",
@@ -183,6 +198,21 @@
         "组件 ownership 与组合",
         "本地、共享、服务端和 URL 状态",
         "副作用与数据获取"
+      ]
+    },
+    {
+      "name": "sveltekit-frontend-architecture",
+      "display_name": "SvelteKit 前端架构师",
+      "package_root": "互联网研发/前端/框架/SvelteKit/sveltekit-frontend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "SvelteKit 新项目",
+        "SSR/SSG/SPA 混合架构",
+        "SvelteKit 数据与部署治理",
+        "route、layout 与项目结构",
+        "load、form actions 和 remote functions",
+        "server-only 模块与 secrets"
       ]
     },
     {
@@ -290,6 +320,21 @@
       ]
     },
     {
+      "name": "aspnet-core-backend-architecture",
+      "display_name": "ASP.NET Core 后端架构师",
+      "package_root": "互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "ASP.NET Core API",
+        "模块化 .NET 后端",
+        "Minimal API 与 Controller 架构评审",
+        "host、configuration 和 options",
+        "DI lifetime 与 module registration",
+        "middleware 顺序和 endpoint"
+      ]
+    },
+    {
       "name": "fastapi-backend-architecture",
       "display_name": "FastAPI 后端架构师",
       "package_root": "互联网研发/后端/框架/FastAPI/fastapi-backend-architecture",
@@ -317,6 +362,21 @@
         "route group 与业务模块",
         "middleware 顺序和短路",
         "请求绑定、验证和错误"
+      ]
+    },
+    {
+      "name": "laravel-backend-architecture",
+      "display_name": "Laravel 后端架构师",
+      "package_root": "互联网研发/后端/框架/Laravel/laravel-backend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Laravel 中大型业务系统",
+        "Laravel 单体模块化",
+        "队列、事件和性能治理",
+        "业务模块与 service provider",
+        "container binding 和生命周期",
+        "Eloquent、事务和查询边界"
       ]
     },
     {
@@ -361,6 +421,21 @@
         "错误率、延迟或服务不可用",
         "队列积压、任务失败和依赖超时",
         "数据错误、部分用户异常和发布回归"
+      ]
+    },
+    {
+      "name": "csharp-backend-architecture",
+      "display_name": "C# 后端架构师",
+      "package_root": "互联网研发/后端/语言/C#/csharp-backend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "C# 企业后端架构",
+        ".NET 单体模块化",
+        "异步、资源和版本升级治理",
+        "solution、project 和 namespace 边界",
+        "nullable、record 和领域类型",
+        "async/await、CancellationToken 和线程池"
       ]
     },
     {
@@ -409,6 +484,21 @@
       ]
     },
     {
+      "name": "php-backend-architecture",
+      "display_name": "PHP 后端架构师",
+      "package_root": "互联网研发/后端/语言/PHP/php-backend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "PHP 业务系统架构",
+        "遗留 PHP 模块化重构",
+        "PHP 运行和依赖治理",
+        "namespace、PSR 和 Composer",
+        "请求生命周期与共享状态",
+        "领域类型、异常和校验"
+      ]
+    },
+    {
       "name": "python-backend-architecture",
       "display_name": "Python 后端架构师",
       "package_root": "互联网研发/后端/语言/Python/python-backend-architecture",
@@ -421,6 +511,21 @@
         "package、module 和 import 边界",
         "typing 与运行时校验",
         "asyncio、线程和进程选择"
+      ]
+    },
+    {
+      "name": "rust-backend-architecture",
+      "display_name": "Rust 后端架构师",
+      "package_root": "互联网研发/后端/语言/Rust/rust-backend-architecture",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "Rust API 或系统服务",
+        "高可靠高性能服务",
+        "Rust workspace 和 crate 架构",
+        "crate、module 和 feature 边界",
+        "ownership、borrowing 和领域类型",
+        "Result、错误分层和恢复"
       ]
     },
     {
