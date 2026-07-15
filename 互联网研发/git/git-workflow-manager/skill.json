@@ -60,7 +60,10 @@
   "constraints": [
     "不得未经授权丢弃工作或重写共享历史",
     "不得暂存或提交无关用户改动",
-    "不得假设分支名、远端或发布流存在"
+    "不得假设分支名、远端或发布流存在",
+    "不得在 master、main、test、pre 直接开发或提交",
+    "不得将 test 合并到任何非 test 分支",
+    "合并或环境验证完成后必须安全返回原开发分支"
   ],
   "distribution": {
     "share_as_single_folder": true,

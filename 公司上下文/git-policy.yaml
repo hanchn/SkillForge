@@ -1,0 +1,35 @@
+policy_version: 1.0.0
+updated_at: 2026-07-15
+status: confirmed
+
+protected_or_environment_branches:
+  - master
+  - main
+  - test
+  - pre
+
+development_rules:
+  direct_coding_on_protected_or_environment_branch: forbidden
+  direct_commit_on_protected_or_environment_branch: forbidden
+  allowed_work_branch_types:
+    - feature
+    - fix
+    - approved_development_branch
+
+merge_rules:
+  test_to_non_test: forbidden
+  test_is_release_source: false
+  require_verified_source_target_and_commit_set: true
+  release_source: original_development_branch_or_approved_commit_set
+
+branch_return:
+  record_original_development_branch: true
+  return_after_merge_or_environment_verification: required
+  force_return_when_conflicted_or_unsafe: forbidden
+  on_blocked_return: preserve_state_and_report
+
+evidence:
+  require_before_state: true
+  require_source_target_and_commit_set: true
+  require_tests_and_result: true
+  require_final_branch: true
