@@ -1,0 +1,62 @@
+{
+  "project": "SkillForge",
+  "version": "1.0.0",
+  "entry_docs": {
+    "readme": "README.md",
+    "project_index": "PROJECT_INDEX.md",
+    "governance_skill": "skillforge-project-governance/SKILL.md",
+    "skills_registry": "registry/skills-index.json",
+    "schema": "schemas/skill.schema.json"
+  },
+  "layers": {
+    "project_governance": [
+      "README.md",
+      "PROJECT_INDEX.md",
+      "skillforge-project-governance",
+      "schemas",
+      "templates",
+      "registry",
+      "platforms"
+    ],
+    "business_browse": [
+      "跨境运营",
+      "互联网研发",
+      "法律政务",
+      "work"
+    ]
+  },
+  "skills": [
+    {
+      "name": "skillforge-project-governance",
+      "display_name": "SkillForge项目治理",
+      "package_root": "skillforge-project-governance",
+      "entrypoint": "SKILL.md",
+      "type": "portable-governance-skill",
+      "search_keywords": [
+        "项目规则",
+        "架构设计",
+        "项目治理",
+        "目录规范",
+        "skill 仓库"
+      ]
+    },
+    {
+      "name": "amazon-pdp-import-generator",
+      "display_name": "亚马逊PDP导入生成器",
+      "package_root": "跨境运营/多渠道运营/亚马逊/amazon-pdp-import-generator",
+      "entrypoint": "SKILL.md",
+      "type": "portable-business-skill",
+      "search_keywords": [
+        "亚马逊",
+        "PDP",
+        "商品图片",
+        "导入表",
+        "Excel"
+      ]
+    }
+  ],
+  "trae_bridge": {
+    "enabled": true,
+    "skill_path": ".trae/skills/skillforge-project-governance/SKILL.md"
+  }
+}

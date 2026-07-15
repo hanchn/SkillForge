@@ -7,6 +7,7 @@
 - 按业务维度沉淀可复用 skill
 - 让 skill 可以在 `Claude`、`Codex`、`GPT`、`Trae`、`Qorder` 等平台复用
 - 让每个 skill 都能单独拎出整个文件夹发送给别人使用
+- 给 AI 提供统一索引入口，方便全量搜索与项目理解
 
 ## 架构原则
 
@@ -46,10 +47,12 @@
 
 ## 项目级目录
 
+- `PROJECT_INDEX.md`：给 AI 的全局导航与搜索入口
 - `schemas/`：skill 元数据 schema
 - `templates/`：新 skill 模板
 - `registry/`：全局 skill 索引
 - `platforms/`：项目级平台适配约定
+- `skillforge-project-governance/`：描述整个项目定位、架构设计与规则的项目级 skill
 - 业务目录：如 `跨境运营/`、`互联网研发/`
 
 ## 当前要求

@@ -3,6 +3,23 @@
   "version": "1.0.0",
   "skills": [
     {
+      "name": "skillforge-project-governance",
+      "display_name": "SkillForge项目治理",
+      "category_path": [
+        "project-root"
+      ],
+      "package_root": "skillforge-project-governance",
+      "portable": true,
+      "supported_platforms": [
+        "Claude",
+        "Codex",
+        "GPT",
+        "Trae",
+        "Qorder"
+      ],
+      "entrypoint": "SKILL.md"
+    },
+    {
       "name": "amazon-pdp-import-generator",
       "display_name": "亚马逊PDP导入生成器",
       "category_path": [
