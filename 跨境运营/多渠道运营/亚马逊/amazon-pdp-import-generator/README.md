@@ -2,7 +2,7 @@
 
 - skill id：`amazon-pdp-import-generator`
 - 展示名：`亚马逊PDP内容生成技能`
-- 用途：根据商品图片文件名自动整理商品信息，并生成亚马逊 PDP 导入草稿表
+- 用途：根据商品图片文件名自动整理商品信息，并结合 AI 生成 SEO 优化的 PDP 内容（标题、5要素、描述、Search Terms 标签），最终输出亚马逊 PDP 导入草稿表
 - 定位：这是 `SkillForge` 项目中的可单独分发 skill 包，不绑定单一平台
 
 ## 包结构
