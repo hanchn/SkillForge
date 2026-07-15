@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SkillForge Skills 管理台</title>
+    <title>SkillForge</title>
     <style>
       :root {
-        --bg: #f4f5f7;
-        --panel: rgba(255, 255, 255, 0.76);
-        --panel-strong: rgba(255, 255, 255, 0.92);
-        --panel-border: rgba(15, 23, 42, 0.08);
-        --text: #101828;
-        --text-soft: #667085;
-        --text-dim: #98a2b3;
-        --accent: #335c81;
-        --accent-soft: rgba(51, 92, 129, 0.12);
-        --shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
-        --radius-xl: 28px;
-        --radius-lg: 22px;
-        --radius-md: 16px;
+        --bg: #ffffff;
+        --bg-hover: #f3f4f6;
+        --border: #e5e7eb;
+        --text: #111827;
+        --text-secondary: #6b7280;
+        --text-tertiary: #9ca3af;
+        --accent: #000000;
+        --accent-hover: #374151;
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --radius: 8px;
+        --radius-lg: 12px;
+        --radius-full: 9999px;
       }
 
       * {
@@ -29,24 +30,11 @@
         margin: 0;
         min-width: 320px;
         min-height: 100vh;
-        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-        background:
-          radial-gradient(circle at top left, rgba(51, 92, 129, 0.08), transparent 28%),
-          radial-gradient(circle at top right, rgba(15, 23, 42, 0.06), transparent 26%),
-          linear-gradient(180deg, #fafafb 0%, #eef1f4 100%);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: var(--bg);
         color: var(--text);
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        pointer-events: none;
-        background-image:
-          linear-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255, 255, 255, 0.22) 1px, transparent 1px);
-        background-size: 28px 28px;
-        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 72%);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
       }
 
       a {
@@ -55,493 +43,463 @@
       }
 
       button,
-      input {
+      input,
+      select {
         font: inherit;
+        border: none;
+        outline: none;
+        background: none;
       }
 
       .app {
-        max-width: 1440px;
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 32px 24px 48px;
+        padding: 48px 24px;
       }
 
-      .header-bar,
-      .toolbar,
-      .dock-panel,
-      .metric-card,
-      .card {
-        background: var(--panel);
-        border: 1px solid var(--panel-border);
-        box-shadow: var(--shadow);
-        backdrop-filter: blur(18px);
-      }
-
-      .header-bar,
-      .dock-panel {
-        border-radius: var(--radius-xl);
-        padding: 16px 18px;
-      }
-
-      .header-bar,
-      .toolbar {
-        margin-bottom: 16px;
-      }
-
-      .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 12px;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.76);
-        color: var(--text-soft);
-        font-size: 12px;
-        letter-spacing: 0.06em;
-      }
-
-      .header-bar {
-        display: flex;
-        gap: 14px;
-        align-items: center;
-        justify-content: space-between;
-      }
-
-      .header-title {
-        display: flex;
-        gap: 12px;
-        align-items: center;
+      .header {
+        margin-bottom: 40px;
       }
 
       h1 {
-        margin: 0;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: -0.03em;
+        margin: 0 0 8px 0;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
       }
 
       .header-sub {
-        color: var(--text-soft);
-        font-size: 13px;
-      }
-
-      .overview-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-
-      .hero-link,
-      .detail-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 10px 12px;
-        border-radius: 999px;
-        background: var(--panel-strong);
-        border: 1px solid rgba(15, 23, 42, 0.07);
-        transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-        font-size: 13px;
-      }
-
-      .hero-link:hover,
-      .detail-link:hover {
-        transform: translateY(-1px);
-        border-color: rgba(51, 92, 129, 0.2);
-        background: #fff;
-      }
-
-      .overview-copy {
-        margin: 0;
-        color: var(--text-soft);
-        line-height: 1.75;
-        font-size: 14px;
-      }
-
-      .metrics {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 16px;
-      }
-
-      .metrics.compact {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-      }
-
-      .metric-card {
-        border-radius: var(--radius-lg);
-        padding: 16px 16px;
-      }
-
-      .metric-label {
-        color: var(--text-soft);
-        font-size: 12px;
-      }
-
-      .metric-value {
-        margin-top: 10px;
-        font-size: 24px;
-        letter-spacing: -0.04em;
+        color: var(--text-secondary);
+        font-size: 15px;
       }
 
       .toolbar {
-        border-radius: var(--radius-xl);
-        padding: 18px;
-        margin-bottom: 22px;
+        display: flex;
+        gap: 12px;
+        margin-bottom: 32px;
+        align-items: center;
+        background: #fff;
+        padding: 8px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
       }
 
-      .toolbar-row {
+      .search-wrapper {
+        flex: 1;
         display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
         align-items: center;
+        padding: 0 12px;
+      }
+
+      .search-wrapper svg {
+        width: 18px;
+        height: 18px;
+        color: var(--text-tertiary);
+        margin-right: 12px;
       }
 
       .search-input {
-        width: 100%;
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        border-radius: 18px;
-        background: rgba(255, 255, 255, 0.92);
-        padding: 16px 18px;
-        outline: none;
+        flex: 1;
+        font-size: 15px;
+        padding: 8px 0;
+        color: var(--text);
       }
 
-      .search-input:focus {
-        border-color: rgba(51, 92, 129, 0.4);
-        box-shadow: 0 0 0 4px rgba(51, 92, 129, 0.08);
+      .search-input::placeholder {
+        color: var(--text-tertiary);
       }
 
-      .hint {
-        color: var(--text-dim);
-        font-size: 13px;
+      .divider {
+        width: 1px;
+        height: 24px;
+        background: var(--border);
       }
 
-      .filters {
-        display: grid;
-        gap: 14px;
-        margin-top: 16px;
-      }
-
-      .filter-group {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: center;
-      }
-
-      .filter-label {
-        min-width: 72px;
-        color: var(--text-soft);
-        font-size: 13px;
-      }
-
-      .chip,
-      .tag {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 8px 11px;
-        border-radius: 999px;
-        font-size: 12px;
-      }
-
-      .chip {
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        background: rgba(255, 255, 255, 0.82);
-        color: var(--text-soft);
+      .category-select {
+        padding: 8px 16px 8px 12px;
+        font-size: 14px;
+        color: var(--text);
         cursor: pointer;
-        transition: all 0.2s ease;
+        border-radius: var(--radius);
+        transition: background 0.2s;
+        appearance: none;
+        background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%236b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+        background-repeat: no-repeat;
+        background-position: right 8px center;
+        padding-right: 28px;
       }
 
-      .chip.active,
-      .chip:hover {
-        background: var(--accent-soft);
-        border-color: rgba(51, 92, 129, 0.18);
-        color: var(--accent);
+      .category-select:hover {
+        background-color: var(--bg-hover);
       }
 
       .cards {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-        gap: 16px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
       }
 
       .card {
+        border: 1px solid var(--border);
         border-radius: var(--radius-lg);
-        padding: 18px;
-        transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+        padding: 24px;
+        background: #fff;
+        transition: all 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
       }
 
       .card:hover {
+        border-color: #d1d5db;
+        box-shadow: var(--shadow-md);
         transform: translateY(-2px);
-        border-color: rgba(51, 92, 129, 0.24);
-        background: rgba(255, 255, 255, 0.92);
       }
 
-      .card-top,
-      .meta-row,
-      .tag-row,
-      .card-footer {
+      .card-header {
         display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 12px;
       }
 
       .card-title {
-        margin: 14px 0 8px;
-        font-size: 18px;
-        line-height: 1.25;
-      }
-
-      .description {
+        font-size: 16px;
+        font-weight: 600;
         margin: 0;
-        color: var(--text-soft);
-        line-height: 1.7;
+        line-height: 1.4;
+      }
+
+      .card-path {
+        font-size: 12px;
+        color: var(--text-tertiary);
+        margin-bottom: 12px;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
+
+      .card-desc {
+        color: var(--text-secondary);
         font-size: 14px;
-        min-height: 48px;
-      }
-
-      .tag {
-        background: rgba(15, 23, 42, 0.05);
-        color: var(--text-soft);
-      }
-
-      .tag.accent {
-        background: var(--accent-soft);
-        color: var(--accent);
-      }
-
-      .mono {
-        font-family: "SFMono-Regular", "Consolas", "Menlo", monospace;
+        line-height: 1.6;
+        margin: 0 0 20px 0;
+        flex: 1;
       }
 
       .card-footer {
-        margin-top: 14px;
-        align-items: center;
-        justify-content: space-between;
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: auto;
       }
 
-      .detail-link {
-        padding: 10px 14px;
-        border-radius: 14px;
+      .tag {
+        font-size: 12px;
+        padding: 4px 10px;
+        background: var(--bg-hover);
+        color: var(--text-secondary);
+        border-radius: var(--radius-full);
+        font-weight: 500;
       }
 
       .empty,
       .loading,
       .error {
-        padding: 28px;
+        text-align: center;
+        padding: 64px 20px;
+        color: var(--text-secondary);
+        font-size: 15px;
+        background: #fff;
+        border: 1px dashed var(--border);
         border-radius: var(--radius-lg);
-        background: rgba(255, 255, 255, 0.82);
-        border: 1px dashed rgba(15, 23, 42, 0.12);
-        color: var(--text-soft);
       }
 
+      /* Overview Dock */
       .dock-button {
         position: fixed;
-        right: 18px;
-        bottom: 18px;
+        right: 24px;
+        bottom: 24px;
         z-index: 30;
-        width: 52px;
-        height: 52px;
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        border-radius: 18px;
-        background: rgba(255, 255, 255, 0.9);
-        box-shadow: var(--shadow);
-        backdrop-filter: blur(18px);
-        display: inline-flex;
+        width: 48px;
+        height: 48px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-full);
+        background: #fff;
+        box-shadow: var(--shadow-lg);
+        display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        transition: all 0.2s ease;
+        color: var(--text-secondary);
       }
 
       .dock-button:hover {
-        border-color: rgba(51, 92, 129, 0.24);
-      }
-
-      .dock-button svg {
-        width: 20px;
-        height: 20px;
-        stroke: var(--text-soft);
+        background: var(--bg-hover);
+        color: var(--text);
       }
 
       .dock-panel {
         position: fixed;
-        right: 18px;
-        bottom: 82px;
-        width: min(360px, calc(100vw - 28px));
+        right: 24px;
+        bottom: 84px;
+        width: 320px;
         z-index: 29;
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-lg);
+        padding: 20px;
+        opacity: 0;
+        transform: translateY(10px) scale(0.98);
+        pointer-events: none;
+        transition: all 0.2s ease;
       }
 
-      .dock-panel[hidden] {
-        display: none;
+      .dock-panel.open {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        pointer-events: auto;
       }
 
       .dock-head {
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        gap: 12px;
-        margin-bottom: 12px;
+        align-items: center;
+        margin-bottom: 16px;
       }
 
       .dock-title {
         font-size: 14px;
-        color: var(--text-soft);
+        font-weight: 600;
       }
 
       .dock-close {
-        border: 0;
-        background: transparent;
-        color: var(--text-dim);
+        color: var(--text-tertiary);
         cursor: pointer;
+        padding: 4px;
+        margin: -4px;
       }
 
+      .dock-close:hover {
+        color: var(--text);
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+
+      .metric-item {
+        background: var(--bg-hover);
+        padding: 12px;
+        border-radius: var(--radius);
+      }
+
+      .metric-label {
+        font-size: 12px;
+        color: var(--text-secondary);
+        margin-bottom: 4px;
+      }
+
+      .metric-value {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--text);
+      }
+
+      .overview-links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .link-btn {
+        display: flex;
+        align-items: center;
+        padding: 10px 12px;
+        font-size: 13px;
+        color: var(--text);
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .link-btn:hover {
+        background: var(--bg-hover);
+      }
+
+      .link-btn svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        color: var(--text-secondary);
+      }
+
+      /* Modal */
       .modal {
         position: fixed;
         inset: 0;
-        z-index: 60;
+        z-index: 50;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
-        background: rgba(15, 23, 42, 0.24);
-        backdrop-filter: blur(10px);
+        padding: 24px;
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
       }
 
-      .modal[hidden] {
-        display: none;
+      .modal.open {
+        opacity: 1;
+        pointer-events: auto;
       }
 
       .modal-card {
-        width: min(920px, 100%);
-        max-height: min(82vh, 900px);
-        overflow: hidden;
-        background: rgba(255, 255, 255, 0.95);
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        border-radius: var(--radius-xl);
-        box-shadow: var(--shadow);
+        width: 100%;
+        max-width: 800px;
+        max-height: 85vh;
+        background: #fff;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-lg);
+        display: flex;
+        flex-direction: column;
+        transform: scale(0.98);
+        transition: transform 0.2s ease;
+      }
+
+      .modal.open .modal-card {
+        transform: scale(1);
       }
 
       .modal-head {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 12px;
-        padding: 16px 18px;
-        border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+        padding: 16px 20px;
+        border-bottom: 1px solid var(--border);
       }
 
       .modal-title {
-        font-size: 14px;
-        color: var(--text-soft);
+        font-weight: 600;
+        font-size: 15px;
       }
 
       .modal-close {
-        border: 0;
-        background: transparent;
-        color: var(--text-dim);
+        color: var(--text-secondary);
         cursor: pointer;
+        padding: 4px;
+      }
+
+      .modal-close:hover {
+        color: var(--text);
       }
 
       .modal-body {
-        padding: 18px;
-        max-height: calc(82vh - 64px);
-        overflow: auto;
+        padding: 20px;
+        overflow-y: auto;
+        flex: 1;
       }
 
       .modal-pre {
         margin: 0;
         white-space: pre-wrap;
         word-break: break-word;
-        color: var(--text-soft);
-        line-height: 1.7;
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--text-secondary);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
 
-      @media (max-width: 980px) {
-        .metrics {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-      }
-
-      @media (max-width: 760px) {
-        .app {
-          padding: 18px 14px 28px;
-        }
-
-        .header-bar {
+      @media (max-width: 640px) {
+        .toolbar {
           flex-direction: column;
-          align-items: flex-start;
+          align-items: stretch;
+          padding: 12px;
         }
-
-        .metrics {
-          grid-template-columns: 1fr;
+        .divider {
+          display: none;
         }
-
-        .dock-panel {
-          width: calc(100vw - 28px);
+        .search-wrapper {
+          border-bottom: 1px solid var(--border);
+          padding-bottom: 8px;
+          margin-bottom: 8px;
+        }
+        .category-select {
+          width: 100%;
         }
       }
     </style>
   </head>
   <body>
     <main class="app">
-      <section class="header-bar">
-        <div class="header-title">
-          <div class="eyebrow">Skills</div>
-          <div>
-            <h1>Skill 管理</h1>
-            <div class="header-sub">列表页只负责检索和浏览，详情进入二级页。</div>
-          </div>
-        </div>
-      </section>
+      <header class="header">
+        <h1>SkillForge</h1>
+        <div class="header-sub">Skills 管理与检索</div>
+      </header>
 
       <section class="toolbar">
-        <div class="toolbar-row">
-          <input id="searchInput" class="search-input" type="search" placeholder="搜索 skill 名称、展示名、路径、关键词、描述..." />
-          <div class="filter-group">
-            <div class="filter-label">类型</div>
-            <div id="typeFilters"></div>
-          </div>
-          <div class="filter-group">
-            <div class="filter-label">平台</div>
-            <div id="platformFilters"></div>
-          </div>
-          <div class="hint">详情已拆成二级页。建议通过本地 HTTP 服务访问。</div>
+        <div class="search-wrapper">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input id="searchInput" class="search-input" type="search" placeholder="搜索 skill 名称、关键词、描述..." autocomplete="off" spellcheck="false" />
         </div>
+        <div class="divider"></div>
+        <select id="categorySelect" class="category-select">
+          <option value="全部">全部分类</option>
+        </select>
       </section>
 
       <section id="cards" class="cards">
-        <div class="loading">正在读取项目索引和 skill 包信息...</div>
+        <div class="loading">加载中...</div>
       </section>
 
-      <aside class="dock-panel" id="dockPanel" hidden>
+      <aside class="dock-panel" id="dockPanel">
         <div class="dock-head">
           <div class="dock-title">项目概览</div>
-          <button class="dock-close" id="dockClose" type="button">收起</button>
+          <button class="dock-close" id="dockClose" aria-label="关闭">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
         </div>
-        <p class="overview-copy">
-          页面直接读取现有索引和各个 <span class="mono">skill.json</span>，不手写重复数据。适合作为人和 AI 的统一检索入口。
-        </p>
-        <div class="overview-links" style="margin-top: 12px;">
-          <button class="hero-link" type="button" data-view-label="项目基座 Skill" data-view-path="../skillforge-project-governance/SKILL.md">项目基座 Skill</button>
-          <button class="hero-link" type="button" data-view-label="项目索引" data-view-path="../PROJECT_INDEX.md">项目索引</button>
-          <button class="hero-link" type="button" data-view-label="技能索引" data-view-path="../registry/skills-index.json">技能索引</button>
+        <div class="metrics" id="metrics"></div>
+        <div class="overview-links">
+          <button class="link-btn" data-view-label="项目基座 Skill" data-view-path="../skillforge-project-governance/SKILL.md">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            项目基座 Skill
+          </button>
+          <button class="link-btn" data-view-label="项目索引" data-view-path="../PROJECT_INDEX.md">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+            项目索引
+          </button>
+          <button class="link-btn" data-view-label="技能索引" data-view-path="../registry/skills-index.json">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            技能索引
+          </button>
         </div>
-        <section class="metrics compact" id="metrics"></section>
       </aside>
 
-      <button class="dock-button" id="dockButton" type="button" aria-label="打开项目概览">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M12 3.75l1.19 2.56a1 1 0 0 0 .77.56l2.82.32-2.08 1.94a1 1 0 0 0-.3.9l.56 2.78-2.5-1.39a1 1 0 0 0-.92 0l-2.5 1.39.56-2.78a1 1 0 0 0-.3-.9L7.22 7.19l2.82-.32a1 1 0 0 0 .77-.56L12 3.75z"></path>
-          <circle cx="12" cy="12.5" r="3.2"></circle>
+      <button class="dock-button" id="dockButton" aria-label="项目概览">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
         </svg>
       </button>
 
-      <div class="modal" id="viewerModal" hidden>
+      <div class="modal" id="viewerModal">
         <div class="modal-card">
           <div class="modal-head">
-            <div class="modal-title" id="viewerTitle">文档预览</div>
-            <button class="modal-close" id="viewerClose" type="button">关闭</button>
+            <div class="modal-title" id="viewerTitle">预览</div>
+            <button class="modal-close" id="viewerClose" aria-label="关闭">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
           </div>
           <div class="modal-body">
             <pre class="modal-pre" id="viewerContent"></pre>
@@ -554,16 +512,15 @@
       const state = {
         skills: [],
         search: "",
-        activeType: "全部",
-        activePlatform: "全部"
+        activeCategory: "全部",
+        categories: new Set()
       };
 
       const elements = {
         metrics: document.getElementById("metrics"),
         cards: document.getElementById("cards"),
-        typeFilters: document.getElementById("typeFilters"),
-        platformFilters: document.getElementById("platformFilters"),
         searchInput: document.getElementById("searchInput"),
+        categorySelect: document.getElementById("categorySelect"),
         dockButton: document.getElementById("dockButton"),
         dockPanel: document.getElementById("dockPanel"),
         dockClose: document.getElementById("dockClose"),
@@ -573,28 +530,15 @@
         viewerClose: document.getElementById("viewerClose")
       };
 
-      function escapeHtml(value) {
-        return String(value ?? "")
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/"/g, "&quot;")
-          .replace(/'/g, "&#39;");
-      }
-
       async function fetchJson(path) {
         const response = await fetch(path);
-        if (!response.ok) {
-          throw new Error(`读取失败: ${path}`);
-        }
+        if (!response.ok) throw new Error(`读取失败: ${path}`);
         return response.json();
       }
 
       async function fetchText(path) {
         const response = await fetch(path);
-        if (!response.ok) {
-          throw new Error(`读取失败: ${path}`);
-        }
+        if (!response.ok) throw new Error(`读取失败: ${path}`);
         return response.text();
       }
 
@@ -603,12 +547,29 @@
         state.skills = await Promise.all(
           skillsRegistry.skills.map(async (item) => {
             const detail = await fetchJson(`../${item.package_root}/skill.json`);
-            return {
-              ...item,
-              detail
-            };
+            return { ...item, detail };
           })
         );
+
+        // Build category options
+        state.skills.forEach(skill => {
+          if (skill.category_path && skill.category_path.length) {
+            let currentPath = [];
+            skill.category_path.forEach(part => {
+              currentPath.push(part);
+              state.categories.add(currentPath.join(" / "));
+            });
+          }
+        });
+
+        const sortedCategories = Array.from(state.categories).sort();
+        sortedCategories.forEach(cat => {
+          const option = document.createElement("option");
+          option.value = cat;
+          option.textContent = cat;
+          elements.categorySelect.appendChild(option);
+        });
+
         render();
       }
 
@@ -620,83 +581,45 @@
             skill.display_name,
             ...(skill.category_path || []),
             ...(skill.detail?.supported_platforms || []),
-            ...(skill.detail?.constraints || []),
             ...(skill.search_keywords || []),
             skill.detail?.description || ""
-          ]
-            .join(" ")
-            .toLowerCase();
+          ].join(" ").toLowerCase();
 
           const matchesSearch = !query || haystack.includes(query);
-          const matchesType = state.activeType === "全部" || (skill.detail?.type || skill.type) === state.activeType;
-          const matchesPlatform =
-            state.activePlatform === "全部" ||
-            (skill.detail?.supported_platforms || []).includes(state.activePlatform);
+          
+          let matchesCategory = true;
+          if (state.activeCategory !== "全部") {
+            const skillCatStr = (skill.category_path || []).join(" / ");
+            // Match exactly or as a parent directory
+            matchesCategory = skillCatStr === state.activeCategory || skillCatStr.startsWith(state.activeCategory + " / ");
+          }
 
-          return matchesSearch && matchesType && matchesPlatform;
+          return matchesSearch && matchesCategory;
         });
       }
 
       function renderMetrics() {
-        const domains = new Set(state.skills.flatMap((item) => item.category_path || []).filter(Boolean));
         const platforms = new Set(state.skills.flatMap((item) => item.detail?.supported_platforms || []));
 
         elements.metrics.innerHTML = [
-          { label: "Skill 总数", value: state.skills.length },
-          { label: "业务域标签", value: domains.size },
-          { label: "平台覆盖", value: platforms.size },
-          { label: "可单独分发", value: state.skills.filter((item) => item.detail?.portable !== false).length }
+          { label: "Skills 总数", value: state.skills.length },
+          { label: "平台覆盖", value: platforms.size }
         ]
           .map(
             (item) => `
-              <article class="metric-card">
+              <div class="metric-item">
                 <div class="metric-label">${item.label}</div>
                 <div class="metric-value">${item.value}</div>
-              </article>
+              </div>
             `
           )
           .join("");
       }
 
-      function renderFilterChips() {
-        const types = ["全部", ...new Set(state.skills.map((item) => item.detail?.type || item.type).filter(Boolean))];
-        const platforms = ["全部", ...new Set(state.skills.flatMap((item) => item.detail?.supported_platforms || []))];
-
-        elements.typeFilters.innerHTML = types
-          .map(
-            (type) =>
-              `<button class="chip ${state.activeType === type ? "active" : ""}" data-filter-type="${escapeHtml(type)}">${escapeHtml(type)}</button>`
-          )
-          .join("");
-
-        elements.platformFilters.innerHTML = platforms
-          .map(
-            (platform) =>
-              `<button class="chip ${state.activePlatform === platform ? "active" : ""}" data-filter-platform="${escapeHtml(platform)}">${escapeHtml(platform)}</button>`
-          )
-          .join("");
-
-        document.querySelectorAll("[data-filter-type]").forEach((button) => {
-          button.addEventListener("click", () => {
-            state.activeType = button.dataset.filterType;
-            renderCards();
-            renderFilterChips();
-          });
-        });
-
-        document.querySelectorAll("[data-filter-platform]").forEach((button) => {
-          button.addEventListener("click", () => {
-            state.activePlatform = button.dataset.filterPlatform;
-            renderCards();
-            renderFilterChips();
-          });
-        });
-      }
-
       function renderCards() {
         const filtered = getFilteredSkills();
         if (!filtered.length) {
-          elements.cards.innerHTML = `<div class="empty">没有匹配到结果，试试换个关键词或取消平台筛选。</div>`;
+          elements.cards.innerHTML = `<div class="empty">无匹配结果</div>`;
           return;
         }
 
@@ -704,27 +627,19 @@
           .map((skill) => {
             const detail = skill.detail || {};
             const detailUrl = `./detail.html?skill=${encodeURIComponent(skill.name)}`;
+            const pathStr = (skill.category_path || []).join(" / ") || "未分类";
 
             return `
-              <article class="card">
-                <div class="card-top">
-                  <span class="tag accent">${escapeHtml(detail.type || skill.type || "skill")}</span>
-                  <span class="tag">${detail.portable === false ? "非便携" : "可分发"}</span>
+              <div class="card" onclick="window.location.href='${detailUrl}'">
+                <div class="card-header">
+                  <h2 class="card-title">${skill.display_name || skill.name}</h2>
                 </div>
-                <h2 class="card-title">${escapeHtml(skill.display_name || skill.name)}</h2>
-                <div class="meta-row">
-                  <span class="tag mono">${escapeHtml(skill.name)}</span>
-                  <span class="tag">${escapeHtml((skill.category_path || []).join(" / ") || "未分类")}</span>
-                </div>
-                <p class="description">${escapeHtml(detail.description || "暂无描述")}</p>
-                <div class="tag-row">
-                  ${(detail.supported_platforms || []).map((platform) => `<span class="tag">${escapeHtml(platform)}</span>`).join("")}
-                </div>
+                <div class="card-path">${pathStr}</div>
+                <p class="card-desc">${detail.description || "暂无描述"}</p>
                 <div class="card-footer">
-                  <span class="hint">包路径：${escapeHtml(skill.package_root)}</span>
-                  <a class="detail-link" href="${escapeHtml(detailUrl)}">查看详情</a>
+                  <span class="tag">${detail.type || skill.type || "skill"}</span>
                 </div>
-              </article>
+              </div>
             `;
           })
           .join("");
@@ -732,62 +647,62 @@
 
       function render() {
         renderMetrics();
-        renderFilterChips();
         renderCards();
       }
 
-      elements.searchInput.addEventListener("input", (event) => {
-        state.search = event.target.value;
+      elements.searchInput.addEventListener("input", (e) => {
+        state.search = e.target.value;
+        renderCards();
+      });
+
+      elements.categorySelect.addEventListener("change", (e) => {
+        state.activeCategory = e.target.value;
         renderCards();
       });
 
       elements.dockButton.addEventListener("click", () => {
-        elements.dockPanel.hidden = !elements.dockPanel.hidden;
+        elements.dockPanel.classList.toggle("open");
       });
 
       elements.dockClose.addEventListener("click", () => {
-        elements.dockPanel.hidden = true;
+        elements.dockPanel.classList.remove("open");
       });
+
+      // Modal logic
+      function openModal(title, content) {
+        elements.viewerTitle.textContent = title;
+        elements.viewerContent.textContent = content;
+        elements.viewerModal.classList.add("open");
+      }
 
       elements.viewerClose.addEventListener("click", () => {
-        elements.viewerModal.hidden = true;
+        elements.viewerModal.classList.remove("open");
       });
 
-      elements.viewerModal.addEventListener("click", (event) => {
-        if (event.target === elements.viewerModal) {
-          elements.viewerModal.hidden = true;
+      elements.viewerModal.addEventListener("click", (e) => {
+        if (e.target === elements.viewerModal) {
+          elements.viewerModal.classList.remove("open");
         }
       });
 
-      document.addEventListener("click", async (event) => {
-        const button = event.target.closest("[data-view-path]");
-        if (!button) {
-          return;
-        }
+      document.addEventListener("click", async (e) => {
+        const btn = e.target.closest("[data-view-path]");
+        if (!btn) return;
 
         try {
-          const path = button.dataset.viewPath;
+          const path = btn.dataset.viewPath;
           let content = await fetchText(path);
           if (path.endsWith(".json")) {
             content = JSON.stringify(JSON.parse(content), null, 2);
           }
-          elements.viewerTitle.textContent = button.dataset.viewLabel || "文档预览";
-          elements.viewerContent.textContent = content;
-          elements.viewerModal.hidden = false;
+          openModal(btn.dataset.viewLabel || "文档预览", content);
         } catch (error) {
-          elements.viewerTitle.textContent = "读取失败";
-          elements.viewerContent.textContent = error.message || "文档读取失败";
-          elements.viewerModal.hidden = false;
+          openModal("读取失败", error.message || "文档读取失败");
         }
       });
 
       loadData().catch((error) => {
-        elements.cards.innerHTML = `
-          <div class="error">
-            页面未能读取项目索引：${escapeHtml(error.message)}<br />
-            请在项目根目录通过本地 HTTP 服务打开这个页面，例如：<span class="mono">python3 -m http.server 4173</span>
-          </div>
-        `;
+        elements.cards.innerHTML = `<div class="error">页面未能读取数据，请通过 HTTP 服务访问。<br>${error.message}</div>`;
       });
     </script>
   </body>

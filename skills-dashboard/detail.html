@@ -6,18 +6,19 @@
     <title>Skill 详情</title>
     <style>
       :root {
-        --panel: rgba(255, 255, 255, 0.78);
-        --panel-strong: rgba(255, 255, 255, 0.92);
-        --panel-border: rgba(15, 23, 42, 0.08);
-        --text: #101828;
-        --text-soft: #667085;
-        --text-dim: #98a2b3;
-        --accent: #335c81;
-        --accent-soft: rgba(51, 92, 129, 0.12);
-        --shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
-        --radius-xl: 28px;
-        --radius-lg: 22px;
-        --radius-md: 16px;
+        --bg: #ffffff;
+        --bg-hover: #f3f4f6;
+        --border: #e5e7eb;
+        --text: #111827;
+        --text-secondary: #6b7280;
+        --text-tertiary: #9ca3af;
+        --accent: #000000;
+        --accent-hover: #374151;
+        --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --radius: 8px;
+        --radius-lg: 12px;
       }
 
       * {
@@ -28,24 +29,11 @@
         margin: 0;
         min-width: 320px;
         min-height: 100vh;
-        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background-color: var(--bg);
         color: var(--text);
-        background:
-          radial-gradient(circle at top left, rgba(51, 92, 129, 0.08), transparent 28%),
-          radial-gradient(circle at top right, rgba(15, 23, 42, 0.06), transparent 26%),
-          linear-gradient(180deg, #fafafb 0%, #eef1f4 100%);
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        pointer-events: none;
-        background-image:
-          linear-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255, 255, 255, 0.22) 1px, transparent 1px);
-        background-size: 28px 28px;
-        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 72%);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
       }
 
       a {
@@ -53,212 +41,290 @@
         text-decoration: none;
       }
 
+      button {
+        font: inherit;
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+      }
+
       .app {
-        max-width: 1180px;
+        max-width: 900px;
         margin: 0 auto;
-        padding: 32px 24px 48px;
+        padding: 40px 24px;
       }
 
-      .panel,
-      .section-card {
-        background: var(--panel);
-        border: 1px solid var(--panel-border);
-        box-shadow: var(--shadow);
-        backdrop-filter: blur(18px);
-      }
-
-      .panel {
-        border-radius: var(--radius-xl);
-        padding: 28px;
-      }
-
-      .section-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 18px;
-        margin-top: 18px;
-      }
-
-      .section-card {
-        border-radius: var(--radius-lg);
-        padding: 20px;
-      }
-
-      .eyebrow,
-      .tag {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 12px;
-        border-radius: 999px;
-        font-size: 12px;
-      }
-
-      .eyebrow {
-        background: rgba(255, 255, 255, 0.76);
-        color: var(--text-soft);
-        letter-spacing: 0.06em;
-      }
-
-      .head-row {
+      .nav-bar {
         display: flex;
         align-items: center;
+        gap: 12px;
+        margin-bottom: 32px;
+      }
+
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: var(--radius);
+        color: var(--text-secondary);
+        font-size: 14px;
+        transition: background 0.2s;
+        margin-left: -12px;
+      }
+
+      .back-btn:hover {
+        background: var(--bg-hover);
+        color: var(--text);
+      }
+
+      .back-btn svg {
+        margin-right: 6px;
+      }
+
+      .header {
+        margin-bottom: 40px;
+      }
+
+      .title-row {
+        display: flex;
         justify-content: space-between;
-        gap: 14px;
+        align-items: flex-start;
+        gap: 16px;
         flex-wrap: wrap;
       }
 
       h1 {
-        margin: 8px 0 0;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: -0.03em;
+        margin: 0 0 12px 0;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
       }
 
       .sub {
-        margin: 0;
-        color: var(--text-soft);
-        line-height: 1.8;
+        color: var(--text-secondary);
         font-size: 15px;
+        line-height: 1.6;
+        margin: 0;
       }
 
-      .top-actions,
-      .tag-row,
-      .detail-actions,
-      .detail-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-
-      .top-actions {
-        margin-top: 22px;
-      }
-
-      .action {
+      .download-btn {
         display: inline-flex;
         align-items: center;
-        gap: 8px;
-        padding: 12px 14px;
-        border-radius: 14px;
-        background: var(--panel-strong);
-        border: 1px solid rgba(15, 23, 42, 0.07);
-        transition: transform 0.2s ease, border-color 0.2s ease;
+        padding: 8px 16px;
+        background: var(--accent);
+        color: #fff;
+        border-radius: var(--radius);
+        font-size: 14px;
+        font-weight: 500;
+        transition: background 0.2s;
       }
 
-      .action:hover {
-        transform: translateY(-1px);
-        border-color: rgba(51, 92, 129, 0.2);
+      .download-btn:hover {
+        background: var(--accent-hover);
       }
 
-      .tag {
-        background: rgba(15, 23, 42, 0.05);
-        color: var(--text-soft);
+      .download-btn svg {
+        margin-right: 8px;
       }
 
-      .tag.accent {
-        background: var(--accent-soft);
-        color: var(--accent);
+      .section {
+        margin-bottom: 40px;
       }
 
       h2 {
-        margin: 0 0 12px;
         font-size: 16px;
+        font-weight: 600;
+        margin: 0 0 16px 0;
+        color: var(--text);
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 8px;
       }
 
-      .list {
-        margin: 0;
-        padding-left: 18px;
-        color: var(--text-soft);
-        line-height: 1.8;
+      .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+      }
+
+      .info-group {
+        margin-bottom: 16px;
+      }
+
+      .info-label {
+        font-size: 13px;
+        color: var(--text-secondary);
+        margin-bottom: 8px;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .tag {
+        font-size: 13px;
+        padding: 4px 10px;
+        background: var(--bg-hover);
+        color: var(--text);
+        border-radius: 4px;
+        border: 1px solid var(--border);
+      }
+
+      .tag.highlight {
+        background: #fff;
+        border-color: var(--text-secondary);
       }
 
       .mono {
-        font-family: "SFMono-Regular", "Consolas", "Menlo", monospace;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
 
-      .hint,
-      .loading,
-      .error {
-        color: var(--text-dim);
+      .doc-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .doc-btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 14px;
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
         font-size: 13px;
+        color: var(--text);
+        transition: all 0.2s;
       }
 
-      .loading,
-      .error {
-        padding: 28px;
+      .doc-btn:hover {
+        background: var(--bg-hover);
+        border-color: #d1d5db;
+      }
+
+      .doc-btn svg {
+        margin-right: 8px;
+        color: var(--text-secondary);
+      }
+
+      .constraints-list {
+        margin: 0;
+        padding-left: 20px;
+        color: var(--text-secondary);
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .constraints-list li {
+        margin-bottom: 8px;
+      }
+
+      .loading, .error {
+        text-align: center;
+        padding: 64px 20px;
+        color: var(--text-secondary);
+        background: var(--bg-hover);
         border-radius: var(--radius-lg);
-        background: rgba(255, 255, 255, 0.82);
-        border: 1px dashed rgba(15, 23, 42, 0.12);
       }
 
+      /* Modal */
       .modal {
         position: fixed;
         inset: 0;
-        z-index: 60;
+        z-index: 50;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
-        background: rgba(15, 23, 42, 0.24);
-        backdrop-filter: blur(10px);
+        padding: 24px;
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(4px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
       }
 
-      .modal[hidden] {
-        display: none;
+      .modal.open {
+        opacity: 1;
+        pointer-events: auto;
       }
 
       .modal-card {
-        width: min(920px, 100%);
-        max-height: min(82vh, 900px);
-        overflow: hidden;
-        background: rgba(255, 255, 255, 0.95);
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        border-radius: var(--radius-xl);
-        box-shadow: var(--shadow);
+        width: 100%;
+        max-width: 800px;
+        max-height: 85vh;
+        background: #fff;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-lg);
+        display: flex;
+        flex-direction: column;
+        transform: scale(0.98);
+        transition: transform 0.2s ease;
+      }
+
+      .modal.open .modal-card {
+        transform: scale(1);
       }
 
       .modal-head {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 12px;
-        padding: 16px 18px;
-        border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+        padding: 16px 20px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .modal-title {
+        font-weight: 600;
+        font-size: 15px;
+      }
+
+      .modal-close {
+        color: var(--text-secondary);
+        padding: 4px;
+      }
+
+      .modal-close:hover {
+        color: var(--text);
       }
 
       .modal-body {
-        padding: 18px;
-        max-height: calc(82vh - 64px);
-        overflow: auto;
+        padding: 20px;
+        overflow-y: auto;
+        flex: 1;
       }
 
       .modal-pre {
         margin: 0;
         white-space: pre-wrap;
         word-break: break-word;
-        color: var(--text-soft);
-        line-height: 1.7;
-      }
-
-      @media (max-width: 860px) {
-        .section-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      @media (max-width: 760px) {
-        .app {
-          padding: 18px 14px 28px;
-        }
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--text-secondary);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
   </head>
   <body>
     <main class="app" id="app">
-      <div class="loading">正在读取 skill 详情...</div>
+      <div class="loading">正在加载...</div>
     </main>
+
+    <div class="modal" id="viewerModal">
+      <div class="modal-card">
+        <div class="modal-head">
+          <div class="modal-title" id="viewerTitle">预览</div>
+          <button class="modal-close" id="viewerClose" aria-label="关闭">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <pre class="modal-pre" id="viewerContent"></pre>
+        </div>
+      </div>
+    </div>
 
     <script>
       function escapeHtml(value) {
@@ -272,42 +338,18 @@
 
       async function fetchJson(path) {
         const response = await fetch(path);
-        if (!response.ok) {
-          throw new Error(`读取失败: ${path}`);
-        }
+        if (!response.ok) throw new Error(`读取失败: ${path}`);
         return response.json();
       }
 
       async function fetchText(path) {
         const response = await fetch(path);
-        if (!response.ok) {
-          throw new Error(`读取失败: ${path}`);
-        }
+        if (!response.ok) throw new Error(`读取失败: ${path}`);
         return response.text();
       }
 
       function buildDocLink(skill, relativePath) {
         return `../${skill.package_root}/${relativePath}`;
-      }
-
-      async function previewFile(label, path) {
-        const title = document.getElementById("viewerTitle");
-        const content = document.getElementById("viewerContent");
-        const modal = document.getElementById("viewerModal");
-
-        try {
-          let text = await fetchText(path);
-          if (path.endsWith(".json")) {
-            text = JSON.stringify(JSON.parse(text), null, 2);
-          }
-          title.textContent = label;
-          content.textContent = text;
-          modal.hidden = false;
-        } catch (error) {
-          title.textContent = "读取失败";
-          content.textContent = error.message || "文档读取失败";
-          modal.hidden = false;
-        }
       }
 
       async function downloadZip(skill) {
@@ -326,8 +368,8 @@
           return;
         }
 
-        const originalLabel = button.textContent;
-        button.textContent = "正在打包...";
+        const originalLabel = button.innerHTML;
+        button.innerHTML = "正在打包...";
         button.style.pointerEvents = "none";
         button.style.opacity = "0.6";
 
@@ -337,9 +379,7 @@
           await Promise.all(
             packageFiles.map(async (relativePath) => {
               const response = await fetch(buildDocLink(skill, relativePath));
-              if (!response.ok) {
-                throw new Error(`读取失败：${relativePath}`);
-              }
+              if (!response.ok) throw new Error(`读取失败：${relativePath}`);
               const content = await response.blob();
               zip.file(`${skill.name}/${relativePath}`, content);
             })
@@ -357,7 +397,7 @@
         } catch (error) {
           window.alert(error.message || "ZIP 打包失败");
         } finally {
-          button.textContent = originalLabel;
+          button.innerHTML = originalLabel;
           button.style.pointerEvents = "";
           button.style.opacity = "";
         }
@@ -366,15 +406,11 @@
       async function loadDetail() {
         const params = new URLSearchParams(window.location.search);
         const skillName = params.get("skill");
-        if (!skillName) {
-          throw new Error("缺少 skill 参数");
-        }
+        if (!skillName) throw new Error("缺少 skill 参数");
 
         const registry = await fetchJson("../registry/skills-index.json");
         const skill = registry.skills.find((item) => item.name === skillName);
-        if (!skill) {
-          throw new Error(`未找到 skill: ${skillName}`);
-        }
+        if (!skill) throw new Error(`未找到 skill: ${skillName}`);
 
         const detail = await fetchJson(`../${skill.package_root}/skill.json`);
         return { ...skill, detail };
@@ -397,102 +433,123 @@
         ].filter((item) => item[1]);
 
         app.innerHTML = `
-          <section class="panel">
-            <div class="head-row">
-              <div>
-                <div class="eyebrow">Skill Detail</div>
-                <h1>${escapeHtml(skill.display_name || skill.name)}</h1>
-              </div>
-              <div class="tag-row">
-                <span class="tag mono">${escapeHtml(skill.name)}</span>
-                <span class="tag">${escapeHtml(detail.type || skill.type || "skill")}</span>
-              </div>
-            </div>
-            <p class="sub">${escapeHtml(detail.description || "暂无描述")}</p>
-            <div class="top-actions">
-              <a class="action" href="./index.html">返回列表</a>
-              <button class="action" id="downloadZipButton" type="button">下载 ZIP</button>
-              ${links
-                .map(
-                  ([label, href]) =>
-                    `<button class="action" type="button" data-preview-label="${escapeHtml(label)}" data-preview-path="${escapeHtml(href)}">${escapeHtml(label)}</button>`
-                )
-                .join("")}
-            </div>
-          </section>
-
-          <section class="section-grid">
-            <article class="section-card">
-              <h2>基础信息</h2>
-              <div class="tag-row">
-                <span class="tag accent">${escapeHtml(detail.type || skill.type || "skill")}</span>
-                <span class="tag">${detail.portable === false ? "非便携" : "整包可分发"}</span>
-              </div>
-              <p class="sub">包路径：<span class="mono">${escapeHtml(skill.package_root)}</span></p>
-              <div class="tag-row">
-                ${(skill.category_path || []).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
-              </div>
-            </article>
-
-            <article class="section-card">
-              <h2>平台支持</h2>
-              <div class="tag-row">
-                ${(detail.supported_platforms || []).map((item) => `<span class="tag accent">${escapeHtml(item)}</span>`).join("")}
-              </div>
-            </article>
-
-            <article class="section-card">
-              <h2>输入 / 输出</h2>
-              <div class="detail-grid">
-                ${requiredInputs.map((item) => `<span class="tag accent">必填：${escapeHtml(item)}</span>`).join("")}
-                ${optionalInputs.map((item) => `<span class="tag">可选：${escapeHtml(item)}</span>`).join("")}
-                ${outputs.map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
-              </div>
-            </article>
-
-            <article class="section-card">
-              <h2>规则约束</h2>
-              ${
-                constraints.length
-                  ? `<ul class="list">${constraints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
-                  : `<div class="hint">暂无规则约束</div>`
-              }
-            </article>
-          </section>
-
-          <div class="modal" id="viewerModal" hidden>
-            <div class="modal-card">
-              <div class="modal-head">
-                <div class="hint" id="viewerTitle">文档预览</div>
-                <button class="action" id="viewerClose" type="button">关闭</button>
-              </div>
-              <div class="modal-body">
-                <pre class="modal-pre" id="viewerContent"></pre>
-              </div>
-            </div>
+          <div class="nav-bar">
+            <a href="./index.html" class="back-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+              返回列表
+            </a>
           </div>
+
+          <header class="header">
+            <div class="title-row">
+              <div>
+                <h1>${escapeHtml(skill.display_name || skill.name)}</h1>
+                <p class="sub">${escapeHtml(detail.description || "暂无描述")}</p>
+              </div>
+              <button class="download-btn" id="downloadZipButton" type="button">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                下载 ZIP
+              </button>
+            </div>
+          </header>
+
+          <section class="section">
+            <h2>文档资源</h2>
+            <div class="doc-links">
+              ${links.map(([label, href]) => `
+                <button class="doc-btn" data-view-label="${escapeHtml(label)}" data-view-path="${escapeHtml(href)}">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  ${escapeHtml(label)}
+                </button>
+              `).join("")}
+            </div>
+          </section>
+
+          <div class="grid-layout">
+            <section class="section">
+              <h2>基础信息</h2>
+              <div class="info-group">
+                <div class="info-label">类型</div>
+                <div class="tag-list">
+                  <span class="tag highlight">${escapeHtml(detail.type || skill.type || "skill")}</span>
+                  <span class="tag">${detail.portable === false ? "非便携" : "整包可分发"}</span>
+                </div>
+              </div>
+              <div class="info-group">
+                <div class="info-label">包路径</div>
+                <div class="tag-list">
+                  <span class="tag mono">${escapeHtml(skill.package_root)}</span>
+                </div>
+              </div>
+              <div class="info-group">
+                <div class="info-label">业务分类</div>
+                <div class="tag-list">
+                  ${(skill.category_path || []).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+                </div>
+              </div>
+            </section>
+
+            <section class="section">
+              <h2>平台支持</h2>
+              <div class="tag-list">
+                ${(detail.supported_platforms || []).map((item) => `<span class="tag highlight">${escapeHtml(item)}</span>`).join("")}
+              </div>
+            </section>
+          </div>
+
+          <section class="section">
+            <h2>输入 / 输出</h2>
+            <div class="tag-list">
+              ${requiredInputs.map((item) => `<span class="tag highlight">必填：${escapeHtml(item)}</span>`).join("")}
+              ${optionalInputs.map((item) => `<span class="tag">可选：${escapeHtml(item)}</span>`).join("")}
+              ${outputs.map((item) => `<span class="tag mono">输出：${escapeHtml(item)}</span>`).join("")}
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>规则约束</h2>
+            ${constraints.length
+              ? `<ul class="constraints-list">${constraints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
+              : `<div class="info-label">暂无规则约束</div>`
+            }
+          </section>
         `;
 
-        document.getElementById("downloadZipButton").addEventListener("click", () => {
-          downloadZip(skill);
-        });
-
-        document.querySelectorAll("[data-preview-path]").forEach((button) => {
-          button.addEventListener("click", () => {
-            previewFile(button.dataset.previewLabel, button.dataset.previewPath);
-          });
-        });
-
-        document.getElementById("viewerClose").addEventListener("click", () => {
-          document.getElementById("viewerModal").hidden = true;
-        });
-
-        document.getElementById("viewerModal").addEventListener("click", (event) => {
-          if (event.target.id === "viewerModal") {
-            document.getElementById("viewerModal").hidden = true;
-          }
-        });
+        document.getElementById("downloadZipButton").addEventListener("click", () => downloadZip(skill));
       }
+
+      // Modal Logic
+      const viewerModal = document.getElementById("viewerModal");
+      const viewerTitle = document.getElementById("viewerTitle");
+      const viewerContent = document.getElementById("viewerContent");
+      const viewerClose = document.getElementById("viewerClose");
+
+      function openModal(title, content) {
+        viewerTitle.textContent = title;
+        viewerContent.textContent = content;
+        viewerModal.classList.add("open");
+      }
+
+      viewerClose.addEventListener("click", () => viewerModal.classList.remove("open"));
+      viewerModal.addEventListener("click", (e) => {
+        if (e.target === viewerModal) viewerModal.classList.remove("open");
+      });
+
+      document.addEventListener("click", async (e) => {
+        const btn = e.target.closest("[data-view-path]");
+        if (!btn) return;
+        
+        try {
+          const path = btn.dataset.viewPath;
+          let content = await fetchText(path);
+          if (path.endsWith(".json")) {
+            content = JSON.stringify(JSON.parse(content), null, 2);
+          }
+          openModal(btn.dataset.viewLabel || "文档预览", content);
+        } catch (error) {
+          openModal("读取失败", error.message || "文档读取失败");
+        }
+      });
 
       loadDetail()
         .then(render)
