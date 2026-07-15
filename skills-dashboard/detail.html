@@ -433,8 +433,8 @@
         const constraints = detail.constraints || [];
 
         const links = [
-          ["SKILL.md", buildDocLink(skill, detail.entrypoint || "SKILL.md")],
           ["README.md", buildDocLink(skill, implementation.readme || "README.md")],
+          ["SKILL.md", buildDocLink(skill, detail.entrypoint || "SKILL.md")],
           ["skill.json", buildDocLink(skill, "skill.json")],
           ["INVOCATION.md", implementation.invocation_doc ? buildDocLink(skill, implementation.invocation_doc) : null]
         ].filter((item) => item[1]);
