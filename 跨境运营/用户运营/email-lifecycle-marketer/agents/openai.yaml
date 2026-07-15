@@ -1,4 +1,4 @@
 interface:
-  display_name: "email-lifecycle-marketer"
-  short_description: "Design lifecycle email and automation programs"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "邮件生命周期营销师"
+  short_description: "按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。"
+  default_prompt: "使用 $email-lifecycle-marketer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

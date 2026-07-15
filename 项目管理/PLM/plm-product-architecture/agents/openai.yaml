@@ -1,4 +1,4 @@
 interface:
-  display_name: "plm-product-architecture"
-  short_description: "Design product lifecycle system product architecture"
-  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."
+  display_name: "PLM 产品架构师"
+  short_description: "围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。"
+  default_prompt: "使用 $plm-product-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

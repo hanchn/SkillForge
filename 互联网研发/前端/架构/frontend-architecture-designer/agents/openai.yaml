@@ -1,4 +1,4 @@
 interface:
-  display_name: "frontend-architecture-designer"
-  short_description: "Design scalable frontend architecture and evolution plans"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "前端通用架构设计师"
+  short_description: "从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。"
+  default_prompt: "使用 $frontend-architecture-designer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

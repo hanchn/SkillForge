@@ -1,0 +1,84 @@
+{
+  "name": "content-marketing-planner",
+  "display_name": "跨境内容营销规划师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "内容营销"
+  ],
+  "description": "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。 Use when an AI needs to handle 博客和指南规划, 季度内容矩阵, SEO、社媒、邮件内容协同; produce 内容战略, 主题集群和编辑日历, 分发、转化与衡量方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "search_keywords": [
+    "博客和指南规划",
+    "季度内容矩阵",
+    "SEO、社媒、邮件内容协同",
+    "受众问题和意图",
+    "主题支柱与内容缺口",
+    "产品证据和内链"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "内容战略",
+    "主题集群和编辑日历",
+    "分发、转化与衡量方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得批量制造同模板低价值内容。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

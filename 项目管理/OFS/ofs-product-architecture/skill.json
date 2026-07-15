@@ -1,0 +1,84 @@
+{
+  "name": "ofs-product-architecture",
+  "display_name": "OFS 产品架构师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "项目管理",
+    "OFS"
+  ],
+  "description": "围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。 Use when an AI needs to handle 跨仓跨渠道履约平台, 订单到交付编排, 履约异常和补偿治理; produce OFS 能力地图, 履约单与状态机, 节点编排、SLA 和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "search_keywords": [
+    "跨仓跨渠道履约平台",
+    "订单到交付编排",
+    "履约异常和补偿治理",
+    "履约意图和履约单",
+    "仓、店、供应商节点选择",
+    "波次外部编排和状态推进"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "OFS 能力地图",
+    "履约单与状态机",
+    "节点编排、SLA 和异常方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "OFS 不复制 OMS 交易订单，也不下沉承担仓库具体作业。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

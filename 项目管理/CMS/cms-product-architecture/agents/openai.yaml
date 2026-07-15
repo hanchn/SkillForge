@@ -1,4 +1,4 @@
 interface:
-  display_name: "cms-product-architecture"
-  short_description: "Design commerce content system product architecture"
-  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."
+  display_name: "CMS 产品架构师"
+  short_description: "按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。"
+  default_prompt: "使用 $cms-product-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "content-marketing-planner"
-  short_description: "Plan measurable cross-border content programs"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境内容营销规划师"
+  short_description: "把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。"
+  default_prompt: "使用 $content-marketing-planner 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

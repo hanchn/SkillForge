@@ -1,4 +1,4 @@
 interface:
-  display_name: "nodejs-backend-architecture"
-  short_description: "Design reliable Node.js backend architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "Node.js 后端架构师"
+  short_description: "按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。"
+  default_prompt: "使用 $nodejs-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

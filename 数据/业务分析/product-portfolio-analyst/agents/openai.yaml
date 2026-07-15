@@ -1,4 +1,4 @@
 interface:
-  display_name: "product-portfolio-analyst"
-  short_description: "Analyze SKU portfolio performance and actions"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "商品组合分析师"
+  short_description: "从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。"
+  default_prompt: "使用 $product-portfolio-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

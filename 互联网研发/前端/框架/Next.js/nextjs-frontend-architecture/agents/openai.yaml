@@ -1,4 +1,4 @@
 interface:
-  display_name: "nextjs-frontend-architecture"
-  short_description: "Design production-ready Next.js application architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "Next.js 前端架构师"
+  short_description: "按 App Router、服务端与客户端边界、缓存和部署环境设计生产级 Next.js 架构。"
+  default_prompt: "使用 $nextjs-frontend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

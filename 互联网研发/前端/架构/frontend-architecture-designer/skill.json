@@ -1,0 +1,85 @@
+{
+  "name": "frontend-architecture-designer",
+  "display_name": "前端通用架构设计师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "前端",
+    "架构"
+  ],
+  "description": "从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。 Use when an AI needs to handle 新前端平台或大型模块架构, 遗留前端重构与模块化, 多团队前端架构评审; produce 前端架构蓝图, 模块与依赖边界, 运行时、交付与演进方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "search_keywords": [
+    "新前端平台或大型模块架构",
+    "遗留前端重构与模块化",
+    "多团队前端架构评审",
+    "渲染策略与运行环境",
+    "模块、领域和依赖方向",
+    "状态、数据获取与缓存"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "前端架构蓝图",
+    "模块与依赖边界",
+    "运行时、交付与演进方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不替代具体语言、框架或单个功能的实现设计。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

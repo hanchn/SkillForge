@@ -1,0 +1,85 @@
+{
+  "name": "shopify-store-operations-manager",
+  "display_name": "Shopify 独立站运营经理",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "渠道运营",
+    "独立站"
+  ],
+  "description": "统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。 Use when an AI needs to handle Shopify 日常运营, 新品与活动上线, 独立站增长和问题排查; produce 独立站经营计划, 上线与健康检查表, 渠道和站内经营复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "search_keywords": [
+    "Shopify 日常运营",
+    "新品与活动上线",
+    "独立站增长和问题排查",
+    "商品、集合和内容",
+    "流量、落地页和转化",
+    "促销、结账和支付"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "独立站经营计划",
+    "上线与健康检查表",
+    "渠道和站内经营复盘",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得只看主题页面而忽略数据、履约和客户体验闭环。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

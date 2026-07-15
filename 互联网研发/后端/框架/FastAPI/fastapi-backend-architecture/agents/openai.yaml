@@ -1,4 +1,4 @@
 interface:
-  display_name: "fastapi-backend-architecture"
-  short_description: "Design scalable FastAPI service architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "FastAPI 后端架构师"
+  short_description: "围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。"
+  default_prompt: "使用 $fastapi-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

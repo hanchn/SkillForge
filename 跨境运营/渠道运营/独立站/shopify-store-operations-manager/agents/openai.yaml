@@ -1,4 +1,4 @@
 interface:
-  display_name: "shopify-store-operations-manager"
-  short_description: "Run end-to-end Shopify store operations"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "Shopify 独立站运营经理"
+  short_description: "统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。"
+  default_prompt: "使用 $shopify-store-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

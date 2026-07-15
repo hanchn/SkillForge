@@ -1,85 +1,42 @@
 ---
 name: tms-product-architecture
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: 围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。 Use when an AI needs to handle 头程或尾程运输管理, 承运商和运费治理, 轨迹、异常和运费对账; produce TMS 能力地图, 运输订单与状态机, 承运商、轨迹、费用和异常方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.
 ---
 
-# Tms Product Architecture
+# TMS 产品架构师
 
-## Overview
+围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## Load resources
 
-## Structuring This Skill
+- Read `references/professional-checklist.md` before making decisions.
+- Use `assets/delivery-template.md` for the final durable artifact.
+- If local project rules or source data conflict with generic guidance, preserve the evidence and explain the decision.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Workflow
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+1. 确认贵司缩写、业务范围、用户角色、当前系统、目标和明确不在范围内的事项
+2. 从端到端业务旅程提炼能力地图，不按现有菜单、组织或数据库表直接切系统
+3. 定义核心对象、标识、主数据 source of truth、状态机、命令、事件和审计要求
+4. 划清本系统负责、不负责及与上下游重叠区域，建立 RACI 和数据 ownership 矩阵
+5. 设计正常、异常、补偿、人工介入、对账、重放和幂等路径及跨系统 SLA
+6. 按 MVP、增强、平台化阶段输出产品路线、依赖、验收、迁移和治理机制
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+## Required decision lenses
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+- 运输需求和运输订单
+- 承运商、服务和线路
+- 询价、比价、面单和交接
+- 轨迹、时效和异常
+- 计费、对账与 OMS/OFS/WMS 边界
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+## Guardrails
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+- TMS 不承担交易订单或仓内库存账本的主责。
+- 不得把假设写成事实；缺少关键数据时标注未知项、影响和最低验证动作。
+- 不得只给原则或清单；必须给出优先级、责任、依赖、验收和风险控制。
+- 不得声称已实施、已验证或已产生效果，除非有对应证据。
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+## Output contract
 
-## [TODO: Replace with the first main section based on chosen structure]
-
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
-
-## Resources (optional)
-
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
-
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
-
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
-
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
-
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+交付必须包含：目标与范围、已检查证据、关键定义、现状诊断、方案与备选、决策理由、执行或演进计划、指标与验收、风险与恢复、未知项。结论与数字必须能够追溯到来源或计算过程。

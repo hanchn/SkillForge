@@ -1,4 +1,4 @@
 interface:
-  display_name: "ofs-product-architecture"
-  short_description: "Design order fulfillment system product architecture"
-  default_prompt: "Use this skill to produce an evidence-backed product architecture deliverable."
+  display_name: "OFS 产品架构师"
+  short_description: "围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。"
+  default_prompt: "使用 $ofs-product-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

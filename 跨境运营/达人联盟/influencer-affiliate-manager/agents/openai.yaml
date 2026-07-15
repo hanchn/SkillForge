@@ -1,4 +1,4 @@
 interface:
-  display_name: "influencer-affiliate-manager"
-  short_description: "Build and optimize creator affiliate programs"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "达人与联盟营销经理"
+  short_description: "管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。"
+  default_prompt: "使用 $influencer-affiliate-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,0 +1,85 @@
+{
+  "name": "tiktok-shop-operations-manager",
+  "display_name": "TikTok Shop 运营经理",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "跨境运营",
+    "渠道运营",
+    "TikTok Shop"
+  ],
+  "description": "联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。 Use when an AI needs to handle TikTok Shop 冷启动, 内容电商日常经营, GMV 波动诊断; produce TikTok Shop 经营计划, 内容达人商品协同表, 店铺健康和复盘; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "search_keywords": [
+    "TikTok Shop 冷启动",
+    "内容电商日常经营",
+    "GMV 波动诊断",
+    "店铺和商品健康",
+    "短视频与直播供给",
+    "达人联盟和授权"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "TikTok Shop 经营计划",
+    "内容达人商品协同表",
+    "店铺健康和复盘",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得用高 GMV 掩盖高退款、低毛利或违规风险。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

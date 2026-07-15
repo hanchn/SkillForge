@@ -1,0 +1,86 @@
+{
+  "name": "nodejs-backend-architecture",
+  "display_name": "Node.js 后端架构师",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.0",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "互联网研发",
+    "后端",
+    "语言",
+    "Node.js"
+  ],
+  "description": "按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。 Use when an AI needs to handle Node.js API 和 BFF, 高 I/O 服务架构, CommonJS 到 ESM 迁移; produce Node.js 模块架构, 异步与资源模型, 可靠性和部署方案; and apply evidence, explicit boundaries, validation, and rollback instead of generic advice.",
+  "search_keywords": [
+    "Node.js API 和 BFF",
+    "高 I/O 服务架构",
+    "CommonJS 到 ESM 迁移",
+    "ESM/CommonJS 与 package 边界",
+    "事件循环和阻塞工作",
+    "Promise、取消和错误传播"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "Node.js 模块架构",
+    "异步与资源模型",
+    "可靠性和部署方案",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得在主线程执行未受控 CPU 重任务，也不得吞掉异步错误。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md",
+      "agents/openai.yaml",
+      "references",
+      "assets",
+      "examples",
+      "eval",
+      "platforms"
+    ]
+  }
+}

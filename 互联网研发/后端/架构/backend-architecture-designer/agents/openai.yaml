@@ -1,4 +1,4 @@
 interface:
-  display_name: "backend-architecture-designer"
-  short_description: "Design evolvable backend system architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "后端通用架构设计师"
+  short_description: "从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。"
+  default_prompt: "使用 $backend-architecture-designer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

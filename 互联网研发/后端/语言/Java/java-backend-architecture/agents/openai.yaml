@@ -1,4 +1,4 @@
 interface:
-  display_name: "java-backend-architecture"
-  short_description: "Design robust Java backend architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "Java 后端架构师"
+  short_description: "利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。"
+  default_prompt: "使用 $java-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

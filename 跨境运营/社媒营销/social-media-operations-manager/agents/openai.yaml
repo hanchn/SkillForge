@@ -1,4 +1,4 @@
 interface:
-  display_name: "social-media-operations-manager"
-  short_description: "Operate cross-border social media growth systems"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境社媒运营经理"
+  short_description: "建立平台适配的内容、互动、增长、风险和复盘机制。"
+  default_prompt: "使用 $social-media-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

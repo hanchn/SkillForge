@@ -1,4 +1,4 @@
 interface:
-  display_name: "marketplace-channel-comparison-analyst"
-  short_description: "Compare marketplace and direct channel performance"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨平台渠道对比分析师"
+  short_description: "统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。"
+  default_prompt: "使用 $marketplace-channel-comparison-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

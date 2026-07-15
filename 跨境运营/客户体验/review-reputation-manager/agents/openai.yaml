@@ -1,4 +1,4 @@
 interface:
-  display_name: "review-reputation-manager"
-  short_description: "Manage compliant reviews ratings and reputation"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "评价与品牌声誉经理"
+  short_description: "合规监控评价、识别根因、回复客户并推动产品和履约改进。"
+  default_prompt: "使用 $review-reputation-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

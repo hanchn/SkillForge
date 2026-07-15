@@ -1,4 +1,4 @@
 interface:
-  display_name: "customer-service-voice-manager"
-  short_description: "Operate multilingual cross-border customer service"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境多语言客服经理"
+  short_description: "以多语言一致性、问题解决和客户洞察运营售前售后服务。"
+  default_prompt: "使用 $customer-service-voice-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

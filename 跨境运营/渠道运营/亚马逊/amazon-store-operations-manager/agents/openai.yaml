@@ -1,4 +1,4 @@
 interface:
-  display_name: "amazon-store-operations-manager"
-  short_description: "Run end-to-end Amazon store operations"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "亚马逊店铺运营经理"
+  short_description: "统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。"
+  default_prompt: "使用 $amazon-store-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

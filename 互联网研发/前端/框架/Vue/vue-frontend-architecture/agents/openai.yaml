@@ -1,4 +1,4 @@
 interface:
-  display_name: "vue-frontend-architecture"
-  short_description: "Design scalable Vue application architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "Vue 前端架构师"
+  short_description: "围绕组件、组合式逻辑、响应式边界和工程化设计 Vue 应用架构。"
+  default_prompt: "使用 $vue-frontend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

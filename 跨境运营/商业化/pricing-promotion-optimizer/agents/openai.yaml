@@ -1,4 +1,4 @@
 interface:
-  display_name: "pricing-promotion-optimizer"
-  short_description: "Optimize pricing discounts and promotion economics"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "定价与促销优化经理"
+  short_description: "综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。"
+  default_prompt: "使用 $pricing-promotion-optimizer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

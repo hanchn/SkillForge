@@ -1,4 +1,4 @@
 interface:
-  display_name: "brand-positioning-strategist"
-  short_description: "Define differentiated cross-border brand positioning"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境品牌定位策略师"
+  short_description: "以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。"
+  default_prompt: "使用 $brand-positioning-strategist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

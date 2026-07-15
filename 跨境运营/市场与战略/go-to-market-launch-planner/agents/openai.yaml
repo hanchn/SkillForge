@@ -1,4 +1,4 @@
 interface:
-  display_name: "go-to-market-launch-planner"
-  short_description: "Plan cross-border product and market launches"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境上市规划师"
+  short_description: "把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。"
+  default_prompt: "使用 $go-to-market-launch-planner 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

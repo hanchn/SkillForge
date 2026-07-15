@@ -1,4 +1,4 @@
 interface:
-  display_name: "channel-portfolio-strategist"
-  short_description: "Design profitable multi-channel commerce portfolios"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境渠道组合策略师"
+  short_description: "按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。"
+  default_prompt: "使用 $channel-portfolio-strategist 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

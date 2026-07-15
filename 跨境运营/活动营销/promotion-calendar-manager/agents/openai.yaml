@@ -1,4 +1,4 @@
 interface:
-  display_name: "promotion-calendar-manager"
-  short_description: "Plan and govern commercial promotion calendars"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "跨境活动营销经理"
+  short_description: "统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。"
+  default_prompt: "使用 $promotion-calendar-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

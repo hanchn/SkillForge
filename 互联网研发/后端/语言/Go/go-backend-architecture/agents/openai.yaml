@@ -1,4 +1,4 @@
 interface:
-  display_name: "engineering-go-backend-architecture"
-  short_description: "Design idiomatic Go backend architecture"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "Go 后端架构师"
+  short_description: "按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。"
+  default_prompt: "使用 $go-backend-architecture 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

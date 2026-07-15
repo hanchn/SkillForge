@@ -1,4 +1,4 @@
 interface:
-  display_name: "customer-cohort-ltv-analyst"
-  short_description: "Analyze cohorts retention repeat purchase and LTV"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "客户 Cohort 与 LTV 分析师"
+  short_description: "按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。"
+  default_prompt: "使用 $customer-cohort-ltv-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

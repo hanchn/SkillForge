@@ -1,4 +1,4 @@
 interface:
-  display_name: "tiktok-shop-operations-manager"
-  short_description: "Run end-to-end TikTok Shop operations"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "TikTok Shop 运营经理"
+  short_description: "联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。"
+  default_prompt: "使用 $tiktok-shop-operations-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

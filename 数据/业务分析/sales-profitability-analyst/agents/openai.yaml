@@ -1,4 +1,4 @@
 interface:
-  display_name: "sales-profitability-analyst"
-  short_description: "Analyze revenue margin profit and operating drivers"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "销售与利润分析师"
+  short_description: "拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。"
+  default_prompt: "使用 $sales-profitability-analyst 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "marketplace-listing-optimizer"
-  short_description: "Optimize marketplace listings for discovery and conversion"
-  default_prompt: "Use this skill to produce an evidence-backed, implementation-ready deliverable."
+  display_name: "平台商品信息优化师"
+  short_description: "基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。"
+  default_prompt: "使用 $marketplace-listing-optimizer 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
