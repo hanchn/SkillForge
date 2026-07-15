@@ -88,6 +88,21 @@ SPECS = [
     spec("互联网研发/产品/系统产品架构/WMS/wms-product-architecture", "wms-product-architecture", "WMS 产品架构师", "product-system", "围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。", ["多仓 WMS 规划", "仓内作业数字化", "库存差异和履约效率治理"], ["WMS 能力地图", "仓内任务与状态机", "作业、设备、异常和集成方案"], ["仓库、库区、库位和容器", "预约、收货、质检和上架", "波次、拣选、复核和包装", "移库、盘点、冻结和差异", "WMS 与 IMS/OFS/TMS/自动化设备边界"], "WMS 负责仓内实物作业，不成为企业级库存可售或交易订单的唯一事实源。"),
 ]
 
+DEPRECATED_FRONTEND_SKILLS = {
+    "javascript-frontend-architecture",
+    "typescript-frontend-architecture",
+    "react-frontend-architecture",
+    "vue-frontend-architecture",
+    "nextjs-frontend-architecture",
+    "angular-frontend-architecture",
+    "sveltekit-frontend-architecture",
+}
+SPECS = [item for item in SPECS if item["name"] not in DEPRECATED_FRONTEND_SKILLS]
+SPECS.extend([
+    spec("互联网研发/前端/框架/React/react-senior-expert", "react-senior-expert", "React 资深专家", "architecture", "从架构、实现、状态、渲染性能、测试和演进角度解决复杂 React 工程问题。", ["React 复杂功能和架构设计", "React 性能或状态问题诊断", "React 代码评审、重构和技术升级"], ["React 方案与代码边界", "状态、渲染和性能决策", "测试、迁移和验证计划"], ["组件组合和领域边界", "本地、URL、表单与服务端状态", "副作用、并发渲染和错误恢复", "性能、可访问性和设计系统", "测试、依赖升级和渐进重构"], "不得默认使用全局状态、memo 或客户端渲染；必须从真实瓶颈和业务边界出发。"),
+    spec("互联网研发/前端/框架/Vue3/vue3-senior-expert", "vue3-senior-expert", "Vue3 资深专家", "architecture", "从架构、实现、响应式状态、性能、测试和演进角度解决复杂 Vue 3 工程问题。", ["Vue 3 复杂功能和架构设计", "响应式、状态或性能问题诊断", "Vue 代码评审、重构和版本升级"], ["Vue 3 方案与代码边界", "响应式、状态和性能决策", "测试、迁移和验证计划"], ["SFC、组件和 feature 边界", "Composition API 与 composable 设计", "响应式陷阱、Pinia 和服务端状态", "路由、性能、可访问性和设计系统", "测试、依赖升级和渐进重构"], "不得把共享逻辑全部塞入全局 store 或万能 composable，也不得混用未经约束的 Vue 2 模式。"),
+])
+
 ROLE_DEFS = [
     ("渠道运营/运营角色", "跨境电商负责人", "senior-cross-border-commerce-leader", "跨境电商业务负责人", "统筹公司跨境业务战略、渠道组合、商品、增长、供应链、客户体验、利润和组织节奏。", ["战略与经营模型", "渠道和资源组合", "商品与品牌组合", "收入、利润、现金和风险", "跨团队目标、决策和复盘"]),
     ("渠道运营/运营角色", "亚马逊运营高级经理", "senior-amazon-operations-manager", "亚马逊运营高级经理", "对 Amazon 账户健康、商品、搜索、转化、广告、库存、价格、评价和利润承担端到端经营责任。", ["账户与合规健康", "目录、搜索和转化", "广告、促销和价格", "FBA 库存、补货和利润", "团队节奏和问题闭环"]),
@@ -172,6 +187,8 @@ FAMILY_STEPS = {
 }
 
 OFFICIAL_SOURCES = {
+    "react-senior-expert": [("React Managing State", "https://react.dev/learn/managing-state"), ("React Escape Hatches", "https://react.dev/learn/escape-hatches")],
+    "vue3-senior-expert": [("Vue Composition API", "https://vuejs.org/guide/extras/composition-api-faq.html"), ("Vue Scaling Up", "https://vuejs.org/guide/scaling-up/tooling.html")],
     "typescript-frontend-architecture": [("TypeScript Project References", "https://www.typescriptlang.org/docs/handbook/project-references"), ("TypeScript Modules", "https://www.typescriptlang.org/docs/handbook/modules/reference")],
     "react-frontend-architecture": [("React Managing State", "https://react.dev/learn/managing-state"), ("React Escape Hatches", "https://react.dev/learn/escape-hatches")],
     "vue-frontend-architecture": [("Vue Scaling Up", "https://vuejs.org/guide/scaling-up/tooling.html"), ("Vue Composables", "https://vuejs.org/guide/reusability/composables.html")],
@@ -494,6 +511,19 @@ CATEGORIES = {
     "互联网研发/产品/系统产品架构/PLM": ("PLM 产品架构", "产品生命周期系统的产品架构和后续细分 Skill。"),
     "互联网研发/产品/系统产品架构/WMS": ("WMS 产品架构", "仓储管理系统的产品架构和后续细分 Skill。"),
 }
+
+for deprecated_category in [
+    "互联网研发/前端/语言",
+    "互联网研发/前端/语言/JavaScript",
+    "互联网研发/前端/语言/TypeScript",
+    "互联网研发/前端/框架/Vue",
+    "互联网研发/前端/框架/Next.js",
+    "互联网研发/前端/框架/Angular",
+    "互联网研发/前端/框架/SvelteKit",
+]:
+    CATEGORIES.pop(deprecated_category, None)
+CATEGORIES["互联网研发/前端/框架/React"] = ("React 资深专家", "React 高级架构、实现、诊断、性能、测试和演进能力。")
+CATEGORIES["互联网研发/前端/框架/Vue3"] = ("Vue3 资深专家", "Vue 3 高级架构、实现、诊断、性能、测试和演进能力。")
 
 CATEGORIES.update({
     "渠道运营": ("渠道运营", "以平台、店铺、商品、供应链、履约和客户体验为核心，对渠道收入、利润、库存和经营健康负责。参见 [渠道运营 Skill 地图](CHANNEL_OPERATIONS_SKILLS_MAP.md)。"),
