@@ -14,6 +14,12 @@
 - [ ] Server Actions 与 API 边界 已定义、验证或标记为未知
 - [ ] SEO、流式渲染和运行时 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [Next.js App Router](https://nextjs.org/docs/app)
+- [Next.js Project Structure](https://nextjs.org/docs/app/getting-started/project-structure)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

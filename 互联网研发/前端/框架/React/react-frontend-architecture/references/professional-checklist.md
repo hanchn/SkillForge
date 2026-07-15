@@ -14,6 +14,12 @@
 - [ ] 渲染性能和错误边界 已定义、验证或标记为未知
 - [ ] 路由、测试和设计系统 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [React Managing State](https://react.dev/learn/managing-state)
+- [React Escape Hatches](https://react.dev/learn/escape-hatches)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

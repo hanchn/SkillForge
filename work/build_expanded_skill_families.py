@@ -117,6 +117,23 @@ FAMILY_STEPS = {
     ],
 }
 
+OFFICIAL_SOURCES = {
+    "typescript-frontend-architecture": [("TypeScript Project References", "https://www.typescriptlang.org/docs/handbook/project-references"), ("TypeScript Modules", "https://www.typescriptlang.org/docs/handbook/modules/reference")],
+    "react-frontend-architecture": [("React Managing State", "https://react.dev/learn/managing-state"), ("React Escape Hatches", "https://react.dev/learn/escape-hatches")],
+    "vue-frontend-architecture": [("Vue Scaling Up", "https://vuejs.org/guide/scaling-up/tooling.html"), ("Vue Composables", "https://vuejs.org/guide/reusability/composables.html")],
+    "nextjs-frontend-architecture": [("Next.js App Router", "https://nextjs.org/docs/app"), ("Next.js Project Structure", "https://nextjs.org/docs/app/getting-started/project-structure")],
+    "spring-boot-backend-architecture": [("Spring Boot Core Features", "https://docs.spring.io/spring-boot/reference/features/"), ("Spring Boot Production-ready Features", "https://docs.spring.io/spring-boot/reference/actuator/")],
+    "fastapi-backend-architecture": [("FastAPI Bigger Applications", "https://fastapi.tiangolo.com/tutorial/bigger-applications/"), ("FastAPI Dependencies", "https://fastapi.tiangolo.com/tutorial/dependencies/")],
+    "nestjs-backend-architecture": [("NestJS Modules", "https://docs.nestjs.com/modules"), ("NestJS Providers", "https://docs.nestjs.com/providers")],
+    "gin-backend-architecture": [("Gin Middleware", "https://gin-gonic.com/en/docs/middleware/"), ("Gin Security Guide", "https://gin-gonic.com/en/docs/middleware/security-guide/")],
+    "amazon-store-operations-manager": [("Amazon Seller University", "https://sell.amazon.com/learn/seller-university/"), ("Amazon Manage Your Compliance", "https://sell.amazon.com/blog/manage-your-compliance")],
+    "shopify-store-operations-manager": [("Shopify Products", "https://help.shopify.com/en/manual/products"), ("Shopify Analytics", "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports")],
+    "tiktok-shop-operations-manager": [("TikTok Business Center", "https://ads.tiktok.com/business/en/business-center"), ("TikTok Creative Center", "https://ads.tiktok.com/business/en-US/creativecenter")],
+    "traffic-acquisition-analyst": [("GA4 Acquisition Scope", "https://support.google.com/analytics/answer/14731736"), ("GA4 Reports Overview", "https://support.google.com/analytics/answer/9212670")],
+    "conversion-funnel-analyst": [("GA4 Life Cycle Reports", "https://support.google.com/analytics/answer/12924233"), ("GA4 Ecommerce Metrics", "https://support.google.com/analytics/answer/13428834")],
+    "customer-cohort-ltv-analyst": [("GA4 Retention Overview", "https://support.google.com/analytics/answer/11004084"), ("GA4 Data Retention", "https://support.google.com/analytics/answer/7667196")],
+}
+
 
 def q(values):
     return "、".join(values)
@@ -242,6 +259,8 @@ description: {desc}
     (base / "README.md").write_text(readme, encoding="utf-8")
 
     checks = "\n".join(f"- [ ] {x} 已定义、验证或标记为未知" for x in s["lenses"])
+    source_lines = "\n".join(f"- [{label}]({url})" for label, url in OFFICIAL_SOURCES.get(s["name"], []))
+    source_section = f"\n## 官方基线资料\n\n{source_lines}\n" if source_lines else ""
     (base / "references/professional-checklist.md").write_text(f"""# {s['display']}专业检查表
 
 ## 执行前
@@ -253,6 +272,7 @@ description: {desc}
 ## 核心维度
 
 {checks}
+{source_section}
 
 ## 失败模式
 

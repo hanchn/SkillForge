@@ -14,6 +14,12 @@
 - [ ] 性能、错误、支付和库存 已定义、验证或标记为未知
 - [ ] 统计不确定性和实验 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [GA4 Life Cycle Reports](https://support.google.com/analytics/answer/12924233)
+- [GA4 Ecommerce Metrics](https://support.google.com/analytics/answer/13428834)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

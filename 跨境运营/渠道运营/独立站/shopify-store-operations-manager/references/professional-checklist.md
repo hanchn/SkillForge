@@ -14,6 +14,12 @@
 - [ ] 订单、履约和客服 已定义、验证或标记为未知
 - [ ] 数据、应用、性能和隐私 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [Shopify Products](https://help.shopify.com/en/manual/products)
+- [Shopify Analytics](https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

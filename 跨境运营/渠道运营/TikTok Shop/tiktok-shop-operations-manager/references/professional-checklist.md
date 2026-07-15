@@ -14,6 +14,12 @@
 - [ ] 广告、活动与转化 已定义、验证或标记为未知
 - [ ] 库存、履约、退款和评分 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [TikTok Business Center](https://ads.tiktok.com/business/en/business-center)
+- [TikTok Creative Center](https://ads.tiktok.com/business/en-US/creativecenter)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

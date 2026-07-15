@@ -14,6 +14,12 @@
 - [ ] 转化、收入和 LTV 已定义、验证或标记为未知
 - [ ] bot、direct 和跨域污染 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [GA4 Acquisition Scope](https://support.google.com/analytics/answer/14731736)
+- [GA4 Reports Overview](https://support.google.com/analytics/answer/9212670)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

@@ -14,6 +14,12 @@
 - [ ] async/sync 与阻塞依赖 已定义、验证或标记为未知
 - [ ] 异常、OpenAPI、测试和部署 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [FastAPI Bigger Applications](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
+- [FastAPI Dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

@@ -14,6 +14,12 @@
 - [ ] context、超时和资源释放 已定义、验证或标记为未知
 - [ ] 安全 headers、测试和 profile 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [Gin Middleware](https://gin-gonic.com/en/docs/middleware/)
+- [Gin Security Guide](https://gin-gonic.com/en/docs/middleware/security-guide/)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

@@ -14,6 +14,12 @@
 - [ ] 渠道、国家和首购商品 已定义、验证或标记为未知
 - [ ] 截尾、退款和预测偏差 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [GA4 Retention Overview](https://support.google.com/analytics/answer/11004084)
+- [GA4 Data Retention](https://support.google.com/analytics/answer/7667196)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

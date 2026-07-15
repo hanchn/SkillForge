@@ -14,6 +14,12 @@
 - [ ] 生成类型与运行时校验 已定义、验证或标记为未知
 - [ ] 增量编译和公共类型版本 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [TypeScript Project References](https://www.typescriptlang.org/docs/handbook/project-references)
+- [TypeScript Modules](https://www.typescriptlang.org/docs/handbook/modules/reference)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

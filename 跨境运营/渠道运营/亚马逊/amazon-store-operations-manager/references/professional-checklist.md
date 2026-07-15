@@ -14,6 +14,12 @@
 - [ ] FBA 库存与补货 已定义、验证或标记为未知
 - [ ] 利润、评价和竞争态势 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [Amazon Seller University](https://sell.amazon.com/learn/seller-university/)
+- [Amazon Manage Your Compliance](https://sell.amazon.com/blog/manage-your-compliance)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

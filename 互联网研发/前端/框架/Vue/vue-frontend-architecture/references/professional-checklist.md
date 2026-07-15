@@ -14,6 +14,12 @@
 - [ ] Pinia 与服务端状态 已定义、验证或标记为未知
 - [ ] 路由、异步组件和构建 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [Vue Scaling Up](https://vuejs.org/guide/scaling-up/tooling.html)
+- [Vue Composables](https://vuejs.org/guide/reusability/composables.html)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

@@ -14,6 +14,12 @@
 - [ ] DTO、验证和 API 契约 已定义、验证或标记为未知
 - [ ] 队列、微服务适配器和观测 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [NestJS Modules](https://docs.nestjs.com/modules)
+- [NestJS Providers](https://docs.nestjs.com/providers)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。

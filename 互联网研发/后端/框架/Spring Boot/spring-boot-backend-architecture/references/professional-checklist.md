@@ -14,6 +14,12 @@
 - [ ] Security 与接口授权 已定义、验证或标记为未知
 - [ ] Actuator、测试和版本升级 已定义、验证或标记为未知
 
+## 官方基线资料
+
+- [Spring Boot Core Features](https://docs.spring.io/spring-boot/reference/features/)
+- [Spring Boot Production-ready Features](https://docs.spring.io/spring-boot/reference/actuator/)
+
+
 ## 失败模式
 
 - 只有最佳实践，没有结合当前证据和约束。
