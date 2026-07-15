@@ -3,7 +3,7 @@
   "display_name": "创意素材智能打标专家",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -75,6 +75,7 @@
       "SKILL.md",
       "agents/openai.yaml",
       "assets/allowed_tags.json",
+      "assets/decision-record-template.md",
       "assets/delivery-template.md",
       "assets/forbidden_tags.json",
       "assets/restricted_tags.json",
@@ -84,6 +85,7 @@
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/professional-checklist.md",
+      "references/scenario-playbook.md",
       "references/tagging-compliance-baseline.md",
       "skill.json"
     ]

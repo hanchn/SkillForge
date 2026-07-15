@@ -3,7 +3,7 @@
   "display_name": "SkillForge项目治理",
   "type": "portable-governance-skill",
   "scope": "cross-platform",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -66,6 +66,7 @@
       "INVOCATION.md",
       "README.md",
       "SKILL.md",
+      "assets/decision-record-template.md",
       "assets/project-rules.md",
       "eval/acceptance.md",
       "examples/README.md",
@@ -77,6 +78,7 @@
       "platforms/qorder.md",
       "platforms/trae.md",
       "references/compliance-baseline.md",
+      "references/scenario-playbook.md",
       "scripts/README.md",
       "skill.json"
     ]

@@ -3,7 +3,7 @@
   "display_name": "岗位说明书与招聘 JD 生成专家",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -11,15 +11,16 @@
     "人事招聘",
     "岗位与JD"
   ],
-  "description": "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解偏差招错人。适用于HR 不熟悉技术、运营或专业岗位时的招聘需求培训、新增或重写招聘 JD、岗位职责模糊、要求堆砌或招聘双方理解不一致、多平台、多语言或跨区域岗位发布，交付HR 岗位培训与详细岗位介绍、招聘需求澄清与建议预问问题、内部岗位说明书、候选人版招聘 JD、可复制的 JD 空白模板、能力证据、面试评估和发布检查表。",
+  "description": "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，完成指定市场近期岗位与薪酬调研，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 JD 模板，避免因岗位理解和市场判断偏差招错人。适用于HR 不熟悉技术、运营或专业岗位时的招聘需求培训、新岗位近几个月招聘需求、薪资分布和人才市场调研、新增或重写招聘 JD、岗位职责模糊、要求堆砌或招聘双方理解不一致、多平台、多语言或跨区域岗位发布，交付HR 岗位培训与详细岗位介绍、岗位市场与近期薪酬分布调研报告、招聘需求澄清与建议预问问题、内部岗位说明书、候选人版招聘 JD、可复制的 JD 空白模板、能力证据、面试评估和发布检查表。",
   "search_keywords": [
     "HR 不熟悉技术、运营或专业岗位时的招聘需求培训",
+    "新岗位近几个月招聘需求、薪资分布和人才市场调研",
     "新增或重写招聘 JD",
     "岗位职责模糊、要求堆砌或招聘双方理解不一致",
     "多平台、多语言或跨区域岗位发布",
     "岗位存在原因、业务场景、日常工作和成功结果",
     "上下游、工具系统、专业术语和 HR 常见误解",
-    "职责、权限、不负责范围和职级边界"
+    "目标地区近几个月岗位需求、名称、职级、薪资分布、样本和来源"
   ],
   "supported_platforms": [
     "Claude",
@@ -39,6 +40,7 @@
   },
   "outputs": [
     "HR 岗位培训与详细岗位介绍",
+    "岗位市场与近期薪酬分布调研报告",
     "招聘需求澄清与建议预问问题",
     "内部岗位说明书",
     "候选人版招聘 JD",
@@ -58,7 +60,7 @@
     "platform_adapters_dir": "platforms"
   },
   "constraints": [
-    "不得在 HR 尚未理解或招聘经理尚未确认岗位关键事实时直接定稿发布；不得虚构薪资、福利、组织承诺或岗位事实，也不得加入与工作无关或可能造成歧视的年龄、性别、婚育、户籍、健康等条件。",
+    "不得在 HR 尚未理解、市场薪酬口径不清或招聘经理尚未确认岗位关键事实时直接定稿发布；不得虚构、外推或混用不同地区、币种、职级、薪资周期和样本的薪酬数据，不得虚构福利、组织承诺或加入与工作无关的歧视性条件。",
     "不得虚构事实、数据、权限、实施或验证结果",
     "必须明确口径、责任、验收、风险和未知项"
   ],
@@ -78,13 +80,17 @@
       "SKILL.md",
       "agents/openai.yaml",
       "assets/blank-jd-template.md",
+      "assets/decision-record-template.md",
       "assets/delivery-template.md",
+      "assets/job-market-research-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/hr-role-training-checklist.md",
+      "references/job-market-research-method.md",
       "references/professional-checklist.md",
+      "references/scenario-playbook.md",
       "skill.json"
     ]
   },

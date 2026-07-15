@@ -3,7 +3,7 @@
   "display_name": "仓容、现场安全与连续性经理",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -73,12 +73,14 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/decision-record-template.md",
       "assets/delivery-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/professional-checklist.md",
+      "references/scenario-playbook.md",
       "skill.json"
     ]
   },

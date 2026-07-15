@@ -3,7 +3,7 @@
   "display_name": "亚马逊 PDP 导入草稿生成器",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -12,7 +12,7 @@
     "多渠道运营",
     "亚马逊"
   ],
-  "description": "从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容",
+  "description": "从商品图片和真实资料生成 SKU、变体与图片草稿，结合当前市场 Rank、趋势和 SEO/GEO 关键词证据生成 Amazon PDP，并完成上线前自检",
   "search_keywords": [
     "亚马逊",
     "PDP",
@@ -22,6 +22,13 @@
     "CSV",
     "XLSX",
     "Listing"
+    ,"SEO"
+    ,"GEO"
+    ,"关键词"
+    ,"BSR"
+    ,"市场排名"
+    ,"实时趋势"
+    ,"自检"
   ],
   "supported_platforms": [
     "Claude",
@@ -41,13 +48,21 @@
       "category",
       "variation_theme",
       "verified_product_facts"
+      ,"target_queries"
+      ,"market_rank_and_trend_sources"
+      ,"seller_central_or_brand_analytics_exports"
+      ,"keyword_library"
+      ,"prioritize_provided_keywords"
+      ,"keyword_priority_mode"
     ]
   },
   "outputs": [
     "amazon_pdp_import_draft.xlsx",
     "amazon_pdp_import_draft.csv",
     "parse_log.csv",
-    "review_summary.md"
+    "review_summary.md",
+    "market_keyword_research.md",
+    "pdp_self_check_report.md"
   ],
   "implementation": {
     "readme": "README.md",
@@ -63,7 +78,11 @@
   "constraints": [
     "不得从文件名或图片推断未经验证的商品声明",
     "不得把通用草稿称为已适配 Seller Central 的可上传模板",
-    "目录为空或解析冲突时不得伪造结果"
+    "目录为空或解析冲突时不得伪造结果",
+    "不得把 BSR、自然搜索位、广告位和趋势榜排名混为同一指标",
+    "不得把单次快照描述为多日或多月趋势",
+    "不得用无关热词、竞品商标或未经验证的 GEO 问答填充 PDP"
+    ,"正式生成 PDP 文案前必须询问是否有关键词库以及是否优先参考给定关键词"
   ],
   "distribution": {
     "share_as_single_folder": true,
@@ -81,6 +100,7 @@
       "SKILL.md",
       "agents/openai.yaml",
       "assets/content-guardrails.md",
+      "assets/decision-record-template.md",
       "assets/parser_config.json",
       "eval/acceptance.md",
       "examples/README.md",
@@ -93,6 +113,7 @@
       "platforms/qorder.md",
       "platforms/trae.md",
       "references/compliance-baseline.md",
+      "references/scenario-playbook.md",
       "scripts/generate_pdp_import.py",
       "skill.json"
     ]

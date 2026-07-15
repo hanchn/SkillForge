@@ -3,7 +3,7 @@
   "display_name": "Git 安全工作流管理器",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -80,12 +80,14 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/decision-record-template.md",
       "assets/git-change-plan.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/safety-checks.md",
+      "references/scenario-playbook.md",
       "skill.json"
     ]
   },

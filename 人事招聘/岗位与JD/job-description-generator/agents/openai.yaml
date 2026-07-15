@@ -1,4 +1,4 @@
 interface:
   display_name: "岗位说明书与招聘 JD 生成专家"
-  short_description: "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，再生成招聘预问问题、内部岗位说明书、候选人版 JD 与可复用空白 "
+  short_description: "先把业务岗位翻译成供 HR 学习和确认的详细岗位介绍，完成指定市场近期岗位与薪酬调研，再生成招聘预问问题、内部岗位说明书"
   default_prompt: "使用 $job-description-generator 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

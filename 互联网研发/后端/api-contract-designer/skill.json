@@ -3,7 +3,7 @@
   "display_name": "API 契约设计师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -78,11 +78,13 @@
       "SKILL.md",
       "agents/openai.yaml",
       "assets/api-review-template.md",
+      "assets/decision-record-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/contract-checklist.md",
+      "references/scenario-playbook.md",
       "skill.json"
     ]
   },

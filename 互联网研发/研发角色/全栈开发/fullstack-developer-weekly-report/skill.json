@@ -3,7 +3,7 @@
   "display_name": "全栈开发资深专家周报",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -76,11 +76,13 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/decision-record-template.md",
       "assets/developer-weekly-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
+      "references/scenario-playbook.md",
       "references/weekly-evidence-checklist.md",
       "skill.json"
     ]

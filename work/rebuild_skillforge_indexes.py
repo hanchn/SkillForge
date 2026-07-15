@@ -8,6 +8,8 @@ from pathlib import Path
 
 from sync_skill_compliance import sync_compliance
 from sync_skill_versions import sync_versions
+from sync_skill_depth import sync_depth
+from audit_skill_depth import audit_depth
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "5.0.0"
@@ -17,6 +19,7 @@ ROLE_CATEGORY_SEGMENTS = {
     "仓储角色", "采购角色", "客服角色",
 }
 
+sync_depth(ROOT)
 sync_compliance(ROOT)
 sync_versions(ROOT)
 
@@ -173,4 +176,5 @@ for item in registry_skills:
     ])
 
 (ROOT / "PROJECT_INDEX.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+audit_depth(ROOT)
 print(f"Indexed {len(skills)} skills; dashboard visible {sum(x.get('dashboard_visible', True) for x in registry_skills)}")

@@ -3,7 +3,7 @@
   "display_name": "Spring Boot 后端资深专家",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -75,12 +75,14 @@
       "README.md",
       "SKILL.md",
       "agents/openai.yaml",
+      "assets/decision-record-template.md",
       "assets/delivery-template.md",
       "eval/acceptance.md",
       "examples/README.md",
       "platforms/README.md",
       "references/compliance-baseline.md",
       "references/professional-checklist.md",
+      "references/scenario-playbook.md",
       "skill.json"
     ]
   },

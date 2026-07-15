@@ -1,7 +1,7 @@
 # Go 后端资深专家
 
 > skill id：go-backend-architecture  
-> 当前版本：1.0.2
+> 当前版本：1.0.3
 > 产品状态：可用  
 > 所属分类：互联网研发 / 后端 / 语言 / Go
 
@@ -68,11 +68,20 @@
 - 配置、资源池和优雅停机
 - 测试、profile 和发布
 
+## 深度执行标准
+
+- 不只覆盖理想流程，还覆盖相邻场景、数据不足、权限不足、异常、部分成功、转人工、止损和回滚。
+- 先让执行者理解业务对象、上下游、术语、成功结果和常见误解，再给动作。
+- 每个方案必须说明适用条件、证据、备选、取舍、owner、审批、验收和复盘。
+- Tool 调用不等于业务完成；以可验证交付物和下游成功接收作为完成标准。
+
 ## 技能包组成
 
 - `SKILL.md`：AI 执行入口与强制工作流。
 - `references/professional-checklist.md`：专业检查表和失败模式。
+- `references/scenario-playbook.md`：按实际场景、变体和异常选择执行路径。
 - `assets/delivery-template.md`：可直接复用的交付模板。
+- `assets/decision-record-template.md`：方案比较、审批、异常、回滚和复盘记录。
 - `examples/README.md`：调用示例。
 - `eval/acceptance.md`：可判定验收标准。
 - `README.md`：中文产品文档与迭代记录。
