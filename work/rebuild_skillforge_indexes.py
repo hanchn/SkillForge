@@ -122,7 +122,7 @@ for item in skills:
     },
     "layers": {
         "project_governance": ["README.md", "PROJECT_INDEX.md", "skills-dashboard", "skillforge-project-governance", "schemas", "templates", "registry", "platforms"],
-        "business_browse": ["基础工具", "渠道运营", "客服售前", "精准营销", "创拍视觉", "市场采购", "仓储库存", "互联网研发", "法律政务", "财务出纳", "人事招聘", "数据看板", "项目管理", "work"],
+        "business_browse": ["基础工具", "渠道运营", "客售前后", "精准营销", "创拍视觉", "市场采购", "仓储库存", "互联网研发", "法律政务", "财务出纳", "人事招聘", "数据看板", "项目管理", "work"],
     },
     "skills": project_skills,
 }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -144,7 +144,7 @@ lines = [
     "- 可视化管理：skills-dashboard/",
     "- 前后端架构地图：互联网研发/ARCHITECTURE_SKILLS_MAP.md",
     "- 渠道运营地图：渠道运营/CHANNEL_OPERATIONS_SKILLS_MAP.md",
-    "- 客服售前地图：客服售前/CUSTOMER_PRESALES_SKILLS_MAP.md",
+    "- 客售前后地图：客售前后/CUSTOMER_SERVICE_SKILLS_MAP.md",
     "- 精准营销地图：精准营销/PRECISION_MARKETING_SKILLS_MAP.md",
     "- 创拍视觉地图：创拍视觉/CREATIVE_VISUAL_SKILLS_MAP.md",
     "- 市场采购地图：市场采购/MARKET_PROCUREMENT_SKILLS_MAP.md",
