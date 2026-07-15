@@ -9,6 +9,8 @@ description: Verify complete product behavior across frontend, API, backend, dat
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/fullstack-quality-checklist.md before planning or execution.
 - Use assets/fullstack-test-matrix.md for cross-layer traceability.
 

@@ -9,6 +9,8 @@ Repository evidence overrides generic branch-flow assumptions.
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/safety-checks.md before any mutating Git operation.
 - 在 SkillForge 仓库内必须读取 `公司上下文/git-policy.yaml`；独立分发时必须要求调用方提供等价分支策略快照。
 - Use assets/git-change-plan.md when a multi-step promotion or recovery needs approval.

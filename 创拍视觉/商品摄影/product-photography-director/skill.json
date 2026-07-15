@@ -1,0 +1,96 @@
+{
+  "name": "product-photography-director",
+  "display_name": "商品摄影导演",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.2",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "创拍视觉",
+    "商品摄影"
+  ],
+  "description": "以真实还原商品和渠道转化任务为目标，设计主图、细节、场景、模特和对比图片的摄影方案。适用于Amazon 或独立站商品摄影、新品主图与场景图拍摄、多颜色多款式批量摄影，交付商品摄影 brief 与 shot list、灯光、构图、色彩和场景方案、选片、真实性和渠道验收清单。",
+  "search_keywords": [
+    "Amazon 或独立站商品摄影",
+    "新品主图与场景图拍摄",
+    "多颜色多款式批量摄影",
+    "商品结构、材质、颜色和比例",
+    "白底、细节、尺度和使用场景",
+    "灯光、镜头、构图和景深"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "商品摄影 brief 与 shot list",
+    "灯光、构图、色彩和场景方案",
+    "选片、真实性和渠道验收清单",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得通过透视、合成或修图夸大尺寸、材质、功能和效果；关键颜色与结构必须建立实物对照和可复核标准。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/compliance-baseline.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "creative-production",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}

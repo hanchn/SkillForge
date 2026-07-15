@@ -9,6 +9,8 @@ description: Design and compare ecommerce freight, customs, receiving, warehousi
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/logistics-decision-checklist.md before analysis or execution.
 - Use assets/fulfillment-plan-template.md for the final plan and handoff.
 

@@ -1,0 +1,97 @@
+{
+  "name": "ai-image-video-production-manager",
+  "display_name": "AIGC 创意制作专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.2",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "创拍视觉",
+    "AI创意制作",
+    "AIGC制作"
+  ],
+  "description": "把商品事实、品牌规范、脚本和参考素材编排为可追溯的文生图、图生图、文生视频、图生视频、局部修改、批量变体与成片交付流程。适用于AIGC 商品场景图和广告图、文生图、图生图、文生视频和图生视频、多语言、多比例和多创意变量批量成片，交付AIGC 创意方案与模型路由、提示词、参考、参数、生成和修改血缘、候选筛选、人工修正、版本矩阵和交付质检包。",
+  "search_keywords": [
+    "AIGC 商品场景图和广告图",
+    "文生图、图生图、文生视频和图生视频",
+    "多语言、多比例和多创意变量批量成片",
+    "商品事实锁定与参考图",
+    "模型、输入输出、参数和随机种",
+    "构图、文字、镜头连续性和物理合理性"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "AIGC 创意方案与模型路由",
+    "提示词、参考、参数、生成和修改血缘",
+    "候选筛选、人工修正、版本矩阵和交付质检包",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "不得把生成结果当作真实拍摄证据；关键商品特征、文字、标识、人物和声明必须逐项人工核验，并保留输入、模型、参数与修改血缘。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/compliance-baseline.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "creative-production",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}

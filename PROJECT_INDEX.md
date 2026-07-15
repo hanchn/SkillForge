@@ -6,6 +6,8 @@
 
 - 项目总说明：README.md
 - 贵司上下文：公司上下文/README.md 与 公司上下文/company-profile.yaml
+- Git 分支治理：公司上下文/git-policy.yaml
+- 全库合规治理：COMPLIANCE_GOVERNANCE.md
 - Skill 组合治理：SKILL_PORTFOLIO_GOVERNANCE.md
 - 项目治理：skillforge-project-governance/SKILL.md
 - 全局注册表：registry/skills-index.json
@@ -16,7 +18,7 @@
 - 渠道运营地图：渠道运营/CHANNEL_OPERATIONS_SKILLS_MAP.md
 - 客服售前地图：客服售前/CUSTOMER_PRESALES_SKILLS_MAP.md
 - 精准营销地图：精准营销/PRECISION_MARKETING_SKILLS_MAP.md
-- 创意拍摄地图：创意拍摄/CREATIVE_PRODUCTION_SKILLS_MAP.md
+- 创拍视觉地图：创拍视觉/CREATIVE_VISUAL_SKILLS_MAP.md
 - 市场采购地图：市场采购/MARKET_PROCUREMENT_SKILLS_MAP.md
 - 仓储库存地图：仓储库存/WAREHOUSE_INVENTORY_SKILLS_MAP.md
 - 业务数据分析地图：数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md
@@ -37,757 +39,757 @@
 
 ### project-root
 
-- **SkillForge项目治理**（`skillforge-project-governance`，v2.0.0）；前端隐藏
+- **SkillForge项目治理**（`skillforge-project-governance`，v2.0.1）；前端隐藏
   - 路径：`skillforge-project-governance/`
   - 分类：project-root
   - 用途：描述 SkillForge 项目的定位、架构设计与治理规则，供后续 AI 持续按统一标准升级业务 skill。
 ### 互联网研发
 
-- **Git 安全工作流管理器**（`git-workflow-manager`，v2.0.0）
+- **Git 安全工作流管理器**（`git-workflow-manager`，v2.0.1）
   - 路径：`互联网研发/git/git-workflow-manager/`
   - 分类：互联网研发 / git / 安全工作流
   - 用途：基于真实仓库状态安全规划或执行分支、提交、合并、变基、发布流转、冲突处理与恢复
-- **AI 视觉打标产品架构师**（`ai-visual-tagging-product-architect`，v1.0.0）
-  - 路径：`互联网研发/产品/AI产品/ai-visual-tagging-product-architect/`
-  - 分类：互联网研发 / 产品 / AI产品
-  - 用途：设计从图片输入、模型推理、标签建议、人审反馈到持续评估的可治理 AI 打标产品。适用于图片自动生成标签、AI 打标工具产品规划、模型打标质量、人工审核和反馈闭环，交付AI 打标能力与用户流程、标签体系、模型和人审决策、评估、监控和演进路线。
-- **产品需求架构师**（`product-requirements-architect`，v1.0.0）
+- **产品需求架构师**（`product-requirements-architect`，v1.0.1）
   - 路径：`互联网研发/产品/B端产品/product-requirements-architect/`
   - 分类：互联网研发 / 产品 / B端产品
   - 用途：把模糊产品想法转成可评审、可开发、可测试、可度量的需求包
-- **标签治理与审核工作流设计师**（`label-governance-workflow-designer`，v1.0.0）
+- **标签治理与审核工作流设计师**（`label-governance-workflow-designer`，v1.0.1）
   - 路径：`互联网研发/产品/数据产品/label-governance-workflow-designer/`
   - 分类：互联网研发 / 产品 / 数据产品
   - 用途：设计标签创建、修改、审核、发布、版本、回滚、权限、质量和血缘治理工作流。适用于透明计划等标签修改项目、标签审核和发布流程、标签冲突、版本和质量治理，交付标签生命周期和状态机、角色权限、审核与发布流程、版本、审计、回滚和质量方案。
-- **CMS 产品架构师**（`cms-product-architecture`，v1.0.0）
+- **CMS 产品架构师**（`cms-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/CMS/cms-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / CMS
   - 用途：按贵司口径设计商品内容或通用内容的建模、版本、审批、本地化和渠道发布架构。适用于商品内容中台、多语言多渠道内容治理、内容版本审批和发布，交付CMS 能力地图、内容模型与版本机制、审批、本地化和分发契约。
-- **CRM 产品架构师**（`crm-product-architecture`，v1.0.0）
+- **CRM 产品架构师**（`crm-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/CRM/crm-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / CRM
   - 用途：围绕统一客户、同意偏好、互动、服务、分群和生命周期运营设计 CRM 产品架构。适用于跨渠道客户中心、营销与客服 CRM、客户 360 和生命周期运营，交付CRM 能力地图、客户身份与同意模型、互动、分群、任务和集成方案。
-- **IMS 产品架构师**（`ims-product-architecture`，v1.0.0）
+- **IMS 产品架构师**（`ims-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/IMS/ims-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / IMS
   - 用途：围绕库存台账、状态、位置、预占、释放和可售承诺设计库存管理产品架构。适用于多仓多渠道库存中心、库存预占和超卖治理、库存对账与可售计算，交付IMS 能力地图、库存账本和状态模型、预占、同步、对账和异常方案。
-- **OFS 产品架构师**（`ofs-product-architecture`，v1.0.0）
+- **OFS 产品架构师**（`ofs-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/OFS/ofs-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / OFS
   - 用途：围绕履约承诺、履约单、节点编排、异常补偿和逆向设计订单履约产品架构。适用于跨仓跨渠道履约平台、订单到交付编排、履约异常和补偿治理，交付OFS 能力地图、履约单与状态机、节点编排、SLA 和异常方案。
-- **OMS 产品架构师**（`oms-product-architecture`，v1.0.0）
+- **OMS 产品架构师**（`oms-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/OMS/oms-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / OMS
   - 用途：围绕订单聚合、校验、路由、拆合、状态和售后设计订单管理产品架构。适用于全渠道 OMS 规划、订单状态和异常治理、OMS 与渠道、库存、履约集成，交付OMS 能力地图、订单域模型与状态机、路由、异常和集成契约。
-- **PLM 产品架构师**（`plm-product-architecture`，v1.0.0）
+- **PLM 产品架构师**（`plm-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/PLM/plm-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / PLM
   - 用途：围绕产品企划、设计、BOM、样品、成本、合规和版本门禁设计产品生命周期架构。适用于新品研发数字化、款式/BOM/样品协同、产品版本和上市门禁，交付PLM 能力地图、产品版本和阶段门模型、BOM、样品、成本、合规与集成方案。
-- **TMS 产品架构师**（`tms-product-architecture`，v1.0.0）
+- **TMS 产品架构师**（`tms-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/TMS/tms-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / TMS
   - 用途：围绕承运商、线路、运价、运单、轨迹、费用和异常设计运输管理产品架构。适用于头程或尾程运输管理、承运商和运费治理、轨迹、异常和运费对账，交付TMS 能力地图、运输订单与状态机、承运商、轨迹、费用和异常方案。
-- **WMS 产品架构师**（`wms-product-architecture`，v1.0.0）
+- **WMS 产品架构师**（`wms-product-architecture`，v1.0.1）
   - 路径：`互联网研发/产品/系统产品架构/WMS/wms-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / WMS
   - 用途：围绕入库、上架、库位、波次、拣选、复核、包装、盘点和仓内异常设计仓储管理产品架构。适用于多仓 WMS 规划、仓内作业数字化、库存差异和履约效率治理，交付WMS 能力地图、仓内任务与状态机、作业、设备、异常和集成方案。
-- **跨系统产品架构师**（`commerce-systems-product-architecture`，v1.1.0）
+- **跨系统产品架构师**（`commerce-systems-product-architecture`，v1.1.1）
   - 路径：`互联网研发/产品/系统产品架构/公共/commerce-systems-product-architecture/`
   - 分类：互联网研发 / 产品 / 系统产品架构 / 公共
   - 用途：为贵司 OMS、IMS、OFS、CMS、WMS、TMS、CRM、PLM 建立业务能力分工、主数据归属、系统接口和端到端协作边界。适用于跨系统业务流程设计、系统职责重叠与空白治理、新系统接入和系统边界调整，交付业务能力与系统责任地图、主数据、状态与 source of truth 矩阵、跨系统流程、交接契约与异常闭环。
-- **UI 交互设计与实现专家**（`ui-interaction-designer`，v1.0.0）
+- **UI 交互设计与实现专家**（`ui-interaction-designer`，v1.0.1）
   - 路径：`互联网研发/前端/UI交互/ui-interaction-designer/`
   - 分类：互联网研发 / 前端 / UI交互
   - 用途：把业务任务和界面结构转化为状态完整、反馈明确、可访问、可实现且可测试的 UI 交互规范。适用于新页面或组件交互设计、复杂表单、列表、弹窗和工作流改版、交互缺失、反馈不清或前端验收争议，交付用户流程与交互说明、组件状态、事件和反馈矩阵、动效、可访问性、埋点和验收清单。
-- **前端功能实现工程师**（`frontend-feature-implementer`，v1.0.0）
+- **前端功能实现工程师**（`frontend-feature-implementer`，v1.0.1）
   - 路径：`互联网研发/前端/前台/frontend-feature-implementer/`
   - 分类：互联网研发 / 前端 / 前台 / 功能实现
   - 用途：Implement complete frontend features in an existing codebase from product requirements, screenshots, designs, or behavioral specifications while preserving repository conventions, responsive behavior, accessibility, loading and failure states, data contracts, tests, and visual fidelity
-- **前端多语言查验师**（`frontend-localization-verifier`，v1.0.0）
+- **前端多语言查验师**（`frontend-localization-verifier`，v1.0.1）
   - 路径：`互联网研发/前端/前台/frontend-localization-verifier/`
   - 分类：互联网研发 / 前端 / 前台 / 国际化与本地化
   - 用途：Verify frontend internationalization and localization across supported locales, including translation coverage, key drift, ICU messages, variables, plurals, gender, dates, numbers, currency, units, time zones, Unicode, collation, locale routing, persistence, layout expansion, RTL, fonts, accessibility, metadata, hreflang, and localized business behavior
-- **前端性能分析师**（`frontend-performance-analyzer`，v1.0.0）
+- **前端性能分析师**（`frontend-performance-analyzer`，v1.0.1）
   - 路径：`互联网研发/前端/前台/frontend-performance-analyzer/`
   - 分类：互联网研发 / 前端 / 前台 / 性能分析
   - 用途：Diagnose frontend performance using field and laboratory evidence, Core Web Vitals, navigation and interaction traces, network waterfalls, rendering, main-thread tasks, JavaScript execution, bundles, images, fonts, caching, hydration, data fetching, third-party scripts, memory, and performance budgets
-- **Web 性能与无障碍审计师**（`web-performance-accessibility-auditor`，v1.0.0）
+- **Web 性能与无障碍审计师**（`web-performance-accessibility-auditor`，v1.0.1）
   - 路径：`互联网研发/前端/前台/web-performance-accessibility-auditor/`
   - 分类：互联网研发 / 前端 / 前台 / 质量审计
   - 用途：Audit and improve web performance, Core Web Vitals, loading behavior, semantic HTML, keyboard access, focus management, screen-reader communication, contrast, motion, responsive interaction, and regression risk using measured evidence
-- **前端架构师**（`frontend-architecture-designer`，v1.0.1）
+- **前端架构师**（`frontend-architecture-designer`，v1.0.2）
   - 路径：`互联网研发/前端/架构/frontend-architecture-designer/`
   - 分类：互联网研发 / 前端 / 架构
   - 用途：从业务体验、运行边界和演进成本出发，设计与框架无关的前端系统架构。适用于新前端平台或大型模块架构、遗留前端重构与模块化、多团队前端架构评审，交付前端架构蓝图、模块与依赖边界、运行时、交付与演进方案。
-- **React 资深专家**（`react-senior-expert`，v1.0.1）
+- **React 资深专家**（`react-senior-expert`，v1.0.2）
   - 路径：`互联网研发/前端/框架/React/react-senior-expert/`
   - 分类：互联网研发 / 前端 / 框架 / React
   - 用途：从架构、实现、状态、渲染性能、测试和演进角度解决复杂 React 工程问题。适用于React 复杂功能和架构设计、React 性能或状态问题诊断、React 代码评审、重构和技术升级，交付React 方案与代码边界、状态、渲染和性能决策、测试、迁移和验证计划。
-- **Vue3 资深专家**（`vue3-senior-expert`，v1.0.1）
+- **Vue3 资深专家**（`vue3-senior-expert`，v1.0.2）
   - 路径：`互联网研发/前端/框架/Vue3/vue3-senior-expert/`
   - 分类：互联网研发 / 前端 / 框架 / Vue3
   - 用途：从架构、实现、响应式状态、性能、测试和演进角度解决复杂 Vue 3 工程问题。适用于Vue 3 复杂功能和架构设计、响应式、状态或性能问题诊断、Vue 代码评审、重构和版本升级，交付Vue 3 方案与代码边界、响应式、状态和性能决策、测试、迁移和验证计划。
-- **API 契约设计师**（`api-contract-designer`，v1.0.0）
+- **API 契约设计师**（`api-contract-designer`，v1.0.1）
   - 路径：`互联网研发/后端/api-contract-designer/`
   - 分类：互联网研发 / 后端 / API设计
   - 用途：设计一致、可演进、可测试并能直接评审的 HTTP 或事件 API 契约
-- **数据库变更迁移规划师**（`database-migration-planner`，v1.0.0）
+- **数据库变更迁移规划师**（`database-migration-planner`，v1.0.1）
   - 路径：`互联网研发/后端/database-migration-planner/`
   - 分类：互联网研发 / 后端 / 数据库迁移
   - 用途：Plan, implement, and verify safe database schema and data migrations using dependency analysis, locking and runtime estimates, expand-migrate-contract sequencing, backfills, dual reads or writes, reconciliation, constraints, indexes, rollout gates, rollback, and recovery
-- **后端服务架构师**（`backend-service-architect`，v1.0.0）
+- **后端服务架构师**（`backend-service-architect`，v1.0.1）
   - 路径：`互联网研发/后端/backend-service-architect/`
   - 分类：互联网研发 / 后端 / 服务架构
   - 用途：Design and review backend service boundaries, domain invariants, workflows, data ownership, synchronous and asynchronous interactions, authorization, idempotency, consistency, failure recovery, observability, scaling, deployment, and evolutionary rollout
-- **后端架构师**（`backend-architecture-designer`，v1.0.1）
+- **后端架构师**（`backend-architecture-designer`，v1.0.2）
   - 路径：`互联网研发/后端/架构/backend-architecture-designer/`
   - 分类：互联网研发 / 后端 / 架构
   - 用途：从领域边界、质量属性、数据 ownership 和演进路线设计语言无关的后端系统架构。适用于企业后端总体架构、单体、模块化和服务化选型、跨团队系统演进评审，交付后端总体架构蓝图、质量属性与边界决策、技术路线和分阶段演进计划。
-- **ASP.NET Core 后端资深专家**（`aspnet-core-backend-architecture`，v1.0.1）
+- **ASP.NET Core 后端资深专家**（`aspnet-core-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/框架/ASP.NET Core/aspnet-core-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / ASP.NET Core
   - 用途：围绕 host、依赖注入、middleware、endpoint、配置和可观测性设计生产级 ASP.NET Core 架构。适用于ASP.NET Core API、模块化 .NET 后端、Minimal API 与 Controller 架构评审，交付ASP.NET Core 模块架构、DI 与请求管道、数据、安全和生产运行方案。
-- **FastAPI 后端资深专家**（`fastapi-backend-architecture`，v1.0.1）
+- **FastAPI 后端资深专家**（`fastapi-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/框架/FastAPI/fastapi-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / FastAPI
   - 用途：围绕 APIRouter、依赖注入、Pydantic 契约和异步边界设计生产级 FastAPI 服务。适用于FastAPI 中大型应用、Python API 模块化、异步 API 性能和可靠性治理，交付FastAPI 包与路由架构、依赖和数据契约、运行、测试和部署方案。
-- **Gin 后端资深专家**（`gin-backend-architecture`，v1.0.1）
+- **Gin 后端资深专家**（`gin-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/框架/Gin/gin-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / Gin
   - 用途：围绕路由、middleware、显式依赖和 Go 运行模型设计精简可靠的 Gin 服务。适用于Gin API 新建或重构、高吞吐 Go HTTP 服务、middleware 和安全治理，交付Gin 路由与模块架构、middleware 和依赖方案、性能、安全和部署计划。
-- **Laravel 后端资深专家**（`laravel-backend-architecture`，v1.0.1）
+- **Laravel 后端资深专家**（`laravel-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/框架/Laravel/laravel-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / Laravel
   - 用途：围绕领域模块、service container、Eloquent、队列和请求生命周期设计生产级 Laravel 架构。适用于Laravel 中大型业务系统、Laravel 单体模块化、队列、事件和性能治理，交付Laravel 业务模块架构、容器、数据和异步边界、安全、测试和部署方案。
-- **NestJS 后端资深专家**（`nestjs-backend-architecture`，v1.0.1）
+- **NestJS 后端资深专家**（`nestjs-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/框架/NestJS/nestjs-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / NestJS
   - 用途：围绕 module、provider、边界契约和请求管道设计模块化 NestJS 系统。适用于NestJS 企业 API、模块边界和依赖治理、单体到服务化演进，交付NestJS 模块架构、provider 与请求管道设计、测试和部署方案。
-- **Spring Boot 后端资深专家**（`spring-boot-backend-architecture`，v1.0.1）
+- **Spring Boot 后端资深专家**（`spring-boot-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/框架/Spring Boot/spring-boot-backend-architecture/`
   - 分类：互联网研发 / 后端 / 框架 / Spring Boot
   - 用途：围绕业务模块、依赖注入、事务、安全和 Actuator 设计生产级 Spring Boot 架构。适用于Spring Boot 服务新建或重构、模块化单体与服务拆分、生产可观测和升级治理，交付Spring Boot 模块架构、事务与集成边界、生产运行和迁移方案。
-- **生产故障诊断师**（`production-incident-diagnostician`，v1.0.0）
+- **生产故障诊断师**（`production-incident-diagnostician`，v1.0.1）
   - 路径：`互联网研发/后端/production-incident-diagnostician/`
   - 分类：互联网研发 / 后端 / 生产故障
   - 用途：Diagnose and coordinate production incidents using impact assessment, safe stabilization, timelines, competing hypotheses, logs, metrics, traces, deploy and configuration changes, dependency evidence, mitigations, rollback, communication, verification, and follow-up learning
-- **C# 后端资深专家**（`csharp-backend-architecture`，v1.0.1）
+- **C# 后端资深专家**（`csharp-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/C#/csharp-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / C#
   - 用途：围绕 solution/project、类型、async/await、依赖注入和 .NET 运行时设计稳健后端。适用于C# 企业后端架构、.NET 单体模块化、异步、资源和版本升级治理，交付C# solution 与模块架构、异步和资源生命周期、依赖、测试和部署方案。
-- **Go 后端资深专家**（`go-backend-architecture`，v1.0.1）
+- **Go 后端资深专家**（`go-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/Go/go-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Go
   - 用途：按 Go 的显式依赖、并发模型和简洁包边界设计可靠后端。适用于Go API 或任务服务、高并发 Go 服务治理、Go 单仓多服务架构，交付Go 包与服务架构、并发和取消模型、错误、测试和部署方案。
-- **Java 后端资深专家**（`java-backend-architecture`，v1.0.1）
+- **Java 后端资深专家**（`java-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/Java/java-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Java
   - 用途：利用 Java 类型、并发、JVM 和模块生态设计长期可维护的后端系统。适用于Java 服务平台架构、大型 Java 单体模块化、JVM 性能和升级治理，交付Java 模块架构、并发与资源模型、JVM 运行和演进方案。
-- **Node.js 后端资深专家**（`nodejs-backend-architecture`，v1.0.1）
+- **Node.js 后端资深专家**（`nodejs-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/Node.js/nodejs-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Node.js
   - 用途：按事件循环、模块格式、异步失败和资源限制设计可靠 Node.js 后端。适用于Node.js API 和 BFF、高 I/O 服务架构、CommonJS 到 ESM 迁移，交付Node.js 模块架构、异步与资源模型、可靠性和部署方案。
-- **PHP 后端资深专家**（`php-backend-architecture`，v1.0.1）
+- **PHP 后端资深专家**（`php-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/PHP/php-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / PHP
   - 用途：围绕 namespace、Composer、请求生命周期和显式模块边界设计可维护 PHP 后端。适用于PHP 业务系统架构、遗留 PHP 模块化重构、PHP 运行和依赖治理，交付PHP 模块与包架构、请求和资源生命周期、依赖、测试和部署方案。
-- **Python 后端资深专家**（`python-backend-architecture`，v1.0.1）
+- **Python 后端资深专家**（`python-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/Python/python-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Python
   - 用途：围绕包结构、类型边界、同步异步模型和运行环境设计可维护 Python 后端。适用于Python Web 或任务平台、脚本向服务化演进、同步与异步混合系统治理，交付Python 包与层次架构、执行和并发模型、依赖、测试和部署方案。
-- **Rust 后端资深专家**（`rust-backend-architecture`，v1.0.1）
+- **Rust 后端资深专家**（`rust-backend-architecture`，v1.0.2）
   - 路径：`互联网研发/后端/语言/Rust/rust-backend-architecture/`
   - 分类：互联网研发 / 后端 / 语言 / Rust
   - 用途：利用 ownership、类型系统、错误模型和 async runtime 设计安全可预测的 Rust 后端。适用于Rust API 或系统服务、高可靠高性能服务、Rust workspace 和 crate 架构，交付Rust crate 与领域架构、并发和资源模型、错误、测试和部署方案。
-- **测试策略设计师**（`test-strategy-designer`，v1.0.0）
+- **测试策略设计师**（`test-strategy-designer`，v1.0.1）
   - 路径：`互联网研发/测试/test-strategy-designer/`
   - 分类：互联网研发 / 测试 / 测试策略
   - 用途：根据变更影响和风险设计分层覆盖、发布门槛与生产验证方案
-- **全栈开发资深专家**（`fullstack-feature-delivery`，v1.0.2）
+- **全栈开发资深专家**（`fullstack-feature-delivery`，v1.0.3）
   - 路径：`互联网研发/研发角色/全栈开发/fullstack-feature-delivery/`
   - 分类：互联网研发 / 研发角色 / 全栈开发
   - 用途：Deliver product features end to end across requirements, frontend interaction, API contracts, backend domain logic, data changes, authentication and authorization, observability, tests, deployment, migration, rollout, and post-release verification
-- **全栈开发资深专家周报**（`fullstack-developer-weekly-report`，v1.0.1）
+- **全栈开发资深专家周报**（`fullstack-developer-weekly-report`，v1.0.2）
   - 路径：`互联网研发/研发角色/全栈开发/fullstack-developer-weekly-report/`
   - 分类：互联网研发 / 研发角色 / 全栈开发 / 周报
   - 用途：Create evidence-backed full-stack development weekly reports from tickets, requirements, Git commits, pull requests, reviews, frontend and backend changes, database migrations, deployments, incidents, and project notes
-- **全栈测试资深专家**（`fullstack-quality-engineer`，v1.0.2）
+- **全栈测试资深专家**（`fullstack-quality-engineer`，v1.0.3）
   - 路径：`互联网研发/研发角色/全栈测试/fullstack-quality-engineer/`
   - 分类：互联网研发 / 研发角色 / 全栈测试
   - 用途：Verify complete product behavior across frontend, API, backend, database, jobs, events, integrations, localization, accessibility, performance, security, observability, deployment, rollback, and production monitoring using a risk-based evidence chain
-- **全栈测试资深专家周报**（`fullstack-qa-weekly-report`，v1.0.1）
+- **全栈测试资深专家周报**（`fullstack-qa-weekly-report`，v1.0.2）
   - 路径：`互联网研发/研发角色/全栈测试/fullstack-qa-weekly-report/`
   - 分类：互联网研发 / 研发角色 / 全栈测试 / 周报
   - 用途：Create evidence-backed full-stack quality weekly reports from requirements, risk assessments, test plans, executions, automation, defects, regressions, environments, releases, production verification, incidents, and quality metrics
 ### 人事招聘
 
-- **人事招聘资深经理**（`senior-hr-recruiting-manager`，v1.0.1）
+- **人事招聘资深经理**（`senior-hr-recruiting-manager`，v1.0.2）
   - 路径：`人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager/`
   - 分类：人事招聘 / 人事角色 / 人事招聘资深经理
   - 用途：统筹组织编制、招聘、面试、录用、入离职、员工档案、绩效协同和员工关系，确保人才供给与业务目标匹配。适用于人事招聘体系建设、年度或季度人才规划、关键岗位招聘和员工生命周期治理，交付人力目标与责任矩阵、人事招聘专项 Skill 编排、人才、组织风险和执行节奏。
-- **人事招聘资深经理周报**（`senior-hr-recruiting-manager-weekly-report`，v1.0.2）
+- **人事招聘资深经理周报**（`senior-hr-recruiting-manager-weekly-report`，v1.0.3）
   - 路径：`人事招聘/人事角色/人事招聘资深经理/senior-hr-recruiting-manager-weekly-report/`
   - 分类：人事招聘 / 人事角色 / 人事招聘资深经理
   - 用途：基于编制、招聘漏斗、入离职和员工事项证据生成人事招聘资深经理周报。适用于人事招聘周度复盘、关键岗位和人才风险同步、入离职、员工关系和跨团队事项跟踪，交付人事招聘周报、招聘漏斗与岗位进展、人员风险、决策和下周行动。
-- **候选人寻访运营专员**（`candidate-sourcing-operator`，v1.0.0）
+- **候选人寻访运营专员**（`candidate-sourcing-operator`，v1.0.1）
   - 路径：`人事招聘/人才寻访/candidate-sourcing-operator/`
   - 分类：人事招聘 / 人才寻访
   - 用途：设计岗位画像、人才地图、渠道组合、触达和候选人关系管理，提高合格候选人供给。适用于关键岗位人才寻访、招聘渠道组合优化、人才库建设和候选人触达，交付岗位人才画像、渠道和搜寻策略、候选人管道与触达复盘。
-- **人事招聘通用执行专家**（`hr-recruitment-generalist`，v1.0.0）
+- **人事招聘通用执行专家**（`hr-recruitment-generalist`，v1.0.1）
   - 路径：`人事招聘/公共/hr-recruitment-generalist/`
   - 分类：人事招聘 / 公共
   - 用途：接管日常人事与招聘需求，先识别任务类型、事实、权限和风险，再完成通用流程或路由到专项 Skill。适用于不确定该使用哪个人事 Skill、日常招聘和员工流程执行、跨编制、JD、寻访、面试、录用和入职的组合任务，交付任务分类与责任边界、端到端人事执行计划、专项 Skill 路由、交接和验收清单。
-- **绩效与员工关系管理专员**（`performance-employee-relations-manager`，v1.0.0）
+- **绩效与员工关系管理专员**（`performance-employee-relations-manager`，v1.0.1）
   - 路径：`人事招聘/员工关系/performance-employee-relations-manager/`
   - 分类：人事招聘 / 员工关系
   - 用途：建立目标反馈、试用期、绩效改进、员工诉求、调查和沟通的公平、可记录工作流。适用于绩效周期和反馈机制、试用期或绩效改进、员工申诉、冲突和调查协同，交付绩效与反馈流程、事实、沟通和行动记录、员工关系风险与升级方案。
-- **企业员工公告撰写专家**（`employee-announcement-writer`，v1.0.0）
+- **企业员工公告撰写专家**（`employee-announcement-writer`，v1.0.1）
   - 路径：`人事招聘/员工沟通/employee-announcement-writer/`
   - 分类：人事招聘 / 员工沟通
   - 用途：把已批准事实转化为清晰、准确、可执行且适配渠道的员工公告，并管理敏感沟通与发布风险。适用于入职、放假、培训、福利和办公通知、制度发布、版本更新和生效公告、组织调整、事故或紧急事项沟通草案，交付正式公告正文、标题、摘要和多渠道短版、审批、发布、问答和反馈清单。
-- **员工生命周期与档案管理员**（`employee-lifecycle-records-manager`，v1.0.0）
+- **员工生命周期与档案管理员**（`employee-lifecycle-records-manager`，v1.0.1）
   - 路径：`人事招聘/员工生命周期/employee-lifecycle-records-manager/`
   - 分类：人事招聘 / 员工生命周期
   - 用途：管理入职、异动、假勤、合同、证明、离职和员工档案的完整性、权限、保留与审计。适用于员工主档维护、转岗晋升和合同变更、离职交接与权限回收，交付员工生命周期状态与清单、档案完整性和权限台账、异动、离职和审计记录。
-- **员工培训组织与运营经理**（`employee-training-organization-manager`，v1.0.0）
+- **员工培训组织与运营经理**（`employee-training-organization-manager`，v1.0.1）
   - 路径：`人事招聘/培训发展/employee-training-organization-manager/`
   - 分类：人事招聘 / 培训发展
   - 用途：端到端组织员工培训，从需求和能力差距、计划预算、课程讲师、通知报名、现场交付到效果评估、档案和改进闭环。适用于年度或季度培训规划、新人、岗位、管理与专项培训组织、内部讲师、外部供应商和培训效果治理，交付培训需求与年度月度计划、课程、讲师、预算、通知、报名和现场执行包、考勤、反馈、学习效果、费用档案与复盘报告。
-- **岗位说明书与招聘 JD 生成专家**（`job-description-generator`，v1.0.0）
+- **岗位说明书与招聘 JD 生成专家**（`job-description-generator`，v1.0.1）
   - 路径：`人事招聘/岗位与JD/job-description-generator/`
   - 分类：人事招聘 / 岗位与JD
   - 用途：把真实业务目标、岗位成功标准和组织边界转化为清晰、可评估、包容且适合发布的岗位说明书与招聘 JD。适用于新增或重写招聘 JD、岗位职责模糊或要求堆砌、多平台、多语言或跨区域岗位发布，交付内部岗位说明书、候选人版招聘 JD、能力证据、面试评估和发布检查表。
-- **录用与入职管理专员**（`offer-onboarding-manager`，v1.0.0）
+- **录用与入职管理专员**（`offer-onboarding-manager`，v1.0.1）
   - 路径：`人事招聘/录用入职/offer-onboarding-manager/`
   - 分类：人事招聘 / 录用入职
   - 用途：管理候选人审批、Offer、背景核验、合同资料、入职准备和首日到试用期交接。适用于候选人录用审批、Offer 谈判和签署、跨部门入职和试用期启动，交付录用审批与 Offer 清单、入职准备责任表、首日、30/60/90 天交接计划。
-- **人力编制与招聘规划师**（`workforce-recruiting-planner`，v1.0.0）
+- **人力编制与招聘规划师**（`workforce-recruiting-planner`，v1.0.1）
   - 路径：`人事招聘/招聘规划/workforce-recruiting-planner/`
   - 分类：人事招聘 / 招聘规划
   - 用途：把业务目标、组织能力和预算转化为可审批的编制、岗位优先级和招聘计划。适用于年度人力规划、业务扩张或组织调整、招聘优先级和预算配置，交付编制与能力缺口图、岗位优先级和招聘计划、预算、里程碑和风险方案。
-- **结构化面试与评估设计师**（`structured-interview-designer`，v1.0.0）
+- **结构化面试与评估设计师**（`structured-interview-designer`，v1.0.1）
   - 路径：`人事招聘/面试评估/structured-interview-designer/`
   - 分类：人事招聘 / 面试评估
   - 用途：按岗位成功标准设计结构化面试、工作样本、评分锚点和独立评估机制。适用于岗位面试方案设计、面试官培训和校准、候选人评审争议治理，交付能力与证据矩阵、面试题和评分锚点、面试流程、校准和决策记录。
 ### 仓储库存
 
-- **仓储库存资深经理**（`senior-warehouse-inventory-manager`，v1.0.1）
+- **仓储库存资深经理**（`senior-warehouse-inventory-manager`，v1.0.2）
   - 路径：`仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager/`
   - 分类：仓储库存 / 仓储角色 / 仓储库存资深经理
   - 用途：统筹多仓库存准确性、入出库、库内作业、库存分配、退货逆向、仓容安全、成本和履约 SLA。适用于由仓储库存资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **仓储库存资深经理周报**（`senior-warehouse-inventory-manager-weekly-report`，v1.0.1）
+- **仓储库存资深经理周报**（`senior-warehouse-inventory-manager-weekly-report`，v1.0.2）
   - 路径：`仓储库存/仓储角色/仓储库存资深经理/senior-warehouse-inventory-manager-weekly-report/`
   - 分类：仓储库存 / 仓储角色 / 仓储库存资深经理
   - 用途：基于真实经营证据生成仓储库存资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于仓储库存资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **供应链资深经理**（`senior-supply-chain-manager`，v1.0.1）
+- **供应链资深经理**（`senior-supply-chain-manager`，v1.0.2）
   - 路径：`仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager/`
   - 分类：仓储库存 / 仓储角色 / 供应链资深经理
   - 用途：统筹供应商、质量、采购、库存、仓储、运输、履约和供应链现金风险。适用于由供应链资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **供应链资深经理周报**（`senior-supply-chain-manager-weekly-report`，v1.0.1）
+- **供应链资深经理周报**（`senior-supply-chain-manager-weekly-report`，v1.0.2）
   - 路径：`仓储库存/仓储角色/供应链资深经理/senior-supply-chain-manager-weekly-report/`
   - 分类：仓储库存 / 仓储角色 / 供应链资深经理
   - 用途：基于真实经营证据生成供应链资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于供应链资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **仓容、现场安全与连续性经理**（`warehouse-safety-capacity-manager`，v1.0.0）
+- **仓容、现场安全与连续性经理**（`warehouse-safety-capacity-manager`，v1.0.1）
   - 路径：`仓储库存/仓容安全/warehouse-safety-capacity-manager/`
   - 分类：仓储库存 / 仓容安全
   - 用途：管理仓容、库位、动线、设备、人员安全、消防、危险品、峰值产能和业务连续性。适用于新仓或仓库扩容、大促峰值仓容与人效规划、仓库安全检查和中断应急，交付仓容与产能模型、现场安全和检查清单、峰值、故障、灾害和恢复预案。
-- **仓库入库作业经理**（`warehouse-inbound-operations-manager`，v1.0.0）
+- **仓库入库作业经理**（`warehouse-inbound-operations-manager`，v1.0.1）
   - 路径：`仓储库存/入库管理/warehouse-inbound-operations-manager/`
   - 分类：仓储库存 / 入库管理
   - 用途：管理预约、到货、卸货、收货、质检交接、差异、上架和库存状态生效的入库闭环。适用于采购或调拨入库、多仓预约和上架治理、短少、破损、错货和超收异常处理，交付入库 SOP 与状态图、预约、收货、差异和上架任务表、SLA、证据、异常和对账清单。
-- **仓库出库履约经理**（`warehouse-outbound-fulfillment-manager`，v1.0.0）
+- **仓库出库履约经理**（`warehouse-outbound-fulfillment-manager`，v1.0.1）
   - 路径：`仓储库存/出库履约/warehouse-outbound-fulfillment-manager/`
   - 分类：仓储库存 / 出库履约
   - 用途：管理订单释放、波次、拣选、复核、包装、称重、面单、交接和出库确认。适用于电商订单出库、大促波次与仓内产能、错发、漏发、超时和承运交接异常，交付出库流程与波次方案、拣配复核包装标准、产能、SLA、异常和交接报告。
-- **电商履约物流规划师**（`ecommerce-fulfillment-logistics-planner`，v1.0.0）
+- **电商履约物流规划师**（`ecommerce-fulfillment-logistics-planner`，v1.0.1）
   - 路径：`仓储库存/履约物流/ecommerce-fulfillment-logistics-planner/`
   - 分类：仓储库存 / 履约物流
   - 用途：Design and compare ecommerce freight, customs, receiving, warehousing, FBA, FBM, 3PL, direct fulfillment, returns, and delivery operations using landed cost, service level, dimensional weight, capacity, exception handling, and resilience
-- **多仓多渠道库存分配规划师**（`inventory-allocation-planner`，v1.0.0）
+- **多仓多渠道库存分配规划师**（`inventory-allocation-planner`，v1.0.1）
   - 路径：`仓储库存/库存分配/inventory-allocation-planner/`
   - 分类：仓储库存 / 库存分配
   - 用途：按需求、服务水平、利润、交期、仓容和调拨成本分配多仓多渠道可用库存。适用于Amazon、独立站和 TikTok 库存分配、多仓调拨和缺货配给、大促、新品和区域备货，交付库存分配规则与配额、仓渠道调拨计划、服务、成本、缺货和风险情景。
-- **库存控制与循环盘点经理**（`inventory-control-cycle-count-manager`，v1.0.0）
+- **库存控制与循环盘点经理**（`inventory-control-cycle-count-manager`，v1.0.1）
   - 路径：`仓储库存/库存控制/inventory-control-cycle-count-manager/`
   - 分类：仓储库存 / 库存控制
   - 用途：建立库存账实准确、循环盘点、冻结、差异调查、调整审批和损耗治理机制。适用于日常循环盘点、月末或年度盘点、库存差异、负库存和异常损耗治理，交付盘点策略与计划、账实差异和根因报告、调整审批、控制和持续改善清单。
-- **多渠道库存补货规划师**（`inventory-replenishment-planner`，v2.0.0）
+- **多渠道库存补货规划师**（`inventory-replenishment-planner`，v2.0.1）
   - 路径：`仓储库存/库存计划/inventory-replenishment-planner/`
   - 分类：仓储库存 / 库存计划
   - 用途：Plan and monitor multi-channel replenishment end to end, including inventory alerts, demand, lead time, safety stock, order timing, channel allocation, cash and storage constraints
-- **退货与逆向物流经理**（`returns-reverse-logistics-manager`，v1.0.0）
+- **退货与逆向物流经理**（`returns-reverse-logistics-manager`，v1.0.1）
   - 路径：`仓储库存/逆向物流/returns-reverse-logistics-manager/`
   - 分类：仓储库存 / 逆向物流
   - 用途：管理退货授权、运输、收货、检验、分级、退款证据、翻新、再售、报废和供应商追偿。适用于客户退货处理、平台退仓和批量逆向、残次、翻新、再售与报废治理，交付逆向流程与状态机、检验分级和处置标准、退款、库存、追偿和根因报告。
-### 创意拍摄
+### 创拍视觉
 
-- **AI 图片与视频成片专家**（`ai-image-video-production-manager`，v1.0.0）
-  - 路径：`创意拍摄/AI创意制作/AI成片/ai-image-video-production-manager/`
-  - 分类：创意拍摄 / AI创意制作 / AI成片
-  - 用途：把商品事实、品牌规范、脚本和参考素材编排为可追溯的 AI 图片、视频生成与合成交付流程。适用于AI 商品场景图和广告图、文生视频、图生视频和镜头扩展、批量多语言多比例创意成片，交付AI 成片制作方案和模型路由、提示词、参考、参数与版本记录、候选筛选、人工修正和交付质检包。
-- **智能剪辑工作流专家**（`intelligent-video-editing-specialist`，v1.0.0）
-  - 路径：`创意拍摄/AI创意制作/智能剪辑/intelligent-video-editing-specialist/`
-  - 分类：创意拍摄 / AI创意制作 / 智能剪辑
+- **AIGC 创意制作专家**（`ai-image-video-production-manager`，v1.0.2）
+  - 路径：`创拍视觉/AI创意制作/AIGC制作/ai-image-video-production-manager/`
+  - 分类：创拍视觉 / AI创意制作 / AIGC制作
+  - 用途：把商品事实、品牌规范、脚本和参考素材编排为可追溯的文生图、图生图、文生视频、图生视频、局部修改、批量变体与成片交付流程。适用于AIGC 商品场景图和广告图、文生图、图生图、文生视频和图生视频、多语言、多比例和多创意变量批量成片，交付AIGC 创意方案与模型路由、提示词、参考、参数、生成和修改血缘、候选筛选、人工修正、版本矩阵和交付质检包。
+- **智能剪辑工作流专家**（`intelligent-video-editing-specialist`，v1.0.2）
+  - 路径：`创拍视觉/AI创意制作/智能剪辑/intelligent-video-editing-specialist/`
+  - 分类：创拍视觉 / AI创意制作 / 智能剪辑
   - 用途：利用镜头识别、语音转写、节奏分析、自动重构和批量渲染工具提升粗剪、多版本与本地化交付效率。适用于长素材自动粗剪、广告短视频批量变体、字幕、配音、横竖版和多语言适配，交付智能剪辑规则与时间线方案、镜头、字幕、声音和版本矩阵、人工复核、质量门禁和批量交付记录。
-- **AI 创意真实性与合规审查师**（`ai-creative-authenticity-compliance-reviewer`，v1.0.0）
-  - 路径：`创意拍摄/AI创意制作/真实性合规/ai-creative-authenticity-compliance-reviewer/`
-  - 分类：创意拍摄 / AI创意制作 / 真实性合规
+- **创意素材智能打标专家**（`creative-asset-intelligent-tagging-specialist`，v1.0.1）
+  - 路径：`创拍视觉/AI创意制作/智能打标/creative-asset-intelligent-tagging-specialist/`
+  - 分类：创拍视觉 / AI创意制作 / 智能打标
+  - 用途：为贵司图片、视频和广告素材库设计并运行从素材输入、模型推理、标签建议、人审反馈、CMS/DAM 回写到持续评估的可治理 AI 打标闭环。适用于存量图片视频批量打标、新素材入库自动标签建议、AI 打标工具规划、标签补全、纠错、搜索和效果归因治理，交付AI 打标能力、用户流程与标签体系、模型、置信度、人审决策和批量回写方案、金标评估、监控、错误集、版本、回滚和演进报告。
+- **AI 创意真实性与合规审查师**（`ai-creative-authenticity-compliance-reviewer`，v1.0.2）
+  - 路径：`创拍视觉/AI创意制作/真实性合规/ai-creative-authenticity-compliance-reviewer/`
+  - 分类：创拍视觉 / AI创意制作 / 真实性合规
   - 用途：审查 AI 生成、替换、扩展和智能剪辑内容的商品真实性、人物权利、版权、披露、平台和证据要求。适用于AI 商品图视频上线前审查、虚拟模特和数字人风险检查、AI 素材来源、修改和披露审计，交付AI 创意逐项审查表、失真、权利和平台风险分级、修改、披露、留档和禁止上线清单。
-- **虚拟模特内容制作专家**（`virtual-model-content-producer`，v1.0.0）
-  - 路径：`创意拍摄/AI创意制作/虚拟模特/virtual-model-content-producer/`
-  - 分类：创意拍摄 / AI创意制作 / 虚拟模特
+- **虚拟模特内容制作专家**（`virtual-model-content-producer`，v1.0.2）
+  - 路径：`创拍视觉/AI创意制作/虚拟模特/virtual-model-content-producer/`
+  - 分类：创拍视觉 / AI创意制作 / 虚拟模特
   - 用途：使用合规的人像生成、模特替换或虚拟试穿工具制作跨人群商品内容，并严格保持商品结构与真实属性。适用于服饰、配件和生活方式虚拟模特图、多地区模特与场景版本、真人素材的合规模特替换，交付虚拟模特制作 brief、身份、姿态、商品一致性和版本方案、真实性、授权、偏差和交付验收报告。
-- **UGC 与达人内容制作经理**（`ugc-content-production-manager`，v1.0.0）
-  - 路径：`创意拍摄/UGC制作/ugc-content-production-manager/`
-  - 分类：创意拍摄 / UGC制作
+- **UGC 与达人内容制作经理**（`ugc-content-production-manager`，v1.0.2）
+  - 路径：`创拍视觉/UGC制作/ugc-content-production-manager/`
+  - 分类：创拍视觉 / UGC制作
   - 用途：管理创作者匹配、内容 brief、寄样、脚本边界、拍摄反馈、授权和交付，生产可信的原生用户内容。适用于UGC 广告素材采购、达人寄样内容制作、多创作者多角度内容测试，交付创作者画像与筛选表、UGC brief、脚本边界和反馈流程、授权、交付、版本和表现复盘。
-- **跨境广告创意策略师**（`creative-strategy-producer`，v1.0.0）
-  - 路径：`创意拍摄/创意策略/creative-strategy-producer/`
-  - 分类：创意拍摄 / 创意策略
+- **跨境广告创意策略师**（`creative-strategy-producer`，v1.0.2）
+  - 路径：`创拍视觉/创意策略/creative-strategy-producer/`
+  - 分类：创拍视觉 / 创意策略
   - 用途：从人群洞察和产品证据建立可拍摄、可批量测试、可归因的创意生产系统。适用于广告素材策略、UGC brief 和脚本矩阵、创意疲劳治理，交付创意策略地图、角度、钩子和脚本矩阵、测试编码与复盘规则。
-- **创意拍摄资深经理**（`senior-creative-production-manager`，v1.0.1）
-  - 路径：`创意拍摄/创意角色/创意拍摄资深经理/senior-creative-production-manager/`
-  - 分类：创意拍摄 / 创意角色 / 创意拍摄资深经理
-  - 用途：统筹创意策略、制片、摄影、短视频、UGC、后期、素材资产、预算和生产质量。适用于由创意拍摄资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **创意拍摄资深经理周报**（`senior-creative-production-manager-weekly-report`，v1.0.1）
-  - 路径：`创意拍摄/创意角色/创意拍摄资深经理/senior-creative-production-manager-weekly-report/`
-  - 分类：创意拍摄 / 创意角色 / 创意拍摄资深经理
-  - 用途：基于真实经营证据生成创意拍摄资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于创意拍摄资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **剪辑后期与素材交付经理**（`post-production-delivery-manager`，v1.0.0）
-  - 路径：`创意拍摄/后期交付/post-production-delivery-manager/`
-  - 分类：创意拍摄 / 后期交付
+- **创拍视觉资深经理**（`senior-creative-production-manager`，v1.0.3）
+  - 路径：`创拍视觉/创意角色/创拍视觉资深经理/senior-creative-production-manager/`
+  - 分类：创拍视觉 / 创意角色 / 创拍视觉资深经理
+  - 用途：统筹创意策略、制片、摄影、短视频、UGC、后期、素材资产、预算和生产质量。适用于由创拍视觉资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
+- **创拍视觉资深经理周报**（`senior-creative-production-manager-weekly-report`，v1.0.3）
+  - 路径：`创拍视觉/创意角色/创拍视觉资深经理/senior-creative-production-manager-weekly-report/`
+  - 分类：创拍视觉 / 创意角色 / 创拍视觉资深经理
+  - 用途：基于真实经营证据生成创拍视觉资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于创拍视觉资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
+- **剪辑后期与素材交付经理**（`post-production-delivery-manager`，v1.0.2）
+  - 路径：`创拍视觉/后期交付/post-production-delivery-manager/`
+  - 分类：创拍视觉 / 后期交付
   - 用途：管理选片、剪辑、调色、修图、声音、字幕、包装、多语言版本、质检和多规格交付。适用于图片精修和批量导出、短视频剪辑与多版本适配、跨语言跨渠道素材交付，交付后期任务与版本矩阵、修图剪辑、字幕和声音规范、质检、命名、归档和交付清单。
-- **商品摄影导演**（`product-photography-director`，v1.0.0）
-  - 路径：`创意拍摄/商品摄影/product-photography-director/`
-  - 分类：创意拍摄 / 商品摄影
+- **商品摄影导演**（`product-photography-director`，v1.0.2）
+  - 路径：`创拍视觉/商品摄影/product-photography-director/`
+  - 分类：创拍视觉 / 商品摄影
   - 用途：以真实还原商品和渠道转化任务为目标，设计主图、细节、场景、模特和对比图片的摄影方案。适用于Amazon 或独立站商品摄影、新品主图与场景图拍摄、多颜色多款式批量摄影，交付商品摄影 brief 与 shot list、灯光、构图、色彩和场景方案、选片、真实性和渠道验收清单。
-- **商品图片与视频拍摄制作经理**（`product-photo-video-production-manager`，v1.0.0）
-  - 路径：`创意拍摄/拍摄制作/product-photo-video-production-manager/`
-  - 分类：创意拍摄 / 拍摄制作
+- **商品图片与视频拍摄制作经理**（`product-photo-video-production-manager`，v1.0.2）
+  - 路径：`创拍视觉/拍摄制作/product-photo-video-production-manager/`
+  - 分类：创拍视觉 / 拍摄制作
   - 用途：把营销目标、商品事实和渠道规范转化为可执行的图片与视频拍摄、后期、验收和交付计划。适用于商品主图、场景图和视频拍摄、广告、社媒、达人和独立站素材制作、跨市场拍摄重制与批量交付，交付拍摄策略、shot list 和脚本、人员、场地、样品、预算与排期、后期、合规、质检和交付清单。
-- **拍摄制片与现场统筹**（`shooting-production-coordinator`，v1.0.0）
-  - 路径：`创意拍摄/拍摄统筹/shooting-production-coordinator/`
-  - 分类：创意拍摄 / 拍摄统筹
+- **拍摄制片与现场统筹**（`shooting-production-coordinator`，v1.0.2）
+  - 路径：`创拍视觉/拍摄统筹/shooting-production-coordinator/`
+  - 分类：创拍视觉 / 拍摄统筹
   - 用途：把创意方案转化为预算、排期、样品、人员、场地、设备、通告和现场执行计划。适用于棚拍或外景拍摄筹备、多 SKU 批量拍摄、跨团队拍摄进度和成本治理，交付制作预算与排期、人员、样品、场地和设备清单、通告单、现场流程和异常预案。
-- **跨境短视频制作导演**（`short-form-video-producer`，v1.0.0）
-  - 路径：`创意拍摄/短视频制作/short-form-video-producer/`
-  - 分类：创意拍摄 / 短视频制作
+- **跨境短视频制作导演**（`short-form-video-producer`，v1.0.2）
+  - 路径：`创拍视觉/短视频制作/short-form-video-producer/`
+  - 分类：创拍视觉 / 短视频制作
   - 用途：面向广告、TikTok、Reels、Shorts 和商品页设计高密度、平台原生、可测试的短视频。适用于商品广告短视频、社媒竖屏内容、功能演示、场景故事和口播制作，交付视频角度与脚本矩阵、分镜、镜头、字幕和声音方案、版本测试、平台规格和验收清单。
-- **创意素材运营经理**（`creative-asset-operations-manager`，v1.0.0）
-  - 路径：`创意拍摄/素材运营/creative-asset-operations-manager/`
-  - 分类：创意拍摄 / 素材运营
+- **创意素材运营经理**（`creative-asset-operations-manager`，v1.0.2）
+  - 路径：`创拍视觉/素材运营/creative-asset-operations-manager/`
+  - 分类：创拍视觉 / 素材运营
   - 用途：建立跨商品、市场、渠道和投放场景的素材需求、生产、标签、版本、授权、分发和效果回流体系。适用于素材中台和资产库治理、多渠道素材供给与复用、素材版本、授权和效果复盘，交付素材分类与需求地图、生产排期、命名、版本和权限规范、分发、效果标签和淘汰复用机制。
 ### 客服售前
 
-- **客服售前资深经理**（`senior-customer-service-presales-manager`，v1.0.1）
+- **客服售前资深经理**（`senior-customer-service-presales-manager`，v1.0.2）
   - 路径：`客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager/`
   - 分类：客服售前 / 客服角色 / 客服售前资深经理
   - 用途：统筹跨渠道售前咨询、商品推荐、多语言沟通、知识库、线索分级、质检培训和销售交接。适用于由客服售前资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **客服售前资深经理周报**（`senior-customer-service-presales-manager-weekly-report`，v1.0.1）
+- **客服售前资深经理周报**（`senior-customer-service-presales-manager-weekly-report`，v1.0.2）
   - 路径：`客服售前/客服角色/客服售前资深经理/senior-customer-service-presales-manager-weekly-report/`
   - 分类：客服售前 / 客服角色 / 客服售前资深经理
   - 用途：基于真实经营证据生成客服售前资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于客服售前资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **跨境客服售前运营专家**（`customer-service-voice-manager`，v2.0.0）
+- **跨境客服售前运营专家**（`customer-service-voice-manager`，v2.0.1）
   - 路径：`客服售前/客服运营/customer-service-voice-manager/`
   - 分类：客服售前 / 客服运营
   - 用途：端到端完成跨渠道购买前咨询、需求澄清、商品推荐、多语言回复、FAQ 沉淀、线索分级、质检培训和销售交接。适用于邮件、聊天和平台消息售前接待、商品推荐、异议处理与多语言沟通、客服知识库、线索交接和质量改进，交付售前答复与商品推荐方案、客服 SOP、FAQ、话术和权限矩阵、线索、质检、培训与 VOC 改进报告。
 ### 市场采购
 
-- **供应商寻源与质量管理器**（`supplier-sourcing-quality-manager`，v1.0.0）
+- **供应商寻源与质量管理器**（`supplier-sourcing-quality-manager`，v1.0.1）
   - 路径：`市场采购/供应商与质量/supplier-sourcing-quality-manager/`
   - 分类：市场采购 / 供应商与质量
   - 用途：Plan and evaluate ecommerce supplier sourcing, RFQs, samples, factory capability, commercial terms, quality standards, inspections, defect handling, packaging, production readiness, and supplier concentration risk
-- **供应商谈判与成本经理**（`supplier-negotiation-cost-manager`，v1.0.0）
+- **供应商谈判与成本经理**（`supplier-negotiation-cost-manager`，v1.0.1）
   - 路径：`市场采购/商务谈判/supplier-negotiation-cost-manager/`
   - 分类：市场采购 / 商务谈判
   - 用途：基于成本结构、需求承诺、产能、质量、交期、付款和风险设计供应商商务谈判。适用于询价比价和成本拆解、MOQ、价格、账期和交期谈判、年度降本和供应商商务复盘，交付报价可比表与成本模型、谈判目标、底线和换项方案、商务条款、决策和复盘记录。
-- **市场需求与商品机会分析师**（`market-demand-opportunity-analyst`，v1.0.0）
+- **市场需求与商品机会分析师**（`market-demand-opportunity-analyst`，v1.0.1）
   - 路径：`市场采购/市场机会/market-demand-opportunity-analyst/`
   - 分类：市场采购 / 市场机会
   - 用途：把消费者需求、搜索、竞品、价格带、渠道和利润证据转化为可验证的采购商品机会。适用于新品机会扫描、类目和价格带进入判断、采购方向和商品组合规划，交付市场机会与证据表、需求、竞争和利润评分、样品验证、否决条件和决策计划。
-- **采购样品验证经理**（`sample-evaluation-sourcing-manager`，v1.0.0）
+- **采购样品验证经理**（`sample-evaluation-sourcing-manager`，v1.0.1）
   - 路径：`市场采购/样品验证/sample-evaluation-sourcing-manager/`
   - 分类：市场采购 / 样品验证
   - 用途：管理打样需求、样品版本、功能外观评估、成本、测试、用户验证和量产放行证据。适用于新品打样和多供应商比样、样品改版和确认、量产前样、封样和放行，交付样品需求与版本台账、比样、测试和问题矩阵、修改、封样、量产和否决决定。
-- **跨境电商选品研究**（`ecommerce-product-research`，v1.0.0）
+- **跨境电商选品研究**（`ecommerce-product-research`，v1.0.1）
   - 路径：`市场采购/选品/ecommerce-product-research/`
   - 分类：市场采购 / 选品
   - 用途：从需求、竞争、利润、供应链、合规和渠道适配评估跨境产品机会
-- **采购订单与交付经理**（`purchase-order-delivery-manager`，v1.0.0）
+- **采购订单与交付经理**（`purchase-order-delivery-manager`，v1.0.1）
   - 路径：`市场采购/采购执行/purchase-order-delivery-manager/`
   - 分类：市场采购 / 采购执行
   - 用途：管理采购申请、订单、确认、预付款、生产、质检、交付、变更、异常和关闭。适用于采购订单下达、生产和交期跟踪、数量价格交付变更与异常处理，交付采购订单与里程碑台账、交期、质量和付款跟踪、变更、索赔、关闭和供应商绩效记录。
-- **市场采购资深经理**（`senior-market-procurement-manager`，v1.0.1）
+- **市场采购资深经理**（`senior-market-procurement-manager`，v1.0.2）
   - 路径：`市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager/`
   - 分类：市场采购 / 采购角色 / 市场采购资深经理
   - 用途：统筹市场机会、选品组合、供应商、样品、目标成本、谈判、采购订单、交期、质量和采购风险。适用于由市场采购资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **市场采购资深经理周报**（`senior-market-procurement-manager-weekly-report`，v1.0.1）
+- **市场采购资深经理周报**（`senior-market-procurement-manager-weekly-report`，v1.0.2）
   - 路径：`市场采购/采购角色/市场采购资深经理/senior-market-procurement-manager-weekly-report/`
   - 分类：市场采购 / 采购角色 / 市场采购资深经理
   - 用途：基于真实经营证据生成市场采购资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于市场采购资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **选品与商品资深经理**（`senior-merchandising-manager`，v1.0.1）
+- **选品与商品资深经理**（`senior-merchandising-manager`，v1.0.2）
   - 路径：`市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager/`
   - 分类：市场采购 / 采购角色 / 选品与商品资深经理
   - 用途：统筹市场机会、选品验证、商品组合、生命周期、目标成本、上市准备和退出机制。适用于由选品与商品资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **选品与商品资深经理周报**（`senior-merchandising-manager-weekly-report`，v1.0.1）
+- **选品与商品资深经理周报**（`senior-merchandising-manager-weekly-report`，v1.0.2）
   - 路径：`市场采购/采购角色/选品与商品资深经理/senior-merchandising-manager-weekly-report/`
   - 分类：市场采购 / 采购角色 / 选品与商品资深经理
   - 用途：基于真实经营证据生成选品与商品资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于选品与商品资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **采购风险与供应韧性经理**（`procurement-risk-compliance-manager`，v1.0.0）
+- **采购风险与供应韧性经理**（`procurement-risk-compliance-manager`，v1.0.1）
   - 路径：`市场采购/采购风险/procurement-risk-compliance-manager/`
   - 分类：市场采购 / 采购风险
   - 用途：识别供应商、产地、材料、质量、合规、制裁、集中度、产能、灾害和商业连续性风险。适用于新供应商准入、单一来源和供应中断治理、采购合规与供应链尽调，交付采购风险与责任矩阵、供应商尽调和证据缺口、替代来源、缓解、监控和升级计划。
 ### 数据看板
 
-- **广告效果分析师**（`advertising-performance-analyst`，v1.0.0）
+- **广告效果分析师**（`advertising-performance-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/advertising-performance-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：统一平台口径、公司收入和利润，分析广告效率、创意、受众和增量。适用于广告周报和预算复盘、ROAS/ACOS 波动、创意和投放结构诊断，交付广告表现报告、驱动拆解与预算建议、增量验证和测试计划。
-- **业务指标治理师**（`business-metrics-governance`，v1.0.0）
+- **业务指标治理师**（`business-metrics-governance`，v1.0.1）
   - 路径：`数据看板/业务分析/business-metrics-governance/`
   - 分类：数据看板 / 业务分析
   - 用途：建立跨平台可复算的指标、维度、时间、币种和责任人标准。适用于经营指标字典、多系统口径统一、看板和周报上线前治理，交付指标字典、维度与数据血缘、变更、认证和争议处理机制。
-- **电商转化漏斗分析师**（`conversion-funnel-analyst`，v1.0.0）
+- **电商转化漏斗分析师**（`conversion-funnel-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/conversion-funnel-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：按一致人群、事件和时间窗定位从曝光到购买的转化损失。适用于商品或结账转化下降、设备国家渠道漏斗比较、改版和实验效果诊断，交付漏斗诊断、流失分层和证据、实验与修复优先级。
-- **客户 Cohort 与 LTV 分析师**（`customer-cohort-ltv-analyst`，v1.0.0）
+- **客户 Cohort 与 LTV 分析师**（`customer-cohort-ltv-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/customer-cohort-ltv-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：按获客 cohort、复购周期和贡献利润评估客户留存与长期价值。适用于复购和留存分析、渠道客户质量比较、CAC 回收和 LTV 预测，交付cohort 留存表、LTV/CAC 和回收期、分层策略与不确定性。
-- **经营分析与周月报专家**（`executive-business-review`，v1.0.0）
+- **经营分析与周月报专家**（`executive-business-review`，v1.0.1）
   - 路径：`数据看板/业务分析/executive-business-review/`
   - 分类：数据看板 / 业务分析
   - 用途：把可靠数据转化为结论先行、驱动清晰、可决策的 WBR/MBR/QBR。适用于跨境经营周报月报、管理层业务复盘、目标差距和行动跟踪，交付经营摘要、KPI 与驱动分析、风险、决策和责任闭环。
-- **经营预测与情景规划师**（`forecast-scenario-planner`，v1.0.0）
+- **经营预测与情景规划师**（`forecast-scenario-planner`，v1.0.1）
   - 路径：`数据看板/业务分析/forecast-scenario-planner/`
   - 分类：数据看板 / 业务分析
   - 用途：用透明假设、驱动模型和区间管理销售、利润、库存和现金预测。适用于月度滚动预测、预算和目标拆解、乐观基准悲观情景，交付驱动型预测模型、情景和敏感性分析、假设、预警和更新机制。
-- **库存与供应链分析师**（`inventory-supply-chain-analyst`，v1.0.0）
+- **库存与供应链分析师**（`inventory-supply-chain-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/inventory-supply-chain-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：量化可售、在途、缺货、周转、交期和履约，平衡服务水平与现金占用。适用于缺货和积压诊断、库存健康周报、供应商和物流绩效分析，交付库存健康矩阵、供需与交期驱动、补货、处置和风险建议。
-- **跨平台渠道对比分析师**（`marketplace-channel-comparison-analyst`，v1.0.0）
+- **跨平台渠道对比分析师**（`marketplace-channel-comparison-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/marketplace-channel-comparison-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：统一订单、收入、费用、广告和客户口径后比较平台与独立站真实表现。适用于Amazon、Shopify、TikTok 横向比较、渠道资源分配、渠道利润和客户质量评估，交付渠道可比口径、规模效率利润矩阵、渠道角色和资源建议。
-- **价格与促销分析师**（`pricing-promotion-analyst`，v1.0.0）
+- **价格与促销分析师**（`pricing-promotion-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/pricing-promotion-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：评估价格、折扣和促销对销量、收入、利润、客户和库存的真实影响。适用于大促复盘、价格调整效果、优惠券和捆绑机制比较，交付价格促销效果报告、增量和蚕食测算、机制优化建议。
-- **商品组合分析师**（`product-portfolio-analyst`，v1.0.0）
+- **商品组合分析师**（`product-portfolio-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/product-portfolio-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：从需求、转化、利润、库存和生命周期评估 SKU 角色与动作。适用于SKU 分层、新品和长尾评估、淘汰、补货与资源分配，交付商品组合矩阵、SKU 诊断与动作、新品、保留和退出规则。
-- **销售与利润分析师**（`sales-profitability-analyst`，v1.0.0）
+- **销售与利润分析师**（`sales-profitability-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/sales-profitability-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：拆解销售、毛利、贡献利润和现金驱动，定位真正创造或消耗价值的业务单元。适用于销售和利润波动、国家渠道 SKU 盈利分析、利润改善机会评估，交付收入利润桥、分层盈利矩阵、驱动、风险和改善测算。
-- **流量与获客分析师**（`traffic-acquisition-analyst`，v1.0.0）
+- **流量与获客分析师**（`traffic-acquisition-analyst`，v1.0.1）
   - 路径：`数据看板/业务分析/traffic-acquisition-analyst/`
   - 分类：数据看板 / 业务分析
   - 用途：区分用户级与会话级来源，评估流量规模、质量、成本和下游价值。适用于渠道流量波动、自然与付费获客质量、UTM 和来源口径排查，交付流量来源分析、质量与成本矩阵、归因限制和优化建议。
-- **业务指标诊断师**（`metric-diagnostics`，v1.0.0）
+- **业务指标诊断师**（`metric-diagnostics`，v1.0.1）
   - 路径：`数据看板/metric-diagnostics/`
   - 分类：数据看板 / 业务分析 / 指标诊断
   - 用途：验证指标口径与数据质量，量化拆解异常变化并区分驱动因素和假设
-- **业务数据质量与对账专家**（`data-quality-reconciliation`，v1.0.0）
+- **业务数据质量与对账专家**（`data-quality-reconciliation`，v1.0.1）
   - 路径：`数据看板/数据治理/data-quality-reconciliation/`
   - 分类：数据看板 / 数据治理
   - 用途：验证完整性、唯一性、及时性、一致性并解释跨系统差异。适用于平台与财务对账、看板数据验收、异常数据和口径争议，交付数据质量报告、差异桥和根因、修复、监控和责任清单。
 ### 法律政务
 
-- **争议解决案件经理**（`dispute-resolution-case-manager`，v1.0.0）
+- **争议解决案件经理**（`dispute-resolution-case-manager`，v1.0.1）
   - 路径：`法律政务/争议解决/dispute-resolution-case-manager/`
   - 分类：法律政务 / 争议解决
   - 用途：组织合同、平台、客户、供应商和知识产权争议的事实、证据、时效、策略和执行。适用于争议事实梳理、平台申诉和合同索赔、诉前谈判与外部律师协同，交付案件事实与时间线、请求、抗辩和证据地图、策略、成本、时效和升级计划。
-- **公司治理法务顾问**（`corporate-governance-counsel`，v1.0.0）
+- **公司治理法务顾问**（`corporate-governance-counsel`，v1.0.1）
   - 路径：`法律政务/公司治理/corporate-governance-counsel/`
   - 分类：法律政务 / 公司治理
   - 用途：管理实体、章程、董事股东决议、授权矩阵、关联交易和法定档案。适用于新实体或治理体系、重大合同和付款授权、董事股东决议与档案审查，交付实体和治理台账、授权与审批矩阵、决议、缺口和整改计划。
-- **劳动用工合规顾问**（`employment-labor-compliance-counsel`，v1.0.0）
+- **劳动用工合规顾问**（`employment-labor-compliance-counsel`，v1.0.1）
   - 路径：`法律政务/劳动用工/employment-labor-compliance-counsel/`
   - 分类：法律政务 / 劳动用工
   - 用途：审查员工、独立承包商、远程团队、薪酬工时、保密知识产权和离职流程风险。适用于跨国招聘与用工模式、员工或承包商协议、绩效、调查和离职处理，交付用工分类与义务矩阵、合同和流程风险、整改、证据和律师升级清单。
-- **合同风险审阅师**（`contract-risk-reviewer`，v1.0.0）
+- **合同风险审阅师**（`contract-risk-reviewer`，v1.0.1）
   - 路径：`法律政务/contract-risk-reviewer/`
   - 分类：法律政务 / 合同 / 商业合同审阅
   - 用途：逐条提取合同义务、识别风险和缺失保护，并形成可谈判的优先清单
-- **广告声明法律审查师**（`advertising-claims-legal-reviewer`，v1.0.0）
+- **广告声明法律审查师**（`advertising-claims-legal-reviewer`，v1.0.1）
   - 路径：`法律政务/广告与消费者保护/advertising-claims-legal-reviewer/`
   - 分类：法律政务 / 广告与消费者保护
   - 用途：审查产品声明、比较广告、折扣、评价、达人背书、环保和健康表达的证据与披露。适用于Listing、落地页和广告上线前审查、达人、评价和促销机制、高风险产品声明整改，交付声明逐条证据矩阵、风险等级与修改稿、披露、审批和留档要求。
-- **欧盟市场合规顾问**（`eu-market-regulatory-compliance-counsel`，v1.0.0）
+- **欧盟市场合规顾问**（`eu-market-regulatory-compliance-counsel`，v1.0.1）
   - 路径：`法律政务/欧盟合规/eu-market-regulatory-compliance-counsel/`
   - 分类：法律政务 / 欧盟合规
   - 用途：按产品法规、经济运营商、成员国、销售渠道和数据流识别欧盟市场准入与持续合规责任。适用于产品进入欧盟市场、欧盟责任人、进口商和平台责任审查、CE、GPSR、标签、VAT、隐私和召回流程审查，交付欧盟法规与角色责任地图、技术文件、标签和线上展示证据清单、缺口、整改、监控和欧盟专业升级方案。
-- **跨境法务资深经理**（`senior-cross-border-legal-counsel`，v1.0.1）
+- **跨境法务资深经理**（`senior-cross-border-legal-counsel`，v1.0.2）
   - 路径：`法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel/`
   - 分类：法律政务 / 法律角色 / 跨境法务资深经理
   - 用途：统筹跨境合同、监管、知识产权、隐私、营销、用工、争议和公司治理风险。适用于跨境法务体系建设、重大项目法律风险评审、外部律师、证据和决策协调，交付法律风险组合与优先级、专项法律 Skill 编排、决策、升级律师和治理计划。
-- **跨境法务资深经理周报**（`senior-cross-border-legal-counsel-weekly-report`，v1.0.1）
+- **跨境法务资深经理周报**（`senior-cross-border-legal-counsel-weekly-report`，v1.0.2）
   - 路径：`法律政务/法律角色/跨境法务资深经理/senior-cross-border-legal-counsel-weekly-report/`
   - 分类：法律政务 / 法律角色 / 跨境法务资深经理
   - 用途：基于真实案件、合同和监管证据生成法务周报。适用于法务周度复盘、重大风险与案件升级、合同、合规和整改跟踪，交付法务周报、风险与时效台账、决策、外部律师和下周行动。
-- **知识产权保护顾问**（`intellectual-property-protection-counsel`，v1.0.0）
+- **知识产权保护顾问**（`intellectual-property-protection-counsel`，v1.0.1）
   - 路径：`法律政务/知识产权/intellectual-property-protection-counsel/`
   - 分类：法律政务 / 知识产权
   - 用途：管理商标、版权、专利、外观设计、域名、授权链和平台侵权处置。适用于品牌和新品 IP 清查、素材和达人内容授权、侵权投诉、应诉和证据保全，交付IP 资产与权利链台账、侵权/被诉风险分析、申请、许可、取证和处置计划。
-- **美国市场合规顾问**（`us-market-regulatory-compliance-counsel`，v1.0.0）
+- **美国市场合规顾问**（`us-market-regulatory-compliance-counsel`，v1.0.1）
   - 路径：`法律政务/美国合规/us-market-regulatory-compliance-counsel/`
   - 分类：法律政务 / 美国合规
   - 用途：按产品、进口模式、销售州和营销行为识别美国联邦、州及主管机构合规责任。适用于产品进入美国市场、美国进口商和平台责任审查、Listing、标签、广告、隐私和召回流程审查，交付美国适用规则与主管机构地图、进口、产品和销售责任矩阵、证据缺口、整改和美国律师升级方案。
-- **跨境监管合规顾问**（`cross-border-regulatory-compliance-counsel`，v1.0.0）
+- **跨境监管合规顾问**（`cross-border-regulatory-compliance-counsel`，v1.0.1）
   - 路径：`法律政务/跨境监管/cross-border-regulatory-compliance-counsel/`
   - 分类：法律政务 / 跨境监管
   - 用途：按销售国、主体、产品、渠道和责任链识别跨境贸易与电商监管义务。适用于进入新国家或平台、进口商、卖家和平台责任审查、监管变化与整改，交付适用法规和责任矩阵、证据缺口与风险等级、整改、监控和律师升级方案。
-- **进出口贸易合规审查顾问**（`import-export-trade-compliance-reviewer`，v1.0.0）
+- **进出口贸易合规审查顾问**（`import-export-trade-compliance-reviewer`，v1.0.1）
   - 路径：`法律政务/进出口合规/import-export-trade-compliance-reviewer/`
   - 分类：法律政务 / 进出口合规
   - 用途：对跨境货物流的进口、出口、再出口、海关、制裁与出口管制责任进行证据化审查。适用于新品或新国家进出口审查、报关资料和责任链复核、制裁、许可证或出口管制红旗处理，交付进出口合规审查报告、商品、主体、路线和责任矩阵、证据缺口、暂停条件和专业升级清单。
-- **隐私与数据保护顾问**（`privacy-data-protection-counsel`，v1.0.0）
+- **隐私与数据保护顾问**（`privacy-data-protection-counsel`，v1.0.1）
   - 路径：`法律政务/隐私与数据/privacy-data-protection-counsel/`
   - 分类：法律政务 / 隐私与数据
   - 用途：审查个人数据、Cookie、营销同意、供应商处理、跨境传输、数据主体请求和事件响应。适用于网站与 CRM 隐私审查、数据出境和供应商合同、删除访问请求或数据事件，交付数据处理活动与角色图、合法基础、告知和传输差距、整改、请求和事件响应方案。
 ### 渠道运营
 
-- **跨境商品合规风险管理器**（`product-compliance-risk-manager`，v1.0.0）
+- **跨境商品合规风险管理器**（`product-compliance-risk-manager`，v1.0.1）
   - 路径：`渠道运营/合规/product-compliance-risk-manager/`
   - 分类：渠道运营 / 合规
   - 用途：Screen and manage cross-border product compliance, safety, labeling, documentation, restricted-product, marketplace, claim, testing, recall, and evidence risks by target market and sales channel
-- **定价与促销优化经理**（`pricing-promotion-optimizer`，v1.0.0）
+- **定价与促销优化经理**（`pricing-promotion-optimizer`，v1.0.1）
   - 路径：`渠道运营/商业化/pricing-promotion-optimizer/`
   - 分类：渠道运营 / 商业化
   - 用途：综合消费者价值、竞争、成本、渠道规则和需求弹性制定定价促销方案。适用于新品定价、跨国家跨渠道价格治理、折扣和优惠机制优化，交付价格架构、促销方案和利润模拟、实验、监控与退出规则。
-- **平台商品信息优化师**（`marketplace-listing-optimizer`，v1.0.0）
+- **平台商品信息优化师**（`marketplace-listing-optimizer`，v1.0.1）
   - 路径：`渠道运营/商品运营/marketplace-listing-optimizer/`
   - 分类：渠道运营 / 商品运营
   - 用途：基于真实产品事实、搜索意图和平台规则优化商品信息与转化表达。适用于Amazon 等平台 listing 优化、新品信息搭建、低流量或低转化详情修复，交付关键词和信息架构、标题、卖点和详情建议、合规与实验清单。
-- **亚马逊 PDP 导入草稿生成器**（`amazon-pdp-import-generator`，v2.0.0）
+- **亚马逊 PDP 导入草稿生成器**（`amazon-pdp-import-generator`，v2.0.1）
   - 路径：`渠道运营/多渠道运营/亚马逊/amazon-pdp-import-generator/`
   - 分类：渠道运营 / 多渠道运营 / 亚马逊
   - 用途：从结构化图片文件名确定性生成 SKU、变体和图片分组草稿，再基于已验证商品事实生成亚马逊内容
-- **Shopify 转化审计师**（`shopify-conversion-auditor`，v1.0.0）
+- **Shopify 转化审计师**（`shopify-conversion-auditor`，v1.0.1）
   - 路径：`渠道运营/多渠道运营/独立站/shopify-conversion-auditor/`
   - 分类：渠道运营 / 多渠道运营 / 独立站
   - 用途：基于页面、数据和真实商品事实审计 Shopify 转化障碍并排序改进项
-- **独立站产品上下架管理器**（`storefront-product-publishing-manager`，v1.0.0）
+- **独立站产品上下架管理器**（`storefront-product-publishing-manager`，v1.0.1）
   - 路径：`渠道运营/多渠道运营/独立站/storefront-product-publishing-manager/`
   - 分类：渠道运营 / 多渠道运营 / 独立站
   - 用途：安全规划、执行和验证独立站产品上架、定时发布、下架、退市、归档、重定向与回滚
-- **评价与品牌声誉经理**（`review-reputation-manager`，v1.0.0）
+- **评价与品牌声誉经理**（`review-reputation-manager`，v1.0.1）
   - 路径：`渠道运营/客户体验/review-reputation-manager/`
   - 分类：渠道运营 / 客户体验
   - 用途：合规监控评价、识别根因、回复客户并推动产品和履约改进。适用于平台评价治理、差评和舆情响应、评分下降根因分析，交付评价健康报告、合规回复和升级方案、根因与改进闭环。
-- **跨境渠道组合策略师**（`channel-portfolio-strategist`，v1.0.0）
+- **跨境渠道组合策略师**（`channel-portfolio-strategist`，v1.0.1）
   - 路径：`渠道运营/平台运营/channel-portfolio-strategist/`
   - 分类：渠道运营 / 平台运营
   - 用途：按渠道角色、客户 ownership、利润和运营复杂度配置平台与独立站组合。适用于Amazon、Shopify、TikTok 等渠道组合、新渠道评估、渠道冲突和资源分配，交付渠道角色地图、进入与退出评分、资源和治理方案。
-- **TikTok Shop 运营经理**（`tiktok-shop-operations-manager`，v1.0.0）
+- **TikTok Shop 运营经理**（`tiktok-shop-operations-manager`，v1.0.1）
   - 路径：`渠道运营/平台运营/TikTok Shop/tiktok-shop-operations-manager/`
   - 分类：渠道运营 / 平台运营 / TikTok Shop
   - 用途：联动商品、短视频、直播、达人、广告、履约和店铺健康运营 TikTok Shop。适用于TikTok Shop 冷启动、内容电商日常经营、GMV 波动诊断，交付TikTok Shop 经营计划、内容达人商品协同表、店铺健康和复盘。
-- **亚马逊店铺运营经理**（`amazon-store-operations-manager`，v1.0.0）
+- **亚马逊店铺运营经理**（`amazon-store-operations-manager`，v1.0.1）
   - 路径：`渠道运营/平台运营/亚马逊/amazon-store-operations-manager/`
   - 分类：渠道运营 / 平台运营 / 亚马逊
   - 用途：统筹 Amazon 账户健康、目录、流量、转化、广告、库存、价格和复盘。适用于Amazon 日常经营、新品启动、店铺问题诊断和周月度复盘，交付Amazon 经营计划、问题优先级与执行清单、店铺经营复盘。
-- **Shopify 独立站运营经理**（`shopify-store-operations-manager`，v1.0.0）
+- **Shopify 独立站运营经理**（`shopify-store-operations-manager`，v1.0.1）
   - 路径：`渠道运营/平台运营/独立站/shopify-store-operations-manager/`
   - 分类：渠道运营 / 平台运营 / 独立站
   - 用途：统筹商品、内容、流量、转化、订单、客户和技术健康的独立站经营。适用于Shopify 日常运营、新品与活动上线、独立站增长和问题排查，交付独立站经营计划、上线与健康检查表、渠道和站内经营复盘。
-- **电商单位经济模型分析师**（`ecommerce-unit-economics-analyst`，v1.0.0）
+- **电商单位经济模型分析师**（`ecommerce-unit-economics-analyst`，v1.0.1）
   - 路径：`渠道运营/经营分析/ecommerce-unit-economics-analyst/`
   - 分类：渠道运营 / 经营分析
   - 用途：Model product, SKU, channel, campaign, and portfolio profitability across Amazon and owned storefronts using complete unit economics, contribution margin, break-even advertising, returns, fees, working capital, cash conversion, and sensitivity scenarios
-- **TikTok Shop 运营资深经理**（`senior-tiktok-shop-operations-manager`，v1.0.1）
+- **TikTok Shop 运营资深经理**（`senior-tiktok-shop-operations-manager`，v1.0.2）
   - 路径：`渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager/`
   - 分类：渠道运营 / 运营角色 / TikTok Shop 运营资深经理
   - 用途：统筹 TikTok Shop 商品、内容、直播、达人、广告、活动、履约和店铺健康。适用于由TikTok Shop 运营资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **TikTok Shop 运营资深经理周报**（`senior-tiktok-shop-operations-manager-weekly-report`，v1.0.1）
+- **TikTok Shop 运营资深经理周报**（`senior-tiktok-shop-operations-manager-weekly-report`，v1.0.2）
   - 路径：`渠道运营/运营角色/TikTok Shop 运营资深经理/senior-tiktok-shop-operations-manager-weekly-report/`
   - 分类：渠道运营 / 运营角色 / TikTok Shop 运营资深经理
   - 用途：基于真实经营证据生成TikTok Shop 运营资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于TikTok Shop 运营资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **业务数据分析资深经理**（`senior-business-analytics-manager`，v1.0.1）
+- **业务数据分析资深经理**（`senior-business-analytics-manager`，v1.0.2）
   - 路径：`渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager/`
   - 分类：渠道运营 / 运营角色 / 业务数据分析资深经理
   - 用途：统筹指标治理、数据质量、经营分析、专项诊断、预测和管理层决策支持。适用于由业务数据分析资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **业务数据分析资深经理周报**（`senior-business-analytics-manager-weekly-report`，v1.0.1）
+- **业务数据分析资深经理周报**（`senior-business-analytics-manager-weekly-report`，v1.0.2）
   - 路径：`渠道运营/运营角色/业务数据分析资深经理/senior-business-analytics-manager-weekly-report/`
   - 分类：渠道运营 / 运营角色 / 业务数据分析资深经理
   - 用途：基于真实经营证据生成业务数据分析资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于业务数据分析资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **亚马逊运营资深经理**（`senior-amazon-operations-manager`，v1.0.1）
+- **亚马逊运营资深经理**（`senior-amazon-operations-manager`，v1.0.2）
   - 路径：`渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager/`
   - 分类：渠道运营 / 运营角色 / 亚马逊运营资深经理
   - 用途：对 Amazon 账户健康、商品、搜索、转化、广告、库存、价格、评价和利润承担端到端经营责任。适用于由亚马逊运营资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **亚马逊运营资深经理周报**（`senior-amazon-operations-manager-weekly-report`，v1.0.1）
+- **亚马逊运营资深经理周报**（`senior-amazon-operations-manager-weekly-report`，v1.0.2）
   - 路径：`渠道运营/运营角色/亚马逊运营资深经理/senior-amazon-operations-manager-weekly-report/`
   - 分类：渠道运营 / 运营角色 / 亚马逊运营资深经理
   - 用途：基于真实经营证据生成亚马逊运营资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于亚马逊运营资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **客户体验资深经理**（`senior-customer-experience-manager`，v1.0.1）
+- **客户体验资深经理**（`senior-customer-experience-manager`，v1.0.2）
   - 路径：`渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager/`
   - 分类：渠道运营 / 运营角色 / 客户体验资深经理
   - 用途：统筹多语言客服、售后、评价、声誉、VOC、留存和客户体验改进。适用于由客户体验资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **客户体验资深经理周报**（`senior-customer-experience-manager-weekly-report`，v1.0.1）
+- **客户体验资深经理周报**（`senior-customer-experience-manager-weekly-report`，v1.0.2）
   - 路径：`渠道运营/运营角色/客户体验资深经理/senior-customer-experience-manager-weekly-report/`
   - 分类：渠道运营 / 运营角色 / 客户体验资深经理
   - 用途：基于真实经营证据生成客户体验资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于客户体验资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **独立站运营资深经理**（`senior-dtc-operations-manager`，v1.0.1）
+- **独立站运营资深经理**（`senior-dtc-operations-manager`，v1.0.2）
   - 路径：`渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager/`
   - 分类：渠道运营 / 运营角色 / 独立站运营资深经理
   - 用途：对独立站商品、内容、获客、转化、客单、复购、技术健康和贡献利润承担端到端责任。适用于由独立站运营资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **独立站运营资深经理周报**（`senior-dtc-operations-manager-weekly-report`，v1.0.1）
+- **独立站运营资深经理周报**（`senior-dtc-operations-manager-weekly-report`，v1.0.2）
   - 路径：`渠道运营/运营角色/独立站运营资深经理/senior-dtc-operations-manager-weekly-report/`
   - 分类：渠道运营 / 运营角色 / 独立站运营资深经理
   - 用途：基于真实经营证据生成独立站运营资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于独立站运营资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **跨境电商资深经理**（`senior-cross-border-commerce-leader`，v1.0.1）
+- **跨境电商资深经理**（`senior-cross-border-commerce-leader`，v1.0.2）
   - 路径：`渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader/`
   - 分类：渠道运营 / 运营角色 / 跨境电商资深经理
   - 用途：统筹公司跨境业务战略、渠道组合、商品、增长、供应链、客户体验、利润和组织节奏。适用于由跨境电商资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **跨境电商资深经理周报**（`senior-cross-border-commerce-leader-weekly-report`，v1.0.1）
+- **跨境电商资深经理周报**（`senior-cross-border-commerce-leader-weekly-report`，v1.0.2）
   - 路径：`渠道运营/运营角色/跨境电商资深经理/senior-cross-border-commerce-leader-weekly-report/`
   - 分类：渠道运营 / 运营角色 / 跨境电商资深经理
   - 用途：基于真实经营证据生成跨境电商资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于跨境电商资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
 ### 精准营销
 
-- **跨境内容营销规划师**（`content-marketing-planner`，v1.0.0）
+- **跨境内容营销规划师**（`content-marketing-planner`，v1.0.1）
   - 路径：`精准营销/内容营销/content-marketing-planner/`
   - 分类：精准营销 / 内容营销
   - 用途：把搜索需求、用户旅程、产品事实和商业目标组织成可复用内容系统。适用于博客和指南规划、季度内容矩阵、SEO、社媒、邮件内容协同，交付内容战略、主题集群和编辑日历、分发、转化与衡量方案。
-- **跨境品牌定位策略师**（`brand-positioning-strategist`，v1.0.0）
+- **跨境品牌定位策略师**（`brand-positioning-strategist`，v1.0.1）
   - 路径：`精准营销/品牌营销/brand-positioning-strategist/`
   - 分类：精准营销 / 品牌营销
   - 用途：以目标人群、真实差异、品类语境和跨文化表达建立可执行品牌定位。适用于新品牌定位、品牌升级或多市场适配、产品线信息架构统一，交付定位陈述、价值支柱与证据、品牌信息和禁用表达。
-- **跨境全链路增长负责人**（`cross-border-growth-operator`，v1.0.0）
+- **跨境全链路增长负责人**（`cross-border-growth-operator`，v1.0.1）
   - 路径：`精准营销/增长营销/cross-border-growth-operator/`
   - 分类：精准营销 / 增长营销
   - 用途：把获客、转化、客单、复购和毛利组织为有约束的跨职能增长系统。适用于季度增长规划、GMV 或利润增长诊断、跨团队增长实验组合，交付增长模型和机会树、实验组合与责任矩阵、周度经营节奏和复盘。
-- **跨渠道营销归因规划师**（`marketing-attribution-planner`，v1.0.0）
+- **跨渠道营销归因规划师**（`marketing-attribution-planner`，v1.0.1）
   - 路径：`精准营销/增长营销/marketing-attribution-planner/`
   - 分类：精准营销 / 增长营销
   - 用途：建立口径透明、可解释并能支持预算决策的跨渠道归因体系。适用于广告平台与 GA4 对数、多触点归因治理、预算分配和增量评估，交付归因测量方案、渠道数据和 UTM 规范、模型差异、实验与决策规则。
-- **新客获取与拉新增长经理**（`customer-acquisition-growth-manager`，v1.0.0）
+- **新客获取与拉新增长经理**（`customer-acquisition-growth-manager`，v1.0.1）
   - 路径：`精准营销/增长营销/拉新/customer-acquisition-growth-manager/`
   - 分类：精准营销 / 增长营销 / 拉新
   - 用途：围绕目标人群、获客渠道、首购路径和回收期设计可验证的新客增长系统。适用于新品或新市场拉新、付费、自然、达人和推荐获客组合、获客成本上升或新客质量下降诊断，交付新客增长模型与渠道组合、首触达到首购漏斗方案、预算、实验、回收期和止损计划。
-- **跨境市场情报分析师**（`cross-border-market-intelligence`，v1.0.0）
+- **跨境市场情报分析师**（`cross-border-market-intelligence`，v1.0.1）
   - 路径：`精准营销/市场策略/cross-border-market-intelligence/`
   - 分类：精准营销 / 市场策略
   - 用途：把国家、类目、消费者、竞品和渠道证据转化为可验证的市场机会。适用于进入新国家或类目、竞品与价格带扫描、季度市场机会更新，交付市场情报简报、机会评分和证据表、验证计划与预警项。
-- **跨境上市规划师**（`go-to-market-launch-planner`，v1.0.0）
+- **跨境上市规划师**（`go-to-market-launch-planner`，v1.0.1）
   - 路径：`精准营销/市场策略/go-to-market-launch-planner/`
   - 分类：精准营销 / 市场策略
   - 用途：把产品、市场、渠道、库存、内容和投放组织成有门槛条件的上市计划。适用于新品上市、新站点或新国家启动、重大版本或季节发布，交付GTM 计划、阶段门和责任矩阵、预算、指标与复盘设计。
-- **多渠道电商广告优化师**（`commerce-advertising-optimizer`，v1.0.0）
+- **多渠道电商广告优化师**（`commerce-advertising-optimizer`，v1.0.1）
   - 路径：`精准营销/推广营销/commerce-advertising-optimizer/`
   - 分类：精准营销 / 推广营销
   - 用途：Diagnose and optimize Amazon Ads and owned-store paid media using business objectives, clean attribution, query and audience intent, campaign structure, bids, budgets, creative, landing-page readiness, incrementality, contribution margin, and controlled experiments
-- **GEO 引用就绪优化师**（`geo-optimizer`，v2.0.0）
+- **GEO 引用就绪优化师**（`geo-optimizer`，v2.0.1）
   - 路径：`精准营销/推广营销/geo-optimizer/`
   - 分类：精准营销 / 推广营销
   - 用途：通过实体一致性、声明溯源和可抽取答案模块提升生成式答案引擎理解与准确引用的可能性
-- **SEO 内容优化师**（`seo-optimizer`，v2.0.0）
+- **SEO 内容优化师**（`seo-optimizer`，v2.0.1）
   - 路径：`精准营销/推广营销/seo-optimizer/`
   - 分类：精准营销 / 推广营销
   - 用途：基于真实业务事实、搜索意图、SERP 证据和技术前提规划、撰写与审计 SEO 内容
-- **跨境活动营销经理**（`promotion-calendar-manager`，v1.0.0）
+- **跨境活动营销经理**（`promotion-calendar-manager`，v1.0.1）
   - 路径：`精准营销/活动营销/promotion-calendar-manager/`
   - 分类：精准营销 / 活动营销
   - 用途：统筹国家节日、平台节点、库存和利润，形成跨渠道活动经营日历。适用于黑五网一和节日大促、季度促销规划、多渠道活动冲突治理，交付年度/季度活动日历、活动机制和资源表、上线检查与复盘模板。
-- **客户留存与忠诚度经理**（`customer-retention-loyalty-manager`，v1.0.0）
+- **客户留存与忠诚度经理**（`customer-retention-loyalty-manager`，v1.0.1）
   - 路径：`精准营销/用户运营/customer-retention-loyalty-manager/`
   - 分类：精准营销 / 用户运营
   - 用途：按客户价值和复购周期设计购后体验、会员、召回与忠诚机制。适用于复购率提升、会员或积分计划、流失客户召回，交付留存策略、客户分层和触达旅程、会员经济模型与实验。
-- **邮件生命周期营销师**（`email-lifecycle-marketer`，v1.0.0）
+- **邮件生命周期营销师**（`email-lifecycle-marketer`，v1.0.1）
   - 路径：`精准营销/用户运营/email-lifecycle-marketer/`
   - 分类：精准营销 / 用户运营
   - 用途：按同意、用户阶段和行为信号设计可衡量的邮件与自动化流程。适用于欢迎、弃购、购后、召回流程、Newsletter 运营、邮件收入和送达率治理，交付生命周期流程图、分群、触发与内容方案、实验和送达健康看板。
-- **跨境社媒运营经理**（`social-media-operations-manager`，v1.0.0）
+- **跨境社媒运营经理**（`social-media-operations-manager`，v1.0.1）
   - 路径：`精准营销/社媒营销/social-media-operations-manager/`
   - 分类：精准营销 / 社媒营销
   - 用途：建立平台适配的内容、互动、增长、风险和复盘机制。适用于TikTok、Instagram、YouTube、Pinterest 运营、账号冷启动、社媒内容和社区增长，交付平台运营方案、内容栏目和发布节奏、互动 SOP 与周度复盘。
-- **品牌与内容资深经理**（`senior-brand-content-manager`，v1.0.1）
+- **品牌与内容资深经理**（`senior-brand-content-manager`，v1.0.2）
   - 路径：`精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager/`
   - 分类：精准营销 / 营销角色 / 品牌与内容资深经理
   - 用途：统筹品牌定位、产品证据、内容体系、创意资产、社媒表达和多市场一致性。适用于由品牌与内容资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **品牌与内容资深经理周报**（`senior-brand-content-manager-weekly-report`，v1.0.1）
+- **品牌与内容资深经理周报**（`senior-brand-content-manager-weekly-report`，v1.0.2）
   - 路径：`精准营销/营销角色/品牌与内容资深经理/senior-brand-content-manager-weekly-report/`
   - 分类：精准营销 / 营销角色 / 品牌与内容资深经理
   - 用途：基于真实经营证据生成品牌与内容资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于品牌与内容资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **增长营销资深经理**（`senior-growth-marketing-manager`，v1.0.1）
+- **增长营销资深经理**（`senior-growth-marketing-manager`，v1.0.2）
   - 路径：`精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager/`
   - 分类：精准营销 / 营销角色 / 增长营销资深经理
   - 用途：统筹付费、自然、达人、邮件和活动增长，对获客质量、转化、留存和贡献利润负责。适用于由增长营销资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **增长营销资深经理周报**（`senior-growth-marketing-manager-weekly-report`，v1.0.1）
+- **增长营销资深经理周报**（`senior-growth-marketing-manager-weekly-report`，v1.0.2）
   - 路径：`精准营销/营销角色/增长营销资深经理/senior-growth-marketing-manager-weekly-report/`
   - 分类：精准营销 / 营销角色 / 增长营销资深经理
   - 用途：基于真实经营证据生成增长营销资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于增长营销资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **用户运营资深经理**（`senior-user-operations-manager`，v1.0.1）
+- **用户运营资深经理**（`senior-user-operations-manager`，v1.0.2）
   - 路径：`精准营销/营销角色/用户运营资深经理/senior-user-operations-manager/`
   - 分类：精准营销 / 营销角色 / 用户运营资深经理
   - 用途：统筹用户分层、生命周期、邮件触达、购后体验、会员、召回、推荐和客户价值增长。适用于由用户运营资深经理接管复杂经营任务、制定季度或月度计划、跨专项协同、经营诊断和复盘，交付角色经营目标与责任边界、专项 Skill 编排与决策、经营节奏、风险和团队行动计划。
-- **用户运营资深经理周报**（`senior-user-operations-manager-weekly-report`，v1.0.1）
+- **用户运营资深经理周报**（`senior-user-operations-manager-weekly-report`，v1.0.2）
   - 路径：`精准营销/营销角色/用户运营资深经理/senior-user-operations-manager-weekly-report/`
   - 分类：精准营销 / 营销角色 / 用户运营资深经理
   - 用途：基于真实经营证据生成用户运营资深经理视角的结论先行周报，并跟踪目标、驱动、风险、决策和责任闭环。适用于用户运营资深经理本周经营复盘、本周与上周或目标对比、管理层同步和跨团队行动跟踪，交付角色经营周报、指标变化和驱动解释、风险、决策与下周行动表。
-- **达人与联盟营销经理**（`influencer-affiliate-manager`，v1.0.0）
+- **达人与联盟营销经理**（`influencer-affiliate-manager`，v1.0.1）
   - 路径：`精准营销/达人联盟/influencer-affiliate-manager/`
   - 分类：精准营销 / 达人联盟
   - 用途：管理达人发现、筛选、邀约、寄样、内容授权、佣金和增量效果。适用于达人种草和带货、联盟计划搭建、UGC 采购与授权，交付达人分层池、合作 brief 与跟进管道、佣金、授权和效果复盘。
 ### 财务出纳
 
-- **资金出纳资深经理**（`senior-cashier-treasury-specialist`，v1.0.1）
+- **资金出纳资深经理**（`senior-cashier-treasury-specialist`，v1.0.2）
   - 路径：`财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist/`
   - 分类：财务出纳 / 出纳角色 / 资金出纳资深经理
   - 用途：统筹现金、银行账户、收付款、报销票据、资金日结和支付安全，在授权范围内保证资金执行准确、及时、可追溯。适用于公司日常出纳工作统筹、多账户多币种收付款安排、支付异常和资金安全治理，交付出纳责任与权限矩阵、收付款和日结执行计划、资金异常、复核和升级清单。
-- **资金出纳资深经理周报**（`senior-cashier-treasury-specialist-weekly-report`，v1.0.2）
+- **资金出纳资深经理周报**（`senior-cashier-treasury-specialist-weekly-report`，v1.0.3）
   - 路径：`财务出纳/出纳角色/资金出纳资深经理/senior-cashier-treasury-specialist-weekly-report/`
   - 分类：财务出纳 / 出纳角色 / 资金出纳资深经理
   - 用途：基于银行流水、支付单据、余额和异常台账生成资金出纳资深经理周报。适用于出纳周度复盘、账户余额与大额资金变动同步、未达账、退票和支付风险跟踪，交付资金出纳资深经理周报、资金余额与收付款摘要、异常、待复核和下周资金事项。
-- **报销与票据出纳专员**（`expense-reimbursement-cashier`，v1.0.0）
+- **报销与票据出纳专员**（`expense-reimbursement-cashier`，v1.0.1）
   - 路径：`财务出纳/报销与票据/expense-reimbursement-cashier/`
   - 分类：财务出纳 / 报销与票据
   - 用途：按制度、预算、审批和单据完整性执行员工报销、备用金和票据交接。适用于员工费用报销、备用金借支与核销、发票和支付凭证归档，交付报销校验清单、付款与退回台账、备用金、票据和异常跟踪表。
-- **收付款执行管理员**（`payment-receipt-operations-manager`，v1.0.0）
+- **收付款执行管理员**（`payment-receipt-operations-manager`，v1.0.1）
   - 路径：`财务出纳/收付款/payment-receipt-operations-manager/`
   - 分类：财务出纳 / 收付款
   - 用途：建立从业务申请、单据校验、授权审批、支付执行、回单归档到状态回写的收付款闭环。适用于供应商和物流付款、客户、平台和渠道收款认领、批量付款与失败重试，交付收付款 SOP 与权限矩阵、支付批次和状态台账、回单、异常和升级记录。
-- **财务关账与对账经理**（`financial-close-reconciliation-manager`，v1.0.0）
+- **财务关账与对账经理**（`financial-close-reconciliation-manager`，v1.0.1）
   - 路径：`财务出纳/核算关账/financial-close-reconciliation-manager/`
   - 分类：财务出纳 / 核算关账
   - 用途：建立从平台、支付、订单、库存、银行到总账的可复核关账和对账流程。适用于月结关账、平台支付与银行对账、差异和审计证据治理，交付关账日历和责任矩阵、对账差异桥、调整、审批和证据包。
-- **跨境税务与 VAT 规划师**（`cross-border-tax-vat-planner`，v1.0.0）
+- **跨境税务与 VAT 规划师**（`cross-border-tax-vat-planner`，v1.0.1）
   - 路径：`财务出纳/税务合规/cross-border-tax-vat-planner/`
   - 分类：财务出纳 / 税务合规
   - 用途：按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。适用于进入新市场税务评估、VAT/IOSS/销售税流程、税务申报和审计证据准备，交付交易与税务责任图、注册申报和证据日历、风险、整改和专业顾问升级清单。
-- **经营财务与利润经理**（`management-accounting-profitability-manager`，v1.0.0）
+- **经营财务与利润经理**（`management-accounting-profitability-manager`，v1.0.1）
   - 路径：`财务出纳/经营财务/management-accounting-profitability-manager/`
   - 分类：财务出纳 / 经营财务
   - 用途：连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。适用于渠道和 SKU 盈利核算、经营复盘、定价、促销和资源决策，交付管理利润口径、商品渠道盈利矩阵、差异、情景和经营建议。
-- **跨境财务资深经理**（`senior-cross-border-finance-manager`，v1.0.1）
+- **跨境财务资深经理**（`senior-cross-border-finance-manager`，v1.0.2）
   - 路径：`财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager/`
   - 分类：财务出纳 / 财务角色 / 跨境财务资深经理
   - 用途：统筹核算关账、管理报表、预算、现金、营运资金、税务、外汇和内部控制。适用于跨境财务体系建设、月度经营和资金决策、财务专项协同与风险治理，交付财务目标与责任矩阵、专项财务 Skill 编排、关账、现金、预算和风险计划。
-- **跨境财务资深经理周报**（`senior-cross-border-finance-manager-weekly-report`，v1.0.1）
+- **跨境财务资深经理周报**（`senior-cross-border-finance-manager-weekly-report`，v1.0.2）
   - 路径：`财务出纳/财务角色/跨境财务资深经理/senior-cross-border-finance-manager-weekly-report/`
   - 分类：财务出纳 / 财务角色 / 跨境财务资深经理
   - 用途：基于账务、现金、预算和税务证据生成财务周报。适用于财务周度复盘、现金和营运资金预警、关账、税务和预算事项跟踪，交付财务周报、现金、利润和风险摘要、决策、责任人与下周行动。
-- **资金安全与支付权限控制专员**（`cash-security-access-controller`，v1.0.0）
+- **资金安全与支付权限控制专员**（`cash-security-access-controller`，v1.0.1）
   - 路径：`财务出纳/资金安全/cash-security-access-controller/`
   - 分类：财务出纳 / 资金安全
   - 用途：设计和检查银行账户、网银、支付平台、印鉴、UKey、密码和付款指令的分权控制与应急机制。适用于支付权限和账户安全检查、人员变动权限回收、疑似欺诈、账户异常和支付应急，交付资金权限矩阵、安全检查与轮换计划、异常冻结、取证和恢复预案。
-- **现金流与营运资金经理**（`cash-flow-working-capital-manager`，v1.0.0）
+- **现金流与营运资金经理**（`cash-flow-working-capital-manager`，v1.0.1）
   - 路径：`财务出纳/资金管理/cash-flow-working-capital-manager/`
   - 分类：财务出纳 / 资金管理
   - 用途：管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。适用于十三周现金预测、营运资金改善、资金缺口和付款安排，交付现金流预测、现金转换周期分析、付款、融资和预警计划。
-- **多币种资金与汇率经理**（`multi-currency-treasury-manager`，v1.0.0）
+- **多币种资金与汇率经理**（`multi-currency-treasury-manager`，v1.0.1）
   - 路径：`财务出纳/资金管理/multi-currency-treasury-manager/`
   - 分类：财务出纳 / 资金管理
   - 用途：管理多币种账户、平台结算、汇率暴露、换汇、流动性和资金权限。适用于多币种现金管理、平台结算和换汇优化、汇率风险和资金安全治理，交付币种资金头寸、汇率暴露与情景、换汇、归集、权限和预警方案。
-- **银行账户与出纳对账专员**（`bank-account-reconciliation-cashier`，v1.0.0）
+- **银行账户与出纳对账专员**（`bank-account-reconciliation-cashier`，v1.0.1）
   - 路径：`财务出纳/银行与对账/bank-account-reconciliation-cashier/`
   - 分类：财务出纳 / 银行与对账
   - 用途：维护银行账户台账、日记账和每日余额核对，及时识别未达账项、银行费用、退票和异常流水。适用于银行日记账维护、每日资金余额核对、未达账和异常流水处理，交付账户与余额台账、银行日记账核对表、未达账、差异和跟进清单。
-- **预算与预测控制经理**（`budget-forecast-controller`，v1.0.0）
+- **预算与预测控制经理**（`budget-forecast-controller`，v1.0.1）
   - 路径：`财务出纳/预算管理/budget-forecast-controller/`
   - 分类：财务出纳 / 预算管理
   - 用途：把战略目标转化为驱动型预算、滚动预测、差异分析和资源控制。适用于年度预算、月度滚动预测、预算差异和资源重配，交付预算模型与假设、滚动预测和差异桥、资源、预警和决策规则。

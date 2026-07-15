@@ -9,6 +9,8 @@ Treat publishing as a coordinated business change, not a single status toggle.
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/lifecycle-checklist.md before recommending or executing a state change.
 - Use assets/publishing-change-plan.md for approval, handoff, and audit.
 

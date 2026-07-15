@@ -1,7 +1,7 @@
 # 跨平台渠道对比分析师
 
 > skill id：marketplace-channel-comparison-analyst  
-> 当前版本：1.0.0
+> 当前版本：1.0.1
 > 产品状态：可用  
 > 所属分类：数据看板 / 业务分析
 
@@ -26,6 +26,12 @@
 - Amazon、Shopify、TikTok 横向比较
 - 渠道资源分配
 - 渠道利润和客户质量评估
+
+## 合规与权限
+
+- 合规配置：`data-analytics`（数据分析合规基线）。
+- 执行前必须读取 `references/compliance-baseline.md`，完成司法辖区、数据、权限、授权、人工复核和审计检查。
+- Skill 只能提供第一层规则约束，不能替代系统权限、真实授权、正式审批或专业法律意见。
 
 ## 不适用范围与边界
 

@@ -9,6 +9,8 @@ description: Create evidence-backed full-stack development weekly reports from t
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/weekly-evidence-checklist.md before drafting.
 - Use assets/developer-weekly-template.md for the final report.
 

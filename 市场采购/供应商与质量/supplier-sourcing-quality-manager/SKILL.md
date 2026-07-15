@@ -9,6 +9,8 @@ description: Plan and evaluate ecommerce supplier sourcing, RFQs, samples, facto
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/sourcing-quality-checklist.md before analysis or execution.
 - Use assets/supplier-scorecard.md for the final plan and handoff.
 

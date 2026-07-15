@@ -9,6 +9,8 @@ Connect visible friction to a customer decision and a measurable funnel outcome.
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/audit-framework.md before scoring a store.
 - Use assets/audit-scorecard.md for the final prioritized backlog.
 

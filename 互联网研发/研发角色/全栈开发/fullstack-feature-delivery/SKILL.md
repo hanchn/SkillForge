@@ -9,6 +9,8 @@ description: Deliver product features end to end across requirements, frontend i
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/fullstack-delivery-checklist.md before planning or execution.
 - Use assets/vertical-slice-plan.md for cross-layer traceability.
 

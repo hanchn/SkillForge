@@ -9,6 +9,8 @@ Make content easier to understand and support, not easier to hallucinate from.
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/citation-readiness.md before auditing content.
 - Use assets/claim-ledger.md to control facts and provenance.
 

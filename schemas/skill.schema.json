@@ -15,7 +15,8 @@
     "supported_platforms",
     "inputs",
     "outputs",
-    "implementation"
+    "implementation",
+    "compliance"
   ],
   "properties": {
     "name": {
@@ -138,6 +139,26 @@
       "type": "array",
       "items": {
         "type": "string"
+      }
+    },
+    "compliance": {
+      "type": "object",
+      "required": [
+        "profile",
+        "baseline",
+        "decision_states",
+        "human_review_required_when_uncertain",
+        "does_not_replace_system_controls_or_professional_advice"
+      ],
+      "properties": {
+        "profile": {"type": "string", "minLength": 1},
+        "baseline": {"type": "string", "const": "references/compliance-baseline.md"},
+        "decision_states": {
+          "type": "array",
+          "const": ["ALLOW", "REVIEW_REQUIRED", "COMPLIANCE_REJECTED"]
+        },
+        "human_review_required_when_uncertain": {"type": "boolean", "const": true},
+        "does_not_replace_system_controls_or_professional_advice": {"type": "boolean", "const": true}
       }
     },
     "distribution": {

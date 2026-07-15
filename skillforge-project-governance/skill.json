@@ -3,7 +3,7 @@
   "display_name": "SkillForge项目治理",
   "type": "portable-governance-skill",
   "scope": "cross-platform",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -76,8 +76,20 @@
       "platforms/manus.md",
       "platforms/qorder.md",
       "platforms/trae.md",
+      "references/compliance-baseline.md",
       "scripts/README.md",
       "skill.json"
     ]
+  },
+  "compliance": {
+    "profile": "repository-governance",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
   }
 }

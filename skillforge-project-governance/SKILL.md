@@ -5,6 +5,10 @@ description: Govern the SkillForge cross-platform skill repository, including bu
 
 # SkillForge Project Governance
 
+## Compliance gate
+
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 ## Identity
 
 - skill id: `skillforge-project-governance`

@@ -9,6 +9,8 @@ description: Diagnose and coordinate production incidents using impact assessmen
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/incident-checklist.md before design, implementation, or diagnosis.
 - Use assets/incident-record-template.md for the final artifact and handoff.
 

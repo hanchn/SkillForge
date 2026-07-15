@@ -494,6 +494,7 @@
         const outputs = detail.outputs || [];
         const constraints = detail.constraints || [];
         const classification = skill.classification || { kind: "capability", label: "专项能力" };
+        const compliance = detail.compliance || skill.compliance || {};
 
         const links = [
           ["README.md", buildDocLink(skill, implementation.readme || "README.md")],
@@ -559,9 +560,9 @@
                 <div class="info-label">类型</div>
                 <div class="tag-list">
                   <span class="tag kind-${escapeHtml(classification.kind)}">${escapeHtml(classification.label)}</span>
-                  <span class="tag">v${escapeHtml(skill.version || detail.version || "0.0.0")}</span>
                   <span class="tag highlight">${escapeHtml(detail.type || skill.type || "skill")}</span>
                   <span class="tag">${detail.portable === false ? "非便携" : "整包可分发"}</span>
+                  <span class="tag">v${escapeHtml(skill.version || detail.version || "0.0.0")}</span>
                 </div>
               </div>
               <div class="info-group">
@@ -594,6 +595,18 @@
               ? `<ul class="constraints-list">${constraints.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
               : `<div class="info-label">暂无规则约束</div>`
             }
+          </section>
+
+          <section class="section">
+            <h2>合规与权限</h2>
+            <div class="info-group">
+              <div class="info-label">合规配置</div>
+              <div class="tag-list">
+                <span class="tag highlight">${escapeHtml(compliance.profile || "未配置")}</span>
+                ${(compliance.decision_states || []).map((item) => `<span class="tag mono">${escapeHtml(item)}</span>`).join("")}
+              </div>
+            </div>
+            <div class="info-label">执行前必须读取 ${escapeHtml(compliance.baseline || "references/compliance-baseline.md")}。该规则层不能替代系统权限、真实审批或专业意见。</div>
           </section>
 
           <footer style="margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-tertiary); font-size: 13px; text-align: center;">

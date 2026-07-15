@@ -9,6 +9,8 @@ Optimize for the user's search task and the page's business job. Do not promise 
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/content-audit.md before research or revision.
 - Use assets/seo-content-brief.md for a new page or major rewrite.
 

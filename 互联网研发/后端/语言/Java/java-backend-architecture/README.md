@@ -1,7 +1,7 @@
 # Java 后端资深专家
 
 > skill id：java-backend-architecture  
-> 当前版本：1.0.1
+> 当前版本：1.0.2
 > 产品状态：可用  
 > 所属分类：互联网研发 / 后端 / 语言 / Java
 
@@ -26,6 +26,12 @@
 - Java 服务平台架构
 - 大型 Java 单体模块化
 - JVM 性能和升级治理
+
+## 合规与权限
+
+- 合规配置：`product-engineering`（产研合规基线）。
+- 执行前必须读取 `references/compliance-baseline.md`，完成司法辖区、数据、权限、授权、人工复核和审计检查。
+- Skill 只能提供第一层规则约束，不能替代系统权限、真实授权、正式审批或专业法律意见。
 
 ## 不适用范围与边界
 

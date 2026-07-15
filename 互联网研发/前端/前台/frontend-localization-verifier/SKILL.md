@@ -9,6 +9,8 @@ description: Verify frontend internationalization and localization across suppor
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/localization-checklist.md before verification or diagnosis.
 - Use assets/locale-qa-matrix.md for the final evidence record.
 

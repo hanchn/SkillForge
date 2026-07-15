@@ -9,6 +9,8 @@ Produce a decision-ready requirements package. Do not hide uncertainty behind po
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/quality-gates.md before drafting or reviewing a requirements package.
 - Use assets/prd-template.md when the user wants a complete PRD artifact.
 

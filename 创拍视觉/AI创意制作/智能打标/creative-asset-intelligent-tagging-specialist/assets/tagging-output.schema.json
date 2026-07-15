@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creative Asset Tagging Result",
+  "type": "object",
+  "required": [
+    "skill_version",
+    "model_name",
+    "model_version",
+    "tag_library_version",
+    "input_asset_id",
+    "tags",
+    "person_present",
+    "risk_level",
+    "review_required",
+    "decision",
+    "created_at"
+  ],
+  "properties": {
+    "skill_version": {
+      "type": "string"
+    },
+    "model_name": {
+      "type": "string"
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "tag_library_version": {
+      "type": "string"
+    },
+    "input_asset_id": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "confidence",
+          "evidence",
+          "source"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "source": {
+            "enum": [
+              "visual",
+              "metadata",
+              "human"
+            ]
+          }
+        }
+      }
+    },
+    "person_present": {
+      "type": "boolean"
+    },
+    "minor_status": {
+      "enum": [
+        "NOT_PRESENT",
+        "ADULT_CONFIRMED_BY_METADATA",
+        "POSSIBLE_MINOR",
+        "UNKNOWN"
+      ]
+    },
+    "copyright_risk": {
+      "type": "object"
+    },
+    "risk_level": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "decision": {
+      "enum": [
+        "AUTO_ACCEPTED",
+        "REVIEW_REQUIRED",
+        "COMPLIANCE_REJECTED"
+      ]
+    },
+    "review_result": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "operator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

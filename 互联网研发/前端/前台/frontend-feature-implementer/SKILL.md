@@ -9,6 +9,8 @@ description: Implement complete frontend features in an existing codebase from p
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/implementation-checklist.md before design, implementation, or diagnosis.
 - Use assets/feature-handoff-template.md for the final artifact and handoff.
 

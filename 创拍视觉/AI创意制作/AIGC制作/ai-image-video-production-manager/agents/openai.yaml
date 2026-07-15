@@ -1,0 +1,4 @@
+interface:
+  display_name: "AIGC 创意制作专家"
+  short_description: "把商品事实、品牌规范、脚本和参考素材编排为可追溯的文生图、图生图、文生视频、图生视频、局部修改、批量变体与成片交付流程。"
+  default_prompt: "使用 $ai-image-video-production-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

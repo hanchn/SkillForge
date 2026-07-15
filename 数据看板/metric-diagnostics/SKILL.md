@@ -9,6 +9,8 @@ Establish that the movement is real before explaining it.
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/diagnostic-method.md for validation and decomposition methods.
 - Use assets/diagnostic-report-template.md for the final readout.
 

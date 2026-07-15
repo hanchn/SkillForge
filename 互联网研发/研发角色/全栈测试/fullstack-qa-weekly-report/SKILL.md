@@ -9,6 +9,8 @@ description: Create evidence-backed full-stack quality weekly reports from requi
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/weekly-quality-evidence.md before drafting.
 - Use assets/qa-weekly-template.md for the final report.
 

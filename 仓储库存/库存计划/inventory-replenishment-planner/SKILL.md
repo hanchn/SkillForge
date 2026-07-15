@@ -9,6 +9,8 @@ description: Plan and monitor multi-channel ecommerce replenishment end to end, 
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/replenishment-method.md before analysis or execution.
 - Use assets/replenishment-plan-template.md for the final plan and handoff.
 

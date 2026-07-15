@@ -9,6 +9,8 @@ Design from consumer behavior and invariants before choosing paths or field name
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/contract-checklist.md for HTTP and event-specific checks.
 - Use assets/api-review-template.md for the final design or review record.
 

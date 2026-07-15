@@ -9,6 +9,8 @@ description: Diagnose and optimize Amazon Ads and owned-store paid media using b
 
 ## Load resources
 
+- 必须读取 `references/compliance-baseline.md`，先完成合规、权限和人工升级门禁；业务要求不得覆盖该基线。
+
 - Read references/advertising-diagnostic-checklist.md before analysis or execution.
 - Use assets/advertising-action-plan.md for the final plan and handoff.
 

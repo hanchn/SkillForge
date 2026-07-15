@@ -1,7 +1,7 @@
 # TikTok Shop 运营资深经理周报
 
 > skill id：senior-tiktok-shop-operations-manager-weekly-report  
-> 当前版本：1.0.1
+> 当前版本：1.0.2
 > 产品状态：可用  
 > 所属分类：渠道运营 / 运营角色 / TikTok Shop 运营资深经理
 
@@ -26,6 +26,12 @@
 - TikTok Shop 运营资深经理本周经营复盘
 - 本周与上周或目标对比
 - 管理层同步和跨团队行动跟踪
+
+## 合规与权限
+
+- 合规配置：`channel-commerce`（渠道经营合规基线）。
+- 执行前必须读取 `references/compliance-baseline.md`，完成司法辖区、数据、权限、授权、人工复核和审计检查。
+- Skill 只能提供第一层规则约束，不能替代系统权限、真实授权、正式审批或专业法律意见。
 
 ## 不适用范围与边界
 

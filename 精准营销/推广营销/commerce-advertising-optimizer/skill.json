@@ -3,7 +3,7 @@
   "display_name": "多渠道电商广告优化师",
   "type": "portable-business-skill",
   "scope": "cross-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "owner_project": "SkillForge",
   "portable": true,
   "entrypoint": "SKILL.md",
@@ -79,7 +79,19 @@
       "examples/README.md",
       "platforms/README.md",
       "references/advertising-diagnostic-checklist.md",
+      "references/compliance-baseline.md",
       "skill.json"
     ]
+  },
+  "compliance": {
+    "profile": "precision-marketing",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
   }
 }

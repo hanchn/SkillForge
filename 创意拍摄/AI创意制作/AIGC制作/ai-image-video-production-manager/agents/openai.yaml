@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI 图片与视频成片专家"
-  short_description: "把商品事实、品牌规范、脚本和参考素材编排为可追溯的 AI 图片、视频生成与合成交付流程。"
-  default_prompt: "使用 $ai-image-video-production-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"

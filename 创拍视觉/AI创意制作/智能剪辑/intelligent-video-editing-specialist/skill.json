@@ -1,0 +1,97 @@
+{
+  "name": "intelligent-video-editing-specialist",
+  "display_name": "智能剪辑工作流专家",
+  "type": "portable-business-skill",
+  "scope": "cross-platform",
+  "version": "1.0.2",
+  "owner_project": "SkillForge",
+  "portable": true,
+  "entrypoint": "SKILL.md",
+  "category_path": [
+    "创拍视觉",
+    "AI创意制作",
+    "智能剪辑"
+  ],
+  "description": "利用镜头识别、语音转写、节奏分析、自动重构和批量渲染工具提升粗剪、多版本与本地化交付效率。适用于长素材自动粗剪、广告短视频批量变体、字幕、配音、横竖版和多语言适配，交付智能剪辑规则与时间线方案、镜头、字幕、声音和版本矩阵、人工复核、质量门禁和批量交付记录。",
+  "search_keywords": [
+    "长素材自动粗剪",
+    "广告短视频批量变体",
+    "字幕、配音、横竖版和多语言适配",
+    "素材入库、镜头语义和优先级",
+    "转写、说话人、字幕和敏感词",
+    "节奏、静音、重复和 CTA"
+  ],
+  "supported_platforms": [
+    "Claude",
+    "Codex",
+    "GPT",
+    "Manus",
+    "Trae",
+    "Qorder"
+  ],
+  "inputs": {
+    "required": [
+      "业务目标、范围和现状证据"
+    ],
+    "optional": [
+      "历史数据、流程系统资料、目标、预算、SLA 和合规约束"
+    ]
+  },
+  "outputs": [
+    "智能剪辑规则与时间线方案",
+    "镜头、字幕、声音和版本矩阵",
+    "人工复核、质量门禁和批量交付记录",
+    "决策、执行、验收、风险和未知项记录"
+  ],
+  "implementation": {
+    "readme": "README.md",
+    "entry_doc": "SKILL.md",
+    "invocation_doc": "INVOCATION.md",
+    "script": "",
+    "config": "",
+    "base_prompt": "BASE_PROMPT.md",
+    "examples_dir": "examples",
+    "eval_dir": "eval",
+    "platform_adapters_dir": "platforms"
+  },
+  "constraints": [
+    "自动剪辑不得跳过事实、字幕、肖像、版权和品牌人工复核；不得让模型自动删除改变原意的必要上下文。",
+    "不得虚构事实、数据、权限、实施或验证结果",
+    "必须明确口径、责任、验收、风险和未知项"
+  ],
+  "distribution": {
+    "share_as_single_folder": true,
+    "required_files": [
+      "SKILL.md",
+      "skill.json",
+      "README.md",
+      "INVOCATION.md",
+      "BASE_PROMPT.md"
+    ],
+    "package_files": [
+      "BASE_PROMPT.md",
+      "INVOCATION.md",
+      "README.md",
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/delivery-template.md",
+      "eval/acceptance.md",
+      "examples/README.md",
+      "platforms/README.md",
+      "references/compliance-baseline.md",
+      "references/professional-checklist.md",
+      "skill.json"
+    ]
+  },
+  "compliance": {
+    "profile": "creative-production",
+    "baseline": "references/compliance-baseline.md",
+    "decision_states": [
+      "ALLOW",
+      "REVIEW_REQUIRED",
+      "COMPLIANCE_REJECTED"
+    ],
+    "human_review_required_when_uncertain": true,
+    "does_not_replace_system_controls_or_professional_advice": true
+  }
+}

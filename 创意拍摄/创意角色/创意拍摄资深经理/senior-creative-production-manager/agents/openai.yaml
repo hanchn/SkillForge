@@ -1,4 +1,0 @@
-interface:
-  display_name: "创意拍摄资深经理"
-  short_description: "统筹创意策略、制片、摄影、短视频、UGC、后期、素材资产、预算和生产质量。"
-  default_prompt: "使用 $senior-creative-production-manager 基于真实证据完成可执行交付，并给出验收、风险和未知项。"
