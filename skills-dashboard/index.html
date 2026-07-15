@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SkillForge</title>
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
       :root {
         --bg: #ffffff;
@@ -297,14 +298,16 @@
         height: 28px;
         border-radius: var(--radius);
         color: var(--text-secondary);
-        background: var(--bg-hover);
+        background: transparent;
+        opacity: 0.4;
         transition: all 0.2s;
         z-index: 2;
       }
 
       .card-download-btn:hover {
-        background: var(--border);
+        background: var(--bg-hover);
         color: var(--text);
+        opacity: 1;
       }
 
       .tag {
@@ -940,7 +943,7 @@
                 <p class="card-desc">${detail.description || "暂无描述"}</p>
                 <div class="card-footer">
                   <div class="card-tags">
-                    <span class="tag">${detail.type || skill.type || "skill"}</span>
+                    <span class="tag">${skill.category_path ? skill.category_path[skill.category_path.length - 1] : "通用"}</span>
                   </div>
                   <button class="card-download-btn" data-name="${skill.name}" title="下载 ZIP" onclick="event.stopPropagation()">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
