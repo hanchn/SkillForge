@@ -1,6 +1,6 @@
 # Qorder Adapter
 
-- 先读取 `BASE_PROMPT.md`
+- 先读取 `SKILL.md`、`INVOCATION.md`、`BASE_PROMPT.md`
 - 把 skill 理解为项目内可移植能力包
 - 输入核心是图片目录路径
 - 输出核心是 `.xlsx` 与 `.csv`
