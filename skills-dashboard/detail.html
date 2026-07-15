@@ -357,7 +357,7 @@
       }
 
       function buildDocLink(skill, relativePath) {
-        return `../${skill.package_root}/${relativePath}`;
+        return encodeURI(`../${skill.package_root}/${relativePath}`).replace(/#/g, "%23");
       }
 
       async function downloadZip(skill) {
@@ -422,7 +422,8 @@
         );
         if (!skill) throw new Error(`未找到 skill: ${skillName}`);
 
-        const detail = await fetchJson(`../${skill.package_root}/skill.json`);
+        const detailUrl = buildDocLink(skill, "skill.json");
+        const detail = await fetchJson(detailUrl);
         return { ...skill, detail };
       }
 

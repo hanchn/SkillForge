@@ -191,10 +191,40 @@
         position: absolute;
         top: 16px;
         left: 16px;
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
+        border-radius: 4px;
+        border: 1px solid var(--border);
+        background: #fff;
         cursor: pointer;
         z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+      }
+
+      .card-checkbox:hover {
+        border-color: var(--text-secondary);
+      }
+
+      .card-checkbox.checked {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+
+      .card-checkbox svg {
+        width: 12px;
+        height: 12px;
+        stroke: #fff;
+        stroke-width: 3;
+        fill: none;
+        opacity: 0;
+        transition: opacity 0.2s;
+      }
+
+      .card-checkbox.checked svg {
+        opacity: 1;
       }
 
       .card:hover {
@@ -712,14 +742,24 @@
         return response.text();
       }
 
+      function getDocUrl(path) {
+        return encodeURI(path).replace(/#/g, "%23");
+      }
+
       async function loadData() {
         const skillsRegistry = await fetchJson("../registry/skills-index.json");
         state.skills = await Promise.all(
           skillsRegistry.skills
             .filter((item) => item.dashboard_visible !== false)
             .map(async (item) => {
-            const detail = await fetchJson(`../${item.package_root}/skill.json`);
-            return { ...item, detail };
+            try {
+              const detailUrl = getDocUrl(`../${item.package_root}/skill.json`);
+              const detail = await fetchJson(detailUrl);
+              return { ...item, detail };
+            } catch (err) {
+              console.error("Failed to load skill detail:", item.package_root, err);
+              return { ...item, detail: {} };
+            }
           })
         );
 
@@ -885,11 +925,14 @@
             const detailUrl = `./detail.html?skill=${encodeURIComponent(skill.name)}`;
             const pathStr = (skill.category_path || []).join(" / ") || "未分类";
 
-            const isChecked = state.selectedSkills.has(skill.name) ? "checked" : "";
+            const isChecked = state.selectedSkills.has(skill.name);
+            const checkedClass = isChecked ? "checked" : "";
             
             return `
               <div class="card" onclick="window.location.href='${detailUrl}'">
-                <input type="checkbox" class="card-checkbox" data-name="${skill.name}" ${isChecked} onclick="event.stopPropagation()" />
+                <div class="card-checkbox ${checkedClass}" data-name="${skill.name}" onclick="event.stopPropagation()">
+                  <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
                 <div class="card-header">
                   <h2 class="card-title">${skill.display_name || skill.name}</h2>
                 </div>
@@ -910,12 +953,16 @@
 
         // Bind checkbox events
         elements.cards.querySelectorAll('.card-checkbox').forEach(cb => {
-          cb.addEventListener('change', (e) => {
-            const name = e.target.dataset.name;
-            if (e.target.checked) {
-              state.selectedSkills.add(name);
-            } else {
+          cb.addEventListener('click', (e) => {
+            const name = e.currentTarget.dataset.name;
+            const isCurrentlyChecked = state.selectedSkills.has(name);
+            
+            if (isCurrentlyChecked) {
               state.selectedSkills.delete(name);
+              e.currentTarget.classList.remove('checked');
+            } else {
+              state.selectedSkills.add(name);
+              e.currentTarget.classList.add('checked');
             }
             updateBatchBar();
           });
@@ -973,7 +1020,8 @@
             await Promise.all(
               packageFiles.map(async (relativePath) => {
                 try {
-                  const response = await fetch(`../${skill.package_root}/${relativePath}`);
+                  const fileUrl = getDocUrl(`../${skill.package_root}/${relativePath}`);
+                  const response = await fetch(fileUrl);
                   if (response.ok) {
                     const content = await response.blob();
                     skillFolder.file(relativePath, content);
@@ -1031,7 +1079,8 @@
           await Promise.all(
             packageFiles.map(async (relativePath) => {
               try {
-                const response = await fetch(`../${skill.package_root}/${relativePath}`);
+                const fileUrl = getDocUrl(`../${skill.package_root}/${relativePath}`);
+                const response = await fetch(fileUrl);
                 if (response.ok) {
                   const content = await response.blob();
                   zip.file(`${skill.name}/${relativePath}`, content);
