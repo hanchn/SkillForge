@@ -15,7 +15,7 @@
 - 精准营销地图：精准营销/PRECISION_MARKETING_SKILLS_MAP.md
 - 业务数据分析地图：数据看板/BUSINESS_ANALYTICS_SKILLS_MAP.md
 - 跨境法律地图：法律政务/LEGAL_SKILLS_MAP.md
-- 跨境财务地图：财务/FINANCE_SKILLS_MAP.md
+- 跨境财务地图：财务出纳/FINANCE_SKILLS_MAP.md
 - 企业系统产品架构：互联网研发/产品/系统产品架构/SYSTEM_PRODUCT_ARCHITECTURE_MAP.md
 
 ## Search Strategy
@@ -519,34 +519,34 @@
 ### 财务
 
 - **财务关账与对账经理**（`financial-close-reconciliation-manager`）
-  - 路径：`财务/核算关账/financial-close-reconciliation-manager/`
-  - 分类：财务 / 核算关账
+  - 路径：`财务出纳/核算关账/financial-close-reconciliation-manager/`
+  - 分类：财务出纳 / 核算关账
   - 用途：建立从平台、支付、订单、库存、银行到总账的可复核关账和对账流程。适用于月结关账、平台支付与银行对账、差异和审计证据治理，交付关账日历和责任矩阵、对账差异桥、调整、审批和证据包。
 - **跨境税务与 VAT 规划师**（`cross-border-tax-vat-planner`）
-  - 路径：`财务/税务合规/cross-border-tax-vat-planner/`
-  - 分类：财务 / 税务合规
+  - 路径：`财务出纳/税务合规/cross-border-tax-vat-planner/`
+  - 分类：财务出纳 / 税务合规
   - 用途：按主体、交易流、货物流和销售国识别 VAT、销售税、关税、所得税和申报证据要求。适用于进入新市场税务评估、VAT/IOSS/销售税流程、税务申报和审计证据准备，交付交易与税务责任图、注册申报和证据日历、风险、整改和专业顾问升级清单。
 - **经营财务与利润经理**（`management-accounting-profitability-manager`）
-  - 路径：`财务/经营财务/management-accounting-profitability-manager/`
-  - 分类：财务 / 经营财务
+  - 路径：`财务出纳/经营财务/management-accounting-profitability-manager/`
+  - 分类：财务出纳 / 经营财务
   - 用途：连接财务账、商品渠道经营和单位经济，支持定价、预算、资源和退出决策。适用于渠道和 SKU 盈利核算、经营复盘、定价、促销和资源决策，交付管理利润口径、商品渠道盈利矩阵、差异、情景和经营建议。
 - **跨境财务高级经理**（`senior-cross-border-finance-manager`）
-  - 路径：`财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager/`
-  - 分类：财务 / 财务角色 / 跨境财务高级经理
+  - 路径：`财务出纳/财务角色/跨境财务高级经理/senior-cross-border-finance-manager/`
+  - 分类：财务出纳 / 财务角色 / 跨境财务高级经理
   - 用途：统筹核算关账、管理报表、预算、现金、营运资金、税务、外汇和内部控制。适用于跨境财务体系建设、月度经营和资金决策、财务专项协同与风险治理，交付财务目标与责任矩阵、专项财务 Skill 编排、关账、现金、预算和风险计划。
 - **跨境财务高级经理周报**（`senior-cross-border-finance-manager-weekly-report`）
-  - 路径：`财务/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report/`
-  - 分类：财务 / 财务角色 / 跨境财务高级经理
+  - 路径：`财务出纳/财务角色/跨境财务高级经理/senior-cross-border-finance-manager-weekly-report/`
+  - 分类：财务出纳 / 财务角色 / 跨境财务高级经理
   - 用途：基于账务、现金、预算和税务证据生成财务周报。适用于财务周度复盘、现金和营运资金预警、关账、税务和预算事项跟踪，交付财务周报、现金、利润和风险摘要、决策、责任人与下周行动。
 - **现金流与营运资金经理**（`cash-flow-working-capital-manager`）
-  - 路径：`财务/资金管理/cash-flow-working-capital-manager/`
-  - 分类：财务 / 资金管理
+  - 路径：`财务出纳/资金管理/cash-flow-working-capital-manager/`
+  - 分类：财务出纳 / 资金管理
   - 用途：管理现金预测、应收应付、库存资金占用、付款优先级和流动性风险。适用于十三周现金预测、营运资金改善、资金缺口和付款安排，交付现金流预测、现金转换周期分析、付款、融资和预警计划。
 - **多币种资金与汇率经理**（`multi-currency-treasury-manager`）
-  - 路径：`财务/资金管理/multi-currency-treasury-manager/`
-  - 分类：财务 / 资金管理
+  - 路径：`财务出纳/资金管理/multi-currency-treasury-manager/`
+  - 分类：财务出纳 / 资金管理
   - 用途：管理多币种账户、平台结算、汇率暴露、换汇、流动性和资金权限。适用于多币种现金管理、平台结算和换汇优化、汇率风险和资金安全治理，交付币种资金头寸、汇率暴露与情景、换汇、归集、权限和预警方案。
 - **预算与预测控制经理**（`budget-forecast-controller`）
-  - 路径：`财务/预算管理/budget-forecast-controller/`
-  - 分类：财务 / 预算管理
+  - 路径：`财务出纳/预算管理/budget-forecast-controller/`
+  - 分类：财务出纳 / 预算管理
   - 用途：把战略目标转化为驱动型预算、滚动预测、差异分析和资源控制。适用于年度预算、月度滚动预测、预算差异和资源重配，交付预算模型与假设、滚动预测和差异桥、资源、预警和决策规则。
